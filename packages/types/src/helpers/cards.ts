@@ -1,4 +1,11 @@
-import { Card, Type, Keyword, Subtype, Trait } from "../interfaces.js";
+import {
+  Card,
+  CardRole,
+  Keyword,
+  Subtype,
+  Trait,
+  Type,
+} from "../interfaces.js";
 
 export const getCardIdentifier = (
   card: {
@@ -104,101 +111,120 @@ export const getFrontAndBackCardIdentifier = (
   return `${cardFrontIdentifier}${joiner}${cardBackIdentifier}`;
 };
 
-export const getIsArenaCard = ({
-  keywords,
-  traits,
-  types,
-}: {
+interface CardShape {
+  cardIdentifier?: string;
   keywords?: Keyword[];
   traits?: Trait[];
   types: Type[];
-}) => {
-  const isDeckCard = getIsDeckCard({ keywords, traits, types });
-  const isToken = getIsCardTokenForDeck({
-    keywords,
-    traits,
-    types,
-  });
-  const isInventoryCardType = [
-    Type.Companion,
-    Type.DemiHero,
-    Type.Equipment,
-    Type.Weapon,
-  ].some((type) => types.includes(type));
+}
 
-  return !isDeckCard && !isToken && isInventoryCardType;
-};
+// Cards another card puts into play while carrying none of the markers: the
+// Cracked Bauble is a token printed as an ordinary card, and the Goldfin
+// Harpoon is Marlynn's arena weapon.
+const CREATED_CARD_IDENTIFIERS = ["cracked-bauble-yellow", "goldfin-harpoon"];
 
-export const getIsDeckCard = ({
-  keywords,
-  traits,
-  types,
-}: {
-  keywords?: Keyword[];
-  traits?: Trait[];
-  types: Type[];
-}) => {
-  const isDeckCardType = [
-    Type.Action,
-    Type.AttackReaction,
-    Type.Block,
-    Type.DefenseReaction,
-    Type.Instant,
-    Type.Mentor,
-    Type.Resource,
-  ].some((type) => types.includes(type));
-  const isToken = getIsCardTokenForDeck({
-    keywords,
-    traits,
-    types,
-  });
+const ARENA_CARD_TYPES = [
+  Type.Companion,
+  Type.DemiHero,
+  Type.Equipment,
+  Type.Weapon,
+];
 
-  return isDeckCardType && !isToken;
-};
+const DECK_CARD_TYPES = [
+  Type.Action,
+  Type.AttackReaction,
+  Type.Block,
+  Type.DefenseReaction,
+  Type.Instant,
+  Type.Mentor,
+  Type.Resource,
+];
 
-export const getIsCardTokenForDeck = ({
-  keywords,
-  traits,
-  types,
-}: {
-  keywords?: Keyword[];
-  traits?: Trait[];
-  types: Type[];
-}) => {
-  const isAgentOfChaos = !!traits && traits?.includes(Trait.AgentOfChaos);
-  const isEphemeral = !!keywords && keywords.includes(Keyword.Ephemeral);
-  const isHeroMacroOrToken = [Type.Macro, Type.Token].some((type) =>
+/**
+ * A card that comes into play during a game rather than being run in the deck
+ * list: tokens, ephemeral cards, macros, and Arakni's demi-heroes.
+ */
+export const getIsExtra = ({ keywords, traits, types }: CardShape) => {
+  // The trait, not the Demi-Hero type, is what marks Arakni's demi-heroes: an
+  // ordinary demi-hero (Levia, Shadowborn Abomination) is an inventory card.
+  const isAgentOfChaos = (traits || []).includes(Trait.AgentOfChaos);
+  const isEphemeral = (keywords || []).includes(Keyword.Ephemeral);
+  const isIncarnate = (keywords || []).includes(Keyword.Incarnate);
+  const isMacroOrToken = [Type.Macro, Type.Token].some((type) =>
     types.includes(type),
   );
-  const isIncarnate = !!keywords && keywords.includes(Keyword.Incarnate);
 
-  return isAgentOfChaos || isEphemeral || isHeroMacroOrToken || isIncarnate;
+  return isAgentOfChaos || isEphemeral || isIncarnate || isMacroOrToken;
 };
 
-const TOKEN_CARD_OVERRIDES = ["cracked-bauble-yellow", "goldfin-harpoon"];
+/**
+ * Whether another card can put this one into play, which is what a deck has to
+ * bring. Every extra but a macro, since the format sets those up. Wider than
+ * what the card *is*: the Cracked Bauble and the Goldfin Harpoon are ordinary
+ * deck cards by type, so the zone questions below keep counting them as deck
+ * cards while creation counts them as extras.
+ */
+export const getCanBeCreated = (
+  card: { cardIdentifier: string } & CardShape,
+) => {
+  const isMacro = card.types.includes(Type.Macro);
 
-export const getCanCardBeTokenForDeck = (card: Card) => {
-  const isTokenOverride = TOKEN_CARD_OVERRIDES.includes(card.cardIdentifier);
-
-  const isToken = getIsCardTokenForDeck(card);
-
-  const cardBackCanBeOutsideDeck =
-    card.isCardBack && card.cardIdentifier !== "inner-chi-blue";
-
-  return isTokenOverride || isToken || cardBackCanBeOutsideDeck;
+  return (
+    (getIsExtra(card) && !isMacro) ||
+    CREATED_CARD_IDENTIFIERS.includes(card.cardIdentifier)
+  );
 };
 
-export const getCanAddToDeck = ({
-  isCardBack,
-  keywords,
-  traits,
-  types,
-}: Card) => {
-  const isArenaCard = getIsArenaCard({ keywords, traits, types });
-  const isDeckCard = getIsDeckCard({ keywords, traits, types });
-  const isCardFront = !isCardBack;
+export const getIsArenaCard = (card: CardShape) => {
+  const isArenaCardType = ARENA_CARD_TYPES.some((type) =>
+    card.types.includes(type),
+  );
 
-  return isCardFront && (isArenaCard || isDeckCard);
+  return isArenaCardType && !getIsDeckCard(card) && !getIsExtra(card);
+};
+
+export const getIsDeckCard = (card: CardShape) => {
+  const isDeckCardType = DECK_CARD_TYPES.some((type) =>
+    card.types.includes(type),
+  );
+
+  return isDeckCardType && !getIsExtra(card);
+};
+
+export const getCanBeExtra = (card: Card) => {
+  // A card back is the reverse of a card its owner already has, so it reaches
+  // the arena without ever being brought.
+  const canCardBackBeOutsideDeck =
+    !!card.isCardBack && card.cardIdentifier !== "inner-chi-blue";
+
+  return getIsExtra(card) || getCanBeCreated(card) || canCardBackBeOutsideDeck;
+};
+
+export const getCanAddToDeck = (card: Card) => {
+  const isCardFront = !card.isCardBack;
+
+  return isCardFront && (getIsArenaCard(card) || getIsDeckCard(card));
+};
+
+/**
+ * What the card is for, as one answer rather than a predicate per question.
+ * A card has exactly one role: Graphene Chelicera is a Token Weapon and counts
+ * as an extra, because the role decides what a deck brings.
+ */
+export const getCardRole = (card: Card): CardRole => {
+  let role = CardRole.Deck;
+
+  if (getIsExtra(card)) {
+    role = CardRole.Extra;
+  } else if (card.types.includes(Type.Hero)) {
+    role = CardRole.Hero;
+  } else if (card.isCardBack) {
+    role = CardRole.CardBack;
+  } else if (getIsArenaCard(card)) {
+    role = CardRole.Inventory;
+  }
+
+  return role;
 };
 
 export const getShouldRotateCardImage = (card: {

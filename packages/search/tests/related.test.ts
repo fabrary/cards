@@ -1,77 +1,104 @@
 import { describe, expect, it } from "@jest/globals";
-import {
-  Card,
-  getCanCardBeTokenForDeck,
-  Hero,
-  Trait,
-} from "@flesh-and-blood/types";
+import { Card, getCanBeExtra, Trait } from "@flesh-and-blood/types";
 import { cards } from "@flesh-and-blood/cards";
-import { getRelatedCards, getTokensReferencedByCards } from "../src/related";
+import {
+  getCardsByReferencedCardIdentifier,
+  getOtherPitches,
+  getReferencedCards,
+  getTokensReferencedByCards,
+} from "../src/related";
 import Search from "../src/search";
 
-const ALL_TOKENS = cards.filter(getCanCardBeTokenForDeck);
+const ALL_TOKENS = cards.filter(getCanBeExtra);
 
 describe("Related cards", () => {
-  // Name, otherPitches, referencedBy, references
-  const related = [
-    ["Blizzard", 0, 0, 0],
-    ["Blizzard Bolt", 2, 0, 1],
-    ["Dawnblade", 0, 3, 0],
-    ["Dawnblade, Resplendent", 0, 3, 0],
-    ["Dorinthea, Quicksilver Prodigy", 0, 0, 1],
-    ["Head Jab", 2, 12, 0],
-    ["Marked", 0, 18, 0],
-    ["Muscle Mutt", 0, 0, 0],
-    ["Open the Center", 2, 4, 3],
-    ["Prismatic Shield", 2, 0, 1],
-    ["Runechant", 0, 97, 0],
-    ["Spectral Shield", 0, 53, 0],
-    ["Tales of Adventure", 0, 0, 13],
-    ["Seismic Surge", 0, 19, 0],
+  const cardsByReferencedCardIdentifier =
+    getCardsByReferencedCardIdentifier(cards);
+
+  // Only the pitch siblings carry a count: search owns that matching. The two
+  // reference relations are card data, asserted exactly in the cards package,
+  // so what is worth pinning here is that reading them back agrees with the
+  // fields rather than how many any one card has.
+  const otherPitchCounts = [
+    ["Blizzard", 0],
+    ["Blizzard Bolt", 2],
+    ["Dawnblade", 0],
+    ["Head Jab", 2],
+    ["Open the Center", 2],
+    ["Prismatic Shield", 2],
+    ["Runechant", 0],
   ];
 
-  it.each(related)(
-    "Gets related cards for %s: %i other pitches, %i referenced by, %i references",
-    (cardName, otherPitchesCount, referencedByCount, referencesCount) => {
+  it.each(otherPitchCounts)(
+    "Gets %i other pitches for %s",
+    (cardName, otherPitchCount) => {
       const card = cards.find(({ name }) => name === cardName) as Card;
-      const { otherPitches, referencedBy, references } = getRelatedCards(
-        card,
-        cards,
-      );
 
-      if ((referencedByCount as number) < referencedBy.length) {
-        // console.log(referencedBy.map(toCardIdentifier));
-      }
-
-      if ((referencesCount as number) < references.length) {
-        // console.log(references.map(toCardIdentifier));
-      }
-
-      expect(otherPitches.length).toEqual(otherPitchesCount);
-      expect(referencedBy.length).toBeGreaterThanOrEqual(
-        referencedByCount as number,
-      );
-      expect(references.length).toBeGreaterThanOrEqual(
-        referencesCount as number,
-      );
+      expect(getOtherPitches(card, cards).length).toEqual(otherPitchCount);
     },
   );
 
-  it.each(related)(
-    "Gets other pitches without the reference scan for %s",
-    (cardName, otherPitchesCount) => {
-      const card = cards.find(({ name }) => name === cardName) as Card;
-      const { otherPitches, referencedBy, references } = getRelatedCards(
-        card,
-        cards,
-        { shouldSkipReferences: true },
-      );
+  it("Reads back every card named by referencedCards", () => {
+    const mismatched: string[] = [];
 
-      expect(otherPitches.length).toEqual(otherPitchesCount);
-      expect(referencedBy).toEqual([]);
-      expect(references).toEqual([]);
-    },
-  );
+    for (const card of cards) {
+      const referencedCardIdentifiers = getReferencedCards(card, cards)
+        .map(({ cardIdentifier }) => cardIdentifier)
+        .sort();
+      const expectedCardIdentifiers = [...(card.referencedCards || [])].sort();
+
+      const matchesField =
+        referencedCardIdentifiers.join() === expectedCardIdentifiers.join();
+      if (!matchesField) {
+        mismatched.push(card.cardIdentifier);
+      }
+    }
+
+    expect(mismatched).toEqual([]);
+  });
+
+  it("Indexes every reference in the other direction", () => {
+    const missing: string[] = [];
+
+    for (const card of cards) {
+      for (const referencedCardIdentifier of card.referencedCards || []) {
+        const referencedBy =
+          cardsByReferencedCardIdentifier.get(referencedCardIdentifier) || [];
+        const isIndexed = referencedBy.some(
+          ({ cardIdentifier }) => cardIdentifier === card.cardIdentifier,
+        );
+
+        if (!isIndexed) {
+          missing.push(`${card.cardIdentifier} -> ${referencedCardIdentifier}`);
+        }
+      }
+    }
+
+    expect(missing).toEqual([]);
+  });
+
+  it("Indexes nothing the fields do not name", () => {
+    const unexpected: string[] = [];
+
+    for (const [
+      referencedCardIdentifier,
+      referencedBy,
+    ] of cardsByReferencedCardIdentifier) {
+      for (const card of referencedBy) {
+        const namesIt = (card.referencedCards || []).includes(
+          referencedCardIdentifier,
+        );
+
+        if (!namesIt) {
+          unexpected.push(
+            `${card.cardIdentifier} -> ${referencedCardIdentifier}`,
+          );
+        }
+      }
+    }
+
+    expect(unexpected).toEqual([]);
+  });
 
   const tokens: string[][][] = [
     [["Swing Big", "Civic Steps"], ["Quicken"]],
@@ -107,7 +134,7 @@ describe("Related cards", () => {
     [["Shitty Xmas Present"], ["Cracked Bauble"]],
     [["Pulverize"], ["Seismic Surge"]],
     [["Star Struck"], ["Seismic Surge"]],
-    // [["Golden Skywarden"], ["Golden Cog", "Gold"]],
+    [["Golden Skywarden"], ["Gold"]],
     [["Cosmic Duality"], ["Lightning Flow"]],
     [["Static Shock"], []],
     [["Shimmer of the Blade"], ["Blade Dance"]],
@@ -145,7 +172,7 @@ describe("Related cards", () => {
     const cardSearch = new Search(cards);
 
     const { searchResults } = cardSearch.search(`l:shiyana`);
-    const tokens = searchResults.filter(getCanCardBeTokenForDeck);
+    const tokens = searchResults.filter(getCanBeExtra);
 
     const referencingCards = searchResults.filter(
       ({ specializations }) => !!specializations && specializations.length > 0,
@@ -179,7 +206,7 @@ describe("Related cards", () => {
     const cardSearch = new Search(cards);
 
     const { searchResults } = cardSearch.search(`l:yorick`);
-    const tokens = searchResults.filter(getCanCardBeTokenForDeck);
+    const tokens = searchResults.filter(getCanBeExtra);
 
     const referencedTokens = getTokensReferencedByCards(searchResults, tokens);
 
@@ -190,28 +217,26 @@ describe("Related cards", () => {
     }
   });
 
-  const heroSpecificTokens: string[][][] = [
-    [["Maxx Nitro"], [Hero.Maxx], ["Hyper Driver"]],
-    [["Jump Start"], [Hero.Maxx], ["Hyper Driver"]],
-    [["Jump Start"], [Hero.Dash], []],
-    [["Jump Start"], [], []],
+  // A hero brings what its own card creates, so the hero card has to be among
+  // the cards: naming Maxx is what makes a Hyper Driver hers, and Jump Start
+  // only interacts with one.
+  const heroCardTokens: string[][][] = [
+    [["Maxx Nitro"], ["Hyper Driver"]],
+    [["Maxx Nitro", "Jump Start"], ["Hyper Driver"]],
+    [["Dash", "Jump Start"], []],
+    [["Jump Start"], []],
   ];
 
-  it.each(heroSpecificTokens)(
-    "Gets referenced tokens when there are hero limits",
-    (referencingCardNames, heroes, expectedTokens) => {
-      const referencingCards = cards.filter(
-        ({ hero, name }) =>
-          (referencingCardNames as unknown as string[]).includes(name) ||
-          (!!hero && heroes.includes(hero)),
+  it.each(heroCardTokens)(
+    "Gets %s tokens from the cards themselves",
+    (referencingCardNames, expectedTokens) => {
+      const referencingCards = cards.filter(({ name }) =>
+        (referencingCardNames as unknown as string[]).includes(name),
       );
-
-      const hero = heroes.length > 0 ? (heroes[0] as Hero) : undefined;
 
       const referencedTokens = getTokensReferencedByCards(
         referencingCards,
         ALL_TOKENS,
-        hero,
       );
 
       expect(referencedTokens.map(({ name }) => name).sort()).toEqual(
@@ -254,10 +279,20 @@ describe("Related cards", () => {
     );
     const { searchResults: legalCards } =
       cardSearch.search(`l:crackni c:assassin`);
+    const legalCardsByReferencedCardIdentifier =
+      getCardsByReferencedCardIdentifier(legalCards);
 
+    // Naming the group names every card in it.
     for (const agent of agentsOfChaos) {
-      const { referencedBy } = getRelatedCards(agent, legalCards);
-      expect(referencedBy.length).toEqual(referencesAgentOfChaos.length);
+      const referencedBy =
+        legalCardsByReferencedCardIdentifier.get(agent.cardIdentifier) || [];
+      const referencedByIdentifiers = referencedBy.map(
+        ({ cardIdentifier }) => cardIdentifier,
+      );
+
+      for (const { cardIdentifier } of referencesAgentOfChaos) {
+        expect(referencedByIdentifiers).toContain(cardIdentifier);
+      }
     }
   });
 });

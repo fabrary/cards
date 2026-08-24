@@ -5,7 +5,7 @@ import {
   getCardIdentifier,
   getSpecialPrinting,
   getDefaultPrinting,
-  getIsCardTokenForDeck,
+  getIsExtra,
   getCardFromGEMCardIdentifier,
   getBoomerPrinting,
   getMaxRarityPrinting,
@@ -162,7 +162,7 @@ describe("Card types", () => {
   it.each(types)("%s is an arena or deck card", (type) => {
     const isArenaCard = getIsArenaCard({ types: [type] });
     const isDeckCard = getIsDeckCard({ types: [type] });
-    const isToken = getIsCardTokenForDeck({ types: [type] });
+    const isExtra = getIsExtra({ types: [type] });
 
     let numberOfMatches = 0;
     if (isArenaCard) {
@@ -171,13 +171,13 @@ describe("Card types", () => {
     if (isDeckCard) {
       numberOfMatches++;
     }
-    if (isToken) {
+    if (isExtra) {
       numberOfMatches++;
     }
 
-    const isArenaOrDeckOrTokenCard = isArenaCard || isDeckCard || isToken;
+    const isArenaOrDeckOrExtraCard = isArenaCard || isDeckCard || isExtra;
 
-    expect(isArenaOrDeckOrTokenCard).toEqual(true);
+    expect(isArenaOrDeckOrExtraCard).toEqual(true);
     expect(numberOfMatches).toEqual(1);
   });
 

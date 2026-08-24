@@ -22,6 +22,7 @@ export interface Card {
   bannedFormats?: Format[];
   bonds?: Bond[];
   cost?: number;
+  createdExtras?: string[];
   defense?: number;
   flows?: Flow[];
   functionalText?: string;
@@ -39,6 +40,7 @@ export interface Card {
   oppositeSideCardIdentifiers?: string[];
   pitch?: number;
   power?: number;
+  referencedCards?: string[];
   restrictedFormats?: Format[];
   shorthands?: Shorthand[];
   shortName?: string;
@@ -341,6 +343,15 @@ export enum Metatype {
   HighSeas = "High Seas",
   Puffin = "Puffin",
   Rosetta = "Rosetta",
+}
+
+/** What a card is for: exactly one answer per card. */
+export enum CardRole {
+  CardBack = "Card back",
+  Deck = "Deck",
+  Extra = "Extra",
+  Hero = "Hero",
+  Inventory = "Inventory",
 }
 
 export enum Type {

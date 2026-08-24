@@ -2118,7 +2118,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
 
     
     
-    
+    createdExtras: ["spectral-shield"],
     
     
     functionalText: `**Once per Turn Action** - {r}{r}: **Attack**
@@ -2137,7 +2137,7 @@ When Aegis attacks, you may banish a card from your hero's soul. If you do, crea
   
     oppositeSideCardIdentifier: `figment-of-protection-yellow`,oppositeSideCardIdentifiers: ["figment-of-protection-yellow"],
     
-    power: 4,
+    power: 4,referencedCards: ["spectral-shield"],
     
     
     
@@ -2201,7 +2201,7 @@ When Aegis attacks, you may banish a card from your hero's soul. If you do, crea
 
     arcane: 1,
     
-    cost: 0,
+    cost: 0,createdExtras: ["ponder"],
     defense: 3,
     
     functionalText: `Deal 1 arcane damage to each opposing hero.
@@ -2218,7 +2218,7 @@ Create a Ponder token for each hero dealt damage this way.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["ponder"],
     
     
     
@@ -2238,7 +2238,7 @@ Create a Ponder token for each hero dealt damage this way.`,
     defaultImage: "UPR042",
     firstReleaseDate: "2022-06-24",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Dromai,Hero.Shiyana,Hero.Yorick],
+    legalHeroes: [Hero.Dromai,Hero.Shiyana,Hero.Taylor,Hero.Yorick],
     name: "Aether Ashwing",
     printings: [{
         artists: ["Athiwut B."],
@@ -5577,7 +5577,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["fealty"],
     defense: 2,
     
     functionalText: `Target dagger attack gets +2{p}. If you control 2 or more Draconic chain links, create a Fealty token.`,
@@ -5592,7 +5592,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
   
     
     pitch: 1,
-    
+    referencedCards: ["fealty"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -5656,7 +5656,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
 
     
     
-    cost: 4,
+    cost: 4,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `When this attacks, if you've controlled a Seismic Surge token this turn, create a Seismic Surge token.`,
@@ -5671,7 +5671,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
   
     
     pitch: 1,
-    power: 8,
+    power: 8,referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -5735,7 +5735,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
 
     
     
-    cost: 4,
+    cost: 4,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `When this attacks, if you've controlled a Seismic Surge token this turn, create a Seismic Surge token.`,
@@ -5750,7 +5750,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
   
     
     pitch: 2,
-    power: 7,
+    power: 7,referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -5814,7 +5814,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
 
     
     
-    cost: 4,
+    cost: 4,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `When this attacks, if you've controlled a Seismic Surge token this turn, create a Seismic Surge token.`,
@@ -5829,7 +5829,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
   
     
     pitch: 3,
-    power: 6,
+    power: 6,referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -6205,7 +6205,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["agility"],
     defense: 2,
     
     functionalText: `Target Warrior attack gets +3{p}. If it's defended by an attack action card, create an Agility token.`,
@@ -6220,7 +6220,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
   
     
     pitch: 1,
-    
+    referencedCards: ["agility"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -6284,7 +6284,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["agility"],
     defense: 2,
     
     functionalText: `Target Warrior attack gets +2{p}. If it's defended by an attack action card, create an Agility token.`,
@@ -6299,7 +6299,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
   
     
     pitch: 2,
-    
+    referencedCards: ["agility"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -6393,7 +6393,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["agility"],
     defense: 2,
     
     functionalText: `Target Warrior attack gets +1{p}. If it's defended by an attack action card, create an Agility token.`,
@@ -6408,7 +6408,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
   
     
     pitch: 3,
-    
+    referencedCards: ["agility"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -6502,7 +6502,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["agility"],
     defense: 2,
     
     functionalText: `**Instant** - Discard this: Create an Agility token.`,
@@ -6517,7 +6517,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["agility"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -6611,7 +6611,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["agility"],
     defense: 2,
     
     functionalText: `**Instant** - Discard this: Create an Agility token.`,
@@ -6626,7 +6626,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["agility"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -6735,7 +6735,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["agility"],
     defense: 2,
     
     functionalText: `**Instant** - Discard this: Create an Agility token.`,
@@ -6750,7 +6750,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["agility"],
     
     
     
@@ -7150,7 +7150,7 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
   
     
     pitch: 1,
-    
+    referencedCards: ["gold"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -7214,7 +7214,7 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["eloquence"],
     defense: 2,
     
     functionalText: `**Shiyana Specialization**
@@ -7233,7 +7233,7 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["eloquence"],
     
     
     
@@ -7395,7 +7395,7 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["might"],
     defense: 0,
     
     functionalText: `**Rhinar Specialization**
@@ -7412,7 +7412,7 @@ When this is discarded to beat chest, create a Might token.`,
   
     
     pitch: 3,
-    power: 6,
+    power: 6,referencedCards: ["might"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -7619,7 +7619,7 @@ When this attacks, **intimidate**.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' non-action cards. Whenever you complete this contract, create a Silver token.
@@ -7636,7 +7636,7 @@ When this hits a hero, banish the top card of their deck and a defending card.`,
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["silver"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -7813,7 +7813,7 @@ When this hits a hero, banish the top card of their deck and a defending card.`,
   
     
     
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -8076,7 +8076,7 @@ When this hits a hero, banish the top card of their deck and a defending card.`,
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -8200,7 +8200,7 @@ When this hits a hero, banish the top card of their deck and a defending card.`,
   
     
     pitch: 2,
-    power: 5,
+    power: 5,referencedCards: ["runechant"],
     
     
     
@@ -8339,7 +8339,7 @@ When this hits a hero, banish the top card of their deck and a defending card.`,
   
     
     pitch: 3,
-    power: 4,
+    power: 4,referencedCards: ["runechant"],
     
     
     
@@ -8802,7 +8802,7 @@ When this hits a hero, banish the top card of their deck and a defending card.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["rally-the-rearguard-blue","rally-the-rearguard-red","rally-the-rearguard-yellow"],
     
     
     
@@ -9703,7 +9703,7 @@ Banish the top card of your deck. If it has **combo**, you may play it this turn
 
     
     bonds: [Bond.Earth],
-    cost: 3,
+    cost: 3,createdExtras: ["frostbite"],
     defense: 3,
     
     functionalText: `When this hits a hero, create a Frostbite token under their control.
@@ -9720,7 +9720,7 @@ Banish the top card of your deck. If it has **combo**, you may play it this turn
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["frostbite"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -10818,7 +10818,7 @@ Your next angel attack this turn gets +1{p}.`,
 
     
     
-    
+    createdExtras: ["runechant"],
     
     
     functionalText: `**Once per Turn Action** - {r}{r}{r}: Draw a card. If an attack action card and a non-attack action card were pitched this way, create a Runechant token.`,
@@ -10833,7 +10833,7 @@ Your next angel attack this turn gets +1{p}.`,
   
     
     
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -11149,7 +11149,7 @@ Your next angel attack this turn gets +1{p}.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' attack action cards. Whenever you complete this contract, create a Silver token.
@@ -11166,7 +11166,7 @@ When this hits a hero, banish the top card of their deck.`,
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["silver"],
     
     
     
@@ -11230,7 +11230,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' attack action cards. Whenever you complete this contract, create a Silver token.
@@ -11247,7 +11247,7 @@ When this hits a hero, banish the top card of their deck.`,
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["silver"],
     
     
     
@@ -11326,7 +11326,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' attack action cards. Whenever you complete this contract, create a Silver token.
@@ -11343,7 +11343,7 @@ When this hits a hero, banish the top card of their deck.`,
   
     
     pitch: 3,
-    power: 3,
+    power: 3,referencedCards: ["silver"],
     
     
     
@@ -11691,7 +11691,7 @@ If there are 2 or more cards with cost 3 or more in your pitch zone, this gets +
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["embodiment-of-earth"],
     defense: 2,
     
     functionalText: `**Briar Specialization**
@@ -11710,7 +11710,7 @@ The next attack action card you play this turn gets +1{p}. **Go again**
   
     
     pitch: 3,
-    
+    referencedCards: ["embodiment-of-earth"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -11855,7 +11855,7 @@ The next attack action card you play this turn gets +1{p}. **Go again**
 
     
     
-    
+    createdExtras: ["might"],
     defense: 2,
     
     functionalText: `When this defends together with a card with 6 or more {p}, create a Might token.
@@ -11872,7 +11872,7 @@ The next attack action card you play this turn gets +1{p}. **Go again**
   
     
     
-    
+    referencedCards: ["might"],
     
     
     
@@ -12638,7 +12638,7 @@ At the start of your turn, destroy this.`,
     defaultImage: "SAR034",
     firstReleaseDate: "2025-01-31",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Slippy],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Shiyana,Hero.Slippy,Hero.Taylor],
     name: "Arakni, Black Widow",
     printings: [{
         artists: ["soyameii"],
@@ -12776,7 +12776,7 @@ At the beginning of your end phase, **return to the brood**.`,
     defaultImage: "SAR035",
     firstReleaseDate: "2025-01-31",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Slippy],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Shiyana,Hero.Slippy,Hero.Taylor],
     name: "Arakni, Funnel Web",
     printings: [{
         artists: ["Federico Musetti"],
@@ -13136,7 +13136,7 @@ At the beginning of your end phase, **return to the brood**.`,
 
     
     
-    
+    createdExtras: ["arakni-black-widow","arakni-funnel-web","arakni-orb-weaver","arakni-redback","arakni-tarantula","arakni-trap-door"],
     
     
     functionalText: `Your attacks with **stealth** that are attacking a **marked** hero get +1{p} and "When this hits, this gets **go again**."
@@ -13153,7 +13153,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
   
     
     
-    
+    referencedCards: ["arakni-black-widow","arakni-funnel-web","arakni-orb-weaver","arakni-redback","arakni-tarantula","arakni-trap-door"],
     
     
     shortName: "Arakni, Marionette",
@@ -13173,7 +13173,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
     defaultImage: "SAR036",
     firstReleaseDate: "2025-01-31",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Slippy],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Shiyana,Hero.Slippy,Hero.Taylor],
     name: "Arakni, Orb-Weaver",
     printings: [{
         artists: ["Jessada Sutthi"],
@@ -13274,7 +13274,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
 
     
     
-    
+    createdExtras: ["graphene-chelicera"],
     
     
     functionalText: `Graphene Chelicerae cost you {r} less to activate.
@@ -13293,7 +13293,7 @@ At the beginning of your end phase, **return to the brood**.`,
   
     
     
-    
+    referencedCards: ["graphene-chelicera"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -13313,7 +13313,7 @@ At the beginning of your end phase, **return to the brood**.`,
     defaultImage: "SAR037",
     firstReleaseDate: "2025-01-31",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Slippy],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Shiyana,Hero.Slippy,Hero.Taylor],
     name: "Arakni, Redback",
     printings: [{
         artists: ["Nathaniel Himawan"],
@@ -13590,7 +13590,7 @@ At the beginning of your end phase, **return to the brood**.`,
     defaultImage: "SAR038",
     firstReleaseDate: "2025-01-31",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Slippy],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Shiyana,Hero.Slippy,Hero.Taylor],
     name: "Arakni, Tarantula",
     printings: [{
         artists: ["Max Kostin"],
@@ -13730,7 +13730,7 @@ At the beginning of your end phase, **return to the brood**.`,
     defaultImage: "SAR039",
     firstReleaseDate: "2025-01-31",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Slippy],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Shiyana,Hero.Slippy,Hero.Taylor],
     name: "Arakni, Trap-Door",
     printings: [{
         artists: ["Jessada Sutthi"],
@@ -13957,7 +13957,7 @@ At the beginning of your end phase, **return to the brood**.`,
 
     
     
-    
+    createdExtras: ["arakni-black-widow","arakni-funnel-web","arakni-orb-weaver","arakni-redback","arakni-tarantula","arakni-trap-door"],
     
     
     functionalText: `Your attacks with **stealth** that are attacking a **marked** hero get +1{p} and "When this hits, this gets **go again**."
@@ -13974,7 +13974,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
   
     
     
-    
+    referencedCards: ["arakni-black-widow","arakni-funnel-web","arakni-orb-weaver","arakni-redback","arakni-tarantula","arakni-trap-door"],
     
     
     shortName: "Arakni, Deceit",
@@ -14394,7 +14394,7 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
   
     
     pitch: 1,
-    
+    referencedCards: ["lightning-flow"],
     
     
     
@@ -14475,7 +14475,7 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
   
     
     pitch: 2,
-    
+    referencedCards: ["lightning-flow"],
     
     
     
@@ -14556,7 +14556,7 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
   
     
     pitch: 3,
-    
+    referencedCards: ["lightning-flow"],
     
     
     
@@ -14714,7 +14714,7 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `**Go again**
@@ -14733,7 +14733,7 @@ When this leaves the arena during your turn, create 3 Runechant tokens.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -14812,7 +14812,7 @@ When this leaves the arena during your turn, create 3 Runechant tokens.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `**Go again**
@@ -14831,7 +14831,7 @@ When this leaves the arena during your turn, create 2 Runechant tokens.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -14910,7 +14910,7 @@ When this leaves the arena during your turn, create 2 Runechant tokens.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `**Go again**
@@ -14929,7 +14929,7 @@ When this leaves the arena during your turn, create a Runechant token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -15450,7 +15450,7 @@ If you've been dealt arcane damage this turn, instead gain 2{h}.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `**Meld**
@@ -15473,7 +15473,7 @@ Gain 1{h}`,
   
     
     pitch: 1,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -17354,7 +17354,7 @@ When this attacks, if it was **fused**, deal 1 arcane damage to target hero.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["spellbane-aegis"],
     defense: 0,
     
     functionalText: `If you have a base arms equipped, **transform** it into this, then equip this.
@@ -17373,7 +17373,7 @@ When this is equipped, create a Spellbane Aegis token.
   
     
     pitch: 3,
-    
+    referencedCards: ["spellbane-aegis"],
     
     
     
@@ -17437,7 +17437,7 @@ When this is equipped, create a Spellbane Aegis token.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["frostbite"],
     defense: 2,
     
     functionalText: `Create 3 Frostbite tokens under target hero's control.`,
@@ -17452,7 +17452,7 @@ When this is equipped, create a Spellbane Aegis token.
   
     
     pitch: 1,
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -17516,7 +17516,7 @@ When this is equipped, create a Spellbane Aegis token.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["frostbite"],
     defense: 2,
     
     functionalText: `Create 2 Frostbite tokens under target hero's control.`,
@@ -17531,7 +17531,7 @@ When this is equipped, create a Spellbane Aegis token.
   
     
     pitch: 2,
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -17595,7 +17595,7 @@ When this is equipped, create a Spellbane Aegis token.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["frostbite"],
     defense: 2,
     
     functionalText: `Create a Frostbite token under target hero's control.`,
@@ -17610,7 +17610,7 @@ When this is equipped, create a Spellbane Aegis token.
   
     
     pitch: 3,
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -17845,7 +17845,7 @@ When this is equipped, create a Spellbane Aegis token.
 
     
     
-    cost: 6,
+    cost: 6,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `**Viserai Specialization**
@@ -17866,7 +17866,7 @@ When this hits, create X Runechant tokens, where X is the damage dealt this way.
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["runechant"],
     
     
     
@@ -17942,7 +17942,7 @@ When this hits, create X Runechant tokens, where X is the damage dealt this way.
 
     
     
-    
+    createdExtras: ["runechant"],
     
     
     functionalText: `**Legendary Viserai Specialization**
@@ -17959,7 +17959,7 @@ When this is pitched, create a Runechant token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -18053,7 +18053,7 @@ When this is pitched, create a Runechant token.`,
 
     
     
-    
+    createdExtras: ["fang-strike"],
     defense: 1,
     
     functionalText: `**Attack Reaction** - {r}, destroy this: Create a Fang Strike in your hand.
@@ -18070,7 +18070,7 @@ When this is pitched, create a Runechant token.`,
   
     
     
-    
+    referencedCards: ["fang-strike"],
     
     
     
@@ -18134,7 +18134,7 @@ When this is pitched, create a Runechant token.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["might"],
     
     
     functionalText: `Create a Might token for each defending card controlled by an opponent on the combat chain.`,
@@ -18149,7 +18149,7 @@ When this is pitched, create a Runechant token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["might"],
     
     
     
@@ -18947,7 +18947,7 @@ Draw 2 cards.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["phoenix-flame-red"],
     
     
     
@@ -19111,7 +19111,7 @@ Draw 2 cards.`,
     defaultImage: "UPR043",
     firstReleaseDate: "2022-06-24",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Dromai,Hero.Shiyana,Hero.Yorick],
+    legalHeroes: [Hero.Dromai],
     name: "Ash",
     printings: [{
         artists: ["Surya Prasteya"],
@@ -19264,7 +19264,7 @@ Draw 2 cards.`,
 
     
     
-    
+    createdExtras: ["vigor"],
     defense: 4,
     
     functionalText: `When this defends, create a Vigor token under the attacking hero's control.`,
@@ -19279,7 +19279,7 @@ Draw 2 cards.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["vigor"],
     
     
     
@@ -19343,7 +19343,7 @@ Draw 2 cards.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["crouching-tiger"],
     defense: 3,
     
     functionalText: `**Combo** - When this attacks, if a red attack action card was the last attack this combat chain, this gets **go again** and create a Crouching Tiger in your banished zone. You may play it this turn.`,
@@ -19358,7 +19358,7 @@ Draw 2 cards.`,
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["crouching-tiger"],
     
     
     
@@ -19437,7 +19437,7 @@ Draw 2 cards.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["crouching-tiger"],
     defense: 3,
     
     functionalText: `**Combo** - When this attacks, if a blue attack action card was the last attack this combat chain, this gets **go again** and create a Crouching Tiger in your banished zone. You may play it this turn.`,
@@ -19452,7 +19452,7 @@ Draw 2 cards.`,
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["crouching-tiger"],
     
     
     
@@ -19516,7 +19516,7 @@ Draw 2 cards.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["crouching-tiger"],
     defense: 3,
     
     functionalText: `**Combo** - When this attacks, if a yellow attack action card was the last attack this combat chain, this gets **go again** and create a Crouching Tiger in your banished zone. You may play it this turn.`,
@@ -19531,7 +19531,7 @@ Draw 2 cards.`,
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["crouching-tiger"],
     
     
     
@@ -19625,7 +19625,7 @@ Draw 2 cards.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["agility"],
     defense: 3,
     
     functionalText: `**Beat Chest**
@@ -19642,7 +19642,7 @@ When this attacks, if you've **beaten chest** this turn, create an Agility token
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["agility"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -19721,7 +19721,7 @@ When this attacks, if you've **beaten chest** this turn, create an Agility token
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["agility"],
     defense: 3,
     
     functionalText: `**Beat Chest**
@@ -19738,7 +19738,7 @@ When this attacks, if you've **beaten chest** this turn, create an Agility token
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["agility"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -19832,7 +19832,7 @@ When this attacks, if you've **beaten chest** this turn, create an Agility token
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["agility"],
     defense: 3,
     
     functionalText: `**Beat Chest**
@@ -19849,7 +19849,7 @@ When this attacks, if you've **beaten chest** this turn, create an Agility token
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["agility"],
     
     
     
@@ -19932,7 +19932,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   
     
     pitch: 3,
-    
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Tap],
     
@@ -20011,7 +20011,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["lightning-flow"],
     
     
     
@@ -20090,7 +20090,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["lightning-flow"],
     
     
     
@@ -20169,7 +20169,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   
     
     pitch: 3,
-    power: 3,
+    power: 3,referencedCards: ["lightning-flow"],
     
     
     
@@ -20346,7 +20346,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
   
     
     pitch: 1,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -20427,7 +20427,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
   
     
     pitch: 2,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -20523,7 +20523,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
   
     
     pitch: 3,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -20620,7 +20620,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["lightning-flow"],
     
     
     
@@ -20684,7 +20684,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["embodiment-of-lightning"],
     defense: 3,
     
     functionalText: `When this attacks, you may discard an instant card. If you do, draw a card and create an Embodiment of Lightning token.`,
@@ -20699,7 +20699,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["embodiment-of-lightning"],
     
     
     
@@ -21256,7 +21256,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
 
     
     
-    
+    createdExtras: ["embodiment-of-lightning"],
     
     
     functionalText: `**Once per Turn Instant** - {r}{r}: Create an Embodiment of Lightning token. Activate this only if you've played a Lightning card this turn.
@@ -21273,7 +21273,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
   
     
     
-    
+    referencedCards: ["embodiment-of-lightning"],
     
     
     
@@ -21352,7 +21352,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
 
     
     
-    
+    createdExtras: ["embodiment-of-lightning"],
     
     
     functionalText: `**Instant** - {r}{r}, {t}, destroy a Lightning Flow you control: Create an Embodiment of Lightning token.`,
@@ -21367,7 +21367,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
   
     
     
-    
+    referencedCards: ["embodiment-of-lightning","lightning-flow"],
     
     shorthands: [Shorthand.Tap],
     
@@ -21446,7 +21446,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
 
     
     
-    
+    createdExtras: ["embodiment-of-lightning"],
     
     
     functionalText: `**Instant** - {r}{r}, {t}, destroy a Lightning Flow you control: Create an Embodiment of Lightning token.`,
@@ -21461,7 +21461,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
   
     
     
-    
+    referencedCards: ["embodiment-of-lightning","lightning-flow"],
     
     shorthands: [Shorthand.Tap],
     
@@ -21582,7 +21582,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
 
     
     
-    
+    createdExtras: ["embodiment-of-lightning"],
     
     
     functionalText: `**Once per Turn Instant** - {r}{r}: Create an Embodiment of Lightning token. Activate this only if you've played a Lightning card this turn.
@@ -21599,7 +21599,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
   
     
     
-    
+    referencedCards: ["embodiment-of-lightning"],
     
     
     
@@ -21697,7 +21697,7 @@ This counts as a Gold.
   
     
     
-    
+    referencedCards: ["gold"],
     
     
     
@@ -22560,7 +22560,7 @@ When Avalon attacks, you may banish a card from your hero's soul. If you do, put
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `Your next Pirate ally attack this turn gets **go again** and "When this hits a hero, create a Gold token."
@@ -22577,7 +22577,7 @@ When Avalon attacks, you may banish a card from your hero's soul. If you do, put
   
     
     pitch: 3,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -23055,7 +23055,7 @@ The next Brute attack action card you play this turn gets +1{p}.
 
     
     bannedFormats: [Format.ClassicConstructed,Format.GoldenAge],
-    cost: 2,
+    cost: 2,createdExtras: ["seismic-surge"],
     
     
     functionalText: `**Earth Fusion**
@@ -23074,7 +23074,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
   
     
     pitch: 3,
-    
+    referencedCards: ["seismic-surge"],
     restrictedFormats: [Format.LivingLegend],
     
     
@@ -24153,7 +24153,7 @@ Attack action cards played from your banished zone get +3{p}.`,
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["twin-twisters-blue","twin-twisters-red","twin-twisters-yellow"],
     
     
     
@@ -24247,7 +24247,7 @@ Attack action cards played from your banished zone get +3{p}.`,
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["twin-twisters-blue","twin-twisters-red","twin-twisters-yellow"],
     
     
     
@@ -24326,7 +24326,7 @@ Attack action cards played from your banished zone get +3{p}.`,
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["twin-twisters-blue","twin-twisters-red","twin-twisters-yellow"],
     
     
     
@@ -25373,7 +25373,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `**Intimidate** target hero.
@@ -25392,7 +25392,7 @@ The next time an attack you control hits this turn, create 3 Might tokens.
   
     
     pitch: 1,
-    
+    referencedCards: ["might"],
     
     
     
@@ -25456,7 +25456,7 @@ The next time an attack you control hits this turn, create 3 Might tokens.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `**Intimidate** target hero.
@@ -25475,7 +25475,7 @@ The next time an attack you control hits this turn, create 2 Might tokens.
   
     
     pitch: 2,
-    
+    referencedCards: ["might"],
     
     
     
@@ -25539,7 +25539,7 @@ The next time an attack you control hits this turn, create 2 Might tokens.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `**Intimidate** target hero.
@@ -25558,7 +25558,7 @@ The next time an attack you control hits this turn, create a Might token.
   
     
     pitch: 3,
-    
+    referencedCards: ["might"],
     
     
     
@@ -25578,7 +25578,7 @@ The next time an attack you control hits this turn, create a Might token.
     defaultImage: "SUP259",
     firstReleaseDate: "2025-09-26",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Azalea,Hero.Lexi,Hero.Marlynn,Hero.Riptide,Hero.Shiyana,Hero.Yorick],
+    legalHeroes: [Hero.Riptide,Hero.Shiyana],
     name: "Bait",
     printings: [{
         artists: ["Orson CaptainSass"],
@@ -26626,7 +26626,7 @@ When this hits a hero, put a steam counter on an item you control with **crank**
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["courage"],
     defense: 3,
     
     functionalText: `**Solflare** - When this is **charged** to your soul, create a Courage token.`,
@@ -26641,7 +26641,7 @@ When this hits a hero, put a steam counter on an item you control with **crank**
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["courage"],
     
     
     
@@ -26720,7 +26720,7 @@ When this hits a hero, put a steam counter on an item you control with **crank**
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["courage"],
     defense: 3,
     
     functionalText: `**Solflare** - When this is **charged** to your soul, create a Courage token.`,
@@ -26735,7 +26735,7 @@ When this hits a hero, put a steam counter on an item you control with **crank**
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["courage"],
     
     
     
@@ -26814,7 +26814,7 @@ When this hits a hero, put a steam counter on an item you control with **crank**
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["courage"],
     defense: 3,
     
     functionalText: `**Solflare** - When this is **charged** to your soul, create a Courage token.`,
@@ -26829,7 +26829,7 @@ When this hits a hero, put a steam counter on an item you control with **crank**
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["courage"],
     
     
     
@@ -28341,7 +28341,7 @@ When this attacks, if you've beaten chest this turn and you don't control a ches
 
     
     
-    
+    createdExtras: ["embodiment-of-earth"],
     defense: 2,
     
     functionalText: `When this defends, if there are 4 or more Earth cards in your banished zone, create an Embodiment of Earth token.
@@ -28358,7 +28358,7 @@ When this attacks, if you've beaten chest this turn and you don't control a ches
   
     
     
-    
+    referencedCards: ["embodiment-of-earth"],
     
     
     
@@ -29750,7 +29750,7 @@ If this is defended by fewer than 2 non-equipment cards, it gets **go again**.`,
   
     
     
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -30086,7 +30086,7 @@ When this hits a Guardian hero, destroy an aura token they control.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `When this attacks, you may pay up to {r}{r}{r}. Create that many Might tokens.`,
@@ -30101,7 +30101,7 @@ When this hits a Guardian hero, destroy an aura token they control.`,
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["might"],
     
     
     
@@ -30180,7 +30180,7 @@ When this hits a Guardian hero, destroy an aura token they control.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `When this attacks, you may pay up to {r}{r}{r}. Create that many Might tokens.`,
@@ -30195,7 +30195,7 @@ When this hits a Guardian hero, destroy an aura token they control.`,
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["might"],
     
     
     
@@ -30274,7 +30274,7 @@ When this hits a Guardian hero, destroy an aura token they control.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `When this attacks, you may pay up to {r}{r}{r}. Create that many Might tokens.`,
@@ -30289,7 +30289,7 @@ When this hits a Guardian hero, destroy an aura token they control.`,
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["might"],
     
     
     
@@ -30923,7 +30923,7 @@ When this hits a Guardian hero, destroy an aura token they control.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["might"],
     
     
     functionalText: `The next time you would be dealt damage this turn, prevent 2 of that damage. If you prevent damage this way, create a Might token.`,
@@ -30938,7 +30938,7 @@ When this hits a Guardian hero, destroy an aura token they control.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["might"],
     
     
     
@@ -31468,7 +31468,7 @@ If this was played from arsenal, your next attack this turn gets +1{p}.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["courage","toughness","vigor"],
     defense: 3,
     
     functionalText: `When this attacks, choose 1 for each card you've banished from your soul this combat chain. You may choose the same mode up to 3 times;
@@ -31486,7 +31486,7 @@ If this was played from arsenal, your next attack this turn gets +1{p}.
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["courage","toughness","vigor"],
     
     
     
@@ -32509,7 +32509,7 @@ If this was played from arsenal, your next attack this turn gets +1{p}.
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["head-jab-blue","head-jab-red","head-jab-yellow","surging-strike-blue","surging-strike-red","surging-strike-yellow","twin-twisters-blue","twin-twisters-red","twin-twisters-yellow"],
     
     
     
@@ -32620,7 +32620,7 @@ If this was played from arsenal, your next attack this turn gets +1{p}.
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["head-jab-blue","head-jab-red","head-jab-yellow","surging-strike-blue","surging-strike-red","surging-strike-yellow","twin-twisters-blue","twin-twisters-red","twin-twisters-yellow"],
     
     
     
@@ -32731,7 +32731,7 @@ If this was played from arsenal, your next attack this turn gets +1{p}.
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["head-jab-blue","head-jab-red","head-jab-yellow","surging-strike-blue","surging-strike-red","surging-strike-yellow","twin-twisters-blue","twin-twisters-red","twin-twisters-yellow"],
     
     
     
@@ -33984,7 +33984,7 @@ If a yellow card is **charged** this way, this gets +1{p}.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["dawnblade","dawnblade-resplendent"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -34048,7 +34048,7 @@ If a yellow card is **charged** this way, this gets +1{p}.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["agility","confidence","might","toughness","vigor"],
     defense: 3,
     
     functionalText: `If you've controlled an Agility token this turn, create an Agility token, then repeat for Confidence, Might, Toughness, and Vigor.
@@ -34065,7 +34065,7 @@ If a yellow card is **charged** this way, this gets +1{p}.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["agility","confidence","might","toughness","vigor"],
     
     
     
@@ -34316,7 +34316,7 @@ If you control a Vigor token, this gets +1{d}.
   
     
     
-    
+    referencedCards: ["agility","vigor"],
     
     
     
@@ -34670,7 +34670,7 @@ If you control a Vigor token, this gets +1{d}.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["blasmophet-the-insatiable-hunger"],
     defense: 3,
     
     functionalText: `When this attacks, banish the top card of your deck.
@@ -34689,7 +34689,7 @@ When this hits, create a Blasmophet, the Insatiable Hunger token.
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["blasmophet-the-insatiable-hunger"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -34747,7 +34747,7 @@ When this hits, create a Blasmophet, the Insatiable Hunger token.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["blasmophet-the-insatiable-hunger"],
     defense: 3,
     
     functionalText: `When this attacks, banish the top card of your deck.
@@ -34766,7 +34766,7 @@ When this hits, create a Blasmophet, the Insatiable Hunger token.
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["blasmophet-the-insatiable-hunger"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -34824,7 +34824,7 @@ When this hits, create a Blasmophet, the Insatiable Hunger token.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["blasmophet-the-insatiable-hunger"],
     defense: 3,
     
     functionalText: `When this attacks, banish the top card of your deck.
@@ -34843,7 +34843,7 @@ When this hits, create a Blasmophet, the Insatiable Hunger token.
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["blasmophet-the-insatiable-hunger"],
     
     
     
@@ -35735,7 +35735,7 @@ You may discard an action card. If you discard an attack action card this way, s
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gate-to-iarathael","runechant"],
     defense: 3,
     
     functionalText: `Banish a card from your hand. If it's Runeblade, create a Runechant token. If it's Shadow, create a Gate to i'Arathael token.
@@ -35752,7 +35752,7 @@ You may discard an action card. If you discard an attack action card this way, s
   
     
     pitch: 3,
-    
+    referencedCards: ["gate-to-iarathael","runechant"],
     
     
     
@@ -35865,7 +35865,7 @@ When the additional cost is paid, search your deck for a Minnowism, reveal it, p
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["minnowism-blue","minnowism-red","minnowism-yellow"],
     
     
     
@@ -35978,7 +35978,7 @@ When the additional cost is paid, search your deck for a Minnowism, reveal it, p
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["minnowism-blue","minnowism-red","minnowism-yellow"],
     
     
     
@@ -36091,7 +36091,7 @@ When the additional cost is paid, search your deck for a Minnowism, reveal it, p
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["minnowism-blue","minnowism-red","minnowism-yellow"],
     
     
     
@@ -36223,7 +36223,7 @@ When Bellona attacks, you may banish a card from your hero's soul. If you do, pu
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["courage"],
     defense: 3,
     
     functionalText: `Your next Warrior attack this turn gets +3{p} and "When this attacks a hero, you may **wager** with them. The winner creates a Courage token."
@@ -36240,7 +36240,7 @@ When Bellona attacks, you may banish a card from your hero's soul. If you do, pu
   
     
     pitch: 1,
-    
+    referencedCards: ["courage"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -36289,7 +36289,7 @@ When Bellona attacks, you may banish a card from your hero's soul. If you do, pu
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["courage"],
     defense: 3,
     
     functionalText: `Your next Warrior attack this turn gets +1{p} and "When this attacks a hero, you may **wager** with them. The winner creates a Courage token."
@@ -36306,7 +36306,7 @@ When Bellona attacks, you may banish a card from your hero's soul. If you do, pu
   
     
     pitch: 3,
-    
+    referencedCards: ["courage"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -36782,7 +36782,7 @@ The next Runeblade attack action card you play this turn costs {r} less to play 
   
     
     pitch: 1,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -37170,7 +37170,7 @@ The next Runeblade attack action card you play this turn costs {r} less to play 
 
     
     
-    cost: 4,
+    cost: 4,createdExtras: ["gold","might","vigor"],
     defense: 3,
     
     functionalText: `**Betsy Specialization**
@@ -37187,7 +37187,7 @@ When this attacks a hero, you may **wager** a Gold, Might, and Vigor token with 
   
     
     pitch: 1,
-    power: 8,
+    power: 8,referencedCards: ["gold","might","vigor"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -37498,7 +37498,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -37579,7 +37579,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
   
     
     pitch: 2,
-    power: 5,
+    power: 5,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -37690,7 +37690,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
   
     
     pitch: 3,
-    power: 4,
+    power: 4,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -37754,7 +37754,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["flurry"],
     defense: 2,
     
     functionalText: `Target sword attack gets +4{p} and **wagers** with the defending hero. The winner creates a Flurry token.`,
@@ -37769,7 +37769,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
   
     
     pitch: 1,
-    
+    referencedCards: ["flurry"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -37833,7 +37833,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["flurry"],
     defense: 2,
     
     functionalText: `Target sword attack gets +3{p} and **wagers** with the defending hero. The winner creates a Flurry token.`,
@@ -37848,7 +37848,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
   
     
     pitch: 2,
-    
+    referencedCards: ["flurry"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -37912,7 +37912,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["flurry"],
     defense: 2,
     
     functionalText: `Target sword attack gets +2{p} and **wagers** with the defending hero. The winner creates a Flurry token.`,
@@ -37927,7 +37927,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
   
     
     pitch: 3,
-    
+    referencedCards: ["flurry"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -38130,7 +38130,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `At the start of your turn, destroy this, then your next Guardian attack this turn gets +5{p} and "When this attacks a hero, you may **wager** a Vigor token with them."`,
@@ -38145,7 +38145,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
   
     
     pitch: 1,
-    
+    referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -38209,7 +38209,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `At the start of your turn, destroy this, then your next Guardian attack this turn gets +4{p} and "When this attacks a hero, you may **wager** a Vigor token with them."`,
@@ -38224,7 +38224,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
   
     
     pitch: 2,
-    
+    referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -38303,7 +38303,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `At the start of your turn, destroy this, then your next Guardian attack this turn gets +3{p} and "When this attacks a hero, you may **wager** a Vigor token with them."`,
@@ -38318,7 +38318,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
   
     
     pitch: 3,
-    
+    referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -38478,7 +38478,7 @@ If you've been booed this turn, this card's base {p} is doubled.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `Your next arrow attack this turn gets +4{p}. If it has harpoon in its name, it gets "When this hits a hero, create a Gold token."
@@ -38497,7 +38497,7 @@ Draw a card, then discard a card.
   
     
     pitch: 2,
-    
+    referencedCards: ["gold"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -38913,7 +38913,7 @@ Draw a card, then discard a card.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `At the start of your turn, destroy this, then your next Guardian attack this turn gets +5{p} and "When this attacks a hero, you may **wager** a Might token with them."`,
@@ -38928,7 +38928,7 @@ Draw a card, then discard a card.
   
     
     pitch: 1,
-    
+    referencedCards: ["might"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -38992,7 +38992,7 @@ Draw a card, then discard a card.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `At the start of your turn, destroy this, then your next Guardian attack this turn gets +4{p} and "When this attacks a hero, you may **wager** a Might token with them."`,
@@ -39007,7 +39007,7 @@ Draw a card, then discard a card.
   
     
     pitch: 2,
-    
+    referencedCards: ["might"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -39086,7 +39086,7 @@ Draw a card, then discard a card.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `At the start of your turn, destroy this, then your next Guardian attack this turn gets +3{p} and "When this attacks a hero, you may **wager** a Might token with them."`,
@@ -39101,7 +39101,7 @@ Draw a card, then discard a card.
   
     
     pitch: 3,
-    
+    referencedCards: ["might"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -39180,7 +39180,7 @@ Draw a card, then discard a card.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["aether-ashwing"],
     defense: 3,
     
     functionalText: `When this attacks, **transform** up to 1 ash you control into an Aether Ashwing.
@@ -39197,7 +39197,7 @@ Draw a card, then discard a card.
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["aether-ashwing","ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     
     
@@ -39261,7 +39261,7 @@ Draw a card, then discard a card.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["aether-ashwing"],
     defense: 3,
     
     functionalText: `When this attacks, **transform** up to 1 ash you control into an Aether Ashwing.
@@ -39278,7 +39278,7 @@ Draw a card, then discard a card.
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["aether-ashwing","ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     
     
@@ -39342,7 +39342,7 @@ Draw a card, then discard a card.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["aether-ashwing"],
     defense: 3,
     
     functionalText: `When this attacks, **transform** up to 1 ash you control into an Aether Ashwing.
@@ -39359,7 +39359,7 @@ Draw a card, then discard a card.
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["aether-ashwing","ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     
     
@@ -40304,7 +40304,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["crouching-tiger"],
     defense: 2,
     
     functionalText: `When this hits, create a Crouching Tiger in your banished zone. You may play it this turn.
@@ -40321,7 +40321,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["crouching-tiger"],
     
     
     
@@ -40400,7 +40400,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["crouching-tiger"],
     defense: 2,
     
     functionalText: `When this hits, create a Crouching Tiger in your banished zone. You may play it this turn.
@@ -40417,7 +40417,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["crouching-tiger"],
     
     
     
@@ -40496,7 +40496,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["crouching-tiger"],
     defense: 2,
     
     functionalText: `When this hits, create a Crouching Tiger in your banished zone. You may play it this turn.
@@ -40513,7 +40513,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["crouching-tiger"],
     
     
     
@@ -41318,7 +41318,7 @@ If this was **fused**, the attacking hero discards a card unless they pay {r}{r}
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["rising-knee-thrust-blue","rising-knee-thrust-red","rising-knee-thrust-yellow"],
     
     
     
@@ -41442,7 +41442,7 @@ If this was **fused**, the attacking hero discards a card unless they pay {r}{r}
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["rising-knee-thrust-blue","rising-knee-thrust-red","rising-knee-thrust-yellow"],
     
     
     
@@ -41566,7 +41566,7 @@ If this was **fused**, the attacking hero discards a card unless they pay {r}{r}
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["rising-knee-thrust-blue","rising-knee-thrust-red","rising-knee-thrust-yellow"],
     
     
     
@@ -41745,7 +41745,7 @@ If this was **fused**, the attacking hero discards a card unless they pay {r}{r}
   
     
     
-    
+    referencedCards: ["silver"],
     
     
     
@@ -42620,7 +42620,7 @@ If this was **fused**, the attacking hero discards a card unless they pay {r}{r}
     defaultImage: "MPW134-MV",
     firstReleaseDate: "2026-08-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Shiyana,Hero.Yorick,Hero.Zane],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Taylor,Hero.Zane],
     name: "Blade Dance",
     printings: [{
         artists: ["Sariya Asavametha"],
@@ -43593,7 +43593,7 @@ Once each turn, you may play a card with **blood debt** from your banished zone.
     defaultImage: "IAR221",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Shiyana,Hero.Viserai2,Hero.Vynnset,Hero.Yorick],
+    legalHeroes: [Hero.Levia],
     name: "Blasmophet, the Insatiable Hunger",
     printings: [{
         artists: ["Lius Lasahido"],
@@ -43682,7 +43682,7 @@ At the beginning of each end phase, you may banish a card from your hand. Then i
     defaultImage: "U-MON219",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Shiyana,Hero.Viserai2,Hero.Vynnset,Hero.Yorick],
+    legalHeroes: [Hero.Levia,Hero.Shiyana],
     name: "Blasmophet, the Soul Harvester",
     printings: [{
         artists: ["Wisnu Tan"],
@@ -45310,7 +45310,7 @@ At the start of your turn, put this into your soul.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["courage"],
     defense: 3,
     
     functionalText: `**Go again**
@@ -45329,7 +45329,7 @@ At the start of your turn, put this into your soul.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["courage"],
     
     
     
@@ -46104,7 +46104,7 @@ At the beginning of your action phase, destroy this then reveal the top card of 
   
     
     pitch: 1,
-    
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -46183,7 +46183,7 @@ At the beginning of your action phase, destroy this then reveal the top card of 
   
     
     pitch: 2,
-    
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -46262,7 +46262,7 @@ At the beginning of your action phase, destroy this then reveal the top card of 
   
     
     pitch: 3,
-    
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -46326,7 +46326,7 @@ At the beginning of your action phase, destroy this then reveal the top card of 
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `At the start of your turn, destroy this then create 3 Runechant tokens.`,
@@ -46341,7 +46341,7 @@ At the beginning of your action phase, destroy this then reveal the top card of 
   
     
     pitch: 1,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -46405,7 +46405,7 @@ At the beginning of your action phase, destroy this then reveal the top card of 
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `At the start of your turn, destroy this then create 2 Runechant tokens.`,
@@ -46420,7 +46420,7 @@ At the beginning of your action phase, destroy this then reveal the top card of 
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -46484,7 +46484,7 @@ At the beginning of your action phase, destroy this then reveal the top card of 
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `At the start of your turn, destroy this then create a Runechant token.`,
@@ -46499,7 +46499,7 @@ At the beginning of your action phase, destroy this then reveal the top card of 
   
     
     pitch: 3,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -46830,7 +46830,7 @@ At the beginning of your action phase, destroy this then reveal the top card of 
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["crouching-tiger"],
     defense: 3,
     
     functionalText: `At the start of your turn, destroy this, then create a Crouching Tiger in your banished zone. It gets +3{p} and you may play it this turn.`,
@@ -46845,7 +46845,7 @@ At the beginning of your action phase, destroy this then reveal the top card of 
   
     
     pitch: 1,
-    
+    referencedCards: ["crouching-tiger"],
     
     
     
@@ -46924,7 +46924,7 @@ At the beginning of your action phase, destroy this then reveal the top card of 
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["crouching-tiger"],
     defense: 3,
     
     functionalText: `At the start of your turn, destroy this, then create a Crouching Tiger in your banished zone. It gets +2{p} and you may play it this turn.`,
@@ -46939,7 +46939,7 @@ At the beginning of your action phase, destroy this then reveal the top card of 
   
     
     pitch: 2,
-    
+    referencedCards: ["crouching-tiger"],
     
     
     
@@ -47033,7 +47033,7 @@ At the beginning of your action phase, destroy this then reveal the top card of 
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["crouching-tiger"],
     defense: 3,
     
     functionalText: `At the start of your turn, destroy this, then create a Crouching Tiger in your banished zone. It gets +1{p} and you may play it this turn.`,
@@ -47048,7 +47048,7 @@ At the beginning of your action phase, destroy this then reveal the top card of 
   
     
     pitch: 3,
-    
+    referencedCards: ["crouching-tiger"],
     
     
     
@@ -47919,7 +47919,7 @@ Gain 1{h}`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["spectral-shield"],
     defense: 2,
     
     functionalText: `At the start of your turn, destroy this then create 3 Spectral Shield tokens.
@@ -47936,7 +47936,7 @@ Gain 1{h}`,
   
     
     pitch: 1,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -48000,7 +48000,7 @@ Gain 1{h}`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["spectral-shield"],
     defense: 2,
     
     functionalText: `At the start of your turn, destroy this then create 2 Spectral Shield tokens.
@@ -48017,7 +48017,7 @@ Gain 1{h}`,
   
     
     pitch: 2,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -48081,7 +48081,7 @@ Gain 1{h}`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["spectral-shield"],
     defense: 2,
     
     functionalText: `At the start of your turn, destroy this then create a Spectral Shield token.
@@ -48098,7 +48098,7 @@ Gain 1{h}`,
   
     
     pitch: 3,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -48909,7 +48909,7 @@ Target attacking or defending attack action card gets -1{p}.`,
 
     
     
-    cost: 6,
+    cost: 6,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `**Crush** - When this deals 4 or more damage to a Guardian hero, cards they own lose all abilities during their next turn.
@@ -48926,7 +48926,7 @@ Target attacking or defending attack action card gets -1{p}.`,
   
     
     pitch: 1,
-    power: 10,
+    power: 10,referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -49511,7 +49511,7 @@ Target attacking or defending attack action card gets -1{p}.`,
 
     
     
-    
+    createdExtras: ["embodiment-of-lightning"],
     defense: 0,
     
     functionalText: `**Instant** - {r}, destroy this: Create an Embodiment of Lightning token. Activate this only if you've played an instant card this turn.
@@ -49528,7 +49528,7 @@ Target attacking or defending attack action card gets -1{p}.`,
   
     
     
-    
+    referencedCards: ["embodiment-of-lightning"],
     
     
     
@@ -49637,7 +49637,7 @@ Target attacking or defending attack action card gets -1{p}.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["frostbite"],
     defense: 3,
     
     functionalText: `**Ice Fusion**
@@ -49654,7 +49654,7 @@ When this attacks, if this was **fused**, whenever an attack deals damage to a h
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["frostbite"],
     
     
     
@@ -49748,7 +49748,7 @@ When this attacks, if this was **fused**, whenever an attack deals damage to a h
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["frostbite"],
     defense: 3,
     
     functionalText: `**Ice Fusion**
@@ -49765,7 +49765,7 @@ When This attacks, if this was **fused**, whenever an attack deals damage to a h
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["frostbite"],
     
     
     
@@ -49859,7 +49859,7 @@ When This attacks, if this was **fused**, whenever an attack deals damage to a h
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["frostbite"],
     defense: 3,
     
     functionalText: `**Ice Fusion**
@@ -49876,7 +49876,7 @@ When This attacks, if this was **fused**, whenever an attack deals damage to a h
   
     
     pitch: 3,
-    power: 3,
+    power: 3,referencedCards: ["frostbite"],
     
     
     
@@ -50324,7 +50324,7 @@ Your Brute and Shadow attacks get +X{p} this turn, where X is number of cards wi
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["cintari-sellsword"],
     defense: 3,
     
     functionalText: `**Kassai Specialization**
@@ -50341,7 +50341,7 @@ Target sword attack gets **go again** and "When this hits, create a Cintari Sell
   
     
     pitch: 2,
-    
+    referencedCards: ["cintari-sellsword"],
     
     
     
@@ -50746,7 +50746,7 @@ As an additional cost to play this, destroy any number of Copper you control. Fo
   
     
     pitch: 2,
-    
+    referencedCards: ["copper"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -50940,7 +50940,7 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
   
     
     
-    
+    referencedCards: ["crouching-tiger"],
     
     
     
@@ -51764,7 +51764,7 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["bloodrot-pox"],
     defense: 3,
     
     functionalText: `When this defends and the attacking hero has played or activated a reaction this chain link, create a Bloodrot Pox token under their control.`,
@@ -51779,7 +51779,7 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
   
     
     pitch: 1,
-    
+    referencedCards: ["bloodrot-pox"],
     
     
     
@@ -52048,7 +52048,7 @@ If the discarded card has 6 or more {p}, draw 2 cards and this gets **go again**
   
     
     
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -52236,7 +52236,7 @@ When this hits a hero, you may banish target aura permanent they control.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `**Go again**
@@ -52255,7 +52255,7 @@ When you are dealt damage, destroy this.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -52364,7 +52364,7 @@ When you are dealt damage, destroy this.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `**Go again**
@@ -52383,7 +52383,7 @@ When you are dealt damage, destroy this.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -52492,7 +52492,7 @@ When you are dealt damage, destroy this.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `**Go again**
@@ -52511,7 +52511,7 @@ When you are dealt damage, destroy this.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -53530,7 +53530,7 @@ When this hits, deal 1 damage to any target.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `**Go Fish** - When this hits a hero, they choose and reveal a card from their hand. If it's blue, they discard it and you create a Gold token. If you've activated a cannon this turn, instead look at their hand and you choose the card.`,
@@ -53545,7 +53545,7 @@ When this hits, deal 1 damage to any target.`,
   
     
     pitch: 3,
-    power: 4,
+    power: 4,referencedCards: ["gold"],
     
     
     
@@ -53724,7 +53724,7 @@ Your next sword attack this turn gets +3{p} and "When this attacks, **wager** wi
   
     
     pitch: 2,
-    
+    referencedCards: ["gold"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -58095,7 +58095,7 @@ When a Mechanologist attack action card you control hits a hero, destroy this an
 
     
     
-    
+    createdExtras: ["toughness"],
     defense: 2,
     
     functionalText: `When this defends, you may pay up to {r}{r}{r}. Create that many Toughness tokens.
@@ -58112,7 +58112,7 @@ When a Mechanologist attack action card you control hits a hero, destroy this an
   
     
     
-    
+    referencedCards: ["toughness"],
     
     
     
@@ -59179,7 +59179,7 @@ When this is played from your banished zone, it gets +1{p}.
 
     
     
-    
+    createdExtras: ["courage"],
     defense: 2,
     
     functionalText: `When this defends, you may **charge** your hero's soul. If a yellow card is **charged** this way, create a Courage token.
@@ -59196,7 +59196,7 @@ When this is played from your banished zone, it gets +1{p}.
   
     
     
-    
+    referencedCards: ["courage"],
     
     
     
@@ -59245,7 +59245,7 @@ When this is played from your banished zone, it gets +1{p}.
 
     
     bonds: [Bond.Earth],
-    cost: 3,
+    cost: 3,createdExtras: ["might"],
     defense: 3,
     
     functionalText: `**Earth Bond** - When this attacks, if an Earth card was pitched to play this, create a Might token.`,
@@ -59260,7 +59260,7 @@ When this is played from your banished zone, it gets +1{p}.
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["might"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -59309,7 +59309,7 @@ When this is played from your banished zone, it gets +1{p}.
 
     
     bonds: [Bond.Earth],
-    cost: 3,
+    cost: 3,createdExtras: ["might"],
     defense: 3,
     
     functionalText: `**Earth Bond** - When this attacks, if an Earth card was pitched to play this, create a Might token.`,
@@ -59324,7 +59324,7 @@ When this is played from your banished zone, it gets +1{p}.
   
     
     pitch: 2,
-    power: 5,
+    power: 5,referencedCards: ["might"],
     
     
     
@@ -62098,7 +62098,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `Turn all cards in all arsenals face-up. Then if there's a face-up yellow card in any arsenal, create 2 Gold tokens.
@@ -62115,7 +62115,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
   
     
     pitch: 2,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -62273,7 +62273,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["flood-of-force-yellow","rushing-river-blue","rushing-river-red","rushing-river-yellow"],
     
     
     
@@ -62354,7 +62354,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
   
     
     
-    
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -63142,7 +63142,7 @@ If the discarded card has 6 or more {p}, this gets **go again**.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["crouching-tiger"],
     defense: 3,
     
     functionalText: `**Combo** - When this attacks, if Crouching Tiger was the last attack this combat chain, this gets **go again** and create a Crouching Tiger in your banished zone. You may play it this turn.`,
@@ -63157,7 +63157,7 @@ If the discarded card has 6 or more {p}, this gets **go again**.`,
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["crouching-tiger"],
     
     
     
@@ -63221,7 +63221,7 @@ If the discarded card has 6 or more {p}, this gets **go again**.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["crouching-tiger"],
     defense: 3,
     
     functionalText: `**Combo** - When this attacks, if Crouching Tiger was the last attack this combat chain, this gets **go again** and create a Crouching Tiger in your banished zone. You may play it this turn.`,
@@ -63236,7 +63236,7 @@ If the discarded card has 6 or more {p}, this gets **go again**.`,
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["crouching-tiger"],
     
     
     
@@ -63300,7 +63300,7 @@ If the discarded card has 6 or more {p}, this gets **go again**.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["crouching-tiger"],
     defense: 3,
     
     functionalText: `**Combo** - When this attacks, if Crouching Tiger was the last attack this combat chain, this gets **go again** and create a Crouching Tiger in your banished zone. You may play it this turn.`,
@@ -63315,7 +63315,7 @@ If the discarded card has 6 or more {p}, this gets **go again**.`,
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["crouching-tiger"],
     
     
     
@@ -63505,7 +63505,7 @@ If the discarded card has 6 or more {p}, this gets **go again**.`,
 
     
     
-    
+    createdExtras: ["might"],
     
     
     functionalText: `You may have any number of Chivalry in your deck.
@@ -63522,7 +63522,7 @@ Whenever you **protect** another hero, create a Might token.`,
   
     
     
-    
+    referencedCards: ["chivalry-blue","might"],
     
     
     
@@ -63691,7 +63691,7 @@ Whenever you **protect** another hero, create a Might token.`,
 
     
     
-    
+    createdExtras: ["embodiment-of-earth","embodiment-of-lightning"],
     
     
     functionalText: `**Essence of Earth and Lightning**
@@ -63710,7 +63710,7 @@ The second time you play a non-attack action card each turn, create an Embodimen
   
     
     
-    
+    referencedCards: ["embodiment-of-earth","embodiment-of-lightning"],
     
     
     
@@ -63876,7 +63876,7 @@ The second time you play a non-attack action card each turn, create an Embodimen
 
     
     
-    
+    createdExtras: ["embodiment-of-earth","embodiment-of-lightning"],
     
     
     functionalText: `**Essence of Earth and Lightning**
@@ -63895,7 +63895,7 @@ The second time you play a non-attack action card each turn, create an Embodimen
   
     
     
-    
+    referencedCards: ["embodiment-of-earth","embodiment-of-lightning"],
     
     
     
@@ -66659,7 +66659,7 @@ If you control a Hyper Driver, this gets **overpower**.`,
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -66740,7 +66740,7 @@ If you control a Hyper Driver, this gets **overpower**.`,
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -66821,7 +66821,7 @@ If you control a Hyper Driver, this gets **overpower**.`,
   
     
     pitch: 3,
-    power: 3,
+    power: 3,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -67980,7 +67980,7 @@ If the additional cost was paid, this gets +2{p} and **go again**.`,
   
     
     pitch: 1,
-    power: 2,
+    power: 2,referencedCards: ["phoenix-flame-red"],
     
     
     
@@ -69824,7 +69824,7 @@ At the beginning of your action phase, destroy this.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["embodiment-of-lightning"],
     defense: 2,
     
     functionalText: `**Lexi Specialization**
@@ -69843,7 +69843,7 @@ Your attacks this turn get "Whenever the defending hero adds 1 or more defending
   
     
     pitch: 2,
-    
+    referencedCards: ["embodiment-of-lightning"],
     
     
     
@@ -70596,7 +70596,7 @@ You may put an arrow from your hand face-up into your arsenal.
 
     
     
-    
+    createdExtras: ["spectral-shield"],
     
     
     functionalText: `**Instant** - {r}, destroy this: Create a Spectral Shield token.
@@ -70613,7 +70613,7 @@ You may put an arrow from your hand face-up into your arsenal.
   
     
     
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -70677,7 +70677,7 @@ You may put an arrow from your hand face-up into your arsenal.
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["lightning-flow"],
     
     
     functionalText: `Prevent the next 3 damage that would be dealt to you this turn. The first time you prevent damage this way, create a Lightning Flow token.`,
@@ -70692,7 +70692,7 @@ You may put an arrow from your hand face-up into your arsenal.
   
     
     pitch: 1,
-    
+    referencedCards: ["lightning-flow"],
     
     
     
@@ -70756,7 +70756,7 @@ You may put an arrow from your hand face-up into your arsenal.
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["lightning-flow"],
     
     
     functionalText: `Prevent the next 2 damage that would be dealt to you this turn. The first time you prevent damage this way, create a Lightning Flow token.`,
@@ -70771,7 +70771,7 @@ You may put an arrow from your hand face-up into your arsenal.
   
     
     pitch: 2,
-    
+    referencedCards: ["lightning-flow"],
     
     
     
@@ -70835,7 +70835,7 @@ You may put an arrow from your hand face-up into your arsenal.
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["lightning-flow"],
     
     
     functionalText: `Prevent the next 1 damage that would be dealt to you this turn. The first time you prevent damage this way, create a Lightning Flow token.`,
@@ -70850,7 +70850,7 @@ You may put an arrow from your hand face-up into your arsenal.
   
     
     pitch: 3,
-    
+    referencedCards: ["lightning-flow"],
     
     
     
@@ -70899,7 +70899,7 @@ You may put an arrow from your hand face-up into your arsenal.
 
     
     
-    
+    createdExtras: ["might"],
     defense: 2,
     
     functionalText: `When this defends, create a Might token.`,
@@ -70914,7 +70914,7 @@ You may put an arrow from your hand face-up into your arsenal.
   
     
     pitch: 3,
-    
+    referencedCards: ["might"],
     
     
     
@@ -72453,7 +72453,7 @@ Draw 2 cards.
   
     
     pitch: 2,
-    
+    referencedCards: ["copper","gold","silver"],
     
     
     
@@ -72517,7 +72517,7 @@ Draw 2 cards.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["silver"],
     defense: 2,
     
     functionalText: `As an additional cost to play this, you may destroy any number of weapons, equipment and/or non-token items you control.
@@ -72536,7 +72536,7 @@ Create a Silver token for each permanent destroyed this way.
   
     
     pitch: 3,
-    
+    referencedCards: ["silver"],
     
     
     
@@ -72600,7 +72600,7 @@ Create a Silver token for each permanent destroyed this way.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["agility","might"],
     defense: 3,
     
     functionalText: `Reveal the top 6 cards of your deck. Create a Might token for each card with 6 or more {p} revealed this way. Put the revealed cards on top of your deck in a random order.
@@ -72617,7 +72617,7 @@ If you control 6 or more Might tokens, create an Agility token.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["agility","might"],
     
     
     
@@ -74368,7 +74368,7 @@ When this hits a Brute hero, they discard a card. If it has 6 or more {p}, you l
 
     
     
-    
+    createdExtras: ["soul-shackle"],
     
     
     functionalText: `**Once per Turn Action** - Create a Soul Shackle token: Your next Runeblade or Shadow action this turn gets **go again**. **Go again**`,
@@ -74383,7 +74383,7 @@ When this hits a Brute hero, they discard a card. If it has 6 or more {p}, you l
   
     
     
-    
+    referencedCards: ["soul-shackle"],
     
     
     
@@ -74489,7 +74489,7 @@ When this hits a Brute hero, they discard a card. If it has 6 or more {p}, you l
 
     
     
-    
+    createdExtras: ["soul-shackle"],
     
     
     functionalText: `**Once per Turn Action** - Create a Soul Shackle token: Your next Runeblade or Shadow action this turn gets **go again**. **Go again**`,
@@ -74504,7 +74504,7 @@ When this hits a Brute hero, they discard a card. If it has 6 or more {p}, you l
   
     
     
-    
+    referencedCards: ["soul-shackle"],
     
     
     
@@ -74668,7 +74668,7 @@ Cards in opponents' arsenals are **frozen** while they control a Frostbite or a 
   
     
     pitch: 3,
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -75118,7 +75118,7 @@ At the start of each hero's turn, they lose {h} equal to the number of Frostbite
   
     
     pitch: 3,
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -75363,7 +75363,7 @@ When this enters the arena and at the beginning of your action phase, **amp 3**.
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["might"],
     defense: 3,
     
     functionalText: `**Go again**
@@ -75382,7 +75382,7 @@ When this enters the arena and at the beginning of your action phase, create 2 M
   
     
     pitch: 2,
-    
+    referencedCards: ["might"],
     
     
     
@@ -75934,7 +75934,7 @@ You may put a gold counter on Treasure Island.
   
     
     pitch: 1,
-    
+    referencedCards: ["treasure-island"],
     
     
     
@@ -76032,7 +76032,7 @@ You may put a gold counter on Treasure Island.
   
     
     pitch: 2,
-    
+    referencedCards: ["treasure-island"],
     
     
     
@@ -76130,7 +76130,7 @@ You may put a gold counter on Treasure Island.
   
     
     pitch: 3,
-    
+    referencedCards: ["treasure-island"],
     
     
     
@@ -76209,7 +76209,7 @@ You may put a gold counter on Treasure Island.
 
     
     bannedFormats: [Format.ClassicConstructed],
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `Look at the top 2 cards of your deck. You may pitch a blue card from among them. Put the rest into your graveyard.
@@ -76228,7 +76228,7 @@ Create a Gold token for each yellow card put into your graveyard this way.
   
     
     pitch: 3,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -76307,7 +76307,7 @@ Create a Gold token for each yellow card put into your graveyard this way.
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["crouching-tiger"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -76485,7 +76485,7 @@ Deal 2 damage to target hero unless they discard a card.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["confidence","toughness"],
     
     
     
@@ -76549,7 +76549,7 @@ Deal 2 damage to target hero unless they discard a card.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `The next attack action card you play this turn gets +3{p} and "When this attacks, **wager** with the defending hero. The winner creates a Gold token."
@@ -76568,7 +76568,7 @@ The next time you would lose a wager this turn, instead you may discard a card. 
   
     
     pitch: 1,
-    
+    referencedCards: ["gold"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -77126,7 +77126,7 @@ While Ruk'utan is face-up in arsenal, whenever you play a card with 6 or more {p
   
     
     
-    
+    referencedCards: ["alpha-rampage-red"],
     
     
     
@@ -77220,7 +77220,7 @@ While Ruk'utan is face-up in arsenal, whenever you play a card with 6 or more {p
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["frostbite"],
     defense: 2,
     
     functionalText: `The next time an Ice or Elemental attack hits a hero this turn, create 3 Frostbite tokens under their control.
@@ -77237,7 +77237,7 @@ While Ruk'utan is face-up in arsenal, whenever you play a card with 6 or more {p
   
     
     pitch: 1,
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -77346,7 +77346,7 @@ While Ruk'utan is face-up in arsenal, whenever you play a card with 6 or more {p
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["frostbite"],
     defense: 2,
     
     functionalText: `The next time an Ice or Elemental attack hits a hero this turn, create 2 Frostbite tokens under their control.
@@ -77363,7 +77363,7 @@ While Ruk'utan is face-up in arsenal, whenever you play a card with 6 or more {p
   
     
     pitch: 2,
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -77457,7 +77457,7 @@ While Ruk'utan is face-up in arsenal, whenever you play a card with 6 or more {p
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["frostbite"],
     defense: 2,
     
     functionalText: `The next time an Ice or Elemental attack hits a hero this turn, create a Frostbite token under their control.
@@ -77474,7 +77474,7 @@ While Ruk'utan is face-up in arsenal, whenever you play a card with 6 or more {p
   
     
     pitch: 3,
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -78457,7 +78457,7 @@ When this attacks, if this was **fused**, whenever an attack deals damage to a h
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["courage"],
     defense: 3,
     
     functionalText: `**Dorinthea Specialization**
@@ -78476,7 +78476,7 @@ Until end of turn, target Dawnblade gets +1{p} and "Damage this would deal can't
   
     
     pitch: 2,
-    
+    referencedCards: ["courage","dawnblade","dawnblade-resplendent"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -78540,7 +78540,7 @@ Until end of turn, target Dawnblade gets +1{p} and "Damage this would deal can't
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["embodiment-of-earth","runechant"],
     defense: 2,
     
     functionalText: `**Decompose** - You may banish 2 Earth cards and an action card from your graveyard. If you do, create an Embodiment of Earth token.
@@ -78557,7 +78557,7 @@ Create 3 Runechant tokens.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["embodiment-of-earth","runechant"],
     
     
     
@@ -80104,7 +80104,7 @@ The next card you play this turn with an arcane damage effect, instead deals tha
 
     
     
-    
+    createdExtras: ["fealty"],
     
     
     functionalText: `Whenever you hit a **marked** hero, create a Fealty token.
@@ -80121,7 +80121,7 @@ The next card you play this turn with an arcane damage effect, instead deals tha
   
     
     
-    
+    referencedCards: ["fealty"],
     
     
     
@@ -80242,7 +80242,7 @@ The next card you play this turn with an arcane damage effect, instead deals tha
 
     
     
-    
+    createdExtras: ["fealty"],
     
     
     functionalText: `Whenever you hit a **marked** hero, create a Fealty token.
@@ -80259,7 +80259,7 @@ The next card you play this turn with an arcane damage effect, instead deals tha
   
     
     
-    
+    referencedCards: ["fealty"],
     
     
     
@@ -80552,7 +80552,7 @@ When this is defended by 1 or more attack action cards, this gets +1{p} until en
     defaultImage: "HVY134",
     firstReleaseDate: "2024-02-02",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Shiyana,Hero.Yorick,Hero.Zane],
+    legalHeroes: [Hero.Kassai,Hero.Shiyana],
     name: "Cintari Sellsword",
     printings: [{
         artists: ["Sebastian Szmyd"],
@@ -80806,7 +80806,7 @@ Cintari Sellsword can only attack if you've attacked with a weapon this turn.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["lightning-flow"],
     
     
     functionalText: `When this leaves the arena, create a Lightning Flow token.
@@ -80823,7 +80823,7 @@ Cintari Sellsword can only attack if you've attacked with a weapon this turn.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["lightning-flow"],
     
     
     
@@ -80887,7 +80887,7 @@ Cintari Sellsword can only attack if you've attacked with a weapon this turn.`,
 
     
     
-    
+    createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `Whenever this defends, create a Vigor token under another hero's control.
@@ -80904,7 +80904,7 @@ Cintari Sellsword can only attack if you've attacked with a weapon this turn.`,
   
     
     
-    
+    referencedCards: ["vigor"],
     
     
     
@@ -80968,7 +80968,7 @@ Cintari Sellsword can only attack if you've attacked with a weapon this turn.`,
 
     
     
-    
+    createdExtras: ["might"],
     defense: 2,
     
     functionalText: `Whenever this defends, create a Might token under another hero's control.
@@ -80985,7 +80985,7 @@ Cintari Sellsword can only attack if you've attacked with a weapon this turn.`,
   
     
     
-    
+    referencedCards: ["might"],
     
     
     
@@ -81145,7 +81145,7 @@ Cintari Sellsword can only attack if you've attacked with a weapon this turn.`,
 
     
     
-    
+    createdExtras: ["quicken"],
     defense: 2,
     
     functionalText: `Whenever this defends, create a Quicken token under another hero's control.
@@ -81162,7 +81162,7 @@ Cintari Sellsword can only attack if you've attacked with a weapon this turn.`,
   
     
     
-    
+    referencedCards: ["quicken"],
     
     
     
@@ -81532,7 +81532,7 @@ At the start of your turn, destroy this.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["agility"],
     defense: 3,
     
     functionalText: `When this defends, **clash** with the attacking hero. The winner creates an Agility token.`,
@@ -81547,7 +81547,7 @@ At the start of your turn, destroy this.`,
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["agility"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -81611,7 +81611,7 @@ At the start of your turn, destroy this.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["agility"],
     defense: 3,
     
     functionalText: `When this defends, **clash** with the attacking hero. The winner creates an Agility token.`,
@@ -81626,7 +81626,7 @@ At the start of your turn, destroy this.`,
   
     
     pitch: 2,
-    power: 5,
+    power: 5,referencedCards: ["agility"],
     
     
     
@@ -81690,7 +81690,7 @@ At the start of your turn, destroy this.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["agility"],
     defense: 3,
     
     functionalText: `When this defends, **clash** with the attacking hero. The winner creates an Agility token.`,
@@ -81705,7 +81705,7 @@ At the start of your turn, destroy this.`,
   
     
     pitch: 3,
-    power: 4,
+    power: 4,referencedCards: ["agility"],
     
     
     
@@ -82179,7 +82179,7 @@ At the start of your turn, destroy this.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["might"],
     defense: 3,
     
     functionalText: `When this defends, **clash** with the attacking hero. The winner creates a Might token.`,
@@ -82194,7 +82194,7 @@ At the start of your turn, destroy this.`,
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["might"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -82273,7 +82273,7 @@ At the start of your turn, destroy this.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["might"],
     defense: 3,
     
     functionalText: `When this defends, **clash** with the attacking hero. The winner creates a Might token.`,
@@ -82288,7 +82288,7 @@ At the start of your turn, destroy this.`,
   
     
     pitch: 2,
-    power: 5,
+    power: 5,referencedCards: ["might"],
     
     
     
@@ -82367,7 +82367,7 @@ At the start of your turn, destroy this.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["might"],
     defense: 3,
     
     functionalText: `When this defends, **clash** with the attacking hero. The winner creates a Might token.`,
@@ -82382,7 +82382,7 @@ At the start of your turn, destroy this.`,
   
     
     pitch: 3,
-    power: 4,
+    power: 4,referencedCards: ["might"],
     
     
     
@@ -82446,7 +82446,7 @@ At the start of your turn, destroy this.`,
 
     
     
-    cost: 4,
+    cost: 4,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `When this defends a Guardian attack, **clash** with the attacking hero. The winner creates a Seismic Surge token.`,
@@ -82461,7 +82461,7 @@ At the start of your turn, destroy this.`,
   
     
     pitch: 1,
-    power: 8,
+    power: 8,referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -82525,7 +82525,7 @@ At the start of your turn, destroy this.`,
 
     
     
-    cost: 4,
+    cost: 4,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `When this defends a Guardian attack, **clash** with the attacking hero. The winner creates a Seismic Surge token.`,
@@ -82540,7 +82540,7 @@ At the start of your turn, destroy this.`,
   
     
     pitch: 2,
-    power: 7,
+    power: 7,referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -82619,7 +82619,7 @@ At the start of your turn, destroy this.`,
 
     
     
-    cost: 4,
+    cost: 4,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `When this defends a Guardian attack, **clash** with the attacking hero. The winner creates a Seismic Surge token.`,
@@ -82634,7 +82634,7 @@ At the start of your turn, destroy this.`,
   
     
     pitch: 3,
-    power: 6,
+    power: 6,referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -82777,7 +82777,7 @@ At the start of your turn, destroy this.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["vigor"],
     defense: 3,
     
     functionalText: `When this defends, **clash** with the attacking hero. The winner creates a Vigor token.`,
@@ -82792,7 +82792,7 @@ At the start of your turn, destroy this.`,
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -82856,7 +82856,7 @@ At the start of your turn, destroy this.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["vigor"],
     defense: 3,
     
     functionalText: `When this defends, **clash** with the attacking hero. The winner creates a Vigor token.`,
@@ -82871,7 +82871,7 @@ At the start of your turn, destroy this.`,
   
     
     pitch: 2,
-    power: 5,
+    power: 5,referencedCards: ["vigor"],
     
     
     
@@ -82965,7 +82965,7 @@ At the start of your turn, destroy this.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["vigor"],
     defense: 3,
     
     functionalText: `When this defends, **clash** with the attacking hero. The winner creates a Vigor token.`,
@@ -82980,7 +82980,7 @@ At the start of your turn, destroy this.`,
   
     
     pitch: 3,
-    power: 4,
+    power: 4,referencedCards: ["vigor"],
     
     
     
@@ -83368,7 +83368,7 @@ Destroy target blue aura.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["ponder"],
     defense: 3,
     
     functionalText: `When this hits a hero, each hero puts a card from their hand on the bottom of their deck and creates a Ponder token.
@@ -83385,7 +83385,7 @@ Destroy target blue aura.`,
   
     
     pitch: 1,
-    power: 8,
+    power: 8,referencedCards: ["ponder"],
     
     
     
@@ -83449,7 +83449,7 @@ Destroy target blue aura.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["ponder"],
     defense: 3,
     
     functionalText: `When this hits a hero, each hero puts a card from their hand on the bottom of their deck and creates a Ponder token.
@@ -83466,7 +83466,7 @@ Destroy target blue aura.`,
   
     
     pitch: 2,
-    power: 7,
+    power: 7,referencedCards: ["ponder"],
     
     
     
@@ -83545,7 +83545,7 @@ Destroy target blue aura.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["ponder"],
     defense: 3,
     
     functionalText: `When this hits a hero, each hero puts a card from their hand on the bottom of their deck and creates a Ponder token.
@@ -83562,7 +83562,7 @@ Destroy target blue aura.`,
   
     
     pitch: 3,
-    power: 6,
+    power: 6,referencedCards: ["ponder"],
     
     
     
@@ -83756,7 +83756,7 @@ You may destroy a Bloodrot Pox token you control. If you do gain 1{h}.
   
     
     pitch: 1,
-    
+    referencedCards: ["bloodrot-pox"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -85472,7 +85472,7 @@ When this is destroyed, you may put an Illusionist aura with cost 0 from your ha
 
     
     
-    
+    createdExtras: ["frostbite"],
     defense: 0,
     
     functionalText: `**Action** - Destroy this: Create a Frostbite token under target hero's control. **Go again**`,
@@ -85487,7 +85487,7 @@ When this is destroyed, you may put an Illusionist aura with cost 0 from your ha
   
     
     
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -85611,7 +85611,7 @@ When this is destroyed, you may put an Illusionist aura with cost 0 from your ha
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["quicken"],
     defense: 2,
     
     functionalText: `When this hits, choose any number;
@@ -85630,7 +85630,7 @@ When this is destroyed, you may put an Illusionist aura with cost 0 from your ha
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["quicken"],
     
     
     
@@ -85709,7 +85709,7 @@ When this is destroyed, you may put an Illusionist aura with cost 0 from your ha
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["bloodrot-pox","ponder"],
     defense: 2,
     
     functionalText: `Each hero puts a card from their hand face-down into their arsenal.
@@ -85728,7 +85728,7 @@ Create a Ponder token under your control and a Bloodrot Pox token under each opp
   
     
     pitch: 2,
-    
+    referencedCards: ["bloodrot-pox","ponder"],
     
     
     
@@ -85837,7 +85837,7 @@ Create a Ponder token under your control and a Bloodrot Pox token under each opp
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["frailty","ponder"],
     defense: 2,
     
     functionalText: `Each hero puts an attack action card from their graveyard face-down into their arsenal. Each hero that does, discards a card.
@@ -85856,7 +85856,7 @@ Create a Ponder token under your control and a Frailty token under each opponent
   
     
     pitch: 2,
-    
+    referencedCards: ["frailty","ponder"],
     
     
     
@@ -85935,7 +85935,7 @@ Create a Ponder token under your control and a Frailty token under each opponent
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["inertia","ponder"],
     defense: 2,
     
     functionalText: `Each hero puts the top card of their deck face-down into their arsenal. Each hero that does, discards a card.
@@ -85954,7 +85954,7 @@ Create a Ponder token under your control and an Inertia token under each opponen
   
     
     pitch: 2,
-    
+    referencedCards: ["inertia","ponder"],
     
     
     
@@ -86101,7 +86101,7 @@ If you complete a **contract** this way, your Assassin attacks get **go again** 
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["golden-cog"],
     defense: 3,
     
     functionalText: `Create 2 Golden Cog tokens.
@@ -86118,7 +86118,7 @@ You may {t} a cog you control. If you do, put this on the bottom of its owner's 
   
     
     pitch: 1,
-    
+    referencedCards: ["golden-cog"],
     
     shorthands: [Shorthand.Tap],
     
@@ -87061,7 +87061,7 @@ You may {t} a cog you control. If you do, put this on the bottom of its owner's 
 
     
     
-    
+    createdExtras: ["golden-cog"],
     defense: 2,
     
     functionalText: `When this defends, create a Golden Cog token.
@@ -87078,7 +87078,7 @@ You may {t} a cog you control. If you do, put this on the bottom of its owner's 
   
     
     
-    
+    referencedCards: ["golden-cog"],
     
     
     
@@ -87142,7 +87142,7 @@ You may {t} a cog you control. If you do, put this on the bottom of its owner's 
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["golden-cog"],
     defense: 3,
     
     functionalText: `Create a Golden Cog token.
@@ -87159,7 +87159,7 @@ Put a steam counter on up to 2 cogs you control.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["golden-cog"],
     
     
     
@@ -87223,7 +87223,7 @@ Put a steam counter on up to 2 cogs you control.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["golden-cog"],
     defense: 3,
     
     functionalText: `When this hits a hero, you may {t} a cog you control. If you do, create a Golden Cog token.
@@ -87240,7 +87240,7 @@ Put a steam counter on up to 2 cogs you control.`,
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["golden-cog"],
     
     shorthands: [Shorthand.Poppers,Shorthand.Tap],
     
@@ -87304,7 +87304,7 @@ Put a steam counter on up to 2 cogs you control.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["golden-cog"],
     defense: 3,
     
     functionalText: `When this hits a hero, you may {t} a cog you control. If you do, create a Golden Cog token.
@@ -87321,7 +87321,7 @@ Put a steam counter on up to 2 cogs you control.`,
   
     
     pitch: 2,
-    power: 5,
+    power: 5,referencedCards: ["golden-cog"],
     
     shorthands: [Shorthand.Tap],
     
@@ -87385,7 +87385,7 @@ Put a steam counter on up to 2 cogs you control.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["golden-cog"],
     defense: 3,
     
     functionalText: `When this hits a hero, you may {t} a cog you control. If you do, create a Golden Cog token.
@@ -87402,7 +87402,7 @@ Put a steam counter on up to 2 cogs you control.`,
   
     
     pitch: 3,
-    power: 4,
+    power: 4,referencedCards: ["golden-cog"],
     
     shorthands: [Shorthand.Tap],
     
@@ -90580,7 +90580,7 @@ Until end of turn, your Warrior attacks get "When this is defended by 1 or more 
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["crouching-tiger"],
     defense: 2,
     
     functionalText: `When this attacks, if you've pitched a blue card this turn, create a Crouching Tiger in your hand.
@@ -90597,7 +90597,7 @@ Until end of turn, your Warrior attacks get "When this is defended by 1 or more 
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["crouching-tiger"],
     
     
     
@@ -90661,7 +90661,7 @@ Until end of turn, your Warrior attacks get "When this is defended by 1 or more 
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["crouching-tiger"],
     defense: 2,
     
     functionalText: `When this attacks, if you've pitched a blue card this turn, create a Crouching Tiger in your hand.
@@ -90678,7 +90678,7 @@ Until end of turn, your Warrior attacks get "When this is defended by 1 or more 
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["crouching-tiger"],
     
     
     
@@ -90742,7 +90742,7 @@ Until end of turn, your Warrior attacks get "When this is defended by 1 or more 
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["crouching-tiger"],
     defense: 2,
     
     functionalText: `When this attacks, if you've pitched a blue card this turn, create a Crouching Tiger in your hand.
@@ -90759,7 +90759,7 @@ Until end of turn, your Warrior attacks get "When this is defended by 1 or more 
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["crouching-tiger"],
     
     
     
@@ -91134,7 +91134,7 @@ The first card with watery grave you play from your graveyard each turn gets **g
 
     
     
-    
+    createdExtras: ["frailty"],
     
     
     functionalText: `**Cloaked**
@@ -91151,7 +91151,7 @@ While this is equipped face-down, when an attack with go again hits you, destroy
   
     
     
-    
+    referencedCards: ["frailty"],
     
     
     
@@ -91313,7 +91313,7 @@ At the beginning of your end phase, destroy this.`,
 
     
     
-    
+    createdExtras: ["bloodrot-pox"],
     
     
     functionalText: `**Cloaked**
@@ -91330,7 +91330,7 @@ While this is equipped face-down, when an attack hits you and its controller has
   
     
     
-    
+    referencedCards: ["bloodrot-pox"],
     
     
     
@@ -91394,7 +91394,7 @@ While this is equipped face-down, when an attack hits you and its controller has
 
     
     
-    
+    createdExtras: ["inertia"],
     
     
     functionalText: `**Cloaked**
@@ -91411,7 +91411,7 @@ While this is equipped face-down, when an attack with {p} greater than its base 
   
     
     
-    
+    referencedCards: ["inertia"],
     
     
     
@@ -92415,7 +92415,7 @@ You may destroy an aura you control. If you do, each opponent destroys an aura p
     defaultImage: "SLY034",
     firstReleaseDate: "2025-09-19",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Confidence",
     printings: [{
         artists: ["Sebastian Giacobino"],
@@ -92849,7 +92849,7 @@ You may destroy an aura you control. If you do, each opponent destroys an aura p
   
     
     
-    
+    referencedCards: ["vigor"],
     
     
     
@@ -93210,7 +93210,7 @@ You may destroy an aura you control. If you do, each opponent destroys an aura p
 
     
     
-    cost: 4,
+    cost: 4,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `When this hits a hero, destroy all cards in their arsenal. Create a Gold token for each card destroyed this way.
@@ -93227,7 +93227,7 @@ You may destroy an aura you control. If you do, each opponent destroys an aura p
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["gold"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -93421,7 +93421,7 @@ Deal 1 arcane damage to any target.`,
 
     arcane: 1,
     
-    cost: 0,
+    cost: 0,createdExtras: ["ponder"],
     
     
     functionalText: `Create a Ponder token.
@@ -93438,7 +93438,7 @@ Deal 1 arcane damage to any target.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["ponder"],
     
     
     
@@ -93532,7 +93532,7 @@ Deal 1 arcane damage to any target.`,
 
     arcane: 1,
     
-    cost: 0,
+    cost: 0,createdExtras: ["lightning-flow"],
     
     
     functionalText: `Create a Lightning Flow token.
@@ -93549,7 +93549,7 @@ Deal 1 arcane damage to any target.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["lightning-flow"],
     
     
     
@@ -93613,7 +93613,7 @@ Deal 1 arcane damage to any target.`,
 
     
     
-    
+    createdExtras: ["ponder"],
     defense: 0,
     
     functionalText: `**Instant** - {r}{r}, destroy this: Prevent the next 1 damage that would be dealt to you this turn. If you prevent damage this way, create a Ponder token.`,
@@ -93628,7 +93628,7 @@ Deal 1 arcane damage to any target.`,
   
     
     
-    
+    referencedCards: ["ponder"],
     
     
     
@@ -93899,7 +93899,7 @@ Deal 1 arcane damage to any target.`,
   
     oppositeSideCardIdentifier: `bank-breaker`,oppositeSideCardIdentifiers: ["bank-breaker"],
     pitch: 2,
-    
+    referencedCards: ["bank-breaker","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -94010,7 +94010,7 @@ Deal 1 arcane damage to any target.`,
   
     oppositeSideCardIdentifier: `nitro-mechanoid`,oppositeSideCardIdentifiers: ["nitro-mechanoid"],
     pitch: 2,
-    
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow","nitro-mechanoid"],
     
     
     
@@ -94429,7 +94429,7 @@ Deal 1 arcane damage to any target.`,
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["blasmophet-levia-consumed","blasmophet-the-insatiable-hunger","blasmophet-the-soul-harvester"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -94506,7 +94506,7 @@ Deal 1 arcane damage to any target.`,
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["blasmophet-levia-consumed","blasmophet-the-insatiable-hunger","blasmophet-the-soul-harvester"],
     
     shorthands: [Shorthand.Buffs,Shorthand.Poppers],
     
@@ -96669,7 +96669,7 @@ If 3 or more Chi were pitched to play this, Cosmic Awakening's {p} is 20.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["inner-chi-blue"],
     
     
     
@@ -96748,7 +96748,7 @@ If 3 or more Chi were pitched to play this, Cosmic Awakening's {p} is 20.`,
 
     arcane: 1,
     
-    cost: 2,
+    cost: 2,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `**Instant** - {r}, discard this: Deal 1 arcane damage to target hero. Create a Lightning Flow token.
@@ -96765,7 +96765,7 @@ If 3 or more Chi were pitched to play this, Cosmic Awakening's {p} is 20.`,
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["lightning-flow"],
     
     
     
@@ -96829,7 +96829,7 @@ If 3 or more Chi were pitched to play this, Cosmic Awakening's {p} is 20.`,
 
     arcane: 1,
     
-    cost: 2,
+    cost: 2,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `**Instant** - {r}, discard this: Deal 1 arcane damage to target hero. Create a Lightning Flow token.
@@ -96846,7 +96846,7 @@ If 3 or more Chi were pitched to play this, Cosmic Awakening's {p} is 20.`,
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["lightning-flow"],
     
     
     
@@ -96925,7 +96925,7 @@ If 3 or more Chi were pitched to play this, Cosmic Awakening's {p} is 20.`,
 
     arcane: 1,
     
-    cost: 2,
+    cost: 2,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `**Instant** - {r}, discard this: Deal 1 arcane damage to target hero. Create a Lightning Flow token.
@@ -96942,7 +96942,7 @@ If 3 or more Chi were pitched to play this, Cosmic Awakening's {p} is 20.`,
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["lightning-flow"],
     
     
     
@@ -97692,7 +97692,7 @@ Your aura attacks with one or more +1{p} counters get **go again**.`,
     defaultImage: "SBL035",
     firstReleaseDate: "2023-07-14",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    legalHeroes: [Hero.Azalea,Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Lexi,Hero.Librarian,Hero.Marlynn,Hero.Olympia,Hero.Prism,Hero.Riptide,Hero.Shiyana,Hero.Taylor,Hero.Theryon,Hero.Zane],
     name: "Courage",
     printings: [{
         artists: ["Henrique Lindner"],
@@ -97986,7 +97986,7 @@ Your aura attacks with one or more +1{p} counters get **go again**.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["courage"],
     defense: 3,
     
     functionalText: `Create a Courage token under target hero's control.
@@ -98005,7 +98005,7 @@ When this defends an attack with {p} greater than its base, remove a +1{p} count
   
     
     pitch: 3,
-    
+    referencedCards: ["courage"],
     
     
     
@@ -99286,7 +99286,7 @@ When this defends an attack with {p} greater than its base, remove a +1{p} count
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["soulbead-strike-blue","soulbead-strike-red","soulbead-strike-yellow"],
     
     
     
@@ -99410,7 +99410,7 @@ When this defends an attack with {p} greater than its base, remove a +1{p} count
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["soulbead-strike-blue","soulbead-strike-red","soulbead-strike-yellow"],
     
     
     
@@ -99534,7 +99534,7 @@ When this defends an attack with {p} greater than its base, remove a +1{p} count
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["soulbead-strike-blue","soulbead-strike-red","soulbead-strike-yellow"],
     
     
     
@@ -99784,7 +99784,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -99895,7 +99895,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -100021,7 +100021,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
   
     
     pitch: 3,
-    power: 3,
+    power: 3,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -100100,7 +100100,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
 
     
     
-    
+    createdExtras: ["seismic-surge"],
     defense: 4,
     
     functionalText: `When this defends, you may reveal a card with **crush** from your hand. If you do, create a Seismic Surge token.`,
@@ -100115,7 +100115,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
   
     
     pitch: 1,
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -100179,7 +100179,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
 
     
     
-    
+    createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `When this defends, you may reveal a card with **crush** from your hand. If you do, create a Seismic Surge token.`,
@@ -100194,7 +100194,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
   
     
     pitch: 2,
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -100273,7 +100273,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
 
     
     
-    
+    createdExtras: ["seismic-surge"],
     defense: 2,
     
     functionalText: `When this defends, you may reveal a card with **crush** from your hand. If you do, create a Seismic Surge token.`,
@@ -100288,7 +100288,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
   
     
     pitch: 3,
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -100738,7 +100738,7 @@ When this hits a hero, destroy the top card of their deck.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `**Scrap**
@@ -100755,7 +100755,7 @@ When this attacks, if it scrapped a card, this gets **go again**. If a cog was s
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["gold"],
     
     
     
@@ -102231,7 +102231,7 @@ The next time you attack with a sword this turn, draw a card, then put a card fr
     defaultImage: "SFA036",
     firstReleaseDate: "2022-11-11",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Shiyana,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Taylor,Hero.Zen],
     name: "Crouching Tiger",
     printings: [{
         artists: ["Carlos Cruchaga"],
@@ -103038,7 +103038,7 @@ Whenever an arrow is put face-up into your arsenal from your deck, you may pay {
 
     
     
-    
+    createdExtras: ["gold"],
     
     
     functionalText: `Your hero is Royal.
@@ -103055,7 +103055,7 @@ When this is equipped, create a Gold token.`,
   
     
     
-    
+    referencedCards: ["gold"],
     
     
     
@@ -103119,7 +103119,7 @@ When this is equipped, create a Gold token.`,
 
     
     
-    
+    createdExtras: ["spellbane-aegis"],
     defense: 0,
     
     functionalText: `**Instant** - Destroy this: Put a card from your arsenal on the bottom of your deck. If you do, draw a card and create a Spellbane Aegis token.
@@ -103136,7 +103136,7 @@ When this is equipped, create a Gold token.`,
   
     
     
-    
+    referencedCards: ["spellbane-aegis"],
     
     
     
@@ -103826,7 +103826,7 @@ When this is equipped, create a Gold token.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `Create 3 Might tokens.
@@ -103843,7 +103843,7 @@ When this is equipped, create a Gold token.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["might"],
     
     
     
@@ -105716,7 +105716,7 @@ Each hero banishes a card from their hand.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     defense: 2,
     
     functionalText: `Target opposing hero reveals their hand. If an attack reaction card is revealed this way, **mark** them.
@@ -105735,7 +105735,7 @@ Your next dagger attack this turn gets +4{p}.
   
     
     pitch: 1,
-    
+    referencedCards: ["marked"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -105799,7 +105799,7 @@ Your next dagger attack this turn gets +4{p}.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     defense: 2,
     
     functionalText: `Target opposing hero reveals their hand. If an attack reaction card is revealed this way, **mark** them.
@@ -105818,7 +105818,7 @@ Your next dagger attack this turn gets +3{p}.
   
     
     pitch: 2,
-    
+    referencedCards: ["marked"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -105882,7 +105882,7 @@ Your next dagger attack this turn gets +3{p}.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     defense: 2,
     
     functionalText: `Target opposing hero reveals their hand. If an attack reaction card is revealed this way, **mark** them.
@@ -105901,7 +105901,7 @@ Your next dagger attack this turn gets +2{p}.
   
     
     pitch: 3,
-    
+    referencedCards: ["marked"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -107419,7 +107419,7 @@ When this hits a hero, **steal** a Gold token they control.`,
   
     
     
-    power: 3,
+    power: 3,referencedCards: ["gold"],
     
     
     
@@ -107751,7 +107751,7 @@ When this hits a hero, **steal** a Gold token they control.`,
   
     
     pitch: 2,
-    power: 5,
+    power: 5,referencedCards: ["spinning-wheel-kick-blue","spinning-wheel-kick-red","spinning-wheel-kick-yellow"],
     
     
     
@@ -109148,7 +109148,7 @@ Once per turn, you may play a Mechanologist item with cost 1 or less from the to
 
     arcane: 1,
     
-    cost: 1,
+    cost: 1,createdExtras: ["embodiment-of-lightning"],
     defense: 3,
     
     functionalText: `**Quickstrike** - If this has go again, it gets +1{p} and "When this attacks a hero, deal 1 arcane damage to them."
@@ -109165,7 +109165,7 @@ The first time this deals damage to a hero, create an Embodiment of Lightning to
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["embodiment-of-lightning"],
     
     
     
@@ -110863,7 +110863,7 @@ If it has an aim counter, it gets "When this hits a hero, look at their hand and
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["flurry"],
     defense: 2,
     
     functionalText: `Target weapon attack gets +3{p}. If the weapon has been sharpened this turn, the attack gets "When this hits a hero, create a Flurry token."`,
@@ -110878,7 +110878,7 @@ If it has an aim counter, it gets "When this hits a hero, look at their hand and
   
     
     pitch: 1,
-    
+    referencedCards: ["flurry"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -110942,7 +110942,7 @@ If it has an aim counter, it gets "When this hits a hero, look at their hand and
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["flurry"],
     defense: 2,
     
     functionalText: `Target weapon attack gets +2{p}. If the weapon has been sharpened this turn, the attack gets "When this hits a hero, create a Flurry token."`,
@@ -110957,7 +110957,7 @@ If it has an aim counter, it gets "When this hits a hero, look at their hand and
   
     
     pitch: 2,
-    
+    referencedCards: ["flurry"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -111036,7 +111036,7 @@ If it has an aim counter, it gets "When this hits a hero, look at their hand and
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["flurry"],
     defense: 2,
     
     functionalText: `Target weapon attack gets +1{p}. If the weapon has been sharpened this turn, the attack gets "When this hits a hero, create a Flurry token."`,
@@ -111051,7 +111051,7 @@ If it has an aim counter, it gets "When this hits a hero, look at their hand and
   
     
     pitch: 3,
-    
+    referencedCards: ["flurry"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -111403,7 +111403,7 @@ If it has an aim counter, it gets "When this hits a hero, look at their hand and
 
     
     bannedFormats: [Format.SilverAge],
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `Destroy an aura you control. If you do, create 3 Runechant tokens.
@@ -111420,7 +111420,7 @@ If it has an aim counter, it gets "When this hits a hero, look at their hand and
   
     
     pitch: 1,
-    
+    referencedCards: ["runechant"],
     restrictedFormats: [Format.LivingLegend],
     
     
@@ -111484,7 +111484,7 @@ If it has an aim counter, it gets "When this hits a hero, look at their hand and
 
     
     bannedFormats: [Format.SilverAge],
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `Destroy an aura you control. If you do, create 2 Runechant tokens.
@@ -111501,7 +111501,7 @@ If it has an aim counter, it gets "When this hits a hero, look at their hand and
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     restrictedFormats: [Format.LivingLegend],
     
     
@@ -111565,7 +111565,7 @@ If it has an aim counter, it gets "When this hits a hero, look at their hand and
 
     
     bannedFormats: [Format.SilverAge],
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `Destroy an aura you control. If you do, create a Runechant token.
@@ -111582,7 +111582,7 @@ If it has an aim counter, it gets "When this hits a hero, look at their hand and
   
     
     pitch: 3,
-    
+    referencedCards: ["runechant"],
     restrictedFormats: [Format.LivingLegend],
     
     
@@ -112304,7 +112304,7 @@ If it has an aim counter, it gets "When this hits a hero, look at their hand and
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["bloodrot-pox","frailty","inertia"],
     defense: 2,
     
     functionalText: `This can't be played from hand.
@@ -112321,7 +112321,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["bloodrot-pox","frailty","inertia"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -112385,7 +112385,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["bloodrot-pox","frailty","inertia"],
     defense: 2,
     
     functionalText: `This can't be played from hand.
@@ -112402,7 +112402,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
   
     
     pitch: 2,
-    power: 5,
+    power: 5,referencedCards: ["bloodrot-pox","frailty","inertia"],
     
     
     
@@ -112466,7 +112466,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["bloodrot-pox","frailty","inertia"],
     defense: 2,
     
     functionalText: `This can't be played from hand.
@@ -112483,7 +112483,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
   
     
     pitch: 3,
-    power: 4,
+    power: 4,referencedCards: ["bloodrot-pox","frailty","inertia"],
     
     
     
@@ -112796,7 +112796,7 @@ When the combat chain closes, gain {h} equal to the number of heroes who have lo
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `When this attacks, if an attack action card was pitched to play this, this gets +2{p}. If a non-attack action card was pitched to play this, create 2 Runechant tokens.`,
@@ -112811,7 +112811,7 @@ When the combat chain closes, gain {h} equal to the number of heroes who have lo
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["runechant"],
     
     
     
@@ -112875,7 +112875,7 @@ When the combat chain closes, gain {h} equal to the number of heroes who have lo
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `When this attacks, if an attack action card was pitched to play this, this gets +2{p}. If a non-attack action card was pitched to play this, create 2 Runechant tokens.`,
@@ -112890,7 +112890,7 @@ When the combat chain closes, gain {h} equal to the number of heroes who have lo
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["runechant"],
     
     
     
@@ -112954,7 +112954,7 @@ When the combat chain closes, gain {h} equal to the number of heroes who have lo
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `When this attacks, if an attack action card was pitched to play this, this gets +2{p}. If a non-attack action card was pitched to play this, create 2 Runechant tokens.`,
@@ -112969,7 +112969,7 @@ When the combat chain closes, gain {h} equal to the number of heroes who have lo
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["runechant"],
     
     
     
@@ -113033,7 +113033,7 @@ When the combat chain closes, gain {h} equal to the number of heroes who have lo
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `**Rune Gate**
@@ -113052,7 +113052,7 @@ When the combat chain closes, create Runechant tokens equal to the number of her
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -113116,7 +113116,7 @@ When the combat chain closes, create Runechant tokens equal to the number of her
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `**Rune Gate**
@@ -113135,7 +113135,7 @@ When the combat chain closes, create Runechant tokens equal to the number of her
   
     
     pitch: 2,
-    power: 5,
+    power: 5,referencedCards: ["runechant"],
     
     
     
@@ -113199,7 +113199,7 @@ When the combat chain closes, create Runechant tokens equal to the number of her
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `**Rune Gate**
@@ -113218,7 +113218,7 @@ When the combat chain closes, create Runechant tokens equal to the number of her
   
     
     pitch: 3,
-    power: 4,
+    power: 4,referencedCards: ["runechant"],
     
     
     
@@ -113267,7 +113267,7 @@ When the combat chain closes, create Runechant tokens equal to the number of her
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     
     
     functionalText: `**Legendary**
@@ -113288,7 +113288,7 @@ When a hero deals lethal damage to another hero, they create Gold tokens equal t
   
     
     
-    
+    referencedCards: ["gold"],
     
     
     
@@ -114399,7 +114399,7 @@ When the combat chain closes, you may banish this face-down. If you do, for each
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["fang","fang-dracai-of-blades"],
     
     
     
@@ -115403,7 +115403,7 @@ When the combat chain closes, you may banish this face-down. If you do, for each
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["fealty"],
     defense: 2,
     
     functionalText: `If you control 2 or more Draconic chain links, this gets **go again** and "When this attacks a hero, create a Fealty token."`,
@@ -115418,7 +115418,7 @@ When the combat chain closes, you may banish this face-down. If you do, for each
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["fealty"],
     
     
     
@@ -115527,7 +115527,7 @@ When the combat chain closes, you may banish this face-down. If you do, for each
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     defense: 3,
     
     functionalText: `When this defends an attack with {p} greater than its base, **mark** the attacking hero.`,
@@ -115542,7 +115542,7 @@ When the combat chain closes, you may banish this face-down. If you do, for each
   
     
     pitch: 1,
-    
+    referencedCards: ["marked"],
     
     
     
@@ -115623,7 +115623,7 @@ If a Chi was pitched to play this, effects don't trigger if an attack hits you t
   
     
     pitch: 3,
-    
+    referencedCards: ["inner-chi-blue"],
     
     
     
@@ -116122,7 +116122,7 @@ If a Chi was pitched to play this, effects don't trigger if an attack hits you t
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["surging-strike-blue","surging-strike-red","surging-strike-yellow"],
     
     
     
@@ -116218,7 +116218,7 @@ If a Chi was pitched to play this, effects don't trigger if an attack hits you t
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["surging-strike-blue","surging-strike-red","surging-strike-yellow"],
     
     
     
@@ -116299,7 +116299,7 @@ If a Chi was pitched to play this, effects don't trigger if an attack hits you t
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["surging-strike-blue","surging-strike-red","surging-strike-yellow"],
     
     
     
@@ -116738,7 +116738,7 @@ Whenever this banishes an attack action card, gain 1{h}.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["ponder"],
     defense: 2,
     
     functionalText: `When this hits a hero, create a Ponder token.`,
@@ -116753,7 +116753,7 @@ Whenever this banishes an attack action card, gain 1{h}.`,
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["ponder"],
     
     
     
@@ -116817,7 +116817,7 @@ Whenever this banishes an attack action card, gain 1{h}.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["ponder"],
     defense: 2,
     
     functionalText: `When this hits a hero, create a Ponder token.`,
@@ -116832,7 +116832,7 @@ Whenever this banishes an attack action card, gain 1{h}.`,
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["ponder"],
     
     
     
@@ -116896,7 +116896,7 @@ Whenever this banishes an attack action card, gain 1{h}.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["ponder"],
     defense: 2,
     
     functionalText: `When this hits a hero, create a Ponder token.`,
@@ -116911,7 +116911,7 @@ Whenever this banishes an attack action card, gain 1{h}.`,
   
     
     pitch: 3,
-    power: 3,
+    power: 3,referencedCards: ["ponder"],
     
     
     
@@ -117573,7 +117573,7 @@ If a non-attack action card was pitched to play this, each hero chooses and dest
 
     
     
-    
+    createdExtras: ["ponder"],
     
     
     functionalText: `Once per turn, when this or a non-token permanent you control with **ward** is destroyed, you may pay {r}. If you do, create a Ponder token.
@@ -117590,7 +117590,7 @@ If a non-attack action card was pitched to play this, each hero chooses and dest
   
     
     
-    
+    referencedCards: ["ponder"],
     
     
     
@@ -117610,7 +117610,7 @@ If a non-attack action card was pitched to play this, each hero chooses and dest
     defaultImage: "FAB165-CF",
     firstReleaseDate: "2023-07-14",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    legalHeroes: [Hero.Ruudi,Hero.Shiyana,Hero.Taylor],
     name: "Diamond",
     printings: [{
         artists: ["Isuardi Therianto"],
@@ -117784,7 +117784,7 @@ If a non-attack action card was pitched to play this, each hero chooses and dest
 
     
     
-    
+    createdExtras: ["diamond"],
     defense: 1,
     
     functionalText: `**Ruu'di Specialization**
@@ -117803,7 +117803,7 @@ At the beginning of your end phase, if you have 4 or more cards in hand, create 
   
     
     
-    
+    referencedCards: ["diamond"],
     
     
     
@@ -118269,7 +118269,7 @@ Your next zombie attack this turn gets +4{p} and "When this hits, destroy this z
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["toughness"],
     defense: 3,
     
     functionalText: `When this defends, you may pay up to {r}{r}{r}. Create that many Toughness tokens.`,
@@ -118284,7 +118284,7 @@ Your next zombie attack this turn gets +4{p} and "When this hits, destroy this z
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["toughness"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -118363,7 +118363,7 @@ Your next zombie attack this turn gets +4{p} and "When this hits, destroy this z
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["toughness"],
     defense: 3,
     
     functionalText: `When this defends, you may pay up to {r}{r}{r}. Create that many Toughness tokens.`,
@@ -118378,7 +118378,7 @@ Your next zombie attack this turn gets +4{p} and "When this hits, destroy this z
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["toughness"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -118457,7 +118457,7 @@ Your next zombie attack this turn gets +4{p} and "When this hits, destroy this z
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["toughness"],
     defense: 3,
     
     functionalText: `When this defends, you may pay up to {r}{r}{r}. Create that many Toughness tokens.`,
@@ -118472,7 +118472,7 @@ Your next zombie attack this turn gets +4{p} and "When this hits, destroy this z
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["toughness"],
     
     
     
@@ -119661,7 +119661,7 @@ Each hero banishes a card from their arsenal.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["toughness"],
     defense: 3,
     
     functionalText: `When this attacks, if you've been cheered this turn, create a Toughness token.
@@ -119678,7 +119678,7 @@ When this defends, if it has 6 or more {d}, the attacking hero puts a card from 
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["toughness"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -119821,7 +119821,7 @@ When this defends, if it has 6 or more {d}, the attacking hero puts a card from 
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["toughness"],
     defense: 3,
     
     functionalText: `When this attacks, if you've been cheered this turn, create a Toughness token.
@@ -119838,7 +119838,7 @@ When this defends, if it has 6 or more {d}, the attacking hero puts an aura they
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["toughness"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -119917,7 +119917,7 @@ When this defends, if it has 6 or more {d}, the attacking hero puts an aura they
 
     
     
-    cost: 6,
+    cost: 6,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `**Crush** - When this deals 4 or more damage to a Guardian hero, destroy all auras they control.
@@ -119934,7 +119934,7 @@ When this defends, if it has 6 or more {d}, the attacking hero puts an aura they
   
     
     pitch: 1,
-    power: 10,
+    power: 10,referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -120015,7 +120015,7 @@ When this hits a hero, if you control Surging Strike, Descendent Gustwave, and B
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["bonds-of-ancestry-blue","bonds-of-ancestry-red","bonds-of-ancestry-yellow","descendent-gustwave-blue","descendent-gustwave-red","descendent-gustwave-yellow","surging-strike-blue","surging-strike-red","surging-strike-yellow"],
     
     
     
@@ -120079,7 +120079,7 @@ When this hits a hero, if you control Surging Strike, Descendent Gustwave, and B
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["toughness"],
     defense: 3,
     
     functionalText: `When this attacks, if you've been cheered this turn, create a Toughness token.
@@ -120096,7 +120096,7 @@ When this defends, if it has 6 or more {d}, the attacking hero puts a card from 
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["toughness"],
     
     
     
@@ -120220,7 +120220,7 @@ When this defends, if it has 6 or more {d}, the attacking hero puts a card from 
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["fealty"],
     defense: 2,
     
     functionalText: `If you control 2 or more Draconic chain links, this gets **go again** and "When this attacks a hero, create a Fealty token."`,
@@ -120235,7 +120235,7 @@ When this defends, if it has 6 or more {d}, the attacking hero puts a card from 
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["fealty"],
     
     
     
@@ -120982,7 +120982,7 @@ At the beginning of your action phase, destroy this unless you remove a steam co
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["ponder"],
     defense: 3,
     
     functionalText: `Each hero puts all cards in their arsenal on the bottom of their deck and creates a Ponder token.
@@ -120999,7 +120999,7 @@ At the beginning of your action phase, destroy this unless you remove a steam co
   
     
     pitch: 2,
-    
+    referencedCards: ["ponder"],
     
     
     
@@ -121327,7 +121327,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `When this enters the arena, draw a card, then put a card from your hand into your deck fifth from the top.
@@ -121344,7 +121344,7 @@ At the start of your turn, destroy this, then create 3 Seismic Surge tokens.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -121408,7 +121408,7 @@ At the start of your turn, destroy this, then create 3 Seismic Surge tokens.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `When this enters the arena, draw a card, then put a card from your hand into your deck fifth from the top.
@@ -121425,7 +121425,7 @@ At the start of your turn, destroy this, then create 2 Seismic Surge tokens.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -121489,7 +121489,7 @@ At the start of your turn, destroy this, then create 2 Seismic Surge tokens.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `When this enters the arena, draw a card, then put a card from your hand into your deck fifth from the top.
@@ -121506,7 +121506,7 @@ At the start of your turn, destroy this, then create a Seismic Surge token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -121924,7 +121924,7 @@ When this hits, **opt 1**`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `Remove half the gold counters from Treasure Island, rounded up. If you are a Thief, instead remove all of them.
@@ -121941,7 +121941,7 @@ Create Gold tokens equal to the number of gold counters removed this way.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["gold","treasure-island"],
     
     
     
@@ -122338,7 +122338,7 @@ At the beginning of your end phase, put a doom counter on this, then each hero d
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["blasmophet-the-soul-harvester"],
     
     
     functionalText: `**Legendary Levia Specialization**
@@ -122357,7 +122357,7 @@ Create a Blasmophet, the Soul Harvester token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["blasmophet-the-soul-harvester"],
     
     
     
@@ -122873,7 +122873,7 @@ Create a Blasmophet, the Soul Harvester token.`,
   
     
     
-    
+    referencedCards: ["dawnblade-resplendent"],
     
     
     
@@ -123069,7 +123069,7 @@ If a hero would create 1 or more tokens from a **wager** this turn, instead they
   
     
     pitch: 1,
-    
+    referencedCards: ["gold"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -123581,7 +123581,7 @@ If you've played or activated 2 or more attack reactions this chain link, this g
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `When this attacks, create Runechant tokens equal to the number of non-attack action cards you've played this turn. If 3 or more Runechants are created this way, this gets **go again**.`,
@@ -123596,7 +123596,7 @@ If you've played or activated 2 or more attack reactions this chain link, this g
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["runechant"],
     
     
     
@@ -123754,7 +123754,7 @@ If you've played or activated 2 or more attack reactions this chain link, this g
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["agility","might","vigor"],
     defense: 3,
     
     functionalText: `When this attacks a hero, if you have less {h} and control fewer equipment and fewer tokens than them, this gets +3{p}, **overpower**, and "When this hits, create an Agility, Might, and Vigor token."`,
@@ -123769,7 +123769,7 @@ If you've played or activated 2 or more attack reactions this chain link, this g
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["agility","might","vigor"],
     
     
     
@@ -123833,7 +123833,7 @@ If you've played or activated 2 or more attack reactions this chain link, this g
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["agility","might","vigor"],
     defense: 3,
     
     functionalText: `When this attacks a hero, if you have less {h} and control fewer equipment and fewer tokens than them, this gets +3{p}, **overpower**, and "When this hits, create an Agility, Might, and Vigor token."`,
@@ -123848,7 +123848,7 @@ If you've played or activated 2 or more attack reactions this chain link, this g
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["agility","might","vigor"],
     
     
     
@@ -123912,7 +123912,7 @@ If you've played or activated 2 or more attack reactions this chain link, this g
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["agility","might","vigor"],
     defense: 3,
     
     functionalText: `When this attacks a hero, if you have less {h} and control fewer equipment and fewer tokens than them, this gets +3{p}, **overpower**, and "When this hits, create an Agility, Might, and Vigor token."`,
@@ -123927,7 +123927,7 @@ If you've played or activated 2 or more attack reactions this chain link, this g
   
     
     pitch: 3,
-    power: 3,
+    power: 3,referencedCards: ["agility","might","vigor"],
     
     
     
@@ -124091,7 +124091,7 @@ If you've played or activated 2 or more attack reactions this chain link, this g
 
     
     
-    
+    createdExtras: ["silver"],
     
     
     functionalText: `**Instant** - {t}: **Cure** a disease an opponent controls. If you do, create a Silver token.
@@ -124108,7 +124108,7 @@ If you've played or activated 2 or more attack reactions this chain link, this g
   
     
     
-    
+    referencedCards: ["bloodrot-pox","frailty","inertia","silver"],
     
     shorthands: [Shorthand.Tap],
     
@@ -124178,7 +124178,7 @@ If you've played or activated 2 or more attack reactions this chain link, this g
 
     
     
-    
+    createdExtras: ["silver"],
     
     
     functionalText: `**Instant** - {t}: **Cure** a disease an opponent controls. If you do, create a Silver token.
@@ -124195,7 +124195,7 @@ If you've played or activated 2 or more attack reactions this chain link, this g
   
     
     
-    
+    referencedCards: ["bloodrot-pox","frailty","inertia","silver"],
     
     shorthands: [Shorthand.Tap],
     
@@ -126036,7 +126036,7 @@ When this attacks, draw a card.`,
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["runechant"],
     
     
     
@@ -126147,7 +126147,7 @@ When this attacks, draw a card.`,
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["runechant"],
     
     
     
@@ -126258,7 +126258,7 @@ When this attacks, draw a card.`,
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["runechant"],
     
     
     
@@ -126864,7 +126864,7 @@ When this deals damage to a hero, they can't gain {h} during their next action p
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `When this attacks, if you've played a non-attack action card this turn, create a Runechant token.
@@ -126883,7 +126883,7 @@ When this hits, create a Runechant token.`,
   
     
     pitch: 3,
-    power: 4,
+    power: 4,referencedCards: ["runechant"],
     
     
     
@@ -127706,7 +127706,7 @@ When this attacks a hero, you may **wager** with them. The winner draws a card, 
   
     
     
-    
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -128253,7 +128253,7 @@ When this attacks a hero, you may **wager** with them. The winner draws a card, 
 
     
     
-    
+    createdExtras: ["ash"],
     
     
     functionalText: `Whenever you pitch a red card, create an Ash token.
@@ -128270,7 +128270,7 @@ If you've played a red card this turn, your dragon attacks get **go again**.`,
   
     
     
-    
+    referencedCards: ["ash"],
     
     
     
@@ -128361,7 +128361,7 @@ If you've played a red card this turn, your dragon attacks get **go again**.`,
 
     
     
-    
+    createdExtras: ["ash"],
     
     
     functionalText: `Whenever you pitch a red card, create an Ash token.
@@ -128378,7 +128378,7 @@ If you've played a red card this turn, your dragon attacks get **go again**.`,
   
     
     
-    
+    referencedCards: ["ash"],
     
     
     
@@ -129876,7 +129876,7 @@ If an item or equipment was banished from **boosting** this, this gets +1{p}.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["ash"],
     defense: 3,
     
     functionalText: `**Phantasm**
@@ -129895,7 +129895,7 @@ When this is destroyed, create an Ash token.
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["ash"],
     
     
     
@@ -129959,7 +129959,7 @@ When this is destroyed, create an Ash token.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["ash"],
     defense: 3,
     
     functionalText: `**Phantasm**
@@ -129978,7 +129978,7 @@ When this is destroyed, create an Ash token.
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["ash"],
     
     
     
@@ -130042,7 +130042,7 @@ When this is destroyed, create an Ash token.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["ash"],
     defense: 3,
     
     functionalText: `**Phantasm**
@@ -130061,7 +130061,7 @@ When this is destroyed, create an Ash token.
   
     
     pitch: 3,
-    power: 3,
+    power: 3,referencedCards: ["ash"],
     
     
     
@@ -130757,7 +130757,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
   
     
     pitch: 1,
-    
+    referencedCards: ["miragai"],
     
     
     
@@ -130836,7 +130836,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
   
     
     pitch: 1,
-    
+    referencedCards: ["cromai"],
     
     
     
@@ -130915,7 +130915,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
   
     
     pitch: 1,
-    
+    referencedCards: ["ouvia"],
     
     
     
@@ -130994,7 +130994,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
   
     
     pitch: 1,
-    
+    referencedCards: ["themai"],
     
     
     
@@ -131073,7 +131073,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
   
     
     pitch: 1,
-    
+    referencedCards: ["vynserakai"],
     
     
     
@@ -131152,7 +131152,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
   
     
     pitch: 1,
-    
+    referencedCards: ["nekria"],
     
     
     
@@ -131528,7 +131528,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["aether-ashwing","ash"],
     defense: 3,
     
     functionalText: `When this hits, create an Ash token, then **transform** up to 1 ash you control into an Aether Ashwing.`,
@@ -131543,7 +131543,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["aether-ashwing","ash"],
     
     
     
@@ -131607,7 +131607,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["aether-ashwing","ash"],
     defense: 3,
     
     functionalText: `When this hits, create an Ash token, then **transform** up to 1 ash you control into an Aether Ashwing.`,
@@ -131622,7 +131622,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["aether-ashwing","ash"],
     
     
     
@@ -131686,7 +131686,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["aether-ashwing","ash"],
     defense: 3,
     
     functionalText: `When this hits, create an Ash token, then **transform** up to 1 ash you control into an Aether Ashwing.`,
@@ -131701,7 +131701,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["aether-ashwing","ash"],
     
     
     
@@ -132387,7 +132387,7 @@ If you control 3 or more Fealty tokens, this gets +1{d}.
   
     
     
-    
+    referencedCards: ["fealty"],
     
     
     
@@ -132481,7 +132481,7 @@ If you control 3 or more Fealty tokens, this gets +1{d}.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["embodiment-of-earth"],
     defense: 2,
     
     functionalText: `When this hits, create an Embodiment of Earth token.`,
@@ -132496,7 +132496,7 @@ If you control 3 or more Fealty tokens, this gets +1{d}.
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["embodiment-of-earth"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -132560,7 +132560,7 @@ If you control 3 or more Fealty tokens, this gets +1{d}.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["embodiment-of-earth"],
     defense: 2,
     
     functionalText: `When this hits, create an Embodiment of Earth token.`,
@@ -132575,7 +132575,7 @@ If you control 3 or more Fealty tokens, this gets +1{d}.
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["embodiment-of-earth"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -132654,7 +132654,7 @@ If you control 3 or more Fealty tokens, this gets +1{d}.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["embodiment-of-earth"],
     defense: 2,
     
     functionalText: `When this hits, create an Embodiment of Earth token.`,
@@ -132669,7 +132669,7 @@ If you control 3 or more Fealty tokens, this gets +1{d}.
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["embodiment-of-earth"],
     
     
     
@@ -132733,7 +132733,7 @@ If you control 3 or more Fealty tokens, this gets +1{d}.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["embodiment-of-earth"],
     defense: 2,
     
     functionalText: `**Go again**
@@ -132750,7 +132750,7 @@ At the beginning of your end phase, create an Embodiment of Earth token. Then, i
   
     
     pitch: 3,
-    
+    referencedCards: ["embodiment-of-earth"],
     
     
     
@@ -132829,7 +132829,7 @@ At the beginning of your end phase, create an Embodiment of Earth token. Then, i
 
     
     
-    
+    createdExtras: ["seismic-surge"],
     defense: 2,
     
     functionalText: `Whenever you draw 1 or more cards from an action card effect, create that many Seismic Surge tokens.
@@ -132846,7 +132846,7 @@ At the beginning of your end phase, create an Embodiment of Earth token. Then, i
   
     
     
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -134227,7 +134227,7 @@ If you have more {h} than an opposing Light hero, you may banish an action card 
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["ursur-the-soul-reaper"],
     
     
     functionalText: `**Legendary Chane Specialization**
@@ -134246,7 +134246,7 @@ Create an Ursur, the Soul Reaper token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["ursur-the-soul-reaper"],
     
     
     
@@ -134325,7 +134325,7 @@ Create an Ursur, the Soul Reaper token.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["agility"],
     defense: 3,
     
     functionalText: `Your next Warrior attack this turn gets +3{p} and "When this attacks a hero, you may **wager** an Agility token with them."
@@ -134342,7 +134342,7 @@ Create an Ursur, the Soul Reaper token.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["agility"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -134421,7 +134421,7 @@ Create an Ursur, the Soul Reaper token.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["agility"],
     defense: 3,
     
     functionalText: `Your next Warrior attack this turn gets +2{p} and "When this attacks a hero, you may **wager** an Agility token with them."
@@ -134438,7 +134438,7 @@ Create an Ursur, the Soul Reaper token.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["agility"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -134517,7 +134517,7 @@ Create an Ursur, the Soul Reaper token.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["agility"],
     defense: 3,
     
     functionalText: `Your next Warrior attack this turn gets +1{p} and "When this attacks a hero, you may **wager** an Agility token with them."
@@ -134534,7 +134534,7 @@ Create an Ursur, the Soul Reaper token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["agility"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -135226,7 +135226,7 @@ When this leaves the arena, your next attack this turn gets +3{p}.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["flurry"],
     defense: 3,
     
     functionalText: `**Sharpen** target sword you control.
@@ -135245,7 +135245,7 @@ If it has 1 or more +1{p} counters, create a Flurry token.
   
     
     pitch: 1,
-    
+    referencedCards: ["flurry"],
     
     
     
@@ -135324,7 +135324,7 @@ If it has 1 or more +1{p} counters, create a Flurry token.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["flurry"],
     defense: 3,
     
     functionalText: `**Sharpen** target sword you control.
@@ -135343,7 +135343,7 @@ If it has 2 or more +1{p} counters, create a Flurry token.
   
     
     pitch: 2,
-    
+    referencedCards: ["flurry"],
     
     
     
@@ -135422,7 +135422,7 @@ If it has 2 or more +1{p} counters, create a Flurry token.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["flurry"],
     defense: 3,
     
     functionalText: `**Sharpen** target sword you control.
@@ -135441,7 +135441,7 @@ If it has 3 or more +1{p} counters, create a Flurry token.
   
     
     pitch: 3,
-    
+    referencedCards: ["flurry"],
     
     
     
@@ -137167,7 +137167,7 @@ If this was played from arsenal, draw a card.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `Your next Runeblade or Lightning attack this turn gets +3{p}.
@@ -137186,7 +137186,7 @@ Create a Lightning Flow token.
   
     
     pitch: 1,
-    
+    referencedCards: ["lightning-flow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -137250,7 +137250,7 @@ Create a Lightning Flow token.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `Your next Runeblade or Lightning attack this turn gets +2{p}.
@@ -137269,7 +137269,7 @@ Create a Lightning Flow token.
   
     
     pitch: 2,
-    
+    referencedCards: ["lightning-flow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -137333,7 +137333,7 @@ Create a Lightning Flow token.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `Your next Runeblade or Lightning attack this turn gets +1{p}.
@@ -137352,7 +137352,7 @@ Create a Lightning Flow token.
   
     
     pitch: 3,
-    
+    referencedCards: ["lightning-flow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -137606,7 +137606,7 @@ The first time this deals damage to a hero, you may put an instant card from you
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["embodiment-of-lightning"],
     
     
     functionalText: `When this leaves the arena, create an Embodiment of Lightning token.
@@ -137623,7 +137623,7 @@ The first time this deals damage to a hero, you may put an instant card from you
   
     
     pitch: 2,
-    
+    referencedCards: ["embodiment-of-lightning"],
     
     
     
@@ -137643,7 +137643,7 @@ The first time this deals damage to a hero, you may put an instant card from you
     defaultImage: "DTD233",
     firstReleaseDate: "2023-07-14",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    legalHeroes: [Hero.Chane,Hero.Shiyana,Hero.Taylor,Hero.Viserai2,Hero.Vynnset],
     name: "Eloquence",
     printings: [{
         artists: ["Othon Nikolaidis"],
@@ -137766,7 +137766,7 @@ The first time this deals damage to a hero, you may put an instant card from you
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["eloquence"],
     defense: 3,
     
     functionalText: `**Rune Gate**
@@ -137785,7 +137785,7 @@ When the combat chain closes, if a hero has lost {h} this turn, create an Eloque
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["eloquence"],
     
     
     
@@ -137947,7 +137947,7 @@ Put an attack action card with blood debt from your graveyard on the bottom of y
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["ash"],
     defense: 3,
     
     functionalText: `**Phantasm**
@@ -137964,7 +137964,7 @@ When this is destroyed, create an Ash token.`,
   
     
     pitch: 1,
-    power: 8,
+    power: 8,referencedCards: ["ash"],
     
     
     
@@ -138028,7 +138028,7 @@ When this is destroyed, create an Ash token.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["ash"],
     defense: 3,
     
     functionalText: `**Phantasm**
@@ -138045,7 +138045,7 @@ When this is destroyed, create an Ash token.`,
   
     
     pitch: 2,
-    power: 7,
+    power: 7,referencedCards: ["ash"],
     
     
     
@@ -138109,7 +138109,7 @@ When this is destroyed, create an Ash token.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["ash"],
     defense: 3,
     
     functionalText: `**Phantasm**
@@ -138126,7 +138126,7 @@ When this is destroyed, create an Ash token.`,
   
     
     pitch: 3,
-    power: 6,
+    power: 6,referencedCards: ["ash"],
     
     
     
@@ -138146,7 +138146,7 @@ When this is destroyed, create an Ash token.`,
     defaultImage: "SBA034",
     firstReleaseDate: "2021-09-24",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Aurora,Hero.Briar,Hero.Florian,Hero.Iyslander,Hero.Jarl,Hero.Lexi,Hero.Oldhim,Hero.Oscilio,Hero.Shiyana,Hero.Starvo,Hero.Terra,Hero.Verdance,Hero.Yorick],
+    legalHeroes: [Hero.Aurora,Hero.Briar,Hero.Florian,Hero.Iyslander,Hero.Jarl,Hero.Lexi,Hero.Oldhim,Hero.Oscilio,Hero.Shiyana,Hero.Starvo,Hero.Taylor,Hero.Terra,Hero.Verdance,Hero.Yorick],
     name: "Embodiment of Earth",
     printings: [{
         artists: ["Othon Nikolaidis"],
@@ -138344,7 +138344,7 @@ At the beginning of your action phase, destroy this.`,
     defaultImage: "SBA035",
     firstReleaseDate: "2021-09-24",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Florian,Hero.Iyslander,Hero.Jarl,Hero.Lexi,Hero.Oldhim,Hero.Oscilio,Hero.Shiyana,Hero.Starvo,Hero.Terra,Hero.Verdance,Hero.Yorick,Hero.Zyggy],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Florian,Hero.Iyslander,Hero.Jarl,Hero.Lexi,Hero.Oldhim,Hero.Oscilio,Hero.Shiyana,Hero.Starvo,Hero.Taylor,Hero.Terra,Hero.Verdance,Hero.Yorick,Hero.Zyggy],
     name: "Embodiment of Lightning",
     printings: [{
         artists: ["Nikolay Moskvin"],
@@ -139289,7 +139289,7 @@ At the beginning of your action phase, destroy this then the next Guardian attac
   
     
     
-    
+    referencedCards: ["might"],
     
     
     
@@ -139366,7 +139366,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -139543,7 +139543,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["frostbite"],
     defense: 3,
     
     functionalText: `**Ice Fusion**
@@ -139564,7 +139564,7 @@ At the beginning of your action phase, destroy this then the next attack action 
   
     
     pitch: 1,
-    
+    referencedCards: ["frostbite"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -139658,7 +139658,7 @@ At the beginning of your action phase, destroy this then the next attack action 
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["frostbite"],
     defense: 3,
     
     functionalText: `**Ice Fusion**
@@ -139679,7 +139679,7 @@ At the beginning of your action phase, destroy this then the next attack action 
   
     
     pitch: 2,
-    
+    referencedCards: ["frostbite"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -139788,7 +139788,7 @@ At the beginning of your action phase, destroy this then the next attack action 
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["frostbite"],
     defense: 3,
     
     functionalText: `**Ice Fusion**
@@ -139809,7 +139809,7 @@ At the beginning of your action phase, destroy this then the next attack action 
   
     
     pitch: 3,
-    
+    referencedCards: ["frostbite"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -141369,7 +141369,7 @@ At the beginning of your action phase, destroy this then the next Guardian attac
   
     
     
-    
+    referencedCards: ["command-and-conquer-red"],
     
     
     
@@ -141704,7 +141704,7 @@ At the beginning of your action phase, destroy this then the next Guardian attac
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["edge-of-autumn"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -142517,7 +142517,7 @@ At the beginning of your end phase, destroy this unless you have played a non-at
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["fealty"],
     defense: 2,
     
     functionalText: `Target dagger attack gets +3{p}. If you control 2 or more Draconic chain links, create a Fealty token.`,
@@ -142532,7 +142532,7 @@ At the beginning of your end phase, destroy this unless you have played a non-at
   
     
     pitch: 1,
-    
+    referencedCards: ["fealty"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -143104,7 +143104,7 @@ If a card with 6 or more {p} is banished this way, this gets +3{p}.
 
     
     
-    cost: 4,
+    cost: 4,createdExtras: ["frostbite"],
     defense: 3,
     
     functionalText: `**Oldhim Specialization**
@@ -143125,7 +143125,7 @@ When this hits a hero, until the end of their next turn, whenever they activate 
   
     
     pitch: 1,
-    power: 8,
+    power: 8,referencedCards: ["frostbite"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -143219,7 +143219,7 @@ When this hits a hero, until the end of their next turn, whenever they activate 
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["vigor"],
     defense: 3,
     
     functionalText: `When this defends together with a card with 6 or more {p}, create a Vigor token.`,
@@ -143234,7 +143234,7 @@ When this hits a hero, until the end of their next turn, whenever they activate 
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["vigor"],
     
     
     
@@ -145113,7 +145113,7 @@ If you've **charged** this turn, this gets "When this hits, put it into your her
 
     
     
-    
+    createdExtras: ["spectral-shield"],
     
     
     functionalText: `Your first Spectral Shield attack each turn costs {r} less to activate.
@@ -145130,7 +145130,7 @@ If you've **charged** this turn, this gets "When this hits, put it into your her
   
     
     
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -145689,7 +145689,7 @@ If you've **charged** this turn, this gets "When this hits, put it into your her
 
     
     
-    
+    createdExtras: ["spectral-shield"],
     
     
     functionalText: `Your first Spectral Shield attack each turn costs {r} less to activate.
@@ -145706,7 +145706,7 @@ If you've **charged** this turn, this gets "When this hits, put it into your her
   
     
     
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -145785,7 +145785,7 @@ If you've **charged** this turn, this gets "When this hits, put it into your her
 
     
     
-    
+    createdExtras: ["spectral-shield"],
     
     
     functionalText: `Equipment you own get **cloaked**.
@@ -145802,7 +145802,7 @@ If you've **charged** this turn, this gets "When this hits, put it into your her
   
     
     
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -145866,7 +145866,7 @@ If you've **charged** this turn, this gets "When this hits, put it into your her
 
     arcane: 3,
     
-    cost: 0,
+    cost: 0,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `Deal 3 arcane damage to any target.
@@ -145883,7 +145883,7 @@ If this deals damage, you may {t} your hero. If you do, create a Lightning Flow 
   
     
     pitch: 1,
-    
+    referencedCards: ["lightning-flow"],
     
     shorthands: [Shorthand.Tap],
     
@@ -145947,7 +145947,7 @@ If this deals damage, you may {t} your hero. If you do, create a Lightning Flow 
 
     arcane: 2,
     
-    cost: 0,
+    cost: 0,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `Deal 2 arcane damage to any target.
@@ -145964,7 +145964,7 @@ If this deals damage, you may {t} your hero. If you do, create a Lightning Flow 
   
     
     pitch: 2,
-    
+    referencedCards: ["lightning-flow"],
     
     shorthands: [Shorthand.Tap],
     
@@ -146028,7 +146028,7 @@ If this deals damage, you may {t} your hero. If you do, create a Lightning Flow 
 
     arcane: 1,
     
-    cost: 0,
+    cost: 0,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `Deal 1 arcane damage to any target.
@@ -146045,7 +146045,7 @@ If this deals damage, you may {t} your hero. If you do, create a Lightning Flow 
   
     
     pitch: 3,
-    
+    referencedCards: ["lightning-flow"],
     
     shorthands: [Shorthand.Tap],
     
@@ -147817,7 +147817,7 @@ If this was **fused**, it gets **go again**.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `Create a Runechant token.
@@ -147836,7 +147836,7 @@ The next attack action card you **rune gate** this turn gets +3{p}.
   
     
     pitch: 1,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -147900,7 +147900,7 @@ The next attack action card you **rune gate** this turn gets +3{p}.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `Create a Runechant token.
@@ -147919,7 +147919,7 @@ The next attack action card you **rune gate** this turn gets +2{p}.
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -147983,7 +147983,7 @@ The next attack action card you **rune gate** this turn gets +2{p}.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `Create a Runechant token.
@@ -148002,7 +148002,7 @@ The next attack action card you **rune gate** this turn gets +1{p}.
   
     
     pitch: 3,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -148066,7 +148066,7 @@ The next attack action card you **rune gate** this turn gets +1{p}.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' yellow cards. Whenever you complete this contract, create a Silver token.
@@ -148083,7 +148083,7 @@ When this hits a hero, banish the top X cards of their deck, where X is the dama
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["silver"],
     
     
     
@@ -148567,7 +148567,7 @@ At the beginning of each hero's end phase, if a weapon did not attack this turn,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["toughness"],
     defense: 3,
     
     functionalText: `When this attacks, if you control a Toughness token, create 3 more.`,
@@ -148582,7 +148582,7 @@ At the beginning of each hero's end phase, if a weapon did not attack this turn,
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["toughness"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -148646,7 +148646,7 @@ At the beginning of each hero's end phase, if a weapon did not attack this turn,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["might"],
     defense: 3,
     
     functionalText: `When this attacks, if you control a Might token, create 3 more.`,
@@ -148661,7 +148661,7 @@ At the beginning of each hero's end phase, if a weapon did not attack this turn,
   
     
     pitch: 3,
-    power: 3,
+    power: 3,referencedCards: ["might"],
     
     
     
@@ -149702,7 +149702,7 @@ This can't be defended by equipment or reaction cards.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["quicken"],
     
     
     functionalText: `Play this only if you've dealt {p} damage this turn.
@@ -149719,7 +149719,7 @@ This can't be defended by equipment or reaction cards.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["quicken"],
     
     
     
@@ -149798,7 +149798,7 @@ This can't be defended by equipment or reaction cards.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["quicken"],
     
     
     functionalText: `Play this only if you've dealt {p} damage this turn.
@@ -149815,7 +149815,7 @@ This can't be defended by equipment or reaction cards.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["quicken"],
     
     
     
@@ -149894,7 +149894,7 @@ This can't be defended by equipment or reaction cards.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["quicken"],
     
     
     functionalText: `Play this only if you've dealt {p} damage this turn.
@@ -149911,7 +149911,7 @@ This can't be defended by equipment or reaction cards.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["quicken"],
     
     
     
@@ -150451,7 +150451,7 @@ Whenever you **boost**, you may destroy a card under this. If you do, gain {r}{r
   
     
     pitch: 1,
-    
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -151050,7 +151050,7 @@ When this is equipped, gain {r}.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["quicken"],
     defense: 2,
     
     functionalText: `If you have a base legs equipped, **transform** it into this, then equip this.
@@ -151069,7 +151069,7 @@ When this is equipped, gain {r}.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["quicken"],
     
     
     
@@ -151150,7 +151150,7 @@ Whenever you **boost**, you may destroy a card under this. If you do, shuffle 2 
   
     
     pitch: 1,
-    
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -151521,7 +151521,7 @@ Your Teklo Blaster costs {r} less to activate for each opponent.
   
     
     pitch: 3,
-    
+    referencedCards: ["teklo-blaster"],
     
     
     
@@ -151700,7 +151700,7 @@ Whenever you **boost** an attack action card, you may destroy a card under this.
   
     
     pitch: 1,
-    
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -151847,7 +151847,7 @@ When this is equipped, the next attack action card you play this turn costs {r} 
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["quicken"],
     defense: 0,
     
     functionalText: `If you have a base legs equipped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
@@ -151864,7 +151864,7 @@ Whenever you **boost**, you may destroy a card under this. If you do, create a Q
   
     
     pitch: 1,
-    
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow","quicken"],
     
     
     
@@ -152030,7 +152030,7 @@ Your Teklo Blaster attacks get **go again**.
   
     
     pitch: 3,
-    
+    referencedCards: ["teklo-blaster"],
     
     
     
@@ -152196,7 +152196,7 @@ Your Teklo Blaster gets +1{p} for each opponent.
   
     
     pitch: 3,
-    
+    referencedCards: ["teklo-blaster"],
     
     
     
@@ -153247,7 +153247,7 @@ Your Teklo Blaster attacks can target any opponent.
   
     
     pitch: 3,
-    
+    referencedCards: ["teklo-blaster"],
     
     
     
@@ -153697,7 +153697,7 @@ When this is equipped, you may banish a card from your hand. If you do, draw a c
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' red cards. Whenever you complete this contract, create a Silver token.
@@ -153714,7 +153714,7 @@ When this hits a hero, banish the top card of their deck. If it's red, repeat th
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["silver"],
     
     
     
@@ -153778,7 +153778,7 @@ When this hits a hero, banish the top card of their deck. If it's red, repeat th
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' red cards. Whenever you complete this contract, create a Silver token.
@@ -153795,7 +153795,7 @@ When this hits a hero, banish the top card of their deck. If it's red, repeat th
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["silver"],
     
     
     
@@ -153859,7 +153859,7 @@ When this hits a hero, banish the top card of their deck. If it's red, repeat th
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' red cards. Whenever you complete this contract, create a Silver token.
@@ -153876,7 +153876,7 @@ When this hits a hero, banish the top card of their deck. If it's red, repeat th
   
     
     pitch: 3,
-    power: 3,
+    power: 3,referencedCards: ["silver"],
     
     
     
@@ -154243,7 +154243,7 @@ When this hits, you may put an item with cost 1 or less from your hand into the 
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["treasure-island"],
     
     
     
@@ -154337,7 +154337,7 @@ When this hits, you may put an item with cost 1 or less from your hand into the 
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["treasure-island"],
     
     
     
@@ -154431,7 +154431,7 @@ When this hits, you may put an item with cost 1 or less from your hand into the 
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["treasure-island"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -154525,7 +154525,7 @@ When this hits, you may put an item with cost 1 or less from your hand into the 
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["treasure-island"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -155410,7 +155410,7 @@ If this was **fused** with an Ice card, destroy an equipment with 0{d} controlle
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     
     
     functionalText: `If you are **marked**, you can't play this.
@@ -155429,7 +155429,7 @@ Target attack gets +1{p}.
   
     
     pitch: 3,
-    
+    referencedCards: ["marked"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -156153,7 +156153,7 @@ When this is pitched, **opt 2**.`,
   
     oppositeSideCardIdentifier: `blossom-of-spring`,oppositeSideCardIdentifiers: ["blossom-of-spring"],
     pitch: 3,
-    
+    referencedCards: ["blossom-of-spring"],
     
     
     
@@ -156217,7 +156217,7 @@ When this is pitched, **opt 2**.`,
   
     oppositeSideCardIdentifier: `hope-merchants-hood`,oppositeSideCardIdentifiers: ["hope-merchants-hood"],
     pitch: 1,
-    
+    referencedCards: ["hope-merchants-hood"],
     
     
     
@@ -156283,7 +156283,7 @@ Equip Crown of Providence. If you don't, **negate** this.`,
   
     oppositeSideCardIdentifier: `crown-of-providence`,oppositeSideCardIdentifiers: ["crown-of-providence"],
     pitch: 1,
-    
+    referencedCards: ["crown-of-providence"],
     
     
     
@@ -156347,7 +156347,7 @@ Equip Crown of Providence. If you don't, **negate** this.`,
   
     oppositeSideCardIdentifier: `snapdragon-scalers`,oppositeSideCardIdentifiers: ["snapdragon-scalers"],
     pitch: 3,
-    
+    referencedCards: ["snapdragon-scalers"],
     
     
     
@@ -156413,7 +156413,7 @@ Equip Fyendal's Spring Tunic. If you don't, **negate** this.`,
   
     oppositeSideCardIdentifier: `fyendals-spring-tunic`,oppositeSideCardIdentifiers: ["fyendals-spring-tunic"],
     pitch: 2,
-    
+    referencedCards: ["fyendals-spring-tunic"],
     
     
     
@@ -157052,7 +157052,7 @@ Equip Fyendal's Spring Tunic. If you don't, **negate** this.`,
   
     
     
-    
+    referencedCards: ["phoenix-flame-red"],
     
     
     
@@ -157160,7 +157160,7 @@ Equip Fyendal's Spring Tunic. If you don't, **negate** this.`,
   
     
     
-    
+    referencedCards: ["phoenix-flame-red"],
     
     
     
@@ -157527,7 +157527,7 @@ Equip Fyendal's Spring Tunic. If you don't, **negate** this.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `When 1 or more Brute cards defend this, create a Vigor token.`,
@@ -157542,7 +157542,7 @@ Equip Fyendal's Spring Tunic. If you don't, **negate** this.`,
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -157606,7 +157606,7 @@ Equip Fyendal's Spring Tunic. If you don't, **negate** this.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["confidence"],
     defense: 2,
     
     functionalText: `When 1 or more Guardian cards defend this, create a Confidence token.`,
@@ -157621,7 +157621,7 @@ Equip Fyendal's Spring Tunic. If you don't, **negate** this.`,
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["confidence"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -157715,7 +157715,7 @@ Equip Fyendal's Spring Tunic. If you don't, **negate** this.`,
 
     
     
-    
+    createdExtras: ["fealty"],
     
     
     functionalText: `Whenever you hit a **marked** hero, create a Fealty token.
@@ -157732,7 +157732,7 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
   
     
     
-    
+    referencedCards: ["fealty"],
     
     
     
@@ -157752,7 +157752,7 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
     defaultImage: "MST023",
     firstReleaseDate: "2024-05-31",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Nuu,Hero.Shiyana,Hero.Yorick],
+    legalHeroes: [Hero.Nuu,Hero.Taylor],
     name: "Fang Strike",
     printings: [{
         artists: ["Edward Chee"],
@@ -157946,7 +157946,7 @@ Target attack action card gets +1{p}.`,
 
     
     
-    
+    createdExtras: ["fealty"],
     
     
     functionalText: `Whenever you hit a **marked** hero, create a Fealty token.
@@ -157963,7 +157963,7 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
   
     
     
-    
+    referencedCards: ["fealty"],
     
     
     
@@ -159476,7 +159476,7 @@ Target attack gets +3{p}.`,
     defaultImage: "SFA037",
     firstReleaseDate: "2025-01-31",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Cindra,Hero.Dromai,Hero.Emperor,Hero.Fai,Hero.Fang,Hero.Shiyana,Hero.Taipanis,Hero.Yorick],
+    legalHeroes: [Hero.Cindra,Hero.Dromai,Hero.Emperor,Hero.Fai,Hero.Fang,Hero.Taipanis],
     name: "Fealty",
     printings: [{
         artists: ["Mario Wibisono"],
@@ -161554,7 +161554,7 @@ If this was played from arsenal, it gets **go again**.`,
 
     
     
-    
+    createdExtras: ["might"],
     defense: 0,
     
     functionalText: `**Action** - Destroy this: Each hero creates a Might token.  **Go again**`,
@@ -161569,7 +161569,7 @@ If this was played from arsenal, it gets **go again**.`,
   
     
     
-    
+    referencedCards: ["might"],
     
     
     
@@ -162329,7 +162329,7 @@ When this hits a Reviled hero, put this on the bottom of its owner's deck.`,
   
     
     
-    
+    referencedCards: ["gold"],
     
     shorthands: [Shorthand.Tap],
     
@@ -162393,7 +162393,7 @@ When this hits a Reviled hero, put this on the bottom of its owner's deck.`,
 
     
     
-    cost: 4,
+    cost: 4,createdExtras: ["ponder"],
     
     
     functionalText: `**Legendary**
@@ -162410,7 +162410,7 @@ When this enters the arena, create a Ponder token.`,
   
     oppositeSideCardIdentifier: `suraya-archangel-of-erudition`,oppositeSideCardIdentifiers: ["suraya-archangel-of-erudition"],
     pitch: 2,
-    
+    referencedCards: ["ponder"],
     
     
     
@@ -162616,7 +162616,7 @@ When this enters the arena, you may turn a card in any banished zone face-down.`
 
     
     
-    cost: 4,
+    cost: 4,createdExtras: ["spectral-shield"],
     
     
     functionalText: `**Legendary**
@@ -162633,7 +162633,7 @@ When this enters the arena, create a Spectral Shield token.`,
   
     oppositeSideCardIdentifier: `aegis-archangel-of-protection`,oppositeSideCardIdentifiers: ["aegis-archangel-of-protection"],
     pitch: 2,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -163021,7 +163021,7 @@ When this enters the arena, attack action cards your opponents control get -1{p}
 
     
     
-    cost: 4,
+    cost: 4,createdExtras: ["courage"],
     
     
     functionalText: `**Legendary**
@@ -163038,7 +163038,7 @@ When this enters the arena, create a Courage token.`,
   
     oppositeSideCardIdentifier: `bellona-archangel-of-war`,oppositeSideCardIdentifiers: ["bellona-archangel-of-war"],
     pitch: 2,
-    
+    referencedCards: ["courage"],
     
     
     
@@ -163211,7 +163211,7 @@ When this enters the arena, create a Courage token.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["zen-state"],
     defense: 3,
     
     functionalText: `**Combo** - If Crane Dance was the last attack this combat chain, this can't be defended by cards with cost less than the number of chain links you control and it gets "When this hits, create a Zen State token."`,
@@ -163226,7 +163226,7 @@ When this enters the arena, create a Courage token.`,
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["crane-dance-blue","crane-dance-red","crane-dance-yellow","zen-state"],
     
     
     
@@ -163900,7 +163900,7 @@ You may {u} a bow you control.
   
     
     pitch: 1,
-    power: 2,
+    power: 2,referencedCards: ["phoenix-flame-red"],
     
     
     
@@ -164711,7 +164711,7 @@ You may {u} a bow you control.
   
     
     
-    
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -164914,7 +164914,7 @@ You may {u} a bow you control.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `When this attacks, search your deck for a card, then shuffle and put that card on top.
@@ -164931,7 +164931,7 @@ Whenever a card defends this, **clash** with the defending hero. The winner crea
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["might"],
     
     
     
@@ -165025,7 +165025,7 @@ Whenever a card defends this, **clash** with the defending hero. The winner crea
 
     
     
-    
+    createdExtras: ["runechant"],
     
     
     functionalText: `**Vynnset Specialization**
@@ -165044,7 +165044,7 @@ When this hits, create a Runechant token.`,
   
     
     
-    power: 1,
+    power: 1,referencedCards: ["runechant"],
     
     
     
@@ -165473,7 +165473,7 @@ If this was **fused**, it gets **dominate**.`,
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["phoenix-flame-red"],
     
     
     
@@ -165599,7 +165599,7 @@ If this was **fused**, it gets **dominate**.`,
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["phoenix-flame-red"],
     
     
     
@@ -166720,7 +166720,7 @@ If this was **fused** with a Lightning card, your attacks this turn get "When th
 
     
     
-    
+    createdExtras: ["agility"],
     defense: 1,
     
     functionalText: `**Action** - Destroy this: Create an Agility token. **Go again**
@@ -166737,7 +166737,7 @@ If this was **fused** with a Lightning card, your attacks this turn get "When th
   
     
     
-    
+    referencedCards: ["agility"],
     
     
     
@@ -166816,7 +166816,7 @@ If this was **fused** with a Lightning card, your attacks this turn get "When th
   
     
     pitch: 1,
-    power: 8,
+    power: 8,referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -166895,7 +166895,7 @@ If this was **fused** with a Lightning card, your attacks this turn get "When th
   
     
     pitch: 2,
-    power: 7,
+    power: 7,referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -167004,7 +167004,7 @@ If this was **fused** with a Lightning card, your attacks this turn get "When th
   
     
     pitch: 3,
-    power: 6,
+    power: 6,referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -167083,7 +167083,7 @@ If this was **fused** with a Lightning card, your attacks this turn get "When th
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' cards with 2 or less {d}. Whenever you complete this contract, create a Silver token.
@@ -167100,7 +167100,7 @@ When this hits a hero, banish the top card of their deck.`,
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["silver"],
     
     
     
@@ -167164,7 +167164,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' cards with 2 or less {d}. Whenever you complete this contract, create a Silver token.
@@ -167181,7 +167181,7 @@ When this hits a hero, banish the top card of their deck.`,
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["silver"],
     
     
     
@@ -167245,7 +167245,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' cards with 2 or less {d}. Whenever you complete this contract, create a Silver token.
@@ -167262,7 +167262,7 @@ When this hits a hero, banish the top card of their deck.`,
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["silver"],
     
     
     
@@ -167840,7 +167840,7 @@ If it has an aim counter, it gets "Yellow cards get -1{d} while defending this."
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["crouching-tiger"],
     defense: 2,
     
     functionalText: `When this hits, create a Crouching Tiger in your banished zone. You may play it this turn.
@@ -167857,7 +167857,7 @@ If it has an aim counter, it gets "Yellow cards get -1{d} while defending this."
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["crouching-tiger"],
     
     
     
@@ -167951,7 +167951,7 @@ If it has an aim counter, it gets "Yellow cards get -1{d} while defending this."
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["crouching-tiger"],
     defense: 2,
     
     functionalText: `When this hits, create a Crouching Tiger in your banished zone. You may play it this turn.
@@ -167968,7 +167968,7 @@ If it has an aim counter, it gets "Yellow cards get -1{d} while defending this."
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["crouching-tiger"],
     
     
     
@@ -168062,7 +168062,7 @@ If it has an aim counter, it gets "Yellow cards get -1{d} while defending this."
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["crouching-tiger"],
     defense: 2,
     
     functionalText: `When this hits, create a Crouching Tiger in your banished zone. You may play it this turn.
@@ -168079,7 +168079,7 @@ If it has an aim counter, it gets "Yellow cards get -1{d} while defending this."
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["crouching-tiger"],
     
     
     
@@ -170422,7 +170422,7 @@ Deal 1 arcane damage to target hero.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `If you've played an instant card this chain link, this gets +2{p}.
@@ -170439,7 +170439,7 @@ When this hits, create a Lightning Flow token.`,
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["lightning-flow"],
     
     
     
@@ -170503,7 +170503,7 @@ When this hits, create a Lightning Flow token.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `If you've played an instant card this chain link, this gets +2{p}.
@@ -170520,7 +170520,7 @@ When this hits, create a Lightning Flow token.`,
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["lightning-flow"],
     
     
     
@@ -170584,7 +170584,7 @@ When this hits, create a Lightning Flow token.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `If you've played an instant card this chain link, this gets +2{p}.
@@ -170601,7 +170601,7 @@ When this hits, create a Lightning Flow token.`,
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["lightning-flow"],
     
     
     
@@ -170725,7 +170725,7 @@ When this hits, create a Lightning Flow token.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["quicken"],
     defense: 2,
     
     functionalText: `As an additional cost to play this, reveal a card in your hand with cost 1 or less.
@@ -170742,7 +170742,7 @@ When this attacks, create a Quicken token.`,
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["quicken"],
     
     
     
@@ -170851,7 +170851,7 @@ When this attacks, create a Quicken token.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["quicken"],
     defense: 2,
     
     functionalText: `As an additional cost to play this, reveal a card in your hand with cost 1 or less.
@@ -170868,7 +170868,7 @@ When this attacks, create a Quicken token.`,
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["quicken"],
     
     
     
@@ -171007,7 +171007,7 @@ When this attacks, create a Quicken token.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["quicken"],
     defense: 2,
     
     functionalText: `As an additional cost to play this, reveal a card in your hand with cost 1 or less.
@@ -171024,7 +171024,7 @@ When this attacks, create a Quicken token.`,
   
     
     pitch: 3,
-    power: 3,
+    power: 3,referencedCards: ["quicken"],
     
     
     
@@ -171148,7 +171148,7 @@ When this attacks, create a Quicken token.`,
   
     
     pitch: 2,
-    power: 1,
+    power: 1,referencedCards: ["rushing-river-blue","rushing-river-red","rushing-river-yellow"],
     
     
     
@@ -171623,7 +171623,7 @@ When this attacks, create a Quicken token.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["lightning-flow"],
     
     
     functionalText: `Target Lightning attack gets +1{p} and "When this hits, create a Lightning Flow token."`,
@@ -171638,7 +171638,7 @@ When this attacks, create a Quicken token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["lightning-flow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -171732,7 +171732,7 @@ When this attacks, create a Quicken token.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["lightning-flow"],
     defense: 2,
     
     functionalText: `**Twice per Turn Instant** - {r}: This gets +1{p}.
@@ -171749,7 +171749,7 @@ When this hits, create a Lightning Flow token.`,
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["lightning-flow"],
     
     
     
@@ -171843,7 +171843,7 @@ When this hits, create a Lightning Flow token.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["lightning-flow"],
     defense: 2,
     
     functionalText: `When this attacks, you may discard an instant card. If you do, create a Lightning Flow token and this gets **go again**.`,
@@ -171858,7 +171858,7 @@ When this hits, create a Lightning Flow token.`,
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["lightning-flow"],
     
     
     
@@ -171937,7 +171937,7 @@ When this hits, create a Lightning Flow token.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["embodiment-of-lightning","lightning-flow"],
     defense: 3,
     
     functionalText: `Whenever you play an instant card this chain link, create an Embodiment of Lightning or Lightning Flow token.`,
@@ -171952,7 +171952,7 @@ When this hits, create a Lightning Flow token.`,
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["embodiment-of-lightning","lightning-flow"],
     
     
     
@@ -172066,7 +172066,7 @@ When this hits, create a Lightning Flow token.`,
     defaultImage: "SBL036",
     firstReleaseDate: "2026-04-17",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Shiyana,Hero.Yorick,Hero.Zane],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Taylor,Hero.Zane],
     name: "Flurry",
     printings: [{
         artists: ["Faizal Fikri"],
@@ -172219,7 +172219,7 @@ When this hits, create a Lightning Flow token.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["flurry"],
     
     
     
@@ -172454,7 +172454,7 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["open-the-center-blue","open-the-center-red","open-the-center-yellow"],
     
     
     
@@ -172563,7 +172563,7 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["open-the-center-blue","open-the-center-red","open-the-center-yellow"],
     
     
     
@@ -172687,7 +172687,7 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["open-the-center-blue","open-the-center-red","open-the-center-yellow"],
     
     
     
@@ -173645,7 +173645,7 @@ At the beginning of your action phase, destroy this.`,
 
     
     
-    
+    createdExtras: ["gold"],
     
     
     functionalText: `When this is discarded, create a Gold token.`,
@@ -173660,7 +173660,7 @@ At the beginning of your action phase, destroy this.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -173754,7 +173754,7 @@ At the beginning of your action phase, destroy this.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["fealty"],
     defense: 3,
     
     functionalText: `When this attacks a **marked** hero, create a Fealty token.`,
@@ -173769,7 +173769,7 @@ At the beginning of your action phase, destroy this.`,
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["fealty"],
     
     
     
@@ -173848,7 +173848,7 @@ At the beginning of your action phase, destroy this.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["fealty"],
     defense: 3,
     
     functionalText: `When this attacks a **marked** hero, create a Fealty token.`,
@@ -173863,7 +173863,7 @@ At the beginning of your action phase, destroy this.`,
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["fealty"],
     
     
     
@@ -173942,7 +173942,7 @@ At the beginning of your action phase, destroy this.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["fealty"],
     defense: 3,
     
     functionalText: `When this attacks a **marked** hero, create a Fealty token.`,
@@ -173957,7 +173957,7 @@ At the beginning of your action phase, destroy this.`,
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["fealty"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -175463,7 +175463,7 @@ This card's {d} is equal to the greatest base {d} among Illusionist attack actio
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["frailty"],
     defense: 3,
     
     functionalText: `Create a Frailty token under target hero's control.
@@ -175482,7 +175482,7 @@ When this defends an attack with {p} less than its base, its controller discards
   
     
     pitch: 3,
-    
+    referencedCards: ["frailty"],
     
     
     
@@ -175759,7 +175759,7 @@ At the beginning of your end phase, destroy this.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["frailty"],
     defense: 3,
     
     functionalText: `When this defends an attack with **go again**, create a Frailty token under the attacking hero's control.`,
@@ -175774,7 +175774,7 @@ At the beginning of your end phase, destroy this.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["frailty"],
     
     
     
@@ -176611,7 +176611,7 @@ Deal 5 arcane damage to target hero. If this was **fused**, instead deal X arcan
   
     
     pitch: 1,
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -177787,7 +177787,7 @@ Frostbites you control get "At the beginning of your end phase, this deals 1 arc
   
     
     pitch: 3,
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -178009,7 +178009,7 @@ When this attacks, if this was **fused**, it gets +1{p} and "When this hits a he
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["frostbite"],
     
     
     functionalText: `Create a Frostbite token in an exposed head, chest, arms, or legs zone.`,
@@ -178024,7 +178024,7 @@ When this attacks, if this was **fused**, it gets +1{p} and "When this hits a he
   
     
     pitch: 3,
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -178044,7 +178044,7 @@ When this attacks, if this was **fused**, it gets +1{p} and "When this hits a he
     defaultImage: "SIY035",
     firstReleaseDate: "2021-09-24",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Aurora,Hero.Briar,Hero.Florian,Hero.Iyslander,Hero.Jarl,Hero.Lexi,Hero.Oldhim,Hero.Oscilio,Hero.Shiyana,Hero.Starvo,Hero.Terra,Hero.Verdance,Hero.Yorick],
+    legalHeroes: [Hero.Aurora,Hero.Briar,Hero.Florian,Hero.Iyslander,Hero.Jarl,Hero.Lexi,Hero.Melody,Hero.Oldhim,Hero.Oscilio,Hero.Shiyana,Hero.Starvo,Hero.Taylor,Hero.Terra,Hero.Verdance,Hero.Yorick],
     name: "Frostbite",
     printings: [{
         artists: ["Tian Thongjomroon"],
@@ -178300,7 +178300,7 @@ At the beginning of your end phase, destroy this.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["frostbite"],
     defense: 5,
     
     functionalText: `**Ice Bond** - If an Ice card was pitched to play this, create a Frostbite token under the attacking hero's control.`,
@@ -178315,7 +178315,7 @@ At the beginning of your end phase, destroy this.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -178631,7 +178631,7 @@ At the beginning of your end phase, destroy this.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["frostbite"],
     defense: 3,
     
     functionalText: `**Ice Fusion**
@@ -178650,7 +178650,7 @@ You may create a Frostbite token in an exposed head, chest, arms, or legs zone.`
   
     
     pitch: 3,
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -179462,7 +179462,7 @@ You may create a Frostbite token in an exposed head, chest, arms, or legs zone.`
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["confidence"],
     defense: 2,
     
     functionalText: `When this attacks or defends, if you control an aura of suspense, create a Confidence token.`,
@@ -179477,7 +179477,7 @@ You may create a Frostbite token in an exposed head, chest, arms, or legs zone.`
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["confidence"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -179541,7 +179541,7 @@ You may create a Frostbite token in an exposed head, chest, arms, or legs zone.`
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["confidence"],
     defense: 2,
     
     functionalText: `When this attacks or defends, if you control an aura of suspense, create a Confidence token.`,
@@ -179556,7 +179556,7 @@ You may create a Frostbite token in an exposed head, chest, arms, or legs zone.`
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["confidence"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -179635,7 +179635,7 @@ You may create a Frostbite token in an exposed head, chest, arms, or legs zone.`
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["confidence"],
     defense: 2,
     
     functionalText: `When this attacks or defends, if you control an aura of suspense, create a Confidence token.`,
@@ -179650,7 +179650,7 @@ You may create a Frostbite token in an exposed head, chest, arms, or legs zone.`
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["confidence"],
     
     
     
@@ -180066,7 +180066,7 @@ If this was **fused** with a Lightning card, attack action cards you control get
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `You may play this from your banished zone.
@@ -180087,7 +180087,7 @@ Create a Runechant token.
   
     
     pitch: 1,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -180181,7 +180181,7 @@ Create a Runechant token.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["sigil-of-fate"],
     
     
     functionalText: `Create 3 Sigil of Fate tokens.`,
@@ -180196,7 +180196,7 @@ Create a Runechant token.
   
     
     pitch: 1,
-    
+    referencedCards: ["sigil-of-fate"],
     
     
     
@@ -180260,7 +180260,7 @@ Create a Runechant token.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["sigil-of-fate"],
     
     
     functionalText: `Create 2 Sigil of Fate tokens.`,
@@ -180275,7 +180275,7 @@ Create a Runechant token.
   
     
     pitch: 2,
-    
+    referencedCards: ["sigil-of-fate"],
     
     
     
@@ -180339,7 +180339,7 @@ Create a Runechant token.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["sigil-of-fate"],
     
     
     functionalText: `Create a Sigil of Fate token.`,
@@ -180354,7 +180354,7 @@ Create a Runechant token.
   
     
     pitch: 3,
-    
+    referencedCards: ["sigil-of-fate"],
     
     
     
@@ -182041,7 +182041,7 @@ You may put a Hyper Driver from your banished zone into the arena.
   
     
     pitch: 1,
-    
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -182139,7 +182139,7 @@ You may put a Hyper Driver from your banished zone into the arena.
   
     
     pitch: 2,
-    
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -182237,7 +182237,7 @@ You may put a Hyper Driver from your banished zone into the arena.
   
     
     pitch: 3,
-    
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -182257,7 +182257,7 @@ You may put a Hyper Driver from your banished zone into the arena.
     defaultImage: "FAB507-RF",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Shiyana,Hero.Viserai2,Hero.Vynnset,Hero.Yorick],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
     name: "Gate to i'Arathael",
     printings: [{
         artists: ["Carlos Cruchaga"],
@@ -182533,7 +182533,7 @@ You may put a Hyper Driver from your banished zone into the arena.
 
     
     
-    
+    createdExtras: ["might"],
     defense: 1,
     
     functionalText: `**Action** - Destroy this: Create a Might token. **Go again**
@@ -182550,7 +182550,7 @@ You may put a Hyper Driver from your banished zone into the arena.
   
     
     
-    
+    referencedCards: ["might"],
     
     
     
@@ -182808,7 +182808,7 @@ You may put a Hyper Driver from your banished zone into the arena.
   
     
     
-    
+    referencedCards: ["mangle-red"],
     
     
     
@@ -183394,7 +183394,7 @@ If you've played another Wizard non-attack action card this turn, put this into 
 
     
     
-    cost: 4,
+    cost: 4,createdExtras: ["spectral-shield"],
     
     
     functionalText: `At the start of your turn, you may put a card from your hand into your soul. If it's an Illusionist card, create a Spectral Shield token. If it's a Light card, draw a card.
@@ -183411,7 +183411,7 @@ If you've played another Wizard non-attack action card this turn, put this into 
   
     
     pitch: 2,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -183490,7 +183490,7 @@ If you've played another Wizard non-attack action card this turn, put this into 
 
     
     
-    
+    createdExtras: ["silver"],
     
     
     functionalText: `**Once per Turn Action** - {r}{r}: Each other hero may put a card from their hand on the bottom of their deck. If they do, they draw a card and you create a Silver token. If you create no Silver this way, draw a card. **Go again**`,
@@ -183505,7 +183505,7 @@ If you've played another Wizard non-attack action card this turn, put this into 
   
     
     
-    
+    referencedCards: ["silver"],
     
     
     
@@ -183665,7 +183665,7 @@ If you've played another Wizard non-attack action card this turn, put this into 
 
     
     
-    
+    createdExtras: ["embodiment-of-earth","runechant"],
     defense: 3,
     
     functionalText: `**Florian Specialization**
@@ -183684,7 +183684,7 @@ Gain X+1{h}.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["embodiment-of-earth","runechant"],
     
     
     
@@ -183814,7 +183814,7 @@ When this **protects** another hero, they may give you a token they control.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `**Go again**
@@ -183833,7 +183833,7 @@ At the beginning of your end phase, remove an energy counter from this and creat
   
     
     pitch: 1,
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -183897,7 +183897,7 @@ At the beginning of your end phase, remove an energy counter from this and creat
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `**Go again**
@@ -183916,7 +183916,7 @@ At the beginning of your end phase, remove an energy counter from this and creat
   
     
     pitch: 2,
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -183980,7 +183980,7 @@ At the beginning of your end phase, remove an energy counter from this and creat
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `**Go again**
@@ -183999,7 +183999,7 @@ At the beginning of your end phase, remove an energy counter from this and creat
   
     
     pitch: 3,
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -184987,7 +184987,7 @@ At the beginning of your end phase, remove an energy counter from this and creat
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `When the combat chain closes, if this didn't hit, the defending hero creates a Vigor token.`,
@@ -185002,7 +185002,7 @@ At the beginning of your end phase, remove an energy counter from this and creat
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -185066,7 +185066,7 @@ At the beginning of your end phase, remove an energy counter from this and creat
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `When the combat chain closes, if this didn't hit, the defending hero creates a Vigor token.`,
@@ -185081,7 +185081,7 @@ At the beginning of your end phase, remove an energy counter from this and creat
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -185145,7 +185145,7 @@ At the beginning of your end phase, remove an energy counter from this and creat
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `When the combat chain closes, if this didn't hit, the defending hero creates a Vigor token.`,
@@ -185160,7 +185160,7 @@ At the beginning of your end phase, remove an energy counter from this and creat
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["vigor"],
     
     
     
@@ -186131,7 +186131,7 @@ If a yellow card is **charged** this way, this gets **overpower**.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["flurry"],
     defense: 2,
     
     functionalText: `Target weapon attack gets +3{p}.
@@ -186148,7 +186148,7 @@ If a yellow card is **charged** this way, this gets **overpower**.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["flurry"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -186227,7 +186227,7 @@ If a yellow card is **charged** this way, this gets **overpower**.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["lightning-flow"],
     defense: 2,
     
     functionalText: `**Instant** - {r}, discard this: Prevent the next 1 damage that would be dealt to you this turn. If you prevent damage this way, create a Lightning Flow token.`,
@@ -186242,7 +186242,7 @@ If a yellow card is **charged** this way, this gets **overpower**.`,
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["lightning-flow"],
     
     
     
@@ -186306,7 +186306,7 @@ If a yellow card is **charged** this way, this gets **overpower**.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["lightning-flow"],
     defense: 2,
     
     functionalText: `**Instant** - {r}, discard this: Prevent the next 1 damage that would be dealt to you this turn. If you prevent damage this way, create a Lightning Flow token.`,
@@ -186321,7 +186321,7 @@ If a yellow card is **charged** this way, this gets **overpower**.`,
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["lightning-flow"],
     
     
     
@@ -186385,7 +186385,7 @@ If a yellow card is **charged** this way, this gets **overpower**.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["lightning-flow"],
     defense: 2,
     
     functionalText: `**Instant** - {r}, discard this: Prevent the next 1 damage that would be dealt to you this turn. If you prevent damage this way, create a Lightning Flow token.`,
@@ -186400,7 +186400,7 @@ If a yellow card is **charged** this way, this gets **overpower**.`,
   
     
     pitch: 3,
-    power: 3,
+    power: 3,referencedCards: ["lightning-flow"],
     
     
     
@@ -187055,7 +187055,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
   
     
     pitch: 2,
-    
+    referencedCards: ["dawnblade","dawnblade-resplendent"],
     
     
     
@@ -187148,7 +187148,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
   
     
     
-    
+    referencedCards: ["toughness"],
     
     
     
@@ -188072,7 +188072,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["agility","vigor"],
     defense: 2,
     
     functionalText: `Create an Agility and a Vigor token.
@@ -188089,7 +188089,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
   
     
     pitch: 3,
-    
+    referencedCards: ["agility","vigor"],
     
     
     
@@ -188508,7 +188508,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
   
     
     pitch: 2,
-    power: 7,
+    power: 7,referencedCards: ["gold"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -188602,7 +188602,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["gold"],
     
     
     
@@ -188696,7 +188696,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["gold"],
     
     
     
@@ -188790,7 +188790,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["gold"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -188854,7 +188854,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `Your next arrow attack this turn gets +3{p}.
@@ -188873,7 +188873,7 @@ If there is a yellow arrow face-up in your arsenal, create a Gold token.
   
     
     pitch: 2,
-    
+    referencedCards: ["gold"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -188952,7 +188952,7 @@ If there is a yellow arrow face-up in your arsenal, create a Gold token.
 
     
     
-    
+    createdExtras: ["gold"],
     defense: 1,
     
     functionalText: `**Action** - {t}: Your next Pirate attack this turn gets "When this hits a hero, **steal** a Gold token they control, otherwise create a Gold token." At the beginning of your end phase, if you haven't created or stolen a Gold this turn, destroy this. **Go again**
@@ -188969,7 +188969,7 @@ If there is a yellow arrow face-up in your arsenal, create a Gold token.
   
     
     
-    
+    referencedCards: ["gold"],
     
     shorthands: [Shorthand.Tap],
     
@@ -188989,7 +188989,7 @@ If there is a yellow arrow face-up in your arsenal, create a Gold token.
     defaultImage: "SEA042",
     firstReleaseDate: "2025-06-06",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Dash,Hero.DataDoll,Hero.Maxx,Hero.Puffin,Hero.Shiyana,Hero.Teklovossen,Hero.Yorick],
+    legalHeroes: [Hero.Dash,Hero.DataDoll,Hero.Maxx,Hero.Puffin,Hero.Taylor,Hero.Teklovossen],
     name: "Golden Cog",
     printings: [{
         artists: ["Carlos Cruchaga"],
@@ -189174,7 +189174,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   
     
     pitch: 1,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -189268,7 +189268,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   
     
     pitch: 2,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -189377,7 +189377,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   
     
     pitch: 3,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -189460,7 +189460,7 @@ This counts as a Gold.
   
     
     
-    
+    referencedCards: ["gold"],
     
     
     
@@ -189543,7 +189543,7 @@ This counts as a Gold.
   
     
     
-    
+    referencedCards: ["gold"],
     
     
     
@@ -189626,7 +189626,7 @@ This counts as a Gold.
   
     
     
-    
+    referencedCards: ["gold"],
     
     
     
@@ -189720,7 +189720,7 @@ This counts as a Gold.
 
     
     
-    
+    createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `**Victor Specialization**
@@ -189739,7 +189739,7 @@ When this defends together with 2 or more yellow cards, create a Gold token.
   
     
     
-    
+    referencedCards: ["gold"],
     
     
     
@@ -189848,7 +189848,7 @@ When this defends together with 2 or more yellow cards, create a Gold token.
   
     
     
-    power: 3,
+    power: 3,referencedCards: ["gold"],
     
     
     
@@ -189931,7 +189931,7 @@ This counts as a Gold.
   
     
     
-    
+    referencedCards: ["gold"],
     
     
     
@@ -190014,7 +190014,7 @@ This counts as a Gold.
   
     
     pitch: 2,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -190093,7 +190093,7 @@ This counts as a Gold.
 
     
     
-    cost: 4,
+    cost: 4,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +1{d}. If a Golden Cog is destroyed this way, create a Gold token and repeat this process.`,
@@ -190108,7 +190108,7 @@ This counts as a Gold.
   
     
     pitch: 2,
-    power: 7,
+    power: 7,referencedCards: ["gold","golden-cog"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -190202,7 +190202,7 @@ This counts as a Gold.
 
     
     bannedFormats: [Format.ClassicConstructed],
-    cost: 1,
+    cost: 1,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `When this attacks, you may discard a yellow card. If you do, draw a card and create a Gold token.
@@ -190219,7 +190219,7 @@ This counts as a Gold.
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["gold"],
     
     
     
@@ -190313,7 +190313,7 @@ This counts as a Gold.
 
     
     bannedFormats: [Format.ClassicConstructed],
-    cost: 1,
+    cost: 1,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `When this attacks, you may discard a yellow card. If you do, draw a card and create a Gold token.
@@ -190330,7 +190330,7 @@ This counts as a Gold.
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["gold"],
     
     
     
@@ -190439,7 +190439,7 @@ This counts as a Gold.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `When this attacks, you may discard a yellow card. If you do, draw a card and create a Gold token.
@@ -190456,7 +190456,7 @@ This counts as a Gold.
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["gold"],
     
     
     
@@ -190555,7 +190555,7 @@ This counts as a Gold.
     defaultImage: "SEA245",
     firstReleaseDate: "2025-06-06",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Goldkiss Rum",
     printings: [{
         artists: ["Mario Wibisono"],
@@ -190735,7 +190735,7 @@ This counts as a Gold.
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["golden-cog"],
     defense: 3,
     
     functionalText: `Your next Mechanologist attack this turn gets +3{p}.
@@ -190752,7 +190752,7 @@ Create a Golden Cog token.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["golden-cog"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -190816,7 +190816,7 @@ Create a Golden Cog token.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["golden-cog"],
     defense: 3,
     
     functionalText: `Your next Mechanologist attack this turn gets +2{p}.
@@ -190833,7 +190833,7 @@ Create a Golden Cog token.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["golden-cog"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -190897,7 +190897,7 @@ Create a Golden Cog token.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["golden-cog"],
     defense: 3,
     
     functionalText: `Your next Mechanologist attack this turn gets +1{p}.
@@ -190914,7 +190914,7 @@ Create a Golden Cog token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["golden-cog"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -191476,7 +191476,7 @@ At the start of your turn, destroy this. If another hero drew a card from this, 
 
     
     
-    
+    createdExtras: ["might","vigor"],
     defense: 2,
     
     functionalText: `**Betsy Specialization**
@@ -191495,7 +191495,7 @@ At the start of your turn, destroy this. If another hero drew a card from this, 
   
     
     
-    
+    referencedCards: ["gold","might","vigor"],
     
     
     
@@ -192063,7 +192063,7 @@ Draw X cards, where X is 1 plus the number of Gorganian Tomes in all graveyards.
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["slither"],
     defense: 3,
     
     functionalText: `Create a Slither in your hand.
@@ -192080,7 +192080,7 @@ Banish all defending attack action cards on the combat chain. If a Chi was pitch
   
     
     pitch: 2,
-    
+    referencedCards: ["inner-chi-blue","slither"],
     
     
     
@@ -192174,7 +192174,7 @@ Banish all defending attack action cards on the combat chain. If a Chi was pitch
 
     
     
-    
+    createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `Whenever a weapon attack you control hits, you may pay {r}. If you do, create a Vigor token. 
@@ -192191,7 +192191,7 @@ Banish all defending attack action cards on the combat chain. If a Chi was pitch
   
     
     
-    
+    referencedCards: ["vigor"],
     
     
     
@@ -192240,7 +192240,7 @@ Banish all defending attack action cards on the combat chain. If a Chi was pitch
 
     
     
-    
+    createdExtras: ["seismic-surge"],
     
     
     functionalText: `**Legendary**
@@ -192257,7 +192257,7 @@ When this is pitched, create a Seismic Surge token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -192358,7 +192358,7 @@ When this is pitched, create a Seismic Surge token.`,
     defaultImage: "SAR033",
     firstReleaseDate: "2025-01-31",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Mortimer,Hero.Nuu,Hero.Shiyana,Hero.Slippy,Hero.Uzuri,Hero.Yorick],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Mortimer,Hero.Nuu,Hero.Shiyana,Hero.Slippy,Hero.Taylor,Hero.Uzuri],
     name: "Graphene Chelicera",
     printings: [{
         artists: ["Satriasa"],
@@ -192638,7 +192638,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
 
     
     
-    
+    createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `**Once per Turn Action** - {r}{r}: Create a Runechant token. This ability costs an additional {r} to activate for each Runechant you control. **Go again**
@@ -192655,7 +192655,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
   
     
     
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -192713,7 +192713,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
 
     
     
-    
+    createdExtras: ["runechant"],
     defense: 0,
     
     functionalText: `**Action** - {r}, destroy this: **Opt 1**, then create a Runechant token. **Go again**`,
@@ -192728,7 +192728,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
   
     
     
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -193426,7 +193426,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
   
     
     
-    power: 1,
+    power: 1,referencedCards: ["silver"],
     
     
     
@@ -193509,7 +193509,7 @@ When this is equipped from anywhere other than your graveyard, put a -1{d} count
   
     
     
-    
+    referencedCards: ["silver"],
     
     
     
@@ -193590,7 +193590,7 @@ When this is equipped from anywhere other than your graveyard, put a -1{d} count
   
     
     
-    
+    referencedCards: ["silver"],
     
     
     
@@ -193673,7 +193673,7 @@ When this is equipped from anywhere other than your graveyard, put a -1{d} count
   
     
     
-    
+    referencedCards: ["silver"],
     
     
     
@@ -193822,7 +193822,7 @@ When this is equipped from anywhere other than your graveyard, put a -1{d} count
   
     
     
-    
+    referencedCards: ["silver"],
     
     
     
@@ -193905,7 +193905,7 @@ When this is equipped from anywhere other than your graveyard, put a -1{d} count
   
     
     
-    
+    referencedCards: ["silver"],
     
     
     
@@ -194031,7 +194031,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
   
     
     
-    
+    referencedCards: ["gold"],
     
     shorthands: [Shorthand.Tap],
     
@@ -194169,7 +194169,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
   
     
     
-    
+    referencedCards: ["gold"],
     
     shorthands: [Shorthand.Tap],
     
@@ -194644,7 +194644,7 @@ Gain 1{h}
 
     
     
-    
+    createdExtras: ["runechant"],
     
     
     functionalText: `**Instant** - {r}, destroy this: Create a Runechant token.`,
@@ -194659,7 +194659,7 @@ Gain 1{h}
   
     
     
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -194723,7 +194723,7 @@ Gain 1{h}
 
     
     
-    
+    createdExtras: ["eloquence"],
     
     
     functionalText: `**Instant** - {r}, banish this: Create an Eloquence token.
@@ -194742,7 +194742,7 @@ Gain 1{h}
   
     
     
-    
+    referencedCards: ["eloquence"],
     
     
     
@@ -195156,7 +195156,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
 
     
     
-    
+    createdExtras: ["seismic-surge"],
     
     
     functionalText: `Your attacks get +1{p} while attacking a hero who controls a Seismic Surge token.
@@ -195173,7 +195173,7 @@ Whenever you attack a Guardian hero, **clash** with them. The winner creates a S
   
     
     
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -195749,7 +195749,7 @@ Whenever you attack a Guardian hero, **clash** with them. The winner creates a S
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["crouching-tiger"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -195815,7 +195815,7 @@ Whenever you attack a Guardian hero, **clash** with them. The winner creates a S
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["crouching-tiger"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -196005,7 +196005,7 @@ Whenever you attack a Guardian hero, **clash** with them. The winner creates a S
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["surging-strike-blue","surging-strike-red","surging-strike-yellow"],
     
     
     
@@ -196069,7 +196069,7 @@ Whenever you attack a Guardian hero, **clash** with them. The winner creates a S
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["blade-dance"],
     defense: 3,
     
     functionalText: `Your next sword attack this turn gets +3{p} and "When this attacks, **wager** with the defending hero. The winner creates a Blade Dance token."
@@ -196086,7 +196086,7 @@ Whenever you attack a Guardian hero, **clash** with them. The winner creates a S
   
     
     pitch: 1,
-    
+    referencedCards: ["blade-dance"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -196150,7 +196150,7 @@ Whenever you attack a Guardian hero, **clash** with them. The winner creates a S
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["blade-dance"],
     defense: 3,
     
     functionalText: `Your next sword attack this turn gets +2{p} and "When this attacks, **wager** with the defending hero. The winner creates a Blade Dance token."
@@ -196167,7 +196167,7 @@ Whenever you attack a Guardian hero, **clash** with them. The winner creates a S
   
     
     pitch: 2,
-    
+    referencedCards: ["blade-dance"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -196231,7 +196231,7 @@ Whenever you attack a Guardian hero, **clash** with them. The winner creates a S
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["blade-dance"],
     defense: 3,
     
     functionalText: `Your next sword attack this turn gets +1{p} and "When this attacks, **wager** with the defending hero. The winner creates a Blade Dance token."
@@ -196248,7 +196248,7 @@ Whenever you attack a Guardian hero, **clash** with them. The winner creates a S
   
     
     pitch: 3,
-    
+    referencedCards: ["blade-dance"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -196331,7 +196331,7 @@ Attack action cards get -1{p} while attacking or defending.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     
     
@@ -196838,7 +196838,7 @@ While Hala is face-up in arsenal, whenever a sword attack you control hits, it g
   
     
     
-    
+    referencedCards: ["glistening-steelblade-yellow"],
     
     
     
@@ -197292,7 +197292,7 @@ If you have a Chivalry in your pitch zone, this gets +1{p}.`,
   
     
     
-    power: 3,
+    power: 3,referencedCards: ["chivalry-blue"],
     
     
     
@@ -197986,7 +197986,7 @@ The third time you play a card with **boost** each turn, put a steam counter on 
   
     
     
-    
+    referencedCards: ["arakni","arakni-5lp3d-7hru-7h3-cr4x","arakni-black-widow","arakni-funnel-web","arakni-huntsman","arakni-marionette","arakni-orb-weaver","arakni-redback","arakni-solitary-confinement","arakni-tarantula","arakni-trap-door","arakni-web-of-deceit"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -198044,7 +198044,7 @@ The third time you play a card with **boost** each turn, put a steam counter on 
 
     
     
-    cost: 8,
+    cost: 8,createdExtras: ["gate-to-iarathael"],
     defense: 3,
     
     functionalText: `As an additional cost to play this, banish a card from your hand. If a Shadow card was banished this way, this gets "When this hits, create 2 Gate to i'Arathael tokens."
@@ -198061,7 +198061,7 @@ The third time you play a card with **boost** each turn, put a steam counter on 
   
     
     pitch: 1,
-    power: 13,
+    power: 13,referencedCards: ["gate-to-iarathael"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -198555,7 +198555,7 @@ If you have a card in your pitch zone with cost 0, this card's attacks get **go 
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["crouching-tiger"],
     defense: 2,
     
     functionalText: `When this attacks, if you've pitched a blue card this turn, create a Crouching Tiger in your hand.
@@ -198572,7 +198572,7 @@ If you have a card in your pitch zone with cost 0, this card's attacks get **go 
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["crouching-tiger"],
     
     
     
@@ -198636,7 +198636,7 @@ If you have a card in your pitch zone with cost 0, this card's attacks get **go 
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["crouching-tiger"],
     defense: 2,
     
     functionalText: `When this attacks, if you've pitched a blue card this turn, create a Crouching Tiger in your hand.
@@ -198653,7 +198653,7 @@ If you have a card in your pitch zone with cost 0, this card's attacks get **go 
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["crouching-tiger"],
     
     
     
@@ -198732,7 +198732,7 @@ If you have a card in your pitch zone with cost 0, this card's attacks get **go 
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["crouching-tiger"],
     defense: 2,
     
     functionalText: `When this attacks, if you've pitched a blue card this turn, create a Crouching Tiger in your hand.
@@ -198749,7 +198749,7 @@ If you have a card in your pitch zone with cost 0, this card's attacks get **go 
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["crouching-tiger"],
     
     
     
@@ -199276,7 +199276,7 @@ When this attacks, if Hatchet of Mind was the last attack this turn, this gets +
   
     
     
-    power: 2,
+    power: 2,referencedCards: ["hatchet-of-mind"],
     
     
     
@@ -199387,7 +199387,7 @@ When this attacks, if Hatchet of Body was the last attack this turn, this gets +
   
     
     
-    power: 2,
+    power: 2,referencedCards: ["hatchet-of-body"],
     
     
     
@@ -199451,7 +199451,7 @@ When this attacks, if Hatchet of Body was the last attack this turn, this gets +
 
     
     
-    
+    createdExtras: ["runechant"],
     defense: 4,
     
     functionalText: `**Instant** - Discard this: Prevent the next 2 damage that would be dealt to you this turn. The first time you prevent damage this way, create a Runechant token.`,
@@ -199466,7 +199466,7 @@ When this attacks, if Hatchet of Body was the last attack this turn, this gets +
   
     
     pitch: 1,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -199530,7 +199530,7 @@ When this attacks, if Hatchet of Body was the last attack this turn, this gets +
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["spectral-shield"],
     defense: 2,
     
     functionalText: `When this leaves the arena, create a Spectral Shield token, then if you control no other Illusionist auras, put a +1{p} counter on it.
@@ -199547,7 +199547,7 @@ When this attacks, if Hatchet of Body was the last attack this turn, this gets +
   
     
     pitch: 1,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -199611,7 +199611,7 @@ When this attacks, if Hatchet of Body was the last attack this turn, this gets +
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["spectral-shield"],
     defense: 2,
     
     functionalText: `When this leaves the arena, create a Spectral Shield token, then if you control no other Illusionist auras, put a +1{p} counter on it.
@@ -199628,7 +199628,7 @@ When this attacks, if Hatchet of Body was the last attack this turn, this gets +
   
     
     pitch: 2,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -199692,7 +199692,7 @@ When this attacks, if Hatchet of Body was the last attack this turn, this gets +
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["spectral-shield"],
     defense: 2,
     
     functionalText: `When this leaves the arena, create a Spectral Shield token, then if you control no other Illusionist auras, put a +1{p} counter on it.
@@ -199709,7 +199709,7 @@ When this attacks, if Hatchet of Body was the last attack this turn, this gets +
   
     
     pitch: 3,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -200129,7 +200129,7 @@ If this is tapped, cards cost {r} less to play, this doesn't untap during the en
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["spectral-shield"],
     defense: 2,
     
     functionalText: `Once per turn, when this or an Illusionist non-token aura you control is destroyed, create a Spectral Shield token.
@@ -200146,7 +200146,7 @@ If this is tapped, cards cost {r} less to play, this doesn't untap during the en
   
     
     pitch: 3,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -202536,7 +202536,7 @@ When this is pitched, if you have less {h} than an opposing hero, gain 1{h}.`,
   
     
     
-    
+    referencedCards: ["arakni","arakni-5lp3d-7hru-7h3-cr4x","arakni-black-widow","arakni-funnel-web","arakni-huntsman","arakni-marionette","arakni-orb-weaver","arakni-redback","arakni-solitary-confinement","arakni-tarantula","arakni-trap-door","arakni-web-of-deceit"],
     
     
     
@@ -202837,7 +202837,7 @@ When this is pitched, if you have less {h} than an opposing hero, gain 1{h}.`,
 
     
     
-    
+    createdExtras: ["vigor"],
     defense: 0,
     
     functionalText: `**Action** - Destroy this: Each hero creates a Vigor token.  **Go again**`,
@@ -202852,7 +202852,7 @@ When this is pitched, if you have less {h} than an opposing hero, gain 1{h}.`,
   
     
     
-    
+    referencedCards: ["vigor"],
     
     
     
@@ -203258,7 +203258,7 @@ Gain 1{h}. Gain 1{h}. Gain 1{h}.
   
     
     pitch: 1,
-    
+    referencedCards: ["vigor"],
     
     
     
@@ -203448,7 +203448,7 @@ Gain 1{h}. Gain 1{h}. Gain 1{h}.
   
     
     
-    
+    referencedCards: ["phoenix-flame-red"],
     
     
     
@@ -203542,7 +203542,7 @@ Gain 1{h}. Gain 1{h}. Gain 1{h}.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `Your next Pirate ally attack this turn gets **overpower** and "When this hits a hero, create a Gold token."
@@ -203559,7 +203559,7 @@ Gain 1{h}. Gain 1{h}. Gain 1{h}.
   
     
     pitch: 3,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -207654,7 +207654,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["spectral-shield"],
     defense: 3,
     
     functionalText: `When this hits, put it into your soul and create a Spectral Shield token.
@@ -207671,7 +207671,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["spectral-shield"],
     
     
     
@@ -207822,7 +207822,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["spectral-shield"],
     defense: 3,
     
     functionalText: `When this hits, put it into your soul and create a Spectral Shield token.
@@ -207839,7 +207839,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["spectral-shield"],
     
     
     
@@ -208005,7 +208005,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["spectral-shield"],
     defense: 3,
     
     functionalText: `When this hits, put it into your soul and create a Spectral Shield token.
@@ -208022,7 +208022,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["spectral-shield"],
     
     
     
@@ -210147,7 +210147,7 @@ When this hits, put it into your soul.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["toughness"],
     defense: 2,
     
     functionalText: `Your next attack this turn gets "This gets +1{p} for each Toughness token you control."
@@ -210166,7 +210166,7 @@ Create a Toughness token.
   
     
     pitch: 2,
-    
+    referencedCards: ["toughness"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -210573,7 +210573,7 @@ Create a Toughness token.
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["crane-dance-blue","crane-dance-red","crane-dance-yellow"],
     
     
     
@@ -210904,7 +210904,7 @@ Whenever this attacks, it deals damage to you equal to 6 minus the number of car
 
     
     
-    
+    createdExtras: ["might"],
     defense: 1,
     
     functionalText: `When you discard a random card with 6 or more {p}, you may destroy this. If you do, create 2 Might tokens.
@@ -210921,7 +210921,7 @@ Whenever this attacks, it deals damage to you equal to 6 minus the number of car
   
     
     
-    
+    referencedCards: ["might"],
     
     
     
@@ -210997,7 +210997,7 @@ Whenever this attacks, it deals damage to you equal to 6 minus the number of car
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `Remove all energy counters from target non-hero permanent an opponent controls. Create that many Gold tokens.`,
@@ -211012,7 +211012,7 @@ Whenever this attacks, it deals damage to you equal to 6 minus the number of car
   
     
     pitch: 3,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -211219,7 +211219,7 @@ Draw a card.
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["vigor"],
     defense: 3,
     
     functionalText: `When this attacks, if there is a card with 6 or more {p} in your pitch zone, create a Vigor token.`,
@@ -211234,7 +211234,7 @@ Draw a card.
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -211298,7 +211298,7 @@ Draw a card.
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["vigor"],
     defense: 3,
     
     functionalText: `When this attacks, if there is a card with 6 or more {p} in your pitch zone, create a Vigor token.`,
@@ -211313,7 +211313,7 @@ Draw a card.
   
     
     pitch: 2,
-    power: 5,
+    power: 5,referencedCards: ["vigor"],
     
     
     
@@ -211377,7 +211377,7 @@ Draw a card.
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["vigor"],
     defense: 3,
     
     functionalText: `When this attacks, if there is a card with 6 or more {p} in your pitch zone, create a Vigor token.`,
@@ -211392,7 +211392,7 @@ Draw a card.
   
     
     pitch: 3,
-    power: 4,
+    power: 4,referencedCards: ["vigor"],
     
     
     
@@ -212224,7 +212224,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["copper"],
     defense: 2,
     
     functionalText: `The next time your attack hits this turn, create 6 Copper tokens.
@@ -212241,7 +212241,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
   
     
     pitch: 1,
-    
+    referencedCards: ["copper"],
     
     
     
@@ -212320,7 +212320,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["copper"],
     defense: 2,
     
     functionalText: `The next time your attack hits this turn, create 4 Copper tokens.
@@ -212337,7 +212337,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
   
     
     pitch: 2,
-    
+    referencedCards: ["copper"],
     
     
     
@@ -212416,7 +212416,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["copper"],
     defense: 2,
     
     functionalText: `The next time your attack hits this turn, create 2 Copper tokens.
@@ -212433,7 +212433,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
   
     
     pitch: 3,
-    
+    referencedCards: ["copper"],
     
     
     
@@ -212591,7 +212591,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["slither"],
     defense: 3,
     
     functionalText: `Target Assassin or Mystic attack action card gets +3{p}.
@@ -212608,7 +212608,7 @@ If you've pitched a blue card this turn, create a Slither in your hand.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["slither"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -212687,7 +212687,7 @@ If you've pitched a blue card this turn, create a Slither in your hand.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["slither"],
     defense: 3,
     
     functionalText: `Target Assassin or Mystic attack action card gets +2{p}.
@@ -212704,7 +212704,7 @@ If you've pitched a blue card this turn, create a Slither in your hand.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["slither"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -212783,7 +212783,7 @@ If you've pitched a blue card this turn, create a Slither in your hand.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["slither"],
     defense: 3,
     
     functionalText: `Target Assassin or Mystic attack action card gets +1{p}.
@@ -212800,7 +212800,7 @@ If you've pitched a blue card this turn, create a Slither in your hand.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["slither"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -213340,7 +213340,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
   
     
     pitch: 3,
-    
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -214085,7 +214085,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `When this attacks, create a Runechant token.`,
@@ -214100,7 +214100,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["runechant"],
     
     
     
@@ -214164,7 +214164,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `When this attacks, create a Runechant token.`,
@@ -214179,7 +214179,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["runechant"],
     
     
     
@@ -214258,7 +214258,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `When this attacks, create a Runechant token.`,
@@ -214273,7 +214273,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["runechant"],
     
     
     
@@ -214461,7 +214461,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["vigor"],
     defense: 3,
     
     functionalText: `Your next Warrior attack this turn gets +3{p} and "When this attacks a hero, you may **wager** a Vigor token with them."
@@ -214478,7 +214478,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
   
     
     pitch: 1,
-    
+    referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -214542,7 +214542,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["vigor"],
     defense: 3,
     
     functionalText: `Your next Warrior attack this turn gets +2{p} and "When this attacks a hero, you may **wager** a Vigor token with them."
@@ -214559,7 +214559,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
   
     
     pitch: 2,
-    
+    referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -214653,7 +214653,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["vigor"],
     defense: 3,
     
     functionalText: `Your next Warrior attack this turn gets +1{p} and "When this attacks a hero, you may **wager** a Vigor token with them."
@@ -214670,7 +214670,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
   
     
     pitch: 3,
-    
+    referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -214734,7 +214734,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
 
     
     
-    
+    createdExtras: ["toughness"],
     defense: 1,
     
     functionalText: `**Action** - {r}{r}{r}, destroy this: Create 3 Toughness tokens. Activate this only if you have less {h} than each other hero. **Go again**
@@ -214751,7 +214751,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
   
     
     
-    
+    referencedCards: ["toughness"],
     
     
     
@@ -216632,7 +216632,7 @@ When this attacks, it gets the base abilities of the last attack action card wit
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     defense: 3,
     
     functionalText: `If you control 2 or more Draconic chain links, this gets **go again** and "When this hits a hero, **mark** them."`,
@@ -216647,7 +216647,7 @@ When this attacks, it gets the base abilities of the last attack action card wit
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["marked"],
     
     
     
@@ -217560,7 +217560,7 @@ The next attack action card you play this turn gets +1{p}.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["toughness"],
     defense: 2,
     
     functionalText: `Create 3 Toughness tokens.
@@ -217577,7 +217577,7 @@ The next attack action card you play this turn gets +1{p}.
   
     
     pitch: 3,
-    
+    referencedCards: ["toughness"],
     
     
     
@@ -217908,7 +217908,7 @@ The next attack action card you play this turn gets +1{p}.
 
     
     
-    
+    createdExtras: ["quicken"],
     
     
     functionalText: `At the start of your turn, choose 1;
@@ -217926,7 +217926,7 @@ The next attack action card you play this turn gets +1{p}.
   
     
     
-    
+    referencedCards: ["quicken"],
     
     
     
@@ -219096,7 +219096,7 @@ When this leaves the arena, gain 3{h}.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["marked"],
     defense: 3,
     
     functionalText: `Your next dagger attack this turn gets +4{p} and "When this hits a hero, **mark** them."
@@ -219113,7 +219113,7 @@ When this leaves the arena, gain 3{h}.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["marked"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -219177,7 +219177,7 @@ When this leaves the arena, gain 3{h}.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["marked"],
     defense: 3,
     
     functionalText: `Your next dagger attack this turn gets +3{p} and "When this hits a hero, **mark** them."
@@ -219194,7 +219194,7 @@ When this leaves the arena, gain 3{h}.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["marked"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -219273,7 +219273,7 @@ When this leaves the arena, gain 3{h}.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["marked"],
     defense: 3,
     
     functionalText: `Your next dagger attack this turn gets +2{p} and "When this hits a hero, **mark** them."
@@ -219290,7 +219290,7 @@ When this leaves the arena, gain 3{h}.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["marked"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -219384,7 +219384,7 @@ When this leaves the arena, gain 3{h}.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["marked"],
     defense: 3,
     
     functionalText: `When this attacks a hero, if you've played another red card this turn, **mark** them.`,
@@ -219399,7 +219399,7 @@ When this leaves the arena, gain 3{h}.`,
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["marked"],
     
     
     
@@ -219523,7 +219523,7 @@ When this leaves the arena, gain 3{h}.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     defense: 2,
     
     functionalText: `When this attacks Arakni, **mark** them.
@@ -219542,7 +219542,7 @@ If this is attacking a **marked** hero, this gets +2{p}.
   
     
     pitch: 1,
-    power: 2,
+    power: 2,referencedCards: ["arakni","arakni-5lp3d-7hru-7h3-cr4x","arakni-black-widow","arakni-funnel-web","arakni-huntsman","arakni-marionette","arakni-orb-weaver","arakni-redback","arakni-solitary-confinement","arakni-tarantula","arakni-trap-door","arakni-web-of-deceit","marked"],
     
     
     
@@ -219638,7 +219638,7 @@ Target dagger attack gets +4{p}.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["fealty"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -219796,7 +219796,7 @@ Target dagger attack gets +4{p}.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["silver"],
     defense: 4,
     
     functionalText: `When this defends, name a card. The attacking hero reveals the top card of their deck. If it's the named card, banish it, search their hand, deck, and arsenal for up to 3 cards with that name and banish them, then they shuffle.
@@ -219813,7 +219813,7 @@ Target dagger attack gets +4{p}.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["silver"],
     
     
     
@@ -219907,7 +219907,7 @@ Target dagger attack gets +4{p}.`,
 
     
     
-    
+    createdExtras: ["marked"],
     
     
     functionalText: `**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
@@ -219926,7 +219926,7 @@ When this hits a hero, **mark** them.
   
     
     
-    power: 1,
+    power: 1,referencedCards: ["marked"],
     
     
     
@@ -220299,7 +220299,7 @@ If the additional cost is paid, this gets "When this attacks, target dagger you 
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["rising-knee-thrust-blue","rising-knee-thrust-red","rising-knee-thrust-yellow"],
     
     
     
@@ -220562,7 +220562,7 @@ When this attacks, if it **scrapped** a card, this gets **overpower**.`,
     defaultImage: "AMX028",
     firstReleaseDate: "2023-10-06",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Dash,Hero.DataDoll,Hero.Maxx,Hero.Puffin,Hero.Shiyana,Hero.Teklovossen,Hero.Yorick],
+    legalHeroes: [Hero.Dash,Hero.DataDoll,Hero.Maxx,Hero.Puffin,Hero.Teklovossen],
     name: "Hyper Driver",
     printings: [{
         artists: ["Alexander Mokhov"],
@@ -221460,7 +221460,7 @@ When this attacks, it gets +X{p}. If 3 or more Hyper Drivers were banished to pl
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -221558,7 +221558,7 @@ Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyp
   
     
     
-    
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -221697,7 +221697,7 @@ At the beginning of your end phase, destroy this.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["embodiment-of-earth","frostbite"],
     defense: 3,
     
     functionalText: `When this hits a hero, create an Embodiment of Earth token.
@@ -221714,7 +221714,7 @@ At the beginning of your end phase, destroy this.`,
   
     
     pitch: 3,
-    power: 4,
+    power: 4,referencedCards: ["embodiment-of-earth","frostbite"],
     
     
     
@@ -222075,7 +222075,7 @@ At the beginning of your end phase, destroy this.`,
 
     
     
-    
+    createdExtras: ["frostbite"],
     defense: 3,
     
     functionalText: `**Iyslander Specialization**
@@ -222094,7 +222094,7 @@ Create X Frostbite tokens under target hero's control. Then if this was fused, d
   
     
     pitch: 3,
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -222188,7 +222188,7 @@ Create X Frostbite tokens under target hero's control. Then if this was fused, d
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["frostbite"],
     defense: 2,
     
     functionalText: `Your next attack this turn gets +3{p}.
@@ -222207,7 +222207,7 @@ Whenever an attack hits a hero this turn, create a Frostbite token under their c
   
     
     pitch: 1,
-    
+    referencedCards: ["frostbite"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -222301,7 +222301,7 @@ Whenever an attack hits a hero this turn, create a Frostbite token under their c
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["frostbite"],
     defense: 2,
     
     functionalText: `Your next attack this turn gets +2{p}.
@@ -222320,7 +222320,7 @@ Whenever an attack hits a hero this turn, create a Frostbite token under their c
   
     
     pitch: 2,
-    
+    referencedCards: ["frostbite"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -222414,7 +222414,7 @@ Whenever an attack hits a hero this turn, create a Frostbite token under their c
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["frostbite"],
     defense: 2,
     
     functionalText: `Your next attack this turn gets +1{p}.
@@ -222433,7 +222433,7 @@ Whenever an attack hits a hero this turn, create a Frostbite token under their c
   
     
     pitch: 3,
-    
+    referencedCards: ["frostbite"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -222527,7 +222527,7 @@ Whenever an attack hits a hero this turn, create a Frostbite token under their c
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["frostbite"],
     defense: 2,
     
     functionalText: `**Ice and Lightning Fusion**
@@ -222548,7 +222548,7 @@ If this was **fused**, your next arrow attack this turn gets "When this hits a h
   
     
     pitch: 1,
-    
+    referencedCards: ["frostbite"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -222900,7 +222900,7 @@ Deal 1 arcane damage to any target. If this was **fused** and deals damage to a 
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["frostbite"],
     defense: 2,
     
     functionalText: `When this hits a hero, create a Frostbite token under their control.`,
@@ -222915,7 +222915,7 @@ Deal 1 arcane damage to any target. If this was **fused** and deals damage to a 
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["frostbite"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -223009,7 +223009,7 @@ Deal 1 arcane damage to any target. If this was **fused** and deals damage to a 
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["frostbite"],
     defense: 2,
     
     functionalText: `When this hits a hero, create a Frostbite token under their control.`,
@@ -223024,7 +223024,7 @@ Deal 1 arcane damage to any target. If this was **fused** and deals damage to a 
   
     
     pitch: 2,
-    power: 5,
+    power: 5,referencedCards: ["frostbite"],
     
     
     
@@ -223118,7 +223118,7 @@ Deal 1 arcane damage to any target. If this was **fused** and deals damage to a 
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["frostbite"],
     defense: 2,
     
     functionalText: `When this hits a hero, create a Frostbite token under their control.`,
@@ -223133,7 +223133,7 @@ Deal 1 arcane damage to any target. If this was **fused** and deals damage to a 
   
     
     pitch: 3,
-    power: 4,
+    power: 4,referencedCards: ["frostbite"],
     
     
     
@@ -224278,7 +224278,7 @@ Target dagger attack gets +2{p}.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["copper","gold"],
     
     
     functionalText: `**Legendary**
@@ -224295,7 +224295,7 @@ Target dagger attack gets +2{p}.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["copper","gold"],
     
     
     
@@ -226773,7 +226773,7 @@ If it has 3 or more +1{p} counters, your next attack with it this turn gets "Whe
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["inertia"],
     defense: 3,
     
     functionalText: `When this defends an attack with {p} greater than its base, create an Inertia token under the attacking hero's control.`,
@@ -226788,7 +226788,7 @@ If it has 3 or more +1{p} counters, your next attack with it this turn gets "Whe
   
     
     pitch: 1,
-    
+    referencedCards: ["inertia"],
     
     
     
@@ -226912,7 +226912,7 @@ If it has 3 or more +1{p} counters, your next attack with it this turn gets "Whe
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["bloodrot-pox"],
     defense: 3,
     
     functionalText: `**Stealth**
@@ -226929,7 +226929,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["bloodrot-pox"],
     
     
     
@@ -227023,7 +227023,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["bloodrot-pox"],
     defense: 3,
     
     functionalText: `**Stealth**
@@ -227040,7 +227040,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["bloodrot-pox"],
     
     
     
@@ -227134,7 +227134,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["bloodrot-pox"],
     defense: 3,
     
     functionalText: `**Stealth**
@@ -227151,7 +227151,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["bloodrot-pox"],
     
     
     
@@ -227275,7 +227275,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["bloodrot-pox"],
     defense: 3,
     
     functionalText: `If this has an aim counter, it gets +1{p}.
@@ -227292,7 +227292,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["bloodrot-pox"],
     
     
     
@@ -227401,7 +227401,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["bloodrot-pox"],
     defense: 3,
     
     functionalText: `If this has an aim counter, it gets +1{p}.
@@ -227418,7 +227418,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["bloodrot-pox"],
     
     
     
@@ -227512,7 +227512,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["bloodrot-pox"],
     defense: 3,
     
     functionalText: `If this has an aim counter, it gets +1{p}.
@@ -227529,7 +227529,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
   
     
     pitch: 3,
-    power: 3,
+    power: 3,referencedCards: ["bloodrot-pox"],
     
     
     
@@ -227593,7 +227593,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["bloodrot-pox","frailty","inertia"],
     defense: 2,
     
     functionalText: `When this attacks a hero, if you control a Frailty token, create a Frailty token under their control, then repeat for Inertia and Bloodrot Pox.`,
@@ -227608,7 +227608,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["bloodrot-pox","frailty","inertia"],
     
     
     
@@ -227672,7 +227672,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["bloodrot-pox","frailty","inertia"],
     defense: 2,
     
     functionalText: `When this attacks a hero, if you control a Frailty token, create a Frailty token under their control, then repeat for Inertia and Bloodrot Pox.`,
@@ -227687,7 +227687,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["bloodrot-pox","frailty","inertia"],
     
     
     
@@ -227751,7 +227751,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["bloodrot-pox","frailty","inertia"],
     defense: 2,
     
     functionalText: `When this attacks a hero, if you control a Frailty token, create a Frailty token under their control, then repeat for Inertia and Bloodrot Pox.`,
@@ -227766,7 +227766,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["bloodrot-pox","frailty","inertia"],
     
     
     
@@ -227973,7 +227973,7 @@ When this hits a hero, banish the top card of their deck. You may play it until 
   
     
     pitch: 1,
-    power: 1,
+    power: 1,referencedCards: ["phoenix-flame-red"],
     
     
     
@@ -230292,7 +230292,7 @@ If this was **fused**, deal 1 arcane damage to target hero.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["copper"],
     
     
     functionalText: `Choose a hero. The next time they would be dealt damage this turn, prevent 3 of that damage. If you prevent damage to another hero this way, create a Copper token.`,
@@ -230307,7 +230307,7 @@ If this was **fused**, deal 1 arcane damage to target hero.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["copper"],
     
     
     
@@ -230356,7 +230356,7 @@ If this was **fused**, deal 1 arcane damage to target hero.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["copper"],
     
     
     functionalText: `Choose a hero. The next time they would be dealt damage this turn, prevent 2 of that damage. If you prevent damage to another hero this way, create a Copper token.`,
@@ -230371,7 +230371,7 @@ If this was **fused**, deal 1 arcane damage to target hero.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["copper"],
     
     
     
@@ -230420,7 +230420,7 @@ If this was **fused**, deal 1 arcane damage to target hero.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["copper"],
     
     
     functionalText: `Choose a hero. The next time they would be dealt damage this turn, prevent 1 of that damage. If you prevent damage to another hero this way, create a Copper token.`,
@@ -230435,7 +230435,7 @@ If this was **fused**, deal 1 arcane damage to target hero.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["copper"],
     
     
     
@@ -230838,7 +230838,7 @@ Banish a non-equipment defending card on the active chain link.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["courage","quicken"],
     defense: 3,
     
     functionalText: `**Riptide Specialization**
@@ -230855,7 +230855,7 @@ When this hits a hero, they create a Courage and Quicken token.`,
   
     
     pitch: 3,
-    power: 4,
+    power: 4,referencedCards: ["courage","quicken"],
     
     
     
@@ -231848,7 +231848,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
   
     oppositeSideCardIdentifier: `azvolai`,oppositeSideCardIdentifiers: ["azvolai"],
     pitch: 1,
-    
+    referencedCards: ["ash","azvolai","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     
     
@@ -231927,7 +231927,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
   
     oppositeSideCardIdentifier: `cromai`,oppositeSideCardIdentifiers: ["cromai"],
     pitch: 1,
-    
+    referencedCards: ["ash","cromai","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     
     
@@ -232008,7 +232008,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
   
     oppositeSideCardIdentifier: `dominia`,oppositeSideCardIdentifiers: ["dominia"],
     pitch: 1,
-    
+    referencedCards: ["ash","dominia","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     
     
@@ -232089,7 +232089,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
   
     oppositeSideCardIdentifier: `dracona-optimai`,oppositeSideCardIdentifiers: ["dracona-optimai"],
     pitch: 1,
-    
+    referencedCards: ["ash","dracona-optimai","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     
     
@@ -232168,7 +232168,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
   
     oppositeSideCardIdentifier: `kyloria`,oppositeSideCardIdentifiers: ["kyloria"],
     pitch: 1,
-    
+    referencedCards: ["ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red","kyloria"],
     
     
     
@@ -232247,7 +232247,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
   
     oppositeSideCardIdentifier: `miragai`,oppositeSideCardIdentifiers: ["miragai"],
     pitch: 1,
-    
+    referencedCards: ["ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red","miragai"],
     
     
     
@@ -232326,7 +232326,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
   
     oppositeSideCardIdentifier: `nekria`,oppositeSideCardIdentifiers: ["nekria"],
     pitch: 1,
-    
+    referencedCards: ["ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red","nekria"],
     
     
     
@@ -232405,7 +232405,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
   
     oppositeSideCardIdentifier: `ouvia`,oppositeSideCardIdentifiers: ["ouvia"],
     pitch: 1,
-    
+    referencedCards: ["ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red","ouvia"],
     
     
     
@@ -232503,7 +232503,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
   
     oppositeSideCardIdentifier: `suraya-archangel-of-knowledge`,oppositeSideCardIdentifiers: ["suraya-archangel-of-knowledge"],
     pitch: 2,
-    
+    referencedCards: ["spectral-shield","suraya-archangel-of-knowledge"],
     
     
     
@@ -232582,7 +232582,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
   
     oppositeSideCardIdentifier: `themai`,oppositeSideCardIdentifiers: ["themai"],
     pitch: 1,
-    
+    referencedCards: ["ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red","themai"],
     
     
     
@@ -232663,7 +232663,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
   
     oppositeSideCardIdentifier: `tomeltai`,oppositeSideCardIdentifiers: ["tomeltai"],
     pitch: 1,
-    
+    referencedCards: ["ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red","tomeltai"],
     
     
     
@@ -232742,7 +232742,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
   
     oppositeSideCardIdentifier: `vynserakai`,oppositeSideCardIdentifiers: ["vynserakai"],
     pitch: 1,
-    
+    referencedCards: ["ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red","vynserakai"],
     
     
     
@@ -232821,7 +232821,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
   
     oppositeSideCardIdentifier: `yendurai`,oppositeSideCardIdentifiers: ["yendurai"],
     pitch: 1,
-    
+    referencedCards: ["ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red","yendurai"],
     
     
     
@@ -233482,7 +233482,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
   
     
     
-    
+    referencedCards: ["whirling-mist-blossom-yellow"],
     
     shorthands: [Shorthand.Tap],
     
@@ -235854,7 +235854,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
 
     
     
-    
+    createdExtras: ["courage"],
     defense: 2,
     
     functionalText: `**Once per Turn Action** - {r}: Your next sword attack this turn gets "When this hits a hero, create a Courage token."  **Go again**
@@ -235871,7 +235871,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
   
     
     
-    
+    referencedCards: ["courage"],
     
     
     
@@ -235935,7 +235935,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["frostbite"],
     defense: 2,
     
     functionalText: `The next time you **Ice fuse** this turn, create 4 Frostbite tokens under target hero's control.
@@ -235952,7 +235952,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
   
     
     pitch: 1,
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -236016,7 +236016,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["frostbite"],
     defense: 2,
     
     functionalText: `The next time you **Ice fuse** this turn, create 3 Frostbite tokens under target hero's control.
@@ -236033,7 +236033,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
   
     
     pitch: 2,
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -236097,7 +236097,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["frostbite"],
     defense: 2,
     
     functionalText: `The next time you **Ice fuse** this turn, create 2 Frostbite tokens under target hero's control.
@@ -236114,7 +236114,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
   
     
     pitch: 3,
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -236556,7 +236556,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
 
     
     
-    
+    createdExtras: ["frostbite"],
     
     
     functionalText: `**Essence of Ice**
@@ -236575,7 +236575,7 @@ Whenever you play an Ice card during an opponent's turn, create a Frostbite toke
   
     
     
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -236666,7 +236666,7 @@ Whenever you play an Ice card during an opponent's turn, create a Frostbite toke
 
     
     
-    
+    createdExtras: ["frostbite"],
     
     
     functionalText: `**Essence of Ice**
@@ -236685,7 +236685,7 @@ Whenever you play an Ice card during an opponent's turn, create a Frostbite toke
   
     
     
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -236766,7 +236766,7 @@ When this hits a hero, **steal** an item they control until the end of this acti
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["nimblism-blue","nimblism-red","nimblism-yellow"],
     
     
     
@@ -236862,7 +236862,7 @@ When this hits a hero, {u} an ally they control, then **steal** it until the end
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["nimblism-blue","nimblism-red","nimblism-yellow"],
     
     shorthands: [Shorthand.Untap],
     
@@ -236911,7 +236911,7 @@ When this hits a hero, {u} an ally they control, then **steal** it until the end
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `Banish the top card of your deck. If it's red, create a Runechant token.
@@ -236928,7 +236928,7 @@ When this hits a hero, {u} an ally they control, then **steal** it until the end
   
     
     pitch: 1,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -236977,7 +236977,7 @@ When this hits a hero, {u} an ally they control, then **steal** it until the end
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `Banish the top card of your deck. If it's yellow, create a Runechant token.
@@ -236994,7 +236994,7 @@ When this hits a hero, {u} an ally they control, then **steal** it until the end
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -237043,7 +237043,7 @@ When this hits a hero, {u} an ally they control, then **steal** it until the end
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `Banish the top card of your deck. If it's blue, create a Runechant token.
@@ -237060,7 +237060,7 @@ When this hits a hero, {u} an ally they control, then **steal** it until the end
   
     
     pitch: 3,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -237260,7 +237260,7 @@ When this hits a hero, {u} an ally they control, then **steal** it until the end
 
     
     
-    
+    createdExtras: ["frostbite"],
     
     
     functionalText: `Whenever you play an Ice card, create a Frostbite token in an opponent's exposed head, chest, arms, or legs zone.
@@ -237277,7 +237277,7 @@ When this hits a hero, {u} an ally they control, then **steal** it until the end
   
     
     
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -237422,7 +237422,7 @@ If you've been cheered this turn, this gets **go again**.`,
 
     
     
-    
+    createdExtras: ["copper","might","quicken","vigor"],
     
     
     functionalText: `**Once per Turn Action** - {r}{r}{r}: Target opposing hero chooses and creates a Might, Quicken, or Vigor token. You create a Copper token. **Go again**
@@ -237439,7 +237439,7 @@ If you've been cheered this turn, this gets **go again**.`,
   
     
     
-    power: 2,
+    power: 2,referencedCards: ["copper","might","quicken","vigor"],
     
     
     
@@ -237815,7 +237815,7 @@ If you've been cheered this turn, this gets **go again**.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["blade-dance"],
     defense: 3,
     
     functionalText: `Create a Blade Dance token.`,
@@ -237830,7 +237830,7 @@ If you've been cheered this turn, this gets **go again**.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["blade-dance"],
     
     
     
@@ -237992,7 +237992,7 @@ When this deals damage to a hero, steal that many items they control.
 
     
     
-    
+    createdExtras: ["spellbane-aegis"],
     
     
     functionalText: `**Once per Turn Action** - {r}: **Attack**
@@ -238009,7 +238009,7 @@ When this hits a hero and you don't control a Spellbane Aegis, create a Spellban
   
     
     
-    power: 3,
+    power: 3,referencedCards: ["spellbane-aegis"],
     
     
     
@@ -238216,7 +238216,7 @@ When this attacks, if it has an aim counter, it gets "When this hits a hero, the
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -238327,7 +238327,7 @@ When this attacks, if it has an aim counter, it gets "When this hits a hero, the
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -238438,7 +238438,7 @@ When this attacks, if it has an aim counter, it gets "When this hits a hero, the
   
     
     pitch: 3,
-    power: 3,
+    power: 3,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -239272,7 +239272,7 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
 
     
     
-    
+    createdExtras: ["gold"],
     
     
     functionalText: `If you've drawn a card this turn, your sword attacks cost {r} less to activate.
@@ -239289,7 +239289,7 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
   
     
     
-    
+    referencedCards: ["gold"],
     
     
     
@@ -239410,7 +239410,7 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
 
     
     
-    
+    createdExtras: ["gold"],
     
     
     functionalText: `If you've drawn a card this turn, your sword attacks cost {r} less to activate.
@@ -239427,7 +239427,7 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
   
     
     
-    
+    referencedCards: ["gold"],
     
     
     
@@ -239581,7 +239581,7 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
 
     
     
-    
+    createdExtras: ["copper"],
     
     
     functionalText: `Your second sword attack each turn costs {r} less to activate.
@@ -239598,7 +239598,7 @@ At the beginning of your end phase, if you've attacked 2 or more times with weap
   
     
     
-    
+    referencedCards: ["copper"],
     
     
     
@@ -240102,7 +240102,7 @@ At the beginning of your end phase, if you've attacked 2 or more times with weap
 
     
     
-    
+    createdExtras: ["copper"],
     
     
     functionalText: `**Once per Turn Action** - {r}{r}{r}: If a hero has more {h} than each other hero, they lose 1{h} and create a Copper token. Then if a hero has less {h} than each other hero, they gain 1{h}. **Go again**`,
@@ -240117,7 +240117,7 @@ At the beginning of your end phase, if you've attacked 2 or more times with weap
   
     
     
-    
+    referencedCards: ["copper"],
     
     
     
@@ -240226,7 +240226,7 @@ At the beginning of your end phase, if you've attacked 2 or more times with weap
 
     
     bannedFormats: [Format.SilverAge],
-    
+    createdExtras: ["might"],
     
     
     functionalText: `You have 1 weapon zone.
@@ -240245,7 +240245,7 @@ The first time you discard a card with 6 or more {p} during each of your action 
   
     
     
-    
+    referencedCards: ["might"],
     
     
     
@@ -240366,7 +240366,7 @@ The first time you discard a card with 6 or more {p} during each of your action 
 
     
     
-    
+    createdExtras: ["might"],
     
     
     functionalText: `You have 1 weapon zone.
@@ -240385,7 +240385,7 @@ The first time you discard a card with 6 or more {p} during each of your action 
   
     
     
-    
+    referencedCards: ["might"],
     
     
     
@@ -240619,7 +240619,7 @@ The first time you discard a card with 6 or more {p} during each of your action 
 
     
     
-    
+    createdExtras: ["vigor"],
     
     
     functionalText: `You start the game with 1 weapon zone.
@@ -240638,7 +240638,7 @@ Whenever the crowd boos you, create a Vigor token.`,
   
     
     
-    
+    referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Tap],
     shortName: "Kayo, RKO",
@@ -240744,7 +240744,7 @@ Whenever the crowd boos you, create a Vigor token.`,
 
     
     
-    
+    createdExtras: ["vigor"],
     
     
     functionalText: `You start the game with 1 weapon zone.
@@ -240763,7 +240763,7 @@ Whenever the crowd boos you, create a Vigor token.`,
   
     
     
-    
+    referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Tap],
     shortName: "Kayo, RKO",
@@ -240925,7 +240925,7 @@ Whenever the crowd boos you, create a Vigor token.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["confidence","might","toughness","vigor"],
     defense: 3,
     
     functionalText: `When an opponent's effect puts this into your graveyard from anywhere, create a Confidence, Might, Toughness, and Vigor token.`,
@@ -240940,7 +240940,7 @@ Whenever the crowd boos you, create a Vigor token.`,
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["confidence","might","toughness","vigor"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -241005,7 +241005,7 @@ The first time the crowd boos you each turn, each hero with more {h} than you lo
   
     
     
-    
+    referencedCards: ["gold"],
     
     
     
@@ -241233,7 +241233,7 @@ If you have no cards in hand, draw a card.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `**Go Fish** - When this hits a hero, they choose and reveal a card from their hand. If it's a non-attack action card, they discard it and you create a Gold token. If you've activated a cannon this turn, instead look at their hand and you choose the card.`,
@@ -241248,7 +241248,7 @@ If you have no cards in hand, draw a card.`,
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["gold"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -241312,7 +241312,7 @@ If you have no cards in hand, draw a card.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `**Go Fish** - When this hits a hero, they choose and reveal a card from their hand. If it's an attack action card, they discard it and you create a Gold token. If you've activated a cannon this turn, instead look at their hand and you choose the card.`,
@@ -241327,7 +241327,7 @@ If you have no cards in hand, draw a card.`,
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["gold"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -241519,7 +241519,7 @@ Search your deck for a card with Amulet, Potion, or Talisman in its name, put it
   
     
     pitch: 1,
-    
+    referencedCards: ["amethyst-amulet-blue","amulet-of-assertiveness-yellow","amulet-of-earth-blue","amulet-of-echoes-blue","amulet-of-havencall-blue","amulet-of-ice-blue","amulet-of-ignition-yellow","amulet-of-intervention-blue","amulet-of-lightning-blue","amulet-of-oblation-blue","clarity-potion-blue","copper","diamond-amulet-blue","energy-potion-blue","gold","healing-potion-blue","onyx-amulet-blue","opal-amulet-blue","pearl-amulet-blue","platinum-amulet-blue","potion-of-deja-vu-blue","potion-of-ironhide-blue","potion-of-luck-blue","potion-of-seeing-blue","potion-of-strength-blue","pounamu-amulet-blue","ruby-amulet-blue","sapphire-amulet-blue","silver","talisman-of-balance-blue","talisman-of-cremation-blue","talisman-of-dousing-yellow","talisman-of-featherfoot-yellow","talisman-of-recompense-yellow","talisman-of-tithes-blue","talisman-of-warfare-yellow","talismanic-lens","timesnap-potion-blue"],
     
     
     
@@ -242441,7 +242441,7 @@ When this is turned face-up, destroy it. Search your deck for an Inner Chi, reve
   
     
     
-    
+    referencedCards: ["inner-chi-blue"],
     
     
     
@@ -242941,7 +242941,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from an effe
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["bloodrot-pox"],
     defense: 2,
     
     functionalText: `Your next arrow attack this turn gets +3{p} and "When this hits a hero, create a Bloodrot Pox token under their control."
@@ -242958,7 +242958,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from an effe
   
     
     pitch: 1,
-    
+    referencedCards: ["bloodrot-pox"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -243067,7 +243067,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from an effe
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["frailty"],
     defense: 2,
     
     functionalText: `Your next arrow attack this turn gets +3{p} and "When this hits a hero, create a Frailty token under their control."
@@ -243084,7 +243084,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from an effe
   
     
     pitch: 1,
-    
+    referencedCards: ["frailty"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -243193,7 +243193,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from an effe
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["inertia"],
     defense: 2,
     
     functionalText: `Your next arrow attack this turn gets +3{p} and "When this hits a hero, create an Inertia token under their control."
@@ -243210,7 +243210,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from an effe
   
     
     pitch: 1,
-    
+    referencedCards: ["inertia"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -243274,7 +243274,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from an effe
 
     
     
-    
+    createdExtras: ["embodiment-of-lightning"],
     defense: 0,
     
     functionalText: `**Instant** - {r}{r}, destroy this: Prevent the next 1 damage that would be dealt to you this turn. If you prevent damage this way, create an Embodiment of Lightning token.`,
@@ -243289,7 +243289,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from an effe
   
     
     
-    
+    referencedCards: ["embodiment-of-lightning"],
     
     
     
@@ -243353,7 +243353,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from an effe
 
     
     bonds: [Bond.Earth],
-    cost: 1,
+    cost: 1,createdExtras: ["embodiment-of-earth"],
     defense: 2,
     
     functionalText: `Your next attack this turn gets +3{p}.
@@ -243372,7 +243372,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from an effe
   
     
     pitch: 1,
-    
+    referencedCards: ["embodiment-of-earth"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -243436,7 +243436,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from an effe
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["frostbite"],
     defense: 2,
     
     functionalText: `Your next attack this turn gets +3{p}.
@@ -243455,7 +243455,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from an effe
   
     
     pitch: 1,
-    
+    referencedCards: ["frostbite"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -243519,7 +243519,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from an effe
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["embodiment-of-lightning"],
     defense: 2,
     
     functionalText: `Your next attack this turn gets +3{p}.
@@ -243538,7 +243538,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from an effe
   
     
     pitch: 1,
-    
+    referencedCards: ["embodiment-of-lightning"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -243728,7 +243728,7 @@ While Barthimont is face-up in arsenal, whenever you play an attack action card,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     defense: 3,
     
     functionalText: `When this defends an attack with **go again**, **mark** the attacking hero.`,
@@ -243743,7 +243743,7 @@ While Barthimont is face-up in arsenal, whenever you play an attack action card,
   
     
     pitch: 1,
-    
+    referencedCards: ["marked"],
     
     
     
@@ -243963,7 +243963,7 @@ While Barthimont is face-up in arsenal, whenever you play an attack action card,
   
     
     
-    
+    referencedCards: ["might","vigor"],
     
     
     
@@ -245517,7 +245517,7 @@ This can't be defended by equipment.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `Your next Guardian or Warrior attack this turn gets +3{p}.
@@ -245536,7 +245536,7 @@ Create a Vigor token.
   
     
     pitch: 1,
-    
+    referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -245600,7 +245600,7 @@ Create a Vigor token.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `Your next Guardian or Warrior attack this turn gets +2{p}.
@@ -245619,7 +245619,7 @@ Create a Vigor token.
   
     
     pitch: 2,
-    
+    referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -245683,7 +245683,7 @@ Create a Vigor token.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `Your next Guardian or Warrior attack this turn gets +1{p}.
@@ -245702,7 +245702,7 @@ Create a Vigor token.
   
     
     pitch: 3,
-    
+    referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -245781,7 +245781,7 @@ Create a Vigor token.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `Your next Brute or Guardian attack this turn gets +3{p}.
@@ -245800,7 +245800,7 @@ Create a Might token.
   
     
     pitch: 1,
-    
+    referencedCards: ["might"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -245864,7 +245864,7 @@ Create a Might token.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `Your next Brute or Guardian attack this turn gets +2{p}.
@@ -245883,7 +245883,7 @@ Create a Might token.
   
     
     pitch: 2,
-    
+    referencedCards: ["might"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -245977,7 +245977,7 @@ Create a Might token.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `Your next Brute or Guardian attack this turn gets +1{p}.
@@ -245996,7 +245996,7 @@ Create a Might token.
   
     
     pitch: 3,
-    
+    referencedCards: ["might"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -246120,7 +246120,7 @@ Create a Might token.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["agility"],
     defense: 2,
     
     functionalText: `Your next Brute or Warrior attack this turn gets +3{p}.
@@ -246139,7 +246139,7 @@ Create an Agility token.
   
     
     pitch: 1,
-    
+    referencedCards: ["agility"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -246233,7 +246233,7 @@ Create an Agility token.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["agility"],
     defense: 2,
     
     functionalText: `Your next Brute or Warrior attack this turn gets +2{p}.
@@ -246252,7 +246252,7 @@ Create an Agility token.
   
     
     pitch: 2,
-    
+    referencedCards: ["agility"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -246346,7 +246346,7 @@ Create an Agility token.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["agility"],
     defense: 2,
     
     functionalText: `Your next Brute or Warrior attack this turn gets +1{p}.
@@ -246365,7 +246365,7 @@ Create an Agility token.
   
     
     pitch: 3,
-    
+    referencedCards: ["agility"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -246962,7 +246962,7 @@ At the beginning of your action phase, destroy this.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' red cards. Whenever you complete this contract, create a Silver token.
@@ -246979,7 +246979,7 @@ When this hits a hero, banish the top card of their deck and up to 1 card in the
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["silver"],
     
     
     
@@ -247141,7 +247141,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
 
     
     bonds: [Bond.Earth],
-    cost: 1,
+    cost: 1,createdExtras: ["embodiment-of-earth"],
     defense: 5,
     
     functionalText: `**Earth Bond** - If an Earth card was pitched to play this, create an Embodiment of Earth token.`,
@@ -247156,7 +247156,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["embodiment-of-earth"],
     
     
     
@@ -247895,7 +247895,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["edge-of-autumn"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -248726,7 +248726,7 @@ Cards you own lose **blood debt**.`,
 
     
     
-    
+    createdExtras: ["frostbite"],
     
     
     functionalText: `**Essence of Ice and Lightning**
@@ -248743,7 +248743,7 @@ Cards you own lose **blood debt**.`,
   
     
     
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -248849,7 +248849,7 @@ Cards you own lose **blood debt**.`,
 
     
     
-    
+    createdExtras: ["frostbite"],
     
     
     functionalText: `**Essence of Ice and Lightning**
@@ -248866,7 +248866,7 @@ Cards you own lose **blood debt**.`,
   
     
     
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -248930,7 +248930,7 @@ Cards you own lose **blood debt**.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["seismic-surge"],
     
     
     functionalText: `**Legendary**
@@ -248947,7 +248947,7 @@ When this enters the arena and whenever you deal damage, create a Seismic Surge 
   
     
     pitch: 3,
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -249044,7 +249044,7 @@ When this enters the arena and whenever you deal damage, create a Seismic Surge 
   
     
     pitch: 2,
-    
+    referencedCards: ["toughness","vigor"],
     
     
     
@@ -249552,7 +249552,7 @@ When this is played, if you have less {h} than an opposing hero, it gets **go ag
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["crazy-brew-blue"],
     
     
     
@@ -249652,7 +249652,7 @@ When this is played, if you have less {h} than an opposing hero, it gets **go ag
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["crazy-brew-blue"],
     
     
     
@@ -249752,7 +249752,7 @@ When this is played, if you have less {h} than an opposing hero, it gets **go ag
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["crazy-brew-blue"],
     
     
     
@@ -249833,7 +249833,7 @@ When this is played, if you have less {h} than an opposing hero, it gets **go ag
   
     
     
-    
+    referencedCards: ["gold"],
     
     
     
@@ -250685,7 +250685,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     defaultImage: "OMN203",
     firstReleaseDate: "2026-06-05",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Florian,Hero.Iyslander,Hero.Jarl,Hero.Lexi,Hero.Oldhim,Hero.Oscilio,Hero.Shiyana,Hero.Starvo,Hero.Terra,Hero.Verdance,Hero.Yorick,Hero.Zyggy],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Taylor,Hero.Zyggy],
     name: "Lightning Flow",
     printings: [{
         artists: ["Alifka Hammam"],
@@ -250928,7 +250928,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["embodiment-of-lightning"],
     defense: 2,
     
     functionalText: `When this hits, create an Embodiment of Lightning token.`,
@@ -250943,7 +250943,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["embodiment-of-lightning"],
     
     
     
@@ -251007,7 +251007,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["embodiment-of-lightning"],
     defense: 2,
     
     functionalText: `When this hits, create an Embodiment of Lightning token.`,
@@ -251022,7 +251022,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["embodiment-of-lightning"],
     
     
     
@@ -251086,7 +251086,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["embodiment-of-lightning"],
     defense: 2,
     
     functionalText: `When this hits, create an Embodiment of Lightning token.`,
@@ -251101,7 +251101,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
   
     
     pitch: 3,
-    power: 3,
+    power: 3,referencedCards: ["embodiment-of-lightning"],
     
     
     
@@ -251263,7 +251263,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
 
     arcane: 4,
     
-    cost: 1,
+    cost: 1,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `Deal 4 arcane damage to any target.
@@ -251280,7 +251280,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
   
     
     pitch: 1,
-    
+    referencedCards: ["lightning-flow"],
     
     
     
@@ -251344,7 +251344,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
 
     arcane: 3,
     
-    cost: 1,
+    cost: 1,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `Deal 3 arcane damage to any target.
@@ -251361,7 +251361,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
   
     
     pitch: 2,
-    
+    referencedCards: ["lightning-flow"],
     
     
     
@@ -251425,7 +251425,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
 
     arcane: 2,
     
-    cost: 1,
+    cost: 1,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `Deal 2 arcane damage to any target.
@@ -251442,7 +251442,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
   
     
     pitch: 3,
-    
+    referencedCards: ["lightning-flow"],
     
     
     
@@ -253657,7 +253657,7 @@ When this hits a hero, **the crowd boos** you.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `**Go again**
@@ -253676,7 +253676,7 @@ At the beginning of your end phase, if you haven't created or stolen a Gold this
   
     
     pitch: 2,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -253759,7 +253759,7 @@ When this hits a hero, if you control an Orbitoclast, they lose all hero card ab
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["orbitoclast"],
     
     
     
@@ -254706,7 +254706,7 @@ If you've **boosted** this turn, **opt 1**.
 
     
     
-    
+    createdExtras: ["blade-dance","flurry"],
     defense: 1,
     
     functionalText: `**Action** - Destroy this: Create a Blade Dance or Flurry token.
@@ -254723,7 +254723,7 @@ If you've **boosted** this turn, **opt 1**.
   
     
     
-    
+    referencedCards: ["blade-dance","flurry"],
     
     
     
@@ -254940,7 +254940,7 @@ If you've **boosted** this turn, **opt 1**.
   
     
     pitch: 3,
-    
+    referencedCards: ["inner-chi-blue"],
     
     
     
@@ -255303,7 +255303,7 @@ At the beginning of your end phase, remove a doom counter from this. If you do, 
   
     
     pitch: 3,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -255397,7 +255397,7 @@ At the beginning of your end phase, remove a doom counter from this. If you do, 
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `Your next Pirate ally attack this turn gets "When this hits a hero, destroy a card in their arsenal. If you do, create a Gold token."
@@ -255414,7 +255414,7 @@ At the beginning of your end phase, remove a doom counter from this. If you do, 
   
     
     pitch: 3,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -255508,7 +255508,7 @@ At the beginning of your end phase, remove a doom counter from this. If you do, 
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `Your next Pirate ally attack this turn gets "When this hits a hero, they discard a card. If they do, create a Gold token."
@@ -255525,7 +255525,7 @@ At the beginning of your end phase, remove a doom counter from this. If you do, 
   
     
     pitch: 3,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -255653,7 +255653,7 @@ When the additional cost is paid, shuffle X target cards named Surging Strike, W
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["mugenshi-release-yellow","surging-strike-blue","surging-strike-red","surging-strike-yellow","whelming-gustwave-blue","whelming-gustwave-red","whelming-gustwave-yellow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -255800,7 +255800,7 @@ While Sutcliffe is face-up in arsenal, whenever you play a non-attack action car
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["ponder"],
     defense: 2,
     
     functionalText: `Look at target hero's hand. Choose an attack action card and reveal it. If you do, they put it on the bottom of their deck and create a Ponder token.
@@ -255817,7 +255817,7 @@ While Sutcliffe is face-up in arsenal, whenever you play a non-attack action car
   
     
     pitch: 1,
-    
+    referencedCards: ["ponder"],
     
     
     
@@ -255896,7 +255896,7 @@ While Sutcliffe is face-up in arsenal, whenever you play a non-attack action car
 
     
     
-    
+    createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `When this defends, you may remove a gold counter from Treasure Island. If you do and you are a Thief, create a Gold token.`,
@@ -255911,7 +255911,7 @@ While Sutcliffe is face-up in arsenal, whenever you play a non-attack action car
   
     
     pitch: 2,
-    
+    referencedCards: ["gold","treasure-island"],
     
     
     
@@ -257537,7 +257537,7 @@ If there is a yellow card in your pitch zone, your Illusionist attacks get **go 
 
     
     
-    
+    createdExtras: ["might"],
     
     
     functionalText: `The base {p} and {d} of cards you control are halved, rounded up.
@@ -257556,7 +257556,7 @@ Whenever the crowd boos you, create a Might token.`,
   
     
     
-    
+    referencedCards: ["might"],
     
     shorthands: [Shorthand.Tap],
     
@@ -257662,7 +257662,7 @@ Whenever the crowd boos you, create a Might token.`,
 
     
     
-    
+    createdExtras: ["might"],
     
     
     functionalText: `The base {p} and {d} of cards you control are halved, rounded up.
@@ -257681,7 +257681,7 @@ Whenever the crowd boos you, create a Might token.`,
   
     
     
-    
+    referencedCards: ["might"],
     
     shorthands: [Shorthand.Tap],
     
@@ -259006,7 +259006,7 @@ When this hits a Runeblade or Wizard hero, you may destroy an aura they control.
 
     
     
-    
+    createdExtras: ["seismic-surge"],
     defense: 2,
     
     functionalText: `Whenever you play an aura, you may {t} this and pay {r}. If you do, create a Seismic Surge token.
@@ -259023,7 +259023,7 @@ When this hits a Runeblade or Wizard hero, you may destroy an aura they control.
   
     
     
-    
+    referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Tap],
     
@@ -259072,7 +259072,7 @@ When this hits a Runeblade or Wizard hero, you may destroy an aura they control.
 
     
     
-    
+    createdExtras: ["inertia","zen-state"],
     
     
     functionalText: `**Genis Specialization**
@@ -259089,7 +259089,7 @@ When this hits a Runeblade or Wizard hero, you may destroy an aura they control.
   
     
     
-    
+    referencedCards: ["inertia","zen-state"],
     
     
     
@@ -259213,7 +259213,7 @@ When this hits a Runeblade or Wizard hero, you may destroy an aura they control.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `**Go again**
@@ -259232,7 +259232,7 @@ Once per turn, when you play an attack action card, remove a verse counter from 
   
     
     pitch: 1,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -259326,7 +259326,7 @@ Once per turn, when you play an attack action card, remove a verse counter from 
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `**Go again**
@@ -259345,7 +259345,7 @@ Once per turn, when you play an attack action card, remove a verse counter from 
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -259409,7 +259409,7 @@ Once per turn, when you play an attack action card, remove a verse counter from 
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `**Go again**
@@ -259428,7 +259428,7 @@ Once per turn, when you play an attack action card, remove a verse counter from 
   
     
     pitch: 3,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -259498,7 +259498,7 @@ Once per turn, when you play an attack action card, remove a verse counter from 
 
     
     
-    
+    createdExtras: ["corrupted-corpse"],
     
     
     functionalText: `**Action** - {r}, {t}: Until end of turn, you may play target zombie from your graveyard. **Go again**
@@ -259515,7 +259515,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
   
     
     
-    
+    referencedCards: ["corrupted-corpse"],
     
     shorthands: [Shorthand.Tap],
     
@@ -259597,7 +259597,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
 
     
     
-    
+    createdExtras: ["corrupted-corpse"],
     
     
     functionalText: `**Action** - {r}, {t}: Until end of turn, you may play target zombie from your graveyard. **Go again**
@@ -259614,7 +259614,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
   
     
     
-    
+    referencedCards: ["corrupted-corpse"],
     
     shorthands: [Shorthand.Tap],
     
@@ -260723,7 +260723,7 @@ If you've discarded a card with 6 or more {p} this turn, this card's attacks get
   
     
     pitch: 3,
-    
+    referencedCards: ["inner-chi-blue"],
     
     
     
@@ -260832,7 +260832,7 @@ If you've discarded a card with 6 or more {p} this turn, this card's attacks get
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["fealty"],
     
     
     
@@ -261917,7 +261917,7 @@ When this hits a **marked** hero, banish a card in their arsenal.`,
 
     
     
-    
+    createdExtras: ["marked"],
     
     
     functionalText: `**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
@@ -261936,7 +261936,7 @@ If this is attacking a **marked** hero, this gets +1{p}.`,
   
     
     
-    power: 1,
+    power: 1,referencedCards: ["marked"],
     
     
     
@@ -262045,7 +262045,7 @@ If this is attacking a **marked** hero, this gets +1{p}.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     defense: 3,
     
     functionalText: `**Stealth**
@@ -262062,7 +262062,7 @@ When this hits a hero, **mark** them.`,
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["marked"],
     
     
     
@@ -262126,7 +262126,7 @@ When this hits a hero, **mark** them.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     defense: 3,
     
     functionalText: `**Stealth**
@@ -262143,7 +262143,7 @@ When this hits a hero, **mark** them.`,
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["marked"],
     
     
     
@@ -262207,7 +262207,7 @@ When this hits a hero, **mark** them.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     defense: 3,
     
     functionalText: `**Stealth**
@@ -262224,7 +262224,7 @@ When this hits a hero, **mark** them.`,
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["marked"],
     
     
     
@@ -262303,7 +262303,7 @@ When this hits a hero, **mark** them.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["marked"],
     defense: 3,
     
     functionalText: `If you control 2 or more Draconic chain links, this gets **go again** and "When this hits a hero, **mark** them."`,
@@ -262318,7 +262318,7 @@ When this hits a hero, **mark** them.`,
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["marked"],
     
     
     
@@ -262551,7 +262551,7 @@ When this hits a hero, **mark** them.`,
 
     
     
-    
+    createdExtras: ["goldfin-harpoon"],
     
     
     functionalText: `**Action** - {t}, destroy a Gold you control: Create a Goldfin Harpoon in your hand. **Go again**
@@ -262568,7 +262568,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
   
     
     
-    
+    referencedCards: ["gold","goldfin-harpoon"],
     
     shorthands: [Shorthand.Tap],
     
@@ -262674,7 +262674,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
 
     
     
-    
+    createdExtras: ["goldfin-harpoon"],
     
     
     functionalText: `**Action** - {t}, destroy a Gold you control: Create a Goldfin Harpoon in your hand. **Go again**
@@ -262691,7 +262691,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
   
     
     
-    
+    referencedCards: ["gold","goldfin-harpoon"],
     
     shorthands: [Shorthand.Tap],
     
@@ -262770,7 +262770,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
 
     
     
-    
+    createdExtras: ["arakni-black-widow","arakni-funnel-web","arakni-orb-weaver","arakni-redback","arakni-tarantula","arakni-trap-door"],
     defense: 2,
     
     functionalText: `**Arakni Specialization**
@@ -262789,7 +262789,7 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
   
     
     
-    
+    referencedCards: ["arakni-black-widow","arakni-funnel-web","arakni-orb-weaver","arakni-redback","arakni-tarantula","arakni-trap-door"],
     
     
     
@@ -263250,7 +263250,7 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
   
     
     
-    
+    referencedCards: ["silver"],
     
     
     
@@ -264140,7 +264140,7 @@ When this is pitched, you may put a steam counter on an item you control with **
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["crouching-tiger"],
     defense: 3,
     
     functionalText: `Choose 1 or both;
@@ -264157,7 +264157,7 @@ When this is pitched, you may put a steam counter on an item you control with **
   
     
     pitch: 2,
-    
+    referencedCards: ["crouching-tiger"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -264221,7 +264221,7 @@ When this is pitched, you may put a steam counter on an item you control with **
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["crouching-tiger"],
     
     
     
@@ -264360,7 +264360,7 @@ When this is pitched, you may put a steam counter on an item you control with **
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `The next Runeblade attack action card you play this turn gets **go again** and "When this hits, create 3 Runechant tokens."
@@ -264377,7 +264377,7 @@ When this is pitched, you may put a steam counter on an item you control with **
   
     
     pitch: 1,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -264501,7 +264501,7 @@ When this is pitched, you may put a steam counter on an item you control with **
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `The next Runeblade attack action card you play this turn gets **go again** and "When this hits, create 2 Runechant tokens."
@@ -264518,7 +264518,7 @@ When this is pitched, you may put a steam counter on an item you control with **
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -264672,7 +264672,7 @@ When this is pitched, you may put a steam counter on an item you control with **
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `The next Runeblade attack action card you play this turn gets **go again** and "When this hits, create a Runechant token."
@@ -264689,7 +264689,7 @@ When this is pitched, you may put a steam counter on an item you control with **
   
     
     pitch: 3,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -264964,7 +264964,7 @@ When this is pitched, you may put a steam counter on an item you control with **
 
     
     
-    
+    createdExtras: ["hyper-driver"],
     
     
     functionalText: `**Once per Turn Action** - {r}{r}: Create a Hyper Driver token with 2 steam counters.  Activate this only if you've **boosted** this turn.
@@ -264981,7 +264981,7 @@ Hyper Drivers you control get **crank**.`,
   
     
     
-    
+    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -265060,7 +265060,7 @@ Hyper Drivers you control get **crank**.`,
 
     
     
-    
+    createdExtras: ["hyper-driver"],
     
     
     functionalText: `**Once per Turn Action** - {r}{r}: Create a Hyper Driver token with 2 steam counters.  Activate this only if you've **boosted** this turn.
@@ -265077,7 +265077,7 @@ Hyper Drivers you control get **crank**.`,
   
     
     
-    
+    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -265158,7 +265158,7 @@ Hyper Drivers you control get **crank**.`,
   
     
     
-    
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -265320,7 +265320,7 @@ Hyper Drivers you control get **crank**.`,
   
     
     
-    
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -265538,7 +265538,7 @@ Hyper Drivers you control get **crank**.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `When this hits, create a Runechant token.
@@ -265555,7 +265555,7 @@ If you've dealt arcane damage to an opposing hero this turn, this gets **go agai
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["runechant"],
     
     
     
@@ -265679,7 +265679,7 @@ If you've dealt arcane damage to an opposing hero this turn, this gets **go agai
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `When this hits, create a Runechant token.
@@ -265696,7 +265696,7 @@ If you've dealt arcane damage to an opposing hero this turn, this gets **go agai
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["runechant"],
     
     
     
@@ -265820,7 +265820,7 @@ If you've dealt arcane damage to an opposing hero this turn, this gets **go agai
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `When this hits, create a Runechant token.
@@ -265837,7 +265837,7 @@ If you've dealt arcane damage to an opposing hero this turn, this gets **go agai
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["runechant"],
     
     
     
@@ -266645,7 +266645,7 @@ When this hits a hero, choose 1 at random;
 
     
     
-    
+    createdExtras: ["copper"],
     
     
     functionalText: `Whenever you play a song, create Copper tokens equal to the number of other heroes in the game.`,
@@ -266660,7 +266660,7 @@ When this hits a hero, choose 1 at random;
   
     
     
-    
+    referencedCards: ["copper"],
     
     
     
@@ -267179,7 +267179,7 @@ If it has an aim counter, it gets "When this hits a hero, destroy a 1H weapon th
 
     
     
-    
+    createdExtras: ["ponder"],
     defense: 2,
     
     functionalText: `**Instant** - Discard this: Prevent the next 2 damage that would be dealt to you this turn. The first time you prevent damage this way, create a Ponder token.`,
@@ -267194,7 +267194,7 @@ If it has an aim counter, it gets "When this hits a hero, destroy a 1H weapon th
   
     
     pitch: 3,
-    
+    referencedCards: ["ponder"],
     
     
     
@@ -267527,7 +267527,7 @@ When this attacks, if it's {p} is greater than twice its base, the attack gets *
   
     
     pitch: 1,
-    
+    referencedCards: ["lightning-flow"],
     
     
     
@@ -267608,7 +267608,7 @@ When this attacks, if it's {p} is greater than twice its base, the attack gets *
   
     
     pitch: 2,
-    
+    referencedCards: ["lightning-flow"],
     
     
     
@@ -267689,7 +267689,7 @@ When this attacks, if it's {p} is greater than twice its base, the attack gets *
   
     
     pitch: 3,
-    
+    referencedCards: ["lightning-flow"],
     
     
     
@@ -267785,7 +267785,7 @@ Whenever you pitch a Chi, you may have this get **ward 3** until end of turn.`,
   
     
     
-    
+    referencedCards: ["inner-chi-blue"],
     
     
     
@@ -268248,7 +268248,7 @@ Whenever you pitch a Chi, you may have this get **ward 3** until end of turn.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["lightning-flow"],
     defense: 2,
     
     functionalText: `**Twice per Turn Instant** - {r}: This gets +1{p}.
@@ -268265,7 +268265,7 @@ When this hits, create a Lightning Flow token.`,
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["lightning-flow"],
     
     
     
@@ -268855,7 +268855,7 @@ The first time you activate this each turn, gain 1 action point.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `Destroy target ally. Its controller creates Gold tokens equal to its cost.
@@ -268872,7 +268872,7 @@ The first time you activate this each turn, gain 1 action point.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -269219,7 +269219,7 @@ The first time you activate this each turn, gain 1 action point.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `**Instant** - Discard this: Create a Might token.`,
@@ -269234,7 +269234,7 @@ The first time you activate this each turn, gain 1 action point.`,
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["might"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -269328,7 +269328,7 @@ The first time you activate this each turn, gain 1 action point.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `**Instant** - Discard this: Create a Might token.`,
@@ -269343,7 +269343,7 @@ The first time you activate this each turn, gain 1 action point.`,
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["might"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -269452,7 +269452,7 @@ The first time you activate this each turn, gain 1 action point.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `**Instant** - Discard this: Create a Might token.`,
@@ -269467,7 +269467,7 @@ The first time you activate this each turn, gain 1 action point.`,
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["might"],
     
     
     
@@ -269531,7 +269531,7 @@ The first time you activate this each turn, gain 1 action point.`,
 
     
     
-    
+    createdExtras: ["might"],
     defense: 1,
     
     functionalText: `**Action** - {r}{r}{r}, destroy this: Create 3 Might tokens. Activate this only if you have more {h} than each other hero. **Go again**
@@ -269548,7 +269548,7 @@ The first time you activate this each turn, gain 1 action point.`,
   
     
     
-    
+    referencedCards: ["might"],
     
     
     
@@ -270164,7 +270164,7 @@ Whenever this banishes a non-attack action card, gain 1{h}.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["crouching-tiger"],
     defense: 3,
     
     functionalText: `At the start of your turn, destroy this, then create a Crouching Tiger in your hand.`,
@@ -270179,7 +270179,7 @@ Whenever this banishes a non-attack action card, gain 1{h}.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["crouching-tiger"],
     
     
     
@@ -271369,7 +271369,7 @@ When this is destroyed, create a token copy of an aura you control.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' blue cards. Whenever you complete this contract, create a Silver token.
@@ -271386,7 +271386,7 @@ When this hits a Mystic hero, search their deck for any number of Inner Chi and 
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["inner-chi-blue","silver"],
     
     
     
@@ -272056,7 +272056,7 @@ If you control 3 or more auras of suspense, this gets +2{p} and "When this hits 
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["gold"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -272135,7 +272135,7 @@ If you control 3 or more auras of suspense, this gets +2{p} and "When this hits 
   
     
     pitch: 2,
-    power: 5,
+    power: 5,referencedCards: ["gold"],
     
     
     
@@ -272214,7 +272214,7 @@ If you control 3 or more auras of suspense, this gets +2{p} and "When this hits 
   
     
     pitch: 3,
-    power: 4,
+    power: 4,referencedCards: ["gold"],
     
     
     
@@ -272323,7 +272323,7 @@ If you control 3 or more auras of suspense, this gets +2{p} and "When this hits 
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `Your next attack this turn gets +3{p} and "When this attacks a hero, you may **wager** a Gold token with them."
@@ -272340,7 +272340,7 @@ If you control 3 or more auras of suspense, this gets +2{p} and "When this hits 
   
     
     pitch: 1,
-    
+    referencedCards: ["gold"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -272419,7 +272419,7 @@ If you control 3 or more auras of suspense, this gets +2{p} and "When this hits 
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `Your next attack this turn gets +2{p} and "When this attacks a hero, you may **wager** a Gold token with them."
@@ -272436,7 +272436,7 @@ If you control 3 or more auras of suspense, this gets +2{p} and "When this hits 
   
     
     pitch: 2,
-    
+    referencedCards: ["gold"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -272515,7 +272515,7 @@ If you control 3 or more auras of suspense, this gets +2{p} and "When this hits 
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `Your next attack this turn gets +1{p} and "When this attacks a hero, you may **wager** a Gold token with them."
@@ -272532,7 +272532,7 @@ If you control 3 or more auras of suspense, this gets +2{p} and "When this hits 
   
     
     pitch: 3,
-    
+    referencedCards: ["gold"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -273190,7 +273190,7 @@ When this hits, search your deck for a card named Sun Kiss, reveal it, put it in
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["sun-kiss-blue","sun-kiss-red","sun-kiss-yellow"],
     
     
     
@@ -273301,7 +273301,7 @@ When this hits, search your deck for a card named Sun Kiss, reveal it, put it in
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["sun-kiss-blue","sun-kiss-red","sun-kiss-yellow"],
     
     
     
@@ -273412,7 +273412,7 @@ When this hits, search your deck for a card named Sun Kiss, reveal it, put it in
   
     
     pitch: 3,
-    power: 3,
+    power: 3,referencedCards: ["sun-kiss-blue","sun-kiss-red","sun-kiss-yellow"],
     
     
     
@@ -273495,7 +273495,7 @@ If this has 10 or more {p}, it gets **overpower**.`,
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -273717,7 +273717,7 @@ If this has 10 or more {p}, it gets **overpower**.`,
 
     
     bannedFormats: [Format.GoldenAge],
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `Until end of turn, if you would create one or more Runechant tokens, instead create that many plus 1.
@@ -273734,7 +273734,7 @@ If this has 10 or more {p}, it gets **overpower**.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -273813,7 +273813,7 @@ If this has 10 or more {p}, it gets **overpower**.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["minerva-themis"],
     
     
     
@@ -274293,7 +274293,7 @@ If this has 10 or more {p}, it gets **overpower**.`,
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["lord-of-wind-blue","whelming-gustwave-blue","whelming-gustwave-red","whelming-gustwave-yellow"],
     
     
     
@@ -275428,7 +275428,7 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
   
     
     pitch: 3,
-    
+    referencedCards: ["gold"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -275526,7 +275526,7 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
   
     
     pitch: 3,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -275624,7 +275624,7 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
   
     
     pitch: 3,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -275682,7 +275682,7 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["bloodrot-pox","silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish infected opponents' cards. Whenever you complete this contract, create a Silver token.
@@ -275699,7 +275699,7 @@ The first time each hero plays a reaction card this chain link, create a Bloodro
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["bloodrot-pox","silver"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -275782,7 +275782,7 @@ The first time each hero plays a reaction card this chain link, create a Bloodro
   
     
     
-    
+    referencedCards: ["gold"],
     
     
     
@@ -275802,7 +275802,7 @@ The first time each hero plays a reaction card this chain link, create a Bloodro
     defaultImage: "DTD193",
     firstReleaseDate: "2023-07-14",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Shiyana,Hero.Viserai2,Hero.Vynnset,Hero.Yorick],
+    legalHeroes: [Hero.Shiyana,Hero.Vynnset],
     name: "Nasreth, the Soul Harrower",
     printings: [{
         artists: ["Isuardi Therianto"],
@@ -275927,7 +275927,7 @@ When Nasreth hits a hero, banish a card from their soul. If a Light card is bani
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["agility","might","vigor"],
     defense: 3,
     
     functionalText: `When an opponent's effect puts this into your graveyard from anywhere, create an Agility, Might, and Vigor token.`,
@@ -275942,7 +275942,7 @@ When Nasreth hits a hero, banish a card from their soul. If a Light card is bani
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["agility","might","vigor"],
     
     
     
@@ -276504,7 +276504,7 @@ When Nasreth hits a hero, banish a card from their soul. If a Light card is bani
 
     
     bannedFormats: [Format.ClassicConstructed],
-    
+    createdExtras: ["runechant"],
     
     
     functionalText: `**Once per Turn Action** - {r}{r}: **Attack**
@@ -276523,7 +276523,7 @@ If you've played a non-attack action card this turn, this gets +3{p}.`,
   
     
     
-    power: 1,
+    power: 1,referencedCards: ["runechant"],
     
     
     
@@ -276602,7 +276602,7 @@ If you've played a non-attack action card this turn, this gets +3{p}.`,
 
     arcane: 3,
     
-    cost: 0,
+    cost: 0,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `Deal 3 arcane damage to any target.
@@ -276619,7 +276619,7 @@ If you've played a non-attack action card this turn, this gets +3{p}.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["lightning-flow"],
     
     
     
@@ -276683,7 +276683,7 @@ If you've played a non-attack action card this turn, this gets +3{p}.`,
 
     arcane: 2,
     
-    cost: 0,
+    cost: 0,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `Deal 2 arcane damage to any target.
@@ -276700,7 +276700,7 @@ If you've played a non-attack action card this turn, this gets +3{p}.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["lightning-flow"],
     
     
     
@@ -276764,7 +276764,7 @@ If you've played a non-attack action card this turn, this gets +3{p}.`,
 
     arcane: 1,
     
-    cost: 0,
+    cost: 0,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `Deal 1 arcane damage to any target.
@@ -276781,7 +276781,7 @@ If you've played a non-attack action card this turn, this gets +3{p}.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["lightning-flow"],
     
     
     
@@ -276845,7 +276845,7 @@ If you've played a non-attack action card this turn, this gets +3{p}.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["ponder"],
     
     
     functionalText: `When this leaves the arena, create a Ponder token.
@@ -276862,7 +276862,7 @@ If you've played a non-attack action card this turn, this gets +3{p}.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["ponder"],
     
     
     
@@ -276926,7 +276926,7 @@ If you've played a non-attack action card this turn, this gets +3{p}.`,
 
     
     
-    
+    createdExtras: ["ash"],
     
     
     functionalText: `Whenever Nekria deals or is dealt damage, put a -1{h} counter on her and create an Ash token.`,
@@ -276941,7 +276941,7 @@ If you've played a non-attack action card this turn, this gets +3{p}.`,
   
     oppositeSideCardIdentifier: `invoke-nekria-red`,oppositeSideCardIdentifiers: ["invoke-nekria-red"],
     
-    power: 4,
+    power: 4,referencedCards: ["ash"],
     
     
     
@@ -277750,7 +277750,7 @@ When this is destroyed, destroy all cards in your arsenal.
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["nimblism-blue","nimblism-red","nimblism-yellow"],
     
     
     
@@ -277874,7 +277874,7 @@ When this is destroyed, destroy all cards in your arsenal.
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["nimblism-blue","nimblism-red","nimblism-yellow"],
     
     
     
@@ -277998,7 +277998,7 @@ When this is destroyed, destroy all cards in your arsenal.
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["nimblism-blue","nimblism-red","nimblism-yellow"],
     
     
     
@@ -278650,7 +278650,7 @@ When this is destroyed, destroy all cards in your arsenal.
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["nimblism-blue","nimblism-red","nimblism-yellow"],
     
     
     
@@ -278729,7 +278729,7 @@ When this is destroyed, destroy all cards in your arsenal.
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["nimblism-blue","nimblism-red","nimblism-yellow"],
     
     
     
@@ -278808,7 +278808,7 @@ When this is destroyed, destroy all cards in your arsenal.
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["nimblism-blue","nimblism-red","nimblism-yellow"],
     
     
     
@@ -278932,7 +278932,7 @@ When this is destroyed, destroy all cards in your arsenal.
   
     
     pitch: 2,
-    power: 9,
+    power: 9,referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -279263,7 +279263,7 @@ When this is destroyed, destroy all cards in your arsenal.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' reaction cards. Whenever you complete this contract, create a Silver token.
@@ -279280,7 +279280,7 @@ When this hits a hero, banish the top card of their deck.`,
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["silver"],
     
     
     
@@ -279344,7 +279344,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' reaction cards. Whenever you complete this contract, create a Silver token.
@@ -279361,7 +279361,7 @@ When this hits a hero, banish the top card of their deck.`,
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["silver"],
     
     
     
@@ -279440,7 +279440,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' reaction cards. Whenever you complete this contract, create a Silver token.
@@ -279457,7 +279457,7 @@ When this hits a hero, banish the top card of their deck.`,
   
     
     pitch: 3,
-    power: 3,
+    power: 3,referencedCards: ["silver"],
     
     
     
@@ -279619,7 +279619,7 @@ When this defends, **clash** with the attacking hero. The winner may choose an a
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["toughness"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -279988,7 +279988,7 @@ Search your deck for an arrow card, reveal it, then shuffle and put it on top of
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["spellbane-aegis"],
     defense: 2,
     
     functionalText: `**Oldhim Specialization**
@@ -280007,7 +280007,7 @@ For each hero, **freeze** up to 1 equipment, item, and ally they control until t
   
     
     pitch: 3,
-    
+    referencedCards: ["spellbane-aegis"],
     
     
     
@@ -280103,7 +280103,7 @@ The next time an opponent would draw a card from the effect of a Gold token this
   
     
     pitch: 2,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -280167,7 +280167,7 @@ The next time an opponent would draw a card from the effect of a Gold token this
 
     
     
-    
+    createdExtras: ["toughness"],
     defense: 2,
     
     functionalText: `When this defends a Reviled hero's attack, destroy a Might token they control. If you do, create a Toughness token.`,
@@ -280182,7 +280182,7 @@ The next time an opponent would draw a card from the effect of a Gold token this
   
     
     pitch: 3,
-    
+    referencedCards: ["might","toughness"],
     
     
     
@@ -280246,7 +280246,7 @@ The next time an opponent would draw a card from the effect of a Gold token this
 
     
     
-    
+    createdExtras: ["might"],
     defense: 2,
     
     functionalText: `When this defends a Revered hero's attack, destroy a Toughness token they control. If you do, create a Might token.`,
@@ -280261,7 +280261,7 @@ The next time an opponent would draw a card from the effect of a Gold token this
   
     
     pitch: 3,
-    
+    referencedCards: ["might","toughness"],
     
     
     
@@ -281845,7 +281845,7 @@ When this enters the arena, name a card. The named card can't be pitched or play
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["vigor"],
     
     
     functionalText: `Choose any number;
@@ -281863,7 +281863,7 @@ When this enters the arena, name a card. The named card can't be pitched or play
   
     
     pitch: 2,
-    
+    referencedCards: ["confidence","might","vigor"],
     
     
     
@@ -282806,7 +282806,7 @@ When this is played, until end of turn, you may only play cards that are Draconi
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["embodiment-of-earth"],
     defense: 2,
     
     functionalText: `Create 3 Embodiment of Earth tokens.`,
@@ -282821,7 +282821,7 @@ When this is played, until end of turn, you may only play cards that are Draconi
   
     
     pitch: 1,
-    
+    referencedCards: ["embodiment-of-earth"],
     
     
     
@@ -282885,7 +282885,7 @@ When this is played, until end of turn, you may only play cards that are Draconi
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["embodiment-of-earth"],
     defense: 2,
     
     functionalText: `Create 2 Embodiment of Earth tokens.`,
@@ -282900,7 +282900,7 @@ When this is played, until end of turn, you may only play cards that are Draconi
   
     
     pitch: 2,
-    
+    referencedCards: ["embodiment-of-earth"],
     
     
     
@@ -282964,7 +282964,7 @@ When this is played, until end of turn, you may only play cards that are Draconi
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["embodiment-of-earth"],
     defense: 2,
     
     functionalText: `Create an Embodiment of Earth token.`,
@@ -282979,7 +282979,7 @@ When this is played, until end of turn, you may only play cards that are Draconi
   
     
     pitch: 3,
-    
+    referencedCards: ["embodiment-of-earth"],
     
     
     
@@ -283201,7 +283201,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `Your next Runeblade attack this turn gets +3{p}.
@@ -283220,7 +283220,7 @@ Create a Runechant token.
   
     
     pitch: 1,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -283344,7 +283344,7 @@ Create a Runechant token.
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `Your next Runeblade attack this turn gets +2{p}.
@@ -283363,7 +283363,7 @@ Create a Runechant token.
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -283487,7 +283487,7 @@ Create a Runechant token.
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `Your next Runeblade attack this turn gets +1{p}.
@@ -283506,7 +283506,7 @@ Create a Runechant token.
   
     
     pitch: 3,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -283570,7 +283570,7 @@ Create a Runechant token.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["nasreth-the-soul-harrower"],
     
     
     functionalText: `**Legendary Vynnset Specialization**
@@ -283589,7 +283589,7 @@ Create a Nasreth, the Soul Harrower token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["nasreth-the-soul-harrower","runechant"],
     
     
     
@@ -284018,7 +284018,7 @@ Illusionist attack action cards you control get **go again**.
   
     
     pitch: 3,
-    
+    referencedCards: ["blade-dance","flurry"],
     
     
     
@@ -284162,7 +284162,7 @@ Each hero destroys an equipment they control.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["might","vigor"],
     defense: 3,
     
     functionalText: `If you control a Might or Vigor token, this gets +1{p}.
@@ -284179,7 +284179,7 @@ When this hits a hero, create a Might and a Vigor token.`,
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["might","vigor"],
     
     
     
@@ -284262,7 +284262,7 @@ Whenever an attack you control with Vengeance in its name hits, you may equip an
   
     
     
-    
+    referencedCards: ["edge-of-autumn"],
     
     shorthands: [Shorthand.Buffs,Shorthand.Tap],
     
@@ -284326,7 +284326,7 @@ Whenever an attack you control with Vengeance in its name hits, you may equip an
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["toughness"],
     defense: 3,
     
     functionalText: `When this attacks, if you've been cheered this turn, create a Toughness token.
@@ -284343,7 +284343,7 @@ When this defends, if it has 6 or more {d}, put it on the bottom of its owner's 
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["toughness"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -284503,7 +284503,7 @@ When this defends, if it has 6 or more {d}, put it on the bottom of its owner's 
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["toughness","vigor"],
     defense: 3,
     
     functionalText: `If you control a Toughness or Vigor token, this gets +1{p}.
@@ -284520,7 +284520,7 @@ When this hits a hero, create a Toughness and a Vigor token.`,
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["toughness","vigor"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -285187,7 +285187,7 @@ When this hits a hero, create a Toughness and a Vigor token.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["flurry"],
     defense: 3,
     
     functionalText: `Remove a +1{p} counter from target attacking weapon. If you do, create a Flurry token and draw a card.`,
@@ -285202,7 +285202,7 @@ When this hits a hero, create a Toughness and a Vigor token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["flurry"],
     
     
     
@@ -285251,7 +285251,7 @@ When this hits a hero, create a Toughness and a Vigor token.`,
 
     
     
-    
+    createdExtras: ["frostbite"],
     defense: 1,
     
     functionalText: `When this defends together with an Ice card, create a Frostbite token under the attacking hero's control.
@@ -285268,7 +285268,7 @@ When this hits a hero, create a Toughness and a Vigor token.`,
   
     
     
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -285377,7 +285377,7 @@ When this hits a hero, create a Toughness and a Vigor token.`,
 
     
     
-    
+    createdExtras: ["gold"],
     
     
     functionalText: `The first time each of your attacks wins a **wager**, create a Gold token.`,
@@ -285392,7 +285392,7 @@ When this hits a hero, create a Toughness and a Vigor token.`,
   
     
     
-    
+    referencedCards: ["gold"],
     
     
     
@@ -285528,7 +285528,7 @@ When this hits a hero, create a Toughness and a Vigor token.`,
 
     
     
-    
+    createdExtras: ["gold"],
     
     
     functionalText: `The first time each of your attacks wins a **wager**, create a Gold token.`,
@@ -285543,7 +285543,7 @@ When this hits a hero, create a Toughness and a Vigor token.`,
   
     
     
-    
+    referencedCards: ["gold"],
     
     
     
@@ -285639,7 +285639,7 @@ Lightning Flow tokens get **spellvoid 1**.`,
   
     
     
-    
+    referencedCards: ["lightning-flow"],
     
     
     
@@ -285782,7 +285782,7 @@ Lightning Flow tokens get **spellvoid 1**.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["ponder"],
     
     
     functionalText: `You may shuffle an instant card from your graveyard into your deck.
@@ -285799,7 +285799,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["ponder"],
     
     
     
@@ -286320,7 +286320,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["head-jab-blue","head-jab-red","head-jab-yellow"],
     
     
     
@@ -286429,7 +286429,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["head-jab-blue","head-jab-red","head-jab-yellow"],
     
     
     
@@ -286538,7 +286538,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["head-jab-blue","head-jab-red","head-jab-yellow"],
     
     
     
@@ -286839,7 +286839,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["head-jab-blue","head-jab-red","head-jab-yellow"],
     
     
     
@@ -286948,7 +286948,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["head-jab-blue","head-jab-red","head-jab-yellow"],
     
     
     
@@ -287057,7 +287057,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
   
     
     pitch: 3,
-    power: 3,
+    power: 3,referencedCards: ["head-jab-blue","head-jab-red","head-jab-yellow"],
     
     
     
@@ -287385,7 +287385,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gate-to-iarathael"],
     defense: 3,
     
     functionalText: `When this hits or is banished from hand or deck, create a Gate to i'Arathael token.
@@ -287402,7 +287402,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["gate-to-iarathael"],
     
     
     
@@ -287637,7 +287637,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["graphene-chelicera"],
     defense: 3,
     
     functionalText: `Equip a Graphene Chelicera token.
@@ -287656,7 +287656,7 @@ Your next attack with **stealth** this turn gets +3{p}.
   
     
     pitch: 1,
-    
+    referencedCards: ["graphene-chelicera"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -287720,7 +287720,7 @@ Your next attack with **stealth** this turn gets +3{p}.
 
     
     bannedFormats: [Format.ClassicConstructed],
-    cost: 0,
+    cost: 0,createdExtras: ["graphene-chelicera"],
     defense: 3,
     
     functionalText: `Equip a Graphene Chelicera token.
@@ -287739,7 +287739,7 @@ Your next attack with **stealth** this turn gets +2{p}.
   
     
     pitch: 2,
-    
+    referencedCards: ["graphene-chelicera"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -287803,7 +287803,7 @@ Your next attack with **stealth** this turn gets +2{p}.
 
     
     bannedFormats: [Format.ClassicConstructed],
-    cost: 0,
+    cost: 0,createdExtras: ["graphene-chelicera"],
     defense: 3,
     
     functionalText: `Equip a Graphene Chelicera token.
@@ -287822,7 +287822,7 @@ Your next attack with **stealth** this turn gets +1{p}.
   
     
     pitch: 3,
-    
+    referencedCards: ["graphene-chelicera"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -288046,7 +288046,7 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["inner-chi-blue"],
     
     
     
@@ -288453,7 +288453,7 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
 
     
     
-    
+    createdExtras: ["ponder"],
     
     
     functionalText: `**Instant** - {r}, {t}, destroy a Lightning Flow you control: Discard a card and create a Ponder token. If an instant is discarded this way, you may play it this turn.`,
@@ -288468,7 +288468,7 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
   
     
     
-    
+    referencedCards: ["lightning-flow","ponder"],
     
     shorthands: [Shorthand.Tap],
     
@@ -288547,7 +288547,7 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
 
     
     
-    
+    createdExtras: ["ponder"],
     
     
     functionalText: `**Instant** - {r}, {t}, destroy a Lightning Flow you control: Discard a card and create a Ponder token. If an instant is discarded this way, you may play it this turn.`,
@@ -288562,7 +288562,7 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
   
     
     
-    
+    referencedCards: ["lightning-flow","ponder"],
     
     shorthands: [Shorthand.Tap],
     
@@ -288632,7 +288632,7 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `Your next Runeblade or Shadow attack this turn gets +3{p}.
@@ -288651,7 +288651,7 @@ Create a Runechant token.
   
     
     pitch: 1,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -288709,7 +288709,7 @@ Create a Runechant token.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `Your next Runeblade or Shadow attack this turn gets +2{p}.
@@ -288728,7 +288728,7 @@ Create a Runechant token.
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -288786,7 +288786,7 @@ Create a Runechant token.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `Your next Runeblade or Shadow attack this turn gets +1{p}.
@@ -288805,7 +288805,7 @@ Create a Runechant token.
   
     
     pitch: 3,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -289945,7 +289945,7 @@ If the defending hero is **marked**, this gets +1{p}.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["copper"],
     defense: 3,
     
     functionalText: `Your next 1H weapon attack this turn gets +3{p}.
@@ -289964,7 +289964,7 @@ The next time a weapon hits this turn, create a Copper token.
   
     
     pitch: 1,
-    
+    referencedCards: ["copper"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -290028,7 +290028,7 @@ The next time a weapon hits this turn, create a Copper token.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["copper"],
     defense: 3,
     
     functionalText: `Your next 1H weapon attack this turn gets +2{p}.
@@ -290047,7 +290047,7 @@ The next time a weapon hits this turn, create a Copper token.
   
     
     pitch: 2,
-    
+    referencedCards: ["copper"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -290111,7 +290111,7 @@ The next time a weapon hits this turn, create a Copper token.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["copper"],
     defense: 3,
     
     functionalText: `Your next 1H weapon attack this turn gets +1{p}.
@@ -290130,7 +290130,7 @@ The next time a weapon hits this turn, create a Copper token.
   
     
     pitch: 3,
-    
+    referencedCards: ["copper"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -290273,7 +290273,7 @@ The next time a weapon hits this turn, create a Copper token.
 
     
     
-    
+    createdExtras: ["aether-ashwing"],
     
     
     functionalText: `At the start of your turn or when Ouvia enters the arena, **transform** up to 1 ash you control into an Aether Ashwing.`,
@@ -290288,7 +290288,7 @@ The next time a weapon hits this turn, create a Copper token.
   
     oppositeSideCardIdentifier: `invoke-ouvia-red`,oppositeSideCardIdentifiers: ["invoke-ouvia-red"],
     
-    power: 1,
+    power: 1,referencedCards: ["aether-ashwing","ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     
     
@@ -291552,7 +291552,7 @@ The next time a weapon hits this turn, create a Copper token.
 
     
     
-    
+    createdExtras: ["vigor"],
     defense: 1,
     
     functionalText: `**Action** - {r}{r}{r}, destroy this: Create 3 Vigor tokens. Activate this only if there is a card with 6 or more {p} in your pitch zone. **Go again**
@@ -291569,7 +291569,7 @@ The next time a weapon hits this turn, create a Copper token.
   
     
     
-    
+    referencedCards: ["vigor"],
     
     
     
@@ -292235,7 +292235,7 @@ The next time a weapon hits this turn, create a Copper token.
   
     
     
-    
+    referencedCards: ["agility"],
     
     
     
@@ -293477,7 +293477,7 @@ When this hits, it gets **go again**.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `The next Guardian attack action card you play this turn gets +3{p}.
@@ -293496,7 +293496,7 @@ When this hits, it gets **go again**.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -293560,7 +293560,7 @@ When this hits, it gets **go again**.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `The next Guardian attack action card you play this turn gets +2{p}.
@@ -293579,7 +293579,7 @@ When this hits, it gets **go again**.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -293643,7 +293643,7 @@ When this hits, it gets **go again**.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `The next Guardian attack action card you play this turn gets +1{p}.
@@ -293662,7 +293662,7 @@ When this hits, it gets **go again**.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -293931,7 +293931,7 @@ Target weapon attack gets +X{p}, where X is twice the number of cards defending 
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     
     
     functionalText: `**Action** - {t}: **Attack**
@@ -293950,7 +293950,7 @@ When this dies, create a Gold token.
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["gold"],
     
     shorthands: [Shorthand.Tap],
     
@@ -295059,7 +295059,7 @@ When this dies, create a Gold token.
 
     arcane: 3,
     
-    cost: 0,
+    cost: 0,createdExtras: ["sigil-of-fate"],
     defense: 3,
     
     functionalText: `Deal 3 arcane damage to any target.
@@ -295076,7 +295076,7 @@ If this deals damage, create a Sigil of Fate token.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["sigil-of-fate"],
     
     
     
@@ -295140,7 +295140,7 @@ If this deals damage, create a Sigil of Fate token.`,
 
     arcane: 2,
     
-    cost: 0,
+    cost: 0,createdExtras: ["sigil-of-fate"],
     defense: 3,
     
     functionalText: `Deal 2 arcane damage to any target.
@@ -295157,7 +295157,7 @@ If this deals damage, create a Sigil of Fate token.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["sigil-of-fate"],
     
     
     
@@ -295221,7 +295221,7 @@ If this deals damage, create a Sigil of Fate token.`,
 
     arcane: 1,
     
-    cost: 0,
+    cost: 0,createdExtras: ["sigil-of-fate"],
     defense: 3,
     
     functionalText: `Deal 1 arcane damage to any target.
@@ -295238,7 +295238,7 @@ If this deals damage, create a Sigil of Fate token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["sigil-of-fate"],
     
     
     
@@ -296750,7 +296750,7 @@ If you've played another blue card this turn, **transcend**.`,
   
     
     
-    
+    referencedCards: ["arakni","arakni-5lp3d-7hru-7h3-cr4x","arakni-black-widow","arakni-funnel-web","arakni-huntsman","arakni-marionette","arakni-orb-weaver","arakni-redback","arakni-solitary-confinement","arakni-tarantula","arakni-trap-door","arakni-web-of-deceit"],
     
     
     
@@ -297254,7 +297254,7 @@ If you've played another blue card this turn, **transcend**.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `If you've completed a contract this turn, create 4 Silver tokens.`,
@@ -297269,7 +297269,7 @@ If you've played another blue card this turn, **transcend**.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["silver"],
     
     
     
@@ -297350,7 +297350,7 @@ When this hits a hero, gain control of a Gold token they control. If you don't, 
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["gold"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -297681,7 +297681,7 @@ When this hits a hero, gain control of a Gold token they control. If you don't, 
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["ponder"],
     
     
     functionalText: `The next time you would be dealt {p} damage this turn, prevent 4 of that damage.
@@ -297698,7 +297698,7 @@ Create a Ponder token.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["ponder"],
     
     
     
@@ -297762,7 +297762,7 @@ Create a Ponder token.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["ponder"],
     
     
     functionalText: `The next time you would be dealt {p} damage this turn, prevent 3 of that damage.
@@ -297779,7 +297779,7 @@ Create a Ponder token.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["ponder"],
     
     
     
@@ -297843,7 +297843,7 @@ Create a Ponder token.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["ponder"],
     
     
     functionalText: `The next time you would be dealt {p} damage this turn, prevent 2 of that damage.
@@ -297860,7 +297860,7 @@ Create a Ponder token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["ponder"],
     
     
     
@@ -299311,7 +299311,7 @@ Draw a card.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `When this hits, create a Gold token.
@@ -299327,7 +299327,7 @@ If this was played from arsenal, it gets **go again**.`,
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["gold"],
     
     
     
@@ -299406,7 +299406,7 @@ If this was played from arsenal, it gets **go again**.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `When this hits, create a Gold token.
@@ -299423,7 +299423,7 @@ If this was played from arsenal, it gets **go again**.`,
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["gold"],
     
     
     
@@ -299502,7 +299502,7 @@ If this was played from arsenal, it gets **go again**.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `When this hits, create a Gold token.
@@ -299518,7 +299518,7 @@ If this was played from arsenal, it gets **go again**.`,
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["gold"],
     
     
     
@@ -299972,7 +299972,7 @@ When this is defending a non-Illusionist attack with 6 or more {p}, destroy it w
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["spectral-shield"],
     defense: 3,
     
     functionalText: `**Phantasm**
@@ -299989,7 +299989,7 @@ When this is destroyed, create a Spectral Shield token.`,
   
     
     pitch: 1,
-    power: 8,
+    power: 8,referencedCards: ["spectral-shield"],
     
     
     
@@ -300053,7 +300053,7 @@ When this is destroyed, create a Spectral Shield token.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["spectral-shield"],
     defense: 3,
     
     functionalText: `**Phantasm**
@@ -300070,7 +300070,7 @@ When this is destroyed, create a Spectral Shield token.`,
   
     
     pitch: 2,
-    power: 7,
+    power: 7,referencedCards: ["spectral-shield"],
     
     
     
@@ -300161,7 +300161,7 @@ When this is destroyed, create a Spectral Shield token.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["spectral-shield"],
     defense: 3,
     
     functionalText: `**Phantasm**
@@ -300178,7 +300178,7 @@ When this is destroyed, create a Spectral Shield token.`,
   
     
     pitch: 3,
-    power: 6,
+    power: 6,referencedCards: ["spectral-shield"],
     
     
     
@@ -300814,7 +300814,7 @@ When this is destroyed, create a Spectral Shield token.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["might"],
     defense: 3,
     
     functionalText: `**Legendary**
@@ -300835,7 +300835,7 @@ Create a Might token.
   
     
     pitch: 1,
-    
+    referencedCards: ["might","phoenix-flame-red"],
     
     
     
@@ -300914,7 +300914,7 @@ Create a Might token.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["vigor"],
     defense: 3,
     
     functionalText: `**Legendary**
@@ -300935,7 +300935,7 @@ Create a Vigor token.
   
     
     pitch: 1,
-    
+    referencedCards: ["phoenix-flame-red","vigor"],
     
     
     
@@ -301014,7 +301014,7 @@ Create a Vigor token.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["ponder"],
     defense: 3,
     
     functionalText: `**Legendary**
@@ -301035,7 +301035,7 @@ Create a Ponder token.
   
     
     pitch: 1,
-    
+    referencedCards: ["phoenix-flame-red","ponder"],
     
     
     
@@ -301114,7 +301114,7 @@ Create a Ponder token.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["agility"],
     defense: 3,
     
     functionalText: `**Legendary**
@@ -301135,7 +301135,7 @@ Create an Agility token.
   
     
     pitch: 1,
-    
+    referencedCards: ["agility","phoenix-flame-red"],
     
     
     
@@ -301370,7 +301370,7 @@ Create an Agility token.
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["phoenix-flame-red"],
     
     
     
@@ -301880,7 +301880,7 @@ Create an Agility token.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["silver"],
     defense: 2,
     
     functionalText: `Look at target opponent's hand then name a card.
@@ -301899,7 +301899,7 @@ Choose a random card from their hand and reveal it. If it's the named card, crea
   
     
     pitch: 1,
-    
+    referencedCards: ["silver"],
     
     
     
@@ -301978,7 +301978,7 @@ Choose a random card from their hand and reveal it. If it's the named card, crea
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["silver"],
     defense: 2,
     
     functionalText: `Look at target opponent's hand then name a card.
@@ -301997,7 +301997,7 @@ Choose a random card from their hand and reveal it. If it's the named card, crea
   
     
     pitch: 2,
-    
+    referencedCards: ["silver"],
     
     
     
@@ -302076,7 +302076,7 @@ Choose a random card from their hand and reveal it. If it's the named card, crea
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["silver"],
     defense: 2,
     
     functionalText: `Look at target opponent's hand then name a card.
@@ -302095,7 +302095,7 @@ Choose a random card from their hand and reveal it. If it's the named card, crea
   
     
     pitch: 3,
-    
+    referencedCards: ["silver"],
     
     
     
@@ -303212,7 +303212,7 @@ If you've dealt arcane damage to an opponent this turn, this gets +2{p}.
 
     
     
-    
+    createdExtras: ["gold"],
     
     
     functionalText: `**Betsy Specialization**
@@ -303231,7 +303231,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
   
     
     
-    power: 6,
+    power: 6,referencedCards: ["gold"],
     
     shorthands: [Shorthand.Tap],
     
@@ -303392,7 +303392,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `When this hits a hero, you may turn a card in their graveyard face-down. If it's yellow, create a Gold token.`,
@@ -303407,7 +303407,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["gold"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -303486,7 +303486,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `When this hits a hero, you may turn a card in their graveyard face-down. If it's yellow, create a Gold token.`,
@@ -303501,7 +303501,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["gold"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -303580,7 +303580,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `When this hits a hero, you may turn a card in their graveyard face-down. If it's yellow, create a Gold token.`,
@@ -303595,7 +303595,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["gold"],
     
     
     
@@ -303770,7 +303770,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
 
     
     
-    
+    createdExtras: ["golden-cog"],
     defense: 3,
     
     functionalText: `When this defends, you may {t} a cog you control. If you do, create a Golden Cog token.`,
@@ -303785,7 +303785,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["golden-cog"],
     
     shorthands: [Shorthand.Tap],
     
@@ -303945,7 +303945,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["might","vigor"],
     defense: 2,
     
     functionalText: `Create a Might and a Vigor token.
@@ -303962,7 +303962,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["might","vigor"],
     
     
     
@@ -304184,7 +304184,7 @@ When this is pitched, for each opponent, choose Frailty, Inertia, or Bloodrot Po
   
     
     pitch: 2,
-    
+    referencedCards: ["bloodrot-pox","frailty","inertia"],
     
     
     
@@ -304711,7 +304711,7 @@ Whenever a Mechanologist item with cost 2 or less enters the arena under your co
   
     
     
-    
+    referencedCards: ["confidence","toughness"],
     
     
     
@@ -304967,7 +304967,7 @@ Whenever a Mechanologist item with cost 2 or less enters the arena under your co
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["fealty"],
     
     
     functionalText: `Create a Fealty token.`,
@@ -304982,7 +304982,7 @@ Whenever a Mechanologist item with cost 2 or less enters the arena under your co
   
     
     pitch: 1,
-    
+    referencedCards: ["fealty"],
     
     
     
@@ -305076,7 +305076,7 @@ Whenever a Mechanologist item with cost 2 or less enters the arena under your co
 
     
     
-    
+    createdExtras: ["confidence"],
     
     
     functionalText: `**Instant** - {t}, remove a suspense counter from an aura you control: You may put a suspense counter on an aura of suspense you control.
@@ -305093,7 +305093,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
   
     
     
-    
+    referencedCards: ["confidence"],
     
     shorthands: [Shorthand.Tap],
     
@@ -305256,7 +305256,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
 
     
     
-    
+    createdExtras: ["confidence"],
     
     
     functionalText: `**Instant** - {t}, remove a suspense counter from an aura you control: You may put a suspense counter on an aura of suspense you control.
@@ -305273,7 +305273,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
   
     
     
-    
+    referencedCards: ["confidence"],
     
     shorthands: [Shorthand.Tap],
     
@@ -306304,7 +306304,7 @@ If this was played from arsenal, the next attack action card you play this turn 
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' cards with cost 1 or less. Whenever you complete this contract, create a Silver token.
@@ -306321,7 +306321,7 @@ When this hits a hero, banish the top card of their deck.`,
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["silver"],
     
     
     
@@ -306385,7 +306385,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' cards with cost 1 or less. Whenever you complete this contract, create a Silver token.
@@ -306402,7 +306402,7 @@ When this hits a hero, banish the top card of their deck.`,
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["silver"],
     
     
     
@@ -306481,7 +306481,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' cards with cost 1 or less. Whenever you complete this contract, create a Silver token.
@@ -306498,7 +306498,7 @@ When this hits a hero, banish the top card of their deck.`,
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["silver"],
     
     
     
@@ -308669,7 +308669,7 @@ If this was played from arsenal, draw a card.
 
     arcane: 4,
     
-    cost: 2,
+    cost: 2,createdExtras: ["frostbite"],
     defense: 3,
     
     functionalText: `**Ice Fusion**
@@ -308686,7 +308686,7 @@ Deal 4 arcane damage to any target. If this was **fused** and deals damage to a 
   
     
     pitch: 1,
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -308750,7 +308750,7 @@ Deal 4 arcane damage to any target. If this was **fused** and deals damage to a 
 
     arcane: 3,
     
-    cost: 2,
+    cost: 2,createdExtras: ["frostbite"],
     defense: 3,
     
     functionalText: `**Ice Fusion**
@@ -308767,7 +308767,7 @@ Deal 3 arcane damage to any target. If this was **fused** and deals damage to a 
   
     
     pitch: 2,
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -308831,7 +308831,7 @@ Deal 3 arcane damage to any target. If this was **fused** and deals damage to a 
 
     arcane: 2,
     
-    cost: 2,
+    cost: 2,createdExtras: ["frostbite"],
     defense: 3,
     
     functionalText: `**Ice Fusion**
@@ -308848,7 +308848,7 @@ Deal 2 arcane damage to any target. If this was **fused** and deals damage to a 
   
     
     pitch: 3,
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -310054,7 +310054,7 @@ Action cards get -1{d} while defending Mechanologist attack action cards you con
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `Discard a card, then draw a card. If a yellow card is discarded this way, create a Gold token.
@@ -310071,7 +310071,7 @@ Action cards get -1{d} while defending Mechanologist attack action cards you con
   
     
     pitch: 3,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -310713,7 +310713,7 @@ Action cards get -1{d} while defending Mechanologist attack action cards you con
 
     
     
-    
+    createdExtras: ["crouching-tiger"],
     defense: 1,
     
     functionalText: `**Instant** - Destroy this: Create a Crouching Tiger in your banished zone. You may play it this turn.
@@ -310730,7 +310730,7 @@ Action cards get -1{d} while defending Mechanologist attack action cards you con
   
     
     
-    
+    referencedCards: ["crouching-tiger"],
     
     
     
@@ -310854,7 +310854,7 @@ Action cards get -1{d} while defending Mechanologist attack action cards you con
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["crouching-tiger"],
     
     
     
@@ -310948,7 +310948,7 @@ Action cards get -1{d} while defending Mechanologist attack action cards you con
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["crouching-tiger"],
     
     
     
@@ -311057,7 +311057,7 @@ Action cards get -1{d} while defending Mechanologist attack action cards you con
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["crouching-tiger"],
     
     
     
@@ -311559,7 +311559,7 @@ Action cards get -1{d} while defending Mechanologist attack action cards you con
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["might"],
     defense: 3,
     
     functionalText: `**Beat Chest**
@@ -311576,7 +311576,7 @@ When this attacks, if you've **beaten chest** this turn, create a Might token.`,
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["might"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -311655,7 +311655,7 @@ When this attacks, if you've **beaten chest** this turn, create a Might token.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["might"],
     defense: 3,
     
     functionalText: `**Beat Chest**
@@ -311672,7 +311672,7 @@ When this attacks, if you've **beaten chest** this turn, create a Might token.`,
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["might"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -311766,7 +311766,7 @@ When this attacks, if you've **beaten chest** this turn, create a Might token.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["might"],
     defense: 3,
     
     functionalText: `**Beat Chest**
@@ -311783,7 +311783,7 @@ When this attacks, if you've **beaten chest** this turn, create a Might token.`,
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["might"],
     
     
     
@@ -311892,7 +311892,7 @@ When this attacks, if you've **beaten chest** this turn, create a Might token.`,
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["open-the-center-blue","open-the-center-red","open-the-center-yellow"],
     
     
     
@@ -313855,7 +313855,7 @@ Hero abilities can't create cards.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["crouching-tiger"],
     defense: 2,
     
     functionalText: `Create 3 Crouching Tigers in your banished zone. You may play them this turn.
@@ -313872,7 +313872,7 @@ Hero abilities can't create cards.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["crouching-tiger"],
     
     
     
@@ -313966,7 +313966,7 @@ Hero abilities can't create cards.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["crouching-tiger"],
     defense: 2,
     
     functionalText: `Create 2 Crouching Tigers in your banished zone. You may play them this turn.
@@ -313983,7 +313983,7 @@ Hero abilities can't create cards.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["crouching-tiger"],
     
     
     
@@ -314077,7 +314077,7 @@ Hero abilities can't create cards.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["crouching-tiger"],
     defense: 2,
     
     functionalText: `Create a Crouching Tiger in your banished zone. You may play it this turn.
@@ -314094,7 +314094,7 @@ Hero abilities can't create cards.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["crouching-tiger"],
     
     
     
@@ -314188,7 +314188,7 @@ Hero abilities can't create cards.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["ponder"],
     defense: 2,
     
     functionalText: `The next time an attack action card hits a hero this turn, create a Ponder token.
@@ -314207,7 +314207,7 @@ The next attack action card you play from arsenal this turn gets +3{p}.
   
     
     pitch: 1,
-    
+    referencedCards: ["ponder"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -314489,7 +314489,7 @@ If you've played another blue card this turn, **transcend**.`,
 
     
     
-    
+    createdExtras: ["marked"],
     defense: 1,
     
     functionalText: `**Attack Reaction** - Destroy this: **Mark** target opposing hero.
@@ -314506,7 +314506,7 @@ If you've played another blue card this turn, **transcend**.`,
   
     
     
-    
+    referencedCards: ["marked"],
     
     
     
@@ -314857,7 +314857,7 @@ If you've controlled a Might token this turn, this gets +1{p}.`,
   
     
     pitch: 1,
-    power: 9,
+    power: 9,referencedCards: ["might","vigor"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -315380,7 +315380,7 @@ Your next Brute attack this turn gets +3{p}.
 
     
     
-    
+    createdExtras: ["spectral-shield"],
     
     
     functionalText: `**Once per Turn Instant** - {r}{r}, banish a card from your soul: Create a Spectral Shield token.`,
@@ -315395,7 +315395,7 @@ Your next Brute attack this turn gets +3{p}.
   
     
     
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -315786,7 +315786,7 @@ Your next Brute attack this turn gets +3{p}.
 
     
     
-    
+    createdExtras: ["spectral-shield"],
     
     
     functionalText: `**Once per Turn Instant** - {r}{r}, banish a card from your soul: Create a Spectral Shield token.`,
@@ -315801,7 +315801,7 @@ Your next Brute attack this turn gets +3{p}.
   
     
     
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -316074,7 +316074,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["spectral-shield"],
     
     
     functionalText: `Create 3 Spectral Shield tokens.`,
@@ -316089,7 +316089,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   
     
     pitch: 1,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -316183,7 +316183,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["spectral-shield"],
     
     
     functionalText: `Create 2 Spectral Shield tokens.`,
@@ -316198,7 +316198,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   
     
     pitch: 2,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -316292,7 +316292,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["spectral-shield"],
     
     
     functionalText: `Create a Spectral Shield token.`,
@@ -316307,7 +316307,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   
     
     pitch: 3,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -316443,7 +316443,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
 
     
     
-    
+    createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `**Olympia Specialization**
@@ -316462,7 +316462,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   
     
     
-    
+    referencedCards: ["gold"],
     
     
     
@@ -316511,7 +316511,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
 
     
     
-    
+    createdExtras: ["courage"],
     defense: 2,
     
     functionalText: `Whenever you win a wager, you may {t} your hero and destroy this. If you do, create a Courage token.
@@ -316528,7 +316528,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   
     
     
-    
+    referencedCards: ["courage"],
     
     shorthands: [Shorthand.Tap],
     
@@ -316643,7 +316643,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
 
     
     
-    
+    createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `Whenever you win a wager, you may {t} your hero and destroy this. If you do, create a Vigor token.
@@ -316660,7 +316660,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   
     
     
-    
+    referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Tap],
     
@@ -316754,7 +316754,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     
     
     functionalText: `**Mark** target opposing hero. If that hero is Arakni, gain {r}.`,
@@ -316769,7 +316769,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   
     
     pitch: 1,
-    
+    referencedCards: ["arakni","arakni-5lp3d-7hru-7h3-cr4x","arakni-black-widow","arakni-funnel-web","arakni-huntsman","arakni-marionette","arakni-orb-weaver","arakni-redback","arakni-solitary-confinement","arakni-tarantula","arakni-trap-door","arakni-web-of-deceit","marked"],
     
     
     
@@ -317791,7 +317791,7 @@ If this was played from arsenal, it gets **go again**.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `**Go again**
@@ -317810,7 +317810,7 @@ At the beginning of your action phase, destroy this, then if you control 3 or mo
   
     
     pitch: 3,
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -317874,7 +317874,7 @@ At the beginning of your action phase, destroy this, then if you control 3 or mo
 
     arcane: 1,
     
-    cost: 1,
+    cost: 1,createdExtras: ["ponder"],
     defense: 3,
     
     functionalText: `**Quickstrike** - If this has go again, it gets +1{p} and "When this attacks a hero, deal 1 arcane damage to them."
@@ -317891,7 +317891,7 @@ The first time this deals damage to a hero, create a Ponder token.`,
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["ponder"],
     
     
     
@@ -319067,7 +319067,7 @@ You may choose a card revealed this way. If you do, they put it on the bottom of
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["marked"],
     defense: 2,
     
     functionalText: `**Mark** target opposing hero.
@@ -319086,7 +319086,7 @@ The next time you attack a **marked** hero this turn, the attack gets +3{p}.
   
     
     pitch: 1,
-    
+    referencedCards: ["marked"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -319150,7 +319150,7 @@ The next time you attack a **marked** hero this turn, the attack gets +3{p}.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["marked"],
     defense: 2,
     
     functionalText: `**Mark** target opposing hero.
@@ -319169,7 +319169,7 @@ The next time you attack a **marked** hero this turn, the attack gets +2{p}.
   
     
     pitch: 2,
-    
+    referencedCards: ["marked"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -319233,7 +319233,7 @@ The next time you attack a **marked** hero this turn, the attack gets +2{p}.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["marked"],
     defense: 2,
     
     functionalText: `**Mark** target opposing hero.
@@ -319252,7 +319252,7 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
   
     
     pitch: 3,
-    
+    referencedCards: ["marked"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -319318,7 +319318,7 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
   
     
     
-    
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -319412,7 +319412,7 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
 
     
     
-    
+    createdExtras: ["golden-cog"],
     
     
     functionalText: `**Action** - {t}, destroy a Gold you control: Create a Golden Cog token.
@@ -319429,7 +319429,7 @@ The second time you crank each turn, draw a card.`,
   
     
     
-    
+    referencedCards: ["gold","golden-cog"],
     
     shorthands: [Shorthand.Tap],
     
@@ -319535,7 +319535,7 @@ The second time you crank each turn, draw a card.`,
 
     
     
-    
+    createdExtras: ["golden-cog"],
     
     
     functionalText: `**Action** - {t}, destroy a Gold you control: Create a Golden Cog token.
@@ -319552,7 +319552,7 @@ The second time you crank each turn, draw a card.`,
   
     
     
-    
+    referencedCards: ["gold","golden-cog"],
     
     shorthands: [Shorthand.Tap],
     
@@ -319622,7 +319622,7 @@ The second time you crank each turn, draw a card.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gate-to-iarathael"],
     defense: 3,
     
     functionalText: `**Opt 2**
@@ -319639,7 +319639,7 @@ Banish the top card of your deck. If it's red, create a Gate to i'Arathael token
   
     
     pitch: 1,
-    
+    referencedCards: ["gate-to-iarathael"],
     
     
     
@@ -319709,7 +319709,7 @@ Banish the top card of your deck. If it's red, create a Gate to i'Arathael token
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gate-to-iarathael"],
     defense: 3,
     
     functionalText: `**Opt 2**
@@ -319726,7 +319726,7 @@ Banish the top card of your deck. If it's yellow, create a Gate to i'Arathael to
   
     
     pitch: 2,
-    
+    referencedCards: ["gate-to-iarathael"],
     
     
     
@@ -319796,7 +319796,7 @@ Banish the top card of your deck. If it's yellow, create a Gate to i'Arathael to
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gate-to-iarathael"],
     defense: 3,
     
     functionalText: `**Opt 2**
@@ -319813,7 +319813,7 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
   
     
     pitch: 3,
-    
+    referencedCards: ["gate-to-iarathael"],
     
     
     
@@ -321198,7 +321198,7 @@ Gain 1{h}`,
 
     
     
-    cost: 10,
+    cost: 10,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `**Heave 3**
@@ -321215,7 +321215,7 @@ When this hits a hero, their first attack during their next turn gets -4{p}.`,
   
     
     pitch: 1,
-    power: 14,
+    power: 14,referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -322327,7 +322327,7 @@ When this hits a hero, their first attack during their next turn gets -4{p}.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     defense: 3,
     
     functionalText: `When this hits a hero, **mark** them.`,
@@ -322342,7 +322342,7 @@ When this hits a hero, their first attack during their next turn gets -4{p}.`,
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["marked"],
     
     
     
@@ -322406,7 +322406,7 @@ When this hits a hero, their first attack during their next turn gets -4{p}.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["marked"],
     defense: 3,
     
     functionalText: `When this hits a hero, **mark** them.`,
@@ -322421,7 +322421,7 @@ When this hits a hero, their first attack during their next turn gets -4{p}.`,
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["marked"],
     
     
     
@@ -324378,7 +324378,7 @@ At the beginning of your action phase, destroy this.`,
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["crouching-tiger"],
     
     
     
@@ -324472,7 +324472,7 @@ At the beginning of your action phase, destroy this.`,
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["crouching-tiger"],
     
     
     
@@ -324566,7 +324566,7 @@ At the beginning of your action phase, destroy this.`,
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["crouching-tiger"],
     
     
     
@@ -325166,7 +325166,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   
     
     
-    
+    referencedCards: ["nimblism-blue","nimblism-red","nimblism-yellow"],
     
     
     
@@ -325909,7 +325909,7 @@ At the beginning of the end phase, if this defended this turn, destroy it.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["quicken"],
     defense: 3,
     
     functionalText: `Create a Quicken token under target hero's control.
@@ -325928,7 +325928,7 @@ When this defends an attack with go again, {t} target hero or ally.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["quicken"],
     
     shorthands: [Shorthand.Tap],
     
@@ -326011,7 +326011,7 @@ The next attack you **boost** this turn gets +4{p}.
   
     
     pitch: 1,
-    
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -326094,7 +326094,7 @@ The next attack you **boost** this turn gets +3{p}.
   
     
     pitch: 2,
-    
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -326177,7 +326177,7 @@ The next attack you **boost** this turn gets +2{p}.
   
     
     pitch: 3,
-    
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -326382,7 +326382,7 @@ If another weapon's attack you control has gained **go again** this turn, this c
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["blade-dance"],
     defense: 3,
     
     functionalText: `Remove a +1{p} counter from target attacking weapon. If you do, create a Blade Dance token and draw a card.`,
@@ -326397,7 +326397,7 @@ If another weapon's attack you control has gained **go again** this turn, this c
   
     
     pitch: 3,
-    
+    referencedCards: ["blade-dance"],
     
     
     
@@ -326461,7 +326461,7 @@ If another weapon's attack you control has gained **go again** this turn, this c
 
     
     
-    
+    createdExtras: ["quicken"],
     defense: 0,
     
     functionalText: `**Action** - Destroy this: Each hero creates a Quicken token.  **Go again**`,
@@ -326476,7 +326476,7 @@ If another weapon's attack you control has gained **go again** this turn, this c
   
     
     
-    
+    referencedCards: ["quicken"],
     
     
     
@@ -327249,7 +327249,7 @@ When there are no cards in your soul, destroy this.`,
 
     
     
-    
+    createdExtras: ["marked"],
     defense: 1,
     
     functionalText: `**Attack Reaction** - {r}, {t}: Target attack with stealth gets "When this hits a hero, **mark** them."
@@ -327266,7 +327266,7 @@ When there are no cards in your soul, destroy this.`,
   
     
     
-    
+    referencedCards: ["marked"],
     
     shorthands: [Shorthand.Tap],
     
@@ -327986,7 +327986,7 @@ During your turn, this has **ward 6**. Otherwise, this has **ward 1**.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["cintari-sellsword"],
     defense: 3,
     
     functionalText: `**Kassai Specialization**
@@ -328007,7 +328007,7 @@ Create X Cintari Sellsword tokens.
   
     
     pitch: 2,
-    
+    referencedCards: ["cintari-sellsword","gold"],
     
     
     
@@ -328188,7 +328188,7 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
   
     
     pitch: 3,
-    
+    referencedCards: ["gold"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -328376,7 +328376,7 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["aether-ashwing","ash"],
     defense: 2,
     
     functionalText: `Create an Ash token, then **transform** up to 3 ash you control into Aether Ashwings.
@@ -328393,7 +328393,7 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
   
     
     pitch: 1,
-    
+    referencedCards: ["aether-ashwing","ash"],
     
     
     
@@ -328457,7 +328457,7 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["aether-ashwing","ash"],
     defense: 2,
     
     functionalText: `Create an Ash token, then **transform** up to 2 ash you control into Aether Ashwings.
@@ -328474,7 +328474,7 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
   
     
     pitch: 2,
-    
+    referencedCards: ["aether-ashwing","ash"],
     
     
     
@@ -328538,7 +328538,7 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["aether-ashwing","ash"],
     defense: 2,
     
     functionalText: `Create an Ash token, then **transform** up to 1 ash you control into an Aether Ashwing.
@@ -328555,7 +328555,7 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
   
     
     pitch: 3,
-    
+    referencedCards: ["aether-ashwing","ash"],
     
     
     
@@ -329815,7 +329815,7 @@ Gain 1{h}`,
 
     
     
-    
+    createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `Destroy target landmark with cost X. Create X Gold tokens.
@@ -329832,7 +329832,7 @@ Gain 1{h}`,
   
     
     pitch: 3,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -331587,7 +331587,7 @@ If you control a Might token, this gets +1{d}.
   
     
     
-    
+    referencedCards: ["agility","might"],
     
     
     
@@ -333385,7 +333385,7 @@ The next attack you **boost** this turn gets +4{p}.
   
     
     pitch: 1,
-    
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -333468,7 +333468,7 @@ The next attack you **boost** this turn gets +3{p}.
   
     
     pitch: 2,
-    
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -333551,7 +333551,7 @@ The next attack you **boost** this turn gets +2{p}.
   
     
     pitch: 3,
-    
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -334329,7 +334329,7 @@ The next attack you **boost** this turn gets +2{p}.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `Create 3 Runechant tokens.`,
@@ -334344,7 +334344,7 @@ The next attack you **boost** this turn gets +2{p}.
   
     
     pitch: 1,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -334465,7 +334465,7 @@ The next attack you **boost** this turn gets +2{p}.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `Create 2 Runechant tokens.`,
@@ -334480,7 +334480,7 @@ The next attack you **boost** this turn gets +2{p}.
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -334601,7 +334601,7 @@ The next attack you **boost** this turn gets +2{p}.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `Create a Runechant token.`,
@@ -334616,7 +334616,7 @@ The next attack you **boost** this turn gets +2{p}.
   
     
     pitch: 3,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -334857,7 +334857,7 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     defense: 3,
     
     functionalText: `**Stealth**
@@ -334874,7 +334874,7 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["marked"],
     
     
     
@@ -334953,7 +334953,7 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     defense: 3,
     
     functionalText: `**Stealth**
@@ -334970,7 +334970,7 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["marked"],
     
     
     
@@ -335079,7 +335079,7 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     defense: 3,
     
     functionalText: `**Stealth**
@@ -335096,7 +335096,7 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["marked"],
     
     
     
@@ -336041,7 +336041,7 @@ If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.`,
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["head-jab-blue","head-jab-red","head-jab-yellow"],
     
     
     
@@ -336120,7 +336120,7 @@ If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.`,
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["head-jab-blue","head-jab-red","head-jab-yellow"],
     
     
     
@@ -336214,7 +336214,7 @@ If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.`,
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["head-jab-blue","head-jab-red","head-jab-yellow"],
     
     
     
@@ -336662,7 +336662,7 @@ If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `**Go Fish** - When this hits a hero, they choose and reveal a card from their hand. If it's red, they discard it and you create a Gold token. If you've activated a cannon this turn, instead look at their hand and you choose the card.`,
@@ -336677,7 +336677,7 @@ If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.`,
   
     
     pitch: 3,
-    power: 4,
+    power: 4,referencedCards: ["gold"],
     
     
     
@@ -337245,7 +337245,7 @@ When this hits a hero, they can't play or activate more than 1 action during the
   
     
     
-    
+    referencedCards: ["silver"],
     
     
     
@@ -337493,7 +337493,7 @@ When this hits a hero, they can't play or activate more than 1 action during the
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 4,
     
     functionalText: `This costs {r} less to play for each Runechant you control.
@@ -337510,7 +337510,7 @@ Create a Runechant token.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -337634,7 +337634,7 @@ Create a Runechant token.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `This costs {r} less to play for each Runechant you control.
@@ -337651,7 +337651,7 @@ Create a Runechant token.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -337775,7 +337775,7 @@ Create a Runechant token.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `This costs {r} less to play for each Runechant you control.
@@ -337792,7 +337792,7 @@ Create a Runechant token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -338781,7 +338781,7 @@ If the additional cost was paid, this gets **dominate**.`,
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["sloggism-blue","sloggism-red","sloggism-yellow"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -338892,7 +338892,7 @@ If the additional cost was paid, this gets **dominate**.`,
   
     
     pitch: 2,
-    power: 5,
+    power: 5,referencedCards: ["sloggism-blue","sloggism-red","sloggism-yellow"],
     
     
     
@@ -339003,7 +339003,7 @@ If the additional cost was paid, this gets **dominate**.`,
   
     
     pitch: 3,
-    power: 4,
+    power: 4,referencedCards: ["sloggism-blue","sloggism-red","sloggism-yellow"],
     
     
     
@@ -340639,7 +340639,7 @@ If you've **fused** this turn, you may play this as though it were an instant.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     defense: 3,
     
     functionalText: `**Mark** target opposing hero.
@@ -340658,7 +340658,7 @@ If you've attacked them this turn, put this on the bottom of its owner's deck.
   
     
     pitch: 3,
-    
+    referencedCards: ["marked"],
     
     
     
@@ -341238,7 +341238,7 @@ When this hits a hero, until the end of their next turn, whenever they play an a
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["toughness"],
     
     
     functionalText: `Destroy up to 3 Might tokens. Create a Toughness token for each token destroyed this way.`,
@@ -341253,7 +341253,7 @@ When this hits a hero, until the end of their next turn, whenever they play an a
   
     
     pitch: 3,
-    
+    referencedCards: ["might","toughness"],
     
     
     
@@ -341317,7 +341317,7 @@ When this hits a hero, until the end of their next turn, whenever they play an a
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["eloquence"],
     defense: 3,
     
     functionalText: `You may play this from your banished zone.
@@ -341338,7 +341338,7 @@ Create an Eloquence token.
   
     
     pitch: 1,
-    
+    referencedCards: ["eloquence"],
     
     
     
@@ -341417,7 +341417,7 @@ Create an Eloquence token.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["courage"],
     defense: 3,
     
     functionalText: `Target Light Warrior attack gets +3{p}.
@@ -341434,7 +341434,7 @@ If you've **charged** this turn, create a Courage token.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["courage"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -341498,7 +341498,7 @@ If you've **charged** this turn, create a Courage token.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["courage"],
     defense: 3,
     
     functionalText: `Target Light Warrior attack gets +2{p}.
@@ -341515,7 +341515,7 @@ If you've **charged** this turn, create a Courage token.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["courage"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -341579,7 +341579,7 @@ If you've **charged** this turn, create a Courage token.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["courage"],
     defense: 3,
     
     functionalText: `Target Light Warrior attack gets +1{p}.
@@ -341596,7 +341596,7 @@ If you've **charged** this turn, create a Courage token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["courage"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -342113,7 +342113,7 @@ At the start of your turn, destroy this and draw a card.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["spectral-shield"],
     
     
     functionalText: `When this enters the arena, move any number of +1{p} counters from auras you control onto this.
@@ -342132,7 +342132,7 @@ At the start of your turn, destroy this and draw a card.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -342455,7 +342455,7 @@ You may destroy an Inertia token you control. If you do, gain 1{h}.
   
     
     pitch: 1,
-    
+    referencedCards: ["inertia"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -342711,7 +342711,7 @@ You may destroy an Inertia token you control. If you do, gain 1{h}.
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -342792,7 +342792,7 @@ You may destroy an Inertia token you control. If you do, gain 1{h}.
   
     
     pitch: 2,
-    power: 5,
+    power: 5,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -342873,7 +342873,7 @@ You may destroy an Inertia token you control. If you do, gain 1{h}.
   
     
     pitch: 3,
-    power: 4,
+    power: 4,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -342952,7 +342952,7 @@ You may destroy an Inertia token you control. If you do, gain 1{h}.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `If you've played an attack action card and another non-attack action card this turn, create 4 Runechant tokens.
@@ -342971,7 +342971,7 @@ At the beginning of your end phase, destroy all Runechants you control.
   
     
     pitch: 1,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -343415,7 +343415,7 @@ If this deals damage, you may banish a Wizard non-attack action card from your h
   
     
     
-    
+    referencedCards: ["zenith-blade"],
     
     
     
@@ -343479,7 +343479,7 @@ If this deals damage, you may banish a Wizard non-attack action card from your h
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `Your next attack this turn gets +3{p}.
@@ -343498,7 +343498,7 @@ Create a Might token.
   
     
     pitch: 1,
-    
+    referencedCards: ["might"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -343641,7 +343641,7 @@ Create a Might token.
 
     
     
-    
+    createdExtras: ["gold"],
     
     
     functionalText: `Blocks you own and equipment you control with 1 or greater {d} get **protect**.
@@ -343658,7 +343658,7 @@ Whenever you protect another hero, create a Gold token.`,
   
     
     
-    
+    referencedCards: ["gold"],
     
     
     
@@ -344192,7 +344192,7 @@ Whenever you protect another hero, create a Gold token.`,
 
     
     
-    
+    createdExtras: ["gold"],
     
     
     functionalText: `**Legendary**
@@ -344209,7 +344209,7 @@ When this is pitched, create a Gold token.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -344273,7 +344273,7 @@ When this is pitched, create a Gold token.`,
 
     
     
-    
+    createdExtras: ["seismic-surge"],
     defense: 1,
     
     functionalText: `**Action** - Destroy this: Create 2 Seismic Surge tokens.
@@ -344290,7 +344290,7 @@ When this is pitched, create a Gold token.`,
   
     
     
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -345449,7 +345449,7 @@ When this is played from your banished zone, it gets +X{p}, where X is the numbe
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["lightning-flow"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -345528,7 +345528,7 @@ When this is played from your banished zone, it gets +X{p}, where X is the numbe
   
     
     pitch: 2,
-    power: 5,
+    power: 5,referencedCards: ["lightning-flow"],
     
     
     
@@ -345607,7 +345607,7 @@ When this is played from your banished zone, it gets +X{p}, where X is the numbe
   
     
     pitch: 3,
-    power: 4,
+    power: 4,referencedCards: ["lightning-flow"],
     
     
     
@@ -348006,7 +348006,7 @@ If you've dealt arcane damage to an opponent this turn, this gets **go again**.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["might"],
     
     
     functionalText: `Destroy up to 3 Toughness tokens. Create a Might token for each token destroyed this way.`,
@@ -348021,7 +348021,7 @@ If you've dealt arcane damage to an opponent this turn, this gets **go again**.
   
     
     pitch: 3,
-    
+    referencedCards: ["might","toughness"],
     
     
     
@@ -348929,7 +348929,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
   
     
     pitch: 1,
-    
+    referencedCards: ["phoenix-flame-red"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -349012,7 +349012,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
   
     
     pitch: 2,
-    
+    referencedCards: ["phoenix-flame-red"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -349095,7 +349095,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
   
     
     pitch: 3,
-    
+    referencedCards: ["phoenix-flame-red"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -349206,7 +349206,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["phoenix-flame-red"],
     
     
     
@@ -349612,7 +349612,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["leg-tap-blue","leg-tap-red","leg-tap-yellow"],
     
     
     
@@ -349751,7 +349751,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["leg-tap-blue","leg-tap-red","leg-tap-yellow"],
     
     
     
@@ -349875,7 +349875,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["leg-tap-blue","leg-tap-red","leg-tap-yellow"],
     
     
     
@@ -351340,7 +351340,7 @@ If you've played another blue card this turn, **transcend**.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `When this enters the arena, create a Seismic Surge token.
@@ -351357,7 +351357,7 @@ At the start of your turn, destroy this, then the next Guardian attack action ca
   
     
     pitch: 1,
-    
+    referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -351421,7 +351421,7 @@ At the start of your turn, destroy this, then the next Guardian attack action ca
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `When this enters the arena, create a Seismic Surge token.
@@ -351438,7 +351438,7 @@ At the start of your turn, destroy this, then the next Guardian attack action ca
   
     
     pitch: 2,
-    
+    referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -351502,7 +351502,7 @@ At the start of your turn, destroy this, then the next Guardian attack action ca
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `When this enters the arena, create a Seismic Surge token.
@@ -351519,7 +351519,7 @@ At the start of your turn, destroy this, then the next Guardian attack action ca
   
     
     pitch: 3,
-    
+    referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -352306,7 +352306,7 @@ When this attacks, if it was **fused**, you may put an attack action card from y
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["crouching-tiger"],
     defense: 3,
     
     functionalText: `Create a Crouching Tiger in your hand.
@@ -352325,7 +352325,7 @@ Crouching Tigers you control get +1{p} this turn.
   
     
     pitch: 2,
-    
+    referencedCards: ["crouching-tiger"],
     
     
     
@@ -352434,7 +352434,7 @@ Crouching Tigers you control get +1{p} this turn.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["courage"],
     defense: 3,
     
     functionalText: `Create a Courage token.
@@ -352451,7 +352451,7 @@ If there are no cards in your soul, return this to its owner's hand, then **char
   
     
     pitch: 2,
-    
+    referencedCards: ["courage"],
     
     
     
@@ -352515,7 +352515,7 @@ If there are no cards in your soul, return this to its owner's hand, then **char
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' cards with cost 2 or more. Whenever you complete this contract, create a Silver token.
@@ -352532,7 +352532,7 @@ When this hits a hero, banish the top card of their deck.`,
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["silver"],
     
     
     
@@ -352596,7 +352596,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' cards with cost 2 or more. Whenever you complete this contract, create a Silver token.
@@ -352613,7 +352613,7 @@ When this hits a hero, banish the top card of their deck.`,
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["silver"],
     
     
     
@@ -352677,7 +352677,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' cards with cost 2 or more. Whenever you complete this contract, create a Silver token.
@@ -352694,7 +352694,7 @@ When this hits a hero, banish the top card of their deck.`,
   
     
     pitch: 3,
-    power: 3,
+    power: 3,referencedCards: ["silver"],
     
     
     
@@ -352839,7 +352839,7 @@ When this hits a hero, banish the top card of their deck.`,
   
     
     
-    
+    referencedCards: ["edge-of-autumn"],
     
     
     
@@ -353417,7 +353417,7 @@ When this defends, target attack gets -2{p} unless the attacking hero pays {r}.`
   
     
     pitch: 3,
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -354188,7 +354188,7 @@ Once per turn, when you discard a card with 6 or more {p}, this gets +1{p} until
 
     
     
-    
+    createdExtras: ["embodiment-of-earth"],
     defense: 1,
     
     functionalText: `When this defends together with an aura card, create an Embodiment of Earth token.
@@ -354205,7 +354205,7 @@ Once per turn, when you discard a card with 6 or more {p}, this gets +1{p} until
   
     
     
-    
+    referencedCards: ["embodiment-of-earth"],
     
     
     
@@ -356248,7 +356248,7 @@ When this hits a hero, discard a card. If you do, they discard a card.`,
 
     
     
-    cost: 4,
+    cost: 4,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `**Heave 2**`,
@@ -356263,7 +356263,7 @@ When this hits a hero, discard a card. If you do, they discard a card.`,
   
     
     pitch: 1,
-    power: 8,
+    power: 8,referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -356327,7 +356327,7 @@ When this hits a hero, discard a card. If you do, they discard a card.`,
 
     
     
-    cost: 4,
+    cost: 4,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `**Heave 2**`,
@@ -356342,7 +356342,7 @@ When this hits a hero, discard a card. If you do, they discard a card.`,
   
     
     pitch: 2,
-    power: 7,
+    power: 7,referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -356406,7 +356406,7 @@ When this hits a hero, discard a card. If you do, they discard a card.`,
 
     
     
-    cost: 4,
+    cost: 4,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `**Heave 2**`,
@@ -356421,7 +356421,7 @@ When this hits a hero, discard a card. If you do, they discard a card.`,
   
     
     pitch: 3,
-    power: 6,
+    power: 6,referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -356941,7 +356941,7 @@ Your next Brute attack this turn gets +2{p}.
   
     
     pitch: 1,
-    
+    referencedCards: ["agility"],
     
     
     
@@ -357645,7 +357645,7 @@ Your next sword attack this turn gets +1{p}.`,
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["runechant"],
     
     
     
@@ -357771,7 +357771,7 @@ Your next sword attack this turn gets +1{p}.`,
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["runechant"],
     
     
     
@@ -357912,7 +357912,7 @@ Your next sword attack this turn gets +1{p}.`,
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["runechant"],
     
     
     
@@ -358091,7 +358091,7 @@ When this defends and the attacking hero has played or created 2 or more auras t
   
     
     
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -358200,7 +358200,7 @@ When this defends and the attacking hero has played or created 2 or more auras t
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `When this enters the arena, create 4 Runechant tokens.
@@ -358219,7 +358219,7 @@ At the beginning of your action phase, destroy this.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -358298,7 +358298,7 @@ At the beginning of your action phase, destroy this.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `**Go again**
@@ -358317,7 +358317,7 @@ At the beginning of your action phase, remove a verse counter from this. If you 
   
     
     pitch: 1,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -358396,7 +358396,7 @@ At the beginning of your action phase, remove a verse counter from this. If you 
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `**Go again**
@@ -358415,7 +358415,7 @@ At the beginning of your action phase, remove a verse counter from this. If you 
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -358494,7 +358494,7 @@ At the beginning of your action phase, remove a verse counter from this. If you 
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `**Go again**
@@ -358513,7 +358513,7 @@ At the beginning of your action phase, remove a verse counter from this. If you 
   
     
     pitch: 3,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -358533,7 +358533,7 @@ At the beginning of your action phase, remove a verse counter from this. If you 
     defaultImage: "SBA036",
     firstReleaseDate: "2020-03-27",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Shiyana,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yorick],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Shiyana,Hero.Taylor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yorick],
     name: "Runechant",
     printings: [{
         artists: ["Jessketchin"],
@@ -358950,7 +358950,7 @@ At the beginning of your action phase, remove a verse counter from this. If you 
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     
     
     functionalText: `This counts as a Runechant. When an attack usurps this, gain 1{h}.
@@ -358969,7 +358969,7 @@ At the beginning of your action phase or when you play an attack action card, de
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Sin],
     
@@ -359045,7 +359045,7 @@ At the beginning of your action phase or when you play an attack action card, de
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     
     
     functionalText: `This counts as a Runechant. When an attack usurps this, gain {r}.
@@ -359064,7 +359064,7 @@ At the beginning of your action phase or when you play an attack action card, de
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Sin],
     
@@ -359140,7 +359140,7 @@ At the beginning of your action phase or when you play an attack action card, de
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     
     
     functionalText: `This counts as a Runechant. When an attack usurps this, draw a card.
@@ -359159,7 +359159,7 @@ At the beginning of your action phase or when you play an attack action card, de
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Sin],
     
@@ -359235,7 +359235,7 @@ At the beginning of your action phase or when you play an attack action card, de
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     
     
     functionalText: `This counts as a Runechant. When an attack usurps this, create a Runechant token.
@@ -359254,7 +359254,7 @@ At the beginning of your action phase or when you play an attack action card, de
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Sin],
     
@@ -359330,7 +359330,7 @@ At the beginning of your action phase or when you play an attack action card, de
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     
     
     functionalText: `This counts as a Runechant. When an attack usurps this, it gets +1{p}.
@@ -359349,7 +359349,7 @@ At the beginning of your action phase or when you play an attack action card, de
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Sin],
     
@@ -359425,7 +359425,7 @@ At the beginning of your action phase or when you play an attack action card, de
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     
     
     functionalText: `This counts as a Runechant. When an attack usurps this, it gets **go again**.
@@ -359444,7 +359444,7 @@ At the beginning of your action phase or when you play an attack action card, de
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Sin],
     
@@ -359520,7 +359520,7 @@ At the beginning of your action phase or when you play an attack action card, de
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     
     
     functionalText: `This counts as a Runechant. When an attack usurps this, it gets **overpower**.
@@ -359539,7 +359539,7 @@ At the beginning of your action phase or when you play an attack action card, de
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Sin],
     
@@ -359648,7 +359648,7 @@ At the beginning of your action phase or when you play an attack action card, de
 
     
     
-    
+    createdExtras: ["runechant"],
     defense: 0,
     
     functionalText: `**Action** - Destroy this: Create a Runechant token. **Go again**`,
@@ -359663,7 +359663,7 @@ At the beginning of your action phase or when you play an attack action card, de
   
     
     
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -360321,7 +360321,7 @@ At the beginning of your action phase or when you play an attack action card, de
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `The next Runeblade attack action card you play this turn gets "When this hits, create 3 Runechant tokens".
@@ -360340,7 +360340,7 @@ If an attack action card was pitched to play this, the next Runeblade attack act
   
     
     pitch: 1,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -360404,7 +360404,7 @@ If an attack action card was pitched to play this, the next Runeblade attack act
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `The next Runeblade attack action card you play this turn gets "When this hits, create 2 Runechant tokens".
@@ -360423,7 +360423,7 @@ If an attack action card was pitched to play this, the next Runeblade attack act
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -360487,7 +360487,7 @@ If an attack action card was pitched to play this, the next Runeblade attack act
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `The next Runeblade attack action card you play this turn gets "When this hits, create a Runechant token".
@@ -360506,7 +360506,7 @@ If an attack action card was pitched to play this, the next Runeblade attack act
   
     
     pitch: 3,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -360552,7 +360552,7 @@ If an attack action card was pitched to play this, the next Runeblade attack act
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `**Usurp**
@@ -360569,7 +360569,7 @@ If an attack action card was pitched to play this, the next Runeblade attack act
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["runechant"],
     
     
     
@@ -360652,7 +360652,7 @@ The next Runeblade attack action card you play this turn gets +3{p}.
   
     
     pitch: 1,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -360716,7 +360716,7 @@ The next Runeblade attack action card you play this turn gets +3{p}.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `When this hits a hero, destroy target aura they control. If you do, create a Runechant token.`,
@@ -360731,7 +360731,7 @@ The next Runeblade attack action card you play this turn gets +3{p}.
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -360810,7 +360810,7 @@ The next Runeblade attack action card you play this turn gets +3{p}.
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["agility"],
     defense: 3,
     
     functionalText: `When this attacks, if it has **go again**, create an Agility token.`,
@@ -360825,7 +360825,7 @@ The next Runeblade attack action card you play this turn gets +3{p}.
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["agility"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -361207,7 +361207,7 @@ When this hits a hero, deal 1 arcane damage to them.`,
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["torrent-of-tempo-blue","torrent-of-tempo-red","torrent-of-tempo-yellow"],
     
     
     
@@ -361331,7 +361331,7 @@ When this hits a hero, deal 1 arcane damage to them.`,
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["torrent-of-tempo-blue","torrent-of-tempo-red","torrent-of-tempo-yellow"],
     
     
     
@@ -361455,7 +361455,7 @@ When this hits a hero, deal 1 arcane damage to them.`,
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["torrent-of-tempo-blue","torrent-of-tempo-red","torrent-of-tempo-yellow"],
     
     
     
@@ -361929,7 +361929,7 @@ When this hits a hero, deal 1 arcane damage to them.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' cards with base **go again**. Whenever you complete this contract, create a Silver token.
@@ -361946,7 +361946,7 @@ When this hits a hero, banish the top card of their deck.`,
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["silver"],
     
     
     
@@ -362010,7 +362010,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' cards with base **go again**. Whenever you complete this contract, create a Silver token.
@@ -362027,7 +362027,7 @@ When this hits a hero, banish the top card of their deck.`,
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["silver"],
     
     
     
@@ -362091,7 +362091,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' cards with base **go again**. Whenever you complete this contract, create a Silver token.
@@ -362108,7 +362108,7 @@ When this hits a hero, banish the top card of their deck.`,
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["silver"],
     
     
     
@@ -362187,7 +362187,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["spectral-shield"],
     
     
     functionalText: `**Legendary**
@@ -362207,7 +362207,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
   
     oppositeSideCardIdentifier: `inner-chi-blue`,oppositeSideCardIdentifiers: ["inner-chi-blue"],
     pitch: 3,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -362286,7 +362286,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["crouching-tiger"],
     
     
     functionalText: `**Legendary**
@@ -362306,7 +362306,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
   
     oppositeSideCardIdentifier: `inner-chi-blue`,oppositeSideCardIdentifiers: ["inner-chi-blue"],
     pitch: 3,
-    
+    referencedCards: ["crouching-tiger"],
     
     
     
@@ -362385,7 +362385,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["fang-strike","slither"],
     
     
     functionalText: `**Legendary**
@@ -362405,7 +362405,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
   
     oppositeSideCardIdentifier: `inner-chi-blue`,oppositeSideCardIdentifiers: ["inner-chi-blue"],
     pitch: 3,
-    
+    referencedCards: ["fang-strike","slither"],
     
     
     
@@ -363682,7 +363682,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
   
     
     pitch: 1,
-    
+    referencedCards: ["ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     
     
@@ -363761,7 +363761,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
   
     
     pitch: 2,
-    
+    referencedCards: ["ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     
     
@@ -363840,7 +363840,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
   
     
     pitch: 3,
-    
+    referencedCards: ["ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     
     
@@ -364531,7 +364531,7 @@ You may destroy a Frailty token you control. If you do, gain 1 {h}.
   
     
     pitch: 1,
-    
+    referencedCards: ["frailty"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -365789,7 +365789,7 @@ When this attacks, if a card with 6 or more {p} was discarded as an additional c
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["ponder"],
     
     
     functionalText: `Shuffle up to 3 non-attack action cards from your graveyard into your deck.
@@ -365806,7 +365806,7 @@ Create a Ponder token.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["ponder"],
     
     
     
@@ -365870,7 +365870,7 @@ Create a Ponder token.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["ponder"],
     
     
     functionalText: `Shuffle up to 2 non-attack action cards from your graveyard into your deck.
@@ -365887,7 +365887,7 @@ Create a Ponder token.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["ponder"],
     
     
     
@@ -365951,7 +365951,7 @@ Create a Ponder token.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["ponder"],
     
     
     functionalText: `Shuffle up to 1 non-attack action card from your graveyard into your deck.
@@ -365968,7 +365968,7 @@ Create a Ponder token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["ponder"],
     
     
     
@@ -367656,7 +367656,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     defense: 2,
     
     functionalText: `Target dagger attack gets +3{p} and "When this hits a hero, **mark** them."`,
@@ -367671,7 +367671,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
   
     
     pitch: 1,
-    
+    referencedCards: ["marked"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -367735,7 +367735,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     defense: 2,
     
     functionalText: `Target dagger attack gets +2{p} and "When this hits a hero, **mark** them."`,
@@ -367750,7 +367750,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
   
     
     pitch: 2,
-    
+    referencedCards: ["marked"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -367814,7 +367814,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     defense: 2,
     
     functionalText: `Target dagger attack gets +1{p} and "When this hits a hero, **mark** them."`,
@@ -367829,7 +367829,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
   
     
     pitch: 3,
-    
+    referencedCards: ["marked"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -367972,7 +367972,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["embodiment-of-lightning"],
     defense: 3,
     
     functionalText: `Whenever this fragments, create an Embodiment of Lightning token.
@@ -367989,7 +367989,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["embodiment-of-lightning"],
     
     
     
@@ -368053,7 +368053,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
 
     arcane: 1,
     
-    
+    createdExtras: ["runechant"],
     
     
     functionalText: `**Once per Turn Action** - {r}{r}: Deal 1 arcane damage to any opposing target.
@@ -368070,7 +368070,7 @@ Create a Runechant token for each damage dealt this way.`,
   
     
     
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -368230,7 +368230,7 @@ When this is pitched, each hero shuffles, then puts the top card of their deck f
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     
     
     functionalText: `**Action** - {r}{r}{r}, {t}: **Attack**
@@ -368249,7 +368249,7 @@ When this attacks, you may put a yellow card from a graveyard on the bottom of i
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["gold"],
     
     shorthands: [Shorthand.Tap],
     
@@ -370109,7 +370109,7 @@ When this attacks, if it **scrapped** a card, put a steam counter on an item you
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["quicken"],
     defense: 3,
     
     functionalText: `**Scrap**
@@ -370126,7 +370126,7 @@ When this attacks, if it **scrapped** a card, create a Quicken token.`,
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["quicken"],
     
     
     
@@ -370190,7 +370190,7 @@ When this attacks, if it **scrapped** a card, create a Quicken token.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["quicken"],
     defense: 3,
     
     functionalText: `**Scrap**
@@ -370207,7 +370207,7 @@ When this attacks, if it **scrapped** a card, create a Quicken token.`,
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["quicken"],
     
     
     
@@ -370271,7 +370271,7 @@ When this attacks, if it **scrapped** a card, create a Quicken token.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["quicken"],
     defense: 3,
     
     functionalText: `**Scrap**
@@ -370288,7 +370288,7 @@ When this attacks, if it **scrapped** a card, create a Quicken token.`,
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["quicken"],
     
     
     
@@ -370693,7 +370693,7 @@ Gain {r}{r} for each card this **scrapped**.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `Destroy the top card of target hero's deck. If it's yellow, create a Gold token.
@@ -370710,7 +370710,7 @@ Gain {r}{r} for each card this **scrapped**.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -370804,7 +370804,7 @@ Gain {r}{r} for each card this **scrapped**.`,
 
     
     
-    
+    createdExtras: ["goldkiss-rum"],
     
     
     functionalText: `**Action** - {t}, destroy a Gold you control: Create a Goldkiss Rum token. **Go again**
@@ -370821,7 +370821,7 @@ Whenever you activate a Goldkiss Rum, gain {r}.`,
   
     
     
-    
+    referencedCards: ["gold","goldkiss-rum"],
     
     shorthands: [Shorthand.Tap],
     
@@ -371284,7 +371284,7 @@ When this attacks a **marked** hero, this gets **go again**.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `Turn a card in a graveyard face-down. If it's yellow, create a Gold token.
@@ -371301,7 +371301,7 @@ When this attacks a **marked** hero, this gets **go again**.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -371377,7 +371377,7 @@ When this attacks a **marked** hero, this gets **go again**.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["goldkiss-rum"],
     defense: 3,
     
     functionalText: `When this is discarded, create a Goldkiss Rum token.`,
@@ -371392,7 +371392,7 @@ When this attacks a **marked** hero, this gets **go again**.`,
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["goldkiss-rum"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -371693,7 +371693,7 @@ If you control 2 or more Draconic chain links, this card's attacks get **go agai
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     defense: 2,
     
     functionalText: `Target dagger attack gets +2{p}. If you control 2 or more Draconic chain links, it gets "When this hits a hero, **mark** them."`,
@@ -371708,7 +371708,7 @@ If you control 2 or more Draconic chain links, this card's attacks get **go agai
   
     
     pitch: 1,
-    
+    referencedCards: ["marked"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -373641,7 +373641,7 @@ Mechanologist attack action cards you control get +1{d}.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["inertia"],
     defense: 3,
     
     functionalText: `**Stealth**
@@ -373658,7 +373658,7 @@ When this hits a hero, create an Inertia token under their control.`,
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["inertia"],
     
     
     
@@ -373737,7 +373737,7 @@ When this hits a hero, create an Inertia token under their control.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["inertia"],
     defense: 3,
     
     functionalText: `**Stealth**
@@ -373754,7 +373754,7 @@ When this hits a hero, create an Inertia token under their control.`,
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["inertia"],
     
     
     
@@ -373848,7 +373848,7 @@ When this hits a hero, create an Inertia token under their control.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["inertia"],
     defense: 3,
     
     functionalText: `**Stealth**
@@ -373865,7 +373865,7 @@ When this hits a hero, create an Inertia token under their control.`,
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["inertia"],
     
     
     
@@ -373974,7 +373974,7 @@ When this hits a hero, create an Inertia token under their control.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["inertia"],
     defense: 3,
     
     functionalText: `If this has an aim counter, it gets +1{p}.
@@ -373991,7 +373991,7 @@ When this hits a hero, create an Inertia token under their control.`,
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["inertia"],
     
     
     
@@ -374070,7 +374070,7 @@ When this hits a hero, create an Inertia token under their control.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["inertia"],
     defense: 3,
     
     functionalText: `If this has an aim counter, it gets +1{p}.
@@ -374087,7 +374087,7 @@ When this hits a hero, create an Inertia token under their control.`,
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["inertia"],
     
     
     
@@ -374166,7 +374166,7 @@ When this hits a hero, create an Inertia token under their control.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["inertia"],
     defense: 3,
     
     functionalText: `If this has an aim counter, it gets +1{p}.
@@ -374183,7 +374183,7 @@ When this hits a hero, create an Inertia token under their control.`,
   
     
     pitch: 3,
-    power: 3,
+    power: 3,referencedCards: ["inertia"],
     
     
     
@@ -374733,7 +374733,7 @@ The next attack action card with cost 0 you play this turn gets "When this attac
 
     
     bonds: [Bond.Earth],
-    cost: 2,
+    cost: 2,createdExtras: ["might"],
     defense: 3,
     
     functionalText: `Create 3 Might tokens.
@@ -374750,7 +374750,7 @@ The next attack action card with cost 0 you play this turn gets "When this attac
   
     
     pitch: 1,
-    
+    referencedCards: ["might"],
     
     
     
@@ -374799,7 +374799,7 @@ The next attack action card with cost 0 you play this turn gets "When this attac
 
     
     bonds: [Bond.Earth],
-    cost: 2,
+    cost: 2,createdExtras: ["might"],
     defense: 3,
     
     functionalText: `Create 2 Might tokens.
@@ -374816,7 +374816,7 @@ The next attack action card with cost 0 you play this turn gets "When this attac
   
     
     pitch: 2,
-    
+    referencedCards: ["might"],
     
     
     
@@ -374865,7 +374865,7 @@ The next attack action card with cost 0 you play this turn gets "When this attac
 
     
     bonds: [Bond.Earth],
-    cost: 2,
+    cost: 2,createdExtras: ["might"],
     defense: 3,
     
     functionalText: `Create a Might token.
@@ -374882,7 +374882,7 @@ The next attack action card with cost 0 you play this turn gets "When this attac
   
     
     pitch: 3,
-    
+    referencedCards: ["might"],
     
     
     
@@ -375924,7 +375924,7 @@ If the additional cost was paid, this gets **go again**.`,
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["edge-of-autumn"],
     
     
     
@@ -375988,7 +375988,7 @@ If the additional cost was paid, this gets **go again**.`,
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["edge-of-autumn"],
     
     
     
@@ -376084,7 +376084,7 @@ While this is in your graveyard, at the start of your turn, you may destroy 2 Si
   
     
     pitch: 1,
-    
+    referencedCards: ["silver"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -376974,7 +376974,7 @@ The next attack action card with cost 0 you play this turn gets +1{p} and **go a
 
     
     
-    
+    createdExtras: ["ponder"],
     
     
     functionalText: `**Action** - {r}{r}{r}: Look at the top card of your deck. You may put it on the bottom. Create a Ponder token.`,
@@ -376989,7 +376989,7 @@ The next attack action card with cost 0 you play this turn gets +1{p} and **go a
   
     
     
-    
+    referencedCards: ["ponder"],
     
     
     
@@ -377068,7 +377068,7 @@ The next attack action card with cost 0 you play this turn gets +1{p} and **go a
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["seismic-surge"],
     
     
     functionalText: `Create 3 Seismic Surge tokens.`,
@@ -377083,7 +377083,7 @@ The next attack action card with cost 0 you play this turn gets +1{p} and **go a
   
     
     pitch: 2,
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -377166,7 +377166,7 @@ At the start of your turn, destroy this.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -377249,7 +377249,7 @@ Destroy X target aura tokens.
   
     
     pitch: 1,
-    
+    referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Tap],
     
@@ -377328,7 +377328,7 @@ Destroy X target aura tokens.
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `Create 3 Seismic Surge tokens.
@@ -377345,7 +377345,7 @@ Destroy X target aura tokens.
   
     
     pitch: 1,
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -377424,7 +377424,7 @@ Destroy X target aura tokens.
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `Create 2 Seismic Surge tokens.
@@ -377441,7 +377441,7 @@ Destroy X target aura tokens.
   
     
     pitch: 2,
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -377520,7 +377520,7 @@ Destroy X target aura tokens.
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `Create a Seismic Surge token.
@@ -377537,7 +377537,7 @@ Destroy X target aura tokens.
   
     
     pitch: 3,
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -377557,7 +377557,7 @@ Destroy X target aura tokens.
     defaultImage: "SBR035",
     firstReleaseDate: "2019-10-11",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Jarl,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Pleiades,Hero.Reya,Hero.Shiyana,Hero.Starvo,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji,Hero.Yorick],
+    legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Bravo,Hero.Brevant,Hero.Brutus,Hero.Crix,Hero.Jarl,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Pleiades,Hero.Reya,Hero.Shiyana,Hero.Starvo,Hero.Taylor,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji,Hero.Yorick],
     name: "Seismic Surge",
     printings: [{
         artists: ["Anastasiya Grintsova"],
@@ -378425,7 +378425,7 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["fang-strike","slither"],
     defense: 3,
     
     functionalText: `**Stealth**
@@ -378444,7 +378444,7 @@ When this hits a hero, look at the top 2 cards of their deck. Banish 1 of them.`
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["fang-strike","slither"],
     
     
     
@@ -378583,7 +378583,7 @@ When this hits a hero, look at the top 2 cards of their deck. Banish 1 of them.`
 
     
     
-    
+    createdExtras: ["runechant"],
     
     
     functionalText: `**Action** - {r}, {t}: **Attack**. Activate this only if you've played a card from a banished zone this turn.
@@ -378600,7 +378600,7 @@ When this hits a hero, create a Runechant token.`,
   
     
     
-    power: 3,
+    power: 3,referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Tap],
     
@@ -380191,7 +380191,7 @@ If you've played or activated an attack reaction this chain link, this gets "Whe
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `If you've activated a cannon this turn, this gets "When this hits a hero, destroy a card in their arsenal. If you do, create a Gold token."`,
@@ -380206,7 +380206,7 @@ If you've played or activated an attack reaction this chain link, this gets "Whe
   
     
     pitch: 2,
-    power: 5,
+    power: 5,referencedCards: ["gold"],
     
     
     
@@ -380430,7 +380430,7 @@ If you've played or activated an attack reaction this chain link, this gets "Whe
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["blade-dance"],
     defense: 3,
     
     functionalText: `**Sharpen** target sword you control.
@@ -380449,7 +380449,7 @@ If it has 1 or more +1{p} counters, create a Blade Dance token.
   
     
     pitch: 1,
-    
+    referencedCards: ["blade-dance"],
     
     
     
@@ -380513,7 +380513,7 @@ If it has 1 or more +1{p} counters, create a Blade Dance token.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["blade-dance"],
     defense: 3,
     
     functionalText: `**Sharpen** target sword you control.
@@ -380532,7 +380532,7 @@ If it has 2 or more +1{p} counters, create a Blade Dance token.
   
     
     pitch: 2,
-    
+    referencedCards: ["blade-dance"],
     
     
     
@@ -380596,7 +380596,7 @@ If it has 2 or more +1{p} counters, create a Blade Dance token.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["blade-dance"],
     defense: 3,
     
     functionalText: `**Sharpen** target sword you control.
@@ -380615,7 +380615,7 @@ If it has 3 or more +1{p} counters, create a Blade Dance token.
   
     
     pitch: 3,
-    
+    referencedCards: ["blade-dance"],
     
     
     
@@ -381896,7 +381896,7 @@ At the beginning of your end phase, destroy this.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `Whenever this fragments, create a Lightning Flow token.
@@ -381913,7 +381913,7 @@ At the beginning of your end phase, destroy this.`,
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["lightning-flow"],
     
     
     
@@ -381977,7 +381977,7 @@ At the beginning of your end phase, destroy this.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `Whenever this fragments, create a Lightning Flow token.
@@ -381994,7 +381994,7 @@ At the beginning of your end phase, destroy this.`,
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["lightning-flow"],
     
     
     
@@ -382073,7 +382073,7 @@ At the beginning of your end phase, destroy this.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `Whenever this fragments, create a Lightning Flow token.
@@ -382090,7 +382090,7 @@ At the beginning of your end phase, destroy this.`,
   
     
     pitch: 3,
-    power: 3,
+    power: 3,referencedCards: ["lightning-flow"],
     
     
     
@@ -382858,7 +382858,7 @@ Cards you own named Visit Anvilheim get **go again**.`,
   
     
     
-    power: 5,
+    power: 5,referencedCards: ["visit-anvilheim-blue"],
     
     shorthands: [Shorthand.Tap],
     
@@ -383159,7 +383159,7 @@ Cards you own named Visit Anvilheim get **go again**.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["agility"],
     defense: 3,
     
     functionalText: `Target Warrior attack with {p} greater than its base gets **go again**.
@@ -383176,7 +383176,7 @@ The next time an opponent is dealt damage this turn, create an Agility token.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["agility"],
     
     
     
@@ -383336,7 +383336,7 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["crouching-tiger"],
     defense: 3,
     
     functionalText: `Whenever you play a Crouching Tiger this turn, name a card. It gets that name.
@@ -383355,7 +383355,7 @@ If a Chi was pitched to play this, create 2 Crouching Tigers in your hand.
   
     
     pitch: 3,
-    
+    referencedCards: ["crouching-tiger","inner-chi-blue"],
     
     
     
@@ -383419,7 +383419,7 @@ If a Chi was pitched to play this, create 2 Crouching Tigers in your hand.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["blade-dance"],
     defense: 2,
     
     functionalText: `Target weapon attack gets +3{p}.
@@ -383436,7 +383436,7 @@ If a Chi was pitched to play this, create 2 Crouching Tigers in your hand.
   
     
     pitch: 1,
-    
+    referencedCards: ["blade-dance"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -383611,7 +383611,7 @@ If a Chi was pitched to play this, create 2 Crouching Tigers in your hand.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["spectral-shield"],
     defense: 2,
     
     functionalText: `While this is attacking or defending, when this leaves the arena, create a Spectral Shield token.
@@ -383628,7 +383628,7 @@ If a Chi was pitched to play this, create 2 Crouching Tigers in your hand.
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["spectral-shield"],
     
     
     
@@ -383692,7 +383692,7 @@ If a Chi was pitched to play this, create 2 Crouching Tigers in your hand.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["spectral-shield"],
     defense: 2,
     
     functionalText: `While this is attacking or defending, when this leaves the arena, create a Spectral Shield token.
@@ -383709,7 +383709,7 @@ If a Chi was pitched to play this, create 2 Crouching Tigers in your hand.
   
     
     pitch: 2,
-    power: 5,
+    power: 5,referencedCards: ["spectral-shield"],
     
     
     
@@ -383773,7 +383773,7 @@ If a Chi was pitched to play this, create 2 Crouching Tigers in your hand.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["spectral-shield"],
     defense: 2,
     
     functionalText: `While this is attacking or defending, when this leaves the arena, create a Spectral Shield token.
@@ -383790,7 +383790,7 @@ If a Chi was pitched to play this, create 2 Crouching Tigers in your hand.
   
     
     pitch: 3,
-    power: 4,
+    power: 4,referencedCards: ["spectral-shield"],
     
     
     
@@ -384061,7 +384061,7 @@ If a Chi was pitched to play this, create 2 Crouching Tigers in your hand.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["cracked-bauble-yellow"],
     defense: 2,
     
     functionalText: `Target hero creates a Cracked Bauble on top of their deck.`,
@@ -384076,7 +384076,7 @@ If a Chi was pitched to play this, create 2 Crouching Tigers in your hand.
   
     
     pitch: 2,
-    
+    referencedCards: ["cracked-bauble-yellow"],
     
     
     
@@ -384853,7 +384853,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["confidence"],
     defense: 2,
     
     functionalText: `When the combat chain closes, if this didn't hit, the defending hero creates a Confidence token.`,
@@ -384868,7 +384868,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
   
     
     pitch: 1,
-    power: 8,
+    power: 8,referencedCards: ["confidence"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -384932,7 +384932,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["confidence"],
     defense: 2,
     
     functionalText: `When the combat chain closes, if this didn't hit, the defending hero creates a Confidence token.`,
@@ -384947,7 +384947,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
   
     
     pitch: 2,
-    power: 7,
+    power: 7,referencedCards: ["confidence"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -385011,7 +385011,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["confidence"],
     defense: 2,
     
     functionalText: `When the combat chain closes, if this didn't hit, the defending hero creates a Confidence token.`,
@@ -385026,7 +385026,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
   
     
     pitch: 3,
-    power: 6,
+    power: 6,referencedCards: ["confidence"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -385885,7 +385885,7 @@ At the beginning of your action phase, destroy this then draw a card.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["flurry"],
     defense: 3,
     
     functionalText: `Your next sword attack this turn gets +3{p} and "When this attacks, **wager** with the defending hero. The winner creates a Flurry token."
@@ -385902,7 +385902,7 @@ At the beginning of your action phase, destroy this then draw a card.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["flurry"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -385966,7 +385966,7 @@ At the beginning of your action phase, destroy this then draw a card.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["flurry"],
     defense: 3,
     
     functionalText: `Your next sword attack this turn gets +2{p} and "When this attacks, **wager** with the defending hero. The winner creates a Flurry token."
@@ -385983,7 +385983,7 @@ At the beginning of your action phase, destroy this then draw a card.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["flurry"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -386047,7 +386047,7 @@ At the beginning of your action phase, destroy this then draw a card.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["flurry"],
     defense: 3,
     
     functionalText: `Your next sword attack this turn gets +1{p} and "When this attacks, **wager** with the defending hero. The winner creates a Flurry token."
@@ -386064,7 +386064,7 @@ At the beginning of your action phase, destroy this then draw a card.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["flurry"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -386504,7 +386504,7 @@ At the beginning of your action phase, destroy this then draw a card.`,
   
     
     
-    
+    referencedCards: ["silver"],
     
     
     
@@ -386931,7 +386931,7 @@ At the beginning of your action phase, destroy this then draw a card.`,
 
     
     
-    
+    createdExtras: ["sigil-of-fate"],
     defense: 0,
     
     functionalText: `When this leaves the arena, create a Sigil of Fate token.
@@ -386948,7 +386948,7 @@ At the beginning of your action phase, destroy this then draw a card.`,
   
     
     
-    
+    referencedCards: ["sigil-of-fate"],
     
     
     
@@ -387027,7 +387027,7 @@ At the beginning of your action phase, destroy this then draw a card.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["flurry"],
     defense: 3,
     
     functionalText: `Create a Flurry token.`,
@@ -387042,7 +387042,7 @@ At the beginning of your action phase, destroy this then draw a card.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["flurry"],
     
     
     
@@ -387952,7 +387952,7 @@ When this leaves the arena, deal 1 arcane damage to any target. If damage is dea
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["lightning-flow"],
     
     
     functionalText: `At the beginning of your action phase, destroy this.
@@ -387969,7 +387969,7 @@ When this leaves the arena, create a Lightning Flow token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["lightning-flow"],
     
     
     
@@ -388161,7 +388161,7 @@ When this leaves the arena, draw a card.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["embodiment-of-lightning"],
     
     
     functionalText: `**Arcane Shelter 1**
@@ -388178,7 +388178,7 @@ When this leaves the arena, create an Embodiment of Lightning token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["embodiment-of-lightning"],
     
     
     
@@ -388370,7 +388370,7 @@ When this leaves the arena, discard a card then draw a card.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `**Go again**
@@ -388389,7 +388389,7 @@ When this leaves the arena, create a Runechant token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -388483,7 +388483,7 @@ When this leaves the arena, create a Runechant token.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["embodiment-of-earth"],
     defense: 2,
     
     functionalText: `**Go again**
@@ -388502,7 +388502,7 @@ When this leaves the arena, create an Embodiment of Earth token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["embodiment-of-earth"],
     
     
     
@@ -388522,7 +388522,7 @@ When this leaves the arena, create an Embodiment of Earth token.`,
     defaultImage: "PEN120",
     firstReleaseDate: "2026-02-13",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Blaze,Hero.Broscilio,Hero.Emperor,Hero.Iyslander,Hero.Kano,Hero.Oscilio,Hero.Shiyana,Hero.Verdance,Hero.Yorick],
+    legalHeroes: [Hero.Blaze,Hero.Broscilio,Hero.Emperor,Hero.Iyslander,Hero.Kano,Hero.Oscilio,Hero.Taylor,Hero.Verdance],
     name: "Sigil of Fate",
     printings: [{
         artists: ["Thomas Ressuge"],
@@ -388674,7 +388674,7 @@ At the beginning of your action phase, destroy this.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["ponder"],
     
     
     functionalText: `At the beginning of your action phase, destroy this.
@@ -388691,7 +388691,7 @@ When this leaves the arena, create a Ponder token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["ponder"],
     
     
     
@@ -389011,7 +389011,7 @@ At the beginning of your action phase, destroy this.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["embodiment-of-lightning"],
     
     
     functionalText: `At the beginning of your action phase, destroy this.
@@ -389028,7 +389028,7 @@ When this leaves the arena, create an Embodiment of Lightning token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["embodiment-of-lightning"],
     
     
     
@@ -389171,7 +389171,7 @@ When this leaves the arena, create an Embodiment of Lightning token.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["frostbite"],
     defense: 4,
     
     functionalText: `**Ice Fusion**
@@ -389188,7 +389188,7 @@ If this was **fused**, the next time you deal arcane damage to a hero this turn,
   
     
     pitch: 1,
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -389252,7 +389252,7 @@ If this was **fused**, the next time you deal arcane damage to a hero this turn,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["frostbite"],
     defense: 3,
     
     functionalText: `**Ice Fusion**
@@ -389269,7 +389269,7 @@ If this was **fused**, the next time you deal arcane damage to a hero this turn,
   
     
     pitch: 2,
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -389333,7 +389333,7 @@ If this was **fused**, the next time you deal arcane damage to a hero this turn,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["frostbite"],
     defense: 2,
     
     functionalText: `**Ice Fusion**
@@ -389350,7 +389350,7 @@ If this was **fused**, the next time you deal arcane damage to a hero this turn,
   
     
     pitch: 3,
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -389687,7 +389687,7 @@ At the beginning of your action phase, destroy this.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["embodiment-of-earth"],
     
     
     functionalText: `**Arcane Shelter 1**
@@ -389704,7 +389704,7 @@ When this leaves the arena, create an Embodiment of Earth token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["embodiment-of-earth"],
     
     
     
@@ -391661,7 +391661,7 @@ At the beginning of your action phase, destroy this unless you remove a steam co
 
     
     
-    
+    createdExtras: ["aether-ashwing"],
     defense: 0,
     
     functionalText: `**Instant** - Destroy this: **Transform** target ash you control into an Aether Ashwing.
@@ -391678,7 +391678,7 @@ At the beginning of your action phase, destroy this unless you remove a steam co
   
     
     
-    
+    referencedCards: ["aether-ashwing","ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     
     
@@ -391851,7 +391851,7 @@ At the beginning of your action phase, destroy this unless you remove a steam co
 
     
     
-    
+    createdExtras: ["vigor"],
     
     
     functionalText: `When this is destroyed, create a Vigor token.
@@ -391868,7 +391868,7 @@ At the beginning of your action phase, destroy this unless you remove a steam co
   
     
     
-    
+    referencedCards: ["vigor"],
     
     
     
@@ -391932,7 +391932,7 @@ At the beginning of your action phase, destroy this unless you remove a steam co
 
     
     
-    
+    createdExtras: ["ponder"],
     
     
     functionalText: `When this is destroyed, create a Ponder token.
@@ -391949,7 +391949,7 @@ At the beginning of your action phase, destroy this unless you remove a steam co
   
     
     
-    
+    referencedCards: ["ponder"],
     
     
     
@@ -392013,7 +392013,7 @@ At the beginning of your action phase, destroy this unless you remove a steam co
 
     
     
-    
+    createdExtras: ["agility"],
     
     
     functionalText: `When this is destroyed, create an Agility token.
@@ -392030,7 +392030,7 @@ At the beginning of your action phase, destroy this unless you remove a steam co
   
     
     
-    
+    referencedCards: ["agility"],
     
     
     
@@ -392094,7 +392094,7 @@ At the beginning of your action phase, destroy this unless you remove a steam co
 
     
     
-    
+    createdExtras: ["might"],
     
     
     functionalText: `When this is destroyed, create a Might token.
@@ -392111,7 +392111,7 @@ At the beginning of your action phase, destroy this unless you remove a steam co
   
     
     
-    
+    referencedCards: ["might"],
     
     
     
@@ -392311,7 +392311,7 @@ At the beginning of your action phase, destroy this unless you remove a steam co
 
     
     
-    
+    createdExtras: ["silver"],
     defense: 2,
     
     functionalText: `At the start of each other hero's turn, if they have less {h} than you, they may draw a card. If they do, you create a Silver token.
@@ -392328,7 +392328,7 @@ At the beginning of your action phase, destroy this unless you remove a steam co
   
     
     
-    
+    referencedCards: ["silver"],
     
     
     
@@ -393316,7 +393316,7 @@ If the weapon has been sharpened this turn, this costs {r} less to play.`,
   
     
     
-    
+    referencedCards: ["flurry"],
     
     
     
@@ -393711,7 +393711,7 @@ If the weapon has been sharpened this turn, this costs {r} less to play.`,
 
     arcane: 1,
     
-    cost: 1,
+    cost: 1,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `**Quickstrike** - If this has go again, it gets "When this attacks a hero, deal 1 arcane damage to them."
@@ -393728,7 +393728,7 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["lightning-flow"],
     
     
     
@@ -393792,7 +393792,7 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
 
     arcane: 1,
     
-    cost: 1,
+    cost: 1,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `**Quickstrike** - If this has go again, it gets "When this attacks a hero, deal 1 arcane damage to them."
@@ -393809,7 +393809,7 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["lightning-flow"],
     
     
     
@@ -393873,7 +393873,7 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
 
     arcane: 1,
     
-    cost: 1,
+    cost: 1,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `**Quickstrike** - If this has go again, it gets "When this attacks a hero, deal 1 arcane damage to them."
@@ -393890,7 +393890,7 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["lightning-flow"],
     
     
     
@@ -395333,7 +395333,7 @@ If this was played from your banished zone, it gets "When this attacks, you may 
   
     
     pitch: 1,
-    power: 2,
+    power: 2,referencedCards: ["runechant"],
     
     
     
@@ -396253,7 +396253,7 @@ Target dagger attack gets +3{p}.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["aether-ashwing"],
     defense: 2,
     
     functionalText: `**Transform** target ash you control into an Aether Ashwing. It gets +3{p} until end of turn.
@@ -396270,7 +396270,7 @@ Target dagger attack gets +3{p}.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["aether-ashwing","ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -396334,7 +396334,7 @@ Target dagger attack gets +3{p}.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["aether-ashwing"],
     defense: 2,
     
     functionalText: `**Transform** target ash you control into an Aether Ashwing. It gets +2{p} until end of turn.
@@ -396351,7 +396351,7 @@ Target dagger attack gets +3{p}.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["aether-ashwing","ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -396415,7 +396415,7 @@ Target dagger attack gets +3{p}.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["aether-ashwing"],
     defense: 2,
     
     functionalText: `**Transform** target ash you control into an Aether Ashwing. It gets +1{p} until end of turn.
@@ -396432,7 +396432,7 @@ Target dagger attack gets +3{p}.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["aether-ashwing","ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -396909,7 +396909,7 @@ Whenever you roll a 1 on a die, destroy this.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `Reveal the top card of your deck. If it's red, create a Runechant token.
@@ -396926,7 +396926,7 @@ Whenever you roll a 1 on a die, destroy this.
   
     
     pitch: 1,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -396990,7 +396990,7 @@ Whenever you roll a 1 on a die, destroy this.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `Reveal the top card of your deck. If it's yellow, create a Runechant token.
@@ -397007,7 +397007,7 @@ Whenever you roll a 1 on a die, destroy this.
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -397071,7 +397071,7 @@ Whenever you roll a 1 on a die, destroy this.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `Reveal the top card of your deck. If it's blue, create a Runechant token.
@@ -397088,7 +397088,7 @@ Whenever you roll a 1 on a die, destroy this.
   
     
     pitch: 3,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -398070,7 +398070,7 @@ Whenever you roll a 1 on a die, destroy this.
 
     
     bannedFormats: [Format.GoldenAge],
-    cost: 0,
+    cost: 0,createdExtras: ["embodiment-of-lightning"],
     defense: 2,
     
     functionalText: `Choose 2;
@@ -398090,7 +398090,7 @@ Whenever you roll a 1 on a die, destroy this.
   
     
     pitch: 2,
-    
+    referencedCards: ["embodiment-of-lightning","skyzyk-red"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -398154,7 +398154,7 @@ Whenever you roll a 1 on a die, destroy this.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +1{d}. If a Golden Cog is destroyed this way, create a Gold token.`,
@@ -398169,7 +398169,7 @@ Whenever you roll a 1 on a die, destroy this.
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["gold","golden-cog"],
     
     
     
@@ -398327,7 +398327,7 @@ Whenever you roll a 1 on a die, destroy this.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["vigor"],
     
     
     functionalText: `The next time you would be dealt damage this turn, prevent 2 of that damage. If you prevent damage this way, create a Vigor token.`,
@@ -398342,7 +398342,7 @@ Whenever you roll a 1 on a die, destroy this.
   
     
     pitch: 1,
-    
+    referencedCards: ["vigor"],
     
     
     
@@ -398421,7 +398421,7 @@ Whenever you roll a 1 on a die, destroy this.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' non-attack action cards. Whenever you complete this contract, create a Silver token.
@@ -398438,7 +398438,7 @@ When this hits a hero, banish the top card of their deck.`,
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["silver"],
     
     
     
@@ -398502,7 +398502,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' non-attack action cards. Whenever you complete this contract, create a Silver token.
@@ -398519,7 +398519,7 @@ When this hits a hero, banish the top card of their deck.`,
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["silver"],
     
     
     
@@ -398583,7 +398583,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract** - You are contracted to banish opponents' non-attack action cards. Whenever you complete this contract, create a Silver token.
@@ -398600,7 +398600,7 @@ When this hits a hero, banish the top card of their deck.`,
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["silver"],
     
     
     
@@ -399640,7 +399640,7 @@ Your second sword or dagger attack this turn gets +1{p}.
     defaultImage: "MST024",
     firstReleaseDate: "2024-05-31",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Nuu,Hero.Shiyana,Hero.Yorick],
+    legalHeroes: [Hero.Nuu,Hero.Taylor],
     name: "Slither",
     printings: [{
         artists: ["Mario Wibisono"],
@@ -400375,7 +400375,7 @@ Target attack action card gets **go again**.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["blade-dance"],
     defense: 2,
     
     functionalText: `Target sword attack gets +4{p} and **wagers** with the defending hero. The winner creates a Blade Dance token.`,
@@ -400390,7 +400390,7 @@ Target attack action card gets **go again**.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["blade-dance"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -400454,7 +400454,7 @@ Target attack action card gets **go again**.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["blade-dance"],
     defense: 2,
     
     functionalText: `Target sword attack gets +3{p} and **wagers** with the defending hero. The winner creates a Blade Dance token.`,
@@ -400469,7 +400469,7 @@ Target attack action card gets **go again**.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["blade-dance"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -400533,7 +400533,7 @@ Target attack action card gets **go again**.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["blade-dance"],
     defense: 2,
     
     functionalText: `Target sword attack gets +2{p} and **wagers** with the defending hero. The winner creates a Blade Dance token.`,
@@ -400548,7 +400548,7 @@ Target attack action card gets **go again**.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["blade-dance"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -401809,7 +401809,7 @@ Target attack action card gets **go again**.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["agility","might"],
     defense: 2,
     
     functionalText: `Create an Agility and a Might token.
@@ -401826,7 +401826,7 @@ Target attack action card gets **go again**.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["agility","might"],
     
     
     
@@ -402497,7 +402497,7 @@ Your next Brute attack this turn gets "If you've intimidated 2 or more times thi
 
     
     
-    cost: 6,
+    cost: 6,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `**Crush** - When this deals 4 or more damage to a Guardian hero, destroy all equipment they control with -1{d} counters.
@@ -402514,7 +402514,7 @@ Your next Brute attack this turn gets "If you've intimidated 2 or more times thi
   
     
     pitch: 1,
-    power: 10,
+    power: 10,referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -402623,7 +402623,7 @@ Your next Brute attack this turn gets "If you've intimidated 2 or more times thi
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     defense: 3,
     
     functionalText: `When this defends a red card, **mark** the attacking hero.`,
@@ -402638,7 +402638,7 @@ Your next Brute attack this turn gets "If you've intimidated 2 or more times thi
   
     
     pitch: 1,
-    
+    referencedCards: ["marked"],
     
     
     
@@ -402719,7 +402719,7 @@ Your next Brute attack this turn gets "If you've intimidated 2 or more times thi
   
     
     
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -402800,7 +402800,7 @@ While this is in your graveyard, if 1 or more Frostbite tokens would be created 
   
     
     pitch: 1,
-    
+    referencedCards: ["frostbite"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -404950,7 +404950,7 @@ If you've played another Wizard non-attack action card this turn, you may play t
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["frostbite"],
     defense: 3,
     
     functionalText: `**Ice Fusion**
@@ -404967,7 +404967,7 @@ If this was **fused**, it gets "When this hits a hero, create a Frostbite token 
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["frostbite"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -405062,7 +405062,7 @@ const cards6: Card[] = [{
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["frostbite"],
     defense: 3,
     
     functionalText: `**Ice Fusion**
@@ -405079,7 +405079,7 @@ If this was **fused**, it gets "When this hits a hero, create a Frostbite token 
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["frostbite"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -405188,7 +405188,7 @@ If this was **fused**, it gets "When this hits a hero, create a Frostbite token 
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["frostbite"],
     defense: 3,
     
     functionalText: `**Ice Fusion**
@@ -405205,7 +405205,7 @@ If this was **fused**, it gets "When this hits a hero, create a Frostbite token 
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["frostbite"],
     
     
     
@@ -405781,7 +405781,7 @@ If this was **fused**, it gets "When this hits a hero, create a Frostbite token 
   
     
     pitch: 3,
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -405845,7 +405845,7 @@ If this was **fused**, it gets "When this hits a hero, create a Frostbite token 
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["spectral-shield"],
     defense: 2,
     
     functionalText: `When this enters the arena, if you control no other Illusionist auras, create a Spectral Shield token.
@@ -405862,7 +405862,7 @@ If this was **fused**, it gets "When this hits a hero, create a Frostbite token 
   
     
     pitch: 1,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -405926,7 +405926,7 @@ If this was **fused**, it gets "When this hits a hero, create a Frostbite token 
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["spectral-shield"],
     defense: 2,
     
     functionalText: `When this enters the arena, if you control no other Illusionist auras, create a Spectral Shield token.
@@ -405943,7 +405943,7 @@ If this was **fused**, it gets "When this hits a hero, create a Frostbite token 
   
     
     pitch: 2,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -406022,7 +406022,7 @@ If this was **fused**, it gets "When this hits a hero, create a Frostbite token 
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["spectral-shield"],
     defense: 2,
     
     functionalText: `When this enters the arena, if you control no other Illusionist auras, create a Spectral Shield token.
@@ -406039,7 +406039,7 @@ If this was **fused**, it gets "When this hits a hero, create a Frostbite token 
   
     
     pitch: 3,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -406312,7 +406312,7 @@ For each non-attack action card revealed this way, put an attack action card rev
 
     
     
-    
+    createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `**Viserai Specialization**
@@ -406331,7 +406331,7 @@ If X is 6 or greater, target hero discards 3 random cards.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -406414,7 +406414,7 @@ If X is 2 or more, this gets **go again**.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -406478,7 +406478,7 @@ If X is 2 or more, this gets **go again**.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["quicken"],
     defense: 3,
     
     functionalText: `Create a Quicken token under each other hero's control.`,
@@ -406493,7 +406493,7 @@ If X is 2 or more, this gets **go again**.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["quicken"],
     
     
     
@@ -406557,7 +406557,7 @@ If X is 2 or more, this gets **go again**.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["frostbite"],
     defense: 3,
     
     functionalText: `Create a Frostbite token under each other hero's control.`,
@@ -406572,7 +406572,7 @@ If X is 2 or more, this gets **go again**.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -406796,7 +406796,7 @@ If X is 2 or more, this gets **go again**.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["vigor"],
     defense: 3,
     
     functionalText: `Create a Vigor token under each other hero's control.`,
@@ -406811,7 +406811,7 @@ If X is 2 or more, this gets **go again**.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["vigor"],
     
     
     
@@ -406875,7 +406875,7 @@ If X is 2 or more, this gets **go again**.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["might"],
     defense: 3,
     
     functionalText: `Create a Might token under each other hero's control.`,
@@ -406890,7 +406890,7 @@ If X is 2 or more, this gets **go again**.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["might"],
     
     
     
@@ -408361,7 +408361,7 @@ If this is attacking a hero with 1 or more cards in their soul, it gets **go aga
     defaultImage: "U-MON186",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Chane,Hero.Shiyana,Hero.Viserai2,Hero.Vynnset,Hero.Yorick],
+    legalHeroes: [Hero.Chane,Hero.Shiyana,Hero.Yorick],
     name: "Soul Shackle",
     printings: [{
         artists: ["Isuardi Therianto"],
@@ -410755,7 +410755,7 @@ If you've **boosted** this turn, draw a card.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["spectral-shield"],
     defense: 2,
     
     functionalText: `Create a Spectral Shield token, then if you control no other Illusionist auras, put three +1{p} counters on it.
@@ -410772,7 +410772,7 @@ If you've **boosted** this turn, draw a card.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -410836,7 +410836,7 @@ If you've **boosted** this turn, draw a card.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["spectral-shield"],
     defense: 2,
     
     functionalText: `Create a Spectral Shield token, then if you control no other Illusionist auras, put two +1{p} counters on it.
@@ -410853,7 +410853,7 @@ If you've **boosted** this turn, draw a card.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -410917,7 +410917,7 @@ If you've **boosted** this turn, draw a card.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["spectral-shield"],
     defense: 2,
     
     functionalText: `Create a Spectral Shield token, then if you control no other Illusionist auras, put a +1{p} counter on it.
@@ -410934,7 +410934,7 @@ If you've **boosted** this turn, draw a card.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -411015,7 +411015,7 @@ If you've **boosted** this turn, draw a card.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -411096,7 +411096,7 @@ If you've **boosted** this turn, draw a card.`,
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["spectral-shield"],
     
     
     
@@ -411177,7 +411177,7 @@ If you've **boosted** this turn, draw a card.`,
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["spectral-shield"],
     
     
     
@@ -411258,7 +411258,7 @@ If you've **boosted** this turn, draw a card.`,
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["spectral-shield"],
     
     
     
@@ -411339,7 +411339,7 @@ If you've **boosted** this turn, draw a card.`,
   
     
     pitch: 1,
-    power: 8,
+    power: 8,referencedCards: ["spectral-shield"],
     
     
     
@@ -411420,7 +411420,7 @@ If you've **boosted** this turn, draw a card.`,
   
     
     pitch: 2,
-    power: 7,
+    power: 7,referencedCards: ["spectral-shield"],
     
     
     
@@ -411516,7 +411516,7 @@ If you've **boosted** this turn, draw a card.`,
   
     
     pitch: 3,
-    power: 6,
+    power: 6,referencedCards: ["spectral-shield"],
     
     
     
@@ -411536,7 +411536,7 @@ If you've **boosted** this turn, draw a card.`,
     defaultImage: "MST158",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Dromai,Hero.Enigma,Hero.Prism,Hero.Shiyana,Hero.Yorick,Hero.Zyggy],
+    legalHeroes: [Hero.Dromai,Hero.Enigma,Hero.Librarian,Hero.Prism,Hero.Shiyana,Hero.Taylor,Hero.Theryon,Hero.Yorick,Hero.Zyggy],
     name: "Spectral Shield",
     printings: [{
         artists: ["Alexandra Malygina"],
@@ -411920,7 +411920,7 @@ If you've **boosted** this turn, draw a card.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["hyper-driver"],
     defense: 3,
     
     functionalText: `**Scrap**
@@ -411939,7 +411939,7 @@ When this attacks, if it scrapped a Hyper Driver, create a Hyper Driver token wi
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -412455,7 +412455,7 @@ When this attacks, if it scrapped a Hyper Driver, create a Hyper Driver token wi
     defaultImage: "DTD235",
     firstReleaseDate: "2022-11-11",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    legalHeroes: [Hero.Azalea,Hero.Boltyn,Hero.Briar,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Florian,Hero.Hala,Hero.Jarl,Hero.Kassai,Hero.Killjoy,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Oldhim,Hero.Olympia,Hero.Puffin,Hero.Riptide,Hero.Shiyana,Hero.Starvo,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Verdance,Hero.Zane],
     name: "Spellbane Aegis",
     printings: [{
         artists: ["Federico Musetti"],
@@ -412689,7 +412689,7 @@ When this attacks, if it scrapped a Hyper Driver, create a Hyper Driver token wi
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["spellbane-aegis"],
     defense: 2,
     
     functionalText: `Your next arrow attack this turn gets +3{p}.
@@ -412708,7 +412708,7 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
   
     
     pitch: 1,
-    
+    referencedCards: ["spellbane-aegis"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -412772,7 +412772,7 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["spellbane-aegis"],
     defense: 2,
     
     functionalText: `Your next arrow attack this turn gets +2{p}.
@@ -412791,7 +412791,7 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
   
     
     pitch: 2,
-    
+    referencedCards: ["spellbane-aegis"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -412855,7 +412855,7 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["spellbane-aegis"],
     defense: 2,
     
     functionalText: `Your next arrow attack this turn gets +1{p}.
@@ -412874,7 +412874,7 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
   
     
     pitch: 3,
-    
+    referencedCards: ["spellbane-aegis"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -412998,7 +412998,7 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `When this attacks, create 2 Runechant tokens.`,
@@ -413013,7 +413013,7 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["runechant"],
     
     
     
@@ -413122,7 +413122,7 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `When this attacks, create 2 Runechant tokens.`,
@@ -413137,7 +413137,7 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["runechant"],
     
     
     
@@ -413261,7 +413261,7 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `When this attacks, create 2 Runechant tokens.`,
@@ -413276,7 +413276,7 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["runechant"],
     
     
     
@@ -413370,7 +413370,7 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `When this attacks, create a Runechant token.`,
@@ -413385,7 +413385,7 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["runechant"],
     
     
     
@@ -413479,7 +413479,7 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `When this attacks, create a Runechant token.`,
@@ -413494,7 +413494,7 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["runechant"],
     
     
     
@@ -413588,7 +413588,7 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `When this attacks, create a Runechant token.`,
@@ -413603,7 +413603,7 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["runechant"],
     
     
     
@@ -413921,7 +413921,7 @@ At the beginning of your end phase, destroy this unless you've dealt arcane dama
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["confidence","might"],
     defense: 3,
     
     functionalText: `If you control a Confidence or Might token, this gets +1{p}.
@@ -413938,7 +413938,7 @@ When this hits a hero, create a Confidence and a Might token.`,
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["confidence","might"],
     
     
     
@@ -414754,7 +414754,7 @@ When this defends and the attacking hero has played or activated a reaction this
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["bloodrot-pox"],
     defense: 3,
     
     functionalText: `Target attack action card with **stealth** gets +3{p} and "When this hits a hero, create a Bloodrot Pox token under their control."`,
@@ -414769,7 +414769,7 @@ When this defends and the attacking hero has played or activated a reaction this
   
     
     pitch: 1,
-    
+    referencedCards: ["bloodrot-pox"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -414848,7 +414848,7 @@ When this defends and the attacking hero has played or activated a reaction this
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["frailty"],
     defense: 3,
     
     functionalText: `Target attack action card with **stealth** gets +3{p} and "When this hits a hero, create a Frailty token under their control."`,
@@ -414863,7 +414863,7 @@ When this defends and the attacking hero has played or activated a reaction this
   
     
     pitch: 1,
-    
+    referencedCards: ["frailty"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -414942,7 +414942,7 @@ When this defends and the attacking hero has played or activated a reaction this
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["inertia"],
     defense: 3,
     
     functionalText: `Target attack action card with **stealth** gets +3{p} and "When this hits a hero, create an Inertia token under their control."`,
@@ -414957,7 +414957,7 @@ When this defends and the attacking hero has played or activated a reaction this
   
     
     pitch: 1,
-    
+    referencedCards: ["inertia"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -415397,7 +415397,7 @@ When this defends and the attacking hero has played or activated a reaction this
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["twin-twisters-blue","twin-twisters-red","twin-twisters-yellow"],
     
     
     
@@ -415493,7 +415493,7 @@ When this defends and the attacking hero has played or activated a reaction this
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["twin-twisters-blue","twin-twisters-red","twin-twisters-yellow"],
     
     
     
@@ -415589,7 +415589,7 @@ When this defends and the attacking hero has played or activated a reaction this
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["twin-twisters-blue","twin-twisters-red","twin-twisters-yellow"],
     
     
     
@@ -415965,7 +415965,7 @@ When this defends and the attacking hero has played or activated a reaction this
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["agility","gold","might","vigor"],
     defense: 3,
     
     functionalText: `Each hero chooses another hero. The chosen hero creates an Agility, Might, Vigor, and Gold token.
@@ -415982,7 +415982,7 @@ When this defends and the attacking hero has played or activated a reaction this
   
     
     pitch: 3,
-    
+    referencedCards: ["agility","gold","might","vigor"],
     
     
     
@@ -416065,7 +416065,7 @@ You may play Lumina Ascension as though it were an instant.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["lumina-ascension-yellow"],
     
     
     
@@ -416129,7 +416129,7 @@ You may play Lumina Ascension as though it were an instant.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["courage"],
     defense: 3,
     
     functionalText: `As an additional cost to play this, you may **charge** your soul.
@@ -416146,7 +416146,7 @@ If a yellow card was **charged** this way, whenever an attack action card hits t
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["courage"],
     
     
     
@@ -416385,7 +416385,7 @@ When this attacks, you may {t} a cog you control. If you do, the attack gets +1{
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `When this attacks or hits, you may destroy an aura you control. If you do, create a Runechant token.`,
@@ -416400,7 +416400,7 @@ When this attacks, you may {t} a cog you control. If you do, the attack gets +1{
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -416464,7 +416464,7 @@ When this attacks, you may {t} a cog you control. If you do, the attack gets +1{
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `When this attacks or hits, you may destroy an aura you control. If you do, create a Runechant token.`,
@@ -416479,7 +416479,7 @@ When this attacks, you may {t} a cog you control. If you do, the attack gets +1{
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -416558,7 +416558,7 @@ When this attacks, you may {t} a cog you control. If you do, the attack gets +1{
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `When this attacks or hits, you may destroy an aura you control. If you do, create a Runechant token.`,
@@ -416573,7 +416573,7 @@ When this attacks, you may {t} a cog you control. If you do, the attack gets +1{
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["runechant"],
     
     
     
@@ -416765,7 +416765,7 @@ When this attacks, you may {t} a cog you control. If you do, the attack gets +1{
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["copper"],
     defense: 3,
     
     functionalText: `Your next weapon attack this turn gets +2{p} and **go again**.
@@ -416784,7 +416784,7 @@ Whenever a weapon you control hits this turn, create 2 Copper tokens.
   
     
     pitch: 1,
-    
+    referencedCards: ["copper"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -417012,7 +417012,7 @@ The next time you would create a card with ephemeral this turn, instead create t
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["bloodrot-pox"],
     defense: 3,
     
     functionalText: `Create X Bloodrot Pox tokens under the defending hero's control, where X is the number of defending cards this chain link.`,
@@ -417027,7 +417027,7 @@ The next time you would create a card with ephemeral this turn, instead create t
   
     
     pitch: 2,
-    
+    referencedCards: ["bloodrot-pox"],
     
     
     
@@ -418592,7 +418592,7 @@ Your next attack this turn gets +1{p}.
 
     
     
-    
+    createdExtras: ["cracked-bauble-yellow","gold"],
     
     
     functionalText: `At the start of each opposing hero's turn, they may create a Cracked Bauble in their hand. If they do, you create a Gold token.`,
@@ -418607,7 +418607,7 @@ Your next attack this turn gets +1{p}.
   
     
     
-    
+    referencedCards: ["cracked-bauble-yellow","gold"],
     
     
     
@@ -418765,7 +418765,7 @@ Your next attack this turn gets +1{p}.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["marked"],
     defense: 2,
     
     functionalText: `Target dagger attack gets +3{p}. If you control 2 or more Draconic chain links, it gets "When this hits a hero, **mark** them."`,
@@ -418780,7 +418780,7 @@ Your next attack this turn gets +1{p}.
   
     
     pitch: 1,
-    
+    referencedCards: ["marked"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -419204,7 +419204,7 @@ At the start of your turn, destroy this, draw a card, then put a card from your 
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["toughness"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -419283,7 +419283,7 @@ At the start of your turn, destroy this, draw a card, then put a card from your 
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["toughness"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -419362,7 +419362,7 @@ At the start of your turn, destroy this, draw a card, then put a card from your 
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["toughness"],
     
     
     
@@ -419456,7 +419456,7 @@ At the start of your turn, destroy this, draw a card, then put a card from your 
 
     
     bannedFormats: [Format.ClassicConstructed],
-    
+    createdExtras: ["embodiment-of-earth"],
     
     
     functionalText: `**Once per Turn Action** - {r}{r}{r}: **Amp 1**. **Go again**
@@ -419473,7 +419473,7 @@ When one or more Earth cards are pitched this way, the next time you deal arcane
   
     
     
-    
+    referencedCards: ["embodiment-of-earth"],
     
     
     
@@ -419840,7 +419840,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
 
     
     
-    
+    createdExtras: ["frostbite"],
     defense: 2,
     
     functionalText: `When this defends, create a Frostbite token under the attacking hero's control.
@@ -419857,7 +419857,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
   
     
     
-    
+    referencedCards: ["frostbite"],
     
     
     
@@ -420164,7 +420164,7 @@ If you control a Vigor token, this gets +1{d}.
   
     
     
-    
+    referencedCards: ["might","vigor"],
     
     
     
@@ -420243,7 +420243,7 @@ If you control a Vigor token, this gets +1{d}.
 
     
     
-    
+    createdExtras: ["confidence"],
     defense: 1,
     
     functionalText: `**Action** - {r}{r}{r}, destroy this: Create a Confidence token. Activate this only if you control an aura of suspense. **Go again**
@@ -420260,7 +420260,7 @@ If you control a Vigor token, this gets +1{d}.
   
     
     
-    
+    referencedCards: ["confidence"],
     
     
     
@@ -420747,7 +420747,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
 
     
     
-    cost: 7,
+    cost: 7,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `**Bravo Specialization**
@@ -420766,7 +420766,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
   
     
     pitch: 2,
-    power: 10,
+    power: 10,referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -420911,7 +420911,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
 
     
     
-    
+    createdExtras: ["lightning-flow"],
     defense: 1,
     
     functionalText: `**Instant** - Destroy this: Until end of turn, an Aphrodias you control costs you {r} less to activate and gets "Whenever this deals damage to an opposing hero, create a Lightning Flow token."
@@ -420928,7 +420928,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
   
     
     
-    
+    referencedCards: ["aphrodias","lightning-flow"],
     
     
     
@@ -421009,7 +421009,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
   
     
     
-    
+    referencedCards: ["aphrodias"],
     
     shorthands: [Shorthand.Untap],
     
@@ -421154,7 +421154,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
 
     
     
-    
+    createdExtras: ["lightning-flow"],
     defense: 0,
     
     functionalText: `**Instant** - {r}{r}, destroy this: Prevent the next 1 damage that would be dealt to you this turn. If you prevent damage this way, create a Lightning Flow token.`,
@@ -421169,7 +421169,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
   
     
     
-    
+    referencedCards: ["lightning-flow"],
     
     
     
@@ -421263,7 +421263,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["embodiment-of-lightning","lightning-flow"],
     
     
     functionalText: `Create an Embodiment of Lightning or Lightning Flow token.`,
@@ -421278,7 +421278,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
   
     
     pitch: 3,
-    
+    referencedCards: ["embodiment-of-lightning","lightning-flow"],
     
     
     
@@ -421327,7 +421327,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
 
     
     
-    
+    createdExtras: ["embodiment-of-lightning"],
     defense: 1,
     
     functionalText: `When this defends, you may reveal an instant card from your hand. If you do, create an Embodiment of Lightning token.
@@ -421344,7 +421344,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
   
     
     
-    
+    referencedCards: ["embodiment-of-lightning"],
     
     
     
@@ -421547,7 +421547,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `If you control no Gold tokens, create a Gold token.`,
@@ -421562,7 +421562,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
   
     
     pitch: 2,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -421626,7 +421626,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["lightning-flow"],
     
     
     functionalText: `Create 2 Lightning Flow tokens.`,
@@ -421641,7 +421641,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
   
     
     pitch: 2,
-    
+    referencedCards: ["lightning-flow"],
     
     
     
@@ -421786,7 +421786,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `When this defends, you may pay {r}. If you do, create a Lightning Flow token.`,
@@ -421801,7 +421801,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
   
     
     pitch: 2,
-    
+    referencedCards: ["lightning-flow"],
     
     
     
@@ -424116,7 +424116,7 @@ Until end of turn, target weapon you control gets +2{p} and "Whenever this hits,
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["lightning-flow"],
     
     
     
@@ -424195,7 +424195,7 @@ Until end of turn, target weapon you control gets +2{p} and "Whenever this hits,
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["lightning-flow"],
     
     
     
@@ -424274,7 +424274,7 @@ Until end of turn, target weapon you control gets +2{p} and "Whenever this hits,
   
     
     pitch: 3,
-    power: 3,
+    power: 3,referencedCards: ["lightning-flow"],
     
     
     
@@ -424435,7 +424435,7 @@ When this attacks a hero, **steal** a Gold token they control.
   
     
     
-    power: 2,
+    power: 2,referencedCards: ["gold"],
     
     shorthands: [Shorthand.Tap],
     
@@ -425808,7 +425808,7 @@ If this was **fused**, it gets +2{p}.`,
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["phoenix-flame-red"],
     
     
     
@@ -427193,7 +427193,7 @@ Target Lightning attack gets +3{p}.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["lightning-flow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -427274,7 +427274,7 @@ Target Lightning attack gets -3{p}.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["lightning-flow"],
     
     
     
@@ -427436,7 +427436,7 @@ Target Lightning attack gets **go again**.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["lightning-flow"],
     
     
     
@@ -427515,7 +427515,7 @@ Target Lightning attack gets **go again**.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["embodiment-of-lightning"],
     defense: 5,
     
     functionalText: `**Lightning Bond** - If a Lightning card was pitched to play this, create an Embodiment of Lightning token.`,
@@ -427530,7 +427530,7 @@ Target Lightning attack gets **go again**.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["embodiment-of-lightning"],
     
     
     
@@ -428371,7 +428371,7 @@ Target Lightning attack gets **go again**.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `**Earth Fusion**
@@ -428392,7 +428392,7 @@ At the beginning of your action phase, destroy this then the next attack action 
   
     
     pitch: 1,
-    
+    referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -428486,7 +428486,7 @@ At the beginning of your action phase, destroy this then the next attack action 
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `**Earth Fusion**
@@ -428507,7 +428507,7 @@ At the beginning of your action phase, destroy this then the next attack action 
   
     
     pitch: 2,
-    
+    referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -428631,7 +428631,7 @@ At the beginning of your action phase, destroy this then the next attack action 
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `**Earth Fusion**
@@ -428652,7 +428652,7 @@ At the beginning of your action phase, destroy this then the next attack action 
   
     
     pitch: 3,
-    
+    referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -428825,7 +428825,7 @@ At the beginning of your action phase, destroy this then the next attack action 
 
     
     
-    
+    createdExtras: ["crouching-tiger"],
     defense: 1,
     
     functionalText: `When this defends, create a Crouching Tiger in your hand.
@@ -428842,7 +428842,7 @@ At the beginning of your action phase, destroy this then the next attack action 
   
     
     
-    
+    referencedCards: ["crouching-tiger"],
     
     
     
@@ -428936,7 +428936,7 @@ At the beginning of your action phase, destroy this then the next attack action 
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `When this hits, create a Gold token.`,
@@ -428951,7 +428951,7 @@ At the beginning of your action phase, destroy this then the next attack action 
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["gold"],
     
     
     
@@ -429015,7 +429015,7 @@ At the beginning of your action phase, destroy this then the next attack action 
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `When this hits, create a Gold token.`,
@@ -429030,7 +429030,7 @@ At the beginning of your action phase, destroy this then the next attack action 
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["gold"],
     
     
     
@@ -429094,7 +429094,7 @@ At the beginning of your action phase, destroy this then the next attack action 
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `When this hits, create a Gold token.`,
@@ -429109,7 +429109,7 @@ At the beginning of your action phase, destroy this then the next attack action 
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["gold"],
     
     
     
@@ -429694,7 +429694,7 @@ If you've dealt arcane damage to an opposing hero this turn, you may play this a
   
     
     
-    
+    referencedCards: ["confidence","might"],
     
     
     
@@ -432090,7 +432090,7 @@ Deal 3 arcane damage to any target. If this was **fused** and targets a hero, de
 
     
     
-    
+    createdExtras: ["frostbite"],
     
     
     functionalText: `**Once per Turn Action** - {r}{r}{r} {r}{r}{r}: **Attack**
@@ -432109,7 +432109,7 @@ When this hits a hero, create a Frostbite token in their exposed head, chest, ar
   
     
     
-    power: 4,
+    power: 4,referencedCards: ["frostbite"],
     
     
     
@@ -432220,7 +432220,7 @@ If you've played a card named Moon Wish this turn, draw a card and this gets **g
   
     
     pitch: 1,
-    
+    referencedCards: ["moon-wish-blue","moon-wish-red","moon-wish-yellow"],
     
     
     
@@ -432331,7 +432331,7 @@ If you've played a card named Moon Wish this turn, draw a card and this gets **g
   
     
     pitch: 2,
-    
+    referencedCards: ["moon-wish-blue","moon-wish-red","moon-wish-yellow"],
     
     
     
@@ -432442,7 +432442,7 @@ If you've played a card named Moon Wish this turn, draw a card and this gets **g
   
     
     pitch: 3,
-    
+    referencedCards: ["moon-wish-blue","moon-wish-red","moon-wish-yellow"],
     
     
     
@@ -432521,7 +432521,7 @@ If you've played a card named Moon Wish this turn, draw a card and this gets **g
 
     
     
-    
+    createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `When this defends, you may turn a card in a graveyard face-down. If it's yellow, create a Gold token.`,
@@ -432536,7 +432536,7 @@ If you've played a card named Moon Wish this turn, draw a card and this gets **g
   
     
     pitch: 3,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -432924,7 +432924,7 @@ If you've played a card named Moon Wish this turn, draw a card and this gets **g
 
     
     
-    
+    createdExtras: ["hyper-driver"],
     defense: 2,
     
     functionalText: `Put X steam counters on X target Hyper Drivers you control.
@@ -432943,7 +432943,7 @@ If X is 3 or greater, you may shuffle a Construct Nitro Mechanoid from your bani
   
     
     pitch: 3,
-    
+    referencedCards: ["construct-nitro-mechanoid-yellow","hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -433334,7 +433334,7 @@ Whenever Suraya deals damage, you gain that much {h}.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `**Go again**
@@ -433353,7 +433353,7 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
   
     
     pitch: 3,
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -433513,7 +433513,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["silver"],
     defense: 3,
     
     functionalText: `**Contract**  - You are contracted to banish opponents' blue cards. Whenever you complete this contract, create a Silver token.
@@ -433530,7 +433530,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
   
     
     pitch: 3,
-    power: 4,
+    power: 4,referencedCards: ["silver"],
     
     
     
@@ -434494,7 +434494,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `Reveal the top 3 cards of your deck. Create a Runechant token for each Runeblade attack action card revealed this way, then put the cards on top of your deck in any order.
@@ -434511,7 +434511,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
   
     
     pitch: 1,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -434620,7 +434620,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `Reveal the top 2 cards of your deck. Create a Runechant token for each Runeblade attack action card revealed this way, then put the cards on top of your deck in any order.
@@ -434637,7 +434637,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -434746,7 +434746,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `Reveal the top card of your deck. Create a Runechant token for each Runeblade attack action card revealed this way, then put the cards on top of your deck in any order.
@@ -434763,7 +434763,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
   
     
     pitch: 3,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -435171,7 +435171,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["ash"],
     defense: 3,
     
     functionalText: `When this attacks, create an Ash token.
@@ -435188,7 +435188,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["ash"],
     
     
     
@@ -435252,7 +435252,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["ash"],
     defense: 3,
     
     functionalText: `When this attacks, create an Ash token.
@@ -435269,7 +435269,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["ash"],
     
     
     
@@ -435348,7 +435348,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["ash"],
     defense: 3,
     
     functionalText: `When this attacks, create an Ash token.
@@ -435365,7 +435365,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["ash"],
     
     
     
@@ -435429,7 +435429,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
 
     arcane: 5,
     
-    cost: 2,
+    cost: 2,createdExtras: ["ponder"],
     defense: 3,
     
     functionalText: `Deal 5 arcane damage to target hero.
@@ -435446,7 +435446,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
   
     
     pitch: 1,
-    
+    referencedCards: ["ponder"],
     
     
     
@@ -435745,7 +435745,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
   
     
     
-    
+    referencedCards: ["nimblism-blue","nimblism-red","nimblism-yellow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -436136,7 +436136,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `When this attacks, you may discard a yellow card. If you do, draw a card and create a Gold token.`,
@@ -436151,7 +436151,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["gold"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -436230,7 +436230,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `When this attacks, you may discard a yellow card. If you do, draw a card and create a Gold token.`,
@@ -436245,7 +436245,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
   
     
     pitch: 2,
-    power: 5,
+    power: 5,referencedCards: ["gold"],
     
     
     
@@ -436324,7 +436324,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `When this attacks, you may discard a yellow card. If you do, draw a card and create a Gold token.`,
@@ -436339,7 +436339,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
   
     
     pitch: 3,
-    power: 4,
+    power: 4,referencedCards: ["gold"],
     
     
     
@@ -436418,7 +436418,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["quicken"],
     defense: 3,
     
     functionalText: `When the combat chain closes, if this didn't hit, the defending hero creates a Quicken token.`,
@@ -436433,7 +436433,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
   
     
     pitch: 1,
-    power: 8,
+    power: 8,referencedCards: ["quicken"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -437220,7 +437220,7 @@ Target weapon attack gets +5{p}.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     defense: 3,
     
     functionalText: `Your next dagger attack this turn gets +3{p} and "When this hits a hero, **mark** them."
@@ -437237,7 +437237,7 @@ Target weapon attack gets +5{p}.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["marked"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -437316,7 +437316,7 @@ Target weapon attack gets +5{p}.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     defense: 3,
     
     functionalText: `Your next dagger attack this turn gets +2{p} and "When this hits a hero, **mark** them."
@@ -437333,7 +437333,7 @@ Target weapon attack gets +5{p}.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["marked"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -437412,7 +437412,7 @@ Target weapon attack gets +5{p}.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     defense: 3,
     
     functionalText: `Your next dagger attack this turn gets +1{p} and "When this hits a hero, **mark** them."
@@ -437429,7 +437429,7 @@ Target weapon attack gets +5{p}.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["marked"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -437603,7 +437603,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
 
     
     
-    
+    createdExtras: ["ponder"],
     defense: 1,
     
     functionalText: `**Action** - {t}, banish an Evo from your hand: Create a Ponder token.
@@ -437620,7 +437620,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
   
     
     
-    
+    referencedCards: ["ponder"],
     
     shorthands: [Shorthand.Tap],
     
@@ -438151,7 +438151,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     defense: 2,
     
     functionalText: `When this hits a hero, **mark** them.
@@ -438168,7 +438168,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["marked"],
     
     
     
@@ -438247,7 +438247,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     defense: 2,
     
     functionalText: `When this hits a hero, **mark** them.
@@ -438264,7 +438264,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["marked"],
     
     
     
@@ -438343,7 +438343,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["marked"],
     defense: 2,
     
     functionalText: `When this hits a hero, **mark** them.
@@ -438360,7 +438360,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["marked"],
     
     
     
@@ -440045,7 +440045,7 @@ If you've **charged** this turn, this gets **go again**.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["agility"],
     
     
     functionalText: `The next time you would be dealt damage this turn, prevent 2 of that damage. If you prevent damage this way, create an Agility token.`,
@@ -440060,7 +440060,7 @@ If you've **charged** this turn, this gets **go again**.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["agility"],
     
     
     
@@ -440154,7 +440154,7 @@ If you've **charged** this turn, this gets **go again**.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `When the combat chain closes, if this didn't hit, the defending hero creates a Might token.`,
@@ -440169,7 +440169,7 @@ If you've **charged** this turn, this gets **go again**.`,
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["might"],
     
     
     
@@ -440233,7 +440233,7 @@ If you've **charged** this turn, this gets **go again**.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `When the combat chain closes, if this didn't hit, the defending hero creates a Might token.`,
@@ -440248,7 +440248,7 @@ If you've **charged** this turn, this gets **go again**.`,
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["might"],
     
     
     
@@ -440312,7 +440312,7 @@ If you've **charged** this turn, this gets **go again**.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `When the combat chain closes, if this didn't hit, the defending hero creates a Might token.`,
@@ -440327,7 +440327,7 @@ If you've **charged** this turn, this gets **go again**.`,
   
     
     pitch: 3,
-    power: 3,
+    power: 3,referencedCards: ["might"],
     
     
     
@@ -440391,7 +440391,7 @@ If you've **charged** this turn, this gets **go again**.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["bait"],
     defense: 3,
     
     functionalText: `**Riptide Specialization**
@@ -440412,7 +440412,7 @@ Create a Bait token under an opponent's control.
   
     
     pitch: 1,
-    
+    referencedCards: ["bait"],
     
     
     
@@ -440476,7 +440476,7 @@ Create a Bait token under an opponent's control.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["blade-dance"],
     
     
     functionalText: `The next time you would be dealt damage this turn, prevent 2 of that damage. If you prevent damage this way, create a Blade Dance token.`,
@@ -440491,7 +440491,7 @@ Create a Bait token under an opponent's control.
   
     
     pitch: 1,
-    
+    referencedCards: ["blade-dance"],
     
     
     
@@ -441031,7 +441031,7 @@ Target attack gets +1{p}.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["aether-ashwing","copper","embodiment-of-earth","embodiment-of-lightning","gold","ponder","quicken","runechant","seismic-surge","silver","soul-shackle","spectral-shield","zen-state"],
     defense: 3,
     
     functionalText: `**Yorick Specialization**
@@ -441050,7 +441050,7 @@ You create a Copper, Silver, and Gold.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["aether-ashwing","copper","embodiment-of-earth","embodiment-of-lightning","gold","ponder","quicken","runechant","seismic-surge","silver","soul-shackle","spectral-shield","zen-state"],
     
     
     
@@ -442036,7 +442036,7 @@ When a source you control deals exactly 2 damage to an opponent, destroy this an
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["might"],
     defense: 3,
     
     functionalText: `Choose a number. The next time you deal that much or more {p} damage to a hero this turn, create that many Might tokens.
@@ -442053,7 +442053,7 @@ When a source you control deals exactly 2 damage to an opponent, destroy this an
   
     
     pitch: 3,
-    
+    referencedCards: ["might"],
     
     
     
@@ -443427,7 +443427,7 @@ When this hits a Revered hero, they discard a card.`,
   
     
     
-    
+    referencedCards: ["crouching-tiger"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -443476,7 +443476,7 @@ When this hits a Revered hero, they discard a card.`,
 
     
     
-    
+    createdExtras: ["seismic-surge"],
     defense: 2,
     
     functionalText: `When this defends together with an Earth card, create a Seismic Surge token.
@@ -443493,7 +443493,7 @@ When this hits a Revered hero, they discard a card.`,
   
     
     
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -443557,7 +443557,7 @@ When this hits a Revered hero, they discard a card.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `Each hero puts a card from their arsenal on the bottom of their deck. If they do, they draw a card.
@@ -443576,7 +443576,7 @@ Create Seismic Surge tokens equal to the number of cards drawn this way.
   
     
     pitch: 3,
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -443670,7 +443670,7 @@ Create Seismic Surge tokens equal to the number of cards drawn this way.
 
     
     
-    
+    createdExtras: ["seismic-surge"],
     defense: 2,
     
     functionalText: `**Once per Turn Action** - {r}: Create a Seismic Surge token. **Go again**
@@ -443687,7 +443687,7 @@ Create Seismic Surge tokens equal to the number of cards drawn this way.
   
     
     
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -443751,7 +443751,7 @@ Create Seismic Surge tokens equal to the number of cards drawn this way.
 
     
     
-    
+    createdExtras: ["seismic-surge"],
     defense: 2,
     
     functionalText: `Create X Seismic Surge tokens.
@@ -443768,7 +443768,7 @@ Create Seismic Surge tokens equal to the number of cards drawn this way.
   
     
     pitch: 3,
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -443832,7 +443832,7 @@ Create Seismic Surge tokens equal to the number of cards drawn this way.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["golden-cog"],
     defense: 2,
     
     functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, create a Golden Cog token.`,
@@ -443847,7 +443847,7 @@ Create Seismic Surge tokens equal to the number of cards drawn this way.
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["golden-cog"],
     
     
     
@@ -443911,7 +443911,7 @@ Create Seismic Surge tokens equal to the number of cards drawn this way.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["golden-cog"],
     defense: 2,
     
     functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, create a Golden Cog token.`,
@@ -443926,7 +443926,7 @@ Create Seismic Surge tokens equal to the number of cards drawn this way.
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["golden-cog"],
     
     
     
@@ -443990,7 +443990,7 @@ Create Seismic Surge tokens equal to the number of cards drawn this way.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["golden-cog"],
     defense: 2,
     
     functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, create a Golden Cog token.`,
@@ -444005,7 +444005,7 @@ Create Seismic Surge tokens equal to the number of cards drawn this way.
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["golden-cog"],
     
     
     
@@ -446411,7 +446411,7 @@ If this is played at chain link 3 or higher, this gets **go again**.`,
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["surging-strike-blue","surging-strike-red","surging-strike-yellow"],
     
     
     
@@ -447301,7 +447301,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `Turn up to 3 ally cards in your graveyard face-down, then create that many Gold tokens.
@@ -447318,7 +447318,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -447382,7 +447382,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `Turn up to 2 ally cards in your graveyard face-down, then create that many Gold tokens.
@@ -447399,7 +447399,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -447463,7 +447463,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `Turn up to 1 ally card in your graveyard face-down, then create that many Gold tokens.
@@ -447480,7 +447480,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -447723,7 +447723,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
 
     
     
-    
+    createdExtras: ["might"],
     
     
     functionalText: `At the beginning of each end phase, if there is an Earth card in your pitch zone, you may pay {r}. If you do, create a Might token.
@@ -447740,7 +447740,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
   
     
     
-    
+    referencedCards: ["might"],
     
     
     
@@ -447819,7 +447819,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["crouching-tiger"],
     
     
     
@@ -447898,7 +447898,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
 
     
     
-    
+    createdExtras: ["agility"],
     defense: 4,
     
     functionalText: `When this defends, **clash** with the attacking hero. The winner creates an Agility token.`,
@@ -447913,7 +447913,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["agility"],
     
     
     
@@ -448116,7 +448116,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
 
     
     
-    
+    createdExtras: ["might"],
     defense: 4,
     
     functionalText: `When this defends, **clash** with the attacking hero. The winner creates a Might token.`,
@@ -448131,7 +448131,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["might"],
     
     
     
@@ -448240,7 +448240,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
 
     
     
-    
+    createdExtras: ["gold"],
     defense: 4,
     
     functionalText: `When this defends, **clash** with the attacking hero. The winner creates a Gold token.`,
@@ -448255,7 +448255,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -448349,7 +448349,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
 
     
     
-    
+    createdExtras: ["vigor"],
     defense: 4,
     
     functionalText: `When this defends, **clash** with the attacking hero. The winner creates a Vigor token.`,
@@ -448364,7 +448364,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["vigor"],
     
     
     
@@ -448472,7 +448472,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
   
     
     
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -448664,7 +448664,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["frostbite"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -448728,7 +448728,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
 
     
     
-    cost: 4,
+    cost: 4,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `**Victor Specialization**
@@ -448747,7 +448747,7 @@ When you win a **clash** revealing this, create a Gold token.`,
   
     
     pitch: 2,
-    power: 7,
+    power: 7,referencedCards: ["gold"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -448943,7 +448943,7 @@ At the beginning of your end phase, destroy a Silver you control. If you don't, 
   
     
     
-    
+    referencedCards: ["silver"],
     
     
     
@@ -449007,7 +449007,7 @@ At the beginning of your end phase, destroy a Silver you control. If you don't, 
 
     
     
-    
+    createdExtras: ["spectral-shield"],
     defense: 3,
     
     functionalText: `While The Librarian is face-down in arsenal, at the start of your turn, you may turn him face-up.
@@ -449024,7 +449024,7 @@ While The Librarian is face-up in arsenal, once per turn when you create a Spect
   
     
     
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -449754,7 +449754,7 @@ When Themis attacks, you may banish a card from your hero's soul. If you do, tur
   
     
     pitch: 2,
-    
+    referencedCards: ["might","vigor"],
     
     
     
@@ -449927,7 +449927,7 @@ When Themis attacks, you may banish a card from your hero's soul. If you do, tur
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `When this attacks, you may remove a gold counter from Treasure Island. If you do and you are a Thief, create a Gold token.`,
@@ -449942,7 +449942,7 @@ When Themis attacks, you may banish a card from your hero's soul. If you do, tur
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["gold","treasure-island"],
     
     
     
@@ -450025,7 +450025,7 @@ When Themis attacks, you may banish a card from your hero's soul. If you do, tur
   
     
     
-    
+    referencedCards: ["ponder"],
     
     shorthands: [Shorthand.Tap],
     
@@ -450217,7 +450217,7 @@ Until the start of your next turn, attacks that target you get -1{p}.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `**Meld**
@@ -450238,7 +450238,7 @@ Gain 1{h}`,
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -452143,7 +452143,7 @@ Gain 1{h}`,
 
     
     
-    cost: 6,
+    cost: 6,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `**Heave 3**`,
@@ -452158,7 +452158,7 @@ Gain 1{h}`,
   
     
     pitch: 1,
-    power: 10,
+    power: 10,referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -452252,7 +452252,7 @@ Gain 1{h}`,
 
     
     
-    cost: 6,
+    cost: 6,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `**Heave 3**`,
@@ -452267,7 +452267,7 @@ Gain 1{h}`,
   
     
     pitch: 2,
-    power: 9,
+    power: 9,referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -452376,7 +452376,7 @@ Gain 1{h}`,
 
     
     
-    cost: 6,
+    cost: 6,createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `**Heave 3**`,
@@ -452391,7 +452391,7 @@ Gain 1{h}`,
   
     
     pitch: 3,
-    power: 8,
+    power: 8,referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -452713,7 +452713,7 @@ Gain 1{h}`,
 
     
     
-    cost: 5,
+    cost: 5,createdExtras: ["might"],
     defense: 3,
     
     functionalText: `When you win a **clash** revealing this, create a Might token.`,
@@ -452728,7 +452728,7 @@ Gain 1{h}`,
   
     
     pitch: 1,
-    power: 8,
+    power: 8,referencedCards: ["might"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -452807,7 +452807,7 @@ Gain 1{h}`,
 
     
     
-    cost: 5,
+    cost: 5,createdExtras: ["might"],
     defense: 3,
     
     functionalText: `When you win a **clash** revealing this, create a Might token.`,
@@ -452822,7 +452822,7 @@ Gain 1{h}`,
   
     
     pitch: 2,
-    power: 7,
+    power: 7,referencedCards: ["might"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -452901,7 +452901,7 @@ Gain 1{h}`,
 
     
     
-    cost: 5,
+    cost: 5,createdExtras: ["might"],
     defense: 3,
     
     functionalText: `When you win a **clash** revealing this, create a Might token.`,
@@ -452916,7 +452916,7 @@ Gain 1{h}`,
   
     
     pitch: 3,
-    power: 6,
+    power: 6,referencedCards: ["might"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -453743,7 +453743,7 @@ When a Mechanologist attack action card you control hits a hero, destroy this an
 
     
     
-    
+    createdExtras: ["crouching-tiger"],
     defense: 3,
     
     functionalText: `**Ambush**
@@ -453760,7 +453760,7 @@ When this defends, create a Crouching Tiger in your banished zone. You may play 
   
     
     pitch: 2,
-    
+    referencedCards: ["crouching-tiger"],
     
     
     
@@ -453809,7 +453809,7 @@ When this defends, create a Crouching Tiger in your banished zone. You may play 
 
     
     
-    
+    createdExtras: ["crouching-tiger"],
     defense: 2,
     
     functionalText: `**Ambush**
@@ -453826,7 +453826,7 @@ When this defends, create a Crouching Tiger in your banished zone. You may play 
   
     
     pitch: 3,
-    
+    referencedCards: ["crouching-tiger"],
     
     
     
@@ -453905,7 +453905,7 @@ When this defends, create a Crouching Tiger in your banished zone. You may play 
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["crouching-tiger"],
     defense: 3,
     
     functionalText: `The next Crouching Tiger you play this turn gets +3{p}.
@@ -453924,7 +453924,7 @@ If you've pitched a blue card this turn, create a Crouching Tiger in your hand.
   
     
     pitch: 1,
-    
+    referencedCards: ["crouching-tiger"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -454003,7 +454003,7 @@ If you've pitched a blue card this turn, create a Crouching Tiger in your hand.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["crouching-tiger"],
     defense: 3,
     
     functionalText: `The next Crouching Tiger you play this turn gets +2{p}.
@@ -454022,7 +454022,7 @@ If you've pitched a blue card this turn, create a Crouching Tiger in your hand.
   
     
     pitch: 2,
-    
+    referencedCards: ["crouching-tiger"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -454086,7 +454086,7 @@ If you've pitched a blue card this turn, create a Crouching Tiger in your hand.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["crouching-tiger"],
     defense: 3,
     
     functionalText: `The next Crouching Tiger you play this turn gets +1{p}.
@@ -454105,7 +454105,7 @@ If you've pitched a blue card this turn, create a Crouching Tiger in your hand.
   
     
     pitch: 3,
-    
+    referencedCards: ["crouching-tiger"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -454265,7 +454265,7 @@ If you've pitched a blue card this turn, create a Crouching Tiger in your hand.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["crouching-tiger"],
     defense: 3,
     
     functionalText: `**Combo** - If Crouching Tiger was the last attack this combat chain, this gets +2{p}, **go again**, and "When this hits, create X Crouching Tigers in your banished zone, where X is the number of Crouching Tigers you control. You may play them this turn."`,
@@ -454280,7 +454280,7 @@ If you've pitched a blue card this turn, create a Crouching Tiger in your hand.
   
     
     pitch: 1,
-    power: 2,
+    power: 2,referencedCards: ["crouching-tiger"],
     
     
     
@@ -454391,7 +454391,7 @@ When this attacks, the next Crouching Tiger you play this combat chain gets +1{p
   
     
     
-    power: 2,
+    power: 2,referencedCards: ["crouching-tiger"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -454617,7 +454617,7 @@ You may {u} a cog you control.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["crouching-tiger"],
     defense: 2,
     
     functionalText: `**Combo** - If Crouching Tiger was the last attack this combat chain, this gets +1{p} and **go again**.
@@ -454634,7 +454634,7 @@ You may {u} a cog you control.
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["crouching-tiger"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -455644,7 +455644,7 @@ If this was played during an opponent's turn, put it on the bottom of its owner'
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["goldkiss-rum"],
     defense: 3,
     
     functionalText: `Create a Goldkiss Rum token.
@@ -455663,7 +455663,7 @@ You may give a Gold token you control to another hero. If you do, put this on th
   
     
     pitch: 3,
-    
+    referencedCards: ["gold","goldkiss-rum"],
     
     
     
@@ -455742,7 +455742,7 @@ You may give a Gold token you control to another hero. If you do, put this on th
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["marked"],
     defense: 2,
     
     functionalText: `**Instant** - Discard this: **Mark** target opposing hero.`,
@@ -455757,7 +455757,7 @@ You may give a Gold token you control to another hero. If you do, put this on th
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["marked"],
     
     
     
@@ -455821,7 +455821,7 @@ You may give a Gold token you control to another hero. If you do, put this on th
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["marked"],
     defense: 2,
     
     functionalText: `**Instant** - Discard this: **Mark** target opposing hero.`,
@@ -455836,7 +455836,7 @@ You may give a Gold token you control to another hero. If you do, put this on th
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["marked"],
     
     
     
@@ -455900,7 +455900,7 @@ You may give a Gold token you control to another hero. If you do, put this on th
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["marked"],
     defense: 2,
     
     functionalText: `**Instant** - Discard this: **Mark** target opposing hero.`,
@@ -455915,7 +455915,7 @@ You may give a Gold token you control to another hero. If you do, put this on th
   
     
     pitch: 3,
-    power: 3,
+    power: 3,referencedCards: ["marked"],
     
     
     
@@ -456766,7 +456766,7 @@ The first time you would be dealt damage each turn, prevent 1 of that damage.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["flurry"],
     
     
     functionalText: `The next time you would be dealt damage this turn, prevent 2 of that damage. If you prevent damage this way, create a Flurry token.`,
@@ -456781,7 +456781,7 @@ The first time you would be dealt damage each turn, prevent 1 of that damage.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["flurry"],
     
     
     
@@ -457743,7 +457743,7 @@ You may pitch 2 red cards. If you don't, banish your hand.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["ponder"],
     defense: 2,
     
     functionalText: `Create 2 Ponder tokens.`,
@@ -457758,7 +457758,7 @@ You may pitch 2 red cards. If you don't, banish your hand.
   
     
     pitch: 3,
-    
+    referencedCards: ["ponder"],
     
     
     
@@ -458249,7 +458249,7 @@ Draw a card.
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["crouching-tiger"],
     
     
     
@@ -459449,7 +459449,7 @@ Draw a card.
   
     
     
-    
+    referencedCards: ["toughness","vigor"],
     
     
     
@@ -459513,7 +459513,7 @@ Draw a card.
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["golden-cog"],
     defense: 2,
     
     functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, create a Golden Cog token.`,
@@ -459528,7 +459528,7 @@ Draw a card.
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["golden-cog"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -459592,7 +459592,7 @@ Draw a card.
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["golden-cog"],
     defense: 2,
     
     functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, create a Golden Cog token.`,
@@ -459607,7 +459607,7 @@ Draw a card.
   
     
     pitch: 2,
-    power: 5,
+    power: 5,referencedCards: ["golden-cog"],
     
     
     
@@ -459671,7 +459671,7 @@ Draw a card.
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["golden-cog"],
     defense: 2,
     
     functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, create a Golden Cog token.`,
@@ -459686,7 +459686,7 @@ Draw a card.
   
     
     pitch: 3,
-    power: 4,
+    power: 4,referencedCards: ["golden-cog"],
     
     
     
@@ -459750,7 +459750,7 @@ Draw a card.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["toughness"],
     defense: 3,
     
     functionalText: `When this defends, **clash** with the attacking hero. The winner creates a Toughness token. You may put your revealed card on the bottom of its owner's deck.`,
@@ -459765,7 +459765,7 @@ Draw a card.
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["toughness"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -459829,7 +459829,7 @@ Draw a card.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["toughness"],
     defense: 3,
     
     functionalText: `When this defends, **clash** with the attacking hero. The winner creates a Toughness token. You may put your revealed card on the bottom of its owner's deck.`,
@@ -459844,7 +459844,7 @@ Draw a card.
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["toughness"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -459908,7 +459908,7 @@ Draw a card.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["toughness"],
     defense: 3,
     
     functionalText: `When this defends, **clash** with the attacking hero. The winner creates a Toughness token. You may put your revealed card on the bottom of its owner's deck.`,
@@ -459923,7 +459923,7 @@ Draw a card.
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["toughness"],
     
     
     
@@ -460037,7 +460037,7 @@ Draw a card.
     defaultImage: "APS032",
     firstReleaseDate: "2025-09-19",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Toughness",
     printings: [{
         artists: ["Henrique Lindner"],
@@ -460589,7 +460589,7 @@ Draw a card.
 
     
     
-    
+    createdExtras: ["bloodrot-pox","frailty","inertia"],
     defense: 1,
     
     functionalText: `**Action** - {r}, destroy this: The next attack action card you play this turn gets "When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control." **Go again**
@@ -460606,7 +460606,7 @@ Draw a card.
   
     
     
-    
+    referencedCards: ["bloodrot-pox","frailty","inertia"],
     
     
     
@@ -461594,7 +461594,7 @@ If this was played from arsenal, it gets **go again**.`,
 
     
     
-    
+    createdExtras: ["agility"],
     defense: 2,
     
     functionalText: `Whenever you beat chest, you may destroy this. If you do, create an Agility token.
@@ -461611,7 +461611,7 @@ If this was played from arsenal, it gets **go again**.`,
   
     
     
-    
+    referencedCards: ["agility"],
     
     
     
@@ -462161,7 +462161,7 @@ If this was played from arsenal, it gets **go again**.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["marked"],
     defense: 2,
     
     functionalText: `When this hits a hero, **mark** them.
@@ -462178,7 +462178,7 @@ If this was played from arsenal, it gets **go again**.`,
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["marked"],
     
     
     
@@ -462242,7 +462242,7 @@ If this was played from arsenal, it gets **go again**.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["marked"],
     defense: 2,
     
     functionalText: `When this hits a hero, **mark** them.
@@ -462259,7 +462259,7 @@ If this was played from arsenal, it gets **go again**.`,
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["marked"],
     
     
     
@@ -462323,7 +462323,7 @@ If this was played from arsenal, it gets **go again**.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["marked"],
     defense: 2,
     
     functionalText: `When this hits a hero, **mark** them.
@@ -462340,7 +462340,7 @@ If this was played from arsenal, it gets **go again**.`,
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["marked"],
     
     
     
@@ -462436,7 +462436,7 @@ If this was played from arsenal, it gets **go again**.`,
   
     
     
-    
+    referencedCards: ["inner-chi-blue"],
     
     
     
@@ -462512,7 +462512,7 @@ If this was played from arsenal, it gets **go again**.`,
 
     
     
-    
+    createdExtras: ["gold"],
     
     
     functionalText: `The first time a hero is attacked each turn, put a gold counter on this.
@@ -462529,7 +462529,7 @@ Whenever you or an ally you control deals damage to an opposing hero, you remove
   
     
     
-    
+    referencedCards: ["gold"],
     
     
     
@@ -462937,7 +462937,7 @@ Whenever you or an ally you control deals damage to an opposing hero, you remove
   
     
     
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -463018,7 +463018,7 @@ Whenever you or an ally you control deals damage to an opposing hero, you remove
   
     
     
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -464557,7 +464557,7 @@ When this defends, hit effects don't trigger this chain link unless the attackin
 
     
     
-    
+    createdExtras: ["gold","might","vigor"],
     defense: 3,
     
     functionalText: `When this defends, **clash** with the attacking hero. Put the revealed cards on the bottom of their owner's deck, then **clash** again.
@@ -464574,7 +464574,7 @@ If a hero wins both **clashes**, they create a Gold, Might, and Vigor token.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["gold","might","vigor"],
     
     
     
@@ -464985,7 +464985,7 @@ When you or a card you control is the target of an attack they control, destroy 
 
     
     
-    
+    createdExtras: ["toughness"],
     
     
     functionalText: `**Instant** - {t}: Pitch the top card of your deck. If it has 6 or more {p}, **the crowd cheers** you.
@@ -465002,7 +465002,7 @@ Whenever the crowd cheers you, create a Toughness token.`,
   
     
     
-    
+    referencedCards: ["toughness"],
     
     shorthands: [Shorthand.Tap],
     
@@ -465108,7 +465108,7 @@ Whenever the crowd cheers you, create a Toughness token.`,
 
     
     
-    
+    createdExtras: ["toughness"],
     
     
     functionalText: `**Instant** - {t}: Pitch the top card of your deck. If it has 6 or more {p}, **the crowd cheers** you.
@@ -465125,7 +465125,7 @@ Whenever the crowd cheers you, create a Toughness token.`,
   
     
     
-    
+    referencedCards: ["toughness"],
     
     shorthands: [Shorthand.Tap],
     
@@ -466119,7 +466119,7 @@ If this was **fused**, it gets +2{d}.`,
 
     arcane: 5,
     
-    cost: 2,
+    cost: 2,createdExtras: ["ponder"],
     defense: 2,
     
     functionalText: `Deal 5 arcane damage to any target.
@@ -466136,7 +466136,7 @@ If this deals damage, you may {t} your hero. If you do, create a Ponder token.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["ponder"],
     
     shorthands: [Shorthand.Tap],
     
@@ -466341,7 +466341,7 @@ While this is defending, if you've been cheered this turn, it gets +3{d}.`,
 
     
     
-    
+    createdExtras: ["zen-state"],
     defense: 2,
     
     functionalText: `Whenever you **transcend**, you may gain {r}.
@@ -466360,7 +466360,7 @@ While this is defending, if you've been cheered this turn, it gets +3{d}.`,
   
     
     
-    
+    referencedCards: ["zen-state"],
     
     
     
@@ -467117,7 +467117,7 @@ You may shuffle a Hyper Driver from your graveyard into your deck. If you do, ga
   
     
     pitch: 1,
-    
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -467469,7 +467469,7 @@ You may shuffle a Hyper Driver from your graveyard into your deck. If you do, ga
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["marked"],
     defense: 3,
     
     functionalText: `Choose 1;
@@ -467486,7 +467486,7 @@ You may shuffle a Hyper Driver from your graveyard into your deck. If you do, ga
   
     
     pitch: 1,
-    
+    referencedCards: ["marked"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -467550,7 +467550,7 @@ You may shuffle a Hyper Driver from your graveyard into your deck. If you do, ga
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["confidence","might"],
     defense: 3,
     
     functionalText: `At the start of your turn, destroy this, then create a Confidence and 3 Might tokens.`,
@@ -467565,7 +467565,7 @@ You may shuffle a Hyper Driver from your graveyard into your deck. If you do, ga
   
     
     pitch: 3,
-    
+    referencedCards: ["confidence","might"],
     
     
     
@@ -467629,7 +467629,7 @@ You may shuffle a Hyper Driver from your graveyard into your deck. If you do, ga
 
     
     
-    
+    createdExtras: ["agility"],
     defense: 1,
     
     functionalText: `**Instant** - Destroy this: Create an Agility token. Activate this only if you've hit 2 or more times this combat chain.
@@ -467646,7 +467646,7 @@ You may shuffle a Hyper Driver from your graveyard into your deck. If you do, ga
   
     
     
-    
+    referencedCards: ["agility"],
     
     
     
@@ -467797,7 +467797,7 @@ You may shuffle a Hyper Driver from your graveyard into your deck. If you do, ga
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gate-to-iarathael"],
     defense: 3,
     
     functionalText: `When this attacks, if it was played from your banished zone, create a Gate to i'Arathael token.
@@ -467814,7 +467814,7 @@ You may shuffle a Hyper Driver from your graveyard into your deck. If you do, ga
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["gate-to-iarathael"],
     
     
     
@@ -468421,7 +468421,7 @@ When this hits a hero, **steal** an item they control.`,
 
     
     
-    
+    createdExtras: ["slither"],
     defense: 1,
     
     functionalText: `**Attack Reaction** - {r}, destroy this: Create a Slither in your hand.
@@ -468438,7 +468438,7 @@ When this hits a hero, **steal** an item they control.`,
   
     
     
-    
+    referencedCards: ["slither"],
     
     
     
@@ -468864,7 +468864,7 @@ When this defends, if the attacking hero controls an equipment with a -1{d} coun
   
     
     pitch: 1,
-    
+    referencedCards: ["mangle-red"],
     
     
     
@@ -469474,7 +469474,7 @@ You may put a non-attack action card with **blood debt** from your graveyard on 
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["courage"],
     defense: 2,
     
     functionalText: `**Unity** - When this defends together with a card from hand, if Boltyn is in your party, create a Courage token under his control. Then repeat for Bravo and Seismic Surge, Briar and Embodiment of Earth, Dorinthea and Courage, Lexi and Embodiment of Lightning, Oldhim and Spellbane Aegis, Prism and Spectral Shield, and Shiyana and Eloquence.`,
@@ -469489,7 +469489,7 @@ You may put a non-attack action card with **blood debt** from your graveyard on 
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["boltyn","bravo","bravo-flattering-showman","bravo-showstopper","bravo-star-of-the-show","briar","briar-warden-of-thorns","courage","dorinthea","dorinthea-quicksilver-prodigy","eloquence","embodiment-of-earth","embodiment-of-lightning","lexi","lexi-livewire","oldhim","oldhim-grandfather-of-eternity","prism","prism-advent-of-thrones","prism-awakener-of-sol","prism-sculptor-of-arc-light","seismic-surge","shiyana-diamond-gemini","spectral-shield","spellbane-aegis"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -470083,7 +470083,7 @@ When this hits an ally, destroy that ally.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["inner-chi-blue"],
     
     
     
@@ -470275,7 +470275,7 @@ When this hits an ally, destroy that ally.`,
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["crouching-tiger"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -470356,7 +470356,7 @@ When this hits an ally, destroy that ally.`,
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["crouching-tiger"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -470452,7 +470452,7 @@ When this hits an ally, destroy that ally.`,
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["crouching-tiger"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -471535,7 +471535,7 @@ Your next dagger attack this turn gets +2{p}.
 
     
     
-    
+    createdExtras: ["agility","gold","vigor"],
     defense: 3,
     
     functionalText: `**Olympia Specialization**
@@ -471556,7 +471556,7 @@ Choose X+1;
   
     
     pitch: 3,
-    
+    referencedCards: ["agility","gold","vigor"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -471778,7 +471778,7 @@ Choose X+1;
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["confidence","toughness"],
     defense: 3,
     
     functionalText: `If you control a Confidence or Toughness token, this gets +1{p}.
@@ -471795,7 +471795,7 @@ When this hits a hero, create a Confidence and a Toughness token.`,
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["confidence","toughness"],
     
     
     
@@ -472133,7 +472133,7 @@ When this hits a hero, create a Confidence and a Toughness token.`,
     defaultImage: "U-MON220",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Shiyana,Hero.Viserai2,Hero.Vynnset,Hero.Yorick],
+    legalHeroes: [Hero.Chane,Hero.Shiyana],
     name: "Ursur, the Soul Reaper",
     printings: [{
         artists: ["Federico Musetti"],
@@ -473058,7 +473058,7 @@ Your attacks this combat chain get +1{p} for each Light card charged this way.`,
 
     
     
-    
+    createdExtras: ["seismic-surge"],
     defense: 3,
     
     functionalText: `When this defends, you may pay up to {r}{r}{r}. Create that many Seismic Surge tokens.`,
@@ -473073,7 +473073,7 @@ Your attacks this combat chain get +1{p} for each Light card charged this way.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -473197,7 +473197,7 @@ Your attacks this combat chain get +1{p} for each Light card charged this way.`,
 
     
     
-    
+    createdExtras: ["seismic-surge"],
     
     
     functionalText: `Whenever an opponent draws 1 or more cards during an action phase, create that many Seismic Surge tokens.
@@ -473214,7 +473214,7 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
   
     
     
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -473320,7 +473320,7 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
 
     
     
-    
+    createdExtras: ["seismic-surge"],
     
     
     functionalText: `Whenever an opponent draws 1 or more cards during an action phase, create that many Seismic Surge tokens.
@@ -473337,7 +473337,7 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
   
     
     
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -475439,7 +475439,7 @@ If this was **fused**, you may play your next non-attack action card this turn a
   
     
     pitch: 3,
-    power: 3,
+    power: 3,referencedCards: ["edge-of-autumn"],
     
     
     
@@ -475763,7 +475763,7 @@ Equip Scabskin Leathers. If you don't, **negate** this.`,
   
     oppositeSideCardIdentifier: `scabskin-leathers`,oppositeSideCardIdentifiers: ["scabskin-leathers"],
     pitch: 2,
-    
+    referencedCards: ["scabskin-leathers"],
     
     
     
@@ -475842,7 +475842,7 @@ Equip Scabskin Leathers. If you don't, **negate** this.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["fang-strike"],
     defense: 3,
     
     functionalText: `Target Assassin or Mystic attack action card gets +3{p}.
@@ -475859,7 +475859,7 @@ If you've pitched a blue card this turn, create a Fang Strike in your hand.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["fang-strike"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -475923,7 +475923,7 @@ If you've pitched a blue card this turn, create a Fang Strike in your hand.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["fang-strike"],
     defense: 3,
     
     functionalText: `Target Assassin or Mystic attack action card gets +2{p}.
@@ -475940,7 +475940,7 @@ If you've pitched a blue card this turn, create a Fang Strike in your hand.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["fang-strike"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -476004,7 +476004,7 @@ If you've pitched a blue card this turn, create a Fang Strike in your hand.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["fang-strike"],
     defense: 3,
     
     functionalText: `Target Assassin or Mystic attack action card gets +1{p}.
@@ -476021,7 +476021,7 @@ If you've pitched a blue card this turn, create a Fang Strike in your hand.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["fang-strike"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -476319,7 +476319,7 @@ If you've pitched a blue card this turn, create a Fang Strike in your hand.`,
 
     
     bonds: [Bond.Earth],
-    cost: 1,
+    cost: 1,createdExtras: ["embodiment-of-earth"],
     defense: 2,
     
     functionalText: `Until end of turn, if you would create 1 or more Elemental or Runeblade aura tokens, instead create that many plus 1 of each of those tokens.
@@ -476338,7 +476338,7 @@ If you've pitched a blue card this turn, create a Fang Strike in your hand.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["embodiment-of-earth"],
     
     
     
@@ -476541,7 +476541,7 @@ If you've pitched a blue card this turn, create a Fang Strike in your hand.`,
 
     
     
-    
+    createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `The first time an opponent would gain {h} each turn, instead you lose that much and create that many Vigor tokens.
@@ -476558,7 +476558,7 @@ If you've pitched a blue card this turn, create a Fang Strike in your hand.`,
   
     
     
-    
+    referencedCards: ["vigor"],
     
     
     
@@ -477387,7 +477387,7 @@ When this hits a hero, deal 2 arcane damage to any target.
 
     
     
-    
+    createdExtras: ["runechant"],
     defense: 0,
     
     functionalText: `**Action** - Destroy this: Create 2 Runechant tokens. **Go again**
@@ -477404,7 +477404,7 @@ When this hits a hero, deal 2 arcane damage to any target.
   
     
     
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -477498,7 +477498,7 @@ When this hits a hero, deal 2 arcane damage to any target.
 
     
     
-    
+    createdExtras: ["gold"],
     
     
     functionalText: `The first time each turn you create a Gold token from an effect you control, draw a card.
@@ -477515,7 +477515,7 @@ The first time each turn you would fail to win a **clash**, instead you may dest
   
     
     
-    
+    referencedCards: ["gold"],
     
     
     
@@ -477636,7 +477636,7 @@ The first time each turn you would fail to win a **clash**, instead you may dest
 
     
     
-    
+    createdExtras: ["gold"],
     
     
     functionalText: `The first time each turn you create a Gold token from an effect you control, draw a card.
@@ -477653,7 +477653,7 @@ The first time each turn you would fail to win a **clash**, instead you may dest
   
     
     
-    
+    referencedCards: ["gold"],
     
     
     
@@ -477702,7 +477702,7 @@ The first time each turn you would fail to win a **clash**, instead you may dest
 
     
     
-    
+    createdExtras: ["gold"],
     
     
     functionalText: `**Instant** - {t}: Choose an opponent. The first card they reveal for their next clash this turn gets +1{p}. When they win that clash, you create a Gold token.
@@ -477719,7 +477719,7 @@ Whenever you attack, you may destroy 3 Gold you control. If you do, the attack g
   
     
     
-    
+    referencedCards: ["gold"],
     
     shorthands: [Shorthand.Buffs,Shorthand.Tap],
     
@@ -478252,7 +478252,7 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
 
     
     
-    
+    createdExtras: ["vigor"],
     defense: 1,
     
     functionalText: `**Action** - Destroy this: Create a Vigor token. **Go again**
@@ -478269,7 +478269,7 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
   
     
     
-    
+    referencedCards: ["vigor"],
     
     
     
@@ -478675,7 +478675,7 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `Target Warrior attack gets +3{p}. If it's defended by an attack action card, create a Vigor token.`,
@@ -478690,7 +478690,7 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
   
     
     pitch: 1,
-    
+    referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -478754,7 +478754,7 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `Target Warrior attack gets +2{p}. If it's defended by an attack action card, create a Vigor token.`,
@@ -478769,7 +478769,7 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
   
     
     pitch: 2,
-    
+    referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -478848,7 +478848,7 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `Target Warrior attack gets +1{p}. If it's defended by an attack action card, create a Vigor token.`,
@@ -478863,7 +478863,7 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
   
     
     pitch: 3,
-    
+    referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -478927,7 +478927,7 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `Your next attack this turn gets +3{p}.
@@ -478946,7 +478946,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
   
     
     pitch: 1,
-    
+    referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -479010,7 +479010,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["vigor"],
     defense: 3,
     
     functionalText: `When this defends, **clash** with the attacking hero. The winner creates a Vigor token. You may put your revealed card on the bottom of its owner's deck.`,
@@ -479025,7 +479025,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -479089,7 +479089,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["vigor"],
     defense: 3,
     
     functionalText: `When this defends, **clash** with the attacking hero. The winner creates a Vigor token. You may put your revealed card on the bottom of its owner's deck.`,
@@ -479104,7 +479104,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -479168,7 +479168,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["vigor"],
     defense: 3,
     
     functionalText: `When this defends, **clash** with the attacking hero. The winner creates a Vigor token. You may put your revealed card on the bottom of its owner's deck.`,
@@ -479183,7 +479183,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["vigor"],
     
     
     
@@ -479247,7 +479247,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `**Instant** - Discard this: Create a Vigor token.`,
@@ -479262,7 +479262,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -479326,7 +479326,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `**Instant** - Discard this: Create a Vigor token.`,
@@ -479341,7 +479341,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -479405,7 +479405,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `**Instant** - Discard this: Create a Vigor token.`,
@@ -479420,7 +479420,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["vigor"],
     
     
     
@@ -480094,7 +480094,7 @@ Target hero banishes the top card of their deck. If it's blue, they lose 1{h}.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["bloodrot-pox","frailty","inertia"],
     defense: 4,
     
     functionalText: `**Mortimer Specialization**
@@ -480111,7 +480111,7 @@ When this defends, create a Frailty, Inertia, and Bloodrot Pox token under the a
   
     
     pitch: 1,
-    
+    referencedCards: ["bloodrot-pox","frailty","inertia"],
     
     
     
@@ -480271,7 +480271,7 @@ When this defends, create a Frailty, Inertia, and Bloodrot Pox token under the a
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["bloodrot-pox"],
     defense: 2,
     
     functionalText: `This can't be played from hand.
@@ -480288,7 +480288,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["bloodrot-pox"],
     
     
     
@@ -480352,7 +480352,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["bloodrot-pox"],
     defense: 2,
     
     functionalText: `This can't be played from hand.
@@ -480369,7 +480369,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["bloodrot-pox"],
     
     
     
@@ -480433,7 +480433,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["bloodrot-pox"],
     defense: 2,
     
     functionalText: `This can't be played from hand.
@@ -480450,7 +480450,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["bloodrot-pox"],
     
     
     
@@ -480574,7 +480574,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
 
     
     
-    
+    createdExtras: ["runechant"],
     
     
     functionalText: `Whenever you play a Runeblade card, if you've played another non-attack action card this turn, create a Runechant token.`,
@@ -480589,7 +480589,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
   
     
     
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -480659,7 +480659,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
 
     
     
-    
+    createdExtras: ["runechant"],
     
     
     functionalText: `Whenever you create 1 or more Runechants, banish the top card of your deck. Then if you've created 3 or more Runechants this turn, **traverse**.`,
@@ -480674,7 +480674,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
   
     oppositeSideCardIdentifier: `viserai-usurper`,oppositeSideCardIdentifiers: ["viserai-usurper"],
     
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -480855,7 +480855,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
 
     
     
-    
+    createdExtras: ["runechant"],
     
     
     functionalText: `Whenever you play a Runeblade card, if you've played another non-attack action card this turn, create a Runechant token.`,
@@ -480870,7 +480870,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
   
     
     
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -480928,7 +480928,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
 
     
     
-    
+    createdExtras: ["runechant"],
     
     
     functionalText: `Whenever you create 1 or more Runechants, banish the top card of your deck. Then if you've created 3 or more Runechants this turn, **traverse**.`,
@@ -480943,7 +480943,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
   
     oppositeSideCardIdentifier: `viserai-usurper`,oppositeSideCardIdentifiers: ["viserai-usurper"],
     
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -481054,7 +481054,7 @@ At the beginning of each end phase, if you've created or activated a Gate to i'A
   
     oppositeSideCardIdentifier: `viserai-the-forsaken`,oppositeSideCardIdentifiers: ["viserai-the-forsaken","viserai-between-worlds"],
     
-    
+    referencedCards: ["gate-to-iarathael"],
     
     
     
@@ -481276,7 +481276,7 @@ At the beginning of each end phase, if you've created or activated a Gate to i'A
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["gold","might"],
     defense: 3,
     
     functionalText: `**Victor Specialization**
@@ -481295,7 +481295,7 @@ Create a Gold token. Then if you control 3 or more Gold, create that many Might 
   
     
     pitch: 3,
-    
+    referencedCards: ["gold","might"],
     
     
     
@@ -481425,7 +481425,7 @@ Create a Gold token. Then if you control 3 or more Gold, create that many Might 
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["vigor"],
     
     
     functionalText: `Put a card with 6 or more {p} from your graveyard on top of your deck.
@@ -481442,7 +481442,7 @@ Create a Vigor token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["vigor"],
     
     
     
@@ -481617,7 +481617,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
   
     
     pitch: 3,
-    
+    referencedCards: ["surging-strike-blue","surging-strike-red","surging-strike-yellow"],
     
     
     
@@ -481700,7 +481700,7 @@ Equip X weapons and/or equipment from your inventory.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["gold"],
     
     
     
@@ -481992,7 +481992,7 @@ Equip X weapons and/or equipment from your inventory.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["courage","vigor"],
     defense: 2,
     
     functionalText: `**Olympia Specialization**
@@ -482011,7 +482011,7 @@ Create a Vigor and a Courage token. **Go again**`,
   
     
     pitch: 3,
-    
+    referencedCards: ["courage","gold","prized-galea","vigor"],
     
     
     
@@ -482534,7 +482534,7 @@ Create a Vigor and a Courage token. **Go again**`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `If you've played an instant card this chain link, this gets +3{p}.
@@ -482553,7 +482553,7 @@ When this hits, create a Lightning Flow token.
   
     
     pitch: 1,
-    power: 0,
+    power: 0,referencedCards: ["lightning-flow"],
     
     
     
@@ -482617,7 +482617,7 @@ When this hits, create a Lightning Flow token.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `If you've played an instant card this chain link, this gets +2{p}.
@@ -482636,7 +482636,7 @@ When this hits, create a Lightning Flow token.
   
     
     pitch: 2,
-    power: 0,
+    power: 0,referencedCards: ["lightning-flow"],
     
     
     
@@ -482700,7 +482700,7 @@ When this hits, create a Lightning Flow token.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `If you've played an instant card this chain link, this gets +1{p}.
@@ -482719,7 +482719,7 @@ When this hits, create a Lightning Flow token.
   
     
     pitch: 3,
-    power: 0,
+    power: 0,referencedCards: ["lightning-flow"],
     
     
     
@@ -482798,7 +482798,7 @@ When this hits, create a Lightning Flow token.
   
     
     
-    
+    referencedCards: ["seismic-surge"],
     
     
     
@@ -482990,7 +482990,7 @@ When this hits, create a Lightning Flow token.
 
     
     
-    
+    createdExtras: ["lightning-flow"],
     
     
     functionalText: `**Legendary**
@@ -483007,7 +483007,7 @@ When this is pitched, create a Lightning Flow token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["lightning-flow"],
     
     
     
@@ -483086,7 +483086,7 @@ When this is pitched, create a Lightning Flow token.`,
 
     arcane: 1,
     
-    cost: 0,
+    cost: 0,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `**Instant** - {r}, discard this: Deal 1 arcane damage to target hero. Create a Lightning Flow token.`,
@@ -483101,7 +483101,7 @@ When this is pitched, create a Lightning Flow token.`,
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["lightning-flow"],
     
     
     
@@ -483165,7 +483165,7 @@ When this is pitched, create a Lightning Flow token.`,
 
     arcane: 1,
     
-    cost: 0,
+    cost: 0,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `**Instant** - {r}, discard this: Deal 1 arcane damage to target hero. Create a Lightning Flow token.`,
@@ -483180,7 +483180,7 @@ When this is pitched, create a Lightning Flow token.`,
   
     
     pitch: 2,
-    power: 3,
+    power: 3,referencedCards: ["lightning-flow"],
     
     
     
@@ -483244,7 +483244,7 @@ When this is pitched, create a Lightning Flow token.`,
 
     arcane: 1,
     
-    cost: 0,
+    cost: 0,createdExtras: ["lightning-flow"],
     defense: 3,
     
     functionalText: `**Instant** - {r}, discard this: Deal 1 arcane damage to target hero. Create a Lightning Flow token.`,
@@ -483259,7 +483259,7 @@ When this is pitched, create a Lightning Flow token.`,
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["lightning-flow"],
     
     
     
@@ -483816,7 +483816,7 @@ const cards7: Card[] = [{
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["lightning-flow"],
     defense: 2,
     
     functionalText: `**Twice per Turn Instant** - {r}: This gets +1{p}.
@@ -483833,7 +483833,7 @@ When this hits, create a Lightning Flow token.`,
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["lightning-flow"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -484277,7 +484277,7 @@ When this hits, create a Lightning Flow token.`,
 
     
     
-    
+    createdExtras: ["marked"],
     defense: 1,
     
     functionalText: `**Attack Reaction** - Destroy this: **Mark** target Arakni.
@@ -484294,7 +484294,7 @@ When this hits, create a Lightning Flow token.`,
   
     
     
-    
+    referencedCards: ["arakni","arakni-5lp3d-7hru-7h3-cr4x","arakni-black-widow","arakni-funnel-web","arakni-huntsman","arakni-marionette","arakni-orb-weaver","arakni-redback","arakni-solitary-confinement","arakni-tarantula","arakni-trap-door","arakni-web-of-deceit","marked"],
     
     
     
@@ -484457,7 +484457,7 @@ Zombies you control get "**Action** - {r}, {t}: **Attack**"`,
 
     
     
-    
+    createdExtras: ["runechant"],
     
     
     functionalText: `At the start of your turn, banish a card from your hand. If you do, create a Runechant token.
@@ -484474,7 +484474,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
   
     
     
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -484595,7 +484595,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
 
     
     
-    
+    createdExtras: ["runechant"],
     
     
     functionalText: `At the start of your turn, banish a card from your hand. If you do, create a Runechant token.
@@ -484612,7 +484612,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
   
     
     
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -484770,7 +484770,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["agility"],
     defense: 2,
     
     functionalText: `When this attacks a hero, you may **wager** an Agility token with them.`,
@@ -484785,7 +484785,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["agility"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -484849,7 +484849,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["agility"],
     defense: 2,
     
     functionalText: `When this attacks a hero, you may **wager** an Agility token with them.`,
@@ -484864,7 +484864,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["agility"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -484943,7 +484943,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["agility"],
     defense: 2,
     
     functionalText: `When this attacks a hero, you may **wager** an Agility token with them.`,
@@ -484958,7 +484958,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["agility"],
     
     
     
@@ -485052,7 +485052,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `**Universal**
@@ -485069,7 +485069,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["gold"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -485148,7 +485148,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `**Universal**
@@ -485165,7 +485165,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["gold"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -485244,7 +485244,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `**Universal**
@@ -485261,7 +485261,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["gold"],
     
     
     
@@ -485340,7 +485340,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `When this attacks a hero, you may **wager** a Might token with them.`,
@@ -485355,7 +485355,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["might"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -485419,7 +485419,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `When this attacks a hero, you may **wager** a Might token with them.`,
@@ -485434,7 +485434,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["might"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -485498,7 +485498,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `When this attacks a hero, you may **wager** a Might token with them.`,
@@ -485513,7 +485513,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["might"],
     
     
     
@@ -485607,7 +485607,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `When this attacks a hero, you may **wager** a Vigor token with them.`,
@@ -485622,7 +485622,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -485686,7 +485686,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `When this attacks a hero, you may **wager** a Vigor token with them.`,
@@ -485701,7 +485701,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -485780,7 +485780,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `When this attacks a hero, you may **wager** a Vigor token with them.`,
@@ -485795,7 +485795,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["vigor"],
     
     
     
@@ -486561,7 +486561,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["might"],
     
     
     
@@ -486625,7 +486625,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
 
     
     
-    cost: 4,
+    cost: 4,createdExtras: ["vigor"],
     defense: 3,
     
     functionalText: `When you win a **clash** revealing this, create a Vigor token.`,
@@ -486640,7 +486640,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -486719,7 +486719,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
 
     
     
-    cost: 4,
+    cost: 4,createdExtras: ["vigor"],
     defense: 3,
     
     functionalText: `When you win a **clash** revealing this, create a Vigor token.`,
@@ -486734,7 +486734,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["vigor"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -486813,7 +486813,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
 
     
     
-    cost: 4,
+    cost: 4,createdExtras: ["vigor"],
     defense: 3,
     
     functionalText: `When you win a **clash** revealing this, create a Vigor token.`,
@@ -486828,7 +486828,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["vigor"],
     
     
     
@@ -487084,7 +487084,7 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["spectral-shield"],
     
     
     functionalText: `When this leaves the arena, if you've pitched a blue card this turn, create a Spectral Shield token.
@@ -487101,7 +487101,7 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
   
     
     pitch: 1,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -487180,7 +487180,7 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["spectral-shield"],
     
     
     functionalText: `When this leaves the arena, if you've pitched a blue card this turn, create a Spectral Shield token.
@@ -487197,7 +487197,7 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
   
     
     pitch: 2,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -487276,7 +487276,7 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["spectral-shield"],
     
     
     functionalText: `When this leaves the arena, if you've pitched a blue card this turn, create a Spectral Shield token.
@@ -487293,7 +487293,7 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
   
     
     pitch: 3,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -487374,7 +487374,7 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
   
     
     pitch: 2,
-    
+    referencedCards: ["raydn-duskbane"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -488191,7 +488191,7 @@ If they choose peace, the only actions they may play or activate during their ne
 
     
     
-    
+    createdExtras: ["quicken"],
     defense: 2,
     
     functionalText: `When this defends, you may **charge** your hero's soul. If a yellow card is **charged** this way, create a Quicken token.
@@ -488208,7 +488208,7 @@ If they choose peace, the only actions they may play or activate during their ne
   
     
     
-    
+    referencedCards: ["quicken"],
     
     
     
@@ -489536,7 +489536,7 @@ If they choose peace, the only actions they may play or activate during their ne
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["spectral-shield"],
     defense: 2,
     
     functionalText: `Reveal the top card of your deck. If it's red, create a Spectral Shield token.
@@ -489553,7 +489553,7 @@ If they choose peace, the only actions they may play or activate during their ne
   
     
     pitch: 1,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -489617,7 +489617,7 @@ If they choose peace, the only actions they may play or activate during their ne
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["spectral-shield"],
     defense: 2,
     
     functionalText: `Reveal the top card of your deck. If it's yellow, create a Spectral Shield token.
@@ -489634,7 +489634,7 @@ If they choose peace, the only actions they may play or activate during their ne
   
     
     pitch: 2,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -489698,7 +489698,7 @@ If they choose peace, the only actions they may play or activate during their ne
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["spectral-shield"],
     defense: 2,
     
     functionalText: `Reveal the top card of your deck. If it's blue, create a Spectral Shield token.
@@ -489715,7 +489715,7 @@ If they choose peace, the only actions they may play or activate during their ne
   
     
     pitch: 3,
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -490079,7 +490079,7 @@ If they choose peace, the only actions they may play or activate during their ne
 
     
     
-    
+    createdExtras: ["spectral-shield"],
     
     
     functionalText: `When this is destroyed, create a Spectral Shield token.
@@ -490096,7 +490096,7 @@ If they choose peace, the only actions they may play or activate during their ne
   
     
     
-    
+    referencedCards: ["spectral-shield"],
     
     
     
@@ -490294,7 +490294,7 @@ At the start of your turn, destroy this.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["inner-chi-blue"],
     
     
     
@@ -490358,7 +490358,7 @@ At the start of your turn, destroy this.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["zen-state"],
     defense: 2,
     
     functionalText: `If you've played Wax On this turn, create a Zen State token.`,
@@ -490373,7 +490373,7 @@ At the start of your turn, destroy this.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["wax-on-blue","wax-on-red","wax-on-yellow","zen-state"],
     
     
     
@@ -492919,7 +492919,7 @@ The first card with cost 1 or more you play each turn costs {r} less to play.`,
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["surging-strike-blue","surging-strike-red","surging-strike-yellow"],
     
     
     
@@ -493058,7 +493058,7 @@ The first card with cost 1 or more you play each turn costs {r} less to play.`,
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["surging-strike-blue","surging-strike-red","surging-strike-yellow"],
     
     
     
@@ -493227,7 +493227,7 @@ The first card with cost 1 or more you play each turn costs {r} less to play.`,
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["surging-strike-blue","surging-strike-red","surging-strike-yellow"],
     
     
     
@@ -493981,7 +493981,7 @@ When this hits, and it's the second or higher chain link in a row to hit, draw 2
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["graphene-chelicera"],
     defense: 3,
     
     functionalText: `**Stealth**
@@ -493998,7 +493998,7 @@ When this attacks a **marked** hero, equip a Graphene Chelicera token.`,
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["graphene-chelicera"],
     
     
     
@@ -494062,7 +494062,7 @@ When this attacks a **marked** hero, equip a Graphene Chelicera token.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["graphene-chelicera"],
     defense: 3,
     
     functionalText: `**Stealth**
@@ -494079,7 +494079,7 @@ When this attacks a **marked** hero, equip a Graphene Chelicera token.`,
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["graphene-chelicera"],
     
     
     
@@ -494158,7 +494158,7 @@ When this attacks a **marked** hero, equip a Graphene Chelicera token.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["graphene-chelicera"],
     defense: 3,
     
     functionalText: `**Stealth**
@@ -494175,7 +494175,7 @@ When this attacks a **marked** hero, equip a Graphene Chelicera token.`,
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["graphene-chelicera"],
     
     
     
@@ -494320,7 +494320,7 @@ When this leaves the arena, you may destroy an aura permanent that a Guardian he
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["toughness"],
     defense: 2,
     
     functionalText: `When the combat chain closes, if this didn't hit, the defending hero creates a Toughness token.`,
@@ -494335,7 +494335,7 @@ When this leaves the arena, you may destroy an aura permanent that a Guardian he
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["toughness"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -494399,7 +494399,7 @@ When this leaves the arena, you may destroy an aura permanent that a Guardian he
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["toughness"],
     defense: 2,
     
     functionalText: `When the combat chain closes, if this didn't hit, the defending hero creates a Toughness token.`,
@@ -494414,7 +494414,7 @@ When this leaves the arena, you may destroy an aura permanent that a Guardian he
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["toughness"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -494478,7 +494478,7 @@ When this leaves the arena, you may destroy an aura permanent that a Guardian he
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["toughness"],
     defense: 2,
     
     functionalText: `When the combat chain closes, if this didn't hit, the defending hero creates a Toughness token.`,
@@ -494493,7 +494493,7 @@ When this leaves the arena, you may destroy an aura permanent that a Guardian he
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["toughness"],
     
     
     
@@ -496166,7 +496166,7 @@ When this is pitched, **amp 1**.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["crouching-tiger"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -496247,7 +496247,7 @@ When this is pitched, **amp 1**.`,
   
     
     pitch: 2,
-    
+    referencedCards: ["crouching-tiger"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -496328,7 +496328,7 @@ When this is pitched, **amp 1**.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["crouching-tiger"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -496503,7 +496503,7 @@ When this is pitched, **amp 1**.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["toughness","vigor"],
     defense: 0,
     
     functionalText: `**Instant** - Discard this: Create a Toughness and a Vigor token.`,
@@ -496518,7 +496518,7 @@ When this is pitched, **amp 1**.`,
   
     
     pitch: 3,
-    power: 6,
+    power: 6,referencedCards: ["toughness","vigor"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -496612,7 +496612,7 @@ When this is pitched, **amp 1**.`,
   
     
     pitch: 3,
-    power: 2,
+    power: 2,referencedCards: ["hundred-winds-blue","hundred-winds-red","hundred-winds-yellow"],
     
     
     
@@ -497456,7 +497456,7 @@ When this is pitched, **amp 1**.`,
 
     
     bannedFormats: [Format.ClassicConstructed],
-    
+    createdExtras: ["frostbite"],
     
     
     functionalText: `**Once per Turn Action** - {r}{r}{r}: **Attack**
@@ -497473,7 +497473,7 @@ If an Ice card is pitched this way, this gets "When this hits a hero, create a F
   
     
     
-    power: 4,
+    power: 4,referencedCards: ["frostbite"],
     
     
     
@@ -497552,7 +497552,7 @@ If an Ice card is pitched this way, this gets "When this hits a hero, create a F
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["frailty"],
     defense: 3,
     
     functionalText: `**Stealth**
@@ -497569,7 +497569,7 @@ When this hits a hero, create a Frailty token under their control.`,
   
     
     pitch: 1,
-    power: 3,
+    power: 3,referencedCards: ["frailty"],
     
     
     
@@ -497648,7 +497648,7 @@ When this hits a hero, create a Frailty token under their control.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["frailty"],
     defense: 3,
     
     functionalText: `**Stealth**
@@ -497665,7 +497665,7 @@ When this hits a hero, create a Frailty token under their control.`,
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["frailty"],
     
     
     
@@ -497759,7 +497759,7 @@ When this hits a hero, create a Frailty token under their control.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["frailty"],
     defense: 3,
     
     functionalText: `**Stealth**
@@ -497776,7 +497776,7 @@ When this hits a hero, create a Frailty token under their control.`,
   
     
     pitch: 3,
-    power: 1,
+    power: 1,referencedCards: ["frailty"],
     
     
     
@@ -497870,7 +497870,7 @@ When this hits a hero, create a Frailty token under their control.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["frailty"],
     defense: 3,
     
     functionalText: `If this has an aim counter, it gets +1{p}.
@@ -497887,7 +497887,7 @@ When this hits a hero, create a Frailty token under their control.`,
   
     
     pitch: 1,
-    power: 5,
+    power: 5,referencedCards: ["frailty"],
     
     
     
@@ -497951,7 +497951,7 @@ When this hits a hero, create a Frailty token under their control.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["frailty"],
     defense: 3,
     
     functionalText: `If this has an aim counter, it gets +1{p}.
@@ -497968,7 +497968,7 @@ When this hits a hero, create a Frailty token under their control.`,
   
     
     pitch: 2,
-    power: 4,
+    power: 4,referencedCards: ["frailty"],
     
     
     
@@ -498032,7 +498032,7 @@ When this hits a hero, create a Frailty token under their control.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["frailty"],
     defense: 3,
     
     functionalText: `If this has an aim counter, it gets +1{p}.
@@ -498049,7 +498049,7 @@ When this hits a hero, create a Frailty token under their control.`,
   
     
     pitch: 3,
-    power: 3,
+    power: 3,referencedCards: ["frailty"],
     
     
     
@@ -500539,7 +500539,7 @@ If a card with 6 or more {p} is banished this way, this gets **dominate**.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["embodiment-of-lightning"],
     defense: 3,
     
     functionalText: `Create an Embodiment of Lightning token.
@@ -500556,7 +500556,7 @@ If you've dealt arcane damage this turn, draw a card.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["embodiment-of-lightning"],
     
     
     
@@ -500650,7 +500650,7 @@ If you've dealt arcane damage this turn, draw a card.`,
 
     
     
-    cost: 2,
+    cost: 2,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `**Go Fish** - When this hits a hero, they choose and reveal a card from their hand. If it's yellow, they discard it and you create a Gold token. If you've activated a cannon this turn, instead look at their hand and you choose the card.`,
@@ -500665,7 +500665,7 @@ If you've dealt arcane damage this turn, draw a card.`,
   
     
     pitch: 3,
-    power: 4,
+    power: 4,referencedCards: ["gold"],
     
     
     
@@ -501188,7 +501188,7 @@ While this is defending and you control an aura, this gets +1{d}.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gold"],
     defense: 3,
     
     functionalText: `Your next Pirate ally attack this turn gets +1{p} and "When this hits a hero, create a Gold token."
@@ -501205,7 +501205,7 @@ While this is defending and you control an aura, this gets +1{d}.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["gold"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -502347,7 +502347,7 @@ The first time the crowd cheers you each turn, each hero draws a card.`,
 
     
     
-    
+    createdExtras: ["crouching-tiger"],
     
     
     functionalText: `**Once per Turn Instant** - {c}{c}{c}: Create a Crouching Tiger in your hand. Search your deck for a card with **combo**, banish it, then shuffle. You may play it this turn.`,
@@ -502362,7 +502362,7 @@ The first time the crowd cheers you each turn, each hero draws a card.`,
   
     
     
-    
+    referencedCards: ["crouching-tiger"],
     
     
     
@@ -502382,7 +502382,7 @@ The first time the crowd cheers you each turn, each hero draws a card.`,
     defaultImage: "MST189",
     firstReleaseDate: "2020-08-28",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Shiyana,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Genis,Hero.Ira,Hero.Katsu,Hero.Shiyana,Hero.Taylor,Hero.Yorick,Hero.Zen],
     name: "Zen State",
     printings: [{
         artists: ["Jessada Sutthi"],
@@ -502654,7 +502654,7 @@ If you would be dealt damage, prevent 1 of that damage.`,
 
     
     
-    
+    createdExtras: ["crouching-tiger"],
     
     
     functionalText: `**Once per Turn Instant** - {c}{c}{c}: Create a Crouching Tiger in your hand. Search your deck for a card with **combo**, banish it, then shuffle. You may play it this turn.`,
@@ -502669,7 +502669,7 @@ If you would be dealt damage, prevent 1 of that damage.`,
   
     
     
-    
+    referencedCards: ["crouching-tiger"],
     
     
     
@@ -504646,7 +504646,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
   
     
     
-    
+    referencedCards: ["lightning-flow"],
     
     shorthands: [Shorthand.Tap],
     
@@ -504755,7 +504755,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
   
     
     
-    
+    referencedCards: ["lightning-flow"],
     
     shorthands: [Shorthand.Tap],
     

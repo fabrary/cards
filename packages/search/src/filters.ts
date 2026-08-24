@@ -15,7 +15,10 @@ import { getExcludedMetaFilters, getMetaFilters } from "./metaFilters.js";
 import { multiWordShorthands, singleWordShorthands } from "./shorthands.js";
 import { PUNCTUATION } from "./constants.js";
 import { getCardByName } from "./helpers.js";
-import { getRelatedCardsByName } from "./related.js";
+import {
+  getCardsByReferencedCardIdentifier,
+  getReferencedCards,
+} from "./related.js";
 
 export interface AppliedFilter {
   filterToPropertyMapping: FilterToPropertyMapping;
@@ -571,46 +574,63 @@ export const getKeywordsAndAppliedFiltersFromText = (
             }
           };
 
+          const cardsByReferencedCardIdentifier =
+            getCardsByReferencedCardIdentifier(cards);
+
           for (const relatedCardName of relatedCardNames) {
             if (counter > limit) {
               break;
             }
-            const { referencedBy, references } = getRelatedCardsByName(
-              relatedCardName,
-              cards,
-            );
-            references.forEach(addToSetAndRelated);
-            if (counter === 0) {
-              referencedBy.forEach(addToSetAndRelated);
+            const relatedCard = getCardByName(relatedCardName, cards);
+            getReferencedCards(relatedCard, cards).forEach(addToSetAndRelated);
+            if (counter === 0 && relatedCard) {
+              const referencingCards =
+                cardsByReferencedCardIdentifier.get(
+                  relatedCard.cardIdentifier,
+                ) || [];
+              referencingCards.forEach(addToSetAndRelated);
             }
             counter++;
           }
           values = Array.from(names);
         } else if (["referencedby", "references"].includes(filterKey)) {
-          const originalKey = filterKey;
+          // `referencedby:` asks what a card names, `references:` who names it.
+          const isNamedByFilter = ["referencedby"].includes(filterKey);
           const relatedCardNames = [...values].filter((value) => !!value);
           values = [];
           filterKey = "name";
           isOr = true;
-          for (const relatedCardName of relatedCardNames) {
-            const { referencedBy, references } = getRelatedCardsByName(
-              relatedCardName,
-              cards,
-            );
-            if (["referencedby"].includes(originalKey)) {
-              values.push(
-                ...references.map(({ name }) =>
-                  name.toLowerCase().replaceAll(PUNCTUATION, ""),
-                ),
-              );
-            } else if (["references"].includes(originalKey)) {
-              values.push(
-                ...referencedBy.map(({ name }) =>
-                  name.toLowerCase().replaceAll(PUNCTUATION, ""),
+
+          const relatedCards: Card[] = [];
+          if (isNamedByFilter) {
+            for (const relatedCardName of relatedCardNames) {
+              relatedCards.push(
+                ...getReferencedCards(
+                  getCardByName(relatedCardName, cards),
+                  cards,
                 ),
               );
             }
+          } else {
+            const cardsByReferencedCardIdentifier =
+              getCardsByReferencedCardIdentifier(cards);
+            for (const relatedCardName of relatedCardNames) {
+              const relatedCard = getCardByName(relatedCardName, cards);
+              if (relatedCard) {
+                const referencingCards =
+                  cardsByReferencedCardIdentifier.get(
+                    relatedCard.cardIdentifier,
+                  ) || [];
+                relatedCards.push(...referencingCards);
+              }
+            }
           }
+
+          values.push(
+            ...relatedCards.map(({ name }) =>
+              name.toLowerCase().replaceAll(PUNCTUATION, ""),
+            ),
+          );
         } else if (["art", "artist"].includes(filterKey)) {
           artists = values;
         } else if (
