@@ -7,4 +7,5 @@ export * from "./helpers.js";
 export * from "./metaFilters.js";
 export * from "./related.js";
 export * from "./search.js";
+export * from "./searchIndex.js";
 export * from "./shorthands.js";

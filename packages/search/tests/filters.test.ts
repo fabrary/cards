@@ -12,6 +12,9 @@ import {
   RARITY_VALUES_MAPPING,
 } from "../src/filters";
 import { cards } from "@flesh-and-blood/cards";
+import { buildSearchIndex } from "../src/searchIndex";
+
+const index = buildSearchIndex(cards);
 
 // Any fixed day works; the point is that the token resolves to a comparison
 // against the date it was given rather than to whatever today happens to be.
@@ -27,7 +30,7 @@ describe("Gets the right attribute filters", () => {
     (search, expectedFoilings) => {
       const {
         attributes: { foilings },
-      } = getKeywordsAndAppliedFiltersFromText(search as string, cards);
+      } = getKeywordsAndAppliedFiltersFromText(search as string, index);
       expect(foilings.length).toEqual(expectedFoilings.length);
       expect(expectedFoilings).toMatchSnapshot();
     },
@@ -40,7 +43,7 @@ describe("Gets the right attribute filters", () => {
   it.each(setFilters)("Gets matching sets for %s", (search, sets) => {
     const {
       attributes: { releases },
-    } = getKeywordsAndAppliedFiltersFromText(search as string, cards);
+    } = getKeywordsAndAppliedFiltersFromText(search as string, index);
     expect(releases.length).toEqual(sets.length);
     expect(releases).toMatchSnapshot();
   });
@@ -54,7 +57,7 @@ describe("Gets the right attribute filters", () => {
     (search, expectedTreatments) => {
       const {
         attributes: { treatments },
-      } = getKeywordsAndAppliedFiltersFromText(search as string, cards);
+      } = getKeywordsAndAppliedFiltersFromText(search as string, index);
       expect(treatments.length).toEqual(expectedTreatments.length);
       expect(treatments).toMatchSnapshot();
     },
@@ -71,7 +74,7 @@ describe("Gets the right attribute filters", () => {
     (search, expectedFoilings) => {
       const {
         attributes: { foilings },
-      } = getKeywordsAndAppliedFiltersFromText(search as string, cards);
+      } = getKeywordsAndAppliedFiltersFromText(search as string, index);
       expect(foilings.length).toEqual(expectedFoilings.length);
       expect(expectedFoilings).toMatchSnapshot();
     },
@@ -87,7 +90,7 @@ describe("Gets the right attribute filters", () => {
   it.each(setFilters)("Gets matching sets for %s", (search, sets) => {
     const {
       attributes: { releases },
-    } = getKeywordsAndAppliedFiltersFromText(search as string, cards);
+    } = getKeywordsAndAppliedFiltersFromText(search as string, index);
     expect(releases.length).toEqual(sets.length);
     expect(releases).toMatchSnapshot();
   });
@@ -101,7 +104,7 @@ describe("Gets the right attribute filters", () => {
     (search, expectedTreatments) => {
       const {
         attributes: { treatments },
-      } = getKeywordsAndAppliedFiltersFromText(search as string, cards);
+      } = getKeywordsAndAppliedFiltersFromText(search as string, index);
       expect(treatments.length).toEqual(expectedTreatments.length);
       expect(treatments).toMatchSnapshot();
 
@@ -122,7 +125,7 @@ describe("Gets the right attribute filters", () => {
     (search, expectedMetaValues) => {
       const { appliedFilters } = getKeywordsAndAppliedFiltersFromText(
         search as string,
-        cards,
+        index,
       );
 
       const metaAppliedFilter = appliedFilters.find(
@@ -152,7 +155,7 @@ describe("Gets the right attribute filters", () => {
     (search, expectedIsExcluded) => {
       const { appliedFilters } = getKeywordsAndAppliedFiltersFromText(
         search as string,
-        cards,
+        index,
       );
 
       const metaAppliedFilters = appliedFilters.filter(
@@ -181,7 +184,7 @@ describe("Gets the right attribute filters", () => {
     (search, expectedIsExcluded) => {
       const { appliedFilters } = getKeywordsAndAppliedFiltersFromText(
         search as string,
-        cards,
+        index,
         [],
         [],
         PINNED_TODAY,
@@ -200,7 +203,7 @@ describe("Gets the right attribute filters", () => {
   it("Keeps the remaining meta values alongside preview", () => {
     const { appliedFilters } = getKeywordsAndAppliedFiltersFromText(
       "is:preview,arena",
-      cards,
+      index,
       [],
       [],
       PINNED_TODAY,
@@ -222,7 +225,7 @@ describe("Gets the right attribute filters", () => {
   it("Contradicts itself when asked for preview and released at once", () => {
     const { appliedFilters } = getKeywordsAndAppliedFiltersFromText(
       "is:preview,released",
-      cards,
+      index,
       [],
       [],
       PINNED_TODAY,
@@ -248,7 +251,7 @@ describe("Gets the right attribute filters", () => {
     (search, expectedShorthands) => {
       const { appliedFilters } = getKeywordsAndAppliedFiltersFromText(
         search as string,
-        cards,
+        index,
       );
 
       const shorthandAppliedFilter = appliedFilters.find(
