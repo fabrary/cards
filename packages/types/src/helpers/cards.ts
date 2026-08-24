@@ -218,10 +218,14 @@ export const getCardRole = (card: Card): CardRole => {
     role = CardRole.Extra;
   } else if (card.types.includes(Type.Hero)) {
     role = CardRole.Hero;
-  } else if (card.isCardBack) {
-    role = CardRole.CardBack;
   } else if (getIsArenaCard(card)) {
     role = CardRole.Inventory;
+  } else if (!getIsDeckCard(card) && card.isCardBack) {
+    // Last, because being printed on a back is a separate axis from what a card
+    // is: Bank Breaker is a weapon, Viserai, Usurper a hero and Inner Chi a
+    // resource, all on backs, and `isCardBack` answers that alongside the role.
+    // Only the backs carrying no type of their own land here.
+    role = CardRole.CardBack;
   }
 
   return role;
