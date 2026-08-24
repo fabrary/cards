@@ -16093,7 +16093,9 @@ At the beginning of your end phase, **return to the brood**.",
   "legalHeroes": [
     "Arakni",
     "Crackni",
+    "Shiyana",
     "Slippy",
+    "Taylor",
   ],
   "meta": [
     "Reprint",
@@ -16263,7 +16265,9 @@ At the beginning of your end phase, **return to the brood**.",
   "legalHeroes": [
     "Arakni",
     "Crackni",
+    "Shiyana",
     "Slippy",
+    "Taylor",
   ],
   "meta": [
     "Reprint",
@@ -16562,6 +16566,14 @@ exports[`Check for unintentional updates Arakni, Marionette (arakni-marionette) 
   "classes": [
     "Assassin",
   ],
+  "createdExtras": [
+    "arakni-black-widow",
+    "arakni-funnel-web",
+    "arakni-orb-weaver",
+    "arakni-redback",
+    "arakni-tarantula",
+    "arakni-trap-door",
+  ],
   "defaultImage": "HNT001",
   "firstReleaseDate": "2025-01-31",
   "functionalText": "Your attacks with **stealth** that are attacking a **marked** hero get +1{p} and "When this hits, this gets **go again**."
@@ -16733,7 +16745,9 @@ At the beginning of your end phase, **return to the brood**.",
   "legalHeroes": [
     "Arakni",
     "Crackni",
+    "Shiyana",
     "Slippy",
+    "Taylor",
   ],
   "meta": [
     "Reprint",
@@ -16909,7 +16923,9 @@ At the beginning of your end phase, **return to the brood**.",
   "legalHeroes": [
     "Arakni",
     "Crackni",
+    "Shiyana",
     "Slippy",
+    "Taylor",
   ],
   "meta": [
     "Reprint",
@@ -17244,7 +17260,9 @@ At the beginning of your end phase, **return to the brood**.",
   "legalHeroes": [
     "Arakni",
     "Crackni",
+    "Shiyana",
     "Slippy",
+    "Taylor",
   ],
   "meta": [
     "Reprint",
@@ -17414,7 +17432,9 @@ At the beginning of your end phase, **return to the brood**.",
   "legalHeroes": [
     "Arakni",
     "Crackni",
+    "Shiyana",
     "Slippy",
+    "Taylor",
   ],
   "meta": [
     "Reprint",
@@ -17560,6 +17580,14 @@ exports[`Check for unintentional updates Arakni, Web of Deceit (arakni-web-of-de
   "cardIdentifier": "arakni-web-of-deceit",
   "classes": [
     "Assassin",
+  ],
+  "createdExtras": [
+    "arakni-black-widow",
+    "arakni-funnel-web",
+    "arakni-orb-weaver",
+    "arakni-redback",
+    "arakni-tarantula",
+    "arakni-trap-door",
   ],
   "defaultImage": "SAR001",
   "firstReleaseDate": "2025-01-31",
@@ -250814,7 +250842,9 @@ When this attacks a **marked** hero, the attack gets **go again**.",
     "Crackni",
     "Mortimer",
     "Nuu",
+    "Shiyana",
     "Slippy",
+    "Taylor",
     "Uzuri",
   ],
   "meta": [
@@ -340813,6 +340843,14 @@ exports[`Check for unintentional updates Mask of Deceit (mask-of-deceit) vs snap
   "cardIdentifier": "mask-of-deceit",
   "classes": [
     "Assassin",
+  ],
+  "createdExtras": [
+    "arakni-black-widow",
+    "arakni-funnel-web",
+    "arakni-orb-weaver",
+    "arakni-redback",
+    "arakni-tarantula",
+    "arakni-trap-door",
   ],
   "defaultImage": "HNT011-RF",
   "defense": 2,

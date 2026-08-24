@@ -118,12 +118,10 @@ interface CardShape {
   types: Type[];
 }
 
-// Extras that carry none of the markers: the Cracked Bauble is a token printed
-// as an ordinary card, and the Goldfin Harpoon is Marlynn's arena weapon.
-const CREATED_EXTRA_CARD_IDENTIFIERS = [
-  "cracked-bauble-yellow",
-  "goldfin-harpoon",
-];
+// Cards another card puts into play while carrying none of the markers: the
+// Cracked Bauble is a token printed as an ordinary card, and the Goldfin
+// Harpoon is Marlynn's arena weapon.
+const CREATED_CARD_IDENTIFIERS = ["cracked-bauble-yellow", "goldfin-harpoon"];
 
 const ARENA_CARD_TYPES = [
   Type.Companion,
@@ -143,44 +141,39 @@ const DECK_CARD_TYPES = [
 ];
 
 /**
- * An extra a card puts into play: tokens and ephemeral cards. What a deck has
- * to bring follows from which of these its cards create.
+ * A card that comes into play during a game rather than being run in the deck
+ * list: tokens, ephemeral cards, macros, and Arakni's demi-heroes.
  */
-export const getIsCreatedExtra = ({ keywords, types }: CardShape) => {
-  const isEphemeral = (keywords || []).includes(Keyword.Ephemeral);
-  const isIncarnate = (keywords || []).includes(Keyword.Incarnate);
-  const isToken = types.includes(Type.Token);
-
-  return isEphemeral || isIncarnate || isToken;
-};
-
-/**
- * Whether a deck brings this card as a created extra. Wider than what the card
- * *is*: the Cracked Bauble and the Goldfin Harpoon are ordinary deck cards by
- * type, and still come to the table as extras, so the zone questions above keep
- * counting them as deck cards while creation counts them as extras.
- */
-export const getCanBeCreatedExtra = (
-  card: { cardIdentifier: string } & CardShape,
-) =>
-  getIsCreatedExtra(card) ||
-  CREATED_EXTRA_CARD_IDENTIFIERS.includes(card.cardIdentifier);
-
-/**
- * An extra chosen at deckbuilding or set up by the format rather than put into
- * play by a card: macros, and the demi-heroes an Agent of Chaos hero picks.
- * Nothing creates one.
- */
-export const getIsChosenExtra = ({ traits, types }: CardShape) => {
-  // Only Arakni's demi-heroes are chosen: they carry the trait, while an
+export const getIsExtra = ({ keywords, traits, types }: CardShape) => {
+  // The trait, not the Demi-Hero type, is what marks Arakni's demi-heroes: an
   // ordinary demi-hero (Levia, Shadowborn Abomination) is an inventory card.
   const isAgentOfChaos = (traits || []).includes(Trait.AgentOfChaos);
+  const isEphemeral = (keywords || []).includes(Keyword.Ephemeral);
+  const isIncarnate = (keywords || []).includes(Keyword.Incarnate);
+  const isMacroOrToken = [Type.Macro, Type.Token].some((type) =>
+    types.includes(type),
+  );
 
-  return isAgentOfChaos || types.includes(Type.Macro);
+  return isAgentOfChaos || isEphemeral || isIncarnate || isMacroOrToken;
 };
 
-export const getIsExtra = (card: CardShape) =>
-  getIsCreatedExtra(card) || getIsChosenExtra(card);
+/**
+ * Whether another card can put this one into play, which is what a deck has to
+ * bring. Every extra but a macro, since the format sets those up. Wider than
+ * what the card *is*: the Cracked Bauble and the Goldfin Harpoon are ordinary
+ * deck cards by type, so the zone questions below keep counting them as deck
+ * cards while creation counts them as extras.
+ */
+export const getCanBeCreated = (
+  card: { cardIdentifier: string } & CardShape,
+) => {
+  const isMacro = card.types.includes(Type.Macro);
+
+  return (
+    (getIsExtra(card) && !isMacro) ||
+    CREATED_CARD_IDENTIFIERS.includes(card.cardIdentifier)
+  );
+};
 
 export const getIsArenaCard = (card: CardShape) => {
   const isArenaCardType = ARENA_CARD_TYPES.some((type) =>
@@ -204,11 +197,7 @@ export const getCanBeExtra = (card: Card) => {
   const canCardBackBeOutsideDeck =
     !!card.isCardBack && card.cardIdentifier !== "inner-chi-blue";
 
-  return (
-    getCanBeCreatedExtra(card) ||
-    getIsChosenExtra(card) ||
-    canCardBackBeOutsideDeck
-  );
+  return getIsExtra(card) || getCanBeCreated(card) || canCardBackBeOutsideDeck;
 };
 
 export const getCanAddToDeck = (card: Card) => {
@@ -220,15 +209,13 @@ export const getCanAddToDeck = (card: Card) => {
 /**
  * What the card is for, as one answer rather than a predicate per question.
  * A card has exactly one role: Graphene Chelicera is a Token Weapon and counts
- * as a created extra, because the role decides what a deck brings.
+ * as an extra, because the role decides what a deck brings.
  */
 export const getCardRole = (card: Card): CardRole => {
   let role = CardRole.Deck;
 
-  if (getIsCreatedExtra(card)) {
-    role = CardRole.CreatedExtra;
-  } else if (getIsChosenExtra(card)) {
-    role = CardRole.ChosenExtra;
+  if (getIsExtra(card)) {
+    role = CardRole.Extra;
   } else if (card.types.includes(Type.Hero)) {
     role = CardRole.Hero;
   } else if (card.isCardBack) {

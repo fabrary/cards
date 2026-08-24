@@ -1,7 +1,8 @@
 import {
-  getCanBeCreatedExtra,
+  getCanBeCreated,
   Keyword,
   Subtype,
+  Trait,
   Type,
 } from "@flesh-and-blood/types";
 import { PreliminaryCard } from "./preliminary-card";
@@ -37,7 +38,7 @@ const KEYWORD_ONLY_EXTRA_NAMES = new Set(["Marked"]);
 // and to place counters, never to make an extra. Wagering one with an opponent
 // does put it into play.
 const CREATION_VERBS =
-  /\b(?:create|creates|created|summon|summons|equip|equips|wager|wagers)\b/gi;
+  /\b(?:become|becomes|create|creates|created|summon|summons|equip|equips|wager|wagers)\b/gi;
 const PAST_CREATION = /\byou(?:'ve| have)\s+$/i;
 const TRANSFORM_VERB = /\btransform\b/i;
 const TRANSFORM_TARGET_SEPARATOR = " into ";
@@ -54,8 +55,35 @@ const getExtraNameRegExp = (name: string) =>
     "i",
   );
 
-// A sentence creates the named extra when the name follows a creation verb, so
-// that the verb's object is what gets made: "destroy a Lightning Flow you
+// Traits card text names a group of extras by, the way it names a single one:
+// "become a random Agent of Chaos" puts whichever demi-hero carries the trait
+// into play. Most traits are flavour, so a group has to be listed here rather
+// than every trait counting.
+const CREATED_EXTRA_TRAITS: string[] = [Trait.AgentOfChaos];
+
+interface ExtraCreationName {
+  lowercasedName: string;
+  nameRegExp: RegExp;
+}
+
+// Every name card text can put this extra into play by: its own, and the traits
+// naming a group it belongs to.
+const getExtraCreationNames = (card: PreliminaryCard): ExtraCreationName[] => {
+  const creationNames = [
+    card.name,
+    ...(card.traits || []).filter((trait) =>
+      CREATED_EXTRA_TRAITS.includes(trait),
+    ),
+  ];
+
+  return creationNames.map((creationName) => ({
+    lowercasedName: creationName.toLowerCase(),
+    nameRegExp: getExtraNameRegExp(creationName),
+  }));
+};
+
+// A sentence creates the extra it names when the name follows a creation verb,
+// so that the verb's object is what gets made: "destroy a Lightning Flow you
 // control: Create an Embodiment of Lightning token" makes only the Embodiment.
 // Transform classifies the sentences carrying no other verb, and only for what
 // follows "into", since transforming X into Y makes Y alone: every Invoke card
@@ -137,7 +165,7 @@ export const getCardRelations = (
 ): Map<string, CardRelations> => {
   const createdExtras: PreliminaryCard[] = [];
   const createdExtrasByName = new Map<string, PreliminaryCard[]>();
-  const extraNameRegExps = new Map<string, RegExp>();
+  const creationNamesByExtra = new Map<string, ExtraCreationName[]>();
   const matchingTexts: CardMatchingText[] = [];
   // Every name card text can use for a card: its own, and the family name it
   // shares with its variants.
@@ -163,9 +191,12 @@ export const getCardRelations = (
       ]);
     }
 
-    if (getCanBeCreatedExtra(card)) {
+    if (getCanBeCreated(card)) {
       createdExtras.push(card);
-      extraNameRegExps.set(card.cardIdentifier, getExtraNameRegExp(name));
+      creationNamesByExtra.set(
+        card.cardIdentifier,
+        getExtraCreationNames(card),
+      );
       createdExtrasByName.set(name, [
         ...(createdExtrasByName.get(name) || []),
         card,
@@ -178,7 +209,7 @@ export const getCardRelations = (
   // name can only mean the pitched ones.
   for (const card of createdExtras) {
     const hasPitchedSibling = (cardsByMatchName.get(card.name) || []).some(
-      (other) => !getCanBeCreatedExtra(other),
+      (other) => !getCanBeCreated(other),
     );
     if (hasPitchedSibling) {
       cardsWithPitchedSiblings.add(card.cardIdentifier);
@@ -229,17 +260,21 @@ export const getCardRelations = (
 
     for (const extra of createdExtras) {
       const isKeywordOnly = KEYWORD_ONLY_EXTRA_NAMES.has(extra.name);
-      const isNamed =
-        !isKeywordOnly &&
-        extra.cardIdentifier !== cardIdentifier &&
-        lowercasedText.includes(extra.name.toLowerCase());
+      const isMatchable =
+        !isKeywordOnly && extra.cardIdentifier !== cardIdentifier;
 
-      if (isNamed) {
-        const nameRegExp = extraNameRegExps.get(extra.cardIdentifier) as RegExp;
-        const isCreated = sentences.some(
-          (sentence) =>
-            nameRegExp.test(sentence) &&
-            getIsCreatingSentence(sentence, nameRegExp),
+      if (isMatchable) {
+        const creationNames = creationNamesByExtra.get(
+          extra.cardIdentifier,
+        ) as ExtraCreationName[];
+        const isCreated = creationNames.some(
+          ({ lowercasedName, nameRegExp }) =>
+            lowercasedText.includes(lowercasedName) &&
+            sentences.some(
+              (sentence) =>
+                nameRegExp.test(sentence) &&
+                getIsCreatingSentence(sentence, nameRegExp),
+            ),
         );
 
         if (isCreated) {

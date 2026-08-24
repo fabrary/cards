@@ -12638,7 +12638,7 @@ At the start of your turn, destroy this.`,
     defaultImage: "SAR034",
     firstReleaseDate: "2025-01-31",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Slippy],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Shiyana,Hero.Slippy,Hero.Taylor],
     name: "Arakni, Black Widow",
     printings: [{
         artists: ["soyameii"],
@@ -12776,7 +12776,7 @@ At the beginning of your end phase, **return to the brood**.`,
     defaultImage: "SAR035",
     firstReleaseDate: "2025-01-31",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Slippy],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Shiyana,Hero.Slippy,Hero.Taylor],
     name: "Arakni, Funnel Web",
     printings: [{
         artists: ["Federico Musetti"],
@@ -13136,7 +13136,7 @@ At the beginning of your end phase, **return to the brood**.`,
 
     
     
-    
+    createdExtras: ["arakni-black-widow","arakni-funnel-web","arakni-orb-weaver","arakni-redback","arakni-tarantula","arakni-trap-door"],
     
     
     functionalText: `Your attacks with **stealth** that are attacking a **marked** hero get +1{p} and "When this hits, this gets **go again**."
@@ -13173,7 +13173,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
     defaultImage: "SAR036",
     firstReleaseDate: "2025-01-31",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Slippy],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Shiyana,Hero.Slippy,Hero.Taylor],
     name: "Arakni, Orb-Weaver",
     printings: [{
         artists: ["Jessada Sutthi"],
@@ -13313,7 +13313,7 @@ At the beginning of your end phase, **return to the brood**.`,
     defaultImage: "SAR037",
     firstReleaseDate: "2025-01-31",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Slippy],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Shiyana,Hero.Slippy,Hero.Taylor],
     name: "Arakni, Redback",
     printings: [{
         artists: ["Nathaniel Himawan"],
@@ -13590,7 +13590,7 @@ At the beginning of your end phase, **return to the brood**.`,
     defaultImage: "SAR038",
     firstReleaseDate: "2025-01-31",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Slippy],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Shiyana,Hero.Slippy,Hero.Taylor],
     name: "Arakni, Tarantula",
     printings: [{
         artists: ["Max Kostin"],
@@ -13730,7 +13730,7 @@ At the beginning of your end phase, **return to the brood**.`,
     defaultImage: "SAR039",
     firstReleaseDate: "2025-01-31",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Slippy],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Shiyana,Hero.Slippy,Hero.Taylor],
     name: "Arakni, Trap-Door",
     printings: [{
         artists: ["Jessada Sutthi"],
@@ -13957,7 +13957,7 @@ At the beginning of your end phase, **return to the brood**.`,
 
     
     
-    
+    createdExtras: ["arakni-black-widow","arakni-funnel-web","arakni-orb-weaver","arakni-redback","arakni-tarantula","arakni-trap-door"],
     
     
     functionalText: `Your attacks with **stealth** that are attacking a **marked** hero get +1{p} and "When this hits, this gets **go again**."
@@ -192358,7 +192358,7 @@ When this is pitched, create a Seismic Surge token.`,
     defaultImage: "SAR033",
     firstReleaseDate: "2025-01-31",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Mortimer,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Mortimer,Hero.Nuu,Hero.Shiyana,Hero.Slippy,Hero.Taylor,Hero.Uzuri],
     name: "Graphene Chelicera",
     printings: [{
         artists: ["Satriasa"],
@@ -262770,7 +262770,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
 
     
     
-    
+    createdExtras: ["arakni-black-widow","arakni-funnel-web","arakni-orb-weaver","arakni-redback","arakni-tarantula","arakni-trap-door"],
     defense: 2,
     
     functionalText: `**Arakni Specialization**

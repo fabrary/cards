@@ -348,9 +348,8 @@ export enum Metatype {
 /** What a card is for: exactly one answer per card. */
 export enum CardRole {
   CardBack = "Card back",
-  ChosenExtra = "Chosen extra",
-  CreatedExtra = "Created extra",
   Deck = "Deck",
+  Extra = "Extra",
   Hero = "Hero",
   Inventory = "Inventory",
 }

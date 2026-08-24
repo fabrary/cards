@@ -1,10 +1,5 @@
 import { describe, expect, it } from "@jest/globals";
-import {
-  Card,
-  getIsChosenExtra,
-  getCanBeCreatedExtra,
-  Hero,
-} from "@flesh-and-blood/types";
+import { Card, getCanBeCreated, Hero } from "@flesh-and-blood/types";
 import { cards } from "../dist/index";
 import {
   getLegalHeroesByCard,
@@ -51,7 +46,16 @@ describe("Hero pools", () => {
   });
 });
 
-describe("Created extras follow what a hero's pool creates", () => {
+const ARAKNI_DEMI_HEROES = [
+  "arakni-black-widow",
+  "arakni-funnel-web",
+  "arakni-orb-weaver",
+  "arakni-redback",
+  "arakni-tarantula",
+  "arakni-trap-door",
+];
+
+describe("Extras follow what a hero's pool creates", () => {
   it.each([
     // Yorick's specialization Tales of Adventure names the Ashwing, and Shiyana
     // may run any hero's specialization cards.
@@ -90,12 +94,43 @@ describe("Created extras follow what a hero's pool creates", () => {
     expect(getLegalHeroes(extraCardIdentifier)).not.toContain(hero);
   });
 
+  // Crackni's hero cards read "become a random Agent of Chaos", and so does
+  // Mask of Deceit, which every Arakni may equip, Shiyana through any hero's
+  // specialization cards and Taylor through equipment of any class.
+  it.each(ARAKNI_DEMI_HEROES)(
+    "%s is legal for every hero who can become one",
+    (demiHeroCardIdentifier) => {
+      expect(getLegalHeroes(demiHeroCardIdentifier)).toEqual([
+        Hero.Arakni,
+        Hero.Crackni,
+        Hero.Shiyana,
+        Hero.Slippy,
+        Hero.Taylor,
+      ]);
+    },
+  );
+
   // Tales of Adventure is the only card in a Bard pool that names an Ashwing.
   it("Gives the chain for the one card that creates an extra", () => {
     expect(getCardCreationChain(Hero.Yorick, "aether-ashwing")).toEqual([
       {
         createdExtraCardIdentifier: "aether-ashwing",
         creatingCardIdentifier: "tales-of-adventure-blue",
+      },
+    ]);
+  });
+
+  // Taylor may have equipment of any class, so Mask of Deceit becomes an Orb
+  // Weaver, which equips the Chelicera.
+  it("Gives every step of a chain running through an extra", () => {
+    expect(getCardCreationChain(Hero.Taylor, "graphene-chelicera")).toEqual([
+      {
+        createdExtraCardIdentifier: "arakni-orb-weaver",
+        creatingCardIdentifier: "mask-of-deceit",
+      },
+      {
+        createdExtraCardIdentifier: "graphene-chelicera",
+        creatingCardIdentifier: "arakni-orb-weaver",
       },
     ]);
   });
@@ -125,15 +160,12 @@ describe("Created extras follow what a hero's pool creates", () => {
   // one their pool does.
   it("Every created extra is legal for the heroes whose pool creates it", () => {
     const mismatches: string[] = [];
-    // A chosen extra is picked at deckbuilding rather than put into play, so it
-    // creates nothing; every other card in a pool does.
-    const creatingCards = cards.filter((card) => !getIsChosenExtra(card));
 
     for (const card of cards) {
-      if (getCanBeCreatedExtra(card)) {
+      if (getCanBeCreated(card)) {
         const heroesCreatingExtra = new Set<Hero>();
 
-        for (const creatingCard of creatingCards) {
+        for (const creatingCard of cards) {
           const createsExtra = (creatingCard.createdExtras || []).includes(
             card.cardIdentifier,
           );
@@ -163,30 +195,18 @@ describe("Created extras follow what a hero's pool creates", () => {
   });
 });
 
-describe("Chosen extras follow class and talent", () => {
-  // Nothing puts a demi-hero into play, so creation is silent about them
-  // and Arakni keeps the ones she picks at deckbuilding.
-  it.each([
-    "arakni-black-widow",
-    "arakni-funnel-web",
-    "arakni-orb-weaver",
-    "arakni-redback",
-    "arakni-tarantula",
-    "arakni-trap-door",
-  ])("%s is legal for every Arakni", (demiHeroCardIdentifier) => {
-    expect(getLegalHeroes(demiHeroCardIdentifier)).toEqual([
-      Hero.Arakni,
-      Hero.Crackni,
-      Hero.Slippy,
-    ]);
-  });
-
-  // A macro belongs to the heroes its draft set is played with.
+// The format sets a macro up rather than a card putting it into play, so a
+// macro is the one extra class, talent and draft set still answer for.
+describe("Macros follow class and talent", () => {
   it.each([
     ["omens-of-arcana", [Hero.Aurora, Hero.Oscilio, Hero.Zyggy]],
     [
       "sanctuary-of-aria",
       [Hero.Aurora, Hero.Florian, Hero.Oscilio, Hero.Verdance],
+    ],
+    [
+      "treasure-island",
+      [Hero.GravyBones, Hero.Marlynn, Hero.Puffin, Hero.Scurv],
     ],
   ])("%s is legal for its draft heroes", (macroCardIdentifier, heroes) => {
     expect(getLegalHeroes(macroCardIdentifier)).toEqual(heroes);

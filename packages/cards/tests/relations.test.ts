@@ -5,6 +5,15 @@ import { cards } from "../dist/index";
 const getCard = (cardIdentifier: string) =>
   cards.find((card) => card.cardIdentifier === cardIdentifier) as Card;
 
+const ARAKNI_DEMI_HEROES = [
+  "arakni-black-widow",
+  "arakni-funnel-web",
+  "arakni-orb-weaver",
+  "arakni-redback",
+  "arakni-tarantula",
+  "arakni-trap-door",
+];
+
 describe("Created extras", () => {
   it.each([
     ["tales-of-adventure-blue", "aether-ashwing"],
@@ -80,6 +89,15 @@ describe("Created extras", () => {
       extraCardIdentifier,
     );
   });
+
+  // "become a random Agent of Chaos" names the group by its trait rather than
+  // naming a card, so every demi-hero carrying it is created.
+  it.each(["arakni-marionette", "arakni-web-of-deceit", "mask-of-deceit"])(
+    "%s creates every Agent of Chaos",
+    (cardIdentifier) => {
+      expect(getCard(cardIdentifier).createdExtras).toEqual(ARAKNI_DEMI_HEROES);
+    },
+  );
 
   it("Shatter Sorcery creates nothing", () => {
     expect(getCard("shatter-sorcery-blue").createdExtras).toBeUndefined();

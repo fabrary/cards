@@ -1,7 +1,6 @@
 import {
   Class,
-  getIsChosenExtra,
-  getCanBeCreatedExtra,
+  getCanBeCreated,
   getIsDeckCard,
   Hero,
   Keyword,
@@ -52,7 +51,6 @@ export interface ExtraCreatedByCard {
  * deck". A predicate is the escape hatch for the first clause with no name.
  */
 type DeckbuildingExemption =
-  | "agentOfChaos"
   | "anyClassClash"
   | "anyClassEquipment"
   | "anyClassSpecializations"
@@ -98,10 +96,7 @@ const MYSTIC = [Talent.Mystic];
 const SHADOW = [Talent.Shadow];
 
 const heroPools: { [key: string]: HeroPool } = {
-  [Hero.Arakni]: {
-    ...getClassesAndTalents([Class.Assassin]),
-    exemption: "agentOfChaos",
-  },
+  [Hero.Arakni]: getClassesAndTalents([Class.Assassin]),
   [Hero.Aurora]: getClassesAndTalents([Class.Runeblade], LIGHTNING),
   [Hero.Aurora2]: getClassesAndTalents([Class.Runeblade], [Talent.Lightning]),
   [Hero.Azalea]: getClassesAndTalents([Class.Ranger]),
@@ -235,15 +230,10 @@ const heroIdentities: { [key: string]: Hero[] } = {
 const HEROES: Hero[] = Object.values(Hero);
 const ALL_RELEASES = Object.values(Release);
 
-// The two cards whose role the type line does not give away.
 // "Tome" as a whole word: Tomeltai is a dragon.
 const TOME_NAME = /\bTomes?\b/i;
 
-/**
- * An extra a card puts into play, which is the whole of what a deck brings.
- * A demi-hero carries the Agent of Chaos trait, which reads as created, so the
- * chosen half has to be answered first: nothing puts a demi-hero into play.
- */
+/** Whether a card is written for one named hero, however its line says so. */
 const getIsSpecializationCard = (card: PoolCard) =>
   (card.specializations || []).length > 0 ||
   (card.metatypes || []).some((metatype) =>
@@ -255,8 +245,6 @@ const getIsExempt = (exemption: DeckbuildingExemption, card: PoolCard) => {
 
   if (typeof exemption === "function") {
     isExempt = exemption(card);
-  } else if (exemption === "agentOfChaos") {
-    isExempt = (card.traits || []).includes(Trait.AgentOfChaos);
   } else if (exemption === "anyClassClash") {
     // A specialization card is written for one hero, whatever else it does.
     isExempt =
@@ -407,8 +395,8 @@ const addCreatedExtra = (
  * The heroes each card is legal for, in two passes over the whole card list.
  *
  * Pass one settles class, talent and deckbuilding exemptions, which is the
- * whole rule for everything a deck is built from and for chosen extras. Pass
- * two hands each created extra to the heroes whose pool puts it into play,
+ * whole rule for everything a deck is built from and for macros. Pass two hands
+ * each extra a card can create to the heroes whose pool puts it into play,
  * reading the pools pass one produced. The order is what keeps the rule from
  * being circular: a hero's pool is decided by ordinary legality and never by
  * what its cards create, so the passes must not be merged.
@@ -423,16 +411,13 @@ export const getLegalHeroesByCard = (
   creationChainByHero.clear();
 
   for (const card of cards) {
-    if (getCanBeCreatedExtra(card)) {
+    if (getCanBeCreated(card)) {
       createdExtraCards.push(card);
     } else {
       const legalHeroes = getPoolHeroes(card);
       legalHeroesByCardIdentifier.set(card.cardIdentifier, legalHeroes);
 
-      // A chosen extra is picked at deckbuilding rather than put into play, so
-      // it creates nothing.
-      const createsExtras =
-        !getIsChosenExtra(card) && (card.createdExtras || []).length > 0;
+      const createsExtras = (card.createdExtras || []).length > 0;
 
       if (createsExtras) {
         for (const hero of legalHeroes) {
