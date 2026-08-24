@@ -15189,6 +15189,90 @@ exports[`Check for unintentional updates Apex Bonebreaker (apex-bonebreaker) vs 
 }
 `;
 
+exports[`Check for unintentional updates Apex Buster (apex-buster-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Surya Feby",
+  ],
+  "cardIdentifier": "apex-buster-yellow",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 3,
+  "defaultImage": "IAR039",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Instant** - {r}{r}, discard this: Destroy target card that is defending an attack you control with 6 or more base {p}.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Kayo",
+    "Levia",
+    "RKO",
+    "Rhinar",
+    "Tuffnut",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Apex Buster",
+  "pitch": 2,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "Surya Feby",
+      ],
+      "identifier": "IAR039",
+      "image": "IAR039",
+      "print": "IAR039",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Surya Feby",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR039",
+      "image": "IAR039-RF",
+      "print": "IAR039-Rainbow",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "IAR039",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR039",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Aphrodias (aphrodias) vs snapshot 1`] = `
 {
   "arcane": 2,
@@ -140370,6 +140454,91 @@ exports[`Check for unintentional updates Danger Digits (danger-digits) vs snapsh
     "Arms",
   ],
   "typeText": "Assassin / Ninja Equipment - Arms",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Danse Macabre (danse-macabre) vs snapshot 1`] = `
+{
+  "artists": [
+    "Amtepra",
+  ],
+  "cardIdentifier": "danse-macabre",
+  "classes": [
+    "Necromancer",
+  ],
+  "defaultImage": "IAR091-CF",
+  "defense": 1,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "Whenever an ally you control enters the arena, you may pay {r}{r} and {t} this. If you do, that ally's first attack this turn gets **go again** and destroy that ally at the beginning of the end phase.
+
+**Blade Break**",
+  "keywords": [
+    "Blade Break",
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Frankie",
+    "Gravy Bones",
+    "Malice",
+    "Taylor",
+  ],
+  "meta": [
+    "Arena",
+  ],
+  "name": "Danse Macabre",
+  "printings": [
+    {
+      "artists": [
+        "Amtepra",
+      ],
+      "foiling": "Cold",
+      "identifier": "IAR091",
+      "image": "IAR091-CF",
+      "print": "IAR091-Cold",
+      "rarity": "Legendary",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Amtepra",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR091",
+      "image": "IAR091-RF",
+      "print": "IAR091-Rainbow",
+      "rarity": "Legendary",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Legendary",
+  ],
+  "rarity": "Legendary",
+  "setIdentifiers": [
+    "IAR091",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Tap",
+  ],
+  "specialImage": "IAR091-CF",
+  "subtypes": [
+    "Legs",
+  ],
+  "typeText": "Necromancer Equipment - Legs",
   "types": [
     "Equipment",
   ],
@@ -268033,6 +268202,273 @@ When the combat chain closes, if you've attacked with this, banish it.
 }
 `;
 
+exports[`Check for unintentional updates Hellbound Assault (hellbound-assault-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Carlos Cruchaga",
+  ],
+  "cardIdentifier": "hellbound-assault-blue",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR013",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this hits, banish it.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Hellbound Assault",
+  "pitch": 3,
+  "power": 5,
+  "printings": [
+    {
+      "artists": [
+        "Carlos Cruchaga",
+      ],
+      "identifier": "IAR013",
+      "image": "IAR013",
+      "print": "IAR013",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Carlos Cruchaga",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR013",
+      "image": "IAR013-RF",
+      "print": "IAR013-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR013",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR013",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Hellbound Assault (hellbound-assault-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Carlos Cruchaga",
+  ],
+  "cardIdentifier": "hellbound-assault-red",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR011",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this hits, banish it.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Hellbound Assault",
+  "pitch": 1,
+  "power": 7,
+  "printings": [
+    {
+      "artists": [
+        "Carlos Cruchaga",
+      ],
+      "identifier": "IAR011",
+      "image": "IAR011",
+      "print": "IAR011",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Carlos Cruchaga",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR011",
+      "image": "IAR011-RF",
+      "print": "IAR011-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR011",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR011",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Hellbound Assault (hellbound-assault-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Carlos Cruchaga",
+  ],
+  "cardIdentifier": "hellbound-assault-yellow",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR012",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this hits, banish it.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Hellbound Assault",
+  "pitch": 2,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "Carlos Cruchaga",
+      ],
+      "identifier": "IAR012",
+      "image": "IAR012",
+      "print": "IAR012",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Carlos Cruchaga",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR012",
+      "image": "IAR012-RF",
+      "print": "IAR012-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR012",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR012",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Helm of Astral Sanctuary (helm-of-astral-sanctuary) vs snapshot 1`] = `
 {
   "artists": [
@@ -296926,6 +297362,91 @@ exports[`Check for unintentional updates Infuse Titanium (infuse-titanium-yellow
     "Attack",
   ],
   "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Ingest the Unknown (ingest-the-unknown-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "ingest-the-unknown-yellow",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 1,
+  "defaultImage": "IAR007",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, banish the top card of your deck. This gets +X{p}, where X is the banished card's base {p}.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Ingest the Unknown",
+  "pitch": 2,
+  "power": 0,
+  "printings": [
+    {
+      "artists": [
+        "Tomasz Jedruszek",
+      ],
+      "identifier": "IAR007",
+      "image": "IAR007",
+      "print": "IAR007",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Tomasz Jedruszek",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR007",
+      "image": "IAR007-RF",
+      "print": "IAR007-Rainbow",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "IAR007",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR007",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action - Attack",
   "types": [
     "Action",
   ],
