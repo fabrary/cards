@@ -1,6 +1,5 @@
 import { describe, expect, it, xit } from "@jest/globals";
 import {
-  DoubleSidedCard,
   Foiling,
   getIsArenaCard,
   Hero,
@@ -13,19 +12,7 @@ import {
 import { cards } from "@flesh-and-blood/cards";
 import Search from "../src/search";
 import { setToSetIdentifierMappings } from "@flesh-and-blood/types";
-
-const doubleSidedCards: DoubleSidedCard[] = cards.map((card) => {
-  if (card.oppositeSideCardIdentifier) {
-    const oppositeSideCard = cards.find(
-      ({ cardIdentifier }) =>
-        cardIdentifier === card.oppositeSideCardIdentifier,
-    );
-    if (oppositeSideCard) {
-      (card as DoubleSidedCard).oppositeSideCard = oppositeSideCard;
-    }
-  }
-  return card;
-});
+import { doubleSidedCards } from "./_doubleSidedCards";
 
 const exactSearches = [
   // Abbreviations & shorthands
@@ -103,6 +90,8 @@ const exactSearches = [
 
   // References
   [19, "references:copper"],
+  [49, 'references:"hyper driver"'],
+  [4, 'referencedby:"big bertha"'],
 
   // First release date
   [236, "year:2019"],
@@ -775,6 +764,111 @@ describe("Preview searches", () => {
     expect(searchResults.map(({ cardIdentifier }) => cardIdentifier)).toEqual(
       equivalentResults.map(({ cardIdentifier }) => cardIdentifier),
     );
+  });
+});
+
+describe("Relation filters", () => {
+  const cardSearch = new Search(doubleSidedCards);
+
+  const relationCounts = [
+    [49, 'references:"hyper driver"'],
+    [4, 'referencedby:"big bertha"'],
+    [40, 'chain:"aether ashwing"'],
+  ];
+
+  it.each(relationCounts)(
+    "Gets exactly %i cards for %s",
+    (resultCount, searchTerm) => {
+      const { searchResults } = cardSearch.search(searchTerm as string);
+
+      expect(searchResults.length).toEqual(resultCount);
+    },
+  );
+
+  const emptyChainSearches = ['chain:""', "chain:"];
+
+  it.each(emptyChainSearches)("Seeds no chain from %s", (searchTerm) => {
+    const { searchResults } = cardSearch.search(searchTerm);
+
+    expect(searchResults.length).toEqual(0);
+  });
+
+  it("Answers for every pitch of the card the argument names", () => {
+    const { searchResults } = cardSearch.search('references:"hyper driver"');
+    const cardIdentifiers = searchResults.map(
+      ({ cardIdentifier }) => cardIdentifier,
+    );
+
+    // Big Bertha names the pitched card and Speed Demon the token, and the
+    // argument resolves to every pitch, so both answer.
+    expect(cardIdentifiers).toEqual(
+      expect.arrayContaining([
+        "big-bertha-red",
+        "big-bertha-yellow",
+        "big-bertha-blue",
+        "speed-demon-red",
+      ]),
+    );
+  });
+
+  it("Expands a partly named cycle to every pitch", () => {
+    const { searchResults } = cardSearch.search('referencedby:"big bertha"');
+
+    expect(
+      searchResults.map(({ cardIdentifier }) => cardIdentifier).sort(),
+    ).toEqual([
+      "hyper-driver",
+      "hyper-driver-blue",
+      "hyper-driver-red",
+      "hyper-driver-yellow",
+    ]);
+  });
+
+  it("Matches every identifier it emitted and nothing besides", () => {
+    const { appliedFilters, searchResults } = cardSearch.search(
+      "references:runechant",
+    );
+
+    const identifierFilter = appliedFilters.find(
+      ({ filterToPropertyMapping }) =>
+        filterToPropertyMapping.property === "cardIdentifier",
+    );
+
+    expect(identifierFilter?.values.length).toBeGreaterThan(1);
+    expect(identifierFilter?.valuesSet?.size).toEqual(
+      identifierFilter?.values.length,
+    );
+    expect(
+      searchResults.map(({ cardIdentifier }) => cardIdentifier).sort(),
+    ).toEqual([...(identifierFilter?.values || [])].sort());
+  });
+
+  it("Leaves the rest of the corpus when the relation is excluded", () => {
+    const { searchResults } = cardSearch.search("references:runechant");
+    const { searchResults: remainingResults } = cardSearch.search(
+      "-references:runechant",
+    );
+
+    expect(remainingResults.length).toEqual(
+      doubleSidedCards.length - searchResults.length,
+    );
+    expect(
+      remainingResults.filter(({ cardIdentifier }) =>
+        searchResults.some(
+          (matched) => matched.cardIdentifier === cardIdentifier,
+        ),
+      ),
+    ).toEqual([]);
+  });
+
+  it("Chains the cards it collected, not the cards named like them", () => {
+    const { searchResults } = cardSearch.search('chain:"aether ashwing"');
+    const names = searchResults.map(({ name }) => name);
+
+    expect(names).toContain("Ash");
+    expect(names).not.toContain("Bash Brute");
+    expect(names).not.toContain("Cash In");
+    expect(names).not.toContain("Blade Flash");
   });
 });
 

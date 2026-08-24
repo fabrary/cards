@@ -18,6 +18,7 @@ import {
 import { memes } from "./memes.js";
 import { getNormalizedText } from "./helpers.js";
 import { FilterProperty } from "./metaFilters.js";
+import { buildSearchIndex, SearchIndex } from "./searchIndex.js";
 
 export interface SearchCard extends DoubleSidedCard {
   matchingPrintings?: Printing[];
@@ -42,6 +43,7 @@ class Search {
   private cards: DoubleSidedCard[];
   private debug: boolean;
   private fuse: Fuse<Card>;
+  private index: SearchIndex;
 
   constructor(
     cards: DoubleSidedCard[],
@@ -82,6 +84,7 @@ class Search {
     this.cards = [...cards];
     this.debug = debug;
     this.fuse = new Fuse([...cards], searchOptions);
+    this.index = buildSearchIndex(this.cards);
   }
 
   log = (message?: any, ...optionalParams: any[]) => {
@@ -96,7 +99,7 @@ class Search {
     const { appliedFilters, attributes, keywords } =
       getKeywordsAndAppliedFiltersFromText(
         text,
-        this.cards,
+        this.index,
         this.additionalHeroes,
         this.additionalSets,
       );
@@ -439,31 +442,29 @@ const getDoesCardMatchStringFilter = (
   } else {
     const {
       values,
+      valuesSet,
       isAnd,
       isExcluded: excluded,
-      filterToPropertyMapping: { partialMatch },
+      filterToPropertyMapping: { isNormalized, partialMatch },
     } = filter;
-    const cardValue = (getCardValue(card, filter) as string)?.replaceAll(
-      PUNCTUATION,
-      "",
-    );
+    const storedValue = getCardValue(card, filter) as string;
+    const cardValue = isNormalized
+      ? storedValue
+      : storedValue?.replaceAll(PUNCTUATION, "").toLowerCase();
     if (partialMatch) {
       const isPartialMatch = isAnd
-        ? values?.every((filterValue) =>
-            cardValue?.toLowerCase().includes(filterValue),
-          )
-        : values?.some((filterValue) =>
-            cardValue?.toLowerCase().includes(filterValue),
-          );
+        ? values?.every((filterValue) => cardValue?.includes(filterValue))
+        : values?.some((filterValue) => cardValue?.includes(filterValue));
       return excluded ? !isPartialMatch : isPartialMatch;
     } else {
-      const isFullMatch = isAnd
-        ? values?.every(
-            (filterValue) => cardValue?.toLowerCase() === filterValue,
-          )
-        : values?.some(
-            (filterValue) => cardValue?.toLowerCase() === filterValue,
-          );
+      let isFullMatch: boolean;
+      if (isAnd) {
+        isFullMatch = values?.every((filterValue) => cardValue === filterValue);
+      } else if (valuesSet) {
+        isFullMatch = valuesSet.has(cardValue);
+      } else {
+        isFullMatch = values?.some((filterValue) => cardValue === filterValue);
+      }
       return excluded ? !isFullMatch : isFullMatch;
     }
   }

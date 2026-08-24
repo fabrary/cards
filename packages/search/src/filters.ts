@@ -1,5 +1,5 @@
 import {
-  Card,
+  DoubleSidedCard,
   Foiling,
   Hero,
   Meta,
@@ -14,15 +14,22 @@ import { getAbbreviation } from "./abbreviations.js";
 import { getExcludedMetaFilters, getMetaFilters } from "./metaFilters.js";
 import { multiWordShorthands, singleWordShorthands } from "./shorthands.js";
 import { PUNCTUATION } from "./constants.js";
-import { getCardByName } from "./helpers.js";
 import {
-  getCardsByReferencedCardIdentifier,
-  getReferencedCards,
-} from "./related.js";
+  getCardsByName,
+  getCardsReferencedBy,
+  getCardsReferencing,
+  SearchIndex,
+} from "./searchIndex.js";
 
 export interface AppliedFilter {
   filterToPropertyMapping: FilterToPropertyMapping;
   values: string[];
+  /**
+   * The same strings as `values`, for filters whose match is exact membership
+   * rather than a comparison, so a card costs one lookup instead of a scan.
+   * Consumers read `values`; this is the matcher's copy.
+   */
+  valuesSet?: Set<string>;
   isAnd?: boolean;
   isOr?: boolean;
   modifier?: Modifier;
@@ -111,6 +118,12 @@ export interface FilterToPropertyMapping {
   isBoolean?: boolean;
   isDate?: boolean;
   isMeta?: boolean;
+  /**
+   * The card stores this property the way a filter value is written, so the
+   * matcher compares it as stored instead of stripping punctuation and case
+   * from it first.
+   */
+  isNormalized?: boolean;
   // optional?: Optional;
   modifier?: Modifier;
   partialMatch?: boolean;
@@ -139,6 +152,37 @@ const bondFilter: FilterToPropertyMapping = {
   property: "bonds",
   isArray: true,
 };
+
+// Membership in a set of cards the parser resolved. Deliberately absent from
+// the mappings a filter key reaches, so only the relation filters below can
+// apply it and no query can name it.
+const cardIdentifierFilter: FilterToPropertyMapping = {
+  property: "cardIdentifier",
+  isString: true,
+  isNormalized: true,
+};
+
+// A relation filter matches the cards the parser resolved rather than a value
+// the query wrote, so it builds its own applied filter instead of taking one
+// from the mapping its filter key reaches.
+const getRelationAppliedFilter = (
+  cardIdentifiers: Set<string>,
+  {
+    isAnd,
+    isExcluded,
+    isOptional,
+    modifier,
+  }: Pick<AppliedFilter, "isAnd" | "isExcluded" | "isOptional" | "modifier">,
+): AppliedFilter => ({
+  filterToPropertyMapping: cardIdentifierFilter,
+  values: [...cardIdentifiers],
+  valuesSet: cardIdentifiers,
+  isAnd,
+  isOr: true,
+  modifier,
+  isExcluded,
+  isOptional,
+});
 
 const chainFilter: FilterToPropertyMapping = {
   property: "n/a",
@@ -435,9 +479,14 @@ const getSearchCriteria = (text: string): string[] => {
   return searchCriteria;
 };
 
+// Caps how many cards a chain expands, not how deep into the chain it runs:
+// the walk stops once it has expanded one card past the cap, wherever it has
+// got to.
+const CHAIN_EXPANSION_LIMIT = 20;
+
 export const getKeywordsAndAppliedFiltersFromText = (
   text: string,
-  cards: Card[],
+  index: SearchIndex,
   additionalHeroes: Hero[] = [],
   additionalSets: Release[] = [],
   today: string = getTodayAsReleaseDate(),
@@ -504,11 +553,11 @@ export const getKeywordsAndAppliedFiltersFromText = (
 
       let { modifier, values, isAnd, isOr } =
         getFilterValuesAndModifier(unparsedFilterValue);
-      let { filterKey, isExcluded, isOptional, isMeta } =
+      const { filterKey, isExcluded, isOptional, isMeta } =
         getFilterKeyAndExcludedOrOptional(unparsedFilterKey);
 
-      // Set when every value produced its own applied filter, so the shared
-      // mapping below has nothing left to match on.
+      // Set when the branch below pushed the filters for its values itself, so
+      // the shared mapping after it has nothing left to match on.
       let areValuesAlreadyApplied = false;
 
       if (isMeta) {
@@ -549,88 +598,102 @@ export const getKeywordsAndAppliedFiltersFromText = (
         );
       } else {
         if (["chain"].includes(filterKey)) {
-          const getName = (card: Card) =>
-            card.name.toLowerCase().replaceAll(PUNCTUATION, "");
+          const chainedCardIdentifiers = new Set<string>();
+          const cardsToExpand: DoubleSidedCard[] = [];
+          const namesToExpand = new Set<string>();
 
-          const relatedCardNames: string[] = values
-            .map((name) => getCardByName(name, cards))
-            .filter((card) => !!card)
-            .map(getName);
-
-          const names = new Set<string>(relatedCardNames);
-
-          filterKey = "name";
-          isOr = true;
-          const limit = 20;
-          let counter = 0;
-
-          const addToSetAndRelated = (card: Card) => {
-            if (!card.types.includes(Type.Hero)) {
-              const name = getName(card);
-              names.add(name);
-              if (!relatedCardNames.includes(name)) {
-                relatedCardNames.push(name);
-              }
+          const addToChain = (card: DoubleSidedCard) => {
+            chainedCardIdentifiers.add(card.cardIdentifier);
+            if (!namesToExpand.has(card.name)) {
+              namesToExpand.add(card.name);
+              cardsToExpand.push(card);
             }
           };
 
-          const cardsByReferencedCardIdentifier =
-            getCardsByReferencedCardIdentifier(cards);
+          // A hero the walk reaches is left out of the chain, and so out of the
+          // expansion, so a chain never runs through everything a hero names. A
+          // hero the argument names is a seed and still joins and expands.
+          const addRelatedCardToChain = (card: DoubleSidedCard) => {
+            if (!card.types.includes(Type.Hero)) {
+              addToChain(card);
+            }
+          };
 
-          for (const relatedCardName of relatedCardNames) {
-            if (counter > limit) {
-              break;
-            }
-            const relatedCard = getCardByName(relatedCardName, cards);
-            getReferencedCards(relatedCard, cards).forEach(addToSetAndRelated);
-            if (counter === 0 && relatedCard) {
-              const referencingCards =
-                cardsByReferencedCardIdentifier.get(
-                  relatedCard.cardIdentifier,
-                ) || [];
-              referencingCards.forEach(addToSetAndRelated);
-            }
-            counter++;
-          }
-          values = Array.from(names);
-        } else if (["referencedby", "references"].includes(filterKey)) {
-          // `referencedby:` asks what a card names, `references:` who names it.
-          const isNamedByFilter = ["referencedby"].includes(filterKey);
-          const relatedCardNames = [...values].filter((value) => !!value);
-          values = [];
-          filterKey = "name";
-          isOr = true;
-
-          const relatedCards: Card[] = [];
-          if (isNamedByFilter) {
-            for (const relatedCardName of relatedCardNames) {
-              relatedCards.push(
-                ...getReferencedCards(
-                  getCardByName(relatedCardName, cards),
-                  cards,
-                ),
-              );
-            }
-          } else {
-            const cardsByReferencedCardIdentifier =
-              getCardsByReferencedCardIdentifier(cards);
-            for (const relatedCardName of relatedCardNames) {
-              const relatedCard = getCardByName(relatedCardName, cards);
-              if (relatedCard) {
-                const referencingCards =
-                  cardsByReferencedCardIdentifier.get(
-                    relatedCard.cardIdentifier,
-                  ) || [];
-                relatedCards.push(...referencingCards);
+          for (const value of values) {
+            // An empty value sits inside every name, so it would resolve to
+            // whichever card the corpus holds first.
+            if (value) {
+              for (const seedCard of getCardsByName(index, value)) {
+                addToChain(seedCard);
               }
             }
           }
 
-          values.push(
-            ...relatedCards.map(({ name }) =>
-              name.toLowerCase().replaceAll(PUNCTUATION, ""),
-            ),
+          let expansions = 0;
+          for (const cardToExpand of cardsToExpand) {
+            if (expansions > CHAIN_EXPANSION_LIMIT) {
+              break;
+            }
+
+            for (const referencedCard of getCardsReferencedBy(
+              index,
+              cardToExpand,
+            )) {
+              addRelatedCardToChain(referencedCard);
+            }
+
+            const isSeed = expansions === 0;
+            if (isSeed) {
+              for (const referencingCard of getCardsReferencing(
+                index,
+                cardToExpand,
+              )) {
+                addRelatedCardToChain(referencingCard);
+              }
+            }
+
+            expansions++;
+          }
+
+          appliedFilters.push(
+            getRelationAppliedFilter(chainedCardIdentifiers, {
+              isAnd,
+              isExcluded,
+              isOptional,
+              modifier,
+            }),
           );
+          areValuesAlreadyApplied = true;
+        } else if (["referencedby", "references"].includes(filterKey)) {
+          // `referencedby:` asks what a card names, `references:` who names it.
+          const isNamedByFilter = ["referencedby"].includes(filterKey);
+          const relatedCardIdentifiers = new Set<string>();
+
+          for (const value of values) {
+            // An empty value sits inside every name, so it would resolve to
+            // whichever card the corpus holds first.
+            if (value) {
+              for (const namedCard of getCardsByName(index, value)) {
+                const cardsInRelation = isNamedByFilter
+                  ? getCardsReferencedBy(index, namedCard)
+                  : getCardsReferencing(index, namedCard);
+
+                for (const relatedCard of cardsInRelation) {
+                  relatedCardIdentifiers.add(relatedCard.cardIdentifier);
+                }
+              }
+            }
+          }
+
+          appliedFilters.push(
+            getRelationAppliedFilter(relatedCardIdentifiers, {
+              isAnd,
+              isExcluded,
+              isOptional,
+              modifier,
+            }),
+          );
+          areValuesAlreadyApplied = true;
         } else if (["art", "artist"].includes(filterKey)) {
           artists = values;
         } else if (
@@ -723,13 +786,12 @@ export const getKeywordsAndAppliedFiltersFromText = (
         } else if (["pitch", "p", "color"].includes(filterKey)) {
           values = getPitchValuesFromText(values);
         }
-        if (
-          filtersToCardPropertyMappings[filterKey as Filter] &&
-          !areValuesAlreadyApplied
-        ) {
+        const filterToPropertyMapping =
+          filtersToCardPropertyMappings[filterKey as Filter];
+
+        if (filterToPropertyMapping && !areValuesAlreadyApplied) {
           appliedFilters.push({
-            filterToPropertyMapping:
-              filtersToCardPropertyMappings[filterKey as Filter],
+            filterToPropertyMapping,
             values,
             isAnd,
             isOr,

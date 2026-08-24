@@ -44,10 +44,10 @@ export const getReferencedCards = (
  * answers the reverse relation for every card in the corpus, so a page or a
  * filter asking about several of them builds this once.
  */
-export const getCardsByReferencedCardIdentifier = (
-  cards: Card[],
-): Map<string, Card[]> => {
-  const cardsByReferencedCardIdentifier = new Map<string, Card[]>();
+export const getCardsByReferencedCardIdentifier = <CardType extends Card>(
+  cards: CardType[],
+): Map<string, CardType[]> => {
+  const cardsByReferencedCardIdentifier = new Map<string, CardType[]>();
 
   for (const card of cards) {
     for (const referencedCardIdentifier of card.referencedCards || []) {
