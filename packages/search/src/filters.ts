@@ -14,6 +14,7 @@ import { getAbbreviation } from "./abbreviations.js";
 import { getExcludedMetaFilters, getMetaFilters } from "./metaFilters.js";
 import { multiWordShorthands, singleWordShorthands } from "./shorthands.js";
 import { PUNCTUATION } from "./constants.js";
+import { getTextWithoutMarkup } from "./helpers.js";
 import {
   getCardsByName,
   getCardsReferencedBy,
@@ -117,6 +118,13 @@ export interface FilterToPropertyMapping {
   isString?: boolean;
   isBoolean?: boolean;
   isDate?: boolean;
+  /**
+   * The card stores this property with markdown emphasis around its keywords,
+   * so the matcher strips that from both sides. A searched phrase then reads
+   * the text the way the card renders it rather than the way it is stored,
+   * and a phrase spanning a keyword boundary still matches.
+   */
+  hasMarkup?: boolean;
   isMeta?: boolean;
   /**
    * The card stores this property the way a filter value is written, so the
@@ -326,6 +334,7 @@ const talentFilter: FilterToPropertyMapping = {
 
 const textFilter: FilterToPropertyMapping = {
   property: "functionalText",
+  hasMarkup: true,
   isString: true,
   partialMatch: true,
 };
@@ -792,7 +801,9 @@ export const getKeywordsAndAppliedFiltersFromText = (
         if (filterToPropertyMapping && !areValuesAlreadyApplied) {
           appliedFilters.push({
             filterToPropertyMapping,
-            values,
+            values: filterToPropertyMapping.hasMarkup
+              ? values.map((value) => getTextWithoutMarkup(value))
+              : values,
             isAnd,
             isOr,
             modifier,

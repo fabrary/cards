@@ -79,6 +79,7 @@ const exactSearches = [
 
   // Text
   [19, "text:copper"],
+  [390, 'text:"gets go again"', 'text:"gets **go again**"'],
 
   // Chain
   [10, "chain:dishonor"],

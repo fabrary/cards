@@ -16,7 +16,7 @@ import {
   getKeywordsAndAppliedFiltersFromText,
 } from "./filters.js";
 import { memes } from "./memes.js";
-import { getNormalizedText } from "./helpers.js";
+import { getNormalizedText, getTextWithoutMarkup } from "./helpers.js";
 import { FilterProperty } from "./metaFilters.js";
 import { buildSearchIndex, SearchIndex } from "./searchIndex.js";
 
@@ -62,7 +62,13 @@ class Search {
             getNormalizedText(val.replace(PUNCTUATION, "")),
           );
         } else {
-          return getNormalizedText(value as string).replace(PUNCTUATION, "");
+          const text = getNormalizedText(value as string).replace(
+            PUNCTUATION,
+            "",
+          );
+          return path.includes("functionalText")
+            ? getTextWithoutMarkup(text)
+            : text;
         }
       },
       ignoreLocation: true,
@@ -445,12 +451,16 @@ const getDoesCardMatchStringFilter = (
       valuesSet,
       isAnd,
       isExcluded: excluded,
-      filterToPropertyMapping: { isNormalized, partialMatch },
+      filterToPropertyMapping: { hasMarkup, isNormalized, partialMatch },
     } = filter;
     const storedValue = getCardValue(card, filter) as string;
-    const cardValue = isNormalized
+    const normalizedValue = isNormalized
       ? storedValue
       : storedValue?.replaceAll(PUNCTUATION, "").toLowerCase();
+    const cardValue =
+      hasMarkup && normalizedValue
+        ? getTextWithoutMarkup(normalizedValue)
+        : normalizedValue;
     if (partialMatch) {
       const isPartialMatch = isAnd
         ? values?.every((filterValue) => cardValue?.includes(filterValue))
