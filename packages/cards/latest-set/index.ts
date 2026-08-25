@@ -2242,6 +2242,82 @@ You may play an aura with Runechant in its name from your banished zone this tur
   
   
   },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "forsaken-strike-yellow",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR057",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Forsaken Strike",
+    printings: [{
+        artists: ["Tanapon Wachirakul"],
+      
+      identifier: "IAR057",
+      image: "IAR057",
+      
+      
+      print: "IAR057",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Tanapon Wachirakul"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR057",
+      image: "IAR057-RF",
+      
+      
+      print: "IAR057-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR057"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR057",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Attack",
+
+    
+    
+    cost: 0,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `As an additional cost to play this, you may destroy up to 3 zombies you control and/or discard up to 3 zombies. Choose a mode for each zombie destroyed or discarded this way;
+- Create a Gate to i'Arathael token.
+- This gets +2{p}.
+- This gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 2,
+    power: 3,referencedCards: ["gate-to-iarathael"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "gate-to-iarathael",
     classes: [Class.NotClassed],
@@ -4046,6 +4122,81 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
   
   
   },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "restless-corporal-red",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR085",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Restless Corporal",
+    printings: [{
+        artists: ["Faizal Fikri"],
+      
+      identifier: "IAR085",
+      image: "IAR085",
+      
+      
+      print: "IAR085",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.Cold,
+      identifier: "IAR085",
+      image: "IAR085-MV",
+      
+      
+      print: "IAR085-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },],
+    rarities: [Rarity.Common,Rarity.Marvel],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR085"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR085-MV",
+    subtypes: [Subtype.Ally,Subtype.NonAttack,Subtype.Zombie],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Zombie Ally",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `**Action** - {t}: Put a card from your banished zone into your graveyard. **Go again**
+
+**Decay**`,
+    
+    
+    
+    
+    keywords: [Keyword.Decay],
+    
+    life: 3,
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 3,
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "restless-magister-red",
     classes: [Class.Necromancer],
@@ -4108,6 +4259,81 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
     
     pitch: 1,
     power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "restless-outlaw-red",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR086",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Restless Outlaw",
+    printings: [{
+        artists: ["Kevin Sidharta"],
+      
+      identifier: "IAR086",
+      image: "IAR086",
+      
+      
+      print: "IAR086",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Kevin Sidharta"],
+      foiling: Foiling.Cold,
+      identifier: "IAR086",
+      image: "IAR086-MV",
+      
+      
+      print: "IAR086-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },],
+    rarities: [Rarity.Common,Rarity.Marvel],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR086"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR086-MV",
+    subtypes: [Subtype.Ally,Subtype.NonAttack,Subtype.Zombie],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Zombie Ally",
+
+    
+    
+    cost: 0,createdExtras: ["corrupted-corpse"],
+    
+    
+    functionalText: `When this dies, create a Corrupted Corpse in your banished zone.
+
+**Decay**`,
+    
+    
+    
+    
+    keywords: [Keyword.Decay],
+    
+    life: 3,
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 3,referencedCards: ["corrupted-corpse"],
     
     
     

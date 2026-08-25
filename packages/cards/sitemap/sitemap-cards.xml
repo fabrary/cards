@@ -8751,6 +8751,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/forsaken-strike-yellow</loc>
+    <lastmod>2026-08-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/fortitude-of-anvilheim</loc>
     <lastmod>2026-05-16</lastmod>
     <priority>0.5</priority>
@@ -16941,8 +16946,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/restless-corporal-red</loc>
+    <lastmod>2026-08-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/restless-magister-red</loc>
     <lastmod>2026-07-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/restless-outlaw-red</loc>
+    <lastmod>2026-08-25</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
