@@ -5211,6 +5211,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/cullingsong-gloomblade-red</loc>
+    <lastmod>2026-08-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/current-funnel-blue</loc>
     <lastmod>2024-09-07</lastmod>
     <priority>0.5</priority>
@@ -17806,6 +17811,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/runic-disposition-red</loc>
+    <lastmod>2026-08-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/runic-disposition-yellow</loc>
+    <lastmod>2026-08-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/runic-disposition-blue</loc>
+    <lastmod>2026-08-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/runic-fellingsong-red</loc>
     <lastmod>2026-01-29</lastmod>
     <priority>0.5</priority>
@@ -20113,6 +20133,11 @@
   <url>
     <loc>https://fabrary.net/cards/sonata-arcanix-red</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/sonata-dystopia-blue</loc>
+    <lastmod>2026-08-26</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

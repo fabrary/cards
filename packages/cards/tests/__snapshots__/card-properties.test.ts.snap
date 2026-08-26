@@ -227664,6 +227664,98 @@ exports[`Check for unintentional updates Forked Lightning (forked-lightning-red)
 }
 `;
 
+exports[`Check for unintentional updates Forsaken Strike (forsaken-strike-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tanapon Wachirakul",
+  ],
+  "cardIdentifier": "forsaken-strike-yellow",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "IAR057",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "As an additional cost to play this, you may destroy up to 3 zombies you control and/or discard up to 3 zombies. Choose a mode for each zombie destroyed or discarded this way;
+- Create a Gate to i'Arathael token.
+- This gets +2{p}.
+- This gets **go again**.",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Forsaken Strike",
+  "pitch": 2,
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Tanapon Wachirakul",
+      ],
+      "identifier": "IAR057",
+      "image": "IAR057",
+      "print": "IAR057",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Tanapon Wachirakul",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR057",
+      "image": "IAR057-RF",
+      "print": "IAR057-Rainbow",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "IAR057",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR057",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Fortitude of Anvilheim (fortitude-of-anvilheim) vs snapshot 1`] = `
 {
   "artists": [
@@ -447964,6 +448056,102 @@ exports[`Check for unintentional updates Restless Commander (restless-commander-
 }
 `;
 
+exports[`Check for unintentional updates Restless Corporal (restless-corporal-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Faizal Fikri",
+  ],
+  "cardIdentifier": "restless-corporal-red",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "defaultImage": "IAR085",
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Action** - {t}: Put a card from your banished zone into your graveyard. **Go again**
+
+**Decay**",
+  "keywords": [
+    "Decay",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "life": 3,
+  "meta": [
+    "Deck",
+  ],
+  "name": "Restless Corporal",
+  "pitch": 1,
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Faizal Fikri",
+      ],
+      "identifier": "IAR085",
+      "image": "IAR085",
+      "print": "IAR085",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Faizal Fikri",
+      ],
+      "foiling": "Cold",
+      "identifier": "IAR085",
+      "image": "IAR085-MV",
+      "print": "IAR085-Cold-Full Art",
+      "rarity": "Marvel",
+      "set": "Usurp the Shadow Throne",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
+  ],
+  "rarities": [
+    "Common",
+    "Marvel",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR085",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Tap",
+  ],
+  "specialImage": "IAR085-MV",
+  "subtypes": [
+    "Ally",
+    "Non-Attack",
+    "Zombie",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action - Zombie Ally",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Restless Magister (restless-magister-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -448042,6 +448230,105 @@ exports[`Check for unintentional updates Restless Magister (restless-magister-re
     "Usurp the Shadow Throne",
   ],
   "specialImage": "IAR064-MV",
+  "subtypes": [
+    "Ally",
+    "Non-Attack",
+    "Zombie",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action - Zombie Ally",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Restless Outlaw (restless-outlaw-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Kevin Sidharta",
+  ],
+  "cardIdentifier": "restless-outlaw-red",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "corrupted-corpse",
+  ],
+  "defaultImage": "IAR086",
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this dies, create a Corrupted Corpse in your banished zone.
+
+**Decay**",
+  "keywords": [
+    "Decay",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "life": 3,
+  "meta": [
+    "Deck",
+  ],
+  "name": "Restless Outlaw",
+  "pitch": 1,
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Kevin Sidharta",
+      ],
+      "identifier": "IAR086",
+      "image": "IAR086",
+      "print": "IAR086",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Kevin Sidharta",
+      ],
+      "foiling": "Cold",
+      "identifier": "IAR086",
+      "image": "IAR086-MV",
+      "print": "IAR086-Cold-Full Art",
+      "rarity": "Marvel",
+      "set": "Usurp the Shadow Throne",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
+  ],
+  "rarities": [
+    "Common",
+    "Marvel",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "corrupted-corpse",
+  ],
+  "setIdentifiers": [
+    "IAR086",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR086-MV",
   "subtypes": [
     "Ally",
     "Non-Attack",

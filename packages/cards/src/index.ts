@@ -105069,6 +105069,85 @@ Each hero banishes a card from their hand.
   
   
   },{
+    artists: ["YDZ"],
+    cardIdentifier: "cullingsong-gloomblade-red",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR115",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Cullingsong Gloomblade",
+    printings: [{
+        artists: ["YDZ"],
+      
+      identifier: "IAR115",
+      image: "IAR115",
+      
+      
+      print: "IAR115",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["YDZ"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR115",
+      image: "IAR115-RF",
+      
+      
+      print: "IAR115-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR115"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR115",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `You may play this from your banished zone.
+
+**Usurp**
+
+When this hits a hero, they banish a card from their hand.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Reza Afshar"],
     cardIdentifier: "current-funnel-blue",
     classes: [Class.NotClassed],
@@ -160180,7 +160259,8 @@ The next time you would be dealt damage this turn, prevent it.`,
     
   
   
-  },{
+  }];
+const cards3: Card[] = [{
     artists: ["Hilary Purnamasari"],
     cardIdentifier: "feisty-locals-yellow",
     classes: [Class.Generic],
@@ -160274,8 +160354,7 @@ The next time you would be dealt damage this turn, prevent it.`,
     
   
   
-  }];
-const cards3: Card[] = [{
+  },{
     artists: ["Hilary Purnamasari"],
     cardIdentifier: "feisty-locals-blue",
     classes: [Class.Generic],
@@ -241864,7 +241943,8 @@ If you have no cards in hand, draw a card.`,
     
   
   
-  },{
+  }];
+const cards4: Card[] = [{
     artists: ["Wisnu Tan"],
     cardIdentifier: "kiss-of-death-red",
     classes: [Class.Assassin],
@@ -241960,8 +242040,7 @@ When this hits a hero, they lose 1{h}.`,
     
   
   
-  }];
-const cards4: Card[] = [{
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "knick-knack-bric-a-brac-red",
     classes: [Class.Generic],
@@ -323338,7 +323417,8 @@ If you've attacked with a weapon this turn, your next attack this turn gets **do
     
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Camille Alquier"],
     cardIdentifier: "push-forward-blue",
     classes: [Class.Warrior],
@@ -323451,8 +323531,7 @@ If you've attacked with a weapon this turn, your next attack this turn gets **do
     
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "push-the-point-red",
     classes: [Class.Generic],
@@ -360680,6 +360759,231 @@ At the beginning of your action phase or when you play an attack action card, de
     
     pitch: 3,
     power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Bo Setiaji"],
+    cardIdentifier: "runic-disposition-red",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR146",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Viserai2,Hero.Vynnset],
+    name: "Runic Disposition",
+    printings: [{
+        artists: ["Bo Setiaji"],
+      
+      identifier: "IAR146",
+      image: "IAR146",
+      
+      
+      print: "IAR146",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Bo Setiaji"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR146",
+      image: "IAR146-RF",
+      
+      
+      print: "IAR146-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR146"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR146",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Runeblade Action - Attack",
+
+    
+    
+    cost: 2,createdExtras: ["runechant"],
+    defense: 2,
+    
+    functionalText: `**Usurp**
+
+**Instant** - Discard this: Create a Runechant token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 6,referencedCards: ["runechant"],
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Bo Setiaji"],
+    cardIdentifier: "runic-disposition-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR147",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Viserai2,Hero.Vynnset],
+    name: "Runic Disposition",
+    printings: [{
+        artists: ["Bo Setiaji"],
+      
+      identifier: "IAR147",
+      image: "IAR147",
+      
+      
+      print: "IAR147",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Bo Setiaji"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR147",
+      image: "IAR147-RF",
+      
+      
+      print: "IAR147-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR147"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR147",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Runeblade Action - Attack",
+
+    
+    
+    cost: 2,createdExtras: ["runechant"],
+    defense: 2,
+    
+    functionalText: `**Usurp**
+
+**Instant** - Discard this: Create a Runechant token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 5,referencedCards: ["runechant"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Bo Setiaji"],
+    cardIdentifier: "runic-disposition-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR148",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Viserai2,Hero.Vynnset],
+    name: "Runic Disposition",
+    printings: [{
+        artists: ["Bo Setiaji"],
+      
+      identifier: "IAR148",
+      image: "IAR148",
+      
+      
+      print: "IAR148",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Bo Setiaji"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR148",
+      image: "IAR148-RF",
+      
+      
+      print: "IAR148-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR148"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR148",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Runeblade Action - Attack",
+
+    
+    
+    cost: 2,createdExtras: ["runechant"],
+    defense: 2,
+    
+    functionalText: `**Usurp**
+
+**Instant** - Discard this: Create a Runechant token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 4,referencedCards: ["runechant"],
     
     
     
@@ -403927,7 +404231,8 @@ When this attacks, if this was **fused**, you may activate abilities of bows you
     talents: [Talent.Elemental],
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Federico Musetti"],
     cardIdentifier: "snap-shot-blue",
     classes: [Class.Ranger],
@@ -404431,8 +404736,7 @@ If you've played another Wizard non-attack action card this turn, you may play t
     
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Adolfo Navarro"],
     cardIdentifier: "snapdragon-scalers",
     classes: [Class.Generic],
@@ -406928,6 +407232,81 @@ For each non-attack action card revealed this way, put an attack action card rev
     
     specialArcane: "X",
     specialCost: "XX",
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Arkoii"],
+    cardIdentifier: "sonata-dystopia-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR144",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Viserai2,Hero.Vynnset],
+    name: "Sonata Dystopia",
+    printings: [{
+        artists: ["Arkoii"],
+      
+      identifier: "IAR144",
+      image: "IAR144",
+      
+      
+      print: "IAR144",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Arkoii"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR144",
+      image: "IAR144-RF",
+      
+      
+      print: "IAR144-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR144"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR144",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Runeblade Action",
+
+    
+    
+    createdExtras: ["runechant"],
+    defense: 3,
+    
+    functionalText: `As an additional cost to play this, destroy X Runechants you control.
+
+The next attack action card you play this turn costs {x} less to play and gets +X{p}, **overpower**, and "When this hits, create X Runechant tokens." **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Overpower],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    referencedCards: ["runechant"],
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    specialCost: "X",
     
     
     
@@ -482630,7 +483009,8 @@ Equip X weapons and/or equipment from your inventory.`,
     
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Jen Santos"],
     cardIdentifier: "visit-the-prize-room-blue",
     classes: [Class.Warrior],
@@ -483157,8 +483537,7 @@ Create a Vigor and a Courage token. **Go again**`,
     talents: [Talent.Shadow],
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Alexis Susani"],
     cardIdentifier: "volatile-fluxor-red",
     classes: [Class.NotClassed],
