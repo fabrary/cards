@@ -4876,6 +4876,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/countdown-to-extinction-red</loc>
+    <lastmod>2026-08-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/countdown-to-extinction-yellow</loc>
+    <lastmod>2026-08-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/countdown-to-extinction-blue</loc>
+    <lastmod>2026-08-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/courage</loc>
     <lastmod>2023-06-30</lastmod>
     <priority>0.5</priority>
@@ -5408,6 +5423,21 @@
   <url>
     <loc>https://fabrary.net/cards/danse-macabre</loc>
     <lastmod>2026-08-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/darkest-hour-red</loc>
+    <lastmod>2026-08-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/darkest-hour-yellow</loc>
+    <lastmod>2026-08-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/darkest-hour-blue</loc>
+    <lastmod>2026-08-26</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -15173,6 +15203,11 @@
   <url>
     <loc>https://fabrary.net/cards/plunder-the-poor-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/plundersong-gloomblade-red</loc>
+    <lastmod>2026-08-26</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

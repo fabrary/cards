@@ -135859,6 +135859,99 @@ Each hero banishes a card from their hand.
 }
 `;
 
+exports[`Check for unintentional updates Cullingsong Gloomblade (cullingsong-gloomblade-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "YDZ",
+  ],
+  "cardIdentifier": "cullingsong-gloomblade-red",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 0,
+  "defaultImage": "IAR115",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "You may play this from your banished zone.
+
+**Usurp**
+
+When this hits a hero, they banish a card from their hand.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Usurp",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Chane",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Cullingsong Gloomblade",
+  "pitch": 1,
+  "power": 2,
+  "printings": [
+    {
+      "artists": [
+        "YDZ",
+      ],
+      "identifier": "IAR115",
+      "image": "IAR115",
+      "print": "IAR115",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "YDZ",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR115",
+      "image": "IAR115-RF",
+      "print": "IAR115-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR115",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR115",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Current Funnel (current-funnel-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -471228,6 +471321,300 @@ exports[`Check for unintentional updates Runerager Swarm (runerager-swarm-yellow
 }
 `;
 
+exports[`Check for unintentional updates Runic Disposition (runic-disposition-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Bo Setiaji",
+  ],
+  "cardIdentifier": "runic-disposition-blue",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 2,
+  "createdExtras": [
+    "runechant",
+  ],
+  "defaultImage": "IAR148",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Usurp**
+
+**Instant** - Discard this: Create a Runechant token.",
+  "keywords": [
+    "Usurp",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Aurora",
+    "Aurora2",
+    "Briar",
+    "Chane",
+    "Florian",
+    "Viserai",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Runic Disposition",
+  "pitch": 3,
+  "power": 4,
+  "printings": [
+    {
+      "artists": [
+        "Bo Setiaji",
+      ],
+      "identifier": "IAR148",
+      "image": "IAR148",
+      "print": "IAR148",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Bo Setiaji",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR148",
+      "image": "IAR148-RF",
+      "print": "IAR148-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "referencedCards": [
+    "runechant",
+  ],
+  "setIdentifiers": [
+    "IAR148",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR148",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Runic Disposition (runic-disposition-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Bo Setiaji",
+  ],
+  "cardIdentifier": "runic-disposition-red",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 2,
+  "createdExtras": [
+    "runechant",
+  ],
+  "defaultImage": "IAR146",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Usurp**
+
+**Instant** - Discard this: Create a Runechant token.",
+  "keywords": [
+    "Usurp",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Aurora",
+    "Aurora2",
+    "Briar",
+    "Chane",
+    "Florian",
+    "Viserai",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Runic Disposition",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "Bo Setiaji",
+      ],
+      "identifier": "IAR146",
+      "image": "IAR146",
+      "print": "IAR146",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Bo Setiaji",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR146",
+      "image": "IAR146-RF",
+      "print": "IAR146-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "referencedCards": [
+    "runechant",
+  ],
+  "setIdentifiers": [
+    "IAR146",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR146",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Runic Disposition (runic-disposition-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Bo Setiaji",
+  ],
+  "cardIdentifier": "runic-disposition-yellow",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 2,
+  "createdExtras": [
+    "runechant",
+  ],
+  "defaultImage": "IAR147",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Usurp**
+
+**Instant** - Discard this: Create a Runechant token.",
+  "keywords": [
+    "Usurp",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Aurora",
+    "Aurora2",
+    "Briar",
+    "Chane",
+    "Florian",
+    "Viserai",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Runic Disposition",
+  "pitch": 2,
+  "power": 5,
+  "printings": [
+    {
+      "artists": [
+        "Bo Setiaji",
+      ],
+      "identifier": "IAR147",
+      "image": "IAR147",
+      "print": "IAR147",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Bo Setiaji",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR147",
+      "image": "IAR147-RF",
+      "print": "IAR147-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "referencedCards": [
+    "runechant",
+  ],
+  "setIdentifiers": [
+    "IAR147",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR147",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Runic Fellingsong (runic-fellingsong-blue) vs snapshot 1`] = `
 {
   "arcane": 1,
@@ -531231,6 +531618,104 @@ For each non-attack action card revealed this way, put an attack action card rev
   "specialArcane": "X",
   "specialCost": "XX",
   "specialImage": "MON231-RF",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Runeblade Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Sonata Dystopia (sonata-dystopia-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Arkoii",
+  ],
+  "cardIdentifier": "sonata-dystopia-blue",
+  "classes": [
+    "Runeblade",
+  ],
+  "createdExtras": [
+    "runechant",
+  ],
+  "defaultImage": "IAR144",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "As an additional cost to play this, destroy X Runechants you control.
+
+The next attack action card you play this turn costs {x} less to play and gets +X{p}, **overpower**, and "When this hits, create X Runechant tokens." **Go again**",
+  "keywords": [
+    "Go again",
+    "Overpower",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Aurora",
+    "Aurora2",
+    "Briar",
+    "Chane",
+    "Florian",
+    "Viserai",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Sonata Dystopia",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Arkoii",
+      ],
+      "identifier": "IAR144",
+      "image": "IAR144",
+      "print": "IAR144",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Arkoii",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR144",
+      "image": "IAR144-RF",
+      "print": "IAR144-Rainbow",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "referencedCards": [
+    "runechant",
+  ],
+  "setIdentifiers": [
+    "IAR144",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialCost": "X",
+  "specialImage": "IAR144",
   "subtypes": [
     "Non-Attack",
   ],

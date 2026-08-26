@@ -1786,6 +1786,237 @@ This card's attacks get **go again**.
   
   
   },{
+    artists: ["Nailsen Ivanderlie"],
+    cardIdentifier: "countdown-to-extinction-red",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR167",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Countdown to Extinction",
+    printings: [{
+        artists: ["Nailsen Ivanderlie"],
+      
+      identifier: "IAR167",
+      image: "IAR167",
+      
+      
+      print: "IAR167",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Nailsen Ivanderlie"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR167",
+      image: "IAR167-RF",
+      
+      
+      print: "IAR167-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR167"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR167",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 3,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `When this attacks, create a Gate to i'Arathael token.
+
+When this hits, you may search your deck for a Darkest Hour, banish it, then shuffle.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 6,referencedCards: ["darkest-hour-blue","darkest-hour-red","darkest-hour-yellow","gate-to-iarathael"],
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Nailsen Ivanderlie"],
+    cardIdentifier: "countdown-to-extinction-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR168",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Countdown to Extinction",
+    printings: [{
+        artists: ["Nailsen Ivanderlie"],
+      
+      identifier: "IAR168",
+      image: "IAR168",
+      
+      
+      print: "IAR168",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Nailsen Ivanderlie"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR168",
+      image: "IAR168-RF",
+      
+      
+      print: "IAR168-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR168"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR168",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 3,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `When this attacks, create a Gate to i'Arathael token.
+
+When this hits, you may search your deck for a Darkest Hour, banish it, then shuffle.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 5,referencedCards: ["darkest-hour-blue","darkest-hour-red","darkest-hour-yellow","gate-to-iarathael"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Nailsen Ivanderlie"],
+    cardIdentifier: "countdown-to-extinction-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR169",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Countdown to Extinction",
+    printings: [{
+        artists: ["Nailsen Ivanderlie"],
+      
+      identifier: "IAR169",
+      image: "IAR169",
+      
+      
+      print: "IAR169",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Nailsen Ivanderlie"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR169",
+      image: "IAR169-RF",
+      
+      
+      print: "IAR169-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR169"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR169",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 3,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `When this attacks, create a Gate to i'Arathael token.
+
+When this hits, you may search your deck for a Darkest Hour, banish it, then shuffle.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 4,referencedCards: ["darkest-hour-blue","darkest-hour-red","darkest-hour-yellow","gate-to-iarathael"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Yunior Susanto"],
     cardIdentifier: "crushing-headache-red",
     classes: [Class.Guardian],
@@ -2010,6 +2241,237 @@ When this hits a hero, they banish a card from their hand.
     
     
     
+  
+  
+  },{
+    artists: ["Nailsen Ivanderlie"],
+    cardIdentifier: "darkest-hour-red",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR209",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Darkest Hour",
+    printings: [{
+        artists: ["Nailsen Ivanderlie"],
+      
+      identifier: "IAR209",
+      image: "IAR209",
+      
+      
+      print: "IAR209",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Nailsen Ivanderlie"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR209",
+      image: "IAR209-RF",
+      
+      
+      print: "IAR209-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR209"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR209",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `You may put a card from your hand on top of your deck rather than pay this card's {r} cost.
+
+Your next Shadow attack this turn gets +4{p}. **Go again**
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Nailsen Ivanderlie"],
+    cardIdentifier: "darkest-hour-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR210",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Darkest Hour",
+    printings: [{
+        artists: ["Nailsen Ivanderlie"],
+      
+      identifier: "IAR210",
+      image: "IAR210",
+      
+      
+      print: "IAR210",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Nailsen Ivanderlie"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR210",
+      image: "IAR210-RF",
+      
+      
+      print: "IAR210-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR210"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR210",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `You may put a card from your hand on top of your deck rather than pay this card's {r} cost.
+
+Your next Shadow attack this turn gets +3{p}. **Go again**
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Nailsen Ivanderlie"],
+    cardIdentifier: "darkest-hour-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR211",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Darkest Hour",
+    printings: [{
+        artists: ["Nailsen Ivanderlie"],
+      
+      identifier: "IAR211",
+      image: "IAR211",
+      
+      
+      print: "IAR211",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Nailsen Ivanderlie"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR211",
+      image: "IAR211-RF",
+      
+      
+      print: "IAR211-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR211"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR211",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `You may put a card from your hand on top of your deck rather than pay this card's {r} cost.
+
+Your next Shadow attack this turn gets +1{p}. **Go again**
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
   
   
   },{
@@ -3888,6 +4350,85 @@ Create a Runechant token.
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Bastien Jez"],
+    cardIdentifier: "plundersong-gloomblade-red",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR116",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Plundersong Gloomblade",
+    printings: [{
+        artists: ["Bastien Jez"],
+      
+      identifier: "IAR116",
+      image: "IAR116",
+      
+      
+      print: "IAR116",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Bastien Jez"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR116",
+      image: "IAR116-RF",
+      
+      
+      print: "IAR116-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR116"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR116",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `You may play this from your banished zone.
+
+**Usurp**
+
+When this hits a hero, they banish a card in their arsenal.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 2,
     
     
     
