@@ -126184,6 +126184,318 @@ exports[`Check for unintentional updates Count Your Blessings (count-your-blessi
 }
 `;
 
+exports[`Check for unintentional updates Countdown to Extinction (countdown-to-extinction-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nailsen Ivanderlie",
+  ],
+  "cardIdentifier": "countdown-to-extinction-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 3,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "IAR169",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, create a Gate to i'Arathael token.
+
+When this hits, you may search your deck for a Darkest Hour, banish it, then shuffle.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Countdown to Extinction",
+  "pitch": 3,
+  "power": 4,
+  "printings": [
+    {
+      "artists": [
+        "Nailsen Ivanderlie",
+      ],
+      "identifier": "IAR169",
+      "image": "IAR169",
+      "print": "IAR169",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Nailsen Ivanderlie",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR169",
+      "image": "IAR169-RF",
+      "print": "IAR169-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "referencedCards": [
+    "darkest-hour-blue",
+    "darkest-hour-red",
+    "darkest-hour-yellow",
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "IAR169",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR169",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Countdown to Extinction (countdown-to-extinction-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nailsen Ivanderlie",
+  ],
+  "cardIdentifier": "countdown-to-extinction-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 3,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "IAR167",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, create a Gate to i'Arathael token.
+
+When this hits, you may search your deck for a Darkest Hour, banish it, then shuffle.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Countdown to Extinction",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "Nailsen Ivanderlie",
+      ],
+      "identifier": "IAR167",
+      "image": "IAR167",
+      "print": "IAR167",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Nailsen Ivanderlie",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR167",
+      "image": "IAR167-RF",
+      "print": "IAR167-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "referencedCards": [
+    "darkest-hour-blue",
+    "darkest-hour-red",
+    "darkest-hour-yellow",
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "IAR167",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR167",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Countdown to Extinction (countdown-to-extinction-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nailsen Ivanderlie",
+  ],
+  "cardIdentifier": "countdown-to-extinction-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 3,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "IAR168",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, create a Gate to i'Arathael token.
+
+When this hits, you may search your deck for a Darkest Hour, banish it, then shuffle.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Countdown to Extinction",
+  "pitch": 2,
+  "power": 5,
+  "printings": [
+    {
+      "artists": [
+        "Nailsen Ivanderlie",
+      ],
+      "identifier": "IAR168",
+      "image": "IAR168",
+      "print": "IAR168",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Nailsen Ivanderlie",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR168",
+      "image": "IAR168-RF",
+      "print": "IAR168-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "referencedCards": [
+    "darkest-hour-blue",
+    "darkest-hour-red",
+    "darkest-hour-yellow",
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "IAR168",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR168",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Courage (courage) vs snapshot 1`] = `
 {
   "artists": [
@@ -140634,6 +140946,297 @@ exports[`Check for unintentional updates Danse Macabre (danse-macabre) vs snapsh
   "typeText": "Necromancer Equipment - Legs",
   "types": [
     "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Darkest Hour (darkest-hour-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nailsen Ivanderlie",
+  ],
+  "cardIdentifier": "darkest-hour-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR211",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "You may put a card from your hand on top of your deck rather than pay this card's {r} cost.
+
+Your next Shadow attack this turn gets +1{p}. **Go again**
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Darkest Hour",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Nailsen Ivanderlie",
+      ],
+      "identifier": "IAR211",
+      "image": "IAR211",
+      "print": "IAR211",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Nailsen Ivanderlie",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR211",
+      "image": "IAR211-RF",
+      "print": "IAR211-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR211",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "IAR211",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Darkest Hour (darkest-hour-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nailsen Ivanderlie",
+  ],
+  "cardIdentifier": "darkest-hour-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR209",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "You may put a card from your hand on top of your deck rather than pay this card's {r} cost.
+
+Your next Shadow attack this turn gets +4{p}. **Go again**
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Darkest Hour",
+  "pitch": 1,
+  "printings": [
+    {
+      "artists": [
+        "Nailsen Ivanderlie",
+      ],
+      "identifier": "IAR209",
+      "image": "IAR209",
+      "print": "IAR209",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Nailsen Ivanderlie",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR209",
+      "image": "IAR209-RF",
+      "print": "IAR209-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR209",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "IAR209",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Darkest Hour (darkest-hour-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nailsen Ivanderlie",
+  ],
+  "cardIdentifier": "darkest-hour-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR210",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "You may put a card from your hand on top of your deck rather than pay this card's {r} cost.
+
+Your next Shadow attack this turn gets +3{p}. **Go again**
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Darkest Hour",
+  "pitch": 2,
+  "printings": [
+    {
+      "artists": [
+        "Nailsen Ivanderlie",
+      ],
+      "identifier": "IAR210",
+      "image": "IAR210",
+      "print": "IAR210",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Nailsen Ivanderlie",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR210",
+      "image": "IAR210-RF",
+      "print": "IAR210-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR210",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "IAR210",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action",
+  "types": [
+    "Action",
   ],
 }
 `;
@@ -399971,6 +400574,99 @@ When this hits a hero, banish the top card of their deck.",
 }
 `;
 
+exports[`Check for unintentional updates Plundersong Gloomblade (plundersong-gloomblade-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Bastien Jez",
+  ],
+  "cardIdentifier": "plundersong-gloomblade-red",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 0,
+  "defaultImage": "IAR116",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "You may play this from your banished zone.
+
+**Usurp**
+
+When this hits a hero, they banish a card in their arsenal.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Usurp",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Chane",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Plundersong Gloomblade",
+  "pitch": 1,
+  "power": 2,
+  "printings": [
+    {
+      "artists": [
+        "Bastien Jez",
+      ],
+      "identifier": "IAR116",
+      "image": "IAR116",
+      "print": "IAR116",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Bastien Jez",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR116",
+      "image": "IAR116-RF",
+      "print": "IAR116-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR116",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR116",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Plunge (plunge-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -472242,6 +472938,7 @@ exports[`Check for unintentional updates Runic Reaving (runic-reaving-red) vs sn
 {
   "artists": [
     "Nailsen Ivanderlie",
+    "Nino Setiawan",
   ],
   "cardIdentifier": "runic-reaving-red",
   "classes": [
@@ -472251,7 +472948,7 @@ exports[`Check for unintentional updates Runic Reaving (runic-reaving-red) vs sn
   "createdExtras": [
     "runechant",
   ],
-  "defaultImage": "FAB477-RF",
+  "defaultImage": "IAR149",
   "defense": 2,
   "firstReleaseDate": "2026-07-06",
   "functionalText": "**Usurp**
@@ -472263,9 +472960,12 @@ exports[`Check for unintentional updates Runic Reaving (runic-reaving-red) vs sn
   "legalFormats": [
     "Blitz",
     "Classic Constructed",
+    "Draft",
     "Golden Age",
     "Living Legend",
     "Open",
+    "Sealed",
+    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -472280,6 +472980,7 @@ exports[`Check for unintentional updates Runic Reaving (runic-reaving-red) vs sn
   ],
   "meta": [
     "Deck",
+    "Rainbow",
   ],
   "name": "Runic Reaving",
   "pitch": 1,
@@ -472287,32 +472988,57 @@ exports[`Check for unintentional updates Runic Reaving (runic-reaving-red) vs sn
   "printings": [
     {
       "artists": [
+        "Nino Setiawan",
+      ],
+      "identifier": "IAR149",
+      "image": "IAR149",
+      "print": "IAR149",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Nino Setiawan",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR149",
+      "image": "IAR149-RF",
+      "print": "IAR149-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
         "Nailsen Ivanderlie",
       ],
       "foiling": "Rainbow",
       "identifier": "FAB477",
       "image": "FAB477-RF",
-      "print": "FAB477-Rainbow-Extended Art",
+      "print": "FAB477-Rainbow-Alternate Art-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
       "treatment": "Extended Art",
       "treatments": [
+        "Alternate Art",
         "Extended Art",
       ],
     },
   ],
   "rarities": [
     "Promo",
+    "Rare",
   ],
-  "rarity": "Promo",
+  "rarity": "Rare",
   "referencedCards": [
     "runechant",
   ],
   "setIdentifiers": [
     "FAB477",
+    "IAR149",
   ],
   "sets": [
     "Promos",
+    "Usurp the Shadow Throne",
   ],
   "specialImage": "FAB477-RF",
   "subtypes": [

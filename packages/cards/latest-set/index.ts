@@ -4363,6 +4363,83 @@ Create a Runechant token.
   
   
   },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "planar-chaos-red",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR180",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Planar Chaos",
+    printings: [{
+        artists: ["Muhammad Fajri"],
+      
+      identifier: "IAR180",
+      image: "IAR180",
+      
+      
+      print: "IAR180",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Muhammad Fajri"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR180",
+      image: "IAR180-RF",
+      
+      
+      print: "IAR180-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR180"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR180",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    
+    
+    cost: 0,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `Create a Gate to i'Arathael token.
+
+The next Gate to i'Arathael token you activate this turn can target an action card with blood debt in any banished zone.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    referencedCards: ["gate-to-iarathael"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Bastien Jez"],
     cardIdentifier: "plundersong-gloomblade-red",
     classes: [Class.Runeblade],
@@ -5887,6 +5964,231 @@ At the beginning of your action phase or when you play an attack action card, de
     
     pitch: 3,
     power: 4,referencedCards: ["runechant"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Nailsen Ivanderlie","Nino Setiawan"],
+    cardIdentifier: "runic-reaving-red",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR149",
+    firstReleaseDate: "2026-07-06",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Viserai2,Hero.Vynnset],
+    name: "Runic Reaving",
+    printings: [{
+        artists: ["Nino Setiawan"],
+      
+      identifier: "IAR149",
+      image: "IAR149",
+      
+      
+      print: "IAR149",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Nino Setiawan"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR149",
+      image: "IAR149-RF",
+      
+      
+      print: "IAR149-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["FAB477","IAR149"],
+    sets: [Release.Promos,Release.UsurpTheShadowThrone],
+    specialImage: "IAR149",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Runeblade Action - Attack",
+
+    
+    
+    cost: 0,createdExtras: ["runechant"],
+    defense: 2,
+    
+    functionalText: `**Usurp**
+
+**Instant** - Discard this: Create a Runechant token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 4,referencedCards: ["runechant"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Nino Setiawan"],
+    cardIdentifier: "runic-reaving-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR150",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Viserai2,Hero.Vynnset],
+    name: "Runic Reaving",
+    printings: [{
+        artists: ["Nino Setiawan"],
+      
+      identifier: "IAR150",
+      image: "IAR150",
+      
+      
+      print: "IAR150",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Nino Setiawan"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR150",
+      image: "IAR150-RF",
+      
+      
+      print: "IAR150-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR150"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR150",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Runeblade Action - Attack",
+
+    
+    
+    cost: 0,createdExtras: ["runechant"],
+    defense: 2,
+    
+    functionalText: `**Usurp**
+
+**Instant** - Discard this: Create a Runechant token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 3,referencedCards: ["runechant"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Nino Setiawan"],
+    cardIdentifier: "runic-reaving-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR151",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Viserai2,Hero.Vynnset],
+    name: "Runic Reaving",
+    printings: [{
+        artists: ["Nino Setiawan"],
+      
+      identifier: "IAR151",
+      image: "IAR151",
+      
+      
+      print: "IAR151",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Nino Setiawan"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR151",
+      image: "IAR151-RF",
+      
+      
+      print: "IAR151-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR151"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR151",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Runeblade Action - Attack",
+
+    
+    
+    cost: 0,createdExtras: ["runechant"],
+    defense: 2,
+    
+    functionalText: `**Usurp**
+
+**Instant** - Discard this: Create a Runechant token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 2,referencedCards: ["runechant"],
     
     
     
