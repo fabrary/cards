@@ -119369,6 +119369,81 @@ When you lose {h} during your turn, destroy this.`,
   
   
   },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "dimenxxional-ferryman-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR179",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Dimenxxional Ferryman",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "IAR179",
+      image: "IAR179",
+      
+      
+      print: "IAR179",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR179",
+      image: "IAR179-RF",
+      
+      
+      print: "IAR179-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR179"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR179",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Put this and an action card with blood debt from your banished zone on the bottom of your deck.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Reza Afshar"],
     cardIdentifier: "dimenxxional-gateway-red",
     classes: [Class.Runeblade],
@@ -159956,7 +160031,8 @@ Target attack gets +3{p}.`,
     
   
   
-  },{
+  }];
+const cards3: Card[] = [{
     artists: ["Marco González"],
     cardIdentifier: "fatigue-shot-blue",
     classes: [Class.Ranger],
@@ -160035,8 +160111,7 @@ Target attack gets +3{p}.`,
     
   
   
-  }];
-const cards3: Card[] = [{
+  },{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "fault-line-red",
     classes: [Class.Guardian],
@@ -241841,7 +241916,8 @@ Whenever the crowd boos you, create a Vigor token.`,
     talents: [Talent.Reviled],
   
   
-  },{
+  }];
+const cards4: Card[] = [{
     artists: ["soyameii"],
     cardIdentifier: "kelpie-tangled-mess-yellow",
     classes: [Class.Necromancer,Class.Pirate],
@@ -241939,8 +242015,7 @@ Whenever the crowd boos you, create a Vigor token.`,
     
   
   
-  }];
-const cards4: Card[] = [{
+  },{
     artists: ["Saad Irfan"],
     cardIdentifier: "kick-the-hornets-nest-yellow",
     classes: [Class.Generic],
@@ -323151,7 +323226,8 @@ When this hits a hero, their first attack during their next turn gets -4{p}.`,
     
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Marcus Reyno"],
     cardIdentifier: "punching-gloves",
     classes: [Class.Generic],
@@ -323230,8 +323306,7 @@ When this hits a hero, their first attack during their next turn gets -4{p}.`,
     
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Tommy Suhartono"],
     cardIdentifier: "puncture-red",
     classes: [Class.Warrior],
@@ -403982,7 +404057,8 @@ If this was played from arsenal, the next attack action card you play this turn 
     
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Henrique Lindner"],
     cardIdentifier: "smashing-performance-yellow",
     classes: [Class.Brute],
@@ -404061,8 +404137,7 @@ If this was played from arsenal, the next attack action card you play this turn 
     
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["João Guilherme"],
     cardIdentifier: "smell-fear-yellow",
     classes: [Class.Brute],
@@ -482912,7 +482987,8 @@ At the beginning of each end phase, if you've created or activated a Gate to i'A
     talents: [Talent.Shadow],
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "visionary-of-orbits-red",
     classes: [Class.NotClassed],
@@ -482991,8 +483067,7 @@ At the beginning of each end phase, if you've created or activated a Gate to i'A
     talents: [Talent.Lightning],
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "visit-anvilheim-blue",
     classes: [Class.Guardian],

@@ -397577,6 +397577,104 @@ Search your deck for up to 3 traps, reveal them, put them into your hand, then s
 }
 `;
 
+exports[`Check for unintentional updates Planar Chaos (planar-chaos-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Muhammad Fajri",
+  ],
+  "cardIdentifier": "planar-chaos-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "IAR180",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "Create a Gate to i'Arathael token.
+
+The next Gate to i'Arathael token you activate this turn can target an action card with blood debt in any banished zone.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Planar Chaos",
+  "pitch": 1,
+  "printings": [
+    {
+      "artists": [
+        "Muhammad Fajri",
+      ],
+      "identifier": "IAR180",
+      "image": "IAR180",
+      "print": "IAR180",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Muhammad Fajri",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR180",
+      "image": "IAR180-RF",
+      "print": "IAR180-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "IAR180",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR180",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Plasma Barrel Shot (plasma-barrel-shot) vs snapshot 1`] = `
 {
   "artists": [
@@ -472934,6 +473032,103 @@ If an attack action card was pitched to play this, the next Runeblade attack act
 }
 `;
 
+exports[`Check for unintentional updates Runic Reaving (runic-reaving-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nino Setiawan",
+  ],
+  "cardIdentifier": "runic-reaving-blue",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "runechant",
+  ],
+  "defaultImage": "IAR151",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Usurp**
+
+**Instant** - Discard this: Create a Runechant token.",
+  "keywords": [
+    "Usurp",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Aurora",
+    "Aurora2",
+    "Briar",
+    "Chane",
+    "Florian",
+    "Viserai",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Runic Reaving",
+  "pitch": 3,
+  "power": 2,
+  "printings": [
+    {
+      "artists": [
+        "Nino Setiawan",
+      ],
+      "identifier": "IAR151",
+      "image": "IAR151",
+      "print": "IAR151",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Nino Setiawan",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR151",
+      "image": "IAR151-RF",
+      "print": "IAR151-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "referencedCards": [
+    "runechant",
+  ],
+  "setIdentifiers": [
+    "IAR151",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR151",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Runic Reaving (runic-reaving-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -473041,6 +473236,103 @@ exports[`Check for unintentional updates Runic Reaving (runic-reaving-red) vs sn
     "Usurp the Shadow Throne",
   ],
   "specialImage": "FAB477-RF",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Runic Reaving (runic-reaving-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nino Setiawan",
+  ],
+  "cardIdentifier": "runic-reaving-yellow",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "runechant",
+  ],
+  "defaultImage": "IAR150",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Usurp**
+
+**Instant** - Discard this: Create a Runechant token.",
+  "keywords": [
+    "Usurp",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Aurora",
+    "Aurora2",
+    "Briar",
+    "Chane",
+    "Florian",
+    "Viserai",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Runic Reaving",
+  "pitch": 2,
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Nino Setiawan",
+      ],
+      "identifier": "IAR150",
+      "image": "IAR150",
+      "print": "IAR150",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Nino Setiawan",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR150",
+      "image": "IAR150-RF",
+      "print": "IAR150-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "referencedCards": [
+    "runechant",
+  ],
+  "setIdentifiers": [
+    "IAR150",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR150",
   "subtypes": [
     "Attack",
   ],

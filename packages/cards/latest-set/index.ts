@@ -2706,6 +2706,81 @@ Your next Shadow attack this turn gets +1{p}. **Go again**
   
   
   },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "dimenxxional-ferryman-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR179",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Dimenxxional Ferryman",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "IAR179",
+      image: "IAR179",
+      
+      
+      print: "IAR179",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR179",
+      image: "IAR179-RF",
+      
+      
+      print: "IAR179-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR179"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR179",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Put this and an action card with blood debt from your banished zone on the bottom of your deck.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Alifka Hammam"],
     cardIdentifier: "embrace-sin-yellow",
     classes: [Class.Runeblade],
