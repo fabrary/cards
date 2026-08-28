@@ -362684,6 +362684,81 @@ The next Runeblade attack action card you play this turn gets +3{p}.
   
   
   },{
+    artists: ["Nailsen Ivanderlie"],
+    cardIdentifier: "rush-of-knowledge-blue",
+    classes: [Class.Illusionist,Class.Wizard],
+    defaultImage: "IAR252",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Blaze,Hero.Broscilio,Hero.Dromai,Hero.Enigma,Hero.Iyslander,Hero.Kano,Hero.Oscilio,Hero.Prism,Hero.Verdance,Hero.Zyggy],
+    name: "Rush of Knowledge",
+    printings: [{
+        artists: ["Nailsen Ivanderlie"],
+      
+      identifier: "IAR252",
+      image: "IAR252",
+      isExpansionSlot: true,
+      
+      print: "IAR252",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Nailsen Ivanderlie"],
+      foiling: Foiling.Cold,
+      identifier: "IAR252",
+      image: "IAR252-CF",
+      isExpansionSlot: true,
+      
+      print: "IAR252-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR252"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR252-CF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Illusionist / Wizard Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may destroy a Ponder token you control. If you do, draw a card and gain 1 action point.
+
+**Phantasm**`,
+    
+    
+    
+    
+    keywords: [Keyword.Phantasm],
+    
+    
+    meta: [Meta.Deck,Meta.DualClass,Meta.Expansion],
+  
+    
+    pitch: 3,
+    power: 4,referencedCards: ["ponder"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["João G. Santos"],
     cardIdentifier: "rush-of-power-red",
     classes: [Class.Runeblade],
@@ -403948,7 +404023,8 @@ If this was played from arsenal, the next attack action card you play this turn 
     
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Vadim Kalabukh"],
     cardIdentifier: "smashing-ground-blue",
     classes: [Class.Brute],
@@ -404057,8 +404133,7 @@ If this was played from arsenal, the next attack action card you play this turn 
     
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "smashing-performance-yellow",
     classes: [Class.Brute],
@@ -482876,7 +482951,8 @@ When this chain link resolves, if this is defended by a card from hand, create a
     talents: [Talent.Shadow],
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "viserai-usurper",
     classes: [Class.Runeblade],
@@ -482987,8 +483063,7 @@ At the beginning of each end phase, if you've created or activated a Gate to i'A
     talents: [Talent.Shadow],
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "visionary-of-orbits-red",
     classes: [Class.NotClassed],

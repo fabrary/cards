@@ -6277,6 +6277,81 @@ At the beginning of your action phase or when you play an attack action card, de
   
   
   },{
+    artists: ["Nailsen Ivanderlie"],
+    cardIdentifier: "rush-of-knowledge-blue",
+    classes: [Class.Illusionist,Class.Wizard],
+    defaultImage: "IAR252",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Blaze,Hero.Broscilio,Hero.Dromai,Hero.Enigma,Hero.Iyslander,Hero.Kano,Hero.Oscilio,Hero.Prism,Hero.Verdance,Hero.Zyggy],
+    name: "Rush of Knowledge",
+    printings: [{
+        artists: ["Nailsen Ivanderlie"],
+      
+      identifier: "IAR252",
+      image: "IAR252",
+      isExpansionSlot: true,
+      
+      print: "IAR252",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Nailsen Ivanderlie"],
+      foiling: Foiling.Cold,
+      identifier: "IAR252",
+      image: "IAR252-CF",
+      isExpansionSlot: true,
+      
+      print: "IAR252-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR252"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR252-CF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Illusionist / Wizard Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may destroy a Ponder token you control. If you do, draw a card and gain 1 action point.
+
+**Phantasm**`,
+    
+    
+    
+    
+    keywords: [Keyword.Phantasm],
+    
+    
+    meta: [Meta.Deck,Meta.DualClass,Meta.Expansion],
+  
+    
+    pitch: 3,
+    power: 4,referencedCards: ["ponder"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Ismatulloh"],
     cardIdentifier: "seven-sin-nebula",
     classes: [Class.Runeblade],

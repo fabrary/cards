@@ -154384,6 +154384,96 @@ When you lose {h} during your turn, destroy this.",
 }
 `;
 
+exports[`Check for unintentional updates Dimenxxional Ferryman (dimenxxional-ferryman-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "dimenxxional-ferryman-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "defaultImage": "IAR179",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "Put this and an action card with blood debt from your banished zone on the bottom of your deck.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Dimenxxional Ferryman",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Tomasz Jedruszek",
+      ],
+      "identifier": "IAR179",
+      "image": "IAR179",
+      "print": "IAR179",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Tomasz Jedruszek",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR179",
+      "image": "IAR179-RF",
+      "print": "IAR179-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR179",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR179",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Dimenxxional Gateway (dimenxxional-gateway-blue) vs snapshot 1`] = `
 {
   "arcane": 1,
