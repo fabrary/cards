@@ -873,6 +873,28 @@ describe("Relation filters", () => {
   });
 });
 
+describe("Keyword index", () => {
+  const cardSearch = new Search(doubleSidedCards);
+  const getKeywordIndex = () =>
+    (cardSearch as unknown as { fuse?: unknown }).fuse;
+
+  it("Is built on the first keyword search and kept afterwards", () => {
+    const { searchResults: filteredResults } = cardSearch.search("s:ddd");
+    expect(filteredResults.length).toEqual(16);
+    expect(getKeywordIndex()).toBeUndefined();
+
+    const { searchResults: keywordResults } = cardSearch.search("leg tap");
+    expect(keywordResults.length).toBeGreaterThan(0);
+
+    const keywordIndex = getKeywordIndex();
+    expect(keywordIndex).toBeTruthy();
+
+    const { searchResults: laterResults } = cardSearch.search("flick");
+    expect(laterResults.length).toBeGreaterThan(0);
+    expect(getKeywordIndex()).toBe(keywordIndex);
+  });
+});
+
 describe("Nicknames etc", () => {
   const cardSearch = new Search(doubleSidedCards);
 
