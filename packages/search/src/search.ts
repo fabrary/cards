@@ -88,8 +88,13 @@ class Search {
   private fuse: Fuse<Card> | undefined;
   private index: CatalogueIndex;
 
-  // Consumers pass the heroes, the sets and the debug flag positionally, so
-  // the options object is told apart from the heroes by its shape.
+  constructor(cards: DoubleSidedCard[], options?: SearchOptions);
+  constructor(
+    cards: DoubleSidedCard[],
+    additionalHeroes?: Hero[],
+    additionalSets?: Release[],
+    debug?: boolean,
+  );
   constructor(
     cards: DoubleSidedCard[],
     additionalHeroesOrOptions: Hero[] | SearchOptions = [],

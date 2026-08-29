@@ -914,9 +914,6 @@ describe("Shared catalogue index", () => {
   const getIdentifiers = (results: SearchCard[]): string[] =>
     results.map(({ cardIdentifier }) => cardIdentifier);
 
-  const getIndex = (cardSearch: Search): unknown =>
-    (cardSearch as unknown as { index?: unknown }).index;
-
   const searchTerms = [
     ["hyper driver"],
     ["c:mechanologist d:2"],
@@ -945,24 +942,25 @@ describe("Shared catalogue index", () => {
     },
   );
 
-  it("Reads the index it was handed rather than building one", () => {
-    const alsoPooledSearch = new Search(heroPool, { index: catalogueIndex });
-
-    expect(getIndex(pooledSearch)).toBe(catalogueIndex);
-    expect(getIndex(alsoPooledSearch)).toBe(catalogueIndex);
-    expect(getIndex(poolIndexedSearch)).not.toBe(catalogueIndex);
+  it("Resolves a relation to a card the pool does not hold", () => {
+    // Scabskin Leathers is equipment outside the pool; the pool's own index
+    // cannot name it, the shared one can.
+    expect(pooledCardIdentifiers.has("scabskin-leathers")).toBe(false);
+    expect(
+      getIdentifiers(
+        pooledSearch.search('references:"scabskin leathers"').searchResults,
+      ),
+    ).toEqual(["venomback-fabric-yellow"]);
+    expect(
+      poolIndexedSearch.search('references:"scabskin leathers"').searchResults,
+    ).toEqual([]);
   });
 
   it("Takes the heroes, the sets and the debug flag positionally", () => {
-    const positionalSearch = new Search(
-      heroPool,
-      ["Another" as Hero],
-      [],
-      false,
-    );
+    const positionalSearch = new Search(heroPool, [Hero.Maxx], [], false);
 
-    const { appliedFilters } = positionalSearch.search('l:"Another"');
-    expect(appliedFilters[0].values).toEqual(["another"]);
+    const { appliedFilters } = positionalSearch.search('l:"Maxx"');
+    expect(appliedFilters[0].values).toEqual(["maxx"]);
 
     expect(
       getIdentifiers(
