@@ -24,6 +24,19 @@ export interface SearchCard extends DoubleSidedCard {
   matchingPrintings?: Printing[];
 }
 
+export interface SearchOptions {
+  additionalHeroes?: Hero[];
+  additionalSets?: Release[];
+  debug?: boolean;
+  /**
+   * The catalogue the parser resolves names and relations against. A pool
+   * searched out of a larger catalogue shares the catalogue's index, so a
+   * relation is answered from every card that carries it while the search still
+   * answers with the pool alone. Left out, the corpus is its own catalogue.
+   */
+  index?: CatalogueIndex;
+}
+
 export interface SearchResults {
   appliedFilters: AppliedFilter[];
   keywords: string[];
@@ -75,17 +88,23 @@ class Search {
   private fuse: Fuse<Card> | undefined;
   private index: CatalogueIndex;
 
+  // Consumers pass the heroes, the sets and the debug flag positionally, so
+  // the options object is told apart from the heroes by its shape.
   constructor(
     cards: DoubleSidedCard[],
-    additionalHeroes: Hero[] = [],
+    additionalHeroesOrOptions: Hero[] | SearchOptions = [],
     additionalSets: Release[] = [],
     debug: boolean = false,
   ) {
-    this.additionalHeroes = additionalHeroes;
-    this.additionalSets = additionalSets;
+    const options: SearchOptions = Array.isArray(additionalHeroesOrOptions)
+      ? { additionalHeroes: additionalHeroesOrOptions, additionalSets, debug }
+      : additionalHeroesOrOptions;
+
+    this.additionalHeroes = options.additionalHeroes || [];
+    this.additionalSets = options.additionalSets || [];
     this.cards = [...cards];
-    this.debug = debug;
-    this.index = getCatalogueIndex(this.cards);
+    this.debug = options.debug || false;
+    this.index = options.index || getCatalogueIndex(this.cards);
   }
 
   // Scoring the corpus is the costly half of a search, so a catalogue that is

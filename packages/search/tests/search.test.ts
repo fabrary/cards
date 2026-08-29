@@ -10,7 +10,8 @@ import {
   Type,
 } from "@flesh-and-blood/types";
 import { cards } from "@flesh-and-blood/cards";
-import Search from "../src/search";
+import Search, { SearchCard } from "../src/search";
+import { getCatalogueIndex } from "../src/searchIndex";
 import { setToSetIdentifierMappings } from "@flesh-and-blood/types";
 import { doubleSidedCards } from "./_doubleSidedCards";
 
@@ -892,6 +893,86 @@ describe("Keyword index", () => {
     const { searchResults: laterResults } = cardSearch.search("flick");
     expect(laterResults.length).toBeGreaterThan(0);
     expect(getKeywordIndex()).toBe(keywordIndex);
+  });
+});
+
+describe("Shared catalogue index", () => {
+  const catalogueIndex = getCatalogueIndex(doubleSidedCards);
+  // A hero's pool is the shape a search over a shared index takes: a slice of
+  // the catalogue holding none of the heroes and only some of what its own
+  // cards name.
+  const heroPool = doubleSidedCards.filter(
+    (card) =>
+      card.legalHeroes.includes(Hero.Maxx) && !card.types.includes(Type.Hero),
+  );
+  const pooledCardIdentifiers = new Set(
+    heroPool.map(({ cardIdentifier }) => cardIdentifier),
+  );
+  const pooledSearch = new Search(heroPool, { index: catalogueIndex });
+  const poolIndexedSearch = new Search(heroPool);
+
+  const getIdentifiers = (results: SearchCard[]): string[] =>
+    results.map(({ cardIdentifier }) => cardIdentifier);
+
+  const getIndex = (cardSearch: Search): unknown =>
+    (cardSearch as unknown as { index?: unknown }).index;
+
+  const searchTerms = [
+    ["hyper driver"],
+    ["c:mechanologist d:2"],
+    ['references:"hyper driver"'],
+    ['referencedby:"big bertha"'],
+  ];
+
+  it.each(searchTerms)("Answers %s from the pool alone", (searchTerm) => {
+    const { searchResults } = pooledSearch.search(searchTerm);
+    const resultsOutsideThePool = getIdentifiers(searchResults).filter(
+      (cardIdentifier) => !pooledCardIdentifiers.has(cardIdentifier),
+    );
+
+    expect(searchResults.length).toBeGreaterThan(0);
+    expect(resultsOutsideThePool).toEqual([]);
+  });
+
+  it.each(searchTerms)(
+    "Answers %s as the pool's own index does",
+    (searchTerm) => {
+      expect(
+        getIdentifiers(pooledSearch.search(searchTerm).searchResults),
+      ).toEqual(
+        getIdentifiers(poolIndexedSearch.search(searchTerm).searchResults),
+      );
+    },
+  );
+
+  it("Reads the index it was handed rather than building one", () => {
+    const alsoPooledSearch = new Search(heroPool, { index: catalogueIndex });
+
+    expect(getIndex(pooledSearch)).toBe(catalogueIndex);
+    expect(getIndex(alsoPooledSearch)).toBe(catalogueIndex);
+    expect(getIndex(poolIndexedSearch)).not.toBe(catalogueIndex);
+  });
+
+  it("Takes the heroes, the sets and the debug flag positionally", () => {
+    const positionalSearch = new Search(
+      heroPool,
+      ["Another" as Hero],
+      [],
+      false,
+    );
+
+    const { appliedFilters } = positionalSearch.search('l:"Another"');
+    expect(appliedFilters[0].values).toEqual(["another"]);
+
+    expect(
+      getIdentifiers(
+        positionalSearch.search("c:mechanologist d:2").searchResults,
+      ),
+    ).toEqual(
+      getIdentifiers(
+        poolIndexedSearch.search("c:mechanologist d:2").searchResults,
+      ),
+    );
   });
 });
 

@@ -1,4 +1,5 @@
 import { Card } from "@flesh-and-blood/types";
+import { getCatalogueIndex } from "./searchIndex.js";
 
 /** The same card printed at another pitch value. */
 export const getOtherPitches = (
@@ -8,13 +9,13 @@ export const getOtherPitches = (
   const otherPitches: Card[] = [];
 
   if (card) {
-    for (const other of cards) {
-      const isSameName = other.name === card.name;
-      const isAnotherCard = other.cardIdentifier !== card.cardIdentifier;
-      const isAnotherPitch = other.pitch !== card.pitch;
+    const pitchCycle = getCatalogueIndex(cards).getPitchCycle(
+      card.cardIdentifier,
+    );
 
-      if (isSameName && isAnotherCard && isAnotherPitch) {
-        otherPitches.push(other);
+    for (const pitch of pitchCycle) {
+      if (pitch.cardIdentifier !== card.cardIdentifier) {
+        otherPitches.push(pitch);
       }
     }
   }
@@ -27,13 +28,12 @@ export const getReferencedCards = (
   card: Card | undefined,
   cards: Card[],
 ): Card[] => {
-  const referencedCardIdentifiers = new Set<string>(card?.referencedCards);
-  const referencedCards: Card[] = [];
+  let referencedCards: Card[] = [];
 
-  for (const other of cards) {
-    if (referencedCardIdentifiers.has(other.cardIdentifier)) {
-      referencedCards.push(other);
-    }
+  if (card) {
+    referencedCards = [
+      ...getCatalogueIndex(cards).getReferences(card.cardIdentifier),
+    ];
   }
 
   return referencedCards;
@@ -75,16 +75,14 @@ export const getTokensReferencedByCards = (
   cards: Card[],
   availableTokens: Card[],
 ): Card[] => {
-  const createdExtraIdentifiers = new Set<string>();
-  for (const card of cards) {
-    for (const createdExtraIdentifier of card.createdExtras || []) {
-      createdExtraIdentifiers.add(createdExtraIdentifier);
-    }
-  }
-
+  const index = getCatalogueIndex(cards);
   const referencedTokens: Card[] = [];
+
   for (const token of availableTokens) {
-    if (createdExtraIdentifiers.has(token.cardIdentifier)) {
+    const isCreatedByTheCards =
+      index.getCreatedBy(token.cardIdentifier).length > 0;
+
+    if (isCreatedByTheCards) {
       referencedTokens.push(token);
     }
   }
