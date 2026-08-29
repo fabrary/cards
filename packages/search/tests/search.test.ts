@@ -10,7 +10,8 @@ import {
   Type,
 } from "@flesh-and-blood/types";
 import { cards } from "@flesh-and-blood/cards";
-import Search from "../src/search";
+import Search, { SearchCard } from "../src/search";
+import { getCatalogueIndex } from "../src/searchIndex";
 import { setToSetIdentifierMappings } from "@flesh-and-blood/types";
 import { doubleSidedCards } from "./_doubleSidedCards";
 
@@ -870,6 +871,106 @@ describe("Relation filters", () => {
     expect(names).not.toContain("Bash Brute");
     expect(names).not.toContain("Cash In");
     expect(names).not.toContain("Blade Flash");
+  });
+});
+
+describe("Keyword index", () => {
+  const cardSearch = new Search(doubleSidedCards);
+  const getKeywordIndex = () =>
+    (cardSearch as unknown as { fuse?: unknown }).fuse;
+
+  it("Is built on the first keyword search and kept afterwards", () => {
+    const { searchResults: filteredResults } = cardSearch.search("s:ddd");
+    expect(filteredResults.length).toBeGreaterThan(0);
+    expect(getKeywordIndex()).toBeUndefined();
+
+    const { searchResults: keywordResults } = cardSearch.search("leg tap");
+    expect(keywordResults.length).toBeGreaterThan(0);
+
+    const keywordIndex = getKeywordIndex();
+    expect(keywordIndex).toBeTruthy();
+
+    const { searchResults: laterResults } = cardSearch.search("flick");
+    expect(laterResults.length).toBeGreaterThan(0);
+    expect(getKeywordIndex()).toBe(keywordIndex);
+  });
+});
+
+describe("Shared catalogue index", () => {
+  const catalogueIndex = getCatalogueIndex(doubleSidedCards);
+  // A hero's pool is the shape a search over a shared index takes: a slice of
+  // the catalogue holding none of the heroes and only some of what its own
+  // cards name.
+  const heroPool = doubleSidedCards.filter(
+    (card) =>
+      card.legalHeroes.includes(Hero.Maxx) && !card.types.includes(Type.Hero),
+  );
+  const pooledCardIdentifiers = new Set(
+    heroPool.map(({ cardIdentifier }) => cardIdentifier),
+  );
+  const pooledSearch = new Search(heroPool, { index: catalogueIndex });
+  const poolIndexedSearch = new Search(heroPool);
+
+  const getIdentifiers = (results: SearchCard[]): string[] =>
+    results.map(({ cardIdentifier }) => cardIdentifier);
+
+  const searchTerms = [
+    ["hyper driver"],
+    ["c:mechanologist d:2"],
+    ['references:"hyper driver"'],
+    ['referencedby:"big bertha"'],
+  ];
+
+  it.each(searchTerms)("Answers %s from the pool alone", (searchTerm) => {
+    const { searchResults } = pooledSearch.search(searchTerm);
+    const resultsOutsideThePool = getIdentifiers(searchResults).filter(
+      (cardIdentifier) => !pooledCardIdentifiers.has(cardIdentifier),
+    );
+
+    expect(searchResults.length).toBeGreaterThan(0);
+    expect(resultsOutsideThePool).toEqual([]);
+  });
+
+  it.each(searchTerms)(
+    "Answers %s as the pool's own index does",
+    (searchTerm) => {
+      expect(
+        getIdentifiers(pooledSearch.search(searchTerm).searchResults),
+      ).toEqual(
+        getIdentifiers(poolIndexedSearch.search(searchTerm).searchResults),
+      );
+    },
+  );
+
+  it("Resolves a relation to a card the pool does not hold", () => {
+    // Scabskin Leathers is equipment outside the pool; the pool's own index
+    // cannot name it, the shared one can.
+    expect(pooledCardIdentifiers.has("scabskin-leathers")).toBe(false);
+    expect(
+      getIdentifiers(
+        pooledSearch.search('references:"scabskin leathers"').searchResults,
+      ),
+    ).toEqual(["venomback-fabric-yellow"]);
+    expect(
+      poolIndexedSearch.search('references:"scabskin leathers"').searchResults,
+    ).toEqual([]);
+  });
+
+  it("Takes the heroes, the sets and the debug flag positionally", () => {
+    const positionalSearch = new Search(heroPool, [Hero.Maxx], [], false);
+
+    const { appliedFilters } = positionalSearch.search('l:"Maxx"');
+    expect(appliedFilters[0].values).toEqual(["maxx"]);
+
+    expect(
+      getIdentifiers(
+        positionalSearch.search("c:mechanologist d:2").searchResults,
+      ),
+    ).toEqual(
+      getIdentifiers(
+        poolIndexedSearch.search("c:mechanologist d:2").searchResults,
+      ),
+    );
   });
 });
 

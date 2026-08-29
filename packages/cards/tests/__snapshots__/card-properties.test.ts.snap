@@ -144665,6 +144665,104 @@ exports[`Check for unintentional updates Deadly Duo (deadly-duo-yellow) vs snaps
 }
 `;
 
+exports[`Check for unintentional updates Deadly Spinneret (deadly-spinneret-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Faizal Fikri",
+  ],
+  "cardIdentifier": "deadly-spinneret-red",
+  "classes": [
+    "Assassin",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "graphene-chelicera",
+  ],
+  "defaultImage": "IAR243",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Stealth**
+
+**Instant** - Discard this: Equip a Graphene Chelicera token to each of your empty weapon zones.",
+  "keywords": [
+    "Stealth",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Arakni",
+    "Crackni",
+    "Mortimer",
+    "Nuu",
+    "Slippy",
+    "Uzuri",
+  ],
+  "meta": [
+    "Deck",
+    "Expansion slot",
+  ],
+  "name": "Deadly Spinneret",
+  "pitch": 1,
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Faizal Fikri",
+      ],
+      "identifier": "IAR243",
+      "image": "IAR243",
+      "isExpansionSlot": true,
+      "print": "IAR243",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Faizal Fikri",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR243",
+      "image": "IAR243-RF",
+      "isExpansionSlot": true,
+      "print": "IAR243-Rainbow-Extended Art",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "referencedCards": [
+    "graphene-chelicera",
+  ],
+  "setIdentifiers": [
+    "IAR243",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR243-RF",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Assassin Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Deadwood Dirge (deadwood-dirge-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -173946,6 +174044,90 @@ When this is put into your graveyard from anywhere, your hero deals 1 arcane dam
   "typeText": "Lightning Wizard Instant",
   "types": [
     "Instant",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Echoing Trap (echoing-trap-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Aluísio Cervelle",
+  ],
+  "cardIdentifier": "echoing-trap-blue",
+  "classes": [
+    "Ranger",
+  ],
+  "defaultImage": "IAR248",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Ambush**
+
+When this defends an attack action card with the same name as another card played this turn, the attacking hero discards a card.",
+  "keywords": [
+    "Ambush",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Azalea",
+    "Lexi",
+    "Marlynn",
+    "Riptide",
+  ],
+  "meta": [
+    "Deck",
+    "Expansion slot",
+  ],
+  "name": "Echoing Trap",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Aluísio Cervelle",
+      ],
+      "identifier": "IAR248",
+      "image": "IAR248",
+      "isExpansionSlot": true,
+      "print": "IAR248",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Aluísio Cervelle",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR248",
+      "image": "IAR248-RF",
+      "isExpansionSlot": true,
+      "print": "IAR248-Rainbow",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "IAR248",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR248",
+  "subtypes": [
+    "Trap",
+  ],
+  "typeText": "Ranger Block - Trap",
+  "types": [
+    "Block",
   ],
 }
 `;
@@ -557322,6 +557504,98 @@ If this was **fused**, it gets +2{p}.",
     "Elemental",
   ],
   "typeText": "Elemental Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Stoke Vengeance (stoke-vengeance-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "YDZ",
+  ],
+  "cardIdentifier": "stoke-vengeance-red",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 1,
+  "defaultImage": "IAR245",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Combo** - If Edge of Autumn was the last attack this combat chain, this gets **go again** and "When this hits, your next attack this combat chain gets +2{p}."",
+  "keywords": [
+    "Combo",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Benji",
+    "Cindra",
+    "Fai",
+    "Ira",
+    "Katsu",
+    "Zen",
+  ],
+  "meta": [
+    "Deck",
+    "Expansion slot",
+  ],
+  "name": "Stoke Vengeance",
+  "pitch": 1,
+  "power": 4,
+  "printings": [
+    {
+      "artists": [
+        "YDZ",
+      ],
+      "identifier": "IAR245",
+      "image": "IAR245",
+      "isExpansionSlot": true,
+      "print": "IAR245",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "YDZ",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR245",
+      "image": "IAR245-RF",
+      "isExpansionSlot": true,
+      "print": "IAR245-Rainbow",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "referencedCards": [
+    "edge-of-autumn",
+  ],
+  "setIdentifiers": [
+    "IAR245",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "IAR245",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
   "types": [
     "Action",
   ],

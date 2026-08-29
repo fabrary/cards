@@ -18,10 +18,25 @@ import {
 import { memes } from "./memes.js";
 import { getNormalizedText, getTextWithoutMarkup } from "./helpers.js";
 import { FilterProperty } from "./metaFilters.js";
-import { buildSearchIndex, SearchIndex } from "./searchIndex.js";
+import { CatalogueIndex, getCatalogueIndex } from "./searchIndex.js";
 
 export interface SearchCard extends DoubleSidedCard {
   matchingPrintings?: Printing[];
+}
+
+export interface SearchOptions {
+  additionalHeroes?: Hero[];
+  additionalSets?: Release[];
+  debug?: boolean;
+  /**
+   * The catalogue the parser resolves names and relations against. A pool
+   * searched out of a larger catalogue shares the catalogue's index, so a
+   * relation is answered from every card that carries it while the search still
+   * answers with the pool alone. Left out, the corpus is its own catalogue.
+   * The pool must be a subset of the catalogue the index was built over: a pool
+   * card the catalogue does not hold resolves to nothing, with no error.
+   */
+  index?: CatalogueIndex;
 }
 
 export interface SearchResults {
@@ -37,61 +52,79 @@ export interface SearchResults {
   searchResults: SearchCard[];
 }
 
+const searchOptions: Fuse.IFuseOptions<DoubleSidedCard> = {
+  getFn: (obj, path) => {
+    const value = Fuse.config.getFn(obj, path);
+    let normalizedValue: string | readonly string[] | undefined = value;
+    if (Array.isArray(value)) {
+      normalizedValue = value.map((val) =>
+        getNormalizedText(val.replace(PUNCTUATION, "")),
+      );
+    } else if (value) {
+      const text = getNormalizedText(value as string).replace(PUNCTUATION, "");
+      normalizedValue = path.includes("functionalText")
+        ? getTextWithoutMarkup(text)
+        : text;
+    }
+    return normalizedValue;
+  },
+  ignoreLocation: true,
+  includeScore: true,
+  keys: [
+    { name: "name", weight: 10 },
+    { name: "functionalText", weight: 6 },
+    { name: "shorthands", weight: 4 },
+    { name: "setIdentifiers", weight: 2 },
+    { name: "traits", weight: 4 },
+    { name: "typeText", weight: 6 },
+  ],
+  threshold: 0.15,
+  useExtendedSearch: true,
+};
+
 class Search {
   private additionalHeroes: Hero[];
   private additionalSets: Release[];
   private cards: DoubleSidedCard[];
   private debug: boolean;
-  private fuse: Fuse<Card>;
-  private index: SearchIndex;
+  private fuse: Fuse<Card> | undefined;
+  private index: CatalogueIndex;
 
+  constructor(cards: DoubleSidedCard[], options?: SearchOptions);
   constructor(
     cards: DoubleSidedCard[],
-    additionalHeroes: Hero[] = [],
+    additionalHeroes?: Hero[],
+    additionalSets?: Release[],
+    debug?: boolean,
+  );
+  constructor(
+    cards: DoubleSidedCard[],
+    additionalHeroesOrOptions: Hero[] | SearchOptions = [],
     additionalSets: Release[] = [],
     debug: boolean = false,
   ) {
-    const searchOptions = {
-      getFn: (obj: DoubleSidedCard, path) => {
-        // Use the default `get` function
-        const value = Fuse.config.getFn(obj, path);
-        if (!value) {
-          return value;
-        } else if (Array.isArray(value)) {
-          return value.map((val) =>
-            getNormalizedText(val.replace(PUNCTUATION, "")),
-          );
-        } else {
-          const text = getNormalizedText(value as string).replace(
-            PUNCTUATION,
-            "",
-          );
-          return path.includes("functionalText")
-            ? getTextWithoutMarkup(text)
-            : text;
-        }
-      },
-      ignoreLocation: true,
-      includeScore: true,
-      keys: [
-        { name: "name", weight: 10 },
-        { name: "functionalText", weight: 6 },
-        { name: "shorthands", weight: 4 },
-        { name: "setIdentifiers", weight: 2 },
-        { name: "traits", weight: 4 },
-        { name: "typeText", weight: 6 },
-      ],
-      threshold: 0.15,
-      useExtendedSearch: true,
-    };
+    const options: SearchOptions = Array.isArray(additionalHeroesOrOptions)
+      ? { additionalHeroes: additionalHeroesOrOptions, additionalSets, debug }
+      : additionalHeroesOrOptions;
 
-    this.additionalHeroes = additionalHeroes;
-    this.additionalSets = additionalSets;
+    this.additionalHeroes = options.additionalHeroes || [];
+    this.additionalSets = options.additionalSets || [];
     this.cards = [...cards];
-    this.debug = debug;
-    this.fuse = new Fuse([...cards], searchOptions);
-    this.index = buildSearchIndex(this.cards);
+    this.debug = options.debug || false;
+    // Keyed on the caller's array rather than the private copy, so a consumer
+    // holding that array shares this index instead of building a second one.
+    this.index = options.index || getCatalogueIndex(cards);
   }
+
+  // Scoring the corpus is the costly half of a search, so a catalogue that is
+  // only ever filtered never pays to index it.
+  private getFuse = (): Fuse<Card> => {
+    if (!this.fuse) {
+      this.fuse = new Fuse(this.cards, searchOptions);
+    }
+
+    return this.fuse;
+  };
 
   log = (message?: any, ...optionalParams: any[]) => {
     if (this.debug) {
@@ -118,7 +151,9 @@ class Search {
     if (matchingMemes.length > 0) {
       results = matchingMemes.map(({ card }) => card);
     } else if (keywords.length) {
-      results = this.fuse.search(keyword).map((result) => result.item);
+      results = this.getFuse()
+        .search(keyword)
+        .map((result) => result.item);
     } else {
       results = [...this.cards];
     }
