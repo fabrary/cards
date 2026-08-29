@@ -37,22 +37,21 @@ export interface SearchResults {
   searchResults: SearchCard[];
 }
 
-const searchOptions = {
-  getFn: (obj: DoubleSidedCard, path) => {
-    // Use the default `get` function
+const searchOptions: Fuse.IFuseOptions<DoubleSidedCard> = {
+  getFn: (obj, path) => {
     const value = Fuse.config.getFn(obj, path);
-    if (!value) {
-      return value;
-    } else if (Array.isArray(value)) {
-      return value.map((val) =>
+    let normalizedValue: string | readonly string[] | undefined = value;
+    if (Array.isArray(value)) {
+      normalizedValue = value.map((val) =>
         getNormalizedText(val.replace(PUNCTUATION, "")),
       );
-    } else {
+    } else if (value) {
       const text = getNormalizedText(value as string).replace(PUNCTUATION, "");
-      return path.includes("functionalText")
+      normalizedValue = path.includes("functionalText")
         ? getTextWithoutMarkup(text)
         : text;
     }
+    return normalizedValue;
   },
   ignoreLocation: true,
   includeScore: true,
