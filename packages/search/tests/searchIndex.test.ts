@@ -10,7 +10,7 @@ import { doubleSidedCards } from "./_doubleSidedCards";
 
 const index = getCatalogueIndex(doubleSidedCards);
 
-const getIdentifiers = (matches: DoubleSidedCard[]): string[] =>
+const getIdentifiers = (matches: readonly DoubleSidedCard[]): string[] =>
   matches.map(({ cardIdentifier }) => cardIdentifier);
 
 const getCard = (cardIdentifier: string): DoubleSidedCard =>
@@ -256,13 +256,20 @@ describe("Catalogue index", () => {
       }
     });
 
-    it("Buckets every card but the hero printed on a back", () => {
-      let bucketedCards = 0;
+    it("Buckets every card but the heroes printed on a back", () => {
+      const bucketedCardIdentifiers = new Set<string>();
       for (const role of Object.values(CardRole)) {
-        bucketedCards += index.getByRole(role).length;
+        for (const { cardIdentifier } of index.getByRole(role)) {
+          bucketedCardIdentifiers.add(cardIdentifier);
+        }
       }
+      const unbucketedCardIdentifiers = doubleSidedCards
+        .filter(
+          ({ cardIdentifier }) => !bucketedCardIdentifiers.has(cardIdentifier),
+        )
+        .map(({ cardIdentifier }) => cardIdentifier);
 
-      expect(bucketedCards).toEqual(doubleSidedCards.length - 1);
+      expect(unbucketedCardIdentifiers).toEqual(["viserai-usurper"]);
     });
   });
 
@@ -308,6 +315,20 @@ describe("Catalogue index", () => {
 
       expect(cardReadsAfterRelation).toBeGreaterThan(cardReadsBeforeRelation);
       expect(getCardReads()).toEqual(cardReadsAfterRelation);
+    });
+
+    it("Builds the creators only when a creator is read", () => {
+      const { corpus, getCardReads } = getWatchedCorpus();
+      const watchedIndex = getCatalogueIndex(corpus);
+
+      watchedIndex.getReferencedBy("head-jab-red");
+      const cardReadsBeforeCreators = getCardReads();
+      watchedIndex.getCreatedBy("runechant");
+      const cardReadsAfterCreators = getCardReads();
+      watchedIndex.getCreatedBy("ash");
+
+      expect(cardReadsAfterCreators).toBeGreaterThan(cardReadsBeforeCreators);
+      expect(getCardReads()).toEqual(cardReadsAfterCreators);
     });
 
     it("Builds the role buckets only when a role is read", () => {

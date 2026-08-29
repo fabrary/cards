@@ -12,29 +12,32 @@ import { getCleanText } from "./helpers.js";
  * cards carry, and what each card is for. Every relation is identifier-level,
  * so a card named at one pitch answers for that pitch alone; widening a
  * relation to the whole name is the reader's rule rather than the corpus's.
+ * Every list is the index's own, shared across reads and never copied, so a
+ * reader that needs to reorder or grow one works on a copy.
  */
 export interface CatalogueIndex {
-  cards: DoubleSidedCard[];
+  cards: readonly DoubleSidedCard[];
   getCard: (cardIdentifier: string) => DoubleSidedCard | undefined;
   /** Every pitch of the card's name, the card itself among them. */
-  getPitchCycle: (cardIdentifier: string) => DoubleSidedCard[];
+  getPitchCycle: (cardIdentifier: string) => readonly DoubleSidedCard[];
   /** The cards the card is printed on the back of. */
-  getOppositeSide: (cardIdentifier: string) => DoubleSidedCard[];
+  getOppositeSide: (cardIdentifier: string) => readonly DoubleSidedCard[];
   /** The cards the card names. */
-  getReferences: (cardIdentifier: string) => DoubleSidedCard[];
+  getReferences: (cardIdentifier: string) => readonly DoubleSidedCard[];
   /** The cards naming the card. */
-  getReferencedBy: (cardIdentifier: string) => DoubleSidedCard[];
+  getReferencedBy: (cardIdentifier: string) => readonly DoubleSidedCard[];
   /** The extras the card brings into play. */
-  getCreates: (cardIdentifier: string) => DoubleSidedCard[];
+  getCreates: (cardIdentifier: string) => readonly DoubleSidedCard[];
   /** The cards bringing the card into play. */
-  getCreatedBy: (cardIdentifier: string) => DoubleSidedCard[];
+  getCreatedBy: (cardIdentifier: string) => readonly DoubleSidedCard[];
   /**
    * What the cards bring into play, what those creations create, and on down
    * the chain. A card joins the answer only when something the walk reaches
-   * creates it, so the cards asked about are left out of their own closure.
+   * creates it, so a card asked about appears only if the chain circles back
+   * to it.
    */
-  getCreatedClosure: (cardIdentifiers: string[]) => DoubleSidedCard[];
-  getByRole: (role: CardRole) => DoubleSidedCard[];
+  getCreatedClosure: (cardIdentifiers: string[]) => readonly DoubleSidedCard[];
+  getByRole: (role: CardRole) => readonly DoubleSidedCard[];
 }
 
 interface CardLookups {
@@ -46,14 +49,20 @@ interface CardLookups {
   pitchCycleByCleanedName: Map<string, DoubleSidedCard[]>;
 }
 
-const cardLookupsByCards = new WeakMap<DoubleSidedCard[], CardLookups>();
-const catalogueIndexByCards = new WeakMap<DoubleSidedCard[], CatalogueIndex>();
+const cardLookupsByCards = new WeakMap<
+  readonly DoubleSidedCard[],
+  CardLookups
+>();
+const catalogueIndexByCards = new WeakMap<
+  readonly DoubleSidedCard[],
+  CatalogueIndex
+>();
 
 /**
  * Identifier and name come out of one pass: a corpus asked to find a card is
  * asked for that card's pitches too.
  */
-const getCardLookups = (cards: DoubleSidedCard[]): CardLookups => {
+const getCardLookups = (cards: readonly DoubleSidedCard[]): CardLookups => {
   let cardLookups = cardLookupsByCards.get(cards);
 
   if (!cardLookups) {
@@ -291,10 +300,7 @@ export const getCatalogueIndex = (cards: DoubleSidedCard[]): CatalogueIndex => {
 const getPitchCycleOfCard = (
   index: CatalogueIndex,
   card: Card,
-): DoubleSidedCard[] =>
-  getCardLookups(index.cards).pitchCycleByCleanedName.get(
-    getCleanText(card.name),
-  ) || [];
+): readonly DoubleSidedCard[] => index.getPitchCycle(card.cardIdentifier);
 
 /**
  * Every pitch of the named card. An exact name wins; failing that the first
