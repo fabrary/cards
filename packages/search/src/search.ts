@@ -33,6 +33,8 @@ export interface SearchOptions {
    * searched out of a larger catalogue shares the catalogue's index, so a
    * relation is answered from every card that carries it while the search still
    * answers with the pool alone. Left out, the corpus is its own catalogue.
+   * The pool must be a subset of the catalogue the index was built over: a pool
+   * card the catalogue does not hold resolves to nothing, with no error.
    */
   index?: CatalogueIndex;
 }
@@ -109,14 +111,16 @@ class Search {
     this.additionalSets = options.additionalSets || [];
     this.cards = [...cards];
     this.debug = options.debug || false;
-    this.index = options.index || getCatalogueIndex(this.cards);
+    // Keyed on the caller's array rather than the private copy, so a consumer
+    // holding that array shares this index instead of building a second one.
+    this.index = options.index || getCatalogueIndex(cards);
   }
 
   // Scoring the corpus is the costly half of a search, so a catalogue that is
   // only ever filtered never pays to index it.
   private getFuse = (): Fuse<Card> => {
     if (!this.fuse) {
-      this.fuse = new Fuse([...this.cards], searchOptions);
+      this.fuse = new Fuse(this.cards, searchOptions);
     }
 
     return this.fuse;

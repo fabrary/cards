@@ -387,6 +387,23 @@ describe("Catalogue index", () => {
       ]);
     });
 
+    it("Answers with the first containing name the corpus carries", () => {
+      // No catalogue name repeats after another name containing the same
+      // fragment, so the ordering rule needs a corpus written for it: the
+      // second Bolt Scrapper must not push its name behind Bolt Stitcher.
+      const fragmentCorpus = [
+        { cardIdentifier: "bolt-scrapper-red", name: "Bolt Scrapper" },
+        { cardIdentifier: "bolt-stitcher-red", name: "Bolt Stitcher" },
+        { cardIdentifier: "bolt-scrapper-yellow", name: "Bolt Scrapper" },
+      ] as unknown as DoubleSidedCard[];
+
+      expect(
+        getIdentifiers(
+          getCardsByName(getCatalogueIndex(fragmentCorpus), "bolt"),
+        ),
+      ).toEqual(["bolt-scrapper-red", "bolt-scrapper-yellow"]);
+    });
+
     it("Returns nothing for a name no card carries", () => {
       expect(getCardsByName(index, "zzz no such card")).toEqual([]);
     });
