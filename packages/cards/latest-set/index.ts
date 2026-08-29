@@ -2475,6 +2475,81 @@ Your next Shadow attack this turn gets +1{p}. **Go again**
   
   
   },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "deadly-spinneret-red",
+    classes: [Class.Assassin],
+    defaultImage: "IAR243",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Mortimer,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    name: "Deadly Spinneret",
+    printings: [{
+        artists: ["Faizal Fikri"],
+      
+      identifier: "IAR243",
+      image: "IAR243",
+      isExpansionSlot: true,
+      
+      print: "IAR243",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR243",
+      image: "IAR243-RF",
+      isExpansionSlot: true,
+      
+      print: "IAR243-Rainbow-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR243"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR243-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    
+    
+    cost: 0,createdExtras: ["graphene-chelicera"],
+    defense: 3,
+    
+    functionalText: `**Stealth**
+
+**Instant** - Discard this: Equip a Graphene Chelicera token to each of your empty weapon zones.`,
+    
+    
+    
+    
+    keywords: [Keyword.Stealth],
+    
+    
+    meta: [Meta.Deck,Meta.Expansion],
+  
+    
+    pitch: 1,
+    power: 3,referencedCards: ["graphene-chelicera"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Rio Sabda"],
     cardIdentifier: "demonbound-gloomblade-red",
     classes: [Class.Runeblade],
@@ -2778,6 +2853,81 @@ Your next Shadow attack this turn gets +1{p}. **Go again**
     
     
     talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Aluísio Cervelle"],
+    cardIdentifier: "echoing-trap-blue",
+    classes: [Class.Ranger],
+    defaultImage: "IAR248",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Azalea,Hero.Lexi,Hero.Marlynn,Hero.Riptide],
+    name: "Echoing Trap",
+    printings: [{
+        artists: ["Aluísio Cervelle"],
+      
+      identifier: "IAR248",
+      image: "IAR248",
+      isExpansionSlot: true,
+      
+      print: "IAR248",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Aluísio Cervelle"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR248",
+      image: "IAR248-RF",
+      isExpansionSlot: true,
+      
+      print: "IAR248-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR248"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR248",
+    subtypes: [Subtype.Trap],
+    types: [Type.Block],
+    typeText: "Ranger Block - Trap",
+
+    
+    
+    
+    defense: 3,
+    
+    functionalText: `**Ambush**
+
+When this defends an attack action card with the same name as another card played this turn, the attacking hero discards a card.`,
+    
+    
+    
+    
+    keywords: [Keyword.Ambush],
+    
+    
+    meta: [Meta.Deck,Meta.Expansion],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
@@ -6941,6 +7091,79 @@ When this is pitched, lose 1{h}.`,
     
     
     talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["YDZ"],
+    cardIdentifier: "stoke-vengeance-red",
+    classes: [Class.Ninja],
+    defaultImage: "IAR245",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Zen],
+    name: "Stoke Vengeance",
+    printings: [{
+        artists: ["YDZ"],
+      
+      identifier: "IAR245",
+      image: "IAR245",
+      isExpansionSlot: true,
+      
+      print: "IAR245",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["YDZ"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR245",
+      image: "IAR245-RF",
+      isExpansionSlot: true,
+      
+      print: "IAR245-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR245"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR245",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `**Combo** - If Edge of Autumn was the last attack this combat chain, this gets **go again** and "When this hits, your next attack this combat chain gets +2{p}."`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo],
+    
+    
+    meta: [Meta.Deck,Meta.Expansion],
+  
+    
+    pitch: 1,
+    power: 4,referencedCards: ["edge-of-autumn"],
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{

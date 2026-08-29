@@ -111997,6 +111997,81 @@ If it has an aim counter, it gets "When this hits a hero, look at their hand and
   
   
   },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "deadly-spinneret-red",
+    classes: [Class.Assassin],
+    defaultImage: "IAR243",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Mortimer,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    name: "Deadly Spinneret",
+    printings: [{
+        artists: ["Faizal Fikri"],
+      
+      identifier: "IAR243",
+      image: "IAR243",
+      isExpansionSlot: true,
+      
+      print: "IAR243",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR243",
+      image: "IAR243-RF",
+      isExpansionSlot: true,
+      
+      print: "IAR243-Rainbow-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR243"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR243-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    
+    
+    cost: 0,createdExtras: ["graphene-chelicera"],
+    defense: 3,
+    
+    functionalText: `**Stealth**
+
+**Instant** - Discard this: Equip a Graphene Chelicera token to each of your empty weapon zones.`,
+    
+    
+    
+    
+    keywords: [Keyword.Stealth],
+    
+    
+    meta: [Meta.Deck,Meta.Expansion],
+  
+    
+    pitch: 1,
+    power: 3,referencedCards: ["graphene-chelicera"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Rio Sabda"],
     cardIdentifier: "deadwood-dirge-red",
     classes: [Class.Runeblade],
@@ -134733,6 +134808,81 @@ When this is put into your graveyard from anywhere, your hero deals 1 arcane dam
     
     
     talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Aluísio Cervelle"],
+    cardIdentifier: "echoing-trap-blue",
+    classes: [Class.Ranger],
+    defaultImage: "IAR248",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Azalea,Hero.Lexi,Hero.Marlynn,Hero.Riptide],
+    name: "Echoing Trap",
+    printings: [{
+        artists: ["Aluísio Cervelle"],
+      
+      identifier: "IAR248",
+      image: "IAR248",
+      isExpansionSlot: true,
+      
+      print: "IAR248",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Aluísio Cervelle"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR248",
+      image: "IAR248-RF",
+      isExpansionSlot: true,
+      
+      print: "IAR248-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR248"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR248",
+    subtypes: [Subtype.Trap],
+    types: [Type.Block],
+    typeText: "Ranger Block - Trap",
+
+    
+    
+    
+    defense: 3,
+    
+    functionalText: `**Ambush**
+
+When this defends an attack action card with the same name as another card played this turn, the attacking hero discards a card.`,
+    
+    
+    
+    
+    keywords: [Keyword.Ambush],
+    
+    
+    meta: [Meta.Deck,Meta.Expansion],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
@@ -159873,7 +160023,8 @@ Target attack gets +3{p}.`,
     
   
   
-  },{
+  }];
+const cards3: Card[] = [{
     artists: ["Marco González"],
     cardIdentifier: "fatigue-shot-red",
     classes: [Class.Ranger],
@@ -160031,8 +160182,7 @@ Target attack gets +3{p}.`,
     
   
   
-  }];
-const cards3: Card[] = [{
+  },{
     artists: ["Marco González"],
     cardIdentifier: "fatigue-shot-blue",
     classes: [Class.Ranger],
@@ -241681,7 +241831,8 @@ The first time you discard a card with 6 or more {p} during each of your action 
     
   
   young: true
-  },{
+  }];
+const cards4: Card[] = [{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "kayo-strong-arm",
     classes: [Class.Brute],
@@ -241916,8 +242067,7 @@ Whenever the crowd boos you, create a Vigor token.`,
     talents: [Talent.Reviled],
   
   
-  }];
-const cards4: Card[] = [{
+  },{
     artists: ["soyameii"],
     cardIdentifier: "kelpie-tangled-mess-yellow",
     classes: [Class.Necromancer,Class.Pirate],
@@ -323068,7 +323218,8 @@ When this hits a hero, their first attack during their next turn gets -4{p}.`,
     
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Ismatulloh"],
     cardIdentifier: "punch-above-your-weight-yellow",
     classes: [Class.Generic],
@@ -323226,8 +323377,7 @@ When this hits a hero, their first attack during their next turn gets -4{p}.`,
     
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Marcus Reyno"],
     cardIdentifier: "punching-gloves",
     classes: [Class.Generic],
@@ -403857,7 +404007,8 @@ If this was played from arsenal, the next attack action card you play this turn 
     
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "smashing-good-time-yellow",
     classes: [Class.Generic],
@@ -404023,8 +404174,7 @@ If this was played from arsenal, the next attack action card you play this turn 
     
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Vadim Kalabukh"],
     cardIdentifier: "smashing-ground-blue",
     classes: [Class.Brute],
@@ -427814,6 +427964,79 @@ If this was **fused**, it gets +2{p}.`,
     
     
     talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["YDZ"],
+    cardIdentifier: "stoke-vengeance-red",
+    classes: [Class.Ninja],
+    defaultImage: "IAR245",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Zen],
+    name: "Stoke Vengeance",
+    printings: [{
+        artists: ["YDZ"],
+      
+      identifier: "IAR245",
+      image: "IAR245",
+      isExpansionSlot: true,
+      
+      print: "IAR245",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["YDZ"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR245",
+      image: "IAR245-RF",
+      isExpansionSlot: true,
+      
+      print: "IAR245-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR245"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR245",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `**Combo** - If Edge of Autumn was the last attack this combat chain, this gets **go again** and "When this hits, your next attack this combat chain gets +2{p}."`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo],
+    
+    
+    meta: [Meta.Deck,Meta.Expansion],
+  
+    
+    pitch: 1,
+    power: 4,referencedCards: ["edge-of-autumn"],
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
@@ -482597,7 +482820,8 @@ When this chain link resolves, if this is defended by a card from hand, create a
     
   
   young: true
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "viserai-between-worlds",
     classes: [Class.Runeblade],
@@ -482951,8 +483175,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
     talents: [Talent.Shadow],
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "viserai-usurper",
     classes: [Class.Runeblade],
