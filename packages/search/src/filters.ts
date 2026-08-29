@@ -16,10 +16,10 @@ import { multiWordShorthands, singleWordShorthands } from "./shorthands.js";
 import { PUNCTUATION } from "./constants.js";
 import { getTextWithoutMarkup } from "./helpers.js";
 import {
+  CatalogueIndex,
   getCardsByName,
   getCardsReferencedBy,
   getCardsReferencing,
-  SearchIndex,
 } from "./searchIndex.js";
 
 export interface AppliedFilter {
@@ -495,7 +495,7 @@ const CHAIN_EXPANSION_LIMIT = 20;
 
 export const getKeywordsAndAppliedFiltersFromText = (
   text: string,
-  index: SearchIndex,
+  index: CatalogueIndex,
   additionalHeroes: Hero[] = [],
   additionalSets: Release[] = [],
   today: string = getTodayAsReleaseDate(),

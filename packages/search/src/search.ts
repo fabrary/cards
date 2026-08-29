@@ -18,7 +18,7 @@ import {
 import { memes } from "./memes.js";
 import { getNormalizedText, getTextWithoutMarkup } from "./helpers.js";
 import { FilterProperty } from "./metaFilters.js";
-import { buildSearchIndex, SearchIndex } from "./searchIndex.js";
+import { CatalogueIndex, getCatalogueIndex } from "./searchIndex.js";
 
 export interface SearchCard extends DoubleSidedCard {
   matchingPrintings?: Printing[];
@@ -73,7 +73,7 @@ class Search {
   private cards: DoubleSidedCard[];
   private debug: boolean;
   private fuse: Fuse<Card> | undefined;
-  private index: SearchIndex;
+  private index: CatalogueIndex;
 
   constructor(
     cards: DoubleSidedCard[],
@@ -85,7 +85,7 @@ class Search {
     this.additionalSets = additionalSets;
     this.cards = [...cards];
     this.debug = debug;
-    this.index = buildSearchIndex(this.cards);
+    this.index = getCatalogueIndex(this.cards);
   }
 
   // Scoring the corpus is the costly half of a search, so a catalogue that is

@@ -12,9 +12,9 @@ import {
   RARITY_VALUES_MAPPING,
 } from "../src/filters";
 import { cards } from "@flesh-and-blood/cards";
-import { buildSearchIndex } from "../src/searchIndex";
+import { getCatalogueIndex } from "../src/searchIndex";
 
-const index = buildSearchIndex(cards);
+const index = getCatalogueIndex(cards);
 
 // Any fixed day works; the point is that the token resolves to a comparison
 // against the date it was given rather than to whatever today happens to be.
