@@ -6299,12 +6299,12 @@ At the beginning of your action phase or when you play an attack action card, de
       
     },{
         artists: ["Nailsen Ivanderlie"],
-      foiling: Foiling.Cold,
+      foiling: Foiling.Rainbow,
       identifier: "IAR252",
-      image: "IAR252-CF",
+      image: "IAR252-RF",
       isExpansionSlot: true,
       
-      print: "IAR252-Cold-Extended Art",
+      print: "IAR252-Rainbow-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.UsurpTheShadowThrone,
       
@@ -6314,7 +6314,7 @@ At the beginning of your action phase or when you play an attack action card, de
     rarity: Rarity.Majestic,
     setIdentifiers: ["IAR252"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR252-CF",
+    specialImage: "IAR252-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Illusionist / Wizard Action - Attack",

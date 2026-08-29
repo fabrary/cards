@@ -473767,6 +473767,107 @@ exports[`Check for unintentional updates Runner Runner (runner-runner-red) vs sn
 }
 `;
 
+exports[`Check for unintentional updates Rush of Knowledge (rush-of-knowledge-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nailsen Ivanderlie",
+  ],
+  "cardIdentifier": "rush-of-knowledge-blue",
+  "classes": [
+    "Illusionist",
+    "Wizard",
+  ],
+  "cost": 0,
+  "defaultImage": "IAR252",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may destroy a Ponder token you control. If you do, draw a card and gain 1 action point.
+
+**Phantasm**",
+  "keywords": [
+    "Phantasm",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Blaze",
+    "Broscilio",
+    "Dromai",
+    "Enigma",
+    "Iyslander",
+    "Kano",
+    "Oscilio",
+    "Prism",
+    "Verdance",
+    "Zyggy",
+  ],
+  "meta": [
+    "Deck",
+    "Dual class",
+    "Expansion slot",
+  ],
+  "name": "Rush of Knowledge",
+  "pitch": 3,
+  "power": 4,
+  "printings": [
+    {
+      "artists": [
+        "Nailsen Ivanderlie",
+      ],
+      "identifier": "IAR252",
+      "image": "IAR252",
+      "isExpansionSlot": true,
+      "print": "IAR252",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Nailsen Ivanderlie",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR252",
+      "image": "IAR252-RF",
+      "isExpansionSlot": true,
+      "print": "IAR252-Rainbow-Extended Art",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "referencedCards": [
+    "ponder",
+  ],
+  "setIdentifiers": [
+    "IAR252",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR252-RF",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Illusionist / Wizard Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Rush of Power (rush-of-power-blue) vs snapshot 1`] = `
 {
   "arcane": 1,
