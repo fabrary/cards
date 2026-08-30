@@ -30,6 +30,17 @@ export interface CatalogueIndex<
    * resolves to one card.
    */
   getCardsByName: (name: string) => readonly CardType[];
+  /**
+   * Every pitch of the named card, the name matched whole. Answers "resolve
+   * this exact name" where `getCardsByName` answers "search for this name", so
+   * a fragment of a name the corpus carries finds nothing.
+   */
+  getCardsByExactName: (name: string) => readonly CardType[];
+  /**
+   * Every artist the corpus credits, each once, ordered by the `en` locale
+   * ignoring case and diacritics so a browser and a server agree on the list.
+   */
+  getArtists: () => readonly string[];
   /** The cards the card is printed on the back of. */
   getOppositeSide: (cardIdentifier: string) => readonly CardType[];
   /** The cards the card names. */
@@ -141,6 +152,7 @@ const getNewCatalogueIndex = <CardType extends DoubleSidedCard>(
   let referencingCardsByCardIdentifier: Map<string, CardType[]> | undefined;
   let creatingCardsByCardIdentifier: Map<string, CardType[]> | undefined;
   let cardsByRole: Map<CardRole, CardType[]> | undefined;
+  let artists: string[] | undefined;
 
   /**
    * Identifier, position and name come out of one pass: a corpus asked to find
@@ -266,6 +278,30 @@ const getNewCatalogueIndex = <CardType extends DoubleSidedCard>(
     return pitchCycle ?? noCards;
   };
 
+  const getCardsByExactName = (name: string): readonly CardType[] => {
+    const { pitchCycleByCleanedName } = getCardLookups();
+
+    return pitchCycleByCleanedName.get(getCleanText(name)) ?? noCards;
+  };
+
+  const getArtists = (): readonly string[] => {
+    if (!artists) {
+      const creditedArtists = new Set<string>();
+
+      for (const card of cards) {
+        for (const artist of card.artists) {
+          creditedArtists.add(artist);
+        }
+      }
+
+      artists = [...creditedArtists].sort((first, second) =>
+        first.localeCompare(second, "en", { sensitivity: "base" }),
+      );
+    }
+
+    return artists;
+  };
+
   const getOppositeSide = getNamedCardsReader(
     ({ oppositeSideCardIdentifiers }) => oppositeSideCardIdentifiers,
   );
@@ -337,6 +373,8 @@ const getNewCatalogueIndex = <CardType extends DoubleSidedCard>(
     getCard,
     getPitchCycle,
     getCardsByName,
+    getCardsByExactName,
+    getArtists,
     getOppositeSide,
     getReferences,
     getReferencedBy,

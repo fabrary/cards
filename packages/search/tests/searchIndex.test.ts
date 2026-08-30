@@ -342,6 +342,20 @@ describe("Catalogue index", () => {
 
       expect(getCardReads()).toBeGreaterThan(cardReadsBeforeRole);
     });
+
+    it("Builds the artists only when the artists are read", () => {
+      const { corpus, getCardReads } = getWatchedCorpus();
+      const watchedIndex = getCatalogueIndex(corpus);
+
+      watchedIndex.getReferencedBy("head-jab-red");
+      const cardReadsBeforeArtists = getCardReads();
+      watchedIndex.getArtists();
+      const cardReadsAfterArtists = getCardReads();
+      watchedIndex.getArtists();
+
+      expect(cardReadsAfterArtists).toBeGreaterThan(cardReadsBeforeArtists);
+      expect(getCardReads()).toEqual(cardReadsAfterArtists);
+    });
   });
 
   describe("Cards in corpus order", () => {
@@ -497,6 +511,90 @@ describe("Catalogue index", () => {
 
     it("Returns nothing for a name no card carries", () => {
       expect(getCardsByName(index, "zzz no such card")).toEqual([]);
+    });
+  });
+
+  describe("Cards by exact name", () => {
+    it("Returns every pitch of the named card", () => {
+      expect(
+        getIdentifiers(index.getCardsByExactName("scar for a scar")),
+      ).toEqual([
+        "scar-for-a-scar-red",
+        "scar-for-a-scar-yellow",
+        "scar-for-a-scar-blue",
+      ]);
+    });
+
+    it("Matches a name the query spells with its own casing", () => {
+      expect(
+        getIdentifiers(index.getCardsByExactName("Scar for a Scar")),
+      ).toEqual([
+        "scar-for-a-scar-red",
+        "scar-for-a-scar-yellow",
+        "scar-for-a-scar-blue",
+      ]);
+    });
+
+    it("Returns nothing for a fragment of a name the corpus carries", () => {
+      expect(index.getCardsByExactName("Scar")).toBe(
+        index.getCardsByExactName(""),
+      );
+      expect(index.getCardsByExactName("Blade")).toBe(
+        index.getCardsByExactName(""),
+      );
+    });
+
+    it("Answers a repeated read with the same list", () => {
+      expect(index.getCardsByExactName("scar for a scar")).toBe(
+        index.getCardsByExactName("scar for a scar"),
+      );
+    });
+  });
+
+  describe("Artists", () => {
+    it("Names each artist the corpus credits once", () => {
+      const artists = index.getArtists();
+
+      expect(artists.length).toBeGreaterThan(0);
+      expect(new Set(artists).size).toEqual(artists.length);
+    });
+
+    it("Orders the artists as the interface says", () => {
+      const artists = index.getArtists();
+      const orderedArtists = [...artists].sort((first, second) =>
+        first.localeCompare(second, "en", { sensitivity: "base" }),
+      );
+
+      expect(artists).toEqual(orderedArtists);
+    });
+
+    it("Answers a repeated read with the same list", () => {
+      expect(index.getArtists()).toBe(index.getArtists());
+    });
+
+    it("Keeps artists spelled with different casing together", () => {
+      // No two catalogue artists are spelled the same but for their casing, so
+      // the ordering rule needs a corpus written for it: a case-sensitive sort
+      // would put Zoe Cole between the two spellings of Ada Boyd.
+      const casedCorpus = [
+        {
+          cardIdentifier: "first",
+          name: "First",
+          artists: ["ada Boyd", "Zoe Cole"],
+        },
+        {
+          cardIdentifier: "second",
+          name: "Second",
+          artists: ["Ada boyd", "Abe Dane"],
+        },
+      ] as unknown as DoubleSidedCard[];
+
+      const artists = getCatalogueIndex(casedCorpus).getArtists();
+
+      expect(artists.length).toEqual(4);
+      expect(
+        Math.abs(artists.indexOf("ada Boyd") - artists.indexOf("Ada boyd")),
+      ).toEqual(1);
     });
   });
 
