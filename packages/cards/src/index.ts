@@ -20019,6 +20019,83 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   
   
   },{
+    artists: ["Reinaldo Indrajaya"],
+    cardIdentifier: "astral-ambience-yellow",
+    classes: [Class.Illusionist],
+    defaultImage: "IAR250",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Dromai,Hero.Enigma,Hero.Prism,Hero.Zyggy],
+    name: "Astral Ambience",
+    printings: [{
+        artists: ["Reinaldo Indrajaya"],
+      
+      identifier: "IAR250",
+      image: "IAR250",
+      isExpansionSlot: true,
+      
+      print: "IAR250",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Reinaldo Indrajaya"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR250",
+      image: "IAR250-RF",
+      isExpansionSlot: true,
+      
+      print: "IAR250-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR250"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR250",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Illusionist Action - Attack",
+
+    
+    
+    cost: 2,createdExtras: ["spectral-shield"],
+    defense: 3,
+    
+    functionalText: `Whenever this fragments, create a Spectral Shield token.
+
+**Instant** - {t} a Spectral Shield you control: This gets **go again**.
+
+**Fragment**`,
+    
+    
+    
+    
+    keywords: [Keyword.Fragment,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Expansion],
+  
+    
+    pitch: 2,
+    power: 6,referencedCards: ["spectral-shield"],
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "astral-assault-red",
     classes: [Class.NotClassed],
@@ -74037,6 +74114,79 @@ If you've played another Wizard non-attack action card this turn, deal 3 arcane 
   
   
   },{
+    artists: ["Vincent Taslim"],
+    cardIdentifier: "chains-of-consecration-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR259",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Librarian,Hero.Prism,Hero.Theryon],
+    name: "Chains of Consecration",
+    printings: [{
+        artists: ["Vincent Taslim"],
+      
+      identifier: "IAR259",
+      image: "IAR259",
+      isExpansionSlot: true,
+      
+      print: "IAR259",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Vincent Taslim"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR259",
+      image: "IAR259-RF",
+      isExpansionSlot: true,
+      
+      print: "IAR259-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR259"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR259",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Light Instant",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `Prevent all damage target ally would deal this turn. If damage is prevented from a Shadow ally this way, banish it face-down.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck,Meta.Expansion],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+  
+  
+  },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "chains-of-eminence-red",
     classes: [Class.Generic],
@@ -80990,7 +81140,8 @@ Cintari Sellsword can only attack if you've attacked with a weapon this turn.`,
     
   
   
-  },{
+  }];
+const cards2: Card[] = [{
     artists: ["Eilene Cherie"],
     cardIdentifier: "civic-guide",
     classes: [Class.Guardian],
@@ -81152,8 +81303,7 @@ Cintari Sellsword can only attack if you've attacked with a weapon this turn.`,
     
   
   
-  }];
-const cards2: Card[] = [{
+  },{
     artists: ["Eilene Cherie"],
     cardIdentifier: "civic-steps",
     classes: [Class.Guardian],
@@ -159775,7 +159925,8 @@ Target attack gets +3{p}.`,
     
   
   
-  },{
+  }];
+const cards3: Card[] = [{
     artists: ["Anastasia Alexandrova"],
     cardIdentifier: "fate-foreseen-yellow",
     classes: [Class.Generic],
@@ -160023,8 +160174,7 @@ Target attack gets +3{p}.`,
     
   
   
-  }];
-const cards3: Card[] = [{
+  },{
     artists: ["Marco González"],
     cardIdentifier: "fatigue-shot-red",
     classes: [Class.Ranger],
@@ -241548,7 +241698,8 @@ The first time you discard a card with 6 or more {p} during each of your action 
     
   
   young: true
-  },{
+  }];
+const cards4: Card[] = [{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "kayo-armed-and-dangerous",
     classes: [Class.Brute],
@@ -241831,8 +241982,7 @@ The first time you discard a card with 6 or more {p} during each of your action 
     
   
   young: true
-  }];
-const cards4: Card[] = [{
+  },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "kayo-strong-arm",
     classes: [Class.Brute],
@@ -322986,7 +323136,8 @@ When this hits a hero, their first attack during their next turn gets -4{p}.`,
     
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Ksenia Belova"],
     cardIdentifier: "pummel-blue",
     classes: [Class.Generic],
@@ -323218,8 +323369,7 @@ When this hits a hero, their first attack during their next turn gets -4{p}.`,
     
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Ismatulloh"],
     cardIdentifier: "punch-above-your-weight-yellow",
     classes: [Class.Generic],
@@ -393351,6 +393501,81 @@ When this leaves the arena, reveal the top card of your deck. If it's an attack 
   
   
   },{
+    artists: ["Agatha Maura"],
+    cardIdentifier: "sigil-of-the-muse-red",
+    classes: [Class.Wizard],
+    defaultImage: "IAR249",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Blaze,Hero.Broscilio,Hero.Emperor,Hero.Iyslander,Hero.Kano,Hero.Oscilio,Hero.Verdance],
+    name: "Sigil of the Muse",
+    printings: [{
+        artists: ["Agatha Maura"],
+      
+      identifier: "IAR249",
+      image: "IAR249",
+      isExpansionSlot: true,
+      
+      print: "IAR249",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Agatha Maura"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR249",
+      image: "IAR249-RF",
+      isExpansionSlot: true,
+      
+      print: "IAR249-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR249"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR249",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Wizard Action - Aura",
+
+    
+    
+    cost: 0,createdExtras: ["ponder"],
+    defense: 3,
+    
+    functionalText: `If a hero would draw 1 or more cards during an action phase, instead they create that many Ponder tokens.
+
+At the beginning of your action phase, destroy this and create a Ponder token.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck,Meta.Expansion],
+  
+    
+    pitch: 1,
+    referencedCards: ["ponder"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Thomas Ressuge"],
     cardIdentifier: "sigil-of-voltaris-blue",
     classes: [Class.Runeblade],
@@ -403674,7 +403899,8 @@ Target attack action card gets **go again**.`,
     
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Muhammad Fajri"],
     cardIdentifier: "smash-with-big-tree-blue",
     classes: [Class.Brute],
@@ -404007,8 +404233,7 @@ If this was played from arsenal, the next attack action card you play this turn 
     
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "smashing-good-time-yellow",
     classes: [Class.Generic],
@@ -482519,7 +482744,8 @@ When this chain link resolves, if this is defended by a card from hand, create a
     
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Mark Poole"],
     cardIdentifier: "virulent-touch-yellow",
     classes: [Class.Assassin,Class.Ranger],
@@ -482820,8 +483046,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
     
   
   young: true
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "viserai-between-worlds",
     classes: [Class.Runeblade],

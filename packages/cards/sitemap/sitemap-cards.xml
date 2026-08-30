@@ -976,6 +976,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/astral-ambience-yellow</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/astral-assault-red</loc>
     <lastmod>2026-05-21</lastmod>
     <priority>0.5</priority>
@@ -3658,6 +3663,11 @@
   <url>
     <loc>https://fabrary.net/cards/chain-reaction-yellow</loc>
     <lastmod>2024-12-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/chains-of-consecration-yellow</loc>
+    <lastmod>2026-08-30</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -19453,6 +19463,11 @@
   <url>
     <loc>https://fabrary.net/cards/sigil-of-the-arknight-blue</loc>
     <lastmod>2024-08-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/sigil-of-the-muse-red</loc>
+    <lastmod>2026-08-30</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
