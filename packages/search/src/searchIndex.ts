@@ -12,68 +12,85 @@ import { getCleanText } from "./helpers.js";
  * cards carry, and what each card is for. Every relation is identifier-level,
  * so a card named at one pitch answers for that pitch alone; widening a
  * relation to the whole name is the reader's rule rather than the corpus's.
- * Every list is the index's own, shared across reads and never copied, so a
- * reader that needs to reorder or grow one works on a copy.
+ * Every list-returning read but `getCreatedClosure` and `getCardsInCorpusOrder`
+ * answers with a list the index holds, the same one on each call for the same
+ * argument and never a copy, so a reader that reorders or grows one works on a
+ * copy of its own. Those two build a fresh array for each call.
  */
-export interface CatalogueIndex {
-  cards: readonly DoubleSidedCard[];
-  getCard: (cardIdentifier: string) => DoubleSidedCard | undefined;
+export interface CatalogueIndex<
+  CardType extends DoubleSidedCard = DoubleSidedCard,
+> {
+  cards: readonly CardType[];
+  getCard: (cardIdentifier: string) => CardType | undefined;
   /** Every pitch of the card's name, the card itself among them. */
-  getPitchCycle: (cardIdentifier: string) => readonly DoubleSidedCard[];
+  getPitchCycle: (cardIdentifier: string) => readonly CardType[];
   /**
    * Every pitch of the named card. An exact name wins; failing that the first
    * name the corpus carries containing the text answers, so a fragment
    * resolves to one card.
    */
-  getCardsByName: (name: string) => readonly DoubleSidedCard[];
+  getCardsByName: (name: string) => readonly CardType[];
   /** The cards the card is printed on the back of. */
-  getOppositeSide: (cardIdentifier: string) => readonly DoubleSidedCard[];
+  getOppositeSide: (cardIdentifier: string) => readonly CardType[];
   /** The cards the card names. */
-  getReferences: (cardIdentifier: string) => readonly DoubleSidedCard[];
+  getReferences: (cardIdentifier: string) => readonly CardType[];
   /** The cards naming the card. */
-  getReferencedBy: (cardIdentifier: string) => readonly DoubleSidedCard[];
+  getReferencedBy: (cardIdentifier: string) => readonly CardType[];
   /** The extras the card brings into play. */
-  getCreates: (cardIdentifier: string) => readonly DoubleSidedCard[];
+  getCreates: (cardIdentifier: string) => readonly CardType[];
   /** The cards bringing the card into play. */
-  getCreatedBy: (cardIdentifier: string) => readonly DoubleSidedCard[];
+  getCreatedBy: (cardIdentifier: string) => readonly CardType[];
   /**
    * What the cards bring into play, what those creations create, and on down
    * the chain. A card joins the answer only when something the walk reaches
    * creates it, so a card asked about appears only if the chain circles back
    * to it.
    */
-  getCreatedClosure: (cardIdentifiers: string[]) => readonly DoubleSidedCard[];
-  getByRole: (role: CardRole) => readonly DoubleSidedCard[];
+  getCreatedClosure: (cardIdentifiers: string[]) => CardType[];
+  getByRole: (role: CardRole) => readonly CardType[];
   /** The cards handed in, as a new array in the order the corpus holds them. */
-  getCardsInCorpusOrder: (
-    cardsToOrder: readonly DoubleSidedCard[],
-  ) => DoubleSidedCard[];
+  /**
+   * Generic in what it orders rather than tied to the index's card type, so an
+   * index over a richer card type still satisfies the plain interface.
+   */
+  getCardsInCorpusOrder: <OrderedCard extends DoubleSidedCard>(
+    cardsToOrder: readonly OrderedCard[],
+  ) => OrderedCard[];
 }
 
-interface CardLookups {
-  cardByCardIdentifier: Map<string, DoubleSidedCard>;
+interface CardLookups<CardType extends DoubleSidedCard> {
+  cardByCardIdentifier: Map<string, CardType>;
   /** Corpus order, for restoring it after a lookup returns cards out of order. */
   corpusPositionByCardIdentifier: Map<string, number>;
   /** Distinct cleaned names, in the order the corpus first carries them. */
   cleanedNames: string[];
-  pitchCycleByCleanedName: Map<string, DoubleSidedCard[]>;
+  pitchCycleByCleanedName: Map<string, CardType[]>;
 }
 
 const catalogueIndexByCards = new WeakMap<
   readonly DoubleSidedCard[],
-  CatalogueIndex
+  unknown
 >();
+
+/**
+ * The answer every read gives when it finds nothing, so a miss is one list
+ * rather than a new one per call.
+ */
+const noCards = Object.freeze([] as never[]);
+
+/** Where a card the corpus lacks sorts: behind every card it holds. */
+const strayCorpusPosition = Number.MAX_SAFE_INTEGER;
 
 /**
  * The cards naming each card, keyed by the named card's identifier. One pass
  * answers the reverse of a relation for the whole corpus, so a page or a filter
  * asking about several cards builds it once.
  */
-const getNamingCardsByNamedCardIdentifier = (
-  cards: DoubleSidedCard[],
-  getNamedCardIdentifiers: (card: DoubleSidedCard) => string[] | undefined,
-): Map<string, DoubleSidedCard[]> => {
-  const namingCardsByNamedCardIdentifier = new Map<string, DoubleSidedCard[]>();
+const getNamingCardsByNamedCardIdentifier = <CardType extends DoubleSidedCard>(
+  cards: readonly CardType[],
+  getNamedCardIdentifiers: (card: CardType) => string[] | undefined,
+): Map<string, CardType[]> => {
+  const namingCardsByNamedCardIdentifier = new Map<string, CardType[]>();
 
   for (const card of cards) {
     for (const namedCardIdentifier of getNamedCardIdentifiers(card) || []) {
@@ -91,10 +108,10 @@ const getNamingCardsByNamedCardIdentifier = (
   return namingCardsByNamedCardIdentifier;
 };
 
-const getCardsByRole = (
-  cards: DoubleSidedCard[],
-): Map<CardRole, DoubleSidedCard[]> => {
-  const cardsByRole = new Map<CardRole, DoubleSidedCard[]>();
+const getCardsByRole = <CardType extends DoubleSidedCard>(
+  cards: readonly CardType[],
+): Map<CardRole, CardType[]> => {
+  const cardsByRole = new Map<CardRole, CardType[]>();
 
   for (const card of cards) {
     const isPickableHero = card.types.includes(Type.Hero) && !card.isCardBack;
@@ -117,23 +134,24 @@ const getCardsByRole = (
   return cardsByRole;
 };
 
-const getNewCatalogueIndex = (cards: DoubleSidedCard[]): CatalogueIndex => {
-  let cardLookups: CardLookups | undefined;
-  let referencingCardsByCardIdentifier:
-    Map<string, DoubleSidedCard[]> | undefined;
-  let creatingCardsByCardIdentifier: Map<string, DoubleSidedCard[]> | undefined;
-  let cardsByRole: Map<CardRole, DoubleSidedCard[]> | undefined;
+const getNewCatalogueIndex = <CardType extends DoubleSidedCard>(
+  cards: readonly CardType[],
+): CatalogueIndex<CardType> => {
+  let cardLookups: CardLookups<CardType> | undefined;
+  let referencingCardsByCardIdentifier: Map<string, CardType[]> | undefined;
+  let creatingCardsByCardIdentifier: Map<string, CardType[]> | undefined;
+  let cardsByRole: Map<CardRole, CardType[]> | undefined;
 
   /**
    * Identifier, position and name come out of one pass: a corpus asked to find
    * a card is asked where it sits and for its pitches too.
    */
-  const getCardLookups = (): CardLookups => {
+  const getCardLookups = (): CardLookups<CardType> => {
     if (!cardLookups) {
-      const cardByCardIdentifier = new Map<string, DoubleSidedCard>();
+      const cardByCardIdentifier = new Map<string, CardType>();
       const corpusPositionByCardIdentifier = new Map<string, number>();
       const cleanedNames: string[] = [];
-      const pitchCycleByCleanedName = new Map<string, DoubleSidedCard[]>();
+      const pitchCycleByCleanedName = new Map<string, CardType[]>();
 
       let corpusPosition = 0;
       for (const card of cards) {
@@ -162,27 +180,25 @@ const getNewCatalogueIndex = (cards: DoubleSidedCard[]): CatalogueIndex => {
     return cardLookups;
   };
 
-  const getCardsInCorpusOrder = (
-    cardsToOrder: readonly DoubleSidedCard[],
-  ): DoubleSidedCard[] => {
+  const getCardsInCorpusOrder = <OrderedCard extends DoubleSidedCard>(
+    cardsToOrder: readonly OrderedCard[],
+  ): OrderedCard[] => {
     const { corpusPositionByCardIdentifier } = getCardLookups();
-    const getCorpusPosition = ({ cardIdentifier }: DoubleSidedCard): number =>
-      corpusPositionByCardIdentifier.get(cardIdentifier) || 0;
+    const getCorpusPosition = ({ cardIdentifier }: OrderedCard): number =>
+      corpusPositionByCardIdentifier.get(cardIdentifier) ?? strayCorpusPosition;
 
     return [...cardsToOrder].sort(
       (first, second) => getCorpusPosition(first) - getCorpusPosition(second),
     );
   };
 
-  const getCard = (cardIdentifier: string): DoubleSidedCard | undefined =>
+  const getCard = (cardIdentifier: string): CardType | undefined =>
     getCardLookups().cardByCardIdentifier.get(cardIdentifier);
 
   /** The corpus cards the identifiers name, in the order the corpus holds them. */
-  const getNamedCards = (
-    cardIdentifiers: string[] | undefined,
-  ): DoubleSidedCard[] => {
+  const getNamedCards = (cardIdentifiers: string[] | undefined): CardType[] => {
     const { cardByCardIdentifier } = getCardLookups();
-    const namedCards: DoubleSidedCard[] = [];
+    const namedCards: CardType[] = [];
 
     for (const cardIdentifier of cardIdentifiers || []) {
       const namedCard = cardByCardIdentifier.get(cardIdentifier);
@@ -194,21 +210,51 @@ const getNewCatalogueIndex = (cards: DoubleSidedCard[]): CatalogueIndex => {
     return getCardsInCorpusOrder(namedCards);
   };
 
-  const getPitchCycle = (cardIdentifier: string): DoubleSidedCard[] => {
+  /**
+   * A read of one card-naming field, keeping the cards it found for each
+   * identifier so a second read of that identifier answers with the list the
+   * first built rather than finding and ordering the cards again.
+   */
+  const getNamedCardsReader = (
+    getNamedCardIdentifiers: (card: CardType) => string[] | undefined,
+  ): ((cardIdentifier: string) => readonly CardType[]) => {
+    const namedCardsByCardIdentifier = new Map<string, readonly CardType[]>();
+
+    return (cardIdentifier: string): readonly CardType[] => {
+      let namedCards = namedCardsByCardIdentifier.get(cardIdentifier);
+
+      if (!namedCards) {
+        const card = getCard(cardIdentifier);
+        const cardsNamed = getNamedCards(card && getNamedCardIdentifiers(card));
+        const namesCards = cardsNamed.length > 0;
+        namedCards = namesCards ? cardsNamed : noCards;
+        // A miss is not remembered, so an identifier the corpus lacks never
+        // occupies the memo.
+        if (namesCards) {
+          namedCardsByCardIdentifier.set(cardIdentifier, namedCards);
+        }
+      }
+
+      return namedCards;
+    };
+  };
+
+  const getPitchCycle = (cardIdentifier: string): readonly CardType[] => {
     const { pitchCycleByCleanedName } = getCardLookups();
     const card = getCard(cardIdentifier);
 
     return card
-      ? pitchCycleByCleanedName.get(getCleanText(card.name)) || []
-      : [];
+      ? (pitchCycleByCleanedName.get(getCleanText(card.name)) ?? noCards)
+      : noCards;
   };
 
-  const getCardsByName = (name: string): DoubleSidedCard[] => {
+  const getCardsByName = (name: string): readonly CardType[] => {
     const { cleanedNames, pitchCycleByCleanedName } = getCardLookups();
     const cleanedName = getCleanText(name);
     let pitchCycle = pitchCycleByCleanedName.get(cleanedName);
 
-    if (!pitchCycle) {
+    const canMatchFragment = !pitchCycle && cleanedName.length > 0;
+    if (canMatchFragment) {
       const containingName = cleanedNames.find((candidate) =>
         candidate.includes(cleanedName),
       );
@@ -217,16 +263,18 @@ const getNewCatalogueIndex = (cards: DoubleSidedCard[]): CatalogueIndex => {
       }
     }
 
-    return pitchCycle || [];
+    return pitchCycle ?? noCards;
   };
 
-  const getOppositeSide = (cardIdentifier: string): DoubleSidedCard[] =>
-    getNamedCards(getCard(cardIdentifier)?.oppositeSideCardIdentifiers);
+  const getOppositeSide = getNamedCardsReader(
+    ({ oppositeSideCardIdentifiers }) => oppositeSideCardIdentifiers,
+  );
 
-  const getReferences = (cardIdentifier: string): DoubleSidedCard[] =>
-    getNamedCards(getCard(cardIdentifier)?.referencedCards);
+  const getReferences = getNamedCardsReader(
+    ({ referencedCards }) => referencedCards,
+  );
 
-  const getReferencedBy = (cardIdentifier: string): DoubleSidedCard[] => {
+  const getReferencedBy = (cardIdentifier: string): readonly CardType[] => {
     if (!referencingCardsByCardIdentifier) {
       referencingCardsByCardIdentifier = getNamingCardsByNamedCardIdentifier(
         cards,
@@ -234,13 +282,12 @@ const getNewCatalogueIndex = (cards: DoubleSidedCard[]): CatalogueIndex => {
       );
     }
 
-    return referencingCardsByCardIdentifier.get(cardIdentifier) || [];
+    return referencingCardsByCardIdentifier.get(cardIdentifier) ?? noCards;
   };
 
-  const getCreates = (cardIdentifier: string): DoubleSidedCard[] =>
-    getNamedCards(getCard(cardIdentifier)?.createdExtras);
+  const getCreates = getNamedCardsReader(({ createdExtras }) => createdExtras);
 
-  const getCreatedBy = (cardIdentifier: string): DoubleSidedCard[] => {
+  const getCreatedBy = (cardIdentifier: string): readonly CardType[] => {
     if (!creatingCardsByCardIdentifier) {
       creatingCardsByCardIdentifier = getNamingCardsByNamedCardIdentifier(
         cards,
@@ -248,11 +295,11 @@ const getNewCatalogueIndex = (cards: DoubleSidedCard[]): CatalogueIndex => {
       );
     }
 
-    return creatingCardsByCardIdentifier.get(cardIdentifier) || [];
+    return creatingCardsByCardIdentifier.get(cardIdentifier) ?? noCards;
   };
 
-  const getCreatedClosure = (cardIdentifiers: string[]): DoubleSidedCard[] => {
-    const createdCardByCardIdentifier = new Map<string, DoubleSidedCard>();
+  const getCreatedClosure = (cardIdentifiers: string[]): CardType[] => {
+    const createdCardByCardIdentifier = new Map<string, CardType>();
     const expandedCardIdentifiers = new Set<string>();
     // Grown as the walk runs, so a creation expands in the same loop that finds
     // it and a chain looping back on itself stops at what it has already seen.
@@ -277,12 +324,12 @@ const getNewCatalogueIndex = (cards: DoubleSidedCard[]): CatalogueIndex => {
     return getCardsInCorpusOrder([...createdCardByCardIdentifier.values()]);
   };
 
-  const getByRole = (role: CardRole): DoubleSidedCard[] => {
+  const getByRole = (role: CardRole): readonly CardType[] => {
     if (!cardsByRole) {
       cardsByRole = getCardsByRole(cards);
     }
 
-    return cardsByRole.get(role) || [];
+    return cardsByRole.get(role) ?? noCards;
   };
 
   return {
@@ -307,8 +354,15 @@ const getNewCatalogueIndex = (cards: DoubleSidedCard[]): CatalogueIndex => {
  * array is treated as immutable from that first read on: a caller that changes
  * which cards the catalogue holds builds a new array.
  */
-export const getCatalogueIndex = (cards: DoubleSidedCard[]): CatalogueIndex => {
-  let catalogueIndex = catalogueIndexByCards.get(cards);
+export const getCatalogueIndex = <
+  CardType extends DoubleSidedCard = DoubleSidedCard,
+>(
+  cards: readonly CardType[],
+): CatalogueIndex<CardType> => {
+  // Keyed on the array itself, so an index the map holds was built over these
+  // very cards and answers with the type they carry.
+  let catalogueIndex = catalogueIndexByCards.get(cards) as
+    CatalogueIndex<CardType> | undefined;
 
   if (!catalogueIndex) {
     catalogueIndex = getNewCatalogueIndex(cards);
