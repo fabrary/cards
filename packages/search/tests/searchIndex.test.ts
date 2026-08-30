@@ -1,6 +1,7 @@
 import { describe, expect, it } from "@jest/globals";
 import { CardRole, DoubleSidedCard, getCardRole } from "@flesh-and-blood/types";
 import {
+  CatalogueIndex,
   getCardsByName,
   getCardsReferencedBy,
   getCardsReferencing,
@@ -407,6 +408,29 @@ describe("Catalogue index", () => {
         getCatalogueIndex(richCards).getPitchCycle("aether-dart-yellow");
 
       expect(pitchCycle.map(({ extra }) => extra)).toEqual([0, 1, 2]);
+    });
+
+    it("Satisfies the plain index interface", () => {
+      interface RichCard extends DoubleSidedCard {
+        extra: number;
+      }
+
+      const richCards: RichCard[] = doubleSidedCards.map((card, position) => ({
+        ...card,
+        extra: position,
+      }));
+      const plainIndex: CatalogueIndex = getCatalogueIndex(richCards);
+
+      expect(getIdentifiers(getCardsByName(plainIndex, "aether dart"))).toEqual(
+        ["aether-dart-red", "aether-dart-yellow", "aether-dart-blue"],
+      );
+    });
+  });
+
+  describe("Blank names", () => {
+    it("Answers a name that cleans to nothing with no cards", () => {
+      expect(index.getCardsByName("'")).toBe(index.getCardsByName(""));
+      expect(index.getCardsByName(" . ")).toEqual([]);
     });
   });
 

@@ -46,10 +46,16 @@ export interface CatalogueIndex<
    * creates it, so a card asked about appears only if the chain circles back
    * to it.
    */
-  getCreatedClosure: (cardIdentifiers: string[]) => readonly CardType[];
+  getCreatedClosure: (cardIdentifiers: string[]) => CardType[];
   getByRole: (role: CardRole) => readonly CardType[];
   /** The cards handed in, as a new array in the order the corpus holds them. */
-  getCardsInCorpusOrder: (cardsToOrder: readonly CardType[]) => CardType[];
+  /**
+   * Generic in what it orders rather than tied to the index's card type, so an
+   * index over a richer card type still satisfies the plain interface.
+   */
+  getCardsInCorpusOrder: <OrderedCard extends DoubleSidedCard>(
+    cardsToOrder: readonly OrderedCard[],
+  ) => OrderedCard[];
 }
 
 interface CardLookups<CardType extends DoubleSidedCard> {
@@ -174,11 +180,11 @@ const getNewCatalogueIndex = <CardType extends DoubleSidedCard>(
     return cardLookups;
   };
 
-  const getCardsInCorpusOrder = (
-    cardsToOrder: readonly CardType[],
-  ): CardType[] => {
+  const getCardsInCorpusOrder = <OrderedCard extends DoubleSidedCard>(
+    cardsToOrder: readonly OrderedCard[],
+  ): OrderedCard[] => {
     const { corpusPositionByCardIdentifier } = getCardLookups();
-    const getCorpusPosition = ({ cardIdentifier }: CardType): number =>
+    const getCorpusPosition = ({ cardIdentifier }: OrderedCard): number =>
       corpusPositionByCardIdentifier.get(cardIdentifier) ?? strayCorpusPosition;
 
     return [...cardsToOrder].sort(
@@ -220,8 +226,13 @@ const getNewCatalogueIndex = <CardType extends DoubleSidedCard>(
       if (!namedCards) {
         const card = getCard(cardIdentifier);
         const cardsNamed = getNamedCards(card && getNamedCardIdentifiers(card));
-        namedCards = cardsNamed.length > 0 ? cardsNamed : noCards;
-        namedCardsByCardIdentifier.set(cardIdentifier, namedCards);
+        const namesCards = cardsNamed.length > 0;
+        namedCards = namesCards ? cardsNamed : noCards;
+        // A miss is not remembered, so an identifier the corpus lacks never
+        // occupies the memo.
+        if (namesCards) {
+          namedCardsByCardIdentifier.set(cardIdentifier, namedCards);
+        }
       }
 
       return namedCards;
@@ -242,7 +253,8 @@ const getNewCatalogueIndex = <CardType extends DoubleSidedCard>(
     const cleanedName = getCleanText(name);
     let pitchCycle = pitchCycleByCleanedName.get(cleanedName);
 
-    if (!pitchCycle) {
+    const canMatchFragment = !pitchCycle && cleanedName.length > 0;
+    if (canMatchFragment) {
       const containingName = cleanedNames.find((candidate) =>
         candidate.includes(cleanedName),
       );
