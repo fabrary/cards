@@ -607,7 +607,7 @@ const getCardValue = (
     filterToPropertyMapping: { property },
   } = appliedFilter;
 
-  let cardValue: Card[CardPropertyName];
+  let cardValue: Card[CardPropertyName] = undefined;
   if (property !== NO_CARD_PROPERTY) {
     cardValue = card[property];
   }
@@ -669,8 +669,6 @@ const getCardValues = (
     if (nestedProperty) {
       const valuesSet = new Set<string>();
 
-      // A nested property names a field of a printing, so the card field it
-      // reads through is the card's printings.
       for (const printing of card.printings) {
         const printingValue = printing[nestedProperty];
 
@@ -687,8 +685,6 @@ const getCardValues = (
 
       values = Array.from(valuesSet);
     } else {
-      // Every card field an array filter names holds strings, whether plain or
-      // from a string enum.
       const cardValue = getCardValue(card, filter);
 
       if (Array.isArray(cardValue)) {

@@ -191,17 +191,15 @@ const cardsWithAdditionalProperties = cardsWithRelations.map((card) => {
   };
 });
 
-// The completion pass above settles the last fields a published card carries,
-// so this is where a preliminary card becomes one. A card still missing a
-// rarity has none to be listed under, so it is reported and left out rather
-// than written half formed.
+// A card still missing a rarity here was never matched to a released
+// printing, and a generated file with a hole in it is worse than no file.
 const completedCards: Card[] = [];
 for (const card of cardsWithAdditionalProperties) {
   const { rarity } = card;
   if (rarity) {
     completedCards.push({ ...card, rarity });
   } else {
-    console.error(`No rarity for ${card.cardIdentifier}, skipping card`);
+    throw new Error(`No rarity for ${card.cardIdentifier}`);
   }
 }
 

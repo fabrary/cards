@@ -1,6 +1,10 @@
-import { Format, Hero, Printing, Talent } from "@flesh-and-blood/types";
+import { Format, Hero, Talent } from "@flesh-and-blood/types";
 import { PUNCTUATION } from "./constants.js";
-import type { CardPropertyName, CardSpecialPropertyName } from "./filters.js";
+import type {
+  CardPropertyName,
+  FilterToPropertyMapping,
+  Modifier,
+} from "./filters.js";
 
 export const FilterProperty = {
   BannedFormats: "bannedFormats",
@@ -21,23 +25,6 @@ interface AppliedFilter {
   modifier?: Modifier;
   cardTypes?: string[];
 }
-interface FilterToPropertyMapping {
-  nestedProperty?: keyof Printing;
-  property: CardPropertyName;
-  exclusion?: Exclusion;
-  isArray?: boolean;
-  isNumber?: boolean;
-  isString?: boolean;
-  isBoolean?: boolean;
-  isMeta?: boolean;
-  modifier?: Modifier;
-  partialMatch?: boolean;
-  specialProperty?: CardSpecialPropertyName;
-}
-
-type Exclusion = "!" | "-";
-type Modifier = ">=" | ">" | "<=" | "<";
-
 const nicknameFormatMappings: {
   format: Format;
   nicknames?: string[];

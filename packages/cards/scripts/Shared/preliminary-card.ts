@@ -17,8 +17,6 @@ export type PreliminaryCard = Omit<
   | "shorthands"
   | "shortName"
 > & {
-  // A spoiled sheet row can leave the rarity columns empty. Such a card is a
-  // reprint, so the merge with its released printings settles the rarity before
-  // the card is written.
+  // Settled by the merge with released printings; see `getRarity`.
   rarity?: Rarity;
 };
