@@ -536,12 +536,11 @@ describe("Catalogue index", () => {
     });
 
     it("Returns nothing for a fragment of a name the corpus carries", () => {
-      expect(index.getCardsByExactName("Scar")).toBe(
-        index.getCardsByExactName(""),
-      );
-      expect(index.getCardsByExactName("Blade")).toBe(
-        index.getCardsByExactName(""),
-      );
+      const noCards = index.getPitchCycle("no-such-card");
+
+      expect(index.getCardsByExactName("Scar")).toBe(noCards);
+      expect(index.getCardsByExactName("Blade")).toBe(noCards);
+      expect(index.getCardsByExactName("")).toBe(noCards);
     });
 
     it("Answers a repeated read with the same list", () => {
