@@ -12,10 +12,10 @@ import { getCleanText } from "./helpers.js";
  * cards carry, and what each card is for. Every relation is identifier-level,
  * so a card named at one pitch answers for that pitch alone; widening a
  * relation to the whole name is the reader's rule rather than the corpus's.
- * Every read but `getCreatedClosure` and `getCardsInCorpusOrder` answers with a
- * list the index holds, the same one on each call for the same argument and
- * never a copy, so a reader that reorders or grows one works on a copy of its
- * own. Those two build a fresh array for each call.
+ * Every list-returning read but `getCreatedClosure` and `getCardsInCorpusOrder`
+ * answers with a list the index holds, the same one on each call for the same
+ * argument and never a copy, so a reader that reorders or grows one works on a
+ * copy of its own. Those two build a fresh array for each call.
  */
 export interface CatalogueIndex<
   CardType extends DoubleSidedCard = DoubleSidedCard,
