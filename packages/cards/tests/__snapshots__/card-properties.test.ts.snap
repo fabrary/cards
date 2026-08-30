@@ -25610,6 +25610,104 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
 }
 `;
 
+exports[`Check for unintentional updates Astral Ambience (astral-ambience-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Reinaldo Indrajaya",
+  ],
+  "cardIdentifier": "astral-ambience-yellow",
+  "classes": [
+    "Illusionist",
+  ],
+  "cost": 2,
+  "createdExtras": [
+    "spectral-shield",
+  ],
+  "defaultImage": "IAR250",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "Whenever this fragments, create a Spectral Shield token.
+
+**Instant** - {t} a Spectral Shield you control: This gets **go again**.
+
+**Fragment**",
+  "keywords": [
+    "Fragment",
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Dromai",
+    "Enigma",
+    "Prism",
+    "Zyggy",
+  ],
+  "meta": [
+    "Deck",
+    "Expansion slot",
+  ],
+  "name": "Astral Ambience",
+  "pitch": 2,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "Reinaldo Indrajaya",
+      ],
+      "identifier": "IAR250",
+      "image": "IAR250",
+      "isExpansionSlot": true,
+      "print": "IAR250",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Reinaldo Indrajaya",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR250",
+      "image": "IAR250-RF",
+      "isExpansionSlot": true,
+      "print": "IAR250-Rainbow",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "referencedCards": [
+    "spectral-shield",
+  ],
+  "setIdentifiers": [
+    "IAR250",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Tap",
+  ],
+  "specialImage": "IAR250",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Illusionist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Astral Assault (astral-assault-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -95617,6 +95715,86 @@ exports[`Check for unintentional updates Chain of Brutality (chain-of-brutality-
   "typeText": "Reviled Brute Action - Attack",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Chains of Consecration (chains-of-consecration-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Vincent Taslim",
+  ],
+  "cardIdentifier": "chains-of-consecration-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "defaultImage": "IAR259",
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "Prevent all damage target ally would deal this turn. If damage is prevented from a Shadow ally this way, banish it face-down.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Boltyn",
+    "Librarian",
+    "Prism",
+    "Theryon",
+  ],
+  "meta": [
+    "Deck",
+    "Expansion slot",
+  ],
+  "name": "Chains of Consecration",
+  "pitch": 2,
+  "printings": [
+    {
+      "artists": [
+        "Vincent Taslim",
+      ],
+      "identifier": "IAR259",
+      "image": "IAR259",
+      "isExpansionSlot": true,
+      "print": "IAR259",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Vincent Taslim",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR259",
+      "image": "IAR259-RF",
+      "isExpansionSlot": true,
+      "print": "IAR259-Rainbow",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "IAR259",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR259",
+  "subtypes": [],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Instant",
+  "types": [
+    "Instant",
   ],
 }
 `;
@@ -513621,6 +513799,98 @@ When this leaves the arena, reveal the top card of your deck. If it's an attack 
     "Non-Attack",
   ],
   "typeText": "Runeblade Action - Aura",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Sigil of the Muse (sigil-of-the-muse-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Agatha Maura",
+  ],
+  "cardIdentifier": "sigil-of-the-muse-red",
+  "classes": [
+    "Wizard",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "ponder",
+  ],
+  "defaultImage": "IAR249",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "If a hero would draw 1 or more cards during an action phase, instead they create that many Ponder tokens.
+
+At the beginning of your action phase, destroy this and create a Ponder token.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Blaze",
+    "Broscilio",
+    "Emperor",
+    "Iyslander",
+    "Kano",
+    "Oscilio",
+    "Verdance",
+  ],
+  "meta": [
+    "Deck",
+    "Expansion slot",
+  ],
+  "name": "Sigil of the Muse",
+  "pitch": 1,
+  "printings": [
+    {
+      "artists": [
+        "Agatha Maura",
+      ],
+      "identifier": "IAR249",
+      "image": "IAR249",
+      "isExpansionSlot": true,
+      "print": "IAR249",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Agatha Maura",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR249",
+      "image": "IAR249-RF",
+      "isExpansionSlot": true,
+      "print": "IAR249-Rainbow",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "referencedCards": [
+    "ponder",
+  ],
+  "setIdentifiers": [
+    "IAR249",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR249",
+  "subtypes": [
+    "Aura",
+    "Non-Attack",
+  ],
+  "typeText": "Wizard Action - Aura",
   "types": [
     "Action",
   ],
