@@ -1,8 +1,10 @@
 import {
+  Card,
   DoubleSidedCard,
   Foiling,
   Hero,
   Meta,
+  Printing,
   Rarity,
   Release,
   Treatment,
@@ -108,9 +110,30 @@ export const availableExclusions: Exclusion[] = ["!", "-"];
 // export type Optional = "#";
 // export const availableOptionals: Optional[] = ["#"];
 
+/** The card field a mapping reads. */
+export type CardPropertyName = keyof Card;
+
+/**
+ * The property of a mapping that reads no card field: a meta filter expands
+ * into other filters before any card is read, and a relation filter matches
+ * the identifiers the parser resolved.
+ */
+export const NO_CARD_PROPERTY = "n/a";
+
+/**
+ * The field holding the value a card prints where a number would be, which a
+ * numeric filter falls back to for a card carrying no number.
+ */
+export type CardSpecialPropertyName =
+  | "specialArcane"
+  | "specialCost"
+  | "specialDefense"
+  | "specialLife"
+  | "specialPower";
+
 export interface FilterToPropertyMapping {
-  nestedProperty?: string;
-  property: string;
+  nestedProperty?: keyof Printing;
+  property: CardPropertyName | typeof NO_CARD_PROPERTY;
   exclusion?: Exclusion;
   isArray?: boolean;
   isNestedPropertyArray?: boolean;
@@ -135,7 +158,7 @@ export interface FilterToPropertyMapping {
   // optional?: Optional;
   modifier?: Modifier;
   partialMatch?: boolean;
-  specialProperty?: string;
+  specialProperty?: CardSpecialPropertyName;
 }
 
 const arcaneFilter: FilterToPropertyMapping = {
@@ -152,7 +175,7 @@ const artistFilter: FilterToPropertyMapping = {
 };
 
 const bannedFilter: FilterToPropertyMapping = {
-  property: "n/a",
+  property: NO_CARD_PROPERTY,
   isMeta: true,
 };
 
@@ -193,7 +216,7 @@ const getRelationAppliedFilter = (
 });
 
 const chainFilter: FilterToPropertyMapping = {
-  property: "n/a",
+  property: NO_CARD_PROPERTY,
 };
 
 const classFilter: FilterToPropertyMapping = {
@@ -243,7 +266,7 @@ const keywordFilter: FilterToPropertyMapping = {
 };
 
 const legalFilter: FilterToPropertyMapping = {
-  property: "n/a",
+  property: NO_CARD_PROPERTY,
   isMeta: true,
 };
 
@@ -287,16 +310,16 @@ const setIdentifiersFilter: FilterToPropertyMapping = {
 };
 
 const rarityFilter: FilterToPropertyMapping = {
-  property: "n/a",
+  property: NO_CARD_PROPERTY,
   isMeta: true,
 };
 
 const referencedByFilter: FilterToPropertyMapping = {
-  property: "n/a",
+  property: NO_CARD_PROPERTY,
 };
 
 const referencesFilter: FilterToPropertyMapping = {
-  property: "n/a",
+  property: NO_CARD_PROPERTY,
 };
 
 const setFilter: FilterToPropertyMapping = {

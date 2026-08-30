@@ -13,7 +13,9 @@ import Fuse from "fuse.js";
 import { PUNCTUATION } from "./constants.js";
 import {
   AppliedFilter,
+  CardPropertyName,
   getKeywordsAndAppliedFiltersFromText,
+  NO_CARD_PROPERTY,
 } from "./filters.js";
 import { memes } from "./memes.js";
 import { getNormalizedText, getTextWithoutMarkup } from "./helpers.js";
@@ -126,7 +128,7 @@ class Search {
     return this.fuse;
   };
 
-  log = (message?: any, ...optionalParams: any[]) => {
+  log = (message?: unknown, ...optionalParams: unknown[]) => {
     if (this.debug) {
       console.log(message, ...optionalParams);
     }
@@ -600,20 +602,18 @@ const getDoesCardMatchDateFilter = (
 const getCardValue = (
   card: Card,
   appliedFilter: AppliedFilter,
-): string | number | string[] | boolean => {
-  const { filterToPropertyMapping } = appliedFilter;
+): Card[CardPropertyName] => {
+  const {
+    filterToPropertyMapping: { property },
+  } = appliedFilter;
 
-  // @ts-ignore
-  return card[filterToPropertyMapping.property];
+  let cardValue: Card[CardPropertyName];
+  if (property !== NO_CARD_PROPERTY) {
+    cardValue = card[property];
+  }
+
+  return cardValue;
 };
-
-// A filter mapping names the card field it reads as a string, and one mapping
-// names no field at all, so a card is read by property name rather than by a
-// key the compiler can check against Card.
-type CardPropertiesByName = Record<string, unknown>;
-
-const getCardPropertyValues = <Value>(card: Card, property: string): Value[] =>
-  (card[property as keyof Card] as Value[] | undefined) || [];
 
 const getCardValues = (
   card: Card,
@@ -621,11 +621,7 @@ const getCardValues = (
   filters: AppliedFilter[],
 ): string[] => {
   const {
-    filterToPropertyMapping: {
-      isNestedPropertyArray,
-      nestedProperty,
-      property,
-    },
+    filterToPropertyMapping: { isNestedPropertyArray, nestedProperty },
   } = filter;
 
   let values: string[] = [];
@@ -673,27 +669,35 @@ const getCardValues = (
     if (nestedProperty) {
       const valuesSet = new Set<string>();
 
-      for (const rawValue of getCardPropertyValues<CardPropertiesByName>(
-        card,
-        property,
-      )) {
-        if (isNestedPropertyArray) {
-          const rawValues = (rawValue[nestedProperty] as string[]) || [];
+      // A nested property names a field of a printing, so the card field it
+      // reads through is the card's printings.
+      for (const printing of card.printings) {
+        const printingValue = printing[nestedProperty];
 
-          for (const value of rawValues) {
-            valuesSet.add(value);
+        if (isNestedPropertyArray) {
+          if (Array.isArray(printingValue)) {
+            for (const value of printingValue) {
+              valuesSet.add(value);
+            }
           }
-        } else {
-          const value = rawValue[nestedProperty] as string;
-          if (value) {
-            valuesSet.add(value);
-          }
+        } else if (printingValue && typeof printingValue === "string") {
+          valuesSet.add(printingValue);
         }
       }
 
       values = Array.from(valuesSet);
     } else {
-      values = getCardPropertyValues<string>(card, property);
+      // Every card field an array filter names holds strings, whether plain or
+      // from a string enum.
+      const cardValue = getCardValue(card, filter);
+
+      if (Array.isArray(cardValue)) {
+        for (const value of cardValue) {
+          if (typeof value === "string") {
+            values.push(value);
+          }
+        }
+      }
     }
   }
 
@@ -703,10 +707,17 @@ const getCardValues = (
 const getCardSpecialValue = (
   card: Card,
   appliedFilter: AppliedFilter,
-): string => {
-  const { filterToPropertyMapping } = appliedFilter;
-  // @ts-ignore
-  return card[filterToPropertyMapping.specialProperty];
+): string | undefined => {
+  const {
+    filterToPropertyMapping: { specialProperty },
+  } = appliedFilter;
+
+  let specialValue: string | undefined;
+  if (specialProperty) {
+    specialValue = card[specialProperty];
+  }
+
+  return specialValue;
 };
 
 const doesFilterMatchCardType = (

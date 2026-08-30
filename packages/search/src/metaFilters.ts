@@ -1,11 +1,12 @@
-import { Format, Hero, Talent } from "@flesh-and-blood/types";
+import { Format, Hero, Printing, Talent } from "@flesh-and-blood/types";
 import { PUNCTUATION } from "./constants.js";
+import type { CardPropertyName, CardSpecialPropertyName } from "./filters.js";
 
-export enum FilterProperty {
-  BannedFormats = "bannedFormats",
-  LegalFormats = "legalFormats",
-  LegalHeroes = "legalHeroes",
-}
+export const FilterProperty = {
+  BannedFormats: "bannedFormats",
+  LegalFormats: "legalFormats",
+  LegalHeroes: "legalHeroes",
+} as const satisfies Record<string, CardPropertyName>;
 
 const oneToFifty = Array.from(Array(50).keys()).map((value) => `${value}`);
 
@@ -21,8 +22,8 @@ interface AppliedFilter {
   cardTypes?: string[];
 }
 interface FilterToPropertyMapping {
-  nestedProperty?: string;
-  property: string;
+  nestedProperty?: keyof Printing;
+  property: CardPropertyName;
   exclusion?: Exclusion;
   isArray?: boolean;
   isNumber?: boolean;
@@ -31,7 +32,7 @@ interface FilterToPropertyMapping {
   isMeta?: boolean;
   modifier?: Modifier;
   partialMatch?: boolean;
-  specialProperty?: string;
+  specialProperty?: CardSpecialPropertyName;
 }
 
 type Exclusion = "!" | "-";
@@ -208,7 +209,7 @@ const getLegalFilters = (
   isExcluded: boolean,
   isOptional: boolean,
   additionalHeroes: Hero[],
-  filterPropertyOverride?: string,
+  filterPropertyOverride?: CardPropertyName,
 ) => {
   const cleanAdditionalHeroes = additionalHeroes.map((hero) => ({
     hero: hero.toLowerCase().replaceAll(PUNCTUATION, ""),
