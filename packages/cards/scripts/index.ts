@@ -59,7 +59,7 @@ releasedCards.forEach((card) => {
       new Set([...duplicate.artists, ...card.artists]),
     ).sort();
     const deduplicatedPrintings = duplicate.printings.map((printing) => {
-      if (!printing.rarity) {
+      if (!printing.rarity && card.rarity) {
         printing.rarity = card.rarity;
       }
       if (!printing.artists || printing.artists.length === 0) {
@@ -191,6 +191,20 @@ const cardsWithAdditionalProperties = cardsWithRelations.map((card) => {
   };
 });
 
+// The completion pass above settles the last fields a published card carries,
+// so this is where a preliminary card becomes one. A card still missing a
+// rarity has none to be listed under, so it is reported and left out rather
+// than written half formed.
+const completedCards: Card[] = [];
+for (const card of cardsWithAdditionalProperties) {
+  const { rarity } = card;
+  if (rarity) {
+    completedCards.push({ ...card, rarity });
+  } else {
+    console.error(`No rarity for ${card.cardIdentifier}, skipping card`);
+  }
+}
+
 const latestSet = releases
   .reverse()
   .find(({ releaseType }) => releaseType === ReleaseType.StandaloneBooster)
@@ -208,7 +222,7 @@ const getLatestSetCards = ({ printings, sets }: Card) => {
   return isInLatestSet && hasImagesFromLatestSet;
 };
 
-const latestSetCards = cardsWithAdditionalProperties.filter(getLatestSetCards);
+const latestSetCards = completedCards.filter(getLatestSetCards);
 
 let shouldAddRainbowFoilsToLatestSet = false;
 const shouldCheckLatestSetForRainbowFoils = !!latestSetPrefix;
@@ -239,10 +253,10 @@ if (shouldCheckLatestSetForRainbowFoils) {
   );
 }
 
-let cardsToWrite = cardsWithAdditionalProperties;
+let cardsToWrite = completedCards;
 
 if (shouldAddRainbowFoilsToLatestSet) {
-  cardsToWrite = cardsWithAdditionalProperties.map((card) => {
+  cardsToWrite = completedCards.map((card) => {
     const printings = [...card.printings];
 
     const isLatestSetCardOnly = card.sets.every(

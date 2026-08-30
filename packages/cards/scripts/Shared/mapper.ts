@@ -606,34 +606,25 @@ export const rarityStringMapping: { [key: string]: Rarity } = {
   P: Rarity.Promo,
 };
 
-export const getRarity = (rarities: Rarity[]): Rarity => {
-  let rarity: Rarity;
+// The rarity a card is listed at when its printings carry several, highest
+// priority first.
+const raritiesByPriority: Rarity[] = [
+  Rarity.Basic,
+  Rarity.Token,
+  Rarity.Common,
+  Rarity.Rare,
+  Rarity.Majestic,
+  Rarity.Legendary,
+  Rarity.Fabled,
+  Rarity.SuperRare,
+  Rarity.Promo,
+  Rarity.Marvel,
+];
 
-  if (rarities.some((rarity) => rarity === Rarity.Basic)) {
-    rarity = Rarity.Basic;
-  } else if (rarities.some((rarity) => rarity === Rarity.Token)) {
-    rarity = Rarity.Token;
-  } else if (rarities.some((rarity) => rarity === Rarity.Common)) {
-    rarity = Rarity.Common;
-  } else if (rarities.some((rarity) => rarity === Rarity.Rare)) {
-    rarity = Rarity.Rare;
-  } else if (rarities.some((rarity) => rarity === Rarity.Majestic)) {
-    rarity = Rarity.Majestic;
-  } else if (rarities.some((rarity) => rarity === Rarity.Legendary)) {
-    rarity = Rarity.Legendary;
-  } else if (rarities.some((rarity) => rarity === Rarity.Fabled)) {
-    rarity = Rarity.Fabled;
-  } else if (rarities.some((rarity) => rarity === Rarity.SuperRare)) {
-    rarity = Rarity.SuperRare;
-  } else if (rarities.some((rarity) => rarity === Rarity.Promo)) {
-    rarity = Rarity.Promo;
-  } else if (rarities.some((rarity) => rarity === Rarity.Marvel)) {
-    rarity = Rarity.Marvel;
-  }
-
-  // @ts-ignore
-  return rarity;
-};
+// A spoiled card whose sheet row leaves the rarity columns empty has no rarity
+// to pick from until the merge with its released printings supplies one.
+export const getRarity = (rarities: Rarity[]): Rarity | undefined =>
+  raritiesByPriority.find((rarity) => rarities.includes(rarity));
 
 export const getRarityFromRawString = (rawRarity: string): Rarity => {
   const rarityString = rawRarity.split(" - ")[0];
@@ -646,7 +637,7 @@ export const getRarityFromRawString = (rawRarity: string): Rarity => {
 
 export const getRarities = (card: {
   rarities: string[];
-}): { rarity: Rarity; rarities: Rarity[] } => {
+}): { rarity: Rarity | undefined; rarities: Rarity[] } => {
   const rarities: Rarity[] = [];
 
   card.rarities.forEach((rawRarity) => {

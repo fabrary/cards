@@ -73,11 +73,8 @@ describe("Card identifiers", () => {
   it.each(identifiers)(
     "%s has set identifiers",
     (name, { expected: { number, string }, pitch }) => {
-      const card = { name };
-      if (pitch || pitch === 0) {
-        // @ts-ignore
-        card["pitch"] = pitch;
-      }
+      const card: { name: string; pitch?: number } =
+        pitch || pitch === 0 ? { name, pitch } : { name };
 
       const cardIdentifierString = getCardIdentifier(card);
       expect(cardIdentifierString).toEqual(string);

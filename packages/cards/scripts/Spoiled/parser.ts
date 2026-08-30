@@ -125,24 +125,29 @@ const fieldsWithDefaultFalseStringToBooleanValues = [
   "expansionSlot5",
   "expansionSlot6",
 ];
-const transform = (value: any, field: string) => {
+const transform = (
+  cell: string,
+  field: string,
+): string | string[] | boolean => {
+  let value: string | string[] | boolean = cell;
+
   if (fieldsWithListValues.includes(field)) {
-    value = value
+    value = cell
       ? [
           ...new Set(
-            value
+            cell
               .trim()
               .replaceAll("–", "-")
               .split(",")
-              .map((value: any) => value.trim()),
+              .map((listValue) => listValue.trim()),
           ),
         ]
       : [];
   }
   if (fieldsWithDefaultTrueStringToBooleanValues.includes(field)) {
-    value = value === "No" ? false : true;
+    value = cell === "No" ? false : true;
   } else if (fieldsWithDefaultFalseStringToBooleanValues.includes(field)) {
-    value = value === "Yes" ? true : false;
+    value = cell === "Yes" ? true : false;
   }
 
   return value;

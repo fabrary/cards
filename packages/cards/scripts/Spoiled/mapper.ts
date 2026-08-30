@@ -511,11 +511,9 @@ const getPrintings = (cardIdentifier: string, card: ParsedCard): Printing[] => {
     const cardIdentifier = getCardIdentifier(card);
 
     const isMST = setIdentifier === "MST";
-    const isCommonRareOrMajestic = [
-      Rarity.Common,
-      Rarity.Rare,
-      Rarity.Majestic,
-    ].includes(rarity);
+    const isCommonRareOrMajestic =
+      !!rarity &&
+      [Rarity.Common, Rarity.Rare, Rarity.Majestic].includes(rarity);
     const isEquipment = types.includes(Type.Equipment);
     const isNotReprint = !releasedCards.find(
       (released) => released.cardIdentifier === cardIdentifier,
@@ -757,7 +755,7 @@ const getKeywords = (card: ParsedCard): Keyword[] => {
 
 export const getParsedRarities = (
   card: ParsedCard,
-): { rarities: Rarity[]; rarity: Rarity } => {
+): { rarities: Rarity[]; rarity: Rarity | undefined } => {
   const { rarity, rarity2, rarity3, rarity4 } = card;
 
   const rarities = [rarity, rarity2, rarity3, rarity4]

@@ -1,4 +1,4 @@
-import { Card } from "@flesh-and-blood/types";
+import { Card, Rarity } from "@flesh-and-blood/types";
 
 // The card shape the mappers and dedup pipeline produce, before the completion
 // pass in scripts/index.ts derives the remaining fields. These are omitted from
@@ -12,7 +12,13 @@ export type PreliminaryCard = Omit<
   | "legalHeroes"
   | "meta"
   | "nicknames"
+  | "rarity"
   | "referencedCards"
   | "shorthands"
   | "shortName"
->;
+> & {
+  // A spoiled sheet row can leave the rarity columns empty. Such a card is a
+  // reprint, so the merge with its released printings settles the rarity before
+  // the card is written.
+  rarity?: Rarity;
+};

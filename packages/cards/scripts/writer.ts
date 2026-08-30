@@ -24,32 +24,54 @@ import {
   Type,
 } from "@flesh-and-blood/types";
 
-const getEnumValues = (values: any, enumName: string, enm: any) => {
-  if (!values || (values.length === 1 && !values[0])) {
-    return [];
+// An enum's own object, mapping each member name to the value it holds. The
+// generated source names the member, so these helpers look one up by value.
+type EnumObject = Record<string, string>;
+
+const getEnumValues = (
+  values: readonly string[] | undefined,
+  enumName: string,
+  enumObject: EnumObject,
+): string[] => {
+  let enumValues: string[] = [];
+
+  const hasValues = !!values && !(values.length === 1 && !values[0]);
+  if (hasValues) {
+    enumValues = values.map((value) =>
+      getEnumValue(value, enumName, enumObject),
+    );
   }
-  return values.map((value: any) => getEnumValue(value, enumName, enm));
+
+  return enumValues;
 };
 
-const getStringValues = (values: any) => {
-  if (!values || (values.length === 1 && !values[0])) {
-    return [];
+const getStringValues = (values: readonly string[] | undefined): string[] => {
+  let stringValues: string[] = [];
+
+  const hasValues = !!values && !(values.length === 1 && !values[0]);
+  if (hasValues) {
+    stringValues = values.map((value) => `"${value}"`);
   }
-  return values.map((value: any) => `"${value}"`);
+
+  return stringValues;
 };
 
 // Cache a value -> key reverse lookup per enum object. Built by iterating
-// Object.entries in order with last-write-wins, so the result matches the
-// original "keep the last matching key" loop exactly.
-const enumReverseLookups = new Map<any, Map<any, string>>();
-const getEnumValue = (value: any, enumName: string, enm: any) => {
-  let lookup = enumReverseLookups.get(enm);
+// Object.entries in order with last-write-wins, so an enum with two names for
+// one value resolves to the last of them.
+const enumReverseLookups = new Map<EnumObject, Map<string, string>>();
+const getEnumValue = (
+  value: string,
+  enumName: string,
+  enumObject: EnumObject,
+): string => {
+  let lookup = enumReverseLookups.get(enumObject);
   if (!lookup) {
     lookup = new Map();
-    for (const [key, val] of Object.entries(enm)) {
-      lookup.set(val, key);
+    for (const [memberName, memberValue] of Object.entries(enumObject)) {
+      lookup.set(memberValue, memberName);
     }
-    enumReverseLookups.set(enm, lookup);
+    enumReverseLookups.set(enumObject, lookup);
   }
   return `${enumName}.${lookup.get(value)}`;
 };
