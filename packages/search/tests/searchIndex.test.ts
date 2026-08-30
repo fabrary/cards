@@ -343,6 +343,73 @@ describe("Catalogue index", () => {
     });
   });
 
+  describe("Cards in corpus order", () => {
+    it("Sorts a card the corpus lacks behind the cards it holds", () => {
+      const [knownFirst, knownSecond, stray] = [
+        { cardIdentifier: "known-first", name: "Known First" },
+        { cardIdentifier: "known-second", name: "Known Second" },
+        { cardIdentifier: "stray", name: "Stray" },
+      ] as unknown as DoubleSidedCard[];
+
+      expect(
+        getIdentifiers(
+          getCatalogueIndex([knownFirst, knownSecond]).getCardsInCorpusOrder([
+            knownSecond,
+            stray,
+            knownFirst,
+          ]),
+        ),
+      ).toEqual(["known-first", "known-second", "stray"]);
+    });
+  });
+
+  describe("Answer identity", () => {
+    it("Answers every miss with the same list", () => {
+      expect(index.getPitchCycle("zzz-no-such-card")).toBe(
+        index.getReferencedBy("zzz-no-such-card"),
+      );
+      expect(index.getCreates("zzz-no-such-card")).toBe(
+        getCardsByName(index, "zzz no such card"),
+      );
+    });
+
+    it("Answers a repeated relation read with the same list", () => {
+      expect(index.getOppositeSide("viserai-usurper")).toBe(
+        index.getOppositeSide("viserai-usurper"),
+      );
+      expect(index.getReferences("big-bertha-red")).toBe(
+        index.getReferences("big-bertha-red"),
+      );
+      expect(index.getCreates("arakni-orb-weaver")).toBe(
+        index.getCreates("arakni-orb-weaver"),
+      );
+    });
+
+    it("Builds the created closure anew for each read", () => {
+      const closure = index.getCreatedClosure(["arakni-web-of-deceit"]);
+      const closureReread = index.getCreatedClosure(["arakni-web-of-deceit"]);
+
+      expect(closureReread).toEqual(closure);
+      expect(closureReread).not.toBe(closure);
+    });
+  });
+
+  describe("Index over a card subtype", () => {
+    it("Answers with the cards the corpus carries, subtype and all", () => {
+      interface RichCard extends DoubleSidedCard {
+        extra: number;
+      }
+
+      const richCards: RichCard[] = doubleSidedCards
+        .filter(({ name }) => name === "Aether Dart")
+        .map((card, position) => ({ ...card, extra: position }));
+      const pitchCycle: readonly RichCard[] =
+        getCatalogueIndex(richCards).getPitchCycle("aether-dart-yellow");
+
+      expect(pitchCycle.map(({ extra }) => extra)).toEqual([0, 1, 2]);
+    });
+  });
+
   describe("Cards by name", () => {
     it("Returns every pitch of an exactly matched name", () => {
       expect(getIdentifiers(getCardsByName(index, "aether dart"))).toEqual([
