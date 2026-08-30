@@ -1,61 +1,88 @@
 import { PreliminaryCard } from "./preliminary-card";
 import { getRarity } from "./mapper";
 
+type PreliminaryCardField = keyof PreliminaryCard;
+
+type PreliminaryCardArrayField = {
+  [Field in PreliminaryCardField]-?: NonNullable<
+    PreliminaryCard[Field]
+  > extends readonly unknown[]
+    ? Field
+    : never;
+}[PreliminaryCardField];
+
+const valueFieldsToFillIfMissing: PreliminaryCardField[] = [
+  "arcane",
+  "cost",
+  "defense",
+  "functionalText",
+  "hero",
+  "intellect",
+  "life",
+  "power",
+  "rarity",
+  "typeText",
+  "young",
+];
+
+const arrayFieldsToFillIfMissing: PreliminaryCardArrayField[] = [
+  "bannedFormats",
+  "classes",
+  "flows",
+  "keywords",
+  "legalFormats",
+  "rarities",
+  "specializations",
+  "subtypes",
+  "talents",
+  "types",
+];
+
+const fillValueFieldIfMissing = <Field extends PreliminaryCardField>(
+  card: PreliminaryCard,
+  duplicate: PreliminaryCard,
+  field: Field,
+) => {
+  const cardValue = card[field];
+  const fieldIsMissingOnDuplicate = !duplicate[field];
+  const fieldIsPresentOnCard = !!cardValue || cardValue === 0;
+
+  if (fieldIsMissingOnDuplicate && fieldIsPresentOnCard) {
+    duplicate[field] = cardValue;
+  }
+};
+
+const fillArrayFieldIfMissing = <Field extends PreliminaryCardArrayField>(
+  card: PreliminaryCard,
+  duplicate: PreliminaryCard,
+  field: Field,
+) => {
+  const cardValues = card[field];
+  const duplicateValues = duplicate[field];
+  const fieldIsMissingOnDuplicate =
+    !duplicateValues || duplicateValues.length === 0;
+  const fieldIsPresentOnCard = !!cardValues && cardValues.length > 0;
+
+  if (fieldIsMissingOnDuplicate && fieldIsPresentOnCard) {
+    duplicate[field] = cardValues;
+  }
+};
+
 export const combineAndAddMissingFields = (
   card: PreliminaryCard,
   duplicate: PreliminaryCard,
 ) => {
-  const valueFieldsToFillIfMissing = [
-    "arcane",
-    "cost",
-    "defense",
-    "functionalText",
-    "hero",
-    "intellect",
-    "life",
-    "power",
-    "rarity",
-    "typeText",
-    "young",
-  ];
   for (const field of valueFieldsToFillIfMissing) {
-    const fieldIsMissingOnDuplicate = !duplicate[field];
-    const fieldIsPresentOnCard = card[field] || card[field] === 0;
-
-    if (fieldIsMissingOnDuplicate && fieldIsPresentOnCard) {
-      duplicate[field] = card[field];
-    }
+    fillValueFieldIfMissing(card, duplicate, field);
   }
 
-  const arrayFieldsToFillIfMissing = [
-    "bannedFormats",
-    "classes",
-    "flows",
-    "keywords",
-    "legalFormats",
-    "rarities",
-    "specializations",
-    "subtypes",
-    "talents",
-    "types",
-  ];
   for (const field of arrayFieldsToFillIfMissing) {
-    const fieldIsMissingOnDuplicate =
-      !duplicate[field] || duplicate[field].length === 0;
-    const fieldIsPresentOnCard = card[field] && card[field].length > 0;
-
-    if (fieldIsMissingOnDuplicate && fieldIsPresentOnCard) {
-      duplicate[field] = card[field];
-    }
+    fillArrayFieldIfMissing(card, duplicate, field);
   }
 
-  const arrayFieldsToCombine = ["rarities"];
-  for (const field of arrayFieldsToCombine) {
-    const duplicateValues = duplicate[field] || [];
-    const cardValues = card[field] || [];
-
-    duplicate[field] = Array.from(new Set([...duplicateValues, ...cardValues]));
-  }
+  duplicate.rarities = Array.from(
+    new Set([...(duplicate.rarities || []), ...(card.rarities || [])]),
+  );
 
   duplicate.rarity = getRarity(duplicate.rarities);
 };

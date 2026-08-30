@@ -439,6 +439,13 @@ export const filtersToCardPropertyMappings = {
   year: yearFilter,
 };
 
+// Filter keys are typed by the searcher, so an unrecognised key is a miss to
+// skip rather than a type error.
+const filtersToCardPropertyMappingsByKey: Record<
+  string,
+  FilterToPropertyMapping | undefined
+> = filtersToCardPropertyMappings;
+
 const punctuationOverrides = [
   {
     text: Release.ClassicBattlesRhinarDorinthea.toLowerCase(),
@@ -796,7 +803,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
           values = getPitchValuesFromText(values);
         }
         const filterToPropertyMapping =
-          filtersToCardPropertyMappings[filterKey as Filter];
+          filtersToCardPropertyMappingsByKey[filterKey];
 
         if (filterToPropertyMapping && !areValuesAlreadyApplied) {
           appliedFilters.push({
@@ -989,10 +996,13 @@ const getFoilingValuesFromText = (rawValues: string[]) => {
 };
 
 const treatmentValuesMapping: { [key: string]: Treatment } = {
-  ...Object.values(Treatment).reduce((obj, treatment) => {
-    obj[treatment.toLowerCase()] = treatment;
-    return obj;
-  }, {}),
+  ...Object.values(Treatment).reduce<Record<string, Treatment>>(
+    (treatmentsByLowercasedName, treatment) => {
+      treatmentsByLowercasedName[treatment.toLowerCase()] = treatment;
+      return treatmentsByLowercasedName;
+    },
+    {},
+  ),
   ...{
     aa: Treatment.AA,
     alt: Treatment.AA,
@@ -1011,13 +1021,18 @@ const treatmentValuesMapping: { [key: string]: Treatment } = {
     "full art": Treatment.FA,
   },
 };
+const treatmentsByAbbreviation: Record<string, Treatment | undefined> =
+  Treatment;
 const getTreatmentValuesFromText = (rawValues: string[]) => {
   const values: Treatment[] = [];
   for (const rawValue of rawValues) {
-    if (treatmentValuesMapping[rawValue]) {
-      values.push(treatmentValuesMapping[rawValue]);
-    } else if (Treatment[rawValue.toUpperCase()]) {
-      values.push(Treatment[rawValue.toUpperCase()]);
+    const treatmentFromMapping = treatmentValuesMapping[rawValue];
+    const treatmentFromAbbreviation =
+      treatmentsByAbbreviation[rawValue.toUpperCase()];
+    if (treatmentFromMapping) {
+      values.push(treatmentFromMapping);
+    } else if (treatmentFromAbbreviation) {
+      values.push(treatmentFromAbbreviation);
     }
   }
   return values;
@@ -1161,7 +1176,7 @@ const hasFilter = (text: string): boolean => text.indexOf(":") >= 0;
 const filterIsAnd = (text: string): boolean => text.indexOf("+") >= 0;
 const filterIsOr = (text: string): boolean => text.indexOf(",") >= 0;
 const filterIsMeta = (filterKey: string): boolean =>
-  !!filtersToCardPropertyMappings[filterKey as Filter]?.isMeta;
+  !!filtersToCardPropertyMappingsByKey[filterKey]?.isMeta;
 const getExclusion = (text: string): Exclusion =>
   availableExclusions
     .find((exclusion) => text.includes(exclusion))

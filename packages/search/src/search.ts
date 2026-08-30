@@ -231,7 +231,7 @@ class Search {
       results = [...nameMatches, ...nonMatches];
     }
 
-    let searchResultsWithMatchingPrinting: SearchCard[];
+    let searchResultsWithMatchingPrinting: SearchCard[] = [];
     const {
       artists,
       isExpansionSlot,
@@ -271,7 +271,8 @@ class Search {
             !isExpansionSlot || isExpansionSlot === printing.isExpansionSlot;
 
           const matchesFoiling =
-            foilings.length === 0 || foilings.includes(printing.foiling);
+            foilings.length === 0 ||
+            (!!printing.foiling && foilings.includes(printing.foiling));
 
           const matchesPrint =
             prints.length === 0 ||
@@ -312,7 +313,7 @@ class Search {
     }
 
     const searchResults =
-      searchResultsWithMatchingPrinting?.length > 0
+      searchResultsWithMatchingPrinting.length > 0
         ? searchResultsWithMatchingPrinting
         : results;
 
@@ -606,6 +607,14 @@ const getCardValue = (
   return card[filterToPropertyMapping.property];
 };
 
+// A filter mapping names the card field it reads as a string, and one mapping
+// names no field at all, so a card is read by property name rather than by a
+// key the compiler can check against Card.
+type CardPropertiesByName = Record<string, unknown>;
+
+const getCardPropertyValues = <Value>(card: Card, property: string): Value[] =>
+  (card[property as keyof Card] as Value[] | undefined) || [];
+
 const getCardValues = (
   card: Card,
   filter: AppliedFilter,
@@ -618,7 +627,6 @@ const getCardValues = (
       property,
     },
   } = filter;
-  const propertyValues = card[property] || [];
 
   let values: string[] = [];
 
@@ -665,7 +673,10 @@ const getCardValues = (
     if (nestedProperty) {
       const valuesSet = new Set<string>();
 
-      for (const rawValue of propertyValues) {
+      for (const rawValue of getCardPropertyValues<CardPropertiesByName>(
+        card,
+        property,
+      )) {
         if (isNestedPropertyArray) {
           const rawValues = (rawValue[nestedProperty] as string[]) || [];
 
@@ -682,7 +693,7 @@ const getCardValues = (
 
       values = Array.from(valuesSet);
     } else {
-      values = propertyValues;
+      values = getCardPropertyValues<string>(card, property);
     }
   }
 
