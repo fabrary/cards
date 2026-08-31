@@ -9,7 +9,6 @@ import {
   Release,
   Treatment,
   Type,
-  setIdentifierToSetMappings,
   setToSetIdentifierMappings,
 } from "@flesh-and-blood/types";
 import { getAbbreviation } from "./abbreviations.js";
