@@ -1,6 +1,6 @@
 import { describe, expect, it } from "@jest/globals";
 import { Hero } from "@flesh-and-blood/types";
-import { getMetaFilters } from "../src/metaFilters";
+import { getExcludedMetaFilters, getMetaFilters } from "../src/metaFilters";
 import Search, { PUNCTUATION } from "../src";
 import { cards } from "@flesh-and-blood/cards";
 
@@ -27,4 +27,13 @@ describe("Edge case conditions are handled", () => {
     );
     expect(gorganianTome).toBeUndefined();
   });
+});
+
+describe("Inherited object member names are not excluded filters", () => {
+  it.each(Object.getOwnPropertyNames(Object.prototype))(
+    "%s has no excluded filters",
+    (name) => {
+      expect(getExcludedMetaFilters(name)).toEqual([]);
+    },
+  );
 });

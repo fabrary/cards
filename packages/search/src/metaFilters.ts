@@ -1,5 +1,6 @@
 import { Format, Hero, Talent } from "@flesh-and-blood/types";
 import { PUNCTUATION } from "./constants.js";
+import { getLookupWithoutInheritedKeys } from "./lookups.js";
 import type {
   CardPropertyName,
   FilterToPropertyMapping,
@@ -422,7 +423,7 @@ const noTalents: AppliedFilter[] = [
   },
 ];
 
-const excludedFilters: { [key: string]: AppliedFilter[] } = {
+const excludedFilters = getLookupWithoutInheritedKeys<AppliedFilter[]>({
   "!co": noCost,
   "-co": noCost,
   "!cost": noCost,
@@ -455,11 +456,11 @@ const excludedFilters: { [key: string]: AppliedFilter[] } = {
   "-talents": noTalents,
   "!tal": noTalents,
   "-tal": noTalents,
-};
+});
 
 export const getExcludedMetaFilters = (filterKey: string) => {
   const filters: AppliedFilter[] = [];
-  const matchingFilters: AppliedFilter[] = excludedFilters[filterKey];
+  const matchingFilters = excludedFilters[filterKey];
   if (matchingFilters) {
     filters.push(...matchingFilters);
   }

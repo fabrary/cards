@@ -94592,12 +94592,36 @@ Deal 1 arcane damage to any target.`,
     artists: ["Satriasa"],
     cardIdentifier: "consuming-appetite-yellow",
     classes: [Class.Brute],
-    defaultImage: "GEM193",
+    defaultImage: "IAR008",
     firstReleaseDate: "2026-09-25",
-    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Levia],
     name: "Consuming Appetite",
     printings: [{
+        artists: ["Satriasa"],
+      
+      identifier: "IAR008",
+      image: "IAR008",
+      
+      
+      print: "IAR008",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Satriasa"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR008",
+      image: "IAR008-RF",
+      
+      
+      print: "IAR008-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
         artists: ["Satriasa"],
       
       identifier: "GEM193",
@@ -94622,9 +94646,9 @@ Deal 1 arcane damage to any target.`,
       
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["GEM193"],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["GEM193","IAR008"],
     sets: [Release.GEM,Release.UsurpTheShadowThrone],
     specialImage: "GEM193",
     subtypes: [Subtype.Attack],
@@ -140522,12 +140546,36 @@ You may play an aura with Runechant in its name from your banished zone this tur
     artists: ["Alif Zahrah"],
     cardIdentifier: "embrace-ursur-red",
     classes: [Class.Runeblade],
-    defaultImage: "GEM203",
+    defaultImage: "IAR129",
     firstReleaseDate: "2026-09-25",
-    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Embrace Ursur",
     printings: [{
+        artists: ["Alif Zahrah"],
+      
+      identifier: "IAR129",
+      image: "IAR129",
+      
+      
+      print: "IAR129",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Alif Zahrah"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR129",
+      image: "IAR129-RF",
+      
+      
+      print: "IAR129-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
         artists: ["Alif Zahrah"],
       
       identifier: "GEM203",
@@ -140552,9 +140600,9 @@ You may play an aura with Runechant in its name from your banished zone this tur
       
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["GEM203"],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["GEM203","IAR129"],
     sets: [Release.GEM,Release.UsurpTheShadowThrone],
     specialImage: "GEM203",
     subtypes: [Subtype.Attack],
@@ -140574,11 +140622,157 @@ You may play an aura with Runechant in its name from your banished zone this tur
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Rainbow],
   
     
     pitch: 1,
     power: 3,referencedCards: ["runechant"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Alif Zahrah"],
+    cardIdentifier: "embrace-ursur-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR130",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Embrace Ursur",
+    printings: [{
+        artists: ["Alif Zahrah"],
+      
+      identifier: "IAR130",
+      image: "IAR130",
+      
+      
+      print: "IAR130",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Alif Zahrah"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR130",
+      image: "IAR130-RF",
+      
+      
+      print: "IAR130-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR130"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR130",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 1,createdExtras: ["runechant"],
+    defense: 3,
+    
+    functionalText: `When this attacks, you may banish a card from your hand. If it's Runeblade, create a Runechant token. If it's Shadow, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 2,referencedCards: ["runechant"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Alif Zahrah"],
+    cardIdentifier: "embrace-ursur-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR131",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Embrace Ursur",
+    printings: [{
+        artists: ["Alif Zahrah"],
+      
+      identifier: "IAR131",
+      image: "IAR131",
+      
+      
+      print: "IAR131",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Alif Zahrah"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR131",
+      image: "IAR131-RF",
+      
+      
+      print: "IAR131-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR131"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR131",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 1,createdExtras: ["runechant"],
+    defense: 3,
+    
+    functionalText: `When this attacks, you may banish a card from your hand. If it's Runeblade, create a Runechant token. If it's Shadow, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 1,referencedCards: ["runechant"],
     
     
     
@@ -159616,7 +159810,8 @@ When this is banished from **boosting**, put a steam counter on an item you cont
     talents: [Talent.Shadow],
   
   
-  },{
+  }];
+const cards3: Card[] = [{
     artists: ["Shen Fei"],
     cardIdentifier: "fatal-engagement-red",
     classes: [Class.Warrior],
@@ -159808,8 +160003,7 @@ Target attack gets +4{p}.`,
     
   
   
-  }];
-const cards3: Card[] = [{
+  },{
     artists: ["Shen Fei"],
     cardIdentifier: "fatal-engagement-blue",
     classes: [Class.Warrior],
@@ -241199,7 +241393,8 @@ At the beginning of your end phase, if you've attacked 2 or more times with weap
     
   
   young: true
-  },{
+  }];
+const cards4: Card[] = [{
     artists: ["Adolfo Navarro"],
     cardIdentifier: "katsu",
     classes: [Class.Ninja],
@@ -241579,8 +241774,7 @@ At the beginning of your end phase, if you've attacked 2 or more times with weap
     
   
   
-  }];
-const cards4: Card[] = [{
+  },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "kavdaen-trader-of-skins",
     classes: [Class.Merchant],
@@ -287483,12 +287677,36 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
     artists: ["Jefrey Yonathan"],
     cardIdentifier: "ominous-toll-red",
     classes: [Class.Necromancer],
-    defaultImage: "GEM198",
+    defaultImage: "IAR078",
     firstReleaseDate: "2026-09-25",
-    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Malice],
     name: "Ominous Toll",
     printings: [{
+        artists: ["Jefrey Yonathan"],
+      
+      identifier: "IAR078",
+      image: "IAR078",
+      
+      
+      print: "IAR078",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Jefrey Yonathan"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR078",
+      image: "IAR078-RF",
+      
+      
+      print: "IAR078-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
         artists: ["Jefrey Yonathan"],
       
       identifier: "GEM198",
@@ -287513,9 +287731,9 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
       
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["GEM198"],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["GEM198","IAR078"],
     sets: [Release.GEM,Release.UsurpTheShadowThrone],
     specialImage: "GEM198",
     subtypes: [Subtype.Attack],
@@ -287537,11 +287755,161 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Rainbow],
   
     
     pitch: 1,
     power: 3,referencedCards: ["gate-to-iarathael"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Jefrey Yonathan"],
+    cardIdentifier: "ominous-toll-yellow",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR079",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Ominous Toll",
+    printings: [{
+        artists: ["Jefrey Yonathan"],
+      
+      identifier: "IAR079",
+      image: "IAR079",
+      
+      
+      print: "IAR079",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Jefrey Yonathan"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR079",
+      image: "IAR079-RF",
+      
+      
+      print: "IAR079-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR079"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR079",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Attack",
+
+    
+    
+    cost: 0,createdExtras: ["gate-to-iarathael"],
+    defense: 2,
+    
+    functionalText: `When this attacks, you may discard a zombie. If you do, create a Gate to i'Arathael token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 2,referencedCards: ["gate-to-iarathael"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Jefrey Yonathan"],
+    cardIdentifier: "ominous-toll-blue",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR080",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Ominous Toll",
+    printings: [{
+        artists: ["Jefrey Yonathan"],
+      
+      identifier: "IAR080",
+      image: "IAR080",
+      
+      
+      print: "IAR080",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Jefrey Yonathan"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR080",
+      image: "IAR080-RF",
+      
+      
+      print: "IAR080-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR080"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR080",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Attack",
+
+    
+    
+    cost: 0,createdExtras: ["gate-to-iarathael"],
+    defense: 2,
+    
+    functionalText: `When this attacks, you may discard a zombie. If you do, create a Gate to i'Arathael token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 1,referencedCards: ["gate-to-iarathael"],
     
     
     
@@ -322563,7 +322931,8 @@ Your next Lightning, Ice or Elemental attack this turn gains +4{p}.`,
     
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Olga Tereshenko","Saad Irfan"],
     cardIdentifier: "pulsing-aether--life-red",
     classes: [Class.Wizard],
@@ -322951,8 +323320,7 @@ Gain 1{h}`,
     talents: [Talent.Lightning],
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Federico Musetti"],
     cardIdentifier: "pulverize-red",
     classes: [Class.Guardian],
@@ -403245,7 +403613,8 @@ Target attack action card gets **go again**.`,
     
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Shen Fei"],
     cardIdentifier: "smash-and-grab-red",
     classes: [Class.Mechanologist],
@@ -403771,8 +404140,7 @@ Target attack action card gets **go again**.`,
     
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Arif Wijaya"],
     cardIdentifier: "smash-up-red",
     classes: [Class.Generic],
@@ -482354,7 +482722,8 @@ Target hero banishes the top card of their deck. If it's yellow, they lose 1{h}.
     talents: [Talent.Shadow],
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "vile-inquisition-blue",
     classes: [Class.NotClassed],
@@ -482733,8 +483102,7 @@ Target hero banishes the top card of their deck. If it's blue, they lose 1{h}.
     talents: [Talent.Reviled],
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "vipox-red",
     classes: [Class.Generic],
@@ -487091,12 +487459,24 @@ When this hits, create a Lightning Flow token.`,
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Jessketchin"],
+      foiling: Foiling.Cold,
+      identifier: "GEM186",
+      image: "GEM186-CF",
+      
+      
+      print: "GEM186-Cold",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      
     },],
-    rarities: [Rarity.Basic,Rarity.Common],
+    rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["AMA002","IAR055"],
-    sets: [Release.ArmoryDeckMalice,Release.UsurpTheShadowThrone],
-    specialImage: "AMA002-RF",
+    setIdentifiers: ["AMA002","GEM186","IAR055"],
+    sets: [Release.ArmoryDeckMalice,Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "GEM186-CF",
     subtypes: [Subtype.TwoHanded,Subtype.Staff],
     types: [Type.Weapon],
     typeText: "Shadow Necromancer Weapon - Staff (2H)",

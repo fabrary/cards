@@ -1,4 +1,5 @@
 import { Class, Hero, Rarity, Release, Talent } from "./interfaces.js";
+import { getLookupWithoutInheritedKeys } from "./lookups.js";
 
 export enum Language {
   English = "English",
@@ -2068,151 +2069,153 @@ export const releases: ReleaseInfo[] = [
   },
 ];
 
-export const fullSetIdentifiers: { [key: string]: Release } = {
-  wtr: Release.WelcomeToRathe,
-  arc: Release.ArcaneRising,
-  cru: Release.CrucibleOfWar,
-  mon: Release.Monarch,
-  ele: Release.TalesOfAria,
-  evr: Release.Everfest,
-  "1hp": Release.HistoryPack1,
-  hp1: Release.HistoryPack1,
-  upr: Release.Uprising,
-  dyn: Release.Dynasty,
-  out: Release.Outsiders,
-  dtd: Release.DuskTillDawn,
-  evo: Release.BrightLights,
-  hvy: Release.HeavyHitters,
-  mst: Release.PartTheMistveil,
-  ros: Release.Rosetta,
-  hnt: Release.TheHunted,
-  sea: Release.HighSeas,
-  mpg: Release.MasteryPackGuardian,
-  sup: Release.SuperSlam,
-  pen: Release.CompendiumOfRathe,
-  omn: Release.OmensOfTheThirdAge,
-  mpw: Release.MasteryPackWarrior,
-  iar: Release.UsurpTheShadowThrone,
-  mpa: Release.MasteryPackAssassin,
-};
+export const fullSetIdentifiers: { [key: string]: Release } =
+  getLookupWithoutInheritedKeys({
+    wtr: Release.WelcomeToRathe,
+    arc: Release.ArcaneRising,
+    cru: Release.CrucibleOfWar,
+    mon: Release.Monarch,
+    ele: Release.TalesOfAria,
+    evr: Release.Everfest,
+    "1hp": Release.HistoryPack1,
+    hp1: Release.HistoryPack1,
+    upr: Release.Uprising,
+    dyn: Release.Dynasty,
+    out: Release.Outsiders,
+    dtd: Release.DuskTillDawn,
+    evo: Release.BrightLights,
+    hvy: Release.HeavyHitters,
+    mst: Release.PartTheMistveil,
+    ros: Release.Rosetta,
+    hnt: Release.TheHunted,
+    sea: Release.HighSeas,
+    mpg: Release.MasteryPackGuardian,
+    sup: Release.SuperSlam,
+    pen: Release.CompendiumOfRathe,
+    omn: Release.OmensOfTheThirdAge,
+    mpw: Release.MasteryPackWarrior,
+    iar: Release.UsurpTheShadowThrone,
+    mpa: Release.MasteryPackAssassin,
+  });
 
-export const setIdentifierToSetMappings: { [key: string]: Release } = {
-  ...fullSetIdentifiers,
+export const setIdentifierToSetMappings: { [key: string]: Release } =
+  getLookupWithoutInheritedKeys({
+    ...fullSetIdentifiers,
 
-  // Armory decks
-  aac: Release.ArmoryDeckArakni,
-  aaz: Release.ArmoryDeckAzalea,
-  asb: Release.ArmoryDeckBoltyn,
-  aio: Release.ArmoryDeckDash,
-  ako: Release.ArmoryDeckKayo,
-  ajv: Release.ArmoryDeckOriginsJarl,
-  ast: Release.ArmoryDeckAurora,
-  amx: Release.ArmoryDeckMaxx,
-  agb: Release.ArmoryDeckGravyBones,
-  asr: Release.ArmoryDeckIra,
-  aps: Release.ArmoryDeckPleiades,
-  apr: Release.ArmoryDeckLegendsPrism,
-  arr: Release.ArmoryDeckRhinar,
-  avs: Release.ArmoryDeckLegendsViserai,
-  aha: Release.ArmoryDeckOriginsHala,
-  azs: Release.ArmoryDeckZyggy,
-  aol: Release.ArmoryDeckOlympia,
-  ama: Release.ArmoryDeckMalice,
-  amo: Release.ArmoryDeckDrMortimer,
+    // Armory decks
+    aac: Release.ArmoryDeckArakni,
+    aaz: Release.ArmoryDeckAzalea,
+    asb: Release.ArmoryDeckBoltyn,
+    aio: Release.ArmoryDeckDash,
+    ako: Release.ArmoryDeckKayo,
+    ajv: Release.ArmoryDeckOriginsJarl,
+    ast: Release.ArmoryDeckAurora,
+    amx: Release.ArmoryDeckMaxx,
+    agb: Release.ArmoryDeckGravyBones,
+    asr: Release.ArmoryDeckIra,
+    aps: Release.ArmoryDeckPleiades,
+    apr: Release.ArmoryDeckLegendsPrism,
+    arr: Release.ArmoryDeckRhinar,
+    avs: Release.ArmoryDeckLegendsViserai,
+    aha: Release.ArmoryDeckOriginsHala,
+    azs: Release.ArmoryDeckZyggy,
+    aol: Release.ArmoryDeckOlympia,
+    ama: Release.ArmoryDeckMalice,
+    amo: Release.ArmoryDeckDrMortimer,
 
-  // Blitz decks
-  ara: Release.ArakniBlitzDeck,
-  ark: Release.ArakniBlitzDeckARK,
-  aua: Release.AuroraBlitzDeck,
-  azl: Release.AzaleaBlitzDeck,
-  ben: Release.BenjiBlitzDeck,
-  bet: Release.BetsyBlitzDeck,
-  bol: Release.BoltynBlitzDeck,
-  bri: Release.BriarBlitzDeck,
-  chn: Release.ChaneBlitzDeck,
-  cin: Release.CindraBlitzDeck,
-  dro: Release.DromaiBlitzDeck,
-  eng: Release.EnigmaBlitzDeck,
-  fai: Release.FaiBlitzDeck,
-  fng: Release.FangBlitzDeck,
-  flr: Release.FlorianBlitzDeck,
-  kat: Release.KatsuBlitzDeck,
-  ksi: Release.KassaiBlitzDeck,
-  kyo: Release.KayoBlitzDeck,
-  lev: Release.LeviaBlitzDeck,
-  lxi: Release.LexiBlitzDeck,
-  nuu: Release.NuuBlitzDeck,
-  old: Release.OldhimBlitzDeck,
-  ola: Release.OlympiaBlitzDeck,
-  osc: Release.OscilioBlitzDeck,
-  psm: Release.PrismBlitzDeck,
-  rip: Release.RiptideBlitzDeck,
-  rhi: Release.RhinarBlitzDeck,
-  uzu: Release.UzuriBlitzDeck,
-  ver: Release.VerdanceBlitzDeck,
-  vic: Release.VictorBlitzDeck,
-  zen: Release.ZenBlitzDeck,
-  wod: Release.ArakniWebOfDeceitBlitzDeck,
+    // Blitz decks
+    ara: Release.ArakniBlitzDeck,
+    ark: Release.ArakniBlitzDeckARK,
+    aua: Release.AuroraBlitzDeck,
+    azl: Release.AzaleaBlitzDeck,
+    ben: Release.BenjiBlitzDeck,
+    bet: Release.BetsyBlitzDeck,
+    bol: Release.BoltynBlitzDeck,
+    bri: Release.BriarBlitzDeck,
+    chn: Release.ChaneBlitzDeck,
+    cin: Release.CindraBlitzDeck,
+    dro: Release.DromaiBlitzDeck,
+    eng: Release.EnigmaBlitzDeck,
+    fai: Release.FaiBlitzDeck,
+    fng: Release.FangBlitzDeck,
+    flr: Release.FlorianBlitzDeck,
+    kat: Release.KatsuBlitzDeck,
+    ksi: Release.KassaiBlitzDeck,
+    kyo: Release.KayoBlitzDeck,
+    lev: Release.LeviaBlitzDeck,
+    lxi: Release.LexiBlitzDeck,
+    nuu: Release.NuuBlitzDeck,
+    old: Release.OldhimBlitzDeck,
+    ola: Release.OlympiaBlitzDeck,
+    osc: Release.OscilioBlitzDeck,
+    psm: Release.PrismBlitzDeck,
+    rip: Release.RiptideBlitzDeck,
+    rhi: Release.RhinarBlitzDeck,
+    uzu: Release.UzuriBlitzDeck,
+    ver: Release.VerdanceBlitzDeck,
+    vic: Release.VictorBlitzDeck,
+    zen: Release.ZenBlitzDeck,
+    wod: Release.ArakniWebOfDeceitBlitzDeck,
 
-  // 1st strike decks
-  aur: Release.FirstStrikeAurora,
-  ter: Release.FirstStrikeTerra,
+    // 1st strike decks
+    aur: Release.FirstStrikeAurora,
+    ter: Release.FirstStrikeTerra,
 
-  // Silver Age decks
-  sar: Release.ArakniSilverAgeDeck,
-  sat: Release.PrismSilverAgeDeck,
-  saz: Release.AzaleaSilverAgeDeck,
-  sba: Release.BriarSilverAgeDeck,
-  sbl: Release.BoltynSilverAgeDeck,
-  sbr: Release.BravoSilverAgeDeck,
-  sbz: Release.BlazeSilverAgeDeck,
-  sbw: Release.ViseraiBetweenWorldsSilverAgeDeck,
-  sda: Release.DashSilverAgeDeck,
-  sdo: Release.DorintheaSilverAgeDeck,
-  sen: Release.EnigmaSilverAgeDeck,
-  sfa: Release.FaiSilverAgeDeck,
-  sgb: Release.GravyBonesSilverAgeDeck,
-  siy: Release.IyslanderSilverAgeDeck,
-  ska: Release.KayoSilverAgeDeck,
-  sly: Release.LyathSilverAgeDeck,
-  svi: Release.ViseraiSilverAgeDeck,
+    // Silver Age decks
+    sar: Release.ArakniSilverAgeDeck,
+    sat: Release.PrismSilverAgeDeck,
+    saz: Release.AzaleaSilverAgeDeck,
+    sba: Release.BriarSilverAgeDeck,
+    sbl: Release.BoltynSilverAgeDeck,
+    sbr: Release.BravoSilverAgeDeck,
+    sbz: Release.BlazeSilverAgeDeck,
+    sbw: Release.ViseraiBetweenWorldsSilverAgeDeck,
+    sda: Release.DashSilverAgeDeck,
+    sdo: Release.DorintheaSilverAgeDeck,
+    sen: Release.EnigmaSilverAgeDeck,
+    sfa: Release.FaiSilverAgeDeck,
+    sgb: Release.GravyBonesSilverAgeDeck,
+    siy: Release.IyslanderSilverAgeDeck,
+    ska: Release.KayoSilverAgeDeck,
+    sly: Release.LyathSilverAgeDeck,
+    svi: Release.ViseraiSilverAgeDeck,
 
-  // Starter decks
-  bdd: Release.BravoDemoDeck,
-  ddd: Release.DorintheaDemoDeck,
-  dvr: Release.ClassicBattlesRhinarDorinthea,
-  rvd: Release.ClassicBattlesRhinarDorinthea,
-  ira: Release.IraWelcomeDeck,
+    // Starter decks
+    bdd: Release.BravoDemoDeck,
+    ddd: Release.DorintheaDemoDeck,
+    dvr: Release.ClassicBattlesRhinarDorinthea,
+    rvd: Release.ClassicBattlesRhinarDorinthea,
+    ira: Release.IraWelcomeDeck,
 
-  // Other decks
-  tcc: Release.RoundTheTable,
-  smp: Release.SmashPalace,
-  spw: Release.SmashPalaceChorusOfSteel,
+    // Other decks
+    tcc: Release.RoundTheTable,
+    smp: Release.SmashPalace,
+    spw: Release.SmashPalaceChorusOfSteel,
 
-  // Hero decks
-  bvo: Release.BravoHeroDeck,
-  tea: Release.DorintheaHeroDeck,
-  ksu: Release.KatsuHeroDeck,
-  rnr: Release.RhinarHeroDeck,
+    // Hero decks
+    bvo: Release.BravoHeroDeck,
+    tea: Release.DorintheaHeroDeck,
+    ksu: Release.KatsuHeroDeck,
+    rnr: Release.RhinarHeroDeck,
 
-  // GEM packs
-  gem: Release.GEM,
+    // GEM packs
+    gem: Release.GEM,
 
-  // Tournament packs
-  tnp: Release.TournamentPack,
+    // Tournament packs
+    tnp: Release.TournamentPack,
 
-  // Promos
-  anq: Release.Promos,
-  con: Release.Promos,
-  fab: Release.Promos,
-  her: Release.Promos,
-  jdg: Release.Promos,
-  lgs: Release.Promos,
-  lss: Release.Promos,
-  oxo: Release.Promos,
-  xxx: Release.Promos,
-  win: Release.Promos,
-};
+    // Promos
+    anq: Release.Promos,
+    con: Release.Promos,
+    fab: Release.Promos,
+    her: Release.Promos,
+    jdg: Release.Promos,
+    lgs: Release.Promos,
+    lss: Release.Promos,
+    oxo: Release.Promos,
+    xxx: Release.Promos,
+    win: Release.Promos,
+  });
 
 const tempSetToSetIdentifierMappings: { [key: string]: string[] } = {};
 for (const [setIdentifier, set] of Object.entries(setIdentifierToSetMappings)) {
@@ -2224,7 +2227,9 @@ for (const [setIdentifier, set] of Object.entries(setIdentifierToSetMappings)) {
   }
 }
 
-export const setToSetIdentifierMappings = tempSetToSetIdentifierMappings;
+export const setToSetIdentifierMappings = getLookupWithoutInheritedKeys(
+  tempSetToSetIdentifierMappings,
+);
 
 export interface SilverAgeChapter {
   chapter: number;

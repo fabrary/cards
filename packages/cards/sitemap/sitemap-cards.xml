@@ -7036,6 +7036,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/embrace-ursur-yellow</loc>
+    <lastmod>2026-08-31</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/embrace-ursur-blue</loc>
+    <lastmod>2026-08-31</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/embraforged-gauntlet</loc>
     <lastmod>2026-01-30</lastmod>
     <priority>0.5</priority>
@@ -14217,6 +14227,16 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/ominous-toll-red</loc>
+    <lastmod>2026-08-31</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/ominous-toll-yellow</loc>
+    <lastmod>2026-08-31</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/ominous-toll-blue</loc>
     <lastmod>2026-08-31</lastmod>
     <priority>0.5</priority>
   </url>

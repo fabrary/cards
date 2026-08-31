@@ -1628,6 +1628,81 @@ At the start of each turn, destroy this unless you put a zombie from your banish
   
   
   },{
+    artists: ["Satriasa"],
+    cardIdentifier: "consuming-appetite-yellow",
+    classes: [Class.Brute],
+    defaultImage: "IAR008",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Consuming Appetite",
+    printings: [{
+        artists: ["Satriasa"],
+      
+      identifier: "IAR008",
+      image: "IAR008",
+      
+      
+      print: "IAR008",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Satriasa"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR008",
+      image: "IAR008-RF",
+      
+      
+      print: "IAR008-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["GEM193","IAR008"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "IAR008",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `**Instant** - {r}, banish this from your hand: Until end of turn, Blasmophet, the Insatiable Hunger tokens you control get "**Action** - {t}: **Attack**. **Go again**"
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 2,
+    power: 6,referencedCards: ["blasmophet-the-insatiable-hunger"],
+    
+    shorthands: [Shorthand.Poppers,Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["SanSan"],
     cardIdentifier: "consuming-lash-yellow",
     classes: [Class.Brute],
@@ -3158,6 +3233,225 @@ You may play an aura with Runechant in its name from your banished zone this tur
   
   
   },{
+    artists: ["Alif Zahrah"],
+    cardIdentifier: "embrace-ursur-red",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR129",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Embrace Ursur",
+    printings: [{
+        artists: ["Alif Zahrah"],
+      
+      identifier: "IAR129",
+      image: "IAR129",
+      
+      
+      print: "IAR129",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Alif Zahrah"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR129",
+      image: "IAR129-RF",
+      
+      
+      print: "IAR129-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["GEM203","IAR129"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "IAR129",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 1,createdExtras: ["runechant"],
+    defense: 3,
+    
+    functionalText: `When this attacks, you may banish a card from your hand. If it's Runeblade, create a Runechant token. If it's Shadow, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 3,referencedCards: ["runechant"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Alif Zahrah"],
+    cardIdentifier: "embrace-ursur-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR130",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Embrace Ursur",
+    printings: [{
+        artists: ["Alif Zahrah"],
+      
+      identifier: "IAR130",
+      image: "IAR130",
+      
+      
+      print: "IAR130",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Alif Zahrah"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR130",
+      image: "IAR130-RF",
+      
+      
+      print: "IAR130-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR130"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR130",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 1,createdExtras: ["runechant"],
+    defense: 3,
+    
+    functionalText: `When this attacks, you may banish a card from your hand. If it's Runeblade, create a Runechant token. If it's Shadow, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 2,referencedCards: ["runechant"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Alif Zahrah"],
+    cardIdentifier: "embrace-ursur-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR131",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Embrace Ursur",
+    printings: [{
+        artists: ["Alif Zahrah"],
+      
+      identifier: "IAR131",
+      image: "IAR131",
+      
+      
+      print: "IAR131",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Alif Zahrah"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR131",
+      image: "IAR131-RF",
+      
+      
+      print: "IAR131-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR131"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR131",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 1,createdExtras: ["runechant"],
+    defense: 3,
+    
+    functionalText: `When this attacks, you may banish a card from your hand. If it's Runeblade, create a Runechant token. If it's Shadow, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 1,referencedCards: ["runechant"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "forsaken-strike-yellow",
     classes: [Class.Necromancer],
@@ -4348,6 +4642,231 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
     referencedCards: ["corrupted-corpse"],
     
     shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Jefrey Yonathan"],
+    cardIdentifier: "ominous-toll-red",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR078",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Ominous Toll",
+    printings: [{
+        artists: ["Jefrey Yonathan"],
+      
+      identifier: "IAR078",
+      image: "IAR078",
+      
+      
+      print: "IAR078",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Jefrey Yonathan"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR078",
+      image: "IAR078-RF",
+      
+      
+      print: "IAR078-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["GEM198","IAR078"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "IAR078",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Attack",
+
+    
+    
+    cost: 0,createdExtras: ["gate-to-iarathael"],
+    defense: 2,
+    
+    functionalText: `When this attacks, you may discard a zombie. If you do, create a Gate to i'Arathael token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 3,referencedCards: ["gate-to-iarathael"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Jefrey Yonathan"],
+    cardIdentifier: "ominous-toll-yellow",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR079",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Ominous Toll",
+    printings: [{
+        artists: ["Jefrey Yonathan"],
+      
+      identifier: "IAR079",
+      image: "IAR079",
+      
+      
+      print: "IAR079",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Jefrey Yonathan"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR079",
+      image: "IAR079-RF",
+      
+      
+      print: "IAR079-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR079"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR079",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Attack",
+
+    
+    
+    cost: 0,createdExtras: ["gate-to-iarathael"],
+    defense: 2,
+    
+    functionalText: `When this attacks, you may discard a zombie. If you do, create a Gate to i'Arathael token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 2,referencedCards: ["gate-to-iarathael"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Jefrey Yonathan"],
+    cardIdentifier: "ominous-toll-blue",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR080",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Ominous Toll",
+    printings: [{
+        artists: ["Jefrey Yonathan"],
+      
+      identifier: "IAR080",
+      image: "IAR080",
+      
+      
+      print: "IAR080",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Jefrey Yonathan"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR080",
+      image: "IAR080-RF",
+      
+      
+      print: "IAR080-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR080"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR080",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Attack",
+
+    
+    
+    cost: 0,createdExtras: ["gate-to-iarathael"],
+    defense: 2,
+    
+    functionalText: `When this attacks, you may discard a zombie. If you do, create a Gate to i'Arathael token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 1,referencedCards: ["gate-to-iarathael"],
+    
+    
     
     
     
@@ -8197,10 +8716,10 @@ At the beginning of each end phase, if you've created or activated a Gate to i'A
       
       
     },],
-    rarities: [Rarity.Basic,Rarity.Common],
+    rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["AMA002","IAR055"],
-    sets: [Release.ArmoryDeckMalice,Release.UsurpTheShadowThrone],
+    setIdentifiers: ["AMA002","GEM186","IAR055"],
+    sets: [Release.ArmoryDeckMalice,Release.GEM,Release.UsurpTheShadowThrone],
     specialImage: "IAR055",
     subtypes: [Subtype.TwoHanded,Subtype.Staff],
     types: [Type.Weapon],

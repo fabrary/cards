@@ -5,8 +5,6 @@ import {
   Hero,
   Printing,
   Release,
-  setIdentifierToSetMappings,
-  setToSetIdentifierMappings,
   Treatment,
 } from "@flesh-and-blood/types";
 import Fuse from "fuse.js";
@@ -19,6 +17,7 @@ import {
 } from "./filters.js";
 import { memes } from "./memes.js";
 import { getNormalizedText, getTextWithoutMarkup } from "./helpers.js";
+import { releasesBySetIdentifier, setIdentifiersByRelease } from "./lookups.js";
 import { FilterProperty } from "./metaFilters.js";
 import { CatalogueIndex, getCatalogueIndex } from "./searchIndex.js";
 
@@ -168,41 +167,34 @@ class Search {
     if (keywords.length === 0) {
       // If filtering on set without any keywords then sort by set by default
       // If there's also no set filter then sort alphabetically
-      let setIdentifieToSortBy = "";
+      let setIdentifierToSortBy = "";
 
       const shouldSortByRelease = attributes.releases.length === 1;
       if (shouldSortByRelease) {
-        try {
-          const setToSort = attributes.releases[0];
-          const matchingSetIdentifiers = setToSetIdentifierMappings[setToSort];
-          setIdentifieToSortBy = matchingSetIdentifiers[0].toUpperCase();
-        } catch (e) {
-          console.error(`Error getting set identifier from search`, e);
+        const matchingSetIdentifiers =
+          setIdentifiersByRelease[attributes.releases[0]];
+        if (matchingSetIdentifiers?.length) {
+          setIdentifierToSortBy = matchingSetIdentifiers[0].toUpperCase();
         }
       }
 
       const shouldSortByPrint =
-        !setIdentifieToSortBy && attributes.prints.length === 1;
+        !setIdentifierToSortBy && attributes.prints.length === 1;
       if (shouldSortByPrint) {
-        try {
-          const setToSort = attributes.prints[0];
-          const matchingSetIdentifiers = setIdentifierToSetMappings[setToSort];
-          if (matchingSetIdentifiers) {
-            setIdentifieToSortBy = setToSort.toUpperCase();
-          }
-        } catch (e) {
-          console.error(`Error getting set identifier from search`, e);
+        const setToSort = attributes.prints[0];
+        if (releasesBySetIdentifier[setToSort]) {
+          setIdentifierToSortBy = setToSort.toUpperCase();
         }
       }
 
-      if (setIdentifieToSortBy) {
+      if (setIdentifierToSortBy) {
         results.sort((c1, c2) => {
           const c1SetNumber = c1.setIdentifiers
-            .find((identifier) => identifier.includes(setIdentifieToSortBy))
-            ?.replace(setIdentifieToSortBy, "") as string;
+            .find((identifier) => identifier.includes(setIdentifierToSortBy))
+            ?.replace(setIdentifierToSortBy, "") as string;
           const c2SetNumber = c2.setIdentifiers
-            .find((identifier) => identifier.includes(setIdentifieToSortBy))
-            ?.replace(setIdentifieToSortBy, "");
+            .find((identifier) => identifier.includes(setIdentifierToSortBy))
+            ?.replace(setIdentifierToSortBy, "");
           return c1SetNumber && c2SetNumber
             ? c1SetNumber.localeCompare(c2SetNumber)
             : -1;

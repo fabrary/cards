@@ -122112,6 +122112,132 @@ exports[`Check for unintentional updates Consuming Aftermath (consuming-aftermat
 }
 `;
 
+exports[`Check for unintentional updates Consuming Appetite (consuming-appetite-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Satriasa",
+  ],
+  "cardIdentifier": "consuming-appetite-yellow",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 3,
+  "defaultImage": "IAR008",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Instant** - {r}, banish this from your hand: Until end of turn, Blasmophet, the Insatiable Hunger tokens you control get "**Action** - {t}: **Attack**. **Go again**"
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Consuming Appetite",
+  "pitch": 2,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "Satriasa",
+      ],
+      "identifier": "IAR008",
+      "image": "IAR008",
+      "print": "IAR008",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Satriasa",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR008",
+      "image": "IAR008-RF",
+      "print": "IAR008-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Satriasa",
+      ],
+      "identifier": "GEM193",
+      "image": "GEM193",
+      "print": "GEM193-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "Satriasa",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "GEM193",
+      "image": "GEM193-RF",
+      "print": "GEM193-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+  ],
+  "rarities": [
+    "Promo",
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "referencedCards": [
+    "blasmophet-the-insatiable-hunger",
+  ],
+  "setIdentifiers": [
+    "GEM193",
+    "IAR008",
+  ],
+  "sets": [
+    "GEM",
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+    "Tap",
+  ],
+  "specialImage": "GEM193",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Consuming Lash (consuming-lash-yellow) vs snapshot 1`] = `
 {
   "artists": [
@@ -181248,6 +181374,131 @@ You may play an aura with Runechant in its name from your banished zone this tur
     "Shadow",
   ],
   "typeText": "Shadow Runeblade Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alif Zahrah",
+  ],
+  "cardIdentifier": "embrace-ursur-red",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 1,
+  "createdExtras": [
+    "runechant",
+  ],
+  "defaultImage": "IAR129",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may banish a card from your hand. If it's Runeblade, create a Runechant token. If it's Shadow, this gets **go again**.",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Chane",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Embrace Ursur",
+  "pitch": 1,
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Alif Zahrah",
+      ],
+      "identifier": "IAR129",
+      "image": "IAR129",
+      "print": "IAR129",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Alif Zahrah",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR129",
+      "image": "IAR129-RF",
+      "print": "IAR129-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Alif Zahrah",
+      ],
+      "identifier": "GEM203",
+      "image": "GEM203",
+      "print": "GEM203-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "Alif Zahrah",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "GEM203",
+      "image": "GEM203-RF",
+      "print": "GEM203-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+  ],
+  "rarities": [
+    "Common",
+    "Promo",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "runechant",
+  ],
+  "setIdentifiers": [
+    "GEM203",
+    "IAR129",
+  ],
+  "sets": [
+    "GEM",
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "GEM203",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
   "types": [
     "Action",
   ],
@@ -373421,6 +373672,131 @@ exports[`Check for unintentional updates Ominous Respite (ominous-respite-yellow
 }
 `;
 
+exports[`Check for unintentional updates Ominous Toll (ominous-toll-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Jefrey Yonathan",
+  ],
+  "cardIdentifier": "ominous-toll-red",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "IAR078",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may discard a zombie. If you do, create a Gate to i'Arathael token.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Ominous Toll",
+  "pitch": 1,
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Jefrey Yonathan",
+      ],
+      "identifier": "IAR078",
+      "image": "IAR078",
+      "print": "IAR078",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Jefrey Yonathan",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR078",
+      "image": "IAR078-RF",
+      "print": "IAR078-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Jefrey Yonathan",
+      ],
+      "identifier": "GEM198",
+      "image": "GEM198",
+      "print": "GEM198-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "Jefrey Yonathan",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "GEM198",
+      "image": "GEM198-RF",
+      "print": "GEM198-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+  ],
+  "rarities": [
+    "Common",
+    "Promo",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "GEM198",
+    "IAR078",
+  ],
+  "sets": [
+    "GEM",
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "GEM198",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates On a Knife Edge (on-a-knife-edge-yellow) vs snapshot 1`] = `
 {
   "artists": [
@@ -438369,6 +438745,88 @@ exports[`Check for unintentional updates Reach Beyond the Grave (reach-beyond-th
     "Arms",
   ],
   "typeText": "Necromancer Equipment - Arms",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Reach of the Abyss (reach-of-the-abyss) vs snapshot 1`] = `
+{
+  "artists": [
+    "Saad Irfan",
+  ],
+  "cardIdentifier": "reach-of-the-abyss",
+  "classes": [
+    "NotClassed",
+  ],
+  "defaultImage": "IAR160-CF",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When the combat chain closes, if this defended, banish all defending cards.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Taylor",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Arena",
+  ],
+  "name": "Reach of the Abyss",
+  "printings": [
+    {
+      "artists": [
+        "Saad Irfan",
+      ],
+      "foiling": "Cold",
+      "identifier": "IAR160",
+      "image": "IAR160-CF",
+      "print": "IAR160-Cold",
+      "rarity": "Legendary",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Saad Irfan",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR160",
+      "image": "IAR160-RF",
+      "print": "IAR160-Rainbow",
+      "rarity": "Legendary",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Legendary",
+  ],
+  "rarity": "Legendary",
+  "setIdentifiers": [
+    "IAR160",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR160-CF",
+  "subtypes": [
+    "Arms",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Equipment - Arms",
   "types": [
     "Equipment",
   ],
@@ -634923,24 +635381,38 @@ Zombies you control get "**Action** - {r}, {t}: **Attack**"",
       "rarity": "Basic",
       "set": "Usurp the Shadow Throne",
     },
+    {
+      "artists": [
+        "Jessketchin",
+      ],
+      "foiling": "Cold",
+      "identifier": "GEM186",
+      "image": "GEM186-CF",
+      "print": "GEM186-Cold",
+      "rarity": "Promo",
+      "set": "GEM",
+    },
   ],
   "rarities": [
     "Basic",
     "Common",
+    "Promo",
   ],
   "rarity": "Basic",
   "setIdentifiers": [
     "AMA002",
+    "GEM186",
     "IAR055",
   ],
   "sets": [
     "Armory Deck: Malice",
+    "GEM",
     "Usurp the Shadow Throne",
   ],
   "shorthands": [
     "Tap",
   ],
-  "specialImage": "AMA002-RF",
+  "specialImage": "GEM186-CF",
   "subtypes": [
     "2H",
     "Staff",

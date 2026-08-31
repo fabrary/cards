@@ -12,6 +12,7 @@ import {
   RARITY_VALUES_MAPPING,
 } from "../src/filters";
 import { cards } from "@flesh-and-blood/cards";
+import Search from "../src/search";
 import { getCatalogueIndex } from "../src/searchIndex";
 
 const index = getCatalogueIndex(cards);
@@ -278,5 +279,61 @@ describe("Complete filter abbreviation mapping", () => {
     const matchingFilterValue = mappedRarities.includes(rarity);
 
     expect(matchingFilterValue).toBeTruthy();
+  });
+});
+
+// Filter keys and values are read straight out of the search text and looked up
+// in mapping tables, so every name an object inherits has to read as a miss.
+// The parser lowercases before it looks anything up, so only `constructor` and
+// `__proto__` survive as real inherited keys; the lowercased forms are covered
+// alongside the originals to keep that visible rather than implied.
+describe("Inherited object member names are not filters or filter values", () => {
+  const cardSearch = new Search(cards);
+  const inheritedNames = [
+    ...new Set(
+      Object.getOwnPropertyNames(Object.prototype).flatMap((name) => [
+        name,
+        name.toLowerCase(),
+      ]),
+    ),
+  ];
+  const filterKeys = [
+    "!",
+    "foil:",
+    "foiling:",
+    "is:",
+    "meta:",
+    "p:",
+    "pitch:",
+    "print:",
+    "r:",
+    "rarity:",
+    "s:",
+    "set:",
+    "treat:",
+    "treatment:",
+  ];
+
+  // Parsing is where the lookups live, so the filter keys are covered there
+  // rather than through the searcher, which would pay a full corpus scan each.
+  it.each(inheritedNames)("%s parses as a value without throwing", (name) => {
+    for (const filterKey of filterKeys) {
+      expect(() =>
+        getKeywordsAndAppliedFiltersFromText(`${filterKey}${name}`, index),
+      ).not.toThrow();
+    }
+  });
+
+  it.each(inheritedNames)("%s applies no filter", (name) => {
+    const { appliedFilters } = getKeywordsAndAppliedFiltersFromText(
+      `${name}:1`,
+      index,
+    );
+
+    expect(appliedFilters).toEqual([]);
+  });
+
+  it.each(inheritedNames)("%s searches without throwing", (name) => {
+    expect(() => cardSearch.search(name)).not.toThrow();
   });
 });

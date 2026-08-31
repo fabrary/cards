@@ -18,6 +18,10 @@ import { multiWordShorthands, singleWordShorthands } from "./shorthands.js";
 import { PUNCTUATION } from "./constants.js";
 import { getTextWithoutMarkup } from "./helpers.js";
 import {
+  getLookupWithoutInheritedKeys,
+  releasesBySetIdentifier,
+} from "./lookups.js";
+import {
   CatalogueIndex,
   getCardsByName,
   getCardsReferencedBy,
@@ -464,10 +468,9 @@ export const filtersToCardPropertyMappings = {
 
 // Filter keys are typed by the searcher, so an unrecognised key is a miss to
 // skip rather than a type error.
-const filtersToCardPropertyMappingsByKey: Record<
-  string,
-  FilterToPropertyMapping | undefined
-> = filtersToCardPropertyMappings;
+const filtersToCardPropertyMappingsByKey: {
+  [key: string]: FilterToPropertyMapping | undefined;
+} = getLookupWithoutInheritedKeys(filtersToCardPropertyMappings);
 
 const punctuationOverrides = [
   {
@@ -897,7 +900,7 @@ const getMatchingReleasesFromRawValue = (
   }
 
   if (releases.length === 0) {
-    const setFromSetIdentifier = setIdentifierToSetMappings[rawValue];
+    const setFromSetIdentifier = releasesBySetIdentifier[rawValue];
     if (setFromSetIdentifier) {
       releases.push(setFromSetIdentifier);
     }
@@ -926,20 +929,21 @@ const getMatchingReleasesFromRawValue = (
   return releases;
 };
 
-const pitchValuesMapping: { [key: string]: number } = {
+const pitchValuesMapping = getLookupWithoutInheritedKeys<number>({
   purple: 4,
   blue: 3,
   yellow: 2,
   red: 1,
   white: 0,
-};
+});
 const getPitchValuesFromText = (rawValues: string[]) => {
   const values: string[] = [];
   for (const rawValue of rawValues) {
-    if (pitchValuesMapping[rawValue] || pitchValuesMapping[rawValue] === 0) {
-      values.push(pitchValuesMapping[rawValue].toString());
-    } else {
+    const pitchValue = pitchValuesMapping[rawValue];
+    if (pitchValue === undefined) {
       values.push(rawValue);
+    } else {
+      values.push(pitchValue.toString());
     }
   }
   return values;
@@ -963,22 +967,20 @@ const getTodayAsReleaseDate = (): string => {
   return `${now.getFullYear()}-${month}-${dayOfMonth}`;
 };
 
-const metaValuesMapping: { [key: string]: Meta } = {
+const metaValuesMapping = getLookupWithoutInheritedKeys<Meta>({
   dual: Meta.DualClass,
   exp: Meta.Expansion,
   expansion: Meta.Expansion,
-  expansionSlot: Meta.Expansion,
   rainbow: Meta.Rainbow,
   reprint: Meta.Reprint,
   reprints: Meta.Reprint,
-};
+});
 const getMetaValuesFromText = (rawValues: string[]) => {
   const values: Meta[] = [];
   for (const rawValue of rawValues) {
-    if (metaValuesMapping[rawValue]) {
-      values.push(metaValuesMapping[rawValue]);
-    } else if (Meta[rawValue as keyof typeof Meta]) {
-      values.push(Meta[rawValue as keyof typeof Meta]);
+    const meta = metaValuesMapping[rawValue];
+    if (meta) {
+      values.push(meta);
     }
   }
 
@@ -996,7 +998,7 @@ const getMetaValuesFromText = (rawValues: string[]) => {
   return values;
 };
 
-const foilingValuesMapping: { [key: string]: Foiling } = {
+const foilingValuesMapping = getLookupWithoutInheritedKeys<Foiling>({
   r: Foiling.Rainbow,
   rf: Foiling.Rainbow,
   rainbow: Foiling.Rainbow,
@@ -1006,7 +1008,7 @@ const foilingValuesMapping: { [key: string]: Foiling } = {
   g: Foiling.Gold,
   gf: Foiling.Gold,
   gold: Foiling.Gold,
-};
+});
 const getFoilingValuesFromText = (rawValues: string[]) => {
   const values: Foiling[] = [];
   for (const rawValue of rawValues) {
@@ -1018,7 +1020,7 @@ const getFoilingValuesFromText = (rawValues: string[]) => {
   return values;
 };
 
-const treatmentValuesMapping: { [key: string]: Treatment } = {
+const treatmentValuesMapping = getLookupWithoutInheritedKeys<Treatment>({
   ...Object.values(Treatment).reduce<Record<string, Treatment>>(
     (treatmentsByLowercasedName, treatment) => {
       treatmentsByLowercasedName[treatment.toLowerCase()] = treatment;
@@ -1043,9 +1045,9 @@ const treatmentValuesMapping: { [key: string]: Treatment } = {
     full: Treatment.FA,
     "full art": Treatment.FA,
   },
-};
-const treatmentsByAbbreviation: Record<string, Treatment | undefined> =
-  Treatment;
+});
+const treatmentsByAbbreviation =
+  getLookupWithoutInheritedKeys<Treatment>(Treatment);
 const getTreatmentValuesFromText = (rawValues: string[]) => {
   const values: Treatment[] = [];
   for (const rawValue of rawValues) {
@@ -1061,18 +1063,19 @@ const getTreatmentValuesFromText = (rawValues: string[]) => {
   return values;
 };
 
-export const RARITY_VALUES_MAPPING: { [key: string]: Rarity } = {
-  b: Rarity.Basic,
-  c: Rarity.Common,
-  f: Rarity.Fabled,
-  l: Rarity.Legendary,
-  m: Rarity.Majestic,
-  p: Rarity.Promo,
-  r: Rarity.Rare,
-  s: Rarity.SuperRare,
-  t: Rarity.Token,
-  v: Rarity.Marvel,
-};
+export const RARITY_VALUES_MAPPING: { [key: string]: Rarity } =
+  getLookupWithoutInheritedKeys<Rarity>({
+    b: Rarity.Basic,
+    c: Rarity.Common,
+    f: Rarity.Fabled,
+    l: Rarity.Legendary,
+    m: Rarity.Majestic,
+    p: Rarity.Promo,
+    r: Rarity.Rare,
+    s: Rarity.SuperRare,
+    t: Rarity.Token,
+    v: Rarity.Marvel,
+  });
 const getRarityValuesFromText = (rawValues: string[]) => {
   const values: Rarity[] = [];
   for (const rawValue of rawValues) {
