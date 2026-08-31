@@ -480628,6 +480628,7 @@ exports[`Check for unintentional updates Savor Bloodshed (savor-bloodshed-red) v
 {
   "artists": [
     "Narendra B Adi",
+    "SanSan",
   ],
   "cardIdentifier": "savor-bloodshed-red",
   "classes": [
@@ -480709,21 +480710,40 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
         "url": "https://www.tcgplayer.com/product/612678?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "SanSan",
+      ],
+      "foiling": "Cold",
+      "identifier": "LGS459",
+      "image": "LGS459-CF",
+      "print": "LGS459-Cold-Alternate Art-Extended Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
     "HNT198",
+    "LGS459",
   ],
   "sets": [
+    "Promos",
     "The Hunted",
   ],
   "shorthands": [
     "Buffs",
   ],
-  "specialImage": "HNT198",
+  "specialImage": "LGS459-CF",
   "subtypes": [
     "Non-Attack",
   ],

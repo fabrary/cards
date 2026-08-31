@@ -94589,6 +94589,81 @@ Deal 1 arcane damage to any target.`,
   
   
   },{
+    artists: ["Satriasa"],
+    cardIdentifier: "consuming-appetite-yellow",
+    classes: [Class.Brute],
+    defaultImage: "GEM193",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Consuming Appetite",
+    printings: [{
+        artists: ["Satriasa"],
+      
+      identifier: "GEM193",
+      image: "GEM193",
+      
+      
+      print: "GEM193-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Satriasa"],
+      foiling: Foiling.Rainbow,
+      identifier: "GEM193",
+      image: "GEM193-RF",
+      
+      
+      print: "GEM193-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["GEM193"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "GEM193",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `**Instant** - {r}, banish this from your hand: Until end of turn, Blasmophet, the Insatiable Hunger tokens you control get "**Action** - {t}: **Attack**. **Go again**"
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 2,
+    power: 6,referencedCards: ["blasmophet-the-insatiable-hunger"],
+    
+    shorthands: [Shorthand.Poppers,Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["SanSan"],
     cardIdentifier: "consuming-lash-yellow",
     classes: [Class.Brute],
@@ -140444,6 +140519,79 @@ You may play an aura with Runechant in its name from your banished zone this tur
   
   
   },{
+    artists: ["Alif Zahrah"],
+    cardIdentifier: "embrace-ursur-red",
+    classes: [Class.Runeblade],
+    defaultImage: "GEM203",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Embrace Ursur",
+    printings: [{
+        artists: ["Alif Zahrah"],
+      
+      identifier: "GEM203",
+      image: "GEM203",
+      
+      
+      print: "GEM203-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Alif Zahrah"],
+      foiling: Foiling.Rainbow,
+      identifier: "GEM203",
+      image: "GEM203-RF",
+      
+      
+      print: "GEM203-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["GEM203"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "GEM203",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 1,createdExtras: ["runechant"],
+    defense: 3,
+    
+    functionalText: `When this attacks, you may banish a card from your hand. If it's Runeblade, create a Runechant token. If it's Shadow, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 3,referencedCards: ["runechant"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Saad Irfan"],
     cardIdentifier: "embraforged-gauntlet",
     classes: [Class.NotClassed],
@@ -159660,7 +159808,8 @@ Target attack gets +4{p}.`,
     
   
   
-  },{
+  }];
+const cards3: Card[] = [{
     artists: ["Shen Fei"],
     cardIdentifier: "fatal-engagement-blue",
     classes: [Class.Warrior],
@@ -159925,8 +160074,7 @@ Target attack gets +3{p}.`,
     
   
   
-  }];
-const cards3: Card[] = [{
+  },{
     artists: ["Anastasia Alexandrova"],
     cardIdentifier: "fate-foreseen-yellow",
     classes: [Class.Generic],
@@ -241431,7 +241579,8 @@ At the beginning of your end phase, if you've attacked 2 or more times with weap
     
   
   
-  },{
+  }];
+const cards4: Card[] = [{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "kavdaen-trader-of-skins",
     classes: [Class.Merchant],
@@ -241698,8 +241847,7 @@ The first time you discard a card with 6 or more {p} during each of your action 
     
   
   young: true
-  }];
-const cards4: Card[] = [{
+  },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "kayo-armed-and-dangerous",
     classes: [Class.Brute],
@@ -287332,6 +287480,81 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
   
   
   },{
+    artists: ["Jefrey Yonathan"],
+    cardIdentifier: "ominous-toll-red",
+    classes: [Class.Necromancer],
+    defaultImage: "GEM198",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Ominous Toll",
+    printings: [{
+        artists: ["Jefrey Yonathan"],
+      
+      identifier: "GEM198",
+      image: "GEM198",
+      
+      
+      print: "GEM198-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Jefrey Yonathan"],
+      foiling: Foiling.Rainbow,
+      identifier: "GEM198",
+      image: "GEM198-RF",
+      
+      
+      print: "GEM198-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["GEM198"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "GEM198",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Attack",
+
+    
+    
+    cost: 0,createdExtras: ["gate-to-iarathael"],
+    defense: 2,
+    
+    functionalText: `When this attacks, you may discard a zombie. If you do, create a Gate to i'Arathael token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 3,referencedCards: ["gate-to-iarathael"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "on-a-knife-edge-yellow",
     classes: [Class.Generic],
@@ -322728,7 +322951,8 @@ Gain 1{h}`,
     talents: [Talent.Lightning],
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Federico Musetti"],
     cardIdentifier: "pulverize-red",
     classes: [Class.Guardian],
@@ -323136,8 +323360,7 @@ When this hits a hero, their first attack during their next turn gets -4{p}.`,
     
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Ksenia Belova"],
     cardIdentifier: "pummel-blue",
     classes: [Class.Generic],
@@ -335239,6 +335462,79 @@ The next attack you **boost** this turn gets +2{p}.
     
     
     
+  
+  
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "reach-of-the-abyss",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR160-CF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Taylor,Hero.Viserai2,Hero.Vynnset],
+    name: "Reach of the Abyss",
+    printings: [{
+        artists: ["Saad Irfan"],
+      foiling: Foiling.Cold,
+      identifier: "IAR160",
+      image: "IAR160-CF",
+      
+      
+      print: "IAR160-Cold",
+      rarity: Rarity.Legendary,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Saad Irfan"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR160",
+      image: "IAR160-RF",
+      
+      
+      print: "IAR160-Rainbow",
+      rarity: Rarity.Legendary,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["IAR160"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR160-CF",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Shadow Equipment - Arms",
+
+    
+    
+    
+    defense: 2,
+    
+    functionalText: `When the combat chain closes, if this defended, banish all defending cards.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
   
   
   },{
@@ -368283,7 +368579,7 @@ If you've **charged** this turn, target attack gets -2{p}.`,
   
   
   },{
-    artists: ["Narendra B Adi"],
+    artists: ["Narendra B Adi","SanSan"],
     cardIdentifier: "savor-bloodshed-red",
     classes: [Class.Assassin,Class.Warrior],
     defaultImage: "HNT198",
@@ -368321,12 +368617,24 @@ If you've **charged** this turn, target attack gets -2{p}.`,
             url: "https://www.tcgplayer.com/product/612678?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["SanSan"],
+      foiling: Foiling.Cold,
+      identifier: "LGS459",
+      image: "LGS459-CF",
+      
+      
+      print: "LGS459-Cold-Alternate Art-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["HNT198"],
-    sets: [Release.TheHunted],
-    specialImage: "HNT198",
+    setIdentifiers: ["HNT198","LGS459"],
+    sets: [Release.Promos,Release.TheHunted],
+    specialImage: "LGS459-CF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Assassin / Warrior Action",
@@ -403463,7 +403771,8 @@ Target attack action card gets **go again**.`,
     
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Arif Wijaya"],
     cardIdentifier: "smash-up-red",
     classes: [Class.Generic],
@@ -403899,8 +404208,7 @@ Target attack action card gets **go again**.`,
     
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Muhammad Fajri"],
     cardIdentifier: "smash-with-big-tree-blue",
     classes: [Class.Brute],
@@ -482425,7 +482733,8 @@ Target hero banishes the top card of their deck. If it's blue, they lose 1{h}.
     talents: [Talent.Reviled],
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "vipox-red",
     classes: [Class.Generic],
@@ -482744,8 +483053,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
     
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Mark Poole"],
     cardIdentifier: "virulent-touch-yellow",
     classes: [Class.Assassin,Class.Ranger],

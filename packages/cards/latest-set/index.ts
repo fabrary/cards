@@ -5119,6 +5119,79 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
   
   
   },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "reach-of-the-abyss",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR160-CF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Taylor,Hero.Viserai2,Hero.Vynnset],
+    name: "Reach of the Abyss",
+    printings: [{
+        artists: ["Saad Irfan"],
+      foiling: Foiling.Cold,
+      identifier: "IAR160",
+      image: "IAR160-CF",
+      
+      
+      print: "IAR160-Cold",
+      rarity: Rarity.Legendary,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Saad Irfan"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR160",
+      image: "IAR160-RF",
+      
+      
+      print: "IAR160-Rainbow",
+      rarity: Rarity.Legendary,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["IAR160"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR160-CF",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Shadow Equipment - Arms",
+
+    
+    
+    
+    defense: 2,
+    
+    functionalText: `When the combat chain closes, if this defended, banish all defending cards.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Yiian Kho"],
     cardIdentifier: "restless-cleric-red",
     classes: [Class.Necromancer],
