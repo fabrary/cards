@@ -119,7 +119,13 @@ const SPECIAL_IMAGE_PRINTING_OVERRIDES: {
   },
 };
 
-const printingsToIgnore: string[] = ["JDG044-Full Art-Back"];
+const PRINTINGS_TO_IGNORE: string[] = [
+  "FAB024-Rainbow-Alternate Art",
+  "FAB331-Rainbow-Alternate Art-Extended Art",
+  "FAB443-Rainbow-Alternate Art-Extended Art",
+  "HER161-Rainbow-Alternate Art-Full Art",
+  "JDG044-Full Art-Back",
+];
 
 export const getSpecialPrinting = (
   card: { cardIdentifier: string; name?: string },
@@ -182,7 +188,7 @@ export const getSpecialPrinting = (
       const hasImage = !!upperCaseImage;
       const isGoldFoil = foiling === Foiling.Gold;
       const isWhiteBorder = upperCaseImage.includes("HP");
-      const shouldIgnore = printingsToIgnore.includes(print);
+      const shouldIgnore = PRINTINGS_TO_IGNORE.includes(print);
       const shouldConsiderPrinting =
         hasImage &&
         !isMissingFunctionalText &&
@@ -499,7 +505,7 @@ export const getMaxRarityPrinting = (
       const isMissingFunctionalText = identifier.toLowerCase().includes("win");
       const hasImage = !!upperCaseImage;
       const isWhiteBorder = upperCaseImage.includes("HP");
-      const shouldIgnore = printingsToIgnore.includes(print);
+      const shouldIgnore = PRINTINGS_TO_IGNORE.includes(print);
       const shouldConsiderPrinting =
         hasImage && !isMissingFunctionalText && !isWhiteBorder && !shouldIgnore;
 

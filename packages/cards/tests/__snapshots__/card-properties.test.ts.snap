@@ -207728,13 +207728,17 @@ exports[`Check for unintentional updates Fate Foreseen (fate-foreseen-red) vs sn
       "foiling": "Rainbow",
       "identifier": "FAB024",
       "image": "ZH_FAB024-RF",
-      "print": "FAB024-Rainbow",
+      "print": "FAB024-Rainbow-Alternate Art",
       "rarity": "Promo",
       "set": "Promos",
       "tcgplayer": {
         "productId": "278915",
         "url": "https://www.tcgplayer.com/product/278915?Language=English&Printing=Rainbow+Foil",
       },
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+      ],
     },
   ],
   "rarities": [
@@ -207755,7 +207759,7 @@ exports[`Check for unintentional updates Fate Foreseen (fate-foreseen-red) vs sn
     "History Pack 1",
     "Promos",
   ],
-  "specialImage": "ZH_FAB024-RF",
+  "specialImage": "FAB487-RF",
   "subtypes": [],
   "typeText": "Generic Defense Reaction",
   "types": [
@@ -254905,6 +254909,7 @@ exports[`Check for unintentional updates Gravy Bones, Shipwrecked Looter (gravy-
 {
   "artists": [
     "Nathaniel Himawan",
+    "寿多浩 (Hiro Suda)",
   ],
   "cardIdentifier": "gravy-bones-shipwrecked-looter",
   "classes": [
@@ -255026,6 +255031,22 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
         "url": "https://www.tcgplayer.com/product/637479?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "寿多浩 (Hiro Suda)",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "HER161",
+      "image": "JA_HER161-RF",
+      "print": "HER161-Rainbow-Alternate Art-Full Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+        "Full Art",
+      ],
+    },
   ],
   "rarities": [
     "Basic",
@@ -255040,6 +255061,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
   "setIdentifiers": [
     "AGB001",
     "HER138",
+    "HER161",
     "SEA043",
     "WIN048",
   ],
@@ -483178,6 +483200,7 @@ exports[`Check for unintentional updates Scar for a Scar (scar-for-a-scar-red) v
   "artists": [
     "Agri Karuniawan",
     "Arif Wijaya",
+    "Kanadekana",
   ],
   "cardIdentifier": "scar-for-a-scar-red",
   "classes": [
@@ -483552,6 +483575,22 @@ exports[`Check for unintentional updates Scar for a Scar (scar-for-a-scar-red) v
         "Extended Art",
       ],
     },
+    {
+      "artists": [
+        "Kanadekana",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "FAB443",
+      "image": "JA_FAB443-RF",
+      "print": "FAB443-Rainbow-Alternate Art-Extended Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
     "Common",
@@ -483564,6 +483603,7 @@ exports[`Check for unintentional updates Scar for a Scar (scar-for-a-scar-red) v
     "ANQ030",
     "ASR011",
     "FAB015",
+    "FAB443",
     "IRA009",
     "KAT015",
     "KSU017",
@@ -531897,7 +531937,7 @@ exports[`Check for unintentional updates Snatch (snatch-red) vs snapshot 1`] = `
     "Promos",
     "Welcome to Rathe",
   ],
-  "specialImage": "ZH_FAB331-RF",
+  "specialImage": "ANQ031",
   "subtypes": [
     "Attack",
   ],

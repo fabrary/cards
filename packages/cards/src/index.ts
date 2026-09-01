@@ -160220,20 +160220,20 @@ Target attack gets +3{p}.`,
       image: "ZH_FAB024-RF",
       
       
-      print: "FAB024-Rainbow",
+      print: "FAB024-Rainbow-Alternate Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
       tcgplayer: {
             productId: "278915",
             url: "https://www.tcgplayer.com/product/278915?Language=English&Printing=Rainbow+Foil"
           },
-      
+      treatment: Treatment.AA,treatments: [Treatment.AA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP405","ANQ033","ARC200","FAB024","FAB487","JDG016"],
     sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
-    specialImage: "ZH_FAB024-RF",
+    specialImage: "FAB487-RF",
     subtypes: [],
     types: [Type.DefenseReaction],
     typeText: "Generic Defense Reaction",
@@ -195527,7 +195527,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
   
   young: true
   },{
-    artists: ["Nathaniel Himawan"],
+    artists: ["Nathaniel Himawan","寿多浩 (Hiro Suda)"],
     cardIdentifier: "gravy-bones-shipwrecked-looter",
     classes: [Class.Necromancer,Class.Pirate],
     defaultImage: "SEA043",
@@ -195622,10 +195622,22 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
             url: "https://www.tcgplayer.com/product/637479?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["寿多浩 (Hiro Suda)"],
+      foiling: Foiling.Rainbow,
+      identifier: "HER161",
+      image: "JA_HER161-RF",
+      
+      
+      print: "HER161-Rainbow-Alternate Art-Full Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["AGB001","HER138","SEA043","WIN048"],
+    setIdentifiers: ["AGB001","HER138","HER161","SEA043","WIN048"],
     sets: [Release.ArmoryDeckGravyBones,Release.HighSeas,Release.Promos],
     specialImage: "SEA043-MV",
     subtypes: [],
@@ -369845,7 +369857,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
   
   
   },{
-    artists: ["Agri Karuniawan","Arif Wijaya"],
+    artists: ["Agri Karuniawan","Arif Wijaya","Kanadekana"],
     cardIdentifier: "scar-for-a-scar-red",
     classes: [Class.Generic],
     defaultImage: "SBA019",
@@ -370108,10 +370120,22 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
             url: "https://www.tcgplayer.com/product/225514?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Kanadekana"],
+      foiling: Foiling.Rainbow,
+      identifier: "FAB443",
+      image: "JA_FAB443-RF",
+      
+      
+      print: "FAB443-Rainbow-Alternate Art-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["1HP396","AGB012","ANQ030","ASR011","FAB015","IRA009","KAT015","KSU017","SBA019","SDO011","SEA218","SFA024","UPR209","WTR191"],
+    setIdentifiers: ["1HP396","AGB012","ANQ030","ASR011","FAB015","FAB443","IRA009","KAT015","KSU017","SBA019","SDO011","SEA218","SFA024","UPR209","WTR191"],
     sets: [Release.ArmoryDeckGravyBones,Release.ArmoryDeckIra,Release.BriarSilverAgeDeck,Release.DorintheaSilverAgeDeck,Release.FaiSilverAgeDeck,Release.HighSeas,Release.HistoryPack1,Release.IraWelcomeDeck,Release.KatsuBlitzDeck,Release.KatsuHeroDeck,Release.Promos,Release.Uprising,Release.WelcomeToRathe],
     specialImage: "FAB015-RF",
     subtypes: [Subtype.Attack],
@@ -407276,7 +407300,7 @@ If you've played another Wizard non-attack action card this turn, you may play t
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP371","ANQ031","ASB012","ASR013","AST014","FAB331","SBA021","SBL017","SFA025","WTR167"],
     sets: [Release.ArmoryDeckAurora,Release.ArmoryDeckBoltyn,Release.ArmoryDeckIra,Release.BoltynSilverAgeDeck,Release.BriarSilverAgeDeck,Release.FaiSilverAgeDeck,Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
-    specialImage: "ZH_FAB331-RF",
+    specialImage: "ANQ031",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Generic Action - Attack",
