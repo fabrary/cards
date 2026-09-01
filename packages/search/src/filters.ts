@@ -480,6 +480,40 @@ const punctuationOverrides = [
     ),
   },
 ];
+const setIdentifiersBySetName = new Map(
+  Object.entries(setToSetIdentifierMappings).map(([set, setIdentifiers]) => [
+    set.toLowerCase(),
+    setIdentifiers,
+  ]),
+);
+
+const SET_FILTER_KEYS = ["set", "s", "print"];
+
+const getEscapedForRegExp = (text: string): string =>
+  text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+// Longest first, so a set name carrying a shorter set's name inside it keeps
+// its own identifier.
+const setNamesLongestFirst = [...setIdentifiersBySetName.keys()]
+  .sort((first, second) => second.length - first.length)
+  .map(getEscapedForRegExp)
+  .join("|");
+
+/**
+ * A set name where a set filter is expecting a value: opening one, or following
+ * a separator within one. Expanding the name to its identifier is what lets an
+ * unquoted multi-word name survive the split on spaces, so it is worth doing
+ * only where a set is being asked for. Matched anywhere else it rewrites a
+ * search for a card into a search for a set identifier, which the fuzzy search
+ * then matches against every card name carrying those letters.
+ */
+const setNameInSetFilterPattern = new RegExp(
+  `(?<=^|\\s)([${availableExclusions.join("")}]?(?:${SET_FILTER_KEYS.join(
+    "|",
+  )}):(?:[^\\s]*[,+])?"?)(${setNamesLongestFirst})(?="?(?:[,+]|\\s|$))`,
+  "g",
+);
+
 const getSearchCriteria = (text: string): string[] => {
   const searchCriteria: string[] = [];
   let rawSearchCriteria = text.replaceAll("”", '"');
@@ -555,12 +589,22 @@ export const getKeywordsAndAppliedFiltersFromText = (
     }
   }
 
-  for (const [set, setIdentifiers] of Object.entries(
-    setToSetIdentifierMappings,
-  )) {
-    if (expandedText.includes(set.toLowerCase())) {
-      expandedText = expandedText.replace(set.toLowerCase(), setIdentifiers[0]);
-    }
+  expandedText = expandedText.replace(
+    setNameInSetFilterPattern,
+    (setNameInSetFilter, filterPrefix, setName) => {
+      const setIdentifiers = setIdentifiersBySetName.get(setName);
+      return setIdentifiers
+        ? `${filterPrefix}${setIdentifiers[0]}`
+        : setNameInSetFilter;
+    },
+  );
+
+  // A search for nothing but a set name browses the set, unless the corpus
+  // carries a card by that name: the card is what was asked for.
+  const wholeQuerySetIdentifiers = setIdentifiersBySetName.get(expandedText);
+  const namesACard = index.getCardsByExactName(expandedText).length > 0;
+  if (wholeQuerySetIdentifiers && !namesACard) {
+    expandedText = `set:${wholeQuerySetIdentifiers[0]}`;
   }
 
   const rawSearchCriteria = getSearchCriteria(expandedText);
