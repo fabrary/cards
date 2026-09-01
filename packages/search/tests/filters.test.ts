@@ -337,3 +337,75 @@ describe("Inherited object member names are not filters or filter values", () =>
     expect(() => cardSearch.search(name)).not.toThrow();
   });
 });
+
+describe("Set names expand only where a set filter expects one", () => {
+  const setFilterSearches = [
+    ["set:usurp the shadow throne", Release.UsurpTheShadowThrone],
+    ['set:"usurp the shadow throne"', Release.UsurpTheShadowThrone],
+    ["s:high seas", Release.HighSeas],
+    ["set:usurp the shadow throne pitch:blue", Release.UsurpTheShadowThrone],
+  ];
+  it.each(setFilterSearches)(
+    "%s reads an unquoted multi-word name as one set",
+    (search, release) => {
+      const {
+        attributes: { releases },
+      } = getKeywordsAndAppliedFiltersFromText(search as string, index);
+
+      expect(releases).toEqual([release]);
+    },
+  );
+
+  const separatedSetFilterSearches = [
+    "set:rosetta,part the mistveil",
+    "set:part the mistveil,rosetta",
+    "set:part the mistveil+rosetta",
+  ];
+  it.each(separatedSetFilterSearches)(
+    "%s reads a multi-word name alongside a separated one",
+    (search) => {
+      const {
+        attributes: { releases },
+      } = getKeywordsAndAppliedFiltersFromText(search, index);
+
+      expect([...releases].sort()).toEqual(
+        [Release.PartTheMistveil, Release.Rosetta].sort(),
+      );
+    },
+  );
+
+  // The expansion rewrites a name into a set identifier, which the fuzzy search
+  // would otherwise match against every card name carrying those letters.
+  const cardSearch = new Search(cards);
+  const cardNameSearches = [
+    ["rosetta thorn", "Rosetta Thorn"],
+    ["chart the high seas", "Chart the High Seas"],
+    ["fatal engagement", "Fatal Engagement"],
+    ["usurp the shadow throne", "Usurp the Shadow Throne"],
+    ["uprising", "Uprising"],
+  ];
+  it.each(cardNameSearches)("%s finds the card first", (search, cardName) => {
+    const { searchResults } = cardSearch.search(search);
+
+    expect(searchResults[0].name).toEqual(cardName);
+  });
+
+  it("browses the set when the name is nobody's card", () => {
+    const { attributes, keywords } = getKeywordsAndAppliedFiltersFromText(
+      "part the mistveil",
+      index,
+    );
+
+    expect(attributes.releases).toEqual([Release.PartTheMistveil]);
+    expect(keywords).toEqual([]);
+  });
+
+  it("leaves a set name alone outside a set filter", () => {
+    const { appliedFilters } = getKeywordsAndAppliedFiltersFromText(
+      "name:uprising",
+      index,
+    );
+
+    expect(appliedFilters[0].values).toEqual(["uprising"]);
+  });
+});

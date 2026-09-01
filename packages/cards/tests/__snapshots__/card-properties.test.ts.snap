@@ -181380,6 +181380,99 @@ You may play an aura with Runechant in its name from your banished zone this tur
 }
 `;
 
+exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alif Zahrah",
+  ],
+  "cardIdentifier": "embrace-ursur-blue",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 1,
+  "createdExtras": [
+    "runechant",
+  ],
+  "defaultImage": "IAR131",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may banish a card from your hand. If it's Runeblade, create a Runechant token. If it's Shadow, this gets **go again**.",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Chane",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Embrace Ursur",
+  "pitch": 3,
+  "power": 1,
+  "printings": [
+    {
+      "artists": [
+        "Alif Zahrah",
+      ],
+      "identifier": "IAR131",
+      "image": "IAR131",
+      "print": "IAR131",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Alif Zahrah",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR131",
+      "image": "IAR131-RF",
+      "print": "IAR131-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "runechant",
+  ],
+  "setIdentifiers": [
+    "IAR131",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR131",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -181492,6 +181585,99 @@ exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-red) vs sn
     "Usurp the Shadow Throne",
   ],
   "specialImage": "GEM203",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alif Zahrah",
+  ],
+  "cardIdentifier": "embrace-ursur-yellow",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 1,
+  "createdExtras": [
+    "runechant",
+  ],
+  "defaultImage": "IAR130",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may banish a card from your hand. If it's Runeblade, create a Runechant token. If it's Shadow, this gets **go again**.",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Chane",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Embrace Ursur",
+  "pitch": 2,
+  "power": 2,
+  "printings": [
+    {
+      "artists": [
+        "Alif Zahrah",
+      ],
+      "identifier": "IAR130",
+      "image": "IAR130",
+      "print": "IAR130",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Alif Zahrah",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR130",
+      "image": "IAR130-RF",
+      "print": "IAR130-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "runechant",
+  ],
+  "setIdentifiers": [
+    "IAR130",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR130",
   "subtypes": [
     "Attack",
   ],
@@ -373672,6 +373858,99 @@ exports[`Check for unintentional updates Ominous Respite (ominous-respite-yellow
 }
 `;
 
+exports[`Check for unintentional updates Ominous Toll (ominous-toll-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Jefrey Yonathan",
+  ],
+  "cardIdentifier": "ominous-toll-blue",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "IAR080",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may discard a zombie. If you do, create a Gate to i'Arathael token.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Ominous Toll",
+  "pitch": 3,
+  "power": 1,
+  "printings": [
+    {
+      "artists": [
+        "Jefrey Yonathan",
+      ],
+      "identifier": "IAR080",
+      "image": "IAR080",
+      "print": "IAR080",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Jefrey Yonathan",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR080",
+      "image": "IAR080-RF",
+      "print": "IAR080-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "IAR080",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR080",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Ominous Toll (ominous-toll-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -373784,6 +374063,99 @@ exports[`Check for unintentional updates Ominous Toll (ominous-toll-red) vs snap
     "Usurp the Shadow Throne",
   ],
   "specialImage": "GEM198",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Ominous Toll (ominous-toll-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Jefrey Yonathan",
+  ],
+  "cardIdentifier": "ominous-toll-yellow",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "IAR079",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may discard a zombie. If you do, create a Gate to i'Arathael token.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Ominous Toll",
+  "pitch": 2,
+  "power": 2,
+  "printings": [
+    {
+      "artists": [
+        "Jefrey Yonathan",
+      ],
+      "identifier": "IAR079",
+      "image": "IAR079",
+      "print": "IAR079",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Jefrey Yonathan",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR079",
+      "image": "IAR079-RF",
+      "print": "IAR079-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "IAR079",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR079",
   "subtypes": [
     "Attack",
   ],
