@@ -195632,7 +195632,10 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       print: "HER161-Rainbow-Alternate Art-Full Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "690694",
+            url: "https://www.tcgplayer.com/product/690694?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
@@ -370130,7 +370133,10 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
       print: "FAB443-Rainbow-Alternate Art-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "690685",
+            url: "https://www.tcgplayer.com/product/690685?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],

@@ -255041,6 +255041,10 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       "print": "HER161-Rainbow-Alternate Art-Full Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "690694",
+        "url": "https://www.tcgplayer.com/product/690694?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -483585,6 +483589,10 @@ exports[`Check for unintentional updates Scar for a Scar (scar-for-a-scar-red) v
       "print": "FAB443-Rainbow-Alternate Art-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "690685",
+        "url": "https://www.tcgplayer.com/product/690685?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
