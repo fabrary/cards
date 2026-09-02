@@ -1,5 +1,5 @@
 import { describe, expect, it } from "@jest/globals";
-import { Card, getCanBeCreated, Hero } from "@flesh-and-blood/types";
+import { Card, Format, getCanBeCreated, Hero } from "@flesh-and-blood/types";
 import { cards } from "../dist/index";
 import {
   getLegalHeroesByCard,
@@ -210,5 +210,27 @@ describe("Macros follow class and talent", () => {
     ],
   ])("%s is legal for its draft heroes", (macroCardIdentifier, heroes) => {
     expect(getLegalHeroes(macroCardIdentifier)).toEqual(heroes);
+  });
+});
+
+describe("Format legality", () => {
+  it.each(["corrupt-and-conquer-red", "open-the-gate-to-iarathael-red"])(
+    "%s honors its Classic Constructed spoiler ban",
+    (cardIdentifier) => {
+      const card = getCard(cardIdentifier);
+
+      expect(card.bannedFormats).toContain(Format.ClassicConstructed);
+      expect(card.legalFormats).not.toContain(Format.ClassicConstructed);
+    },
+  );
+
+  it("Never marks a card as both banned and legal in the same format", () => {
+    const overlappingFormats = cards.flatMap((card) =>
+      (card.bannedFormats ?? [])
+        .filter((format) => card.legalFormats.includes(format))
+        .map((format) => `${card.cardIdentifier}: ${format}`),
+    );
+
+    expect(overlappingFormats).toEqual([]);
   });
 });

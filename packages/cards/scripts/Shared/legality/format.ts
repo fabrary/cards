@@ -230,7 +230,7 @@ export const getBannedAndLegalFormats = (
       : ADULT_HERO_FORMATS.includes(format);
     const isLegalPerHeroAge = !isHero || heroMatchesFormat;
 
-    const isNotBanned = !bannedFormats || !bannedFormats.includes(format);
+    const isNotBanned = !isBannedInFormat && !bannedFormats.includes(format);
     const isAnException =
       format === Format.SilverAge &&
       SILVER_AGE_LEGAL_CARD_EXCEPTIONS.includes(card.name);
@@ -311,6 +311,10 @@ export const getConfirmedBannedAndLegalFormats = ({
   const confirmedBannedFormats = bannedFormats;
 
   const confirmedLegalFormats = legalFormats.filter((format) => {
+    if (bannedFormats?.includes(format)) {
+      return false;
+    }
+
     let isConfirmedLegal = true;
 
     const isLimited = [Format.Draft, Format.Sealed].includes(format);

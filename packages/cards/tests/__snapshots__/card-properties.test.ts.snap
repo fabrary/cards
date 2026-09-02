@@ -3654,7 +3654,6 @@ The next card you play this turn with an arcane damage effect, instead deals tha
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -3801,7 +3800,6 @@ The next card you play this turn with an arcane damage effect, instead deals tha
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -3949,7 +3947,6 @@ The next card you play this turn with an arcane damage effect, instead deals tha
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -4736,7 +4733,6 @@ exports[`Check for unintentional updates Aether Ironweave (aether-ironweave) vs 
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -12496,6 +12492,9 @@ exports[`Check for unintentional updates Ancient Earth Oak (ancient-earth-oak-re
   "artists": [
     "Rio Sabda",
   ],
+  "bannedFormats": [
+    "Silver Age",
+  ],
   "bonds": [
     "Earth",
   ],
@@ -15193,6 +15192,9 @@ exports[`Check for unintentional updates Apex Buster (apex-buster-yellow) vs sna
 {
   "artists": [
     "Surya Feby",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "apex-buster-yellow",
   "classes": [
@@ -23771,9 +23773,7 @@ exports[`Check for unintentional updates Art of War (art-of-war-yellow) vs snaps
 - You may banish an attack action card from your hand. If you do, draw 2 cards.",
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
@@ -25614,6 +25614,9 @@ exports[`Check for unintentional updates Astral Ambience (astral-ambience-yellow
 {
   "artists": [
     "Reinaldo Indrajaya",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "astral-ambience-yellow",
   "classes": [
@@ -28983,9 +28986,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
@@ -30102,7 +30103,6 @@ Attack action cards played from your banished zone get +3{p}.",
   "legalFormats": [
     "Blitz",
     "Open",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -33196,13 +33196,11 @@ exports[`Check for unintentional updates Ball Lightning (ball-lightning-blue) vs
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -33335,13 +33333,11 @@ exports[`Check for unintentional updates Ball Lightning (ball-lightning-red) vs 
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -33474,13 +33470,11 @@ exports[`Check for unintentional updates Ball Lightning (ball-lightning-yellow) 
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -39865,6 +39859,9 @@ exports[`Check for unintentional updates Battle Clearing Bellow (battle-clearing
   "artists": [
     "Dzulfikar Aliy",
   ],
+  "bannedFormats": [
+    "Silver Age",
+  ],
   "cardIdentifier": "battle-clearing-bellow-blue",
   "classes": [
     "Brute",
@@ -44483,7 +44480,6 @@ exports[`Check for unintentional updates Beckoning Haunt (beckoning-haunt) vs sn
     "Golden Age",
     "Living Legend",
     "Open",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -44988,7 +44984,6 @@ When this hits, your next blue attack this turn gets +1{p} and **go again**.",
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -45858,6 +45853,9 @@ exports[`Check for unintentional updates Become the Shadow Lord (become-the-shad
   "artists": [
     "Athiwut B.",
   ],
+  "bannedFormats": [
+    "Silver Age",
+  ],
   "cardIdentifier": "become-the-shadow-lord-blue",
   "classes": [
     "Runeblade",
@@ -45979,13 +45977,11 @@ When the additional cost is paid, search your deck for a Minnowism, reveal it, p
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -46199,13 +46195,11 @@ When the additional cost is paid, search your deck for a Minnowism, reveal it, p
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -46420,13 +46414,11 @@ When the additional cost is paid, search your deck for a Minnowism, reveal it, p
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -47479,8 +47471,6 @@ exports[`Check for unintentional updates Berserk (berserk-yellow) vs snapshot 1`
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Ultimate Pit Fight",
@@ -64660,6 +64650,9 @@ exports[`Check for unintentional updates Blood Harvest (blood-harvest) vs snapsh
   "artists": [
     "Khairul Sukmanudin",
   ],
+  "bannedFormats": [
+    "Silver Age",
+  ],
   "cardIdentifier": "blood-harvest",
   "classes": [
     "Brute",
@@ -66673,8 +66666,6 @@ exports[`Check for unintentional updates Bloodsheath Skeleta (bloodsheath-skelet
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Ultimate Pit Fight",
@@ -71158,7 +71149,6 @@ If you've played or activated 3 or more attack reactions this chain link, this g
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -71256,13 +71246,11 @@ exports[`Check for unintentional updates Bonds of Ancestry (bonds-of-ancestry-bl
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -71364,7 +71352,6 @@ exports[`Check for unintentional updates Bonds of Ancestry (bonds-of-ancestry-re
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -71478,13 +71465,11 @@ exports[`Check for unintentional updates Bonds of Ancestry (bonds-of-ancestry-ye
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -72206,6 +72191,9 @@ exports[`Check for unintentional updates Bone Barrier (bone-barrier-blue) vs sna
 {
   "artists": [
     "Khairul Sukmanudin",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "bone-barrier-blue",
   "classes": [
@@ -75518,7 +75506,6 @@ exports[`Check for unintentional updates Bracers of Belief (bracers-of-belief) v
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -76877,7 +76864,6 @@ exports[`Check for unintentional updates Brand with Cinderclaw (brand-with-cinde
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -76993,7 +76979,6 @@ exports[`Check for unintentional updates Brand with Cinderclaw (brand-with-cinde
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -77125,7 +77110,6 @@ exports[`Check for unintentional updates Brand with Cinderclaw (brand-with-cinde
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -81674,6 +81658,9 @@ exports[`Check for unintentional updates Bridge of Damnation (bridge-of-damnatio
 {
   "artists": [
     "Arkoii",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "bridge-of-damnation-blue",
   "classes": [
@@ -92892,7 +92879,6 @@ At the start of your turn, if you have 13 or less {h}, banish this.
     "Classic Constructed",
     "Draft",
     "Golden Age",
-    "Living Legend",
     "Open",
     "Sealed",
     "Ultimate Pit Fight",
@@ -93668,8 +93654,6 @@ Draw 2 cards.
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Silver Age",
@@ -95724,6 +95708,9 @@ exports[`Check for unintentional updates Chains of Consecration (chains-of-conse
   "artists": [
     "Vincent Taslim",
   ],
+  "bannedFormats": [
+    "Silver Age",
+  ],
   "cardIdentifier": "chains-of-consecration-yellow",
   "classes": [
     "NotClassed",
@@ -96924,9 +96911,7 @@ exports[`Check for unintentional updates Channel Lightning Valley (channel-light
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
@@ -98559,7 +98544,6 @@ Create a Gold token for each yellow card put into your graveyard this way.
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -104009,6 +103993,9 @@ exports[`Check for unintentional updates Circlet of Eternal End (circlet-of-eter
 {
   "artists": [
     "Carlos Cruchaga",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "circlet-of-eternal-end",
   "classes": [
@@ -124641,6 +124628,9 @@ exports[`Check for unintentional updates Corrupt and Conquer (corrupt-and-conque
   "artists": [
     "Jessada Sutthi",
   ],
+  "bannedFormats": [
+    "Classic Constructed",
+  ],
   "cardIdentifier": "corrupt-and-conquer-red",
   "classes": [
     "NotClassed",
@@ -124659,7 +124649,6 @@ When this hits a hero, banish all cards in their arsenal.
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -125771,7 +125760,6 @@ Your aura attacks with one or more +1{p} counters get **go again**.",
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -125916,13 +125904,10 @@ exports[`Check for unintentional updates Count Your Blessings (count-your-blessi
   "functionalText": "Gain X{h}, where X is 1 plus the number of Count Your Blessings in your graveyard.",
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -126113,13 +126098,10 @@ exports[`Check for unintentional updates Count Your Blessings (count-your-blessi
   "functionalText": "Gain X{h}, where X is 3 plus the number of Count Your Blessings in your graveyard.",
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -126311,13 +126293,10 @@ exports[`Check for unintentional updates Count Your Blessings (count-your-blessi
   "functionalText": "Gain X{h}, where X is 2 plus the number of Count Your Blessings in your graveyard.",
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -134613,10 +134592,8 @@ exports[`Check for unintentional updates Crown of Seeds (crown-of-seeds) vs snap
   "functionalText": "**Once per Turn Instant** - {r}, put a face-down card from your arsenal on the bottom of your deck: Draw a card and prevent the next 1 damage that would be dealt to you this turn.",
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
-    "Living Legend",
     "Open",
     "Sealed",
     "Ultimate Pit Fight",
@@ -134728,7 +134705,6 @@ exports[`Check for unintentional updates Crucible of Aetherweave (crucible-of-ae
   "functionalText": "**Once per Turn Instant** - {r}: The next card you play this turn with an arcane damage effect, instead deals that much arcane damage plus 1.",
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -136181,6 +136157,9 @@ exports[`Check for unintentional updates Crushing Headache (crushing-headache-re
 {
   "artists": [
     "Yunior Susanto",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "crushing-headache-red",
   "classes": [
@@ -141174,6 +141153,9 @@ exports[`Check for unintentional updates Danse Macabre (danse-macabre) vs snapsh
   "artists": [
     "Amtepra",
   ],
+  "bannedFormats": [
+    "Silver Age",
+  ],
   "cardIdentifier": "danse-macabre",
   "classes": [
     "Necromancer",
@@ -144974,6 +144956,9 @@ exports[`Check for unintentional updates Deadly Spinneret (deadly-spinneret-red)
   "artists": [
     "Faizal Fikri",
   ],
+  "bannedFormats": [
+    "Silver Age",
+  ],
   "cardIdentifier": "deadly-spinneret-red",
   "classes": [
     "Assassin",
@@ -145100,7 +145085,6 @@ exports[`Check for unintentional updates Deadwood Dirge (deadwood-dirge-blue) vs
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -145210,7 +145194,6 @@ exports[`Check for unintentional updates Deadwood Dirge (deadwood-dirge-red) vs 
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -145375,7 +145358,6 @@ exports[`Check for unintentional updates Deadwood Dirge (deadwood-dirge-yellow) 
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -145985,7 +145967,6 @@ exports[`Check for unintentional updates Death Dealer (death-dealer) vs snapshot
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -146578,7 +146559,6 @@ When the combat chain closes, gain {h} equal to the number of heroes who have lo
     "Golden Age",
     "Living Legend",
     "Open",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -146679,7 +146659,6 @@ When the combat chain closes, gain {h} equal to the number of heroes who have lo
     "Golden Age",
     "Living Legend",
     "Open",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -146780,7 +146759,6 @@ When the combat chain closes, gain {h} equal to the number of heroes who have lo
     "Golden Age",
     "Living Legend",
     "Open",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -154583,6 +154561,9 @@ exports[`Check for unintentional updates Dig for Souls (dig-for-souls-red) vs sn
 {
   "artists": [
     "Diana Tanamas",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "dig-for-souls-red",
   "classes": [
@@ -167282,13 +167263,10 @@ exports[`Check for unintentional updates Drone of Brutality (drone-of-brutality-
   "functionalText": "If this would be put into your graveyard from anywhere, instead put it on the bottom of your deck.",
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -167508,13 +167486,10 @@ exports[`Check for unintentional updates Drone of Brutality (drone-of-brutality-
   "functionalText": "If this would be put into your graveyard from anywhere, instead put it on the bottom of your deck.",
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -167756,13 +167731,10 @@ exports[`Check for unintentional updates Drone of Brutality (drone-of-brutality-
   "functionalText": "If this would be put into your graveyard from anywhere, instead put it on the bottom of your deck.",
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -170237,7 +170209,6 @@ When this attacks, if you've played an attack action card and a non-attack actio
 At the beginning of your end phase, if you haven't played an attack action card and a non-attack action card this turn, remove all +1{p} counters from this.",
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -174032,7 +174003,6 @@ exports[`Check for unintentional updates Ebon Fold (ebon-fold) vs snapshot 1`] =
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -174356,6 +174326,9 @@ exports[`Check for unintentional updates Echoing Trap (echoing-trap-blue) vs sna
 {
   "artists": [
     "Aluísio Cervelle",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "echoing-trap-blue",
   "classes": [
@@ -177790,11 +177763,9 @@ exports[`Check for unintentional updates Electromagnetic Somersault (electromagn
     "Blitz",
     "Classic Constructed",
     "Draft",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -177889,13 +177860,10 @@ exports[`Check for unintentional updates Electromagnetic Somersault (electromagn
   "functionalText": "Choose up to 2 attack action cards with cost 0 or more on the active chain link. Return them to their owner's hand when the chain link resolves.",
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -178007,13 +177975,10 @@ exports[`Check for unintentional updates Electromagnetic Somersault (electromagn
   "functionalText": "Choose up to 2 attack action cards with cost 1 or more on the active chain link. Return them to their owner's hand when the chain link resolves.",
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -207267,7 +207232,6 @@ exports[`Check for unintentional updates Fate Foreseen (fate-foreseen-blue) vs s
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -207493,7 +207457,6 @@ exports[`Check for unintentional updates Fate Foreseen (fate-foreseen-red) vs sn
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -207796,7 +207759,6 @@ exports[`Check for unintentional updates Fate Foreseen (fate-foreseen-yellow) vs
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -211497,7 +211459,6 @@ exports[`Check for unintentional updates Fiddler's Green (fiddlers-green-blue) v
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -211667,7 +211628,6 @@ exports[`Check for unintentional updates Fiddler's Green (fiddlers-green-red) vs
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -211915,7 +211875,6 @@ exports[`Check for unintentional updates Fiddler's Green (fiddlers-green-yellow)
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -220954,7 +220913,6 @@ exports[`Check for unintentional updates Flic Flak (flic-flak-blue) vs snapshot 
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -221135,7 +221093,6 @@ exports[`Check for unintentional updates Flic Flak (flic-flak-red) vs snapshot 1
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -221336,7 +221293,6 @@ exports[`Check for unintentional updates Flic Flak (flic-flak-yellow) vs snapsho
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -224280,7 +224236,6 @@ exports[`Check for unintentional updates Flourish (flourish-blue) vs snapshot 1`
     "Golden Age",
     "Living Legend",
     "Open",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -224365,7 +224320,6 @@ exports[`Check for unintentional updates Flourish (flourish-yellow) vs snapshot 
     "Golden Age",
     "Living Legend",
     "Open",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -229255,6 +229209,9 @@ exports[`Check for unintentional updates Forsaken Strike (forsaken-strike-yellow
 {
   "artists": [
     "Tanapon Wachirakul",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "forsaken-strike-yellow",
   "classes": [
@@ -237769,7 +237726,6 @@ If you've played a card from your banished zone this turn, this gets +2{p}.
 When this hits a hero, deal 1 arcane damage to them.",
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -249653,7 +249609,6 @@ exports[`Check for unintentional updates Golden Tipple (golden-tipple-red) vs sn
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -249793,7 +249748,6 @@ exports[`Check for unintentional updates Golden Tipple (golden-tipple-yellow) vs
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -250580,7 +250534,6 @@ exports[`Check for unintentional updates Goliath Gauntlet (goliath-gauntlet) vs 
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -263176,6 +263129,9 @@ exports[`Check for unintentional updates Head Banging Chorus (head-banging-choru
   "artists": [
     "Bramasta Aji",
   ],
+  "bannedFormats": [
+    "Silver Age",
+  ],
   "cardIdentifier": "head-banging-chorus-yellow",
   "classes": [
     "Guardian",
@@ -266698,7 +266654,6 @@ exports[`Check for unintentional updates Heartened Cross Strap (heartened-cross-
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -268553,7 +268508,6 @@ exports[`Check for unintentional updates Heavy Industry Power Plant (heavy-indus
   "legalFormats": [
     "Blitz",
     "Classic Constructed",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Ultimate Pit Fight",
@@ -277121,7 +277075,6 @@ Draw a card.
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -282442,7 +282395,6 @@ exports[`Check for unintentional updates Honing Hood (honing-hood) vs snapshot 1
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -290273,6 +290225,9 @@ exports[`Check for unintentional updates Ice Aged Oak (ice-aged-oak-blue) vs sna
 {
   "artists": [
     "Kevin Sidharta",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "ice-aged-oak-blue",
   "classes": [
@@ -299074,6 +299029,9 @@ exports[`Check for unintentional updates Ingest the Unknown (ingest-the-unknown-
   "artists": [
     "Tomasz Jedruszek",
   ],
+  "bannedFormats": [
+    "Silver Age",
+  ],
   "cardIdentifier": "ingest-the-unknown-yellow",
   "classes": [
     "Brute",
@@ -304739,7 +304697,6 @@ exports[`Check for unintentional updates Ira, Crimson Haze (ira-crimson-haze) vs
   "legalFormats": [
     "Blitz",
     "Open",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -312531,7 +312488,6 @@ exports[`Check for unintentional updates Kano (kano) vs snapshot 1`] = `
     "Draft",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -313941,7 +313897,6 @@ The first time you discard a card with 6 or more {p} during each of your action 
     "Draft",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -317032,9 +316987,6 @@ exports[`Check for unintentional updates Kraken's Aethervein (krakens-aethervein
   "functionalText": "**Once per Turn Instant** - {r}{r}{r}: Deal 1 arcane damage to target opposing hero. Draw a card for each arcane damage dealt this way.",
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
-    "Golden Age",
-    "Living Legend",
     "Open",
     "Ultimate Pit Fight",
   ],
@@ -335274,7 +335226,6 @@ If there is a yellow card in your pitch zone, your Illusionist attacks get **go 
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -335455,7 +335406,6 @@ exports[`Check for unintentional updates Luminaris, Angel's Glow (luminaris-ange
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Golden Age",
     "Living Legend",
     "Open",
@@ -335547,7 +335497,6 @@ exports[`Check for unintentional updates Luminaris, Celestial Fury (luminaris-ce
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Golden Age",
     "Living Legend",
     "Open",
@@ -339082,6 +339031,9 @@ exports[`Check for unintentional updates Malice (malice) vs snapshot 1`] = `
   "artists": [
     "João G. Santos",
   ],
+  "bannedFormats": [
+    "Living Legend",
+  ],
   "cardIdentifier": "malice",
   "classes": [
     "Necromancer",
@@ -339190,6 +339142,9 @@ exports[`Check for unintentional updates Malice, Domina of the Dead (malice-domi
 {
   "artists": [
     "João G. Santos",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "malice-domina-of-the-dead",
   "classes": [
@@ -339949,7 +339904,6 @@ If you've discarded a card with 6 or more {p} this turn, this card's attacks get
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -344008,7 +343962,6 @@ exports[`Check for unintentional updates Mask of Three Tails (mask-of-three-tail
     "Golden Age",
     "Living Legend",
     "Open",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -351174,7 +351127,6 @@ When this hits a hero, **clash** with them. If you win, destroy the top card of 
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -357024,7 +356976,6 @@ exports[`Check for unintentional updates Mordred Tide (mordred-tide-red) vs snap
     "Blitz",
     "Classic Constructed",
     "Draft",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
@@ -360555,7 +360506,6 @@ When this hits, create a Runechant token.
 If you've played a non-attack action card this turn, this gets +3{p}.",
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -363619,7 +363569,6 @@ exports[`Check for unintentional updates Nimby (nimby-blue) vs snapshot 1`] = `
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -363798,7 +363747,6 @@ exports[`Check for unintentional updates Nimby (nimby-red) vs snapshot 1`] = `
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -364018,7 +363966,6 @@ exports[`Check for unintentional updates Nimby (nimby-yellow) vs snapshot 1`] = 
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -371493,7 +371440,6 @@ exports[`Check for unintentional updates Old Knocker (old-knocker) vs snapshot 1
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -376121,7 +376067,6 @@ exports[`Check for unintentional updates Open the Flood Gates (open-the-flood-ga
     "Blitz",
     "Classic Constructed",
     "Draft",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
@@ -376241,7 +376186,6 @@ exports[`Check for unintentional updates Open the Flood Gates (open-the-flood-ga
     "Blitz",
     "Classic Constructed",
     "Draft",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
@@ -376345,7 +376289,6 @@ exports[`Check for unintentional updates Open the Flood Gates (open-the-flood-ga
     "Blitz",
     "Classic Constructed",
     "Draft",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
@@ -376426,6 +376369,9 @@ exports[`Check for unintentional updates Open the Gate to i'Arathael (open-the-g
   "artists": [
     "Jessada Sutthi",
   ],
+  "bannedFormats": [
+    "Classic Constructed",
+  ],
   "cardIdentifier": "open-the-gate-to-iarathael-red",
   "classes": [
     "NotClassed",
@@ -376445,7 +376391,6 @@ exports[`Check for unintentional updates Open the Gate to i'Arathael (open-the-g
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -376713,7 +376658,6 @@ Your next attack with **stealth** this turn gets +1{p}.
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -376985,7 +376929,6 @@ Your next attack with **stealth** this turn gets +2{p}.
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -377246,9 +377189,7 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.",
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
@@ -394090,7 +394031,6 @@ exports[`Check for unintentional updates Phantom Tidemaw (phantom-tidemaw-blue) 
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Golden Age",
     "Living Legend",
     "Open",
@@ -400710,7 +400650,6 @@ exports[`Check for unintentional updates Plume of Evergrowth (plume-of-evergrowt
   "functionalText": "**Instant** - {r}{r}{r}, destroy this: Return target Earth action card or Earth instant card from your graveyard to your hand.",
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -400883,13 +400822,11 @@ If this was played from arsenal, the next attack action card you play this turn 
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -401117,13 +401054,11 @@ If this was played from arsenal, the next attack action card you play this turn 
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -401352,13 +401287,11 @@ If this was played from arsenal, the next attack action card you play this turn 
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -414006,7 +413939,6 @@ exports[`Check for unintentional updates Prism, Advent of Thrones (prism-advent-
   "legalFormats": [
     "Blitz",
     "Open",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -430082,7 +430014,6 @@ exports[`Check for unintentional updates Ragamuffin's Hat (ragamuffins-hat) vs s
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -439154,6 +439085,9 @@ exports[`Check for unintentional updates Reach of the Abyss (reach-of-the-abyss)
   "artists": [
     "Saad Irfan",
   ],
+  "bannedFormats": [
+    "Silver Age",
+  ],
   "cardIdentifier": "reach-of-the-abyss",
   "classes": [
     "NotClassed",
@@ -440552,7 +440486,6 @@ exports[`Check for unintentional updates Reality Refractor (reality-refractor) v
     "Golden Age",
     "Living Legend",
     "Open",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -441046,11 +440979,9 @@ exports[`Check for unintentional updates Reaping Blade (reaping-blade) vs snapsh
 If a hero has more {h} than each other hero, they can't gain {h}.",
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Golden Age",
     "Living Legend",
     "Open",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -448433,9 +448364,7 @@ exports[`Check for unintentional updates Remembrance (remembrance-yellow) vs sna
 Banish this.",
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
@@ -450161,6 +450090,9 @@ exports[`Check for unintentional updates Restless Commander (restless-commander-
 {
   "artists": [
     "Joseph Qiu",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "restless-commander-red",
   "classes": [
@@ -466360,13 +466292,10 @@ exports[`Check for unintentional updates Rosetta Thorn (rosetta-thorn) vs snapsh
 When this attacks, if you've played an attack action card and a non-attack action card this turn, deal 2 arcane damage to target hero.",
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
-    "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -467204,7 +467133,6 @@ exports[`Check for unintentional updates Rotwood Reaper (rotwood-reaper) vs snap
 If you've played or created an aura this turn, this gets +2{p}.",
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -474441,6 +474369,9 @@ exports[`Check for unintentional updates Runic Reaving (runic-reaving-red) vs sn
     "Nailsen Ivanderlie",
     "Nino Setiawan",
   ],
+  "bannedFormats": [
+    "Silver Age",
+  ],
   "cardIdentifier": "runic-reaving-red",
   "classes": [
     "Runeblade",
@@ -474466,7 +474397,6 @@ exports[`Check for unintentional updates Runic Reaving (runic-reaving-red) vs sn
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -474987,6 +474917,9 @@ exports[`Check for unintentional updates Rush of Knowledge (rush-of-knowledge-bl
 {
   "artists": [
     "Nailsen Ivanderlie",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "rush-of-knowledge-blue",
   "classes": [
@@ -512835,7 +512768,6 @@ exports[`Check for unintentional updates Sigil of Solace (sigil-of-solace-blue) 
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -513120,7 +513052,6 @@ exports[`Check for unintentional updates Sigil of Solace (sigil-of-solace-red) v
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -513452,7 +513383,6 @@ exports[`Check for unintentional updates Sigil of Solace (sigil-of-solace-yellow
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -514707,6 +514637,9 @@ exports[`Check for unintentional updates Sigil of the Muse (sigil-of-the-muse-re
 {
   "artists": [
     "Agatha Maura",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "sigil-of-the-muse-red",
   "classes": [
@@ -518992,7 +518925,6 @@ exports[`Check for unintentional updates Sink Below (sink-below-blue) vs snapsho
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -519216,7 +519148,6 @@ exports[`Check for unintentional updates Sink Below (sink-below-red) vs snapshot
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -519583,7 +519514,6 @@ exports[`Check for unintentional updates Sink Below (sink-below-yellow) vs snaps
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -519878,6 +519808,9 @@ exports[`Check for unintentional updates Sinspeaker Gloomblade (sinspeaker-gloom
   "artists": [
     "soyameii",
   ],
+  "bannedFormats": [
+    "Silver Age",
+  ],
   "cardIdentifier": "sinspeaker-gloomblade-red",
   "classes": [
     "Runeblade",
@@ -520078,7 +520011,6 @@ exports[`Check for unintentional updates Sirens of Safe Harbor (sirens-of-safe-h
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -520252,7 +520184,6 @@ exports[`Check for unintentional updates Sirens of Safe Harbor (sirens-of-safe-h
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -520470,7 +520401,6 @@ exports[`Check for unintentional updates Sirens of Safe Harbor (sirens-of-safe-h
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -523452,7 +523382,6 @@ exports[`Check for unintentional updates Skyward Serenade (skyward-serenade-yell
   "legalFormats": [
     "Blitz",
     "Classic Constructed",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Ultimate Pit Fight",
@@ -530934,7 +530863,6 @@ exports[`Check for unintentional updates Snapdragon Scalers (snapdragon-scalers)
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -534192,6 +534120,9 @@ exports[`Check for unintentional updates Sonata Dystopia (sonata-dystopia-blue) 
   "artists": [
     "Arkoii",
   ],
+  "bannedFormats": [
+    "Silver Age",
+  ],
   "cardIdentifier": "sonata-dystopia-blue",
   "classes": [
     "Runeblade",
@@ -536935,6 +536866,9 @@ exports[`Check for unintentional updates Soul of Existence (soul-of-existence-pu
 {
   "artists": [
     "Nathaniel Himawan",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "soul-of-existence-purple",
   "classes": [
@@ -550847,7 +550781,6 @@ When one or more Earth cards are pitched this way, the next time you deal arcane
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -552322,7 +552255,6 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -558683,6 +558615,9 @@ exports[`Check for unintentional updates Stoke Vengeance (stoke-vengeance-red) v
   "artists": [
     "YDZ",
   ],
+  "bannedFormats": [
+    "Silver Age",
+  ],
   "cardIdentifier": "stoke-vengeance-red",
   "classes": [
     "Ninja",
@@ -560678,7 +560613,6 @@ exports[`Check for unintentional updates Storm of Sandikai (storm-of-sandikai) v
   "functionalText": "Dragon allies you control get "**Once per Turn Action** - 0: **Attack**".",
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -565302,13 +565236,10 @@ exports[`Check for unintentional updates Stubby Hammerers (stubby-hammerers) vs 
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -584246,7 +584177,6 @@ exports[`Check for unintentional updates Teklo Plasma Pistol (teklo-plasma-pisto
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -596724,7 +596654,6 @@ When this attacks, the next Crouching Tiger you play this combat chain gets +1{p
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -600537,7 +600466,6 @@ exports[`Check for unintentional updates Tome of Aetherwind (tome-of-aetherwind-
 - Draw a card.",
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -600684,9 +600612,7 @@ exports[`Check for unintentional updates Tome of Divinity (tome-of-divinity-yell
 If a card has been put into your soul this turn, instead draw 3 cards.",
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
@@ -600918,9 +600844,7 @@ exports[`Check for unintentional updates Tome of Firebrand (tome-of-firebrand-re
 Draw 2 cards.",
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
@@ -601015,9 +600939,7 @@ exports[`Check for unintentional updates Tome of Fyendal (tome-of-fyendal-yellow
 If this was played from arsenal, gain 1{h} for each card in your hand.",
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
@@ -614603,6 +614525,9 @@ exports[`Check for unintentional updates Undead Grasp (undead-grasp) vs snapshot
   "artists": [
     "Brian Madya Narendra",
   ],
+  "bannedFormats": [
+    "Silver Age",
+  ],
   "cardIdentifier": "undead-grasp",
   "classes": [
     "Necromancer",
@@ -620332,6 +620257,9 @@ exports[`Check for unintentional updates Usurp the Shadow Throne (usurp-the-shad
   "artists": [
     "Esty Swandana",
   ],
+  "bannedFormats": [
+    "Silver Age",
+  ],
   "cardIdentifier": "usurp-the-shadow-throne-blue",
   "classes": [
     "Runeblade",
@@ -623076,7 +623004,6 @@ exports[`Check for unintentional updates Vantom Wraith (vantom-wraith-blue) vs s
     "Golden Age",
     "Living Legend",
     "Open",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -623175,7 +623102,6 @@ exports[`Check for unintentional updates Vantom Wraith (vantom-wraith-red) vs sn
     "Golden Age",
     "Living Legend",
     "Open",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -623277,7 +623203,6 @@ exports[`Check for unintentional updates Vantom Wraith (vantom-wraith-yellow) vs
     "Golden Age",
     "Living Legend",
     "Open",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -625405,7 +625330,6 @@ exports[`Check for unintentional updates Vest of the First Fist (vest-of-the-fir
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -631162,6 +631086,9 @@ exports[`Check for unintentional updates Viserai, Between Worlds (viserai-betwee
   "artists": [
     "Nathaniel Himawan",
   ],
+  "bannedFormats": [
+    "Living Legend",
+  ],
   "cardIdentifier": "viserai-between-worlds",
   "classes": [
     "Runeblade",
@@ -631629,6 +631556,9 @@ exports[`Check for unintentional updates Viserai, the Forsaken (viserai-the-fors
 {
   "artists": [
     "Nathaniel Himawan",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "viserai-the-forsaken",
   "classes": [
@@ -633954,7 +633884,6 @@ exports[`Check for unintentional updates Voltaire, Strike Twice (voltaire-strike
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -635488,13 +635417,10 @@ exports[`Check for unintentional updates Volzar, the Lightning Rod (volzar-the-l
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
-    "Golden Age",
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -639688,7 +639614,6 @@ exports[`Check for unintentional updates Waning Moon (waning-moon) vs snapshot 1
     "Living Legend",
     "Open",
     "Sealed",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -652958,7 +652883,6 @@ exports[`Check for unintentional updates Winter's Wail (winters-wail) vs snapsho
 If an Ice card is pitched this way, this gets "When this hits a hero, create a Frostbite token under their control."",
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -655533,7 +655457,6 @@ When this attacks, daggers you control get +1{p} and cost {r} less to activate t
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
     "Draft",
     "Golden Age",
     "Living Legend",
@@ -660488,11 +660411,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
   ],
   "legalFormats": [
     "Blitz",
-    "Classic Constructed",
-    "Golden Age",
-    "Living Legend",
     "Open",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [

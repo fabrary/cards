@@ -66,7 +66,7 @@
     typeText: "Ice Action - Attack",
 
     
-    bonds: [Bond.Earth],
+    bannedFormats: [Format.SilverAge],bonds: [Bond.Earth],
     cost: 3,createdExtras: ["frostbite"],
     defense: 3,
     
@@ -141,7 +141,7 @@
     typeText: "Brute Action - Attack",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 3,
     defense: 3,
     
@@ -350,7 +350,7 @@ When this is pitched, create a Runechant token.`,
     typeText: "Illusionist Action - Attack",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 2,createdExtras: ["spectral-shield"],
     defense: 3,
     
@@ -389,7 +389,7 @@ When this is pitched, create a Runechant token.`,
     classes: [Class.NotClassed],
     defaultImage: "IAR159-RF",
     firstReleaseDate: "2026-09-25",
-    legalFormats: [Format.Blitz,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Baalghor],
     name: "Baalghor, Omen of the End",
     printings: [{
@@ -520,7 +520,7 @@ Attack action cards played from your banished zone get +3{p}.`,
     typeText: "Brute Action",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 3,
     defense: 3,
     
@@ -1057,7 +1057,7 @@ When this hits, create a Blasmophet, the Insatiable Hunger token.
     typeText: "Shadow Runeblade Action",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 0,createdExtras: ["gate-to-iarathael","runechant"],
     defense: 3,
     
@@ -1221,7 +1221,7 @@ At the beginning of each end phase, you may banish a card from your hand. Then i
     typeText: "Shadow Brute Action - Attack",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 3,
     defense: 3,
     
@@ -1375,7 +1375,7 @@ When this hits a hero, you may banish target aura permanent they control.
     typeText: "Necromancer Defence Reaction",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 0,
     defense: 2,
     
@@ -1448,7 +1448,7 @@ When this hits a hero, you may banish target aura permanent they control.
     typeText: "Shadow Necromancer Action - Aura",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 0,
     defense: 3,
     
@@ -1523,7 +1523,7 @@ At the start of each turn, destroy this unless you put a zombie from your banish
     typeText: "Light Instant",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 0,
     
     
@@ -1596,7 +1596,7 @@ At the start of each turn, destroy this unless you put a zombie from your banish
     typeText: "Generic Equipment - Head",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     
     defense: 2,
     
@@ -1862,7 +1862,7 @@ At the start of each turn, destroy this unless you put a zombie from your banish
     classes: [Class.NotClassed],
     defaultImage: "IAR164",
     firstReleaseDate: "2026-09-25",
-    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
     name: "Corrupt and Conquer",
     printings: [{
@@ -1900,7 +1900,7 @@ At the start of each turn, destroy this unless you put a zombie from your banish
     typeText: "Shadow Action - Attack",
 
     
-    
+    bannedFormats: [Format.ClassicConstructed],
     cost: 2,
     defense: 3,
     
@@ -2285,7 +2285,7 @@ When this hits, you may search your deck for a Darkest Hour, banish it, then shu
     typeText: "Guardian Action - Attack",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 6,
     defense: 3,
     
@@ -2437,7 +2437,7 @@ When this hits a hero, they banish a card from their hand.
     typeText: "Necromancer Equipment - Legs",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     
     defense: 1,
     
@@ -2743,7 +2743,7 @@ Your next Shadow attack this turn gets +1{p}. **Go again**
     typeText: "Assassin Action - Attack",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 0,createdExtras: ["graphene-chelicera"],
     defense: 3,
     
@@ -3124,7 +3124,7 @@ Your next Shadow attack this turn gets +1{p}. **Go again**
     typeText: "Ranger Block - Trap",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     
     defense: 3,
     
@@ -3495,7 +3495,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
     typeText: "Shadow Necromancer Action - Attack",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 0,createdExtras: ["gate-to-iarathael"],
     defense: 3,
     
@@ -3871,7 +3871,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
     typeText: "Revered Guardian Instant - Aura",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 1,
     defense: 3,
     
@@ -4311,7 +4311,7 @@ When the combat chain closes, if you've attacked with this, banish it.
     typeText: "Earth Action - Attack",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 3,createdExtras: ["embodiment-of-earth","frostbite"],
     defense: 3,
     
@@ -4386,7 +4386,7 @@ When the combat chain closes, if you've attacked with this, banish it.
     typeText: "Shadow Brute Action - Attack",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 1,
     defense: 3,
     
@@ -4558,7 +4558,7 @@ When the combat chain closes, if you've attacked with this, banish it.
     typeText: "Shadow Necromancer Hero - Young",
 
     
-    
+    bannedFormats: [Format.LivingLegend],
     createdExtras: ["corrupted-corpse"],
     
     
@@ -4621,7 +4621,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
     typeText: "Shadow Necromancer Hero",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     createdExtras: ["corrupted-corpse"],
     
     
@@ -4883,7 +4883,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
     classes: [Class.NotClassed],
     defaultImage: "IAR166",
     firstReleaseDate: "2026-09-25",
-    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
     name: "Open the Gate to i'Arathael",
     printings: [{
@@ -4921,7 +4921,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
     typeText: "Shadow Action - Attack",
 
     
-    
+    bannedFormats: [Format.ClassicConstructed],
     cost: 0,createdExtras: ["gate-to-iarathael"],
     defense: 3,
     
@@ -5681,7 +5681,7 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
     typeText: "Shadow Equipment - Arms",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     
     defense: 2,
     
@@ -6949,7 +6949,7 @@ At the beginning of your action phase or when you play an attack action card, de
     classes: [Class.Runeblade],
     defaultImage: "IAR149",
     firstReleaseDate: "2026-07-06",
-    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Viserai2,Hero.Vynnset],
     name: "Runic Reaving",
     printings: [{
@@ -6987,7 +6987,7 @@ At the beginning of your action phase or when you play an attack action card, de
     typeText: "Runeblade Action - Attack",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 0,createdExtras: ["runechant"],
     defense: 2,
     
@@ -7212,7 +7212,7 @@ At the beginning of your action phase or when you play an attack action card, de
     typeText: "Illusionist / Wizard Action - Attack",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 0,
     defense: 2,
     
@@ -7650,7 +7650,7 @@ When this hits a hero, create a Runechant token.`,
     typeText: "Wizard Action - Aura",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 0,createdExtras: ["ponder"],
     defense: 3,
     
@@ -7725,7 +7725,7 @@ At the beginning of your action phase, destroy this and create a Ponder token.`,
     typeText: "Shadow Runeblade Action - Attack",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 0,
     defense: 3,
     
@@ -7804,7 +7804,7 @@ If this was played from your banished zone, it gets "When this attacks, you may 
     typeText: "Runeblade Action",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     createdExtras: ["runechant"],
     defense: 3,
     
@@ -7879,7 +7879,7 @@ The next attack action card you play this turn costs {x} less to play and gets +
     typeText: "Shadow Resource - Gem",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     
     
     
@@ -7954,7 +7954,7 @@ When this is pitched, lose 1{h}.`,
     typeText: "Ninja Action - Attack",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 1,
     defense: 3,
     
@@ -8177,7 +8177,7 @@ When this is pitched, lose 1{h}.`,
     typeText: "Shadow Runeblade Action - Attack",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 13,
     defense: 3,
     
@@ -8493,7 +8493,7 @@ When this hits a hero, deal 2 arcane damage to any target.
     typeText: "Shadow Runeblade Hero - Young",
 
     
-    
+    bannedFormats: [Format.LivingLegend],
     createdExtras: ["runechant"],
     
     
@@ -8566,7 +8566,7 @@ When this hits a hero, deal 2 arcane damage to any target.
     typeText: "Shadow Runeblade Hero",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     createdExtras: ["runechant"],
     
     

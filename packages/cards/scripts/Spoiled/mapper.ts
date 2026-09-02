@@ -851,10 +851,9 @@ const getCardData = (card: ParsedCard): PreliminaryCard => {
     ({ bannedFormats, legalFormats } = getBannedAndLegalFormats(
       {
         ...card,
-        // classicConstructedBanned:
-        //   card.classicConstructedLegal === false ? true : false,
-        // livingLegendBanned: card.livingLegendLegal === false ? true : false,
-        // silverAgeBanned: card.silverAgeLegal === false ? true : false,
+        classicConstructedBanned: card.classicConstructedLegal === false,
+        livingLegendBanned: card.livingLegendLegal === false,
+        silverAgeBanned: card.silverAgeLegal === false,
       },
       classes,
       keywords,
