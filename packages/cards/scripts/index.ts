@@ -21,7 +21,11 @@ import {
   getSpecialPrinting,
 } from "@flesh-and-blood/types";
 import { combineAndAddMissingFields } from "./Shared/combined-and-missing-fields";
-import { getMeta, sortPrintingsByReleaseOrder } from "./Shared";
+import {
+  assertPrintsAreUnique,
+  getMeta,
+  sortPrintingsByReleaseOrder,
+} from "./Shared";
 import {
   getConfirmedBannedAndLegalFormats,
   getLegalHeroesByCard,
@@ -34,6 +38,13 @@ import { getFirstReleaseDate } from "./Shared/get-first-release-date";
 import { getTCGplayerInfoForAddedPrinting } from "./Shared/tcgplayer";
 
 const outputDirectory = "src";
+
+// Both sources are checked before the merge, which matches printings on print and so
+// cannot tell a collision from the same print described twice.
+assertPrintsAreUnique({
+  "Spoiled cards": spoiledCards,
+  "Released cards": releasedCards,
+});
 
 const deduplicatedCards: PreliminaryCard[] = [...spoiledCards];
 
@@ -86,6 +97,8 @@ releasedCards.forEach((card) => {
       }
       return { ...printing };
     });
+    // The two sources describe the same physical print in different detail, so they
+    // are matched on print rather than on full printing identity.
     card.printings.forEach((printing) => {
       const duplicate = deduplicatedPrintings.find(
         (deduplicatedPrinting) =>

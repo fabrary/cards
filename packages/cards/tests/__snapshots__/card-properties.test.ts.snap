@@ -124753,6 +124753,8 @@ exports[`Check for unintentional updates Corrupted Corpse (corrupted-corpse) vs 
 {
   "artists": [
     "Carlos Cruchaga",
+    "Jefrey Yonathan",
+    "Ramza Ardyputra",
   ],
   "cardIdentifier": "corrupted-corpse",
   "classes": [
@@ -124814,15 +124816,66 @@ This card's attacks get **go again**.
         "Extended Art",
       ],
     },
+    {
+      "artists": [
+        "Ramza Ardyputra",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "FAB506",
+      "image": "KO_FAB506-MVA",
+      "print": "FAB506-Rainbow-Alternate Art-Full Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+        "Full Art",
+      ],
+    },
+    {
+      "artists": [
+        "Jefrey Yonathan",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "FAB506",
+      "image": "KO_FAB506-MVB",
+      "print": "FAB506-Rainbow-Alternate Art-Full Art-V2",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+        "Full Art",
+      ],
+    },
+    {
+      "artists": [
+        "Jefrey Yonathan",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "FAB506",
+      "image": "KO_FAB506-MVC",
+      "print": "FAB506-Rainbow-Alternate Art-Full Art-V3",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+        "Full Art",
+      ],
+    },
   ],
   "rarities": [
     "Basic",
+    "Promo",
   ],
   "rarity": "Basic",
   "setIdentifiers": [
+    "FAB506",
     "IAR090",
   ],
   "sets": [
+    "Promos",
     "Usurp the Shadow Throne",
   ],
   "specialImage": "IAR090-RF",
@@ -450357,6 +450410,7 @@ exports[`Check for unintentional updates Restless Corporal (restless-corporal-re
 **Decay**",
   "keywords": [
     "Decay",
+    "Go again",
   ],
   "legalFormats": [
     "Blitz",
@@ -558803,6 +558857,7 @@ exports[`Check for unintentional updates Stoke Vengeance (stoke-vengeance-red) v
   "functionalText": "**Combo** - If Edge of Autumn was the last attack this combat chain, this gets **go again** and "When this hits, your next attack this combat chain gets +2{p}."",
   "keywords": [
     "Combo",
+    "Go again",
   ],
   "legalFormats": [
     "Blitz",

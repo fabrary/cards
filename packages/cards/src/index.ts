@@ -48499,6 +48499,81 @@ Gain 1{h}`,
   
   
   },{
+    artists: ["soyameii"],
+    cardIdentifier: "blessing-of-suraya-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR258",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Librarian,Hero.Prism,Hero.Theryon],
+    name: "Blessing of Suraya",
+    printings: [{
+        artists: ["soyameii"],
+      
+      identifier: "IAR258",
+      image: "IAR258",
+      isExpansionSlot: true,
+      
+      print: "IAR258",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["soyameii"],
+      foiling: Foiling.Cold,
+      identifier: "IAR258",
+      image: "IAR258-CF",
+      isExpansionSlot: true,
+      
+      print: "IAR258-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR258"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR258-CF",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Light Action - Aura",
+
+    
+    
+    cost: 0,createdExtras: ["ponder"],
+    defense: 3,
+    
+    functionalText: `**Go again**
+
+Whenever a card is put into your soul, create a Ponder token. At the start of your turn, put this into your soul.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Expansion],
+  
+    
+    pitch: 2,
+    referencedCards: ["ponder"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+  
+  
+  },{
     artists: ["Daniel Correia"],
     cardIdentifier: "blessing-of-themis-yellow",
     classes: [Class.NotClassed],
@@ -60959,6 +61034,81 @@ If this was **fused**, the next attack action card you play this turn gets +1{p}
     
     
     
+  
+  
+  },{
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "bravery-of-the-blade-red",
+    classes: [Class.Warrior],
+    defaultImage: "IAR254",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn],
+    name: "Bravery of the Blade",
+    printings: [{
+        artists: ["Joseph Qiu"],
+      
+      identifier: "IAR254",
+      image: "IAR254",
+      isExpansionSlot: true,
+      
+      print: "IAR254",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Joseph Qiu"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR254",
+      image: "IAR254-RF",
+      isExpansionSlot: true,
+      
+      print: "IAR254-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR254"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR254",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action - Attack",
+
+    
+    
+    cost: 0,createdExtras: ["courage"],
+    defense: 3,
+    
+    functionalText: `As an additional cost to play this, you may **charge** your soul.
+
+If you've charged this turn, this gets **go again** and "When this hits, create a Courage token."`,
+    
+    
+    
+    
+    keywords: [Keyword.Charge,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Expansion],
+  
+    
+    pitch: 1,
+    power: 3,referencedCards: ["courage"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
   
   
   },{
@@ -80963,7 +81113,8 @@ Cintari Sellsword can only attack if you've attacked with a weapon this turn.`,
     
   
   
-  },{
+  }];
+const cards2: Card[] = [{
     artists: ["Amirul HHF"],
     cardIdentifier: "circular-flowtide-yellow",
     classes: [Class.Illusionist],
@@ -81140,8 +81291,7 @@ Cintari Sellsword can only attack if you've attacked with a weapon this turn.`,
     
   
   
-  }];
-const cards2: Card[] = [{
+  },{
     artists: ["Eilene Cherie"],
     cardIdentifier: "civic-guide",
     classes: [Class.Guardian],
@@ -96767,7 +96917,7 @@ When this hits a hero, banish all cards in their arsenal.
   
   
   },{
-    artists: ["Carlos Cruchaga"],
+    artists: ["Carlos Cruchaga","Jefrey Yonathan","Ramza Ardyputra"],
     cardIdentifier: "corrupted-corpse",
     classes: [Class.Necromancer],
     defaultImage: "IAR090",
@@ -96799,11 +96949,47 @@ When this hits a hero, banish all cards in their arsenal.
       set: Release.UsurpTheShadowThrone,
       
       treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Ramza Ardyputra"],
+      foiling: Foiling.Rainbow,
+      identifier: "FAB506",
+      image: "KO_FAB506-MVA",
+      
+      
+      print: "FAB506-Rainbow-Alternate Art-Full Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+    },{
+        artists: ["Jefrey Yonathan"],
+      foiling: Foiling.Rainbow,
+      identifier: "FAB506",
+      image: "KO_FAB506-MVB",
+      
+      
+      print: "FAB506-Rainbow-Alternate Art-Full Art-V2",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+    },{
+        artists: ["Jefrey Yonathan"],
+      foiling: Foiling.Rainbow,
+      identifier: "FAB506",
+      image: "KO_FAB506-MVC",
+      
+      
+      print: "FAB506-Rainbow-Alternate Art-Full Art-V3",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },],
-    rarities: [Rarity.Basic],
+    rarities: [Rarity.Basic,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["IAR090"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["FAB506","IAR090"],
+    sets: [Release.Promos,Release.UsurpTheShadowThrone],
     specialImage: "IAR090-RF",
     subtypes: [Subtype.Ally,Subtype.NonAttack,Subtype.Zombie],
     types: [Type.Action],
@@ -159644,7 +159830,8 @@ When this is banished from **boosting**, put a steam counter on an item you cont
     talents: [Talent.Shadow],
   
   
-  },{
+  }];
+const cards3: Card[] = [{
     artists: ["Sandeep Karunakaran"],
     cardIdentifier: "fasting-carcass-yellow",
     classes: [Class.NotClassed],
@@ -159810,8 +159997,7 @@ When this is banished from **boosting**, put a steam counter on an item you cont
     talents: [Talent.Shadow],
   
   
-  }];
-const cards3: Card[] = [{
+  },{
     artists: ["Shen Fei"],
     cardIdentifier: "fatal-engagement-red",
     classes: [Class.Warrior],
@@ -241123,7 +241309,8 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
     
   
   young: true
-  },{
+  }];
+const cards4: Card[] = [{
     artists: ["Alexander Mokhov","Sam Yang"],
     cardIdentifier: "kassai-of-the-golden-sand",
     classes: [Class.Warrior],
@@ -241432,8 +241619,7 @@ At the beginning of your end phase, if you've attacked 2 or more times with weap
     
   
   young: true
-  }];
-const cards4: Card[] = [{
+  },{
     artists: ["Adolfo Navarro"],
     cardIdentifier: "katsu",
     classes: [Class.Ninja],
@@ -322831,7 +323017,8 @@ Your next Lightning, Ice or Elemental attack this turn gains +4{p}.`,
     talents: [Talent.Ice,Talent.Lightning],
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "pulsewave-harpoon-red",
     classes: [Class.Mechanologist],
@@ -323006,8 +323193,7 @@ Your next Lightning, Ice or Elemental attack this turn gains +4{p}.`,
     
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Olga Tereshenko","Saad Irfan"],
     cardIdentifier: "pulsing-aether--life-red",
     classes: [Class.Wizard],
@@ -344610,7 +344796,7 @@ At the start of your turn, destroy this and draw a card.`,
     
     
     
-    keywords: [Keyword.Decay],
+    keywords: [Keyword.Decay,Keyword.GoAgain],
     
     life: 3,
     meta: [Meta.Deck],
@@ -403543,7 +403729,8 @@ Target attack action card gets **go again**.`,
     
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Petrinda Wiyugo"],
     cardIdentifier: "small-blinder-blue",
     classes: [Class.Warrior],
@@ -403703,8 +403890,7 @@ Target attack action card gets **go again**.`,
     
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Shen Fei"],
     cardIdentifier: "smash-and-grab-red",
     classes: [Class.Mechanologist],
@@ -429022,7 +429208,7 @@ If this was **fused**, it gets +2{p}.`,
     
     
     
-    keywords: [Keyword.Combo],
+    keywords: [Keyword.Combo,Keyword.GoAgain],
     
     
     meta: [Meta.Deck,Meta.Expansion],
@@ -482678,7 +482864,8 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
     
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "vile-inquisition-red",
     classes: [Class.NotClassed],
@@ -482848,8 +483035,7 @@ Target hero banishes the top card of their deck. If it's yellow, they lose 1{h}.
     talents: [Talent.Shadow],
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "vile-inquisition-blue",
     classes: [Class.NotClassed],

@@ -5,9 +5,12 @@ const identifierExtensionMapping: { [key: string]: string } = {
   // [Release.RhinarBlitzDeck]: "-Blitz",
 };
 
+// images mapped to suffixes, used when the set identifier, foiling, and treatments are the same but the images are different
 const suffixOverrides: { [key: string]: string } = {
   "FAB470-RFB": "-V2",
   "FAB470-RFC": "-V3",
+  "KO_FAB506-MVB": "-V2",
+  "KO_FAB506-MVC": "-V3",
   "OMN203-MVB": "-V2",
   "OMN203-MVC": "-V3",
   "MPG112-A": "-V2",

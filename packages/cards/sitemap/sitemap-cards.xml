@@ -2416,6 +2416,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/blessing-of-suraya-yellow</loc>
+    <lastmod>2026-09-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/blessing-of-themis-yellow</loc>
     <lastmod>2026-01-30</lastmod>
     <priority>0.5</priority>
@@ -3018,6 +3023,11 @@
   <url>
     <loc>https://fabrary.net/cards/braveforge-bracers</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/bravery-of-the-blade-red</loc>
+    <lastmod>2026-09-03</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

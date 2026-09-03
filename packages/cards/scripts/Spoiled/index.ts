@@ -1,9 +1,12 @@
 import { PreliminaryCard } from "../Shared/preliminary-card";
 import { mapCSV } from "./mapper";
 import { parseCSV, ParsedCard } from "./parser";
-import { filterOutUnwantedCards, sortPrintingsByReleaseOrder } from "../Shared";
+import {
+  filterOutUnwantedCards,
+  getPrintingIdentity,
+  sortPrintingsByReleaseOrder,
+} from "../Shared";
 import { Rarity } from "@flesh-and-blood/types";
-import { getPrint } from "@flesh-and-blood/types";
 import { combineAndAddMissingFields } from "../Shared/combined-and-missing-fields";
 import { getDefaultPrinting } from "@flesh-and-blood/types";
 import { getSpecialPrinting } from "@flesh-and-blood/types";
@@ -65,7 +68,8 @@ spoiledSetCards.forEach((card) => {
     card.printings.forEach((printing) => {
       const duplicate = deduplicatedPrintings.find(
         (deduplicatedPrinting) =>
-          getPrint(deduplicatedPrinting) === getPrint(printing),
+          getPrintingIdentity(deduplicatedPrinting) ===
+          getPrintingIdentity(printing),
       );
       if (!duplicate) {
         deduplicatedPrintings.push(printing);
@@ -118,7 +122,8 @@ spoiledPromoCards.forEach((card) => {
     card.printings.forEach((printing) => {
       const duplicate = deduplicatedPrintings.find(
         (deduplicatedPrinting) =>
-          getPrint(deduplicatedPrinting) === getPrint(printing),
+          getPrintingIdentity(deduplicatedPrinting) ===
+          getPrintingIdentity(printing),
       );
       if (!duplicate) {
         deduplicatedPrintings.push(printing);

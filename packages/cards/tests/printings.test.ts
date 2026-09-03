@@ -6,6 +6,9 @@ import {
   getSpecialPrinting,
 } from "@flesh-and-blood/types";
 import { cards } from "../dist/index";
+import { getPrintCollisions } from "../scripts/Shared";
+import { releasedCards } from "../scripts/Released";
+import { spoiledCards } from "../scripts/Spoiled";
 
 const riptide = cards.find(
   ({ cardIdentifier }) => cardIdentifier === "riptide-lurker-of-the-deep",
@@ -65,4 +68,17 @@ describe("No white border cards for default or special images", () => {
       expect(specialPrinting.image).not.toContain("HP");
     },
   );
+});
+
+// Printings that share a print are indistinguishable to every merge in the pipeline,
+// so the loser is dropped. The sources are checked rather than the built cards because
+// by then the dropped printing is gone and the survivors are unique.
+describe("Every printing of a card has its own print", () => {
+  it("Spoiled cards", () => {
+    expect(getPrintCollisions(spoiledCards)).toEqual([]);
+  });
+
+  it("Released cards", () => {
+    expect(getPrintCollisions(releasedCards)).toEqual([]);
+  });
 });

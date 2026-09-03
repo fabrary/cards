@@ -1178,6 +1178,81 @@ At the beginning of each end phase, you may banish a card from your hand. Then i
   
   
   },{
+    artists: ["soyameii"],
+    cardIdentifier: "blessing-of-suraya-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR258",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Librarian,Hero.Prism,Hero.Theryon],
+    name: "Blessing of Suraya",
+    printings: [{
+        artists: ["soyameii"],
+      
+      identifier: "IAR258",
+      image: "IAR258",
+      isExpansionSlot: true,
+      
+      print: "IAR258",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["soyameii"],
+      foiling: Foiling.Cold,
+      identifier: "IAR258",
+      image: "IAR258-CF",
+      isExpansionSlot: true,
+      
+      print: "IAR258-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR258"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR258-CF",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Light Action - Aura",
+
+    
+    
+    cost: 0,createdExtras: ["ponder"],
+    defense: 3,
+    
+    functionalText: `**Go again**
+
+Whenever a card is put into your soul, create a Ponder token. At the start of your turn, put this into your soul.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Expansion],
+  
+    
+    pitch: 2,
+    referencedCards: ["ponder"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+  
+  
+  },{
     artists: ["Khairul Sukmanudin"],
     cardIdentifier: "blood-harvest",
     classes: [Class.Brute],
@@ -1402,6 +1477,81 @@ When this hits a hero, you may banish target aura permanent they control.
     
     
     
+  
+  
+  },{
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "bravery-of-the-blade-red",
+    classes: [Class.Warrior],
+    defaultImage: "IAR254",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn],
+    name: "Bravery of the Blade",
+    printings: [{
+        artists: ["Joseph Qiu"],
+      
+      identifier: "IAR254",
+      image: "IAR254",
+      isExpansionSlot: true,
+      
+      print: "IAR254",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Joseph Qiu"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR254",
+      image: "IAR254-RF",
+      isExpansionSlot: true,
+      
+      print: "IAR254-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR254"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR254",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action - Attack",
+
+    
+    
+    cost: 0,createdExtras: ["courage"],
+    defense: 3,
+    
+    functionalText: `As an additional cost to play this, you may **charge** your soul.
+
+If you've charged this turn, this gets **go again** and "When this hits, create a Courage token."`,
+    
+    
+    
+    
+    keywords: [Keyword.Charge,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Expansion],
+  
+    
+    pitch: 1,
+    power: 3,referencedCards: ["courage"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
   
   
   },{
@@ -1934,7 +2084,7 @@ When this hits a hero, banish all cards in their arsenal.
   
   
   },{
-    artists: ["Carlos Cruchaga"],
+    artists: ["Carlos Cruchaga","Jefrey Yonathan","Ramza Ardyputra"],
     cardIdentifier: "corrupted-corpse",
     classes: [Class.Necromancer],
     defaultImage: "IAR090",
@@ -1967,10 +2117,10 @@ When this hits a hero, banish all cards in their arsenal.
       
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Basic],
+    rarities: [Rarity.Basic,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["IAR090"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["FAB506","IAR090"],
+    sets: [Release.Promos,Release.UsurpTheShadowThrone],
     specialImage: "IAR090-RF",
     subtypes: [Subtype.Ally,Subtype.NonAttack,Subtype.Zombie],
     types: [Type.Action],
@@ -5840,7 +5990,7 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
     
     
     
-    keywords: [Keyword.Decay],
+    keywords: [Keyword.Decay,Keyword.GoAgain],
     
     life: 3,
     meta: [Meta.Deck],
@@ -7963,7 +8113,7 @@ When this is pitched, lose 1{h}.`,
     
     
     
-    keywords: [Keyword.Combo],
+    keywords: [Keyword.Combo,Keyword.GoAgain],
     
     
     meta: [Meta.Deck,Meta.Expansion],

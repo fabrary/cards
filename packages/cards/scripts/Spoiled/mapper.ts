@@ -44,13 +44,51 @@ import {
   getTCGPlayerInfoFromOverrides,
 } from "../Shared/tcgplayer";
 
-const getArtists = (card: ParsedCard): string[] => {
-  const { artists, artists2 } = card;
+// Each spoiler sheet row carries one column block per printing, its fields suffixed
+// with the printing's position. Reading the blocks by position keeps them all on one
+// code path, so a block can't quietly lose a field the others read.
+const ADDITIONAL_PRINTING_POSITIONS = [2, 3, 4, 5, 6];
 
-  const allArtists = [...artists, ...(artists2 || [])]
-    .filter((artist) => !!artist)
-    .sort() as string[];
-  return Array.from(new Set(allArtists)).map((artist) => artist.trim());
+interface PrintingColumns {
+  artists?: string[];
+  expansionSlot?: boolean;
+  foiling?: string;
+  identifier?: string;
+  imageUrl?: string;
+  rarity?: string;
+  treatments?: string[];
+  tcgplayerProductId?: string;
+  tcgplayerUrl?: string;
+}
+const getPrintingColumns = (
+  card: ParsedCard,
+  position: number,
+): PrintingColumns => {
+  const getColumn = <T>(field: string) =>
+    card[`${field}${position}` as keyof ParsedCard] as T | undefined;
+
+  return {
+    artists: getColumn<string[]>("artists"),
+    expansionSlot: getColumn<boolean>("expansionSlot"),
+    foiling: getColumn<string>("foiling"),
+    identifier: getColumn<string>("identifier"),
+    imageUrl: getColumn<string>("imageUrl"),
+    rarity: getColumn<string>("rarity"),
+    treatments: getColumn<string[]>("treatments"),
+    tcgplayerProductId: getColumn<string>("tcgplayerProductId"),
+    tcgplayerUrl: getColumn<string>("tcgplayerUrl"),
+  };
+};
+
+const getArtists = (card: ParsedCard): string[] => {
+  const allArtists = [...card.artists];
+  for (const position of ADDITIONAL_PRINTING_POSITIONS) {
+    const { artists } = getPrintingColumns(card, position);
+    allArtists.push(...(artists || []));
+  }
+
+  const namedArtists = allArtists.filter((artist) => !!artist).sort();
+  return Array.from(new Set(namedArtists)).map((artist) => artist.trim());
 };
 
 const getClasses = (card: ParsedCard): Class[] => {
@@ -441,49 +479,7 @@ const getPrintings = (cardIdentifier: string, card: ParsedCard): Printing[] => {
     tcgplayerProductId,
     tcgplayerUrl,
     artists2,
-    expansionSlot2,
-    foiling2,
-    identifier2,
-    imageUrl2,
     rarity2,
-    treatments2,
-    tcgplayerProductId2,
-    tcgplayerUrl2,
-    artists3,
-    expansionSlot3,
-    foiling3,
-    identifier3,
-    imageUrl3,
-    rarity3,
-    treatments3,
-    tcgplayerProductId3,
-    tcgplayerUrl3,
-    artists4,
-    foiling4,
-    identifier4,
-    imageUrl4,
-    rarity4,
-    treatments4,
-    tcgplayerProductId4,
-    tcgplayerUrl4,
-    artists5,
-    expansionSlot5,
-    foiling5,
-    identifier5,
-    imageUrl5,
-    rarity5,
-    treatments5,
-    tcgplayerProductId5,
-    tcgplayerUrl5,
-    artists6,
-    expansionSlot6,
-    foiling6,
-    identifier6,
-    imageUrl6,
-    rarity6,
-    treatments6,
-    tcgplayerProductId6,
-    tcgplayerUrl6,
   } = card;
 
   const printing1 = getPrinting(cardIdentifier, card, {
@@ -549,141 +545,52 @@ const getPrintings = (cardIdentifier: string, card: ParsedCard): Printing[] => {
     }
   }
 
-  if (rarity2 && artists2) {
-    const identifierFor2 = identifier2
-      ? identifier2
-      : identifiers.length > 1
-        ? identifiers[1]
-        : identifiers[0];
-    const setIdentifier = identifierFor2.slice(0, 3);
-    const printing2 = getPrinting(cardIdentifier, card, {
-      artists: artists2,
-      foilingString: foiling2,
-      identifier: identifierFor2,
-      imageUrl: imageUrl2,
-      isExpansionSlot: expansionSlot2,
-      rarityString: rarity2,
-      setString: setIdentifier,
-      treatmentStrings: treatments2,
-      ...(tcgplayerProductId2 && tcgplayerUrl2
-        ? {
-            tcgplayerProductId: tcgplayerProductId2,
-            tcgplayerUrl: tcgplayerUrl2,
-          }
-        : {}),
-    });
-    printings.push(printing2);
-  }
+  for (const position of ADDITIONAL_PRINTING_POSITIONS) {
+    const printingColumns = getPrintingColumns(card, position);
+    const describesAPrinting =
+      !!printingColumns.rarity && !!printingColumns.artists;
 
-  if (rarity3 && artists3) {
-    const identifierFor3 = identifier3
-      ? identifier3
-      : identifiers.length > 2
-        ? identifiers[2]
-        : identifiers[0];
-    const setIdentifier = identifierFor3.slice(0, 3);
-    const printing3 = getPrinting(cardIdentifier, card, {
-      artists: artists3,
-      foilingString: foiling3,
-      identifier: identifierFor3,
-      imageUrl: imageUrl3,
-      isExpansionSlot: expansionSlot3,
-      rarityString: rarity3,
-      setString: setIdentifier,
-      treatmentStrings: treatments3,
-      ...(tcgplayerProductId3 && tcgplayerUrl3
-        ? {
-            tcgplayer: {
-              productId: tcgplayerProductId3,
-              url: tcgplayerUrl3,
-            },
-          }
-        : {}),
-    });
-    printings.push(printing3);
-  }
+    if (describesAPrinting) {
+      const {
+        artists: printingArtists = [],
+        expansionSlot: isExpansionSlot,
+        foiling: foilingString,
+        identifier: columnIdentifier,
+        imageUrl: printingImageUrl,
+        rarity: rarityString = "",
+        treatments: treatmentStrings,
+        tcgplayerProductId: columnTCGplayerProductId,
+        tcgplayerUrl: columnTCGplayerUrl,
+      } = printingColumns;
 
-  if (rarity4 && artists4) {
-    const identifierFor4 = identifier4
-      ? identifier4
-      : identifiers.length > 3
-        ? identifiers[3]
-        : identifiers[0];
-    const setIdentifier = identifierFor4.slice(0, 3);
-    const printing4 = getPrinting(cardIdentifier, card, {
-      artists: artists4,
-      foilingString: foiling4,
-      identifier: identifierFor4,
-      imageUrl: imageUrl4,
-      rarityString: rarity4,
-      setString: setIdentifier,
-      treatmentStrings: treatments4,
-      ...(tcgplayerProductId4 && tcgplayerUrl4
-        ? {
-            tcgplayer: {
-              productId: tcgplayerProductId4,
-              url: tcgplayerUrl4,
-            },
-          }
-        : {}),
-    });
-    printings.push(printing4);
-  }
+      // A sheet that gives the printing no identifier of its own falls back to the
+      // row's own identifier for that position, and to the first one when the row
+      // lists fewer identifiers than printings.
+      const printingIdentifier = columnIdentifier
+        ? columnIdentifier
+        : identifiers.length > position - 1
+          ? identifiers[position - 1]
+          : identifiers[0];
 
-  if (rarity5 && artists5) {
-    const identifierFor5 = identifier5
-      ? identifier5
-      : identifiers.length > 4
-        ? identifiers[4]
-        : identifiers[0];
-    const setIdentifier = identifierFor5.slice(0, 3);
-    const printing5 = getPrinting(cardIdentifier, card, {
-      artists: artists5,
-      foilingString: foiling5,
-      identifier: identifierFor5,
-      imageUrl: imageUrl5,
-      isExpansionSlot: expansionSlot5,
-      rarityString: rarity5,
-      setString: setIdentifier,
-      treatmentStrings: treatments5,
-      ...(tcgplayerProductId5 && tcgplayerUrl5
-        ? {
-            tcgplayer: {
-              productId: tcgplayerProductId5,
-              url: tcgplayerUrl5,
-            },
-          }
-        : {}),
-    });
-    printings.push(printing5);
-  }
-
-  if (rarity6 && artists6) {
-    const identifierFor6 = identifier6
-      ? identifier6
-      : identifiers.length > 5
-        ? identifiers[5]
-        : identifiers[0];
-    const setIdentifier = identifierFor6.slice(0, 3);
-    const printing6 = getPrinting(cardIdentifier, card, {
-      artists: artists6,
-      foilingString: foiling6,
-      identifier: identifierFor6,
-      imageUrl: imageUrl6,
-      isExpansionSlot: expansionSlot6,
-      rarityString: rarity6,
-      setString: setIdentifier,
-      treatmentStrings: treatments6,
-      ...(tcgplayerProductId6 && tcgplayerUrl6
-        ? {
-            tcgplayer: {
-              productId: tcgplayerProductId6,
-              url: tcgplayerUrl6,
-            },
-          }
-        : {}),
-    });
-    printings.push(printing6);
+      printings.push(
+        getPrinting(cardIdentifier, card, {
+          artists: printingArtists,
+          foilingString,
+          identifier: printingIdentifier,
+          imageUrl: printingImageUrl,
+          isExpansionSlot,
+          rarityString,
+          setString: printingIdentifier.slice(0, 3),
+          treatmentStrings,
+          ...(columnTCGplayerProductId && columnTCGplayerUrl
+            ? {
+                tcgplayerProductId: columnTCGplayerProductId,
+                tcgplayerUrl: columnTCGplayerUrl,
+              }
+            : {}),
+        }),
+      );
+    }
   }
 
   const printingsOverride: Printing[] = [];

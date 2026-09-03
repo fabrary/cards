@@ -18,6 +18,7 @@ import {
   Type,
   getIsArenaCard,
   getIsDeckCard,
+  getPrint,
   releases,
   setIdentifierToSetMappings,
 } from "@flesh-and-blood/types";
@@ -249,10 +250,11 @@ const getPrintingReleaseOrder = ({ edition, set }: Printing): number => {
   return releaseIndex + 2;
 };
 
-// Every field that distinguishes one printing of a card from another, so printings
-// that agree on release, image length and print still get a stable order instead of
-// inheriting the order they happen to appear in the source data.
-const getPrintingIdentity = ({
+// Every field that distinguishes one printing of a card from another. Two printings
+// sharing an identity are the same physical print described twice, which is what lets
+// a merge drop one of them; it also gives printings that agree on release, image
+// length and print a stable order instead of the order they appear in the source data.
+export const getPrintingIdentity = ({
   artists,
   edition,
   foiling,
@@ -317,6 +319,62 @@ export const sortPrintingsByReleaseOrder = (p1: Printing, p2: Printing) => {
   }
 
   return comparison;
+};
+
+export interface PrintCollision {
+  cardIdentifier: string;
+  images: string[];
+  print: string;
+}
+
+// A print is the key every later merge treats as a printing's identity, and
+// printings-with-tcgplayer.json is keyed by it, so two printings of one card sharing a
+// print silently become one. That happens when the sheets give a card several arts
+// that agree on identifier, foiling and treatments, which the print string can only
+// tell apart through the suffix overrides in the types package.
+export const getPrintCollisions = (
+  cards: PreliminaryCard[],
+): PrintCollision[] => {
+  const collisions: PrintCollision[] = [];
+
+  for (const { cardIdentifier, printings } of cards) {
+    const imagesByPrint = new Map<string, string[]>();
+
+    for (const printing of printings) {
+      const print = getPrint(printing);
+      const images = imagesByPrint.get(print) || [];
+      images.push(printing.image || "(no image)");
+      imagesByPrint.set(print, images);
+    }
+
+    for (const [print, images] of imagesByPrint) {
+      if (images.length > 1) {
+        collisions.push({ cardIdentifier, images, print });
+      }
+    }
+  }
+
+  return collisions;
+};
+
+export const assertPrintsAreUnique = (cardsBySource: {
+  [source: string]: PreliminaryCard[];
+}) => {
+  const collisionDescriptions: string[] = [];
+
+  for (const [source, cards] of Object.entries(cardsBySource)) {
+    for (const { cardIdentifier, images, print } of getPrintCollisions(cards)) {
+      collisionDescriptions.push(
+        `${source}: ${cardIdentifier} has ${images.length} printings sharing the print "${print}" (${images.join(", ")})`,
+      );
+    }
+  }
+
+  if (collisionDescriptions.length) {
+    throw new Error(
+      `Print collisions found (${collisionDescriptions.length}). Every printing but the first is dropped when the sources are merged, so give each one a distinct print by adding its image to suffixOverrides in packages/types/src/helpers/printings.ts:\n${collisionDescriptions.join("\n")}`,
+    );
+  }
 };
 
 export const getHeroFromString = (name: string): Hero | undefined => {
