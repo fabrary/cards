@@ -520,6 +520,7 @@ export const ADDITIONS = [
   "steelhand",
   "stillwater",
   "stormbind",
+  "stormgarden",
   "stormshatter",
   "stormshard",
   "stormstrike",
