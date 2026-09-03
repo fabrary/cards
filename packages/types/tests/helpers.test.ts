@@ -12,7 +12,6 @@ import {
   getMaxRarityPrinting,
 } from "../src/helpers";
 import {
-  Card,
   CardRole,
   Foiling,
   Keyword,
@@ -233,10 +232,18 @@ describe("Card roles", () => {
       "A weapon on a card back",
       { expected: CardRole.Inventory, isCardBack: true, types: [Type.Weapon] },
     ],
+    [
+      "A resource on a card back",
+      { expected: CardRole.Deck, isCardBack: true, types: [Type.Resource] },
+    ],
+    [
+      "A hero on a card back",
+      { expected: CardRole.Hero, isCardBack: true, types: [Type.Hero] },
+    ],
   ];
 
   it.each(cardRoles)("%s", (_, { expected, isCardBack, types }) => {
-    const role = getCardRole({ isCardBack, types } as unknown as Card);
+    const role = getCardRole({ isCardBack, types });
 
     expect(role).toEqual(expected);
   });

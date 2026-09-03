@@ -118,6 +118,10 @@ interface CardShape {
   types: Type[];
 }
 
+interface RoleShape extends CardShape {
+  isCardBack?: boolean;
+}
+
 // Cards another card puts into play while carrying none of the markers: the
 // Cracked Bauble is a token printed as an ordinary card, and the Goldfin
 // Harpoon is Marlynn's arena weapon.
@@ -209,10 +213,9 @@ export const getCanAddToDeck = (card: Card) => {
 /**
  * What the card is for, as one answer rather than a predicate per question.
  * A card has exactly one role: Graphene Chelicera is a Token Weapon and counts
- * as an extra, because the role decides what a deck brings. The unknown role
- * means the card could not be classified.
+ * as an extra, because the role decides what a deck brings.
  */
-export const getCardRole = (card: Card): CardRole => {
+export const getCardRole = (card: RoleShape): CardRole => {
   let role = CardRole.Unknown;
 
   if (getIsExtra(card)) {
