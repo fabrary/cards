@@ -4955,6 +4955,231 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
   
   
   },{
+    artists: ["Christ Adiel Then"],
+    cardIdentifier: "mark-of-neverest-blue",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR066",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Mark of Neverest",
+    printings: [{
+        artists: ["Christ Adiel Then"],
+      
+      identifier: "IAR066",
+      image: "IAR066",
+      
+      
+      print: "IAR066",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Christ Adiel Then"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR066",
+      image: "IAR066-RF",
+      
+      
+      print: "IAR066-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR066"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR066",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Shadow Necromancer Instant - Aura",
+
+    
+    
+    cost: 0,createdExtras: ["corrupted-corpse"],
+    
+    
+    functionalText: `**Binds** to an ally permanent you control.
+
+The bound ally gets +1{p} and "Whenever this hits a hero or dies, you may turn a card in your banished zone face-down. If you do, create a Corrupted Corpse in your banished zone."`,
+    
+    
+    
+    
+    keywords: [Keyword.Binds],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    referencedCards: ["corrupted-corpse"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Nadia Suryani"],
+    cardIdentifier: "mark-of-pathstone-blue",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR067",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Mark of Pathstone",
+    printings: [{
+        artists: ["Nadia Suryani"],
+      
+      identifier: "IAR067",
+      image: "IAR067",
+      
+      
+      print: "IAR067",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Nadia Suryani"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR067",
+      image: "IAR067-RF",
+      
+      
+      print: "IAR067-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR067"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR067",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Shadow Necromancer Instant - Aura",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `**Binds** to an ally permanent you control.
+
+The bound ally gets +1{p} and "Whenever this hits a hero or dies, gain 1{h}."`,
+    
+    
+    
+    
+    keywords: [Keyword.Binds],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "mark-of-ushering-blue",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR068",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Mark of Ushering",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "IAR068",
+      image: "IAR068",
+      
+      
+      print: "IAR068",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR068",
+      image: "IAR068-RF",
+      
+      
+      print: "IAR068-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR068"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR068",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Shadow Necromancer Instant - Aura",
+
+    
+    
+    cost: 0,createdExtras: ["gate-to-iarathael"],
+    
+    
+    functionalText: `**Binds** to an ally permanent you control.
+
+The bound ally gets +1{p} and "Whenever this hits a hero or dies, create a Gate to i'Arathael token."`,
+    
+    
+    
+    
+    keywords: [Keyword.Binds],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    referencedCards: ["gate-to-iarathael"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Jefrey Yonathan"],
     cardIdentifier: "ominous-toll-red",
     classes: [Class.Necromancer],
@@ -8824,6 +9049,81 @@ When this hits a hero, deal 2 arcane damage to any target.
     
     
     talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "violent-gusto-red",
+    classes: [Class.Generic],
+    defaultImage: "IAR228",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    name: "Violent Gusto",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "IAR228",
+      image: "IAR228",
+      
+      
+      print: "IAR228",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR228",
+      image: "IAR228-RF",
+      
+      
+      print: "IAR228-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR228"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR228",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `When this attacks a hero, you may name an aura permanent they control and return it to its owner's hand.
+
+When this hits a hero, return all aura permanents they control with that name to their owner's hand.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 6,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{

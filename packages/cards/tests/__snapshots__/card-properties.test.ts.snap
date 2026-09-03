@@ -200928,6 +200928,175 @@ When this hits a hero, banish the top card of their deck. If it's red, repeat th
 }
 `;
 
+exports[`Check for unintentional updates Exorcism (exorcism-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "MJ Fetesio",
+  ],
+  "cardIdentifier": "exorcism-red",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 1,
+  "defaultImage": "IAR229",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "Your next attack this turn gets +3{p} and "When this hits a hero, turn all cards in their banished zone face-down."
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Arakni",
+    "Aurora",
+    "Aurora2",
+    "Azalea",
+    "Baalghor",
+    "Benji",
+    "Betsy",
+    "Blaze",
+    "Bolfar",
+    "Boltyn",
+    "Bravo",
+    "Brevant",
+    "Briar",
+    "Broscilio",
+    "Brutus",
+    "Chane",
+    "Cindra",
+    "Crackni",
+    "Crix",
+    "Dash",
+    "Data Doll",
+    "Dorinthea",
+    "Dromai",
+    "Emperor",
+    "Enigma",
+    "Fai",
+    "Fang",
+    "Florian",
+    "Frankie",
+    "Genis",
+    "Gravy Bones",
+    "Hala",
+    "Ira",
+    "Iyslander",
+    "Jarl",
+    "Kano",
+    "Kassai",
+    "Katsu",
+    "Kavdaen",
+    "Kayo",
+    "Killjoy",
+    "Kox",
+    "Levia",
+    "Lexi",
+    "Librarian",
+    "Lyath",
+    "Malice",
+    "Marlynn",
+    "Maxx",
+    "Melody",
+    "Mortimer",
+    "Nuu",
+    "Oldhim",
+    "Olympia",
+    "Oscilio",
+    "Pleiades",
+    "Prism",
+    "Puffin",
+    "RKO",
+    "Reya",
+    "Rhinar",
+    "Riptide",
+    "Ruu'di",
+    "Scurv",
+    "Shiyana",
+    "Slippy",
+    "Squizzy",
+    "Starvo",
+    "Taipanis",
+    "Taylor",
+    "Teklovossen",
+    "Terra",
+    "Theryon",
+    "Tuffnut",
+    "Uzuri",
+    "Valda",
+    "Verdance",
+    "Victor",
+    "Viserai",
+    "Viserai2",
+    "Vynnset",
+    "Yoji",
+    "Yorick",
+    "Zane",
+    "Zen",
+    "Zyggy",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Exorcism",
+  "pitch": 1,
+  "printings": [
+    {
+      "artists": [
+        "MJ Fetesio",
+      ],
+      "identifier": "IAR229",
+      "image": "IAR229",
+      "print": "IAR229",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "MJ Fetesio",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR229",
+      "image": "IAR229-RF",
+      "print": "IAR229-Rainbow",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "IAR229",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "IAR229",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Generic Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Expedite (expedite-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -451057,6 +451226,104 @@ exports[`Check for unintentional updates Restless Quartermaster (restless-quarte
     "Usurp the Shadow Throne",
   ],
   "specialImage": "IAR065-MV",
+  "subtypes": [
+    "Ally",
+    "Non-Attack",
+    "Zombie",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action - Zombie Ally",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Restless Templar (restless-templar-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Billy Christian",
+  ],
+  "cardIdentifier": "restless-templar-red",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "IAR059",
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "Whenever a zombie you control with decay dies, create a Gate to i'Arathael token.
+
+**Decay**",
+  "keywords": [
+    "Decay",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "life": 3,
+  "meta": [
+    "Deck",
+  ],
+  "name": "Restless Templar",
+  "pitch": 1,
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Billy Christian",
+      ],
+      "identifier": "IAR059",
+      "image": "IAR059",
+      "print": "IAR059",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Billy Christian",
+      ],
+      "foiling": "Cold",
+      "identifier": "IAR059",
+      "image": "IAR059-MV",
+      "print": "IAR059-Cold-Full Art",
+      "rarity": "Marvel",
+      "set": "Usurp the Shadow Throne",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
+  ],
+  "rarities": [
+    "Majestic",
+    "Marvel",
+  ],
+  "rarity": "Majestic",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "IAR059",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR059-MV",
   "subtypes": [
     "Ally",
     "Non-Attack",
