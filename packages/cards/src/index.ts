@@ -123818,7 +123818,7 @@ Create a Blasmophet, the Soul Harvester token.`,
     rarity: Rarity.Token,
     setIdentifiers: ["1HP138","CRU076","HER004","HER024","HER126","TEA001","WIN004","WTR113"],
     sets: [Release.CrucibleOfWar,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
-    specialImage: "JA_HER126-RF",
+    specialImage: "WTR113",
     subtypes: [],
     types: [Type.Hero],
     typeText: "Warrior Hero",
@@ -163850,12 +163850,24 @@ When this enters the arena, create a Ponder token.`,
       set: Release.PrismSilverAgeDeck,
       
       
+    },{
+        artists: ["MJ Fetesio"],
+      foiling: Foiling.Cold,
+      identifier: "LGS462",
+      image: "LGS462-MV",
+      
+      oppositeImage: "LGS462-MV_BACK",
+      print: "LGS462-Cold-Full Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["SAT023"],
-    sets: [Release.PrismSilverAgeDeck],
-    specialImage: "SAT023",
+    setIdentifiers: ["LGS462","SAT023"],
+    sets: [Release.PrismSilverAgeDeck,Release.Promos],
+    specialImage: "LGS462-MV",
     subtypes: [Subtype.Figment],
     types: [Type.Instant],
     typeText: "Light Illusionist Instant - Figment",
@@ -219313,7 +219325,7 @@ The next attack action card you play this turn gets +1{p}.
   
   
   },{
-    artists: ["Henrique Lindner"],
+    artists: ["Henrique Lindner","János Brumár"],
     cardIdentifier: "humble-red",
     classes: [Class.Generic],
     defaultImage: "AKO009",
@@ -219381,12 +219393,24 @@ The next attack action card you play this turn gets +1{p}.
             url: "https://www.tcgplayer.com/product/489243?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["János Brumár"],
+      foiling: Foiling.Cold,
+      identifier: "LGS463",
+      image: "LGS463-CF",
+      
+      
+      print: "LGS463-Cold-Alternate Art-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["AKO009","OUT189","UZU012"],
-    sets: [Release.ArmoryDeckKayo,Release.Outsiders,Release.UzuriBlitzDeck],
-    specialImage: "AKO009",
+    setIdentifiers: ["AKO009","LGS463","OUT189","UZU012"],
+    sets: [Release.ArmoryDeckKayo,Release.Outsiders,Release.Promos,Release.UzuriBlitzDeck],
+    specialImage: "LGS463-CF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Generic Action - Attack",
@@ -235025,7 +235049,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
     rarity: Rarity.Majestic,
     setIdentifiers: ["ASR001","HER123","HER124","HER125","HER136","WIN040"],
     sets: [Release.ArmoryDeckIra,Release.Promos],
-    specialImage: "JA_HER125-CF_BACK",
+    specialImage: "HER123-RF",
     subtypes: [],
     types: [Type.Hero],
     typeText: "Ninja Hero",
@@ -261326,7 +261350,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
   
   young: true
   },{
-    artists: ["João G. Santos"],
+    artists: ["João G. Santos","Ramza Ardyputra"],
     cardIdentifier: "malice-domina-of-the-dead",
     classes: [Class.Necromancer],
     defaultImage: "AMA001-RF",
@@ -261371,6 +261395,30 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
       
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
+        artists: ["Ramza Ardyputra"],
+      foiling: Foiling.Rainbow,
+      identifier: "HER172",
+      image: "KO_HER172-RF",
+      
+      
+      print: "HER172-Rainbow-Alternate Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA],
+    },{
+        artists: ["Ramza Ardyputra"],
+      foiling: Foiling.Cold,
+      identifier: "HER171",
+      image: "KO_HER171-MV",
+      
+      
+      print: "HER171-Cold-Alternate Art-Full Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+    },{
         artists: ["João G. Santos"],
       foiling: Foiling.Cold,
       identifier: "GEM184",
@@ -261382,11 +261430,23 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
       set: Release.GEM,
       
       treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Ramza Ardyputra"],
+      foiling: Foiling.Cold,
+      identifier: "HER171",
+      image: "KO_HER171-MV_BACK",
+      
+      
+      print: "HER171-Cold-Alternate Art-Full Art-Back",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },],
-    rarities: [Rarity.Basic,Rarity.Majestic,Rarity.Marvel],
+    rarities: [Rarity.Basic,Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["AMA001","GEM184","IAR053"],
-    sets: [Release.ArmoryDeckMalice,Release.GEM,Release.UsurpTheShadowThrone],
+    setIdentifiers: ["AMA001","GEM184","HER171","HER172","IAR053"],
+    sets: [Release.ArmoryDeckMalice,Release.GEM,Release.Promos,Release.UsurpTheShadowThrone],
     specialImage: "GEM184-MV",
     subtypes: [],
     types: [Type.Hero],
@@ -424690,12 +424750,24 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
             url: "https://www.tcgplayer.com/product/695242?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Yosi Saputra"],
+      foiling: Foiling.Cold,
+      identifier: "FAB468",
+      image: "FAB468-CF",
+      
+      
+      print: "FAB468-Cold-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["OMN188"],
-    sets: [Release.OmensOfTheThirdAge],
-    specialImage: "OMN188",
+    setIdentifiers: ["FAB468","OMN188"],
+    sets: [Release.OmensOfTheThirdAge,Release.Promos],
+    specialImage: "FAB468-CF",
     subtypes: [],
     types: [Type.Instant],
     typeText: "Lightning Instant",
@@ -436187,7 +436259,7 @@ When this enters or leaves the arena, **the crowd cheers** you.`,
   
   
   },{
-    artists: ["MJ Fetesio"],
+    artists: ["Edward Chee"],
     cardIdentifier: "suraya-archangel-of-endless-hope",
     classes: [Class.NotClassed],
     defaultImage: "SAT023_BACK",
@@ -436196,7 +436268,7 @@ When this enters or leaves the arena, **the crowd cheers** you.`,
     legalHeroes: [Hero.Librarian,Hero.Prism,Hero.Theryon],
     name: "Suraya, Archangel of Endless Hope",
     printings: [{
-        artists: ["MJ Fetesio"],
+        artists: ["Edward Chee"],
       
       identifier: "SAT023",
       image: "SAT023_BACK",
@@ -436207,12 +436279,24 @@ When this enters or leaves the arena, **the crowd cheers** you.`,
       set: Release.PrismSilverAgeDeck,
       
       
+    },{
+        artists: ["Edward Chee"],
+      foiling: Foiling.Cold,
+      identifier: "LGS462",
+      image: "LGS462-MV_BACK",
+      
+      oppositeImage: "LGS462-MV",
+      print: "LGS462-Cold-Full Art-Back",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["SAT023"],
-    sets: [Release.PrismSilverAgeDeck],
-    specialImage: "SAT023_BACK",
+    setIdentifiers: ["LGS462","SAT023"],
+    sets: [Release.PrismSilverAgeDeck,Release.Promos],
+    specialImage: "LGS462-MV_BACK",
     subtypes: [Subtype.Ally,Subtype.Angel],
     types: [],
     typeText: "Light Illusionist Instant - Figment",
@@ -452066,7 +452150,7 @@ If you've played another blue card this turn, **transcend**.`,
     rarity: Rarity.Majestic,
     setIdentifiers: ["ARK007","LGS391"],
     sets: [Release.ArakniBlitzDeckARK,Release.Promos],
-    specialImage: "JA_LGS391-CF",
+    specialImage: "ARK007",
     subtypes: [],
     types: [Type.Mentor],
     typeText: "Arakni Mentor",
@@ -470934,12 +471018,24 @@ You may shuffle a Hyper Driver from your graveyard into your deck. If you do, ga
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Amtepra"],
+      foiling: Foiling.Cold,
+      identifier: "FAB508",
+      image: "FAB508-CF",
+      
+      
+      print: "FAB508-Cold-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["IAR178"],
-    sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR178",
+    setIdentifiers: ["FAB508","IAR178"],
+    sets: [Release.Promos,Release.UsurpTheShadowThrone],
+    specialImage: "FAB508-CF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Action - Attack",

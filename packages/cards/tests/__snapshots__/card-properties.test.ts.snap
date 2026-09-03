@@ -159837,7 +159837,7 @@ exports[`Check for unintentional updates Dorinthea Ironsong (dorinthea-ironsong)
     "Promos",
     "Welcome to Rathe",
   ],
-  "specialImage": "JA_HER126-RF",
+  "specialImage": "WTR113",
   "subtypes": [],
   "typeText": "Warrior Hero",
   "types": [
@@ -212762,18 +212762,37 @@ exports[`Check for unintentional updates Figment of Hope (figment-of-hope-yellow
       "rarity": "Rare",
       "set": "Prism Silver Age Deck",
     },
+    {
+      "artists": [
+        "MJ Fetesio",
+      ],
+      "foiling": "Cold",
+      "identifier": "LGS462",
+      "image": "LGS462-MV",
+      "oppositeImage": "LGS462-MV_BACK",
+      "print": "LGS462-Cold-Full Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
+    "LGS462",
     "SAT023",
   ],
   "sets": [
     "Prism Silver Age Deck",
+    "Promos",
   ],
-  "specialImage": "SAT023",
+  "specialImage": "LGS462-MV",
   "subtypes": [
     "Figment",
   ],
@@ -285145,6 +285164,7 @@ exports[`Check for unintentional updates Humble (humble-red) vs snapshot 1`] = `
 {
   "artists": [
     "Henrique Lindner",
+    "János Brumár",
   ],
   "cardIdentifier": "humble-red",
   "classes": [
@@ -285320,25 +285340,44 @@ exports[`Check for unintentional updates Humble (humble-red) vs snapshot 1`] = `
         "url": "https://www.tcgplayer.com/product/489243?Language=English&Printing=Normal",
       },
     },
+    {
+      "artists": [
+        "János Brumár",
+      ],
+      "foiling": "Cold",
+      "identifier": "LGS463",
+      "image": "LGS463-CF",
+      "print": "LGS463-Cold-Alternate Art-Extended Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
     "AKO009",
+    "LGS463",
     "OUT189",
     "UZU012",
   ],
   "sets": [
     "Armory Deck: Kayo",
     "Outsiders",
+    "Promos",
     "Uzuri Blitz Deck",
   ],
   "shorthands": [
     "Poppers",
   ],
-  "specialImage": "AKO009",
+  "specialImage": "LGS463-CF",
   "subtypes": [
     "Attack",
   ],
@@ -305066,7 +305105,7 @@ exports[`Check for unintentional updates Ira, Scarlet Revenger (ira-scarlet-reve
     "Armory Deck: Ira",
     "Promos",
   ],
-  "specialImage": "JA_HER125-CF_BACK",
+  "specialImage": "HER123-RF",
   "subtypes": [],
   "typeText": "Ninja Hero",
   "types": [
@@ -339190,6 +339229,7 @@ exports[`Check for unintentional updates Malice, Domina of the Dead (malice-domi
 {
   "artists": [
     "João G. Santos",
+    "Ramza Ardyputra",
   ],
   "cardIdentifier": "malice-domina-of-the-dead",
   "classes": [
@@ -339261,6 +339301,37 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
     },
     {
       "artists": [
+        "Ramza Ardyputra",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "HER172",
+      "image": "KO_HER172-RF",
+      "print": "HER172-Rainbow-Alternate Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+      ],
+    },
+    {
+      "artists": [
+        "Ramza Ardyputra",
+      ],
+      "foiling": "Cold",
+      "identifier": "HER171",
+      "image": "KO_HER171-MV",
+      "print": "HER171-Cold-Alternate Art-Full Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+        "Full Art",
+      ],
+    },
+    {
+      "artists": [
         "João G. Santos",
       ],
       "foiling": "Cold",
@@ -339274,11 +339345,28 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
         "Full Art",
       ],
     },
+    {
+      "artists": [
+        "Ramza Ardyputra",
+      ],
+      "foiling": "Cold",
+      "identifier": "HER171",
+      "image": "KO_HER171-MV_BACK",
+      "print": "HER171-Cold-Alternate Art-Full Art-Back",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+        "Full Art",
+      ],
+    },
   ],
   "rarities": [
     "Basic",
     "Majestic",
     "Marvel",
+    "Promo",
   ],
   "rarity": "Basic",
   "referencedCards": [
@@ -339287,11 +339375,14 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
   "setIdentifiers": [
     "AMA001",
     "GEM184",
+    "HER171",
+    "HER172",
     "IAR053",
   ],
   "sets": [
     "Armory Deck: Malice",
     "GEM",
+    "Promos",
     "Usurp the Shadow Throne",
   ],
   "shorthands": [
@@ -553740,21 +553831,39 @@ exports[`Check for unintentional updates Starworld Warning (starworld-warning-ye
         "url": "https://www.tcgplayer.com/product/695242?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Yosi Saputra",
+      ],
+      "foiling": "Cold",
+      "identifier": "FAB468",
+      "image": "FAB468-CF",
+      "print": "FAB468-Cold-Extended Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "referencedCards": [
     "lightning-flow",
   ],
   "setIdentifiers": [
+    "FAB468",
     "OMN188",
   ],
   "sets": [
     "Omens of the Third Age",
+    "Promos",
   ],
-  "specialImage": "OMN188",
+  "specialImage": "FAB468-CF",
   "subtypes": [],
   "talents": [
     "Lightning",
@@ -569071,7 +569180,7 @@ When this enters or leaves the arena, **the crowd cheers** you.",
 exports[`Check for unintentional updates Suraya, Archangel of Endless Hope (suraya-archangel-of-endless-hope) vs snapshot 1`] = `
 {
   "artists": [
-    "MJ Fetesio",
+    "Edward Chee",
   ],
   "cardIdentifier": "suraya-archangel-of-endless-hope",
   "classes": [
@@ -569112,7 +569221,7 @@ exports[`Check for unintentional updates Suraya, Archangel of Endless Hope (sura
   "printings": [
     {
       "artists": [
-        "MJ Fetesio",
+        "Edward Chee",
       ],
       "identifier": "SAT023",
       "image": "SAT023_BACK",
@@ -569121,18 +569230,37 @@ exports[`Check for unintentional updates Suraya, Archangel of Endless Hope (sura
       "rarity": "Rare",
       "set": "Prism Silver Age Deck",
     },
+    {
+      "artists": [
+        "Edward Chee",
+      ],
+      "foiling": "Cold",
+      "identifier": "LGS462",
+      "image": "LGS462-MV_BACK",
+      "oppositeImage": "LGS462-MV",
+      "print": "LGS462-Cold-Full Art-Back",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
+    "LGS462",
     "SAT023",
   ],
   "sets": [
     "Prism Silver Age Deck",
+    "Promos",
   ],
-  "specialImage": "SAT023_BACK",
+  "specialImage": "LGS462-MV_BACK",
   "subtypes": [
     "Ally",
     "Angel",
@@ -589718,7 +589846,7 @@ At the beginning of your end phase, destroy a Silver you control. If you don't, 
     "Arakni Hunted Blitz Deck",
     "Promos",
   ],
-  "specialImage": "JA_LGS391-CF",
+  "specialImage": "ARK007",
   "subtypes": [],
   "typeText": "Arakni Mentor",
   "types": [
@@ -614570,8 +614698,24 @@ exports[`Check for unintentional updates Unbound by Shadow (unbound-by-shadow-re
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
+    {
+      "artists": [
+        "Amtepra",
+      ],
+      "foiling": "Cold",
+      "identifier": "FAB508",
+      "image": "FAB508-CF",
+      "print": "FAB508-Cold-Extended Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -614579,12 +614723,14 @@ exports[`Check for unintentional updates Unbound by Shadow (unbound-by-shadow-re
     "gate-to-iarathael",
   ],
   "setIdentifiers": [
+    "FAB508",
     "IAR178",
   ],
   "sets": [
+    "Promos",
     "Usurp the Shadow Throne",
   ],
-  "specialImage": "IAR178",
+  "specialImage": "FAB508-CF",
   "subtypes": [
     "Attack",
   ],

@@ -4590,7 +4590,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
   
   young: true
   },{
-    artists: ["João G. Santos"],
+    artists: ["João G. Santos","Ramza Ardyputra"],
     cardIdentifier: "malice-domina-of-the-dead",
     classes: [Class.Necromancer],
     defaultImage: "IAR053",
@@ -4611,10 +4611,10 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
       
       
     },],
-    rarities: [Rarity.Basic,Rarity.Majestic,Rarity.Marvel],
+    rarities: [Rarity.Basic,Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["AMA001","GEM184","IAR053"],
-    sets: [Release.ArmoryDeckMalice,Release.GEM,Release.UsurpTheShadowThrone],
+    setIdentifiers: ["AMA001","GEM184","HER171","HER172","IAR053"],
+    sets: [Release.ArmoryDeckMalice,Release.GEM,Release.Promos,Release.UsurpTheShadowThrone],
     specialImage: "IAR053",
     subtypes: [],
     types: [Type.Hero],
@@ -8092,10 +8092,10 @@ When this is pitched, lose 1{h}.`,
       
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["IAR178"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["FAB508","IAR178"],
+    sets: [Release.Promos,Release.UsurpTheShadowThrone],
     specialImage: "IAR178",
     subtypes: [Subtype.Attack],
     types: [Type.Action],

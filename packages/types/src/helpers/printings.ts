@@ -127,6 +127,8 @@ const PRINTINGS_TO_IGNORE: string[] = [
   "JDG044-Full Art-Back",
 ];
 
+const IMAGE_PREFIXES_TO_IGNORE: string[] = ["JA_", "KO_"];
+
 export const getSpecialPrinting = (
   card: { cardIdentifier: string; name?: string },
   printings: Printing[],
@@ -188,7 +190,11 @@ export const getSpecialPrinting = (
       const hasImage = !!upperCaseImage;
       const isGoldFoil = foiling === Foiling.Gold;
       const isWhiteBorder = upperCaseImage.includes("HP");
-      const shouldIgnore = PRINTINGS_TO_IGNORE.includes(print);
+      const shouldIgnore =
+        PRINTINGS_TO_IGNORE.includes(print) ||
+        IMAGE_PREFIXES_TO_IGNORE.some((prefixToIgnore) =>
+          upperCaseImage.startsWith(prefixToIgnore),
+        );
       const shouldConsiderPrinting =
         hasImage &&
         !isMissingFunctionalText &&
