@@ -345,13 +345,17 @@ export enum Metatype {
   Rosetta = "Rosetta",
 }
 
-/** What a card is for: exactly one answer per card. */
+/**
+ * What a card is for: exactly one answer per card, or `Unknown` when it could
+ * not be classified.
+ */
 export enum CardRole {
   CardBack = "Card back",
   Deck = "Deck",
   Extra = "Extra",
   Hero = "Hero",
   Inventory = "Inventory",
+  Unknown = "Unknown",
 }
 
 export enum Type {

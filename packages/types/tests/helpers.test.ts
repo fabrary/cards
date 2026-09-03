@@ -3,6 +3,7 @@ import {
   getIsArenaCard,
   getIsDeckCard,
   getCardIdentifier,
+  getCardRole,
   getSpecialPrinting,
   getDefaultPrinting,
   getIsExtra,
@@ -11,6 +12,7 @@ import {
   getMaxRarityPrinting,
 } from "../src/helpers";
 import {
+  CardRole,
   Foiling,
   Keyword,
   Printing,
@@ -202,6 +204,48 @@ describe("Card types", () => {
 
     const isDeckCard = getIsDeckCard(crackedBauble);
     expect(isDeckCard).toEqual(true);
+  });
+});
+
+describe("Card roles", () => {
+  const cardRoles: [
+    string,
+    {
+      expected: CardRole;
+      isCardBack?: boolean;
+      types: Type[];
+    },
+  ][] = [
+    [
+      "A card with no types and no card back",
+      { expected: CardRole.Unknown, types: [] },
+    ],
+    ["An action", { expected: CardRole.Deck, types: [Type.Action] }],
+    ["A hero", { expected: CardRole.Hero, types: [Type.Hero] }],
+    ["A weapon", { expected: CardRole.Inventory, types: [Type.Weapon] }],
+    ["A token", { expected: CardRole.Extra, types: [Type.Token] }],
+    [
+      "A card back with no types",
+      { expected: CardRole.CardBack, isCardBack: true, types: [] },
+    ],
+    [
+      "A weapon on a card back",
+      { expected: CardRole.Inventory, isCardBack: true, types: [Type.Weapon] },
+    ],
+    [
+      "A resource on a card back",
+      { expected: CardRole.Deck, isCardBack: true, types: [Type.Resource] },
+    ],
+    [
+      "A hero on a card back",
+      { expected: CardRole.Hero, isCardBack: true, types: [Type.Hero] },
+    ],
+  ];
+
+  it.each(cardRoles)("%s", (_, { expected, isCardBack, types }) => {
+    const role = getCardRole({ isCardBack, types });
+
+    expect(role).toEqual(expected);
   });
 });
 
