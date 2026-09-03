@@ -3679,6 +3679,81 @@ You may play an aura with Runechant in its name from your banished zone this tur
   
   
   },{
+    artists: ["MJ Fetesio"],
+    cardIdentifier: "exorcism-red",
+    classes: [Class.Generic],
+    defaultImage: "IAR229",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    name: "Exorcism",
+    printings: [{
+        artists: ["MJ Fetesio"],
+      
+      identifier: "IAR229",
+      image: "IAR229",
+      
+      
+      print: "IAR229",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["MJ Fetesio"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR229",
+      image: "IAR229-RF",
+      
+      
+      print: "IAR229-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR229"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR229",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Your next attack this turn gets +3{p} and "When this hits a hero, turn all cards in their banished zone face-down."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "forsaken-strike-yellow",
     classes: [Class.Necromancer],
@@ -6300,6 +6375,81 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
     
     pitch: 1,
     power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Billy Christian"],
+    cardIdentifier: "restless-templar-red",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR059",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Restless Templar",
+    printings: [{
+        artists: ["Billy Christian"],
+      
+      identifier: "IAR059",
+      image: "IAR059",
+      
+      
+      print: "IAR059",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Billy Christian"],
+      foiling: Foiling.Cold,
+      identifier: "IAR059",
+      image: "IAR059-MV",
+      
+      
+      print: "IAR059-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR059"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR059-MV",
+    subtypes: [Subtype.Ally,Subtype.NonAttack,Subtype.Zombie],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Zombie Ally",
+
+    
+    
+    cost: 0,createdExtras: ["gate-to-iarathael"],
+    
+    
+    functionalText: `Whenever a zombie you control with decay dies, create a Gate to i'Arathael token.
+
+**Decay**`,
+    
+    
+    
+    
+    keywords: [Keyword.Decay],
+    
+    life: 3,
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 3,referencedCards: ["gate-to-iarathael"],
     
     
     
