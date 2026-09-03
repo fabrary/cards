@@ -75505,6 +75505,83 @@ At the start of each hero's turn, they lose {h} equal to the number of Frostbite
   
   
   },{
+    artists: ["Ismatulloh"],
+    cardIdentifier: "channel-stormgarden-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR257",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Channel Stormgarden",
+    printings: [{
+        artists: ["Ismatulloh"],
+      
+      identifier: "IAR257",
+      image: "IAR257",
+      isExpansionSlot: true,
+      
+      print: "IAR257",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Ismatulloh"],
+      foiling: Foiling.Cold,
+      identifier: "IAR257",
+      image: "IAR257-CF",
+      isExpansionSlot: true,
+      
+      print: "IAR257-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR257"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR257-CF",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Instant - Aura",
+
+    
+    
+    cost: 0,createdExtras: ["lightning-flow"],
+    defense: 3,
+    
+    functionalText: `When this enters the arena, create a Lightning Flow token.
+
+The first time you destroy a Lightning Flow each turn, **amp 1**.
+
+**Channel Lightning** - At the beginning of your end phase, put a flow counter on this, then destroy it unless you put a Lightning card from your pitch zone on the bottom of your deck for each flow counter on it.`,
+    
+    
+    
+    
+    keywords: [Keyword.Amp,Keyword.Channel],
+    
+    
+    meta: [Meta.Deck,Meta.Expansion],
+  
+    
+    pitch: 2,
+    referencedCards: ["lightning-flow"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "channel-the-bleak-expanse-blue",
     classes: [Class.NotClassed],
@@ -81014,7 +81091,8 @@ Cintari Sellsword can only attack if you've attacked with a weapon this turn.`,
     
   
   
-  },{
+  }];
+const cards2: Card[] = [{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "circlet-of-eternal-end",
     classes: [Class.Generic],
@@ -81113,8 +81191,7 @@ Cintari Sellsword can only attack if you've attacked with a weapon this turn.`,
     
   
   
-  }];
-const cards2: Card[] = [{
+  },{
     artists: ["Amirul HHF"],
     cardIdentifier: "circular-flowtide-yellow",
     classes: [Class.Illusionist],
@@ -159747,7 +159824,8 @@ When this is banished from **boosting**, put a steam counter on an item you cont
     
   
   
-  },{
+  }];
+const cards3: Card[] = [{
     artists: ["Sandeep Karunakaran"],
     cardIdentifier: "fasting-carcass-red",
     classes: [Class.NotClassed],
@@ -159830,8 +159908,7 @@ When this is banished from **boosting**, put a steam counter on an item you cont
     talents: [Talent.Shadow],
   
   
-  }];
-const cards3: Card[] = [{
+  },{
     artists: ["Sandeep Karunakaran"],
     cardIdentifier: "fasting-carcass-yellow",
     classes: [Class.NotClassed],
@@ -241198,7 +241275,8 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
     
   
   
-  },{
+  }];
+const cards4: Card[] = [{
     artists: ["soyameii"],
     cardIdentifier: "kassai",
     classes: [Class.Warrior],
@@ -241309,8 +241387,7 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
     
   
   young: true
-  }];
-const cards4: Card[] = [{
+  },{
     artists: ["Alexander Mokhov","Sam Yang"],
     cardIdentifier: "kassai-of-the-golden-sand",
     classes: [Class.Warrior],
@@ -322906,7 +322983,8 @@ Earth, Ice, and Elemental action cards get +1{d} while defending this turn.`,
     talents: [Talent.Earth,Talent.Ice],
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Milena Vasyukova"],
     cardIdentifier: "pulse-of-volthaven-red",
     classes: [Class.NotClassed],
@@ -323017,8 +323095,7 @@ Your next Lightning, Ice or Elemental attack this turn gains +4{p}.`,
     talents: [Talent.Ice,Talent.Lightning],
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "pulsewave-harpoon-red",
     classes: [Class.Mechanologist],
@@ -403650,7 +403727,8 @@ Target attack action card gets **go again**.`,
     
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Petrinda Wiyugo"],
     cardIdentifier: "small-blinder-yellow",
     classes: [Class.Warrior],
@@ -403729,8 +403807,7 @@ Target attack action card gets **go again**.`,
     
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Petrinda Wiyugo"],
     cardIdentifier: "small-blinder-blue",
     classes: [Class.Warrior],
@@ -482785,7 +482862,8 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
     
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Camille Alquier"],
     cardIdentifier: "vigorous-windup-blue",
     classes: [Class.Guardian,Class.Warrior],
@@ -482864,8 +482942,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
     
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "vile-inquisition-red",
     classes: [Class.NotClassed],

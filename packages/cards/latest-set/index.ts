@@ -1703,6 +1703,83 @@ At the start of each turn, destroy this unless you put a zombie from your banish
   
   
   },{
+    artists: ["Ismatulloh"],
+    cardIdentifier: "channel-stormgarden-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR257",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Channel Stormgarden",
+    printings: [{
+        artists: ["Ismatulloh"],
+      
+      identifier: "IAR257",
+      image: "IAR257",
+      isExpansionSlot: true,
+      
+      print: "IAR257",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Ismatulloh"],
+      foiling: Foiling.Cold,
+      identifier: "IAR257",
+      image: "IAR257-CF",
+      isExpansionSlot: true,
+      
+      print: "IAR257-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR257"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR257-CF",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Instant - Aura",
+
+    
+    
+    cost: 0,createdExtras: ["lightning-flow"],
+    defense: 3,
+    
+    functionalText: `When this enters the arena, create a Lightning Flow token.
+
+The first time you destroy a Lightning Flow each turn, **amp 1**.
+
+**Channel Lightning** - At the beginning of your end phase, put a flow counter on this, then destroy it unless you put a Lightning card from your pitch zone on the bottom of your deck for each flow counter on it.`,
+    
+    
+    
+    
+    keywords: [Keyword.Amp,Keyword.Channel],
+    
+    
+    meta: [Meta.Deck,Meta.Expansion],
+  
+    
+    pitch: 2,
+    referencedCards: ["lightning-flow"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "circlet-of-eternal-end",
     classes: [Class.Generic],
