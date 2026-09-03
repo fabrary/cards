@@ -5,7 +5,6 @@ import {
   Card,
   CardRole,
   getCardRole,
-  getIsDeckCard,
   getPrint,
   Printing,
   Trait,
@@ -109,17 +108,14 @@ describe("All required fields present", () => {
 });
 
 describe("Every card has a positively identified role", () => {
-  // `getCardRole` falls back to the deck role when no role test matches, so a
-  // card with no types and no card-back flag would silently count as a deck
-  // card downstream. This trips on the first such card, typically a spoiler
-  // entered without its types.
-  it("no card reaches the deck role without being a deck card", () => {
-    const fallbackDeckCards = cardsToPublish
-      .filter(
-        (card) => getCardRole(card) === CardRole.Deck && !getIsDeckCard(card),
-      )
+  // A card with no types and no card-back flag, typically a spoiler entered
+  // without its types, matches no role test and would reach consumers
+  // unclassified. This trips on the first such card.
+  it("no card has an unknown role", () => {
+    const unclassifiedCards = cardsToPublish
+      .filter((card) => getCardRole(card) === CardRole.Unknown)
       .map(({ name, cardIdentifier }) => `${name} (${cardIdentifier})`);
-    expect(fallbackDeckCards).toEqual([]);
+    expect(unclassifiedCards).toEqual([]);
   });
 });
 

@@ -352,6 +352,7 @@ export enum CardRole {
   Extra = "Extra",
   Hero = "Hero",
   Inventory = "Inventory",
+  Unknown = "Unknown",
 }
 
 export enum Type {

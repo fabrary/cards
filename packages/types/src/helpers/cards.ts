@@ -209,10 +209,11 @@ export const getCanAddToDeck = (card: Card) => {
 /**
  * What the card is for, as one answer rather than a predicate per question.
  * A card has exactly one role: Graphene Chelicera is a Token Weapon and counts
- * as an extra, because the role decides what a deck brings.
+ * as an extra, because the role decides what a deck brings. The unknown role
+ * means the card could not be classified.
  */
 export const getCardRole = (card: Card): CardRole => {
-  let role = CardRole.Deck;
+  let role = CardRole.Unknown;
 
   if (getIsExtra(card)) {
     role = CardRole.Extra;
@@ -220,7 +221,9 @@ export const getCardRole = (card: Card): CardRole => {
     role = CardRole.Hero;
   } else if (getIsArenaCard(card)) {
     role = CardRole.Inventory;
-  } else if (!getIsDeckCard(card) && card.isCardBack) {
+  } else if (getIsDeckCard(card)) {
+    role = CardRole.Deck;
+  } else if (card.isCardBack) {
     // Last, because being printed on a back is a separate axis from what a card
     // is: Bank Breaker is a weapon, Viserai, Usurper a hero and Inner Chi a
     // resource, all on backs, and `isCardBack` answers that alongside the role.
