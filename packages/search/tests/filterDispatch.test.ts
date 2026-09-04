@@ -7,7 +7,7 @@ import {
   getFilterCategory,
 } from "../src/filterMappings";
 import { getKeywordsAndAppliedFiltersFromText } from "../src/filters";
-import { getMetaFilters } from "../src/metaFilters";
+import { getMetaFilterResolution } from "../src/metaFilters";
 import { getCatalogueIndex } from "../src/searchIndex";
 import {
   aliasesByCategoryName,
@@ -97,21 +97,12 @@ describe("Every alias of a filter takes the same branch", () => {
     "%s expands alike from every alias",
     (category: FilterCategory) => {
       const [firstAlias, ...otherAliases] = aliasesByFilterCategory[category];
-      const values = [VALUE_BY_CATEGORY[category]];
-      const fromFirstAlias = getMetaFilters(
-        false,
-        false,
-        firstAlias,
-        values,
-        "",
-        [],
-      );
+      const values = [{ value: VALUE_BY_CATEGORY[category] }];
+      const fromFirstAlias = getMetaFilterResolution(firstAlias, values);
 
-      expect(fromFirstAlias.length).toBeGreaterThan(0);
+      expect(fromFirstAlias.appliedFilters.length).toBeGreaterThan(0);
       for (const alias of otherAliases) {
-        expect(getMetaFilters(false, false, alias, values, "", [])).toEqual(
-          fromFirstAlias,
-        );
+        expect(getMetaFilterResolution(alias, values)).toEqual(fromFirstAlias);
       }
     },
   );

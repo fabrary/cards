@@ -11,8 +11,30 @@ describe("Every hero has a legal filter", () => {
       .toLowerCase()
       .replace(PUNCTUATION, "");
 
-    const filters = getMetaFilters(false, false, "l", [heroFilter], "", []);
-    expect(filters.length).toBeGreaterThan(0);
+    const appliedFilters = getMetaFilters(
+      false,
+      false,
+      "l",
+      [heroFilter],
+      undefined,
+      [],
+    );
+    expect(appliedFilters.length).toBeGreaterThan(0);
+  });
+
+  it("expands the values it is given behind one comparison", () => {
+    const rankedFromMajestic = getMetaFilters(
+      false,
+      false,
+      "r",
+      ["majestic"],
+      ">=",
+      [],
+    );
+
+    expect(rankedFromMajestic.map(({ values }) => values)).toEqual([
+      ["majestic", "legendary", "fabled"],
+    ]);
   });
 });
 

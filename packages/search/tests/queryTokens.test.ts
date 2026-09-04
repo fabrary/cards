@@ -3,6 +3,8 @@ import { FilterCategory } from "../src/filterMappings";
 import { filterAliases, filterMappingsByAlias } from "./_filterMappings";
 import {
   getFilterTokenSpansForKey,
+  getFilterValue,
+  getIncompleteFilterToken,
   getIsExcludedToken,
   getQueryFilterToken,
   getQueryTokenSpans,
@@ -89,6 +91,17 @@ describe("getQueryFilterToken", () => {
     expect(getQueryFilterToken("c:brute,guardian")?.isAndList).toBe(false);
   });
 
+  it("reads a quoted plus as part of the value rather than a join", () => {
+    expect(getQueryFilterToken('n:"nitro+mechanica"')?.isAndList).toBe(false);
+    expect(getQueryFilterToken('n:"nitro+mechanica"+arrow')?.isAndList).toBe(
+      true,
+    );
+  });
+
+  it("reads a plus behind a quote left open as part of the value", () => {
+    expect(getQueryFilterToken('n:"nitro+mechanica')?.isAndList).toBe(false);
+  });
+
   it("keeps the quotes of a quoted value", () => {
     expect(getQueryFilterToken('n:"rise up, together"')?.valueText).toBe(
       '"rise up, together"',
@@ -101,6 +114,48 @@ describe("getQueryFilterToken", () => {
     expect(getQueryFilterToken(":brute")).toBeUndefined();
     expect(getQueryFilterToken("x2:foo")).toBeUndefined();
     expect(getQueryFilterToken("c-:brute")).toBeUndefined();
+  });
+});
+
+describe("getIncompleteFilterToken", () => {
+  it("reads the key of a term written with no value yet", () => {
+    expect(getIncompleteFilterToken("c:")).toEqual({
+      isAndList: false,
+      isExcluded: false,
+      key: "c",
+      valueText: "",
+    });
+    expect(getIncompleteFilterToken("-c:")?.isExcluded).toBe(true);
+  });
+
+  it("answers with nothing for a term that wrote a value", () => {
+    expect(getIncompleteFilterToken("c:brute")).toBeUndefined();
+  });
+
+  it("answers with nothing for free text carrying a colon", () => {
+    expect(getIncompleteFilterToken(":")).toBeUndefined();
+    expect(getIncompleteFilterToken("x2:")).toBeUndefined();
+    expect(getIncompleteFilterToken("brute")).toBeUndefined();
+  });
+});
+
+describe("getFilterValue", () => {
+  it("reads the comparison standing in front of a value", () => {
+    expect(getFilterValue(">=3")).toEqual({ modifier: ">=", value: "3" });
+    expect(getFilterValue(">3")).toEqual({ modifier: ">", value: "3" });
+    expect(getFilterValue("<=3")).toEqual({ modifier: "<=", value: "3" });
+    expect(getFilterValue("<3")).toEqual({ modifier: "<", value: "3" });
+  });
+
+  it("reads a value written with no comparison", () => {
+    expect(getFilterValue("3")).toEqual({ modifier: undefined, value: "3" });
+  });
+
+  it("reads a comparison only where it stands in front", () => {
+    expect(getFilterValue("a>b")).toEqual({
+      modifier: undefined,
+      value: "a>b",
+    });
   });
 });
 
@@ -168,9 +223,28 @@ describe("getValuePartsFromFilterValue", () => {
     ]);
   });
 
-  it("keeps a comma inside quotes out of the split", () => {
+  it("splits a plus AND list, quotes as written", () => {
+    expect(getValuePartsFromFilterValue('dominate+"blood debt"')).toEqual([
+      "dominate",
+      '"blood debt"',
+    ]);
+  });
+
+  it("keeps a separator inside quotes out of the split", () => {
     expect(getValuePartsFromFilterValue('"rise up, together"')).toEqual([
       '"rise up, together"',
+    ]);
+    expect(getValuePartsFromFilterValue('"nitro+mechanica"')).toEqual([
+      '"nitro+mechanica"',
+    ]);
+  });
+
+  it("keeps a separator behind a quote left open out of the split", () => {
+    expect(getValuePartsFromFilterValue('"rise up, together')).toEqual([
+      '"rise up, together',
+    ]);
+    expect(getValuePartsFromFilterValue('"nitro+mechanica')).toEqual([
+      '"nitro+mechanica',
     ]);
   });
 
@@ -189,6 +263,12 @@ describe("getValuesFromFilterValue", () => {
 
   it("drops a part holding nothing but its quotes", () => {
     expect(getValuesFromFilterValue('brute,""')).toEqual(["brute"]);
+  });
+
+  it("runs a quote left open to the end of the value", () => {
+    expect(getValuesFromFilterValue('"chane, bound by shadow')).toEqual([
+      "chane, bound by shadow",
+    ]);
   });
 });
 

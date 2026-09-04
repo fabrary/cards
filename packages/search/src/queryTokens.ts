@@ -3,7 +3,12 @@
 // quoted value, so everything reading query text without parsing it comes
 // through here.
 
-import { availableExclusions, getFilterCategory } from "./filterMappings.js";
+import {
+  availableExclusions,
+  availableModifiers,
+  getFilterCategory,
+} from "./filterMappings.js";
+import type { FilterValue, Modifier } from "./filterMappings.js";
 import { getEscapedForRegExp } from "./helpers.js";
 
 export interface QueryTokenSpan {
@@ -34,7 +39,56 @@ const TOKEN_PATTERN = /(?:[^\s"]+|"[^"]*(?:"|$))+/g;
 const FILTER_TOKEN_PATTERN = new RegExp(
   `^([${EXCLUSION_CHARACTERS}])?([A-Za-z]+):(.+)$`,
 );
-const VALUE_PART_PATTERN = /"[^"]*"|[^,]+/g;
+const INCOMPLETE_FILTER_TOKEN_PATTERN = new RegExp(
+  `^([${EXCLUSION_CHARACTERS}])?([A-Za-z]+):$`,
+);
+
+const OR_SEPARATOR = ",";
+const AND_SEPARATOR = "+";
+const QUOTE = '"';
+
+/** The parts a filter value holds, and the separator standing between them. */
+interface FilterValueParts {
+  isAndList: boolean;
+  parts: string[];
+}
+
+/**
+ * A filter value read part by part. A quoted run stands as one part, so the
+ * separators inside it are the value's own characters rather than the
+ * grammar's, and a quote left open holds the rest of the value the same way.
+ */
+const getFilterValueParts = (filterValue: string): FilterValueParts => {
+  const parts: string[] = [];
+  let isAndList = false;
+  let part = "";
+  let isInsideQuotes = false;
+
+  for (const character of filterValue) {
+    const isSeparator =
+      !isInsideQuotes &&
+      (character === OR_SEPARATOR || character === AND_SEPARATOR);
+
+    if (character === QUOTE) {
+      isInsideQuotes = !isInsideQuotes;
+      part += character;
+    } else if (isSeparator) {
+      isAndList = isAndList || character === AND_SEPARATOR;
+      if (part) {
+        parts.push(part);
+      }
+      part = "";
+    } else {
+      part += character;
+    }
+  }
+
+  if (part) {
+    parts.push(part);
+  }
+
+  return { isAndList, parts };
+};
 
 export const getQueryTokenSpans = (text: string): QueryTokenSpan[] => {
   const spans: QueryTokenSpan[] = [];
@@ -57,14 +111,52 @@ export const getQueryFilterToken = (
   const match = token.match(FILTER_TOKEN_PATTERN);
   let filterToken: QueryFilterToken | undefined;
   if (match) {
+    const [, exclusion, key, valueText] = match;
     filterToken = {
-      isAndList: match[3].includes("+"),
-      isExcluded: !!match[1],
-      key: match[2],
-      valueText: match[3],
+      isAndList: getFilterValueParts(valueText).isAndList,
+      isExcluded: !!exclusion,
+      key,
+      valueText,
     };
   }
   return filterToken;
+};
+
+/**
+ * A key written with no value behind it, which is a reader partway through
+ * typing one rather than a term asking for anything. Answers with the key so a
+ * consumer can tell it from free text carrying a colon.
+ */
+export const getIncompleteFilterToken = (
+  token: string,
+): QueryFilterToken | undefined => {
+  const match = token.match(INCOMPLETE_FILTER_TOKEN_PATTERN);
+  let filterToken: QueryFilterToken | undefined;
+  if (match) {
+    filterToken = {
+      isAndList: false,
+      isExcluded: !!match[1],
+      key: match[2],
+      valueText: "",
+    };
+  }
+  return filterToken;
+};
+
+/**
+ * A value part as the grammar reads it: the comparison standing in front of the
+ * value, and the value behind it.
+ */
+export const getFilterValue = (valuePart: string): FilterValue => {
+  const writtenValue = valuePart.trim();
+  const modifier: Modifier | undefined = availableModifiers.find(
+    (availableModifier) => writtenValue.startsWith(availableModifier),
+  );
+
+  return {
+    modifier,
+    value: modifier ? writtenValue.slice(modifier.length).trim() : writtenValue,
+  };
 };
 
 /**
@@ -91,10 +183,13 @@ export const getFilterTokenSpansForKey = (
   return spans;
 };
 
-// The raw comma-separated parts of a filter value, quotes as written, so an
-// edit can put the untouched ones back byte for byte.
+/**
+ * The parts of a filter value, quotes as written, so an edit can put the
+ * untouched ones back byte for byte. Either separator splits them, and a
+ * token's `isAndList` says which one the value was written with.
+ */
 export const getValuePartsFromFilterValue = (filterValue: string): string[] =>
-  filterValue.match(VALUE_PART_PATTERN) || [];
+  getFilterValueParts(filterValue).parts;
 
 export const getUnquotedValue = (valuePart: string): string =>
   valuePart.replace(/^"|"$/g, "");

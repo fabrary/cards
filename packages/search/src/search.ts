@@ -1,19 +1,23 @@
 import {
   Card,
   DoubleSidedCard,
-  Foiling,
   Hero,
   Printing,
   Release,
-  Treatment,
 } from "@flesh-and-blood/types";
 import Fuse from "fuse.js";
 import { PUNCTUATION } from "./constants.js";
-import { CardPropertyName, NO_CARD_PROPERTY } from "./filterMappings.js";
 import {
   AppliedFilter,
-  getKeywordsAndAppliedFiltersFromText,
-} from "./filters.js";
+  CardPropertyName,
+  Modifier,
+  NO_CARD_PROPERTY,
+} from "./filterMappings.js";
+import {
+  getParsedQuery,
+  QueryAttributes,
+  UnresolvedFilter,
+} from "./queryParse.js";
 import { memes } from "./memes.js";
 import { getNormalizedText, getTextWithoutMarkup } from "./helpers.js";
 import { releasesBySetIdentifier, setIdentifiersByRelease } from "./lookups.js";
@@ -42,14 +46,13 @@ export interface SearchOptions {
 export interface SearchResults {
   appliedFilters: AppliedFilter[];
   keywords: string[];
-  attributes: {
-    artists: string[];
-    foilings: Foiling[];
-    prints: string[];
-    releases: Release[];
-    treatments: Treatment[];
-  };
+  attributes: QueryAttributes;
   searchResults: SearchCard[];
+  /**
+   * The filters the parse could not place, which asked nothing of these
+   * results. A reader is told rather than left with a search that widened.
+   */
+  unresolvedFilters: UnresolvedFilter[];
 }
 
 const searchOptions: Fuse.IFuseOptions<DoubleSidedCard> = {
@@ -135,13 +138,11 @@ class Search {
   search = (text: string, includeMemes?: boolean): SearchResults => {
     let results: DoubleSidedCard[];
 
-    const { appliedFilters, attributes, keywords } =
-      getKeywordsAndAppliedFiltersFromText(
-        text,
-        this.index,
-        this.additionalHeroes,
-        this.additionalSets,
-      );
+    const { appliedFilters, attributes, keywords, unresolvedFilters } =
+      getParsedQuery(text, this.index, {
+        additionalHeroes: this.additionalHeroes,
+        additionalSets: this.additionalSets,
+      });
 
     const keyword = keywords.join(" ");
     const matchingMemes = includeMemes
@@ -315,6 +316,7 @@ class Search {
       attributes,
       keywords,
       searchResults,
+      unresolvedFilters,
     };
   };
 }
@@ -325,147 +327,113 @@ export const filterCard = (
   card: Card,
   appliedFilters: AppliedFilter[],
 ): boolean => {
-  let doesCardMatchAllRequiredFilters = true;
-  let _doesCardMatchAnyOptionalFilters = false;
+  let doesCardMatchEveryFilter = true;
 
   for (const appliedFilter of appliedFilters) {
-    const isOptional = appliedFilter.isOptional;
     const { isNumber, isString, isArray, isBoolean, isDate } =
       appliedFilter.filterToPropertyMapping;
 
-    if (isNumber) {
-      const cardMatchesNumericFilter = getDoesCardMatchNumericFilter(
-        card,
-        appliedFilter,
-      );
-      if (isOptional) {
-        if (cardMatchesNumericFilter) {
-          _doesCardMatchAnyOptionalFilters = true;
-        }
-      } else {
-        doesCardMatchAllRequiredFilters =
-          doesCardMatchAllRequiredFilters && cardMatchesNumericFilter;
-      }
-    } else if (isString) {
-      const cardMatchesStringFilter = getDoesCardMatchStringFilter(
-        card,
-        appliedFilter,
-      );
-      if (isOptional) {
-        if (cardMatchesStringFilter) {
-          _doesCardMatchAnyOptionalFilters = true;
-        }
-      } else {
-        doesCardMatchAllRequiredFilters =
-          doesCardMatchAllRequiredFilters && cardMatchesStringFilter;
-      }
-    } else if (isArray) {
-      const cardMatchesArrayFilter = getDoesCardMatchArrayFilter(
-        card,
-        appliedFilter,
-        appliedFilters,
-      );
-      if (isOptional) {
-        if (cardMatchesArrayFilter) {
-          _doesCardMatchAnyOptionalFilters = true;
-        }
-      } else {
-        doesCardMatchAllRequiredFilters =
-          doesCardMatchAllRequiredFilters && cardMatchesArrayFilter;
-      }
-    } else if (isBoolean) {
-      const cardMatchesBooleanFilter = getDoesCardMatchBooleanFilter(
-        card,
-        appliedFilter,
-      );
-      if (isOptional) {
-        if (cardMatchesBooleanFilter) {
-          _doesCardMatchAnyOptionalFilters = true;
-        }
-      } else {
-        doesCardMatchAllRequiredFilters =
-          doesCardMatchAllRequiredFilters && cardMatchesBooleanFilter;
-      }
-    } else if (isDate) {
-      const cardMatchesDateFilter = getDoesCardMatchDateFilter(
-        card,
-        appliedFilter,
-      );
-      if (isOptional) {
-        if (cardMatchesDateFilter) {
-          _doesCardMatchAnyOptionalFilters = true;
-        }
-      } else {
-        doesCardMatchAllRequiredFilters =
-          doesCardMatchAllRequiredFilters && cardMatchesDateFilter;
+    // A filter a consumer marked optional narrows nothing: the engine writes
+    // none and there is no other filter for one to widen.
+    if (!appliedFilter.isOptional) {
+      if (isNumber) {
+        doesCardMatchEveryFilter =
+          doesCardMatchEveryFilter &&
+          getDoesCardMatchNumericFilter(card, appliedFilter);
+      } else if (isString) {
+        doesCardMatchEveryFilter =
+          doesCardMatchEveryFilter &&
+          getDoesCardMatchStringFilter(card, appliedFilter);
+      } else if (isArray) {
+        doesCardMatchEveryFilter =
+          doesCardMatchEveryFilter &&
+          getDoesCardMatchArrayFilter(card, appliedFilter, appliedFilters);
+      } else if (isBoolean) {
+        doesCardMatchEveryFilter =
+          doesCardMatchEveryFilter &&
+          getDoesCardMatchBooleanFilter(card, appliedFilter);
+      } else if (isDate) {
+        doesCardMatchEveryFilter =
+          doesCardMatchEveryFilter &&
+          getDoesCardMatchDateFilter(card, appliedFilter);
       }
     }
   }
 
-  return doesCardMatchAllRequiredFilters;
+  return doesCardMatchEveryFilter;
+};
+
+// The card's number against one the query wrote, read the way the comparison
+// standing in front of that value asks for.
+const getDoesNumberMatch = (
+  cardValue: number,
+  filterValue: string,
+  modifier?: Modifier,
+): boolean => {
+  const value = parseInt(filterValue);
+
+  let isMatch: boolean;
+  switch (modifier) {
+    case ">=":
+      isMatch = cardValue >= value;
+      break;
+    case ">":
+      isMatch = cardValue > value;
+      break;
+    case "<=":
+      isMatch = cardValue <= value;
+      break;
+    case "<":
+      isMatch = cardValue < value;
+      break;
+    default:
+      isMatch = cardValue === value;
+  }
+
+  return isMatch;
 };
 
 const getDoesCardMatchNumericFilter = (
   card: Card,
   filter: AppliedFilter,
 ): boolean => {
-  if (!doesFilterMatchCardType(filter, card)) {
-    return true;
-  } else {
-    const {
-      values,
-      modifier,
-      isExcluded: excluded,
-      filterToPropertyMapping: { partialMatch },
-    } = filter;
-    let cardValue: number = getCardValue(card, filter) as number;
-    if (cardValue != null && !isNaN(cardValue as number)) {
-      cardValue = parseInt(cardValue as unknown as string) as number;
-      if (modifier) {
-        switch (modifier) {
-          case ">=": {
-            const isGreatherThanOrEqualTo = values?.some(
-              (filterValue) => cardValue >= parseInt(filterValue),
-            );
-            return excluded
-              ? !isGreatherThanOrEqualTo
-              : isGreatherThanOrEqualTo;
-          }
-          case ">": {
-            const isGreatherThan = values?.some(
-              (filterValue) => cardValue > parseInt(filterValue),
-            );
-            return excluded ? !isGreatherThan : isGreatherThan;
-          }
-          case "<=": {
-            const isLessThanOrEqualTo = values?.some(
-              (filterValue) => cardValue <= parseInt(filterValue),
-            );
-            return excluded ? !isLessThanOrEqualTo : isLessThanOrEqualTo;
-          }
-          case "<": {
-            const isLessThan = values?.some(
-              (filterValue) => cardValue < parseInt(filterValue),
-            );
-            return excluded ? !isLessThan : isLessThan;
-          }
-          default:
-            return false;
-        }
-      } else {
-        const isEqualTo = values?.some(
-          (filterValue) => cardValue === parseInt(filterValue),
-        );
-        return excluded ? !isEqualTo : isEqualTo;
-      }
+  const {
+    filterValues,
+    values,
+    modifier,
+    isExcluded,
+    filterToPropertyMapping: { partialMatch },
+  } = filter;
+
+  let isMatch = true;
+  if (doesFilterMatchCardType(filter, card)) {
+    const storedValue = getCardValue(card, filter) as number;
+    let matchesValue: boolean;
+
+    if (storedValue != null && !isNaN(storedValue)) {
+      const cardValue = parseInt(storedValue as unknown as string);
+      // Each value carries its own comparison where the query wrote them; the
+      // filters the parse expands into carry one comparison for all of them.
+      matchesValue = filterValues
+        ? filterValues.some(({ modifier: valueModifier, value }) =>
+            getDoesNumberMatch(cardValue, value, valueModifier),
+          )
+        : values.some((filterValue) =>
+            getDoesNumberMatch(cardValue, filterValue, modifier),
+          );
     } else {
       const cardSpecialValue = getCardSpecialValue(card, filter)?.toLowerCase();
-      const isMatch = partialMatch
-        ? values?.some((filterValue) => cardSpecialValue?.includes(filterValue))
-        : values?.some((filterValue) => cardSpecialValue === filterValue);
-      return excluded ? !isMatch : isMatch;
+      matchesValue = partialMatch
+        ? values.some(
+            (filterValue) => !!cardSpecialValue?.includes(filterValue),
+          )
+        : values.some((filterValue) => cardSpecialValue === filterValue);
     }
+
+    isMatch = isExcluded ? !matchesValue : matchesValue;
   }
+
+  return isMatch;
 };
 
 const getDoesCardMatchStringFilter = (

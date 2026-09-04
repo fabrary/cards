@@ -2,10 +2,13 @@ import { Format, Hero, Talent } from "@flesh-and-blood/types";
 import { PUNCTUATION } from "./constants.js";
 import { getLookupWithoutInheritedKeys } from "./lookups.js";
 import {
+  aliasesByFilterCategory,
+  availableExclusions,
   FilterCategory,
   getFilterCategory,
-  type CardPropertyMapping,
+  type AppliedFilter,
   type CardPropertyName,
+  type FilterValue,
   type Modifier,
 } from "./filterMappings.js";
 
@@ -17,17 +20,20 @@ export const FilterProperty = {
 
 const oneToFifty = Array.from(Array(50).keys()).map((value) => `${value}`);
 
-interface AppliedFilter {
-  filterToPropertyMapping: CardPropertyMapping;
-  values: string[];
-  isAnd?: boolean;
-  isExcluded?: boolean;
-  isOptional?: boolean;
-  isOr?: boolean;
-  isAdditional?: boolean;
-  modifier?: Modifier;
-  cardTypes?: string[];
+/**
+ * What a meta key asked for: the filters it expanded into, and the values it
+ * could not place, which name no format, hero or rarity.
+ */
+export interface MetaFilterResolution {
+  appliedFilters: AppliedFilter[];
+  unresolvedValues: string[];
 }
+
+export interface MetaFilterOptions {
+  additionalHeroes?: Hero[];
+  isExcluded?: boolean;
+}
+
 const nicknameFormatMappings: {
   format: Format;
   nicknames?: string[];
@@ -117,67 +123,44 @@ const rankedRarity = [
   "fabled",
 ];
 
+// The rarities a comparison reaches from the one it names, which is a walk
+// along the ranking rather than a comparison of numbers.
+const getRankedRaritiesFromValue = ({
+  modifier,
+  value,
+}: FilterValue): string[] => {
+  const rarities: string[] = [];
+  const isDescending = modifier === "<" || modifier === "<=";
+  const isInclusive = modifier === ">=" || modifier === "<=";
+  const rankedFromValue = isDescending
+    ? [...rankedRarity].reverse()
+    : rankedRarity;
+
+  let hasReachedValue = false;
+  for (const rarity of rankedFromValue) {
+    if (hasReachedValue) {
+      rarities.push(rarity);
+    } else if (rarity === value) {
+      hasReachedValue = true;
+      if (isInclusive) {
+        rarities.push(rarity);
+      }
+    }
+  }
+
+  return rarities;
+};
+
 const getRarityFilter = (
-  values: string[],
-  modifier: string,
+  values: FilterValue[],
   isExcluded: boolean,
-  isOptional: boolean,
 ): AppliedFilter => {
   const rarities: string[] = [];
-  if (!modifier) {
-    rarities.push(...values);
-  } else {
-    for (const value of values) {
-      switch (modifier) {
-        case ">=": {
-          let start = false;
-          for (const rarity of rankedRarity) {
-            if (start) {
-              rarities.push(rarity);
-            } else if (rarity === value) {
-              start = true;
-              rarities.push(rarity);
-            }
-          }
-          break;
-        }
-        case ">": {
-          let start2 = false;
-          for (const rarity of rankedRarity) {
-            if (start2) {
-              rarities.push(rarity);
-            } else if (rarity === value) {
-              start2 = true;
-            }
-          }
-          break;
-        }
-        case "<=": {
-          let start3 = false;
-          for (const rarity of rankedRarity.slice().reverse()) {
-            if (start3) {
-              rarities.push(rarity);
-            } else if (rarity === value) {
-              start3 = true;
-              rarities.push(rarity);
-            }
-          }
-          break;
-        }
-        case "<": {
-          let start4 = false;
-          for (const rarity of rankedRarity.slice().reverse()) {
-            if (start4) {
-              rarities.push(rarity);
-            } else if (rarity === value) {
-              start4 = true;
-            }
-          }
-          break;
-        }
-        default:
-          break;
-      }
+  for (const filterValue of values) {
+    if (filterValue.modifier) {
+      rarities.push(...getRankedRaritiesFromValue(filterValue));
+    } else {
+      rarities.push(filterValue.value);
     }
   }
 
@@ -188,29 +171,31 @@ const getRarityFilter = (
       isArray: true,
     },
     isExcluded,
-    isOptional,
     isOr: true,
     values: rarities,
   };
 };
 
-const getLegalFilters = (
-  values: string[],
+// A legality value names a format or a hero, and the same reading answers for
+// the formats a card is banned in, so the property the formats are matched
+// against is the caller's to name.
+const getLegalityFilters = (
+  values: FilterValue[],
   isExcluded: boolean,
-  isOptional: boolean,
   additionalHeroes: Hero[],
-  filterPropertyOverride?: CardPropertyName,
-) => {
+  formatProperty: CardPropertyName,
+): MetaFilterResolution => {
   const cleanAdditionalHeroes = additionalHeroes.map((hero) => ({
     hero: hero.toLowerCase().replaceAll(PUNCTUATION, ""),
   }));
 
-  const filters: AppliedFilter[] = [];
+  const appliedFilters: AppliedFilter[] = [];
 
   const formats: string[] = [];
   const heroes: string[] = [];
+  const unresolvedValues: string[] = [];
 
-  for (const value of values) {
+  for (const { value } of values) {
     const matchingFormat = formatMappings.find(({ format, nicknames }) => {
       const isAMatch =
         format === value || (!!nicknames && nicknames.includes(value));
@@ -230,24 +215,23 @@ const getLegalFilters = (
 
       if (matchingHero) {
         heroes.push(matchingHero.hero);
+      } else {
+        unresolvedValues.push(value);
       }
     }
   }
 
-  const filterProperty = filterPropertyOverride || "legalFormats";
-
   if (formats.length > 0) {
-    filters.push({
-      filterToPropertyMapping: { property: filterProperty, isArray: true },
+    appliedFilters.push({
+      filterToPropertyMapping: { property: formatProperty, isArray: true },
       values: formats,
       isOr: true,
       isExcluded,
-      isOptional,
     });
   }
 
   if (heroes.length > 0) {
-    filters.push({
+    appliedFilters.push({
       filterToPropertyMapping: {
         property: FilterProperty.LegalHeroes,
         isArray: true,
@@ -255,53 +239,70 @@ const getLegalFilters = (
       values: heroes,
       isOr: true,
       isExcluded,
-      isOptional,
     });
   }
 
-  return filters;
+  return { appliedFilters, unresolvedValues };
 };
 
-const getBannedFilters = (
-  values: string[],
-  isExcluded: boolean,
-  isOptional: boolean,
-  additionalHeroes: Hero[],
-) => {
-  return getLegalFilters(
-    values,
-    isExcluded,
-    isOptional,
-    additionalHeroes,
-    "bannedFormats",
-  );
-};
-
-export const getMetaFilters = (
-  isExcluded: boolean,
-  isOptional: boolean,
+/**
+ * The filters a meta key expands into. Its own values reach no card property:
+ * a legality value names a format or a hero, a rarity value a rank the
+ * printings carry, so each becomes filters of its own before a card is read.
+ */
+export const getMetaFilterResolution = (
   filterKey: string,
-  values: string[],
-  modifier: string,
-  additionalHeroes: Hero[],
-): AppliedFilter[] => {
-  const filters: AppliedFilter[] = [];
+  values: FilterValue[],
+  { additionalHeroes = [], isExcluded = false }: MetaFilterOptions = {},
+): MetaFilterResolution => {
   const filterCategory = getFilterCategory(filterKey);
 
+  let resolution: MetaFilterResolution = {
+    appliedFilters: [],
+    unresolvedValues: [],
+  };
   if (filterCategory === FilterCategory.Legal) {
-    filters.push(
-      ...getLegalFilters(values, isExcluded, isOptional, additionalHeroes),
+    resolution = getLegalityFilters(
+      values,
+      isExcluded,
+      additionalHeroes,
+      FilterProperty.LegalFormats,
     );
   } else if (filterCategory === FilterCategory.Banned) {
-    filters.push(
-      ...getBannedFilters(values, isExcluded, isOptional, additionalHeroes),
+    resolution = getLegalityFilters(
+      values,
+      isExcluded,
+      additionalHeroes,
+      FilterProperty.BannedFormats,
     );
   } else if (filterCategory === FilterCategory.Rarity) {
-    filters.push(getRarityFilter(values, modifier, isExcluded, isOptional));
+    resolution = {
+      appliedFilters: [getRarityFilter(values, isExcluded)],
+      unresolvedValues: [],
+    };
   }
 
-  return filters;
+  return resolution;
 };
+
+/**
+ * The same filters for a caller writing the values as plain strings behind one
+ * comparison. The optional flag reaches no filter and is read by nothing here;
+ * it stands in the signature for the consumers that pass it.
+ */
+export const getMetaFilters = (
+  isExcluded: boolean,
+  _isOptional: boolean,
+  filterKey: string,
+  values: string[],
+  modifier: Modifier | undefined,
+  additionalHeroes: Hero[],
+): AppliedFilter[] =>
+  getMetaFilterResolution(
+    filterKey,
+    values.map((value) => ({ modifier, value })),
+    { additionalHeroes, isExcluded },
+  ).appliedFilters;
 
 const noCost: AppliedFilter[] = [
   {
@@ -426,41 +427,38 @@ const noTalents: AppliedFilter[] = [
   },
 ];
 
-const excludedFilters = getLookupWithoutInheritedKeys<AppliedFilter[]>({
-  "!co": noCost,
-  "-co": noCost,
-  "!cost": noCost,
-  "-cost": noCost,
-  "!color": noCost,
-  "-color": noCost,
-  "!b": noDefense,
-  "-b": noDefense,
-  "!block": noDefense,
-  "-block": noDefense,
-  "!d": noDefense,
-  "-d": noDefense,
-  "!def": noDefense,
-  "-def": noDefense,
-  "!defense": noDefense,
-  "-defense": noDefense,
-  "!pitch": noPitch,
-  "-pitch": noPitch,
-  "!p": noPitch,
-  "-p": noPitch,
-  "!attack": noPower,
-  "-attack": noPower,
-  "!power": noPower,
-  "-power": noPower,
-  "!pwr": noPower,
-  "-pwr": noPower,
-  "!pow": noPower,
-  "-pow": noPower,
-  "!talents": noTalents,
-  "-talents": noTalents,
-  "!tal": noTalents,
-  "-tal": noTalents,
-});
+// The filters a bare excluded key applies, against the filter that key names,
+// so every spelling of that filter reaches them.
+const filtersByExcludedCategory: {
+  category: FilterCategory;
+  filters: AppliedFilter[];
+}[] = [
+  { category: FilterCategory.Cost, filters: noCost },
+  { category: FilterCategory.Defense, filters: noDefense },
+  { category: FilterCategory.Pitch, filters: noPitch },
+  { category: FilterCategory.Power, filters: noPower },
+  { category: FilterCategory.Talent, filters: noTalents },
+];
 
+const getExcludedFilters = (): { [key: string]: AppliedFilter[] } => {
+  const filtersByKey = getLookupWithoutInheritedKeys<AppliedFilter[]>({});
+  for (const { category, filters } of filtersByExcludedCategory) {
+    for (const alias of aliasesByFilterCategory[category]) {
+      for (const exclusion of availableExclusions) {
+        filtersByKey[`${exclusion}${alias}`] = filters;
+      }
+    }
+  }
+
+  return filtersByKey;
+};
+
+const excludedFilters = getExcludedFilters();
+
+/**
+ * What a key written with an exclusion and no value asks for: the card prints
+ * no value where that filter reads one.
+ */
 export const getExcludedMetaFilters = (filterKey: string) => {
   const filters: AppliedFilter[] = [];
   const matchingFilters = excludedFilters[filterKey];

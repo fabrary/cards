@@ -19,6 +19,7 @@ import {
   Treatment,
   Type,
 } from "@flesh-and-blood/types";
+import { getNormalizedFilterValue } from "./helpers.js";
 import { getLookupWithoutInheritedKeys } from "./lookups.js";
 
 /**
@@ -81,6 +82,16 @@ export type FilterKind = (typeof FilterKind)[keyof typeof FilterKind];
 export type Modifier = ">=" | ">" | "<=" | "<";
 export const availableModifiers: Modifier[] = [">=", ">", "<=", "<"];
 
+/**
+ * A value written against a filter, carrying the comparison written in front of
+ * it. Each value takes its own, so one term can ask for a cost of 1 or a cost
+ * above 2.
+ */
+export interface FilterValue {
+  modifier?: Modifier;
+  value: string;
+}
+
 export type Exclusion = "!" | "-";
 export const availableExclusions: Exclusion[] = ["!", "-"];
 
@@ -93,7 +104,7 @@ export type CardPropertyName = keyof Card;
 /**
  * The property of a mapping that reads no card field: a meta filter expands
  * into other filters before any card is read, and a relation filter matches
- * the identifiers the parser resolved.
+ * the identifiers the parse resolved.
  */
 export const NO_CARD_PROPERTY = "n/a";
 
@@ -109,7 +120,7 @@ export type CardSpecialPropertyName =
   | "specialPower";
 
 /**
- * How a card property is read and compared. The parser builds some of these
+ * How a card property is read and compared. The parse builds some of these
  * for itself, expanding a meta filter or matching the cards a relation filter
  * resolved, and those name no filter key, so they carry no grammar.
  */
@@ -144,6 +155,39 @@ export interface CardPropertyMapping {
 }
 
 /**
+ * A filter a query asked for: the mapping to match cards against, the values
+ * to match, and how they combine. The parse builds these; the matcher reads
+ * them.
+ */
+export interface AppliedFilter {
+  filterToPropertyMapping: CardPropertyMapping;
+  values: string[];
+  /**
+   * The same values with the comparison each was written behind, for the
+   * filters whose values a query writes directly. Absent where the parse
+   * resolved a value into others (a format into its heroes, a rarity into the
+   * ones ranked above it), which no comparison reaches.
+   */
+  filterValues?: FilterValue[];
+  /**
+   * The same strings as `values`, for filters whose match is exact membership
+   * rather than a comparison, so a card costs one lookup instead of a scan.
+   * Consumers read `values`; this is the matcher's copy.
+   */
+  valuesSet?: Set<string>;
+  isAnd?: boolean;
+  isOr?: boolean;
+  modifier?: Modifier;
+  isExcluded?: boolean;
+  /**
+   * Set by a consumer building filters of its own, never by the parse. A
+   * filter carrying it narrows nothing.
+   */
+  isOptional?: boolean;
+  cardTypes?: string[];
+}
+
+/**
  * A mapping a filter key names, and what the grammar says about it: which
  * filter it is, the spelling it is named by, how its values are read, and the
  * values a card can carry.
@@ -164,7 +208,7 @@ export interface FilterToPropertyMapping extends CardPropertyMapping {
   /**
    * The values a card carries for this filter, as the enum they come from:
    * what a dialog offers as options and what a hint draws a suggestion from.
-   * It is not the set of spellings the parser accepts, which is wider, since
+   * It is not the set of spellings the parse accepts, which is wider, since
    * the foiling, treatment, rarity, legality and meta resolvers each take
    * abbreviations of their own. A filter reading free text (`artist`, `name`,
    * `text`, `typetext`), a card name (`chain`, `references`, `referencedby`),
@@ -543,6 +587,9 @@ export const filtersToCardPropertyMappings = {
   pow: powerFilter,
   power: powerFilter,
   print: setIdentifiersFilter,
+  printing: setIdentifiersFilter,
+  printings: setIdentifiersFilter,
+  prints: setIdentifiersFilter,
   r: rarityFilter,
   rarity: rarityFilter,
   referencedby: referencedByFilter,
@@ -563,6 +610,7 @@ export const filtersToCardPropertyMappings = {
   type: typeFilter,
   tal: talentFilter,
   talent: talentFilter,
+  talents: talentFilter,
   text: textFilter,
   trait: traitFilter,
   treat: treatmentFilter,
@@ -582,9 +630,17 @@ export const filtersToCardPropertyMappingsByKey: {
   [key: string]: FilterToPropertyMapping | undefined;
 } = getLookupWithoutInheritedKeys(filtersToCardPropertyMappings);
 
-/** Case-folded, so a key answers however it was capitalised. */
+/**
+ * The filter a key names, however it was capitalised, and nothing where the
+ * key names none.
+ */
+export const getFilterMapping = (
+  key: string,
+): FilterToPropertyMapping | undefined =>
+  filtersToCardPropertyMappingsByKey[key.toLowerCase()];
+
 export const getFilterCategory = (key: string): FilterCategory | undefined =>
-  filtersToCardPropertyMappingsByKey[key.toLowerCase()]?.category;
+  getFilterMapping(key)?.category;
 
 // The categories the mappings name. Narrower than FilterCategory when a
 // category has no alias, which is what stops the record below from being built
@@ -619,3 +675,103 @@ export const aliasesByFilterCategory: Record<
   FilterCategory,
   readonly string[]
 > = getAliasesByFilterCategory();
+
+// Many aliases name the one mapping, so each is walked once and every value it
+// declares points back at the same object.
+const getFilterMappingsByVocabularyValue = (): {
+  [normalizedValue: string]: FilterToPropertyMapping[];
+} => {
+  const mappingsByVocabularyValue = Object.create(null) as {
+    [normalizedValue: string]: FilterToPropertyMapping[];
+  };
+  const walkedMappings = new Set<FilterToPropertyMapping>();
+  const mappings: FilterToPropertyMapping[] = Object.values(
+    filtersToCardPropertyMappings,
+  );
+
+  for (const mapping of mappings) {
+    const { vocabulary } = mapping;
+    if (vocabulary && !walkedMappings.has(mapping)) {
+      walkedMappings.add(mapping);
+      for (const vocabularyValue of vocabulary) {
+        const normalizedValue = getNormalizedFilterValue(vocabularyValue);
+        const mappingsHoldingValue = mappingsByVocabularyValue[normalizedValue];
+        if (mappingsHoldingValue) {
+          mappingsHoldingValue.push(mapping);
+        } else {
+          mappingsByVocabularyValue[normalizedValue] = [mapping];
+        }
+      }
+    }
+  }
+
+  return mappingsByVocabularyValue;
+};
+
+/**
+ * The filters holding a value among the ones they declare, keyed by that value
+ * normalized. A value reaching no entry is one no filter declares, which is
+ * either a mistake or newer than the enums shipped here.
+ */
+const filterMappingsByVocabularyValue: {
+  [normalizedValue: string]: FilterToPropertyMapping[] | undefined;
+} = getFilterMappingsByVocabularyValue();
+
+/**
+ * Whether the values a filter declares hold the one written against it,
+ * however that one was cased and punctuated.
+ */
+export const getIsValueInFilterVocabulary = (
+  category: FilterCategory,
+  value: string,
+): boolean =>
+  !!filterMappingsByVocabularyValue[getNormalizedFilterValue(value)]?.some(
+    (mapping) => mapping.category === category,
+  );
+
+// The filters other than the one written that hold every value it could not
+// place. A term is suggested whole, so a value the other filter does not hold
+// either rules it out.
+const getFilterMappingsHoldingValues = (
+  category: FilterCategory,
+  values: string[],
+): FilterToPropertyMapping[] => {
+  let mappingsHoldingValues: FilterToPropertyMapping[] = [];
+  let isFirstValue = true;
+
+  for (const value of values) {
+    const mappingsHoldingValue = (
+      filterMappingsByVocabularyValue[getNormalizedFilterValue(value)] || []
+    ).filter((mapping) => mapping.category !== category);
+
+    mappingsHoldingValues = isFirstValue
+      ? mappingsHoldingValue
+      : mappingsHoldingValues.filter((mapping) =>
+          mappingsHoldingValue.includes(mapping),
+        );
+    isFirstValue = false;
+  }
+
+  return mappingsHoldingValues;
+};
+
+/**
+ * The spelling that names the filter a value was meant for, where exactly one
+ * filter other than the one it was written against declares it. Several
+ * filters declaring it is a choice for the reader to make rather than one to
+ * make on their behalf.
+ */
+export const getSuggestedFilterKey = (
+  category: FilterCategory,
+  values: string[],
+): string | undefined => {
+  const mappingsHoldingValues = getFilterMappingsHoldingValues(
+    category,
+    values,
+  );
+  const [suggestedMapping] = mappingsHoldingValues;
+
+  return mappingsHoldingValues.length === 1
+    ? suggestedMapping.canonicalAlias
+    : undefined;
+};
