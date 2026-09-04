@@ -17096,6 +17096,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/restless-looter-red</loc>
+    <lastmod>2026-09-04</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/restless-magister-red</loc>
     <lastmod>2026-07-17</lastmod>
     <priority>0.5</priority>
@@ -22908,6 +22913,11 @@
   <url>
     <loc>https://fabrary.net/cards/tome-of-imperial-flame-red</loc>
     <lastmod>2023-09-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/tome-of-necrosis-red</loc>
+    <lastmod>2026-09-04</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

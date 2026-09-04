@@ -341492,6 +341492,270 @@ exports[`Check for unintentional updates Mark of Lightning (mark-of-lightning) v
 }
 `;
 
+exports[`Check for unintentional updates Mark of Neverest (mark-of-neverest-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Christ Adiel Then",
+  ],
+  "cardIdentifier": "mark-of-neverest-blue",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "corrupted-corpse",
+  ],
+  "defaultImage": "IAR066",
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Binds** to an ally permanent you control.
+
+The bound ally gets +1{p} and "Whenever this hits a hero or dies, you may turn a card in your banished zone face-down. If you do, create a Corrupted Corpse in your banished zone."",
+  "keywords": [
+    "Binds",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Mark of Neverest",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Christ Adiel Then",
+      ],
+      "identifier": "IAR066",
+      "image": "IAR066",
+      "print": "IAR066",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Christ Adiel Then",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR066",
+      "image": "IAR066-RF",
+      "print": "IAR066-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "referencedCards": [
+    "corrupted-corpse",
+  ],
+  "setIdentifiers": [
+    "IAR066",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR066",
+  "subtypes": [
+    "Aura",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Instant - Aura",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Mark of Pathstone (mark-of-pathstone-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nadia Suryani",
+  ],
+  "cardIdentifier": "mark-of-pathstone-blue",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "defaultImage": "IAR067",
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Binds** to an ally permanent you control.
+
+The bound ally gets +1{p} and "Whenever this hits a hero or dies, gain 1{h}."",
+  "keywords": [
+    "Binds",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Mark of Pathstone",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Nadia Suryani",
+      ],
+      "identifier": "IAR067",
+      "image": "IAR067",
+      "print": "IAR067",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Nadia Suryani",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR067",
+      "image": "IAR067-RF",
+      "print": "IAR067-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR067",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR067",
+  "subtypes": [
+    "Aura",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Instant - Aura",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Mark of Ushering (mark-of-ushering-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "mark-of-ushering-blue",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "IAR068",
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Binds** to an ally permanent you control.
+
+The bound ally gets +1{p} and "Whenever this hits a hero or dies, create a Gate to i'Arathael token."",
+  "keywords": [
+    "Binds",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Mark of Ushering",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Tomasz Jedruszek",
+      ],
+      "identifier": "IAR068",
+      "image": "IAR068",
+      "print": "IAR068",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Tomasz Jedruszek",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR068",
+      "image": "IAR068-RF",
+      "print": "IAR068-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "IAR068",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR068",
+  "subtypes": [
+    "Aura",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Instant - Aura",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Mark of the Beast (mark-of-the-beast-yellow) vs snapshot 1`] = `
 {
   "artists": [
@@ -631064,6 +631328,173 @@ exports[`Check for unintentional updates Villainous Pose (villainous-pose-yellow
     "Reviled",
   ],
   "typeText": "Reviled Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Violent Gusto (violent-gusto-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Carlos Cruchaga",
+  ],
+  "cardIdentifier": "violent-gusto-red",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR228",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks a hero, you may name an aura permanent they control and return it to its owner's hand.
+
+When this hits a hero, return all aura permanents they control with that name to their owner's hand.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Arakni",
+    "Aurora",
+    "Aurora2",
+    "Azalea",
+    "Baalghor",
+    "Benji",
+    "Betsy",
+    "Blaze",
+    "Bolfar",
+    "Boltyn",
+    "Bravo",
+    "Brevant",
+    "Briar",
+    "Broscilio",
+    "Brutus",
+    "Chane",
+    "Cindra",
+    "Crackni",
+    "Crix",
+    "Dash",
+    "Data Doll",
+    "Dorinthea",
+    "Dromai",
+    "Emperor",
+    "Enigma",
+    "Fai",
+    "Fang",
+    "Florian",
+    "Frankie",
+    "Genis",
+    "Gravy Bones",
+    "Hala",
+    "Ira",
+    "Iyslander",
+    "Jarl",
+    "Kano",
+    "Kassai",
+    "Katsu",
+    "Kavdaen",
+    "Kayo",
+    "Killjoy",
+    "Kox",
+    "Levia",
+    "Lexi",
+    "Librarian",
+    "Lyath",
+    "Malice",
+    "Marlynn",
+    "Maxx",
+    "Melody",
+    "Mortimer",
+    "Nuu",
+    "Oldhim",
+    "Olympia",
+    "Oscilio",
+    "Pleiades",
+    "Prism",
+    "Puffin",
+    "RKO",
+    "Reya",
+    "Rhinar",
+    "Riptide",
+    "Ruu'di",
+    "Scurv",
+    "Shiyana",
+    "Slippy",
+    "Squizzy",
+    "Starvo",
+    "Taipanis",
+    "Taylor",
+    "Teklovossen",
+    "Terra",
+    "Theryon",
+    "Tuffnut",
+    "Uzuri",
+    "Valda",
+    "Verdance",
+    "Victor",
+    "Viserai",
+    "Viserai2",
+    "Vynnset",
+    "Yoji",
+    "Yorick",
+    "Zane",
+    "Zen",
+    "Zyggy",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Violent Gusto",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "Carlos Cruchaga",
+      ],
+      "identifier": "IAR228",
+      "image": "IAR228",
+      "print": "IAR228",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Carlos Cruchaga",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR228",
+      "image": "IAR228-RF",
+      "print": "IAR228-Rainbow",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "IAR228",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR228",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
   "types": [
     "Action",
   ],

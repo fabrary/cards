@@ -345194,6 +345194,81 @@ At the start of your turn, destroy this and draw a card.`,
   
   
   },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "restless-looter-red",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR063",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Restless Looter",
+    printings: [{
+        artists: ["Saad Irfan"],
+      
+      identifier: "IAR063",
+      image: "IAR063",
+      
+      
+      print: "IAR063",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Saad Irfan"],
+      foiling: Foiling.Cold,
+      identifier: "IAR063",
+      image: "IAR063-MV",
+      
+      
+      print: "IAR063-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },],
+    rarities: [Rarity.Marvel,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR063"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR063-MV",
+    subtypes: [Subtype.Ally,Subtype.NonAttack,Subtype.Zombie],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Zombie Ally",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `**Instant** - {t}: Discard a card. If you do, draw a card.
+
+**Decay**`,
+    
+    
+    
+    
+    keywords: [Keyword.Decay],
+    
+    life: 3,
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 3,
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "restless-magister-red",
     classes: [Class.Necromancer],
@@ -403440,7 +403515,8 @@ Target attack action card gets **go again**.`,
     talents: [Talent.Mystic],
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "slithering-shadowpede-red",
     classes: [Class.Brute],
@@ -403521,8 +403597,7 @@ Target attack action card gets **go again**.`,
     talents: [Talent.Shadow],
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "sloggism-red",
     classes: [Class.Generic],
@@ -461483,6 +461558,83 @@ You may pitch 2 red cards. If you don't, banish your hand.
   
   
   },{
+    artists: ["Mark Poole"],
+    cardIdentifier: "tome-of-necrosis-red",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR092",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Frankie,Hero.GravyBones,Hero.Librarian,Hero.Malice],
+    name: "Tome of Necrosis",
+    printings: [{
+        artists: ["Mark Poole"],
+      
+      identifier: "IAR092",
+      image: "IAR092",
+      
+      
+      print: "IAR092",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Mark Poole"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR092",
+      image: "IAR092-RF",
+      
+      
+      print: "IAR092-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR092"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR092",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Necromancer Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `As an additional cost to play this, destroy an ally you control or discard an ally.
+
+Draw a card and {u} your hero.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Untap],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Muhammad Fajri"],
     cardIdentifier: "tome-of-pandemonium-yellow",
     classes: [Class.NotClassed],
@@ -482665,7 +482817,8 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
     
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Sebastian Szmyd"],
     cardIdentifier: "vigorous-engagement-blue",
     classes: [Class.Warrior],
@@ -482842,8 +482995,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
     
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Phu Thieu"],
     cardIdentifier: "vigorous-smashup-red",
     classes: [Class.Brute],
