@@ -57338,6 +57338,81 @@ Your next Brute attack this turn gets +1{p}. If you've **beaten chest** this tur
   
   
   },{
+    artists: ["Ramza Ardyputra"],
+    cardIdentifier: "boneseer-skullcap",
+    classes: [Class.Brute],
+    defaultImage: "IAR038-CF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Taylor,Hero.Tuffnut],
+    name: "Boneseer Skullcap",
+    printings: [{
+        artists: ["Ramza Ardyputra"],
+      foiling: Foiling.Cold,
+      identifier: "IAR038",
+      image: "IAR038-CF",
+      
+      
+      print: "IAR038-Cold",
+      rarity: Rarity.Legendary,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Ramza Ardyputra"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR038",
+      image: "IAR038-RF",
+      
+      
+      print: "IAR038-Rainbow",
+      rarity: Rarity.Legendary,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["IAR038"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR038-CF",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Brute Equipment - Head",
+
+    
+    
+    
+    defense: 2,
+    
+    functionalText: `When this defends, reveal the top card of your deck. If it has 6 or more base {p}, put it on top. Otherwise, put it on the bottom.
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Temper],
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Isuardi Therianto","Kevin Sidharta"],
     cardIdentifier: "boneyard-marauder-red",
     classes: [Class.Brute],
@@ -80995,7 +81070,8 @@ When this is defended by 1 or more attack action cards, this gets +1{p} until en
     
   
   
-  },{
+  }];
+const cards2: Card[] = [{
     artists: ["Jessada Sutthi","Sebastian Szmyd"],
     cardIdentifier: "cintari-sellsword",
     classes: [Class.Warrior],
@@ -81091,8 +81167,7 @@ Cintari Sellsword can only attack if you've attacked with a weapon this turn.`,
     
   
   
-  }];
-const cards2: Card[] = [{
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "circlet-of-eternal-end",
     classes: [Class.Generic],
@@ -118604,6 +118679,81 @@ When this hits a hero, destroy an aura token they control.`,
     
     
     
+  
+  
+  },{
+    artists: ["Kimberly Pantoni"],
+    cardIdentifier: "devouring-doomwake-red",
+    classes: [Class.Brute],
+    defaultImage: "IAR006",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Devouring Doomwake",
+    printings: [{
+        artists: ["Kimberly Pantoni"],
+      
+      identifier: "IAR006",
+      image: "IAR006",
+      
+      
+      print: "IAR006",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Kimberly Pantoni"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR006",
+      image: "IAR006-RF",
+      
+      
+      print: "IAR006-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR006"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR006",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 6,
+    defense: 3,
+    
+    functionalText: `When this hits, banish it and all defending cards.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 11,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
   
   
   },{
@@ -159597,7 +159747,8 @@ Target attack action card gets +1{p}.`,
     talents: [Talent.Mystic],
   
   
-  },{
+  }];
+const cards3: Card[] = [{
     artists: ["Billy Christian"],
     cardIdentifier: "fang-dracai-of-blades",
     classes: [Class.Warrior],
@@ -159801,8 +159952,7 @@ Your arrow attacks may target any opposing hero or ally.`,
     
   
   
-  }];
-const cards3: Card[] = [{
+  },{
     artists: ["Isuardi Therianto","Sam Yang"],
     cardIdentifier: "fast-and-furious-red",
     classes: [Class.Mechanologist],
@@ -240934,7 +241084,8 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
     
   
   
-  },{
+  }];
+const cards4: Card[] = [{
     artists: ["Sariya Asavametha"],
     cardIdentifier: "kabuto-of-imperial-authority",
     classes: [Class.Warrior],
@@ -241184,8 +241335,7 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
     
   
   young: true
-  }];
-const cards4: Card[] = [{
+  },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "kano-dracai-of-aether",
     classes: [Class.Wizard],
@@ -322564,7 +322714,8 @@ Banish the top card of your deck. If it's yellow, create a Gate to i'Arathael to
     talents: [Talent.Shadow],
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Marco González"],
     cardIdentifier: "pull-from-beyond-blue",
     classes: [Class.NotClassed],
@@ -322807,8 +322958,7 @@ If this is defended by fewer than 2 non-equipment cards, it gets **go again**.`,
     
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Kevin Sidharta"],
     cardIdentifier: "pulping-yellow",
     classes: [Class.Brute],
@@ -403316,7 +403466,8 @@ Your second sword or dagger attack this turn gets +1{p}.
     
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Ismatulloh"],
     cardIdentifier: "slice-up-red",
     classes: [Class.Warrior],
@@ -403503,8 +403654,7 @@ Target attack action card gets **go again**.`,
     talents: [Talent.Mystic],
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "slithering-shadowpede-red",
     classes: [Class.Brute],
@@ -482632,7 +482782,8 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
     
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Sebastian Szmyd"],
     cardIdentifier: "vigorous-engagement-red",
     classes: [Class.Warrior],
@@ -482805,8 +482956,7 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
     
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Sebastian Szmyd"],
     cardIdentifier: "vigorous-engagement-blue",
     classes: [Class.Warrior],

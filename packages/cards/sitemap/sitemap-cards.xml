@@ -2846,6 +2846,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/boneseer-skullcap</loc>
+    <lastmod>2026-09-04</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/boneyard-marauder-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -5918,6 +5923,11 @@
   <url>
     <loc>https://fabrary.net/cards/devotion-never-dies-red</loc>
     <lastmod>2025-01-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/devouring-doomwake-red</loc>
+    <lastmod>2026-09-04</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

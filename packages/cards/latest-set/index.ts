@@ -1480,6 +1480,81 @@ When this hits a hero, you may banish target aura permanent they control.
   
   
   },{
+    artists: ["Ramza Ardyputra"],
+    cardIdentifier: "boneseer-skullcap",
+    classes: [Class.Brute],
+    defaultImage: "IAR038-CF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Taylor,Hero.Tuffnut],
+    name: "Boneseer Skullcap",
+    printings: [{
+        artists: ["Ramza Ardyputra"],
+      foiling: Foiling.Cold,
+      identifier: "IAR038",
+      image: "IAR038-CF",
+      
+      
+      print: "IAR038-Cold",
+      rarity: Rarity.Legendary,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Ramza Ardyputra"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR038",
+      image: "IAR038-RF",
+      
+      
+      print: "IAR038-Rainbow",
+      rarity: Rarity.Legendary,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["IAR038"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR038-CF",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Brute Equipment - Head",
+
+    
+    
+    
+    defense: 2,
+    
+    functionalText: `When this defends, reveal the top card of your deck. If it has 6 or more base {p}, put it on top. Otherwise, put it on the bottom.
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Temper],
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Joseph Qiu"],
     cardIdentifier: "bravery-of-the-blade-red",
     classes: [Class.Warrior],
@@ -3222,6 +3297,81 @@ Your next Shadow attack this turn gets +1{p}. **Go again**
     power: 1,
     
     
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Kimberly Pantoni"],
+    cardIdentifier: "devouring-doomwake-red",
+    classes: [Class.Brute],
+    defaultImage: "IAR006",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Devouring Doomwake",
+    printings: [{
+        artists: ["Kimberly Pantoni"],
+      
+      identifier: "IAR006",
+      image: "IAR006",
+      
+      
+      print: "IAR006",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Kimberly Pantoni"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR006",
+      image: "IAR006-RF",
+      
+      
+      print: "IAR006-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR006"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR006",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 6,
+    defense: 3,
+    
+    functionalText: `When this hits, banish it and all defending cards.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 11,
+    
+    shorthands: [Shorthand.Poppers],
     
     
     
