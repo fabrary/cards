@@ -1,11 +1,13 @@
 import { Format, Hero, Talent } from "@flesh-and-blood/types";
 import { PUNCTUATION } from "./constants.js";
 import { getLookupWithoutInheritedKeys } from "./lookups.js";
-import type {
-  CardPropertyName,
-  FilterToPropertyMapping,
-  Modifier,
-} from "./filters.js";
+import {
+  FilterCategory,
+  getFilterCategory,
+  type CardPropertyMapping,
+  type CardPropertyName,
+  type Modifier,
+} from "./filterMappings.js";
 
 export const FilterProperty = {
   BannedFormats: "bannedFormats",
@@ -16,7 +18,7 @@ export const FilterProperty = {
 const oneToFifty = Array.from(Array(50).keys()).map((value) => `${value}`);
 
 interface AppliedFilter {
-  filterToPropertyMapping: FilterToPropertyMapping;
+  filterToPropertyMapping: CardPropertyMapping;
   values: string[];
   isAnd?: boolean;
   isExcluded?: boolean;
@@ -284,16 +286,17 @@ export const getMetaFilters = (
   additionalHeroes: Hero[],
 ): AppliedFilter[] => {
   const filters: AppliedFilter[] = [];
+  const filterCategory = getFilterCategory(filterKey);
 
-  if (isLegalFilter(filterKey)) {
+  if (filterCategory === FilterCategory.Legal) {
     filters.push(
       ...getLegalFilters(values, isExcluded, isOptional, additionalHeroes),
     );
-  } else if (isBannedFilter(filterKey)) {
+  } else if (filterCategory === FilterCategory.Banned) {
     filters.push(
       ...getBannedFilters(values, isExcluded, isOptional, additionalHeroes),
     );
-  } else if (isRarityFilter(filterKey)) {
+  } else if (filterCategory === FilterCategory.Rarity) {
     filters.push(getRarityFilter(values, modifier, isExcluded, isOptional));
   }
 
@@ -466,12 +469,3 @@ export const getExcludedMetaFilters = (filterKey: string) => {
   }
   return filters;
 };
-
-const legalFilters = ["l", "legal", "hero"];
-const isLegalFilter = (filterKey: string) => legalFilters.includes(filterKey);
-
-const bannedFilters = ["banned"];
-const isBannedFilter = (filterKey: string) => bannedFilters.includes(filterKey);
-
-const rarityFilters = ["r", "rarity"];
-const isRarityFilter = (filterKey: string) => rarityFilters.includes(filterKey);
