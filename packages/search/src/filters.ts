@@ -1,10 +1,8 @@
 import {
-  Card,
   DoubleSidedCard,
   Foiling,
   Hero,
   Meta,
-  Printing,
   Rarity,
   Release,
   Treatment,
@@ -12,10 +10,24 @@ import {
   setToSetIdentifierMappings,
 } from "@flesh-and-blood/types";
 import { getAbbreviation } from "./abbreviations.js";
+import {
+  aliasesByFilterCategory,
+  availableExclusions,
+  availableModifiers,
+  FilterCategory,
+  filtersToCardPropertyMappings,
+  filtersToCardPropertyMappingsByKey,
+  getFilterCategory,
+} from "./filterMappings.js";
+import type {
+  CardPropertyMapping,
+  Exclusion,
+  Modifier,
+} from "./filterMappings.js";
 import { getExcludedMetaFilters, getMetaFilters } from "./metaFilters.js";
 import { multiWordShorthands, singleWordShorthands } from "./shorthands.js";
 import { PUNCTUATION } from "./constants.js";
-import { getTextWithoutMarkup } from "./helpers.js";
+import { getEscapedForRegExp, getTextWithoutMarkup } from "./helpers.js";
 import {
   getLookupWithoutInheritedKeys,
   releasesBySetIdentifier,
@@ -28,7 +40,7 @@ import {
 } from "./searchIndex.js";
 
 export interface AppliedFilter {
-  filterToPropertyMapping: FilterToPropertyMapping;
+  filterToPropertyMapping: CardPropertyMapping;
   values: string[];
   /**
    * The same strings as `values`, for filters whose match is exact membership
@@ -44,153 +56,10 @@ export interface AppliedFilter {
   cardTypes?: string[];
 }
 
-export type Filter =
-  | "art"
-  | "artist"
-  | "attack"
-  | "banned"
-  | "b"
-  | "block"
-  | "c"
-  | "class"
-  | "chain"
-  | "co"
-  | "cost"
-  | "color"
-  | "d"
-  | "def"
-  | "defense"
-  | "f"
-  | "fusion"
-  | "foil"
-  | "foiling"
-  | "hero"
-  | "i"
-  | "intellect"
-  | "k"
-  | "keyword"
-  | "l"
-  | "legal"
-  | "li"
-  | "life"
-  | "name"
-  | "p"
-  | "pitch"
-  | "pwr"
-  | "pow"
-  | "power"
-  | "print"
-  | "r"
-  | "rarity"
-  | "referencedby"
-  | "references"
-  | "s"
-  | "set"
-  | "short"
-  | "shortand"
-  | "shortands"
-  | "sp"
-  | "specialization"
-  | "specializations"
-  | "st"
-  | "subtype"
-  | "text"
-  | "t"
-  | "type"
-  | "tal"
-  | "talent"
-  | "text"
-  | "treatment"
-  | "variation"
-  | "x";
-
-export type Modifier = ">=" | ">" | "<=" | "<";
-export const availableModifiers: Modifier[] = [">=", ">", "<=", "<"];
-
-export type Exclusion = "!" | "-";
-export const availableExclusions: Exclusion[] = ["!", "-"];
-
-// export type Optional = "#";
-// export const availableOptionals: Optional[] = ["#"];
-
-/** The card field a mapping reads. */
-export type CardPropertyName = keyof Card;
-
-/**
- * The property of a mapping that reads no card field: a meta filter expands
- * into other filters before any card is read, and a relation filter matches
- * the identifiers the parser resolved.
- */
-export const NO_CARD_PROPERTY = "n/a";
-
-/**
- * The field holding the value a card prints where a number would be, which a
- * numeric filter falls back to for a card carrying no number.
- */
-export type CardSpecialPropertyName =
-  | "specialArcane"
-  | "specialCost"
-  | "specialDefense"
-  | "specialLife"
-  | "specialPower";
-
-export interface FilterToPropertyMapping {
-  nestedProperty?: keyof Printing;
-  property: CardPropertyName | typeof NO_CARD_PROPERTY;
-  exclusion?: Exclusion;
-  isArray?: boolean;
-  isNestedPropertyArray?: boolean;
-  isNumber?: boolean;
-  isString?: boolean;
-  isBoolean?: boolean;
-  isDate?: boolean;
-  /**
-   * The card stores this property with markdown emphasis around its keywords,
-   * so the matcher strips that from both sides. A searched phrase then reads
-   * the text the way the card renders it rather than the way it is stored,
-   * and a phrase spanning a keyword boundary still matches.
-   */
-  hasMarkup?: boolean;
-  isMeta?: boolean;
-  /**
-   * The card stores this property the way a filter value is written, so the
-   * matcher compares it as stored instead of stripping punctuation and case
-   * from it first.
-   */
-  isNormalized?: boolean;
-  // optional?: Optional;
-  modifier?: Modifier;
-  partialMatch?: boolean;
-  specialProperty?: CardSpecialPropertyName;
-}
-
-const arcaneFilter: FilterToPropertyMapping = {
-  property: "arcane",
-  specialProperty: "specialArcane",
-  isNumber: true,
-  partialMatch: true,
-};
-
-const artistFilter: FilterToPropertyMapping = {
-  property: "artists",
-  isArray: true,
-  partialMatch: true,
-};
-
-const bannedFilter: FilterToPropertyMapping = {
-  property: NO_CARD_PROPERTY,
-  isMeta: true,
-};
-
-const bondFilter: FilterToPropertyMapping = {
-  property: "bonds",
-  isArray: true,
-};
-
 // Membership in a set of cards the parser resolved. Deliberately absent from
-// the mappings a filter key reaches, so only the relation filters below can
-// apply it and no query can name it.
-const cardIdentifierFilter: FilterToPropertyMapping = {
+// the mappings a filter key reaches, so only the relation filters can apply it
+// and no query can name it.
+const cardIdentifierFilter: CardPropertyMapping = {
   property: "cardIdentifier",
   isString: true,
   isNormalized: true,
@@ -218,258 +87,12 @@ const getRelationAppliedFilter = (
   isOptional,
 });
 
-const chainFilter: FilterToPropertyMapping = {
-  property: NO_CARD_PROPERTY,
-};
-
-const classFilter: FilterToPropertyMapping = {
-  property: "classes",
-  isArray: true,
-  partialMatch: true,
-};
-
-const costFilter: FilterToPropertyMapping = {
-  property: "cost",
-  specialProperty: "specialCost",
-  isNumber: true,
-  partialMatch: true,
-};
-
-const defenseFilter: FilterToPropertyMapping = {
-  property: "defense",
-  specialProperty: "specialDefense",
-  isNumber: true,
-};
-
-const flowFilter: FilterToPropertyMapping = {
-  property: "flows",
-  isArray: true,
-};
-
-const foilFilter: FilterToPropertyMapping = {
-  nestedProperty: "foiling",
-  property: "printings",
-  isArray: true,
-};
-
-const fuseFilter: FilterToPropertyMapping = {
-  property: "fusions",
-  isArray: true,
-};
-
-const intellectFilter: FilterToPropertyMapping = {
-  property: "intellect",
-  isNumber: true,
-};
-
-const keywordFilter: FilterToPropertyMapping = {
-  property: "keywords",
-  isArray: true,
-  // partialMatch: true,
-};
-
-const legalFilter: FilterToPropertyMapping = {
-  property: NO_CARD_PROPERTY,
-  isMeta: true,
-};
-
-const lifeFilter: FilterToPropertyMapping = {
-  property: "life",
-  specialProperty: "specialLife",
-  isNumber: true,
-};
-
-const metaFilter: FilterToPropertyMapping = {
-  property: "meta",
-  isArray: true,
-};
-
-const nameFilter: FilterToPropertyMapping = {
-  property: "name",
-  isString: true,
-  partialMatch: true,
-};
-
-const pitchFilter: FilterToPropertyMapping = {
-  property: "pitch",
-  isNumber: true,
-};
-
-const previewFilter: FilterToPropertyMapping = {
+// Preview compares against today rather than matching a value a card carries,
+// so the parser builds it for itself.
+const previewFilter: CardPropertyMapping = {
   property: "firstReleaseDate",
   isDate: true,
 };
-
-const powerFilter: FilterToPropertyMapping = {
-  property: "power",
-  specialProperty: "specialPower",
-  isNumber: true,
-};
-
-const setIdentifiersFilter: FilterToPropertyMapping = {
-  property: "setIdentifiers",
-  isArray: true,
-  partialMatch: true,
-};
-
-const rarityFilter: FilterToPropertyMapping = {
-  property: NO_CARD_PROPERTY,
-  isMeta: true,
-};
-
-const referencedByFilter: FilterToPropertyMapping = {
-  property: NO_CARD_PROPERTY,
-};
-
-const referencesFilter: FilterToPropertyMapping = {
-  property: NO_CARD_PROPERTY,
-};
-
-const setFilter: FilterToPropertyMapping = {
-  property: "sets",
-  isArray: true,
-  partialMatch: true,
-};
-
-const shorthandsFilter: FilterToPropertyMapping = {
-  property: "shorthands",
-  isArray: true,
-  partialMatch: true,
-};
-
-const specializationsFilter: FilterToPropertyMapping = {
-  property: "specializations",
-  isArray: true,
-  partialMatch: true,
-};
-
-const subtypeFilter: FilterToPropertyMapping = {
-  property: "subtypes",
-  isArray: true,
-};
-
-const typeFilter: FilterToPropertyMapping = {
-  property: "types",
-  isArray: true,
-};
-
-const talentFilter: FilterToPropertyMapping = {
-  property: "talents",
-  isArray: true,
-};
-
-const textFilter: FilterToPropertyMapping = {
-  property: "functionalText",
-  hasMarkup: true,
-  isString: true,
-  partialMatch: true,
-};
-
-const traitFilter: FilterToPropertyMapping = {
-  property: "traits",
-  isArray: true,
-  partialMatch: true,
-};
-
-const typeTextFilter: FilterToPropertyMapping = {
-  property: "typeText",
-  isString: true,
-  partialMatch: true,
-};
-
-const treatmentFilter: FilterToPropertyMapping = {
-  nestedProperty: "treatments",
-  property: "printings",
-  isArray: true,
-  isNestedPropertyArray: true,
-};
-
-const yearFilter: FilterToPropertyMapping = {
-  property: "firstReleaseDate",
-  isString: true,
-  partialMatch: true,
-};
-
-export const filtersToCardPropertyMappings = {
-  arcane: arcaneFilter,
-  a: artistFilter,
-  artist: artistFilter,
-  art: artistFilter,
-  attack: powerFilter,
-  b: defenseFilter,
-  block: defenseFilter,
-  banned: bannedFilter,
-  bond: bondFilter,
-  bonds: bondFilter,
-  c: classFilter,
-  class: classFilter,
-  chain: chainFilter,
-  co: costFilter,
-  cost: costFilter,
-  color: pitchFilter,
-  d: defenseFilter,
-  def: defenseFilter,
-  defense: defenseFilter,
-  flow: flowFilter,
-  flows: flowFilter,
-  f: fuseFilter,
-  fusion: fuseFilter,
-  foil: foilFilter,
-  foiling: foilFilter,
-  i: intellectFilter,
-  intellect: intellectFilter,
-  is: metaFilter,
-  k: keywordFilter,
-  keyword: keywordFilter,
-  l: legalFilter,
-  legal: legalFilter,
-  hero: legalFilter,
-  li: lifeFilter,
-  life: lifeFilter,
-  meta: metaFilter,
-  n: nameFilter,
-  name: nameFilter,
-  p: pitchFilter,
-  pitch: pitchFilter,
-  pwr: powerFilter,
-  pow: powerFilter,
-  power: powerFilter,
-  print: setIdentifiersFilter,
-  r: rarityFilter,
-  rarity: rarityFilter,
-  referencedby: referencedByFilter,
-  references: referencesFilter,
-  rf: bannedFilter,
-  s: setFilter,
-  set: setFilter,
-  short: shorthandsFilter,
-  shorthand: shorthandsFilter,
-  shorthands: shorthandsFilter,
-  sp: specializationsFilter,
-  spec: specializationsFilter,
-  specialization: specializationsFilter,
-  specializations: specializationsFilter,
-  st: subtypeFilter,
-  subtype: subtypeFilter,
-  t: typeFilter,
-  type: typeFilter,
-  tal: talentFilter,
-  talent: talentFilter,
-  text: textFilter,
-  trait: traitFilter,
-  treat: treatmentFilter,
-  treatment: treatmentFilter,
-  var: treatmentFilter,
-  variation: treatmentFilter,
-  x: typeTextFilter,
-  year: yearFilter,
-};
-
-// Filter keys are typed by the searcher, so an unrecognised key is a miss to
-// skip rather than a type error.
-const filtersToCardPropertyMappingsByKey: {
-  [key: string]: FilterToPropertyMapping | undefined;
-} = getLookupWithoutInheritedKeys(filtersToCardPropertyMappings);
 
 const punctuationOverrides = [
   {
@@ -487,10 +110,21 @@ const setIdentifiersBySetName = new Map(
   ]),
 );
 
-const SET_FILTER_KEYS = ["set", "s", "print"];
+// Spellings of the print filter no mapping answers to, so they push no filter
+// and name no category. They still write the prints attribute, which is what
+// the matching-printings pass and the sort read.
+const UNMAPPED_PRINT_KEYS = ["prints", "printing", "printings"];
 
-const getEscapedForRegExp = (text: string): string =>
-  text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+// A print is a set's identifier, so both filters take a set name where a value
+// is expected.
+const SET_FILTER_KEYS = [
+  ...aliasesByFilterCategory[FilterCategory.Set],
+  ...aliasesByFilterCategory[FilterCategory.Print],
+];
+
+const EXCLUSION_CHARACTERS = availableExclusions
+  .map(getEscapedForRegExp)
+  .join("");
 
 // Longest first, so a set name carrying a shorter set's name inside it keeps
 // its own identifier.
@@ -508,7 +142,7 @@ const setNamesLongestFirst = [...setIdentifiersBySetName.keys()]
  * then matches against every card name carrying those letters.
  */
 const setNameInSetFilterPattern = new RegExp(
-  `(?<=^|\\s)([${availableExclusions.join("")}]?(?:${SET_FILTER_KEYS.join(
+  `(?<=^|\\s)([${EXCLUSION_CHARACTERS}]?(?:${SET_FILTER_KEYS.join(
     "|",
   )}):(?:[^\\s]*[,+])?"?)(${setNamesLongestFirst})(?="?(?:[,+]|\\s|$))`,
   "g",
@@ -623,6 +257,10 @@ export const getKeywordsAndAppliedFiltersFromText = (
   }
 
   const appliedFilters: AppliedFilter[] = [];
+  // The attributes narrow which printings a result renders, so an excluded
+  // filter writes none of them: its cards have already left the results, and
+  // keeping only the printings carrying the excluded value would leave every
+  // result with nothing to render.
   let artists: string[] = [];
   const keywords: string[] = [];
   let foilings: Foiling[] = [];
@@ -640,36 +278,19 @@ export const getKeywordsAndAppliedFiltersFromText = (
         getFilterValuesAndModifier(unparsedFilterValue);
       const { filterKey, isExcluded, isOptional, isMeta } =
         getFilterKeyAndExcludedOrOptional(unparsedFilterKey);
+      const filterCategory = getFilterCategory(filterKey);
 
       // Set when the branch below pushed the filters for its values itself, so
       // the shared mapping after it has nothing left to match on.
       let areValuesAlreadyApplied = false;
 
       if (isMeta) {
-        if (["rarity", "r"].includes(filterKey)) {
+        if (filterCategory === FilterCategory.Rarity) {
           const rarityValues = getRarityValuesFromText(values);
           if (!isExcluded) {
             rarities = [...rarityValues];
           }
           values = rarityValues.map((s) => s.toLowerCase());
-        }
-        if (["legal", "l", "hero"].includes(filterKey)) {
-          // for (const hero of specialConditionHeroes) {
-          // if (text.toLowerCase() === "legal:shiyana figment") {
-          //   console.log({
-          //     hero,
-          //     specialConditions,
-          //     unparsedFilterValue,
-          //     includes: unparsedFilterValue.includes(hero.toLowerCase()),
-          //     alreadyAdded: specialConditions.heroes.includes(hero),
-          //   });
-          // }
-          // if (unparsedFilterValue.includes(hero.toLowerCase())) {
-          //   if (!specialConditions.heroes.includes(hero)) {
-          //     specialConditions.heroes.push(hero);
-          //   }
-          // }
-          // }
         }
         appliedFilters.push(
           ...getMetaFilters(
@@ -682,7 +303,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
           ),
         );
       } else {
-        if (["chain"].includes(filterKey)) {
+        if (filterCategory === FilterCategory.Chain) {
           const chainedCardIdentifiers = new Set<string>();
           const cardsToExpand: DoubleSidedCard[] = [];
           const namesToExpand = new Set<string>();
@@ -749,9 +370,13 @@ export const getKeywordsAndAppliedFiltersFromText = (
             }),
           );
           areValuesAlreadyApplied = true;
-        } else if (["referencedby", "references"].includes(filterKey)) {
+        } else if (
+          filterCategory === FilterCategory.ReferencedBy ||
+          filterCategory === FilterCategory.References
+        ) {
           // `referencedby:` asks what a card names, `references:` who names it.
-          const isNamedByFilter = ["referencedby"].includes(filterKey);
+          const isNamedByFilter =
+            filterCategory === FilterCategory.ReferencedBy;
           const relatedCardIdentifiers = new Set<string>();
 
           for (const value of values) {
@@ -779,13 +404,18 @@ export const getKeywordsAndAppliedFiltersFromText = (
             }),
           );
           areValuesAlreadyApplied = true;
-        } else if (["art", "artist"].includes(filterKey)) {
-          artists = values;
+        } else if (filterCategory === FilterCategory.Artist) {
+          if (!isExcluded) {
+            artists = values;
+          }
         } else if (
-          ["print", "prints", "printing", "printings"].includes(filterKey)
+          filterCategory === FilterCategory.Print ||
+          UNMAPPED_PRINT_KEYS.includes(filterKey)
         ) {
-          prints = values;
-        } else if (["is", "meta"].includes(filterKey)) {
+          if (!isExcluded) {
+            prints = values;
+          }
+        } else if (filterCategory === FilterCategory.Is) {
           // Unique is the inverse of Meta.Reprint, and preview compares against
           // today rather than matching a value the card carries, so both get
           // their own filter rather than a meta value to match.
@@ -807,7 +437,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
 
           if (uniqueValues.length > 0) {
             appliedFilters.push({
-              filterToPropertyMapping: metaFilter,
+              filterToPropertyMapping: filtersToCardPropertyMappings.is,
               values: [Meta.Reprint.toLowerCase().replaceAll(PUNCTUATION, "")],
               isAnd,
               isOr,
@@ -855,20 +485,30 @@ export const getKeywordsAndAppliedFiltersFromText = (
           if (metaValues.includes(Meta.Expansion) && !isExcluded) {
             isExpansionSlot = true;
           }
-        } else if (["foiling", "foil"].includes(filterKey)) {
-          foilings = getFoilingValuesFromText(values);
-          values = foilings.map((f) => f.toLowerCase());
-        } else if (
-          ["treat", "treatment", "var", "variation"].includes(filterKey)
-        ) {
-          treatments = getTreatmentValuesFromText(values);
-          values = treatments.map((t) => t.toLowerCase());
-        } else if (["set", "s"].includes(filterKey)) {
-          releases = getReleasesFromRawValues(values, additionalSets);
-          values = releases.map((s) =>
+        } else if (filterCategory === FilterCategory.Foiling) {
+          const foilingValues = getFoilingValuesFromText(values);
+          if (!isExcluded) {
+            foilings = foilingValues;
+          }
+          values = foilingValues.map((f) => f.toLowerCase());
+        } else if (filterCategory === FilterCategory.Treatment) {
+          const treatmentValues = getTreatmentValuesFromText(values);
+          if (!isExcluded) {
+            treatments = treatmentValues;
+          }
+          values = treatmentValues.map((t) => t.toLowerCase());
+        } else if (filterCategory === FilterCategory.Set) {
+          const releaseValues = getReleasesFromRawValues(
+            values,
+            additionalSets,
+          );
+          if (!isExcluded) {
+            releases = releaseValues;
+          }
+          values = releaseValues.map((s) =>
             s.toLowerCase().replaceAll(PUNCTUATION, ""),
           );
-        } else if (["pitch", "p", "color"].includes(filterKey)) {
+        } else if (filterCategory === FilterCategory.Pitch) {
           values = getPitchValuesFromText(values);
         }
         const filterToPropertyMapping =

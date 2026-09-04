@@ -9,11 +9,10 @@ import {
 } from "@flesh-and-blood/types";
 import Fuse from "fuse.js";
 import { PUNCTUATION } from "./constants.js";
+import { CardPropertyName, NO_CARD_PROPERTY } from "./filterMappings.js";
 import {
   AppliedFilter,
-  CardPropertyName,
   getKeywordsAndAppliedFiltersFromText,
-  NO_CARD_PROPERTY,
 } from "./filters.js";
 import { memes } from "./memes.js";
 import { getNormalizedText, getTextWithoutMarkup } from "./helpers.js";

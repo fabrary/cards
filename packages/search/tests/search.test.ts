@@ -562,6 +562,30 @@ describe("Returns matching prints", () => {
   });
 });
 
+describe("Excluding a printing attribute leaves the printings alone", () => {
+  const cardSearch = new Search(doubleSidedCards);
+
+  // The card filter already dropped every card the excluded value reaches, so
+  // narrowing the printings by that value would leave each result with none of
+  // its own printings to render.
+  const getResultsWithoutAMatchingPrinting = (query: string): string[] => {
+    const { searchResults } = cardSearch.search(query);
+    expect(searchResults.length).toBeGreaterThan(0);
+
+    return searchResults
+      .filter(({ matchingPrintings }) => matchingPrintings?.length === 0)
+      .map(({ name }) => name);
+  };
+
+  it("Excluded artist", () => {
+    expect(getResultsWithoutAMatchingPrinting("-art:yang")).toEqual([]);
+  });
+
+  it("Excluded set", () => {
+    expect(getResultsWithoutAMatchingPrinting("-s:wtr")).toEqual([]);
+  });
+});
+
 describe("Shorthands property works", () => {
   const cardSearch = new Search(doubleSidedCards);
 

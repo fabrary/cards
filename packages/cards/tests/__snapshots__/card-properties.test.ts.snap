@@ -73148,6 +73148,89 @@ Your next Brute attack this turn gets +2{p}. If you've **beaten chest** this tur
 }
 `;
 
+exports[`Check for unintentional updates Boneseer Skullcap (boneseer-skullcap) vs snapshot 1`] = `
+{
+  "artists": [
+    "Ramza Ardyputra",
+  ],
+  "cardIdentifier": "boneseer-skullcap",
+  "classes": [
+    "Brute",
+  ],
+  "defaultImage": "IAR038-CF",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this defends, reveal the top card of your deck. If it has 6 or more base {p}, put it on top. Otherwise, put it on the bottom.
+
+**Temper**",
+  "keywords": [
+    "Temper",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Kayo",
+    "Levia",
+    "RKO",
+    "Rhinar",
+    "Taylor",
+    "Tuffnut",
+  ],
+  "meta": [
+    "Arena",
+  ],
+  "name": "Boneseer Skullcap",
+  "printings": [
+    {
+      "artists": [
+        "Ramza Ardyputra",
+      ],
+      "foiling": "Cold",
+      "identifier": "IAR038",
+      "image": "IAR038-CF",
+      "print": "IAR038-Cold",
+      "rarity": "Legendary",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Ramza Ardyputra",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR038",
+      "image": "IAR038-RF",
+      "print": "IAR038-Rainbow",
+      "rarity": "Legendary",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Legendary",
+  ],
+  "rarity": "Legendary",
+  "setIdentifiers": [
+    "IAR038",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR038-CF",
+  "subtypes": [
+    "Head",
+  ],
+  "typeText": "Brute Equipment - Head",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Boneyard Marauder (boneyard-marauder-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -153441,6 +153524,94 @@ exports[`Check for unintentional updates Devotion Never Dies (devotion-never-die
     "Attack",
   ],
   "typeText": "Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Devouring Doomwake (devouring-doomwake-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Kimberly Pantoni",
+  ],
+  "cardIdentifier": "devouring-doomwake-red",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 6,
+  "defaultImage": "IAR006",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this hits, banish it and all defending cards.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Devouring Doomwake",
+  "pitch": 1,
+  "power": 11,
+  "printings": [
+    {
+      "artists": [
+        "Kimberly Pantoni",
+      ],
+      "identifier": "IAR006",
+      "image": "IAR006",
+      "print": "IAR006",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Kimberly Pantoni",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR006",
+      "image": "IAR006-RF",
+      "print": "IAR006-Rainbow",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "IAR006",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR006",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action - Attack",
   "types": [
     "Action",
   ],
