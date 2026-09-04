@@ -442036,17 +442036,6 @@ If a hero has more {h} than each other hero, they can't gain {h}.",
     },
     {
       "artists": [
-        "Alexandra Malygina",
-      ],
-      "foiling": "Gold",
-      "identifier": "FAB407",
-      "image": "FAB407-GF",
-      "print": "FAB407-Gold",
-      "rarity": "Promo",
-      "set": "Promos",
-    },
-    {
-      "artists": [
         "Alief Rusdiatama",
       ],
       "foiling": "Rainbow",
@@ -442068,7 +442057,6 @@ If a hero has more {h} than each other hero, they can't gain {h}.",
   ],
   "rarities": [
     "Marvel",
-    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -442076,7 +442064,6 @@ If a hero has more {h} than each other hero, they can't gain {h}.",
     "1HP261",
     "CON003",
     "CRU140",
-    "FAB407",
     "SVI002",
   ],
   "sets": [
@@ -451205,6 +451192,102 @@ exports[`Check for unintentional updates Restless Corporal (restless-corporal-re
     "Tap",
   ],
   "specialImage": "IAR085-MV",
+  "subtypes": [
+    "Ally",
+    "Non-Attack",
+    "Zombie",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action - Zombie Ally",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Restless Looter (restless-looter-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Saad Irfan",
+  ],
+  "cardIdentifier": "restless-looter-red",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "defaultImage": "IAR063",
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Instant** - {t}: Discard a card. If you do, draw a card.
+
+**Decay**",
+  "keywords": [
+    "Decay",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "life": 3,
+  "meta": [
+    "Deck",
+  ],
+  "name": "Restless Looter",
+  "pitch": 1,
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Saad Irfan",
+      ],
+      "identifier": "IAR063",
+      "image": "IAR063",
+      "print": "IAR063",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Saad Irfan",
+      ],
+      "foiling": "Cold",
+      "identifier": "IAR063",
+      "image": "IAR063-MV",
+      "print": "IAR063-Cold-Full Art",
+      "rarity": "Marvel",
+      "set": "Usurp the Shadow Throne",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
+  ],
+  "rarities": [
+    "Marvel",
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR063",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Tap",
+  ],
+  "specialImage": "IAR063-MV",
   "subtypes": [
     "Ally",
     "Non-Attack",
@@ -602456,6 +602539,95 @@ You may pitch 2 red cards. If you don't, banish your hand.
     "Draconic",
   ],
   "typeText": "Draconic Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Tome of Necrosis (tome-of-necrosis-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mark Poole",
+  ],
+  "cardIdentifier": "tome-of-necrosis-red",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "defaultImage": "IAR092",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "As an additional cost to play this, destroy an ally you control or discard an ally.
+
+Draw a card and {u} your hero.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Frankie",
+    "Gravy Bones",
+    "Librarian",
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Tome of Necrosis",
+  "pitch": 1,
+  "printings": [
+    {
+      "artists": [
+        "Mark Poole",
+      ],
+      "identifier": "IAR092",
+      "image": "IAR092",
+      "print": "IAR092",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Mark Poole",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR092",
+      "image": "IAR092-RF",
+      "print": "IAR092-Rainbow",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "IAR092",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Untap",
+  ],
+  "specialImage": "IAR092",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Necromancer Action",
   "types": [
     "Action",
   ],

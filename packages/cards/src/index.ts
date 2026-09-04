@@ -338107,18 +338107,6 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
           },
       
     },{
-        artists: ["Alexandra Malygina"],
-      foiling: Foiling.Gold,
-      identifier: "FAB407",
-      image: "FAB407-GF",
-      
-      
-      print: "FAB407-Gold",
-      rarity: Rarity.Promo,
-      set: Release.Promos,
-      
-      
-    },{
         artists: ["Alief Rusdiatama"],
       foiling: Foiling.Rainbow,
       identifier: "CON003",
@@ -338134,9 +338122,9 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
           },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },],
-    rarities: [Rarity.Marvel,Rarity.Promo,Rarity.Rare],
+    rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["1HP261","CON003","CRU140","FAB407","SVI002"],
+    setIdentifiers: ["1HP261","CON003","CRU140","SVI002"],
     sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos,Release.ViseraiSilverAgeDeck],
     specialImage: "CON003-RF",
     subtypes: [Subtype.TwoHanded,Subtype.Sword],
