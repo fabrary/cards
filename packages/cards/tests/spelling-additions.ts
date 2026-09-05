@@ -153,6 +153,7 @@ export const ADDITIONS = [
   "defang",
   "demigon",
   "demonbound",
+  "descendancy",
   "descendent",
   "dimenxxional",
   "dogg",
