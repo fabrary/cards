@@ -84307,12 +84307,36 @@ Destroy target blue aura.`,
             url: "https://www.tcgplayer.com/product/694930?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Nailsen Ivanderlie"],
+      
+      identifier: "GEM216",
+      image: "GEM216",
+      
+      
+      print: "GEM216-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Nailsen Ivanderlie"],
+      foiling: Foiling.Rainbow,
+      identifier: "GEM216",
+      image: "GEM216-RF",
+      
+      
+      print: "GEM216-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["AZS020","OMN043"],
-    sets: [Release.ArmoryDeckZyggy,Release.OmensOfTheThirdAge],
-    specialImage: "AZS020",
+    setIdentifiers: ["AZS020","GEM216","OMN043"],
+    sets: [Release.ArmoryDeckZyggy,Release.GEM,Release.OmensOfTheThirdAge],
+    specialImage: "GEM216",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Illusionist Action - Attack",
@@ -168160,12 +168184,36 @@ If this was **fused**, it gets **dominate**.`,
             url: "https://www.tcgplayer.com/product/695180?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Surya Prasetya"],
+      
+      identifier: "GEM215",
+      image: "GEM215",
+      
+      
+      print: "GEM215-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Surya Prasetya"],
+      foiling: Foiling.Rainbow,
+      identifier: "GEM215",
+      image: "GEM215-RF",
+      
+      
+      print: "GEM215-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["OMN106"],
-    sets: [Release.OmensOfTheThirdAge],
-    specialImage: "OMN106",
+    setIdentifiers: ["GEM215","OMN106"],
+    sets: [Release.GEM,Release.OmensOfTheThirdAge],
+    specialImage: "GEM215",
     subtypes: [],
     types: [Type.Instant],
     typeText: "Lightning Wizard Instant",
@@ -174605,12 +174653,36 @@ When this hits, create a Lightning Flow token.`,
             url: "https://www.tcgplayer.com/product/688755?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Wirawan Pranoto"],
+      
+      identifier: "GEM214",
+      image: "GEM214",
+      
+      
+      print: "GEM214-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Wirawan Pranoto"],
+      foiling: Foiling.Rainbow,
+      identifier: "GEM214",
+      image: "GEM214-RF",
+      
+      
+      print: "GEM214-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["AHA016"],
-    sets: [Release.ArmoryDeckOriginsHala],
-    specialImage: "AHA016",
+    setIdentifiers: ["AHA016","GEM214"],
+    sets: [Release.ArmoryDeckOriginsHala,Release.GEM],
+    specialImage: "GEM214",
     subtypes: [],
     types: [Type.DefenseReaction],
     typeText: "Warrior Defense Reaction",
@@ -280836,12 +280908,36 @@ When this is destroyed, destroy all cards in your arsenal.
             url: "https://www.tcgplayer.com/product/668381?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Muhammad Fajri"],
+      
+      identifier: "GEM210",
+      image: "GEM210",
+      
+      
+      print: "GEM210-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Muhammad Fajri"],
+      foiling: Foiling.Rainbow,
+      identifier: "GEM210",
+      image: "GEM210-RF",
+      
+      
+      print: "GEM210-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["AAC028","SAR031"],
-    sets: [Release.ArakniSilverAgeDeck,Release.ArmoryDeckArakni],
-    specialImage: "SAR031",
+    setIdentifiers: ["AAC028","GEM210","SAR031"],
+    sets: [Release.ArakniSilverAgeDeck,Release.ArmoryDeckArakni,Release.GEM],
+    specialImage: "GEM210",
     subtypes: [],
     types: [Type.AttackReaction],
     typeText: "Assassin Attack Reaction",
@@ -294945,12 +295041,36 @@ The next time a weapon hits this turn, create a Copper token.
             url: "https://www.tcgplayer.com/product/708996?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "GEM217",
+      image: "GEM217",
+      
+      
+      print: "GEM217-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.Rainbow,
+      identifier: "GEM217",
+      image: "GEM217-RF",
+      
+      
+      print: "GEM217-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["MPW151"],
-    sets: [Release.MasteryPackWarrior],
-    specialImage: "MPW151",
+    setIdentifiers: ["GEM217","MPW151"],
+    sets: [Release.GEM,Release.MasteryPackWarrior],
+    specialImage: "GEM217",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
@@ -380574,12 +380694,36 @@ If the additional cost was paid, this gets **go again**.`,
             url: "https://www.tcgplayer.com/product/641622?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Ramza Ardyputra"],
+      
+      identifier: "GEM212",
+      image: "GEM212",
+      
+      
+      print: "GEM212-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Ramza Ardyputra"],
+      foiling: Foiling.Rainbow,
+      identifier: "GEM212",
+      image: "GEM212-RF",
+      
+      
+      print: "GEM212-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["ASR022"],
-    sets: [Release.ArmoryDeckIra],
-    specialImage: "ASR022",
+    setIdentifiers: ["ASR022","GEM212"],
+    sets: [Release.ArmoryDeckIra,Release.GEM],
+    specialImage: "GEM212",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Ninja Action - Attack",

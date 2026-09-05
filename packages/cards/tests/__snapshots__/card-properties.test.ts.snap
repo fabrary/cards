@@ -1297,6 +1297,104 @@ exports[`Check for unintentional updates Achilles Accelerator (achilles-accelera
 }
 `;
 
+exports[`Check for unintentional updates Acrid Stench (acrid-stench-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Wirawan Pranoto",
+  ],
+  "cardIdentifier": "acrid-stench-red",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "corrupted-corpse",
+  ],
+  "defaultImage": "GEM196",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may discard a zombie. If you do, create a Corrupted Corpse in your banished zone.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Acrid Stench",
+  "pitch": 1,
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Wirawan Pranoto",
+      ],
+      "identifier": "GEM196",
+      "image": "GEM196",
+      "print": "GEM196-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "Wirawan Pranoto",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "GEM196",
+      "image": "GEM196-RF",
+      "print": "GEM196-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "referencedCards": [
+    "corrupted-corpse",
+  ],
+  "setIdentifiers": [
+    "GEM196",
+  ],
+  "sets": [
+    "GEM",
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "GEM196",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Act of Glory (act-of-glory-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -72599,6 +72697,101 @@ exports[`Check for unintentional updates Bone Head Barrier (bone-head-barrier-ye
 }
 `;
 
+exports[`Check for unintentional updates Bone Mass (bone-mass-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Amirul HHF",
+  ],
+  "cardIdentifier": "bone-mass-red",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "defaultImage": "GEM197",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may discard a zombie. If you do, your next attack this turn gets +1{p}.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Bone Mass",
+  "pitch": 1,
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Amirul HHF",
+      ],
+      "identifier": "GEM197",
+      "image": "GEM197",
+      "print": "GEM197-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "Amirul HHF",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "GEM197",
+      "image": "GEM197-RF",
+      "print": "GEM197-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "GEM197",
+  ],
+  "sets": [
+    "GEM",
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "GEM197",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Bone Puppetry (bone-puppetry) vs snapshot 1`] = `
 {
   "artists": [
@@ -79006,6 +79199,109 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
   "typeText": "Elemental Guardian Hero",
   "types": [
     "Hero",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Breach Flesh (breach-flesh-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Brian Madya Narendra",
+  ],
+  "cardIdentifier": "breach-flesh-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "GEM204",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this hits, create a Gate to i'Arathael token
+
+**Blood Debt**"",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Breach Flesh",
+  "pitch": 1,
+  "power": 4,
+  "printings": [
+    {
+      "artists": [
+        "Brian Madya Narendra",
+      ],
+      "identifier": "GEM204",
+      "image": "GEM204",
+      "print": "GEM204-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "Brian Madya Narendra",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "GEM204",
+      "image": "GEM204-RF",
+      "print": "GEM204-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "GEM204",
+  ],
+  "sets": [
+    "GEM",
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "GEM204",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action - Attack",
+  "types": [
+    "Action",
   ],
 }
 `;
@@ -108270,8 +108566,38 @@ exports[`Check for unintentional updates Clear Conscience (clear-conscience-blue
         "url": "https://www.tcgplayer.com/product/694930?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Nailsen Ivanderlie",
+      ],
+      "identifier": "GEM216",
+      "image": "GEM216",
+      "print": "GEM216-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "Nailsen Ivanderlie",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "GEM216",
+      "image": "GEM216-RF",
+      "print": "GEM216-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -108280,13 +108606,15 @@ exports[`Check for unintentional updates Clear Conscience (clear-conscience-blue
   ],
   "setIdentifiers": [
     "AZS020",
+    "GEM216",
     "OMN043",
   ],
   "sets": [
     "Armory Deck: Zyggy",
+    "GEM",
     "Omens of the Third Age",
   ],
-  "specialImage": "AZS020",
+  "specialImage": "GEM216",
   "subtypes": [
     "Attack",
   ],
@@ -108904,6 +109232,107 @@ exports[`Check for unintentional updates Cleave (cleave-red) vs snapshot 1`] = `
     "Non-Attack",
   ],
   "typeText": "Warrior Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Cleave the Heavens (cleave-the-heavens-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alief Rusdiatama",
+  ],
+  "cardIdentifier": "cleave-the-heavens-red",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "GEM192",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Instant** - Banish this from your hand: Create a Gate to i'Arathael token.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Cleave the Heavens",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "Alief Rusdiatama",
+      ],
+      "identifier": "GEM192",
+      "image": "GEM192",
+      "print": "GEM192-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "Alief Rusdiatama",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "GEM192",
+      "image": "GEM192-RF",
+      "print": "GEM192-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "GEM192",
+  ],
+  "sets": [
+    "GEM",
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "GEM192",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action - Attack",
   "types": [
     "Action",
   ],
@@ -124809,6 +125238,112 @@ exports[`Check for unintentional updates Coronet Peak (coronet-peak) vs snapshot
   "typeText": "Ice Equipment - Head",
   "types": [
     "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Corporeal Chasm (corporeal-chasm-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Yosi Saputra",
+  ],
+  "cardIdentifier": "corporeal-chasm-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 3,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "GEM205",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this hits, create a Gate to i'Arathael token
+
+**Blood Debt**"",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Corporeal Chasm",
+  "pitch": 1,
+  "power": 7,
+  "printings": [
+    {
+      "artists": [
+        "Yosi Saputra",
+      ],
+      "identifier": "GEM205",
+      "image": "GEM205",
+      "print": "GEM205-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "Yosi Saputra",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "GEM205",
+      "image": "GEM205-RF",
+      "print": "GEM205-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "GEM205",
+  ],
+  "sets": [
+    "GEM",
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "GEM205",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action - Attack",
+  "types": [
+    "Action",
   ],
 }
 `;
@@ -218355,18 +218890,50 @@ exports[`Check for unintentional updates Flash Bolt (flash-bolt-red) vs snapshot
         "url": "https://www.tcgplayer.com/product/695180?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Surya Prasetya",
+      ],
+      "identifier": "GEM215",
+      "image": "GEM215",
+      "print": "GEM215-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "Surya Prasetya",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "GEM215",
+      "image": "GEM215-RF",
+      "print": "GEM215-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
+    "GEM215",
     "OMN106",
   ],
   "sets": [
+    "GEM",
     "Omens of the Third Age",
   ],
-  "specialImage": "OMN106",
+  "specialImage": "GEM215",
   "subtypes": [],
   "talents": [
     "Lightning",
@@ -226152,8 +226719,38 @@ exports[`Check for unintentional updates Flurry Foot Dance (flurry-foot-dance-ye
         "url": "https://www.tcgplayer.com/product/688755?Language=English&Printing=Normal",
       },
     },
+    {
+      "artists": [
+        "Wirawan Pranoto",
+      ],
+      "identifier": "GEM214",
+      "image": "GEM214",
+      "print": "GEM214-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "Wirawan Pranoto",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "GEM214",
+      "image": "GEM214-RF",
+      "print": "GEM214-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -226162,11 +226759,13 @@ exports[`Check for unintentional updates Flurry Foot Dance (flurry-foot-dance-ye
   ],
   "setIdentifiers": [
     "AHA016",
+    "GEM214",
   ],
   "sets": [
     "Armory Deck Origins: Hala",
+    "GEM",
   ],
-  "specialImage": "AHA016",
+  "specialImage": "GEM214",
   "subtypes": [],
   "typeText": "Warrior Defense Reaction",
   "types": [
@@ -265811,6 +266410,99 @@ exports[`Check for unintentional updates Heads Up (heads-up-red) vs snapshot 1`]
     "Non-Attack",
   ],
   "typeText": "Warrior Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Headstrong Stampede (headstrong-stampede-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Audy Ravindra",
+  ],
+  "cardIdentifier": "headstrong-stampede-red",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "GEM211",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, reveal the top card of your deck. If the revealed card has 6 or more base {p}, this gets **go again**.",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Kayo",
+    "Levia",
+    "RKO",
+    "Rhinar",
+    "Tuffnut",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Headstrong Stampede",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "Audy Ravindra",
+      ],
+      "identifier": "GEM211",
+      "image": "GEM211",
+      "print": "GEM211-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "Audy Ravindra",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "GEM211",
+      "image": "GEM211-RF",
+      "print": "GEM211-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "GEM211",
+  ],
+  "sets": [
+    "GEM",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "GEM211",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Brute Action - Attack",
   "types": [
     "Action",
   ],
@@ -340572,6 +341264,98 @@ Damage that would be dealt by this can't be prevented.",
 }
 `;
 
+exports[`Check for unintentional updates Malignant Migration (malignant-migration-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Stefano Moroni",
+  ],
+  "cardIdentifier": "malignant-migration-red",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "defaultImage": "GEM199",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may discard a zombie. If you do, put a card from your banished zone into your graveyard.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Malignant Migration",
+  "pitch": 1,
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Stefano Moroni",
+      ],
+      "identifier": "GEM199",
+      "image": "GEM199",
+      "print": "GEM199-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "Stefano Moroni",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "GEM199",
+      "image": "GEM199-RF",
+      "print": "GEM199-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "GEM199",
+  ],
+  "sets": [
+    "GEM",
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "GEM199",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Man Overboard (man-overboard-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -363259,20 +364043,52 @@ exports[`Check for unintentional updates Night's Embrace (nights-embrace-blue) v
         "url": "https://www.tcgplayer.com/product/668381?Language=English&Printing=Normal",
       },
     },
+    {
+      "artists": [
+        "Muhammad Fajri",
+      ],
+      "identifier": "GEM210",
+      "image": "GEM210",
+      "print": "GEM210-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "Muhammad Fajri",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "GEM210",
+      "image": "GEM210-RF",
+      "print": "GEM210-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
     "AAC028",
+    "GEM210",
     "SAR031",
   ],
   "sets": [
     "Arakni Silver Age Deck",
     "Armory Deck: Arakni",
+    "GEM",
   ],
-  "specialImage": "SAR031",
+  "specialImage": "GEM210",
   "subtypes": [],
   "typeText": "Assassin Attack Reaction",
   "types": [
@@ -383176,18 +383992,50 @@ exports[`Check for unintentional updates Overbear (overbear-red) vs snapshot 1`]
         "url": "https://www.tcgplayer.com/product/708996?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Tomasz Jedruszek",
+      ],
+      "identifier": "GEM217",
+      "image": "GEM217",
+      "print": "GEM217-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "Tomasz Jedruszek",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "GEM217",
+      "image": "GEM217-RF",
+      "print": "GEM217-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "GEM217",
     "MPW151",
   ],
   "sets": [
+    "GEM",
     "Mastery Pack: Warrior",
   ],
-  "specialImage": "MPW151",
+  "specialImage": "GEM217",
   "subtypes": [
     "Non-Attack",
   ],
@@ -391714,6 +392562,94 @@ At the start of your action phase, destroy this.",
     "Non-Attack",
   ],
   "typeText": "Generic Action - Aura",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Peak Power (peak-power-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nikolay Moskvin",
+  ],
+  "cardIdentifier": "peak-power-red",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 3,
+  "defaultImage": "IAR041",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, reveal the top card of your deck. If the revealed card has 6 or more base {p}, this gets **overpower**.",
+  "keywords": [
+    "Overpower",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Kayo",
+    "Levia",
+    "RKO",
+    "Rhinar",
+    "Tuffnut",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Peak Power",
+  "pitch": 1,
+  "power": 7,
+  "printings": [
+    {
+      "artists": [
+        "Nikolay Moskvin",
+      ],
+      "identifier": "IAR041",
+      "image": "IAR041",
+      "print": "IAR041",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Nikolay Moskvin",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR041",
+      "image": "IAR041-RF",
+      "print": "IAR041-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR041",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR041",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Brute Action - Attack",
   "types": [
     "Action",
   ],
@@ -495798,8 +496734,38 @@ exports[`Check for unintentional updates Seek Vengeance (seek-vengeance-blue) vs
         "url": "https://www.tcgplayer.com/product/641622?Language=English&Printing=Normal",
       },
     },
+    {
+      "artists": [
+        "Ramza Ardyputra",
+      ],
+      "identifier": "GEM212",
+      "image": "GEM212",
+      "print": "GEM212-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "Ramza Ardyputra",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "GEM212",
+      "image": "GEM212-RF",
+      "print": "GEM212-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -495808,11 +496774,13 @@ exports[`Check for unintentional updates Seek Vengeance (seek-vengeance-blue) vs
   ],
   "setIdentifiers": [
     "ASR022",
+    "GEM212",
   ],
   "sets": [
     "Armory Deck: Ira",
+    "GEM",
   ],
-  "specialImage": "ASR022",
+  "specialImage": "GEM212",
   "subtypes": [
     "Attack",
   ],
@@ -500591,6 +501559,107 @@ If you paid the addition cost to play this, it gets **go again**.
 }
 `;
 
+exports[`Check for unintentional updates Shadowrealm Bloodhound (shadowrealm-bloodhound-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mariusz Gandzel",
+  ],
+  "cardIdentifier": "shadowrealm-bloodhound-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 2,
+  "defaultImage": "GEM206",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may banish a card from your hand. If it's Shadow, this gets **go again**.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Shadowrealm Bloodhound",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "Mariusz Gandzel",
+      ],
+      "identifier": "GEM206",
+      "image": "GEM206",
+      "print": "GEM206-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "Mariusz Gandzel",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "GEM206",
+      "image": "GEM206-RF",
+      "print": "GEM206-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "GEM206",
+  ],
+  "sets": [
+    "GEM",
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "GEM206",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Shadowrealm Harrower (shadowrealm-harrower-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -501023,6 +502092,103 @@ exports[`Check for unintentional updates Shadowrealm Reaper (shadowrealm-reaper-
 }
 `;
 
+exports[`Check for unintentional updates Shadowrealm Ripper (shadowrealm-ripper-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomi Ong",
+  ],
+  "cardIdentifier": "shadowrealm-ripper-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 1,
+  "defaultImage": "GEM207",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may banish a card from your hand. If it's Shadow, this gets +2{p}.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Shadowrealm Ripper",
+  "pitch": 1,
+  "power": 5,
+  "printings": [
+    {
+      "artists": [
+        "Tomi Ong",
+      ],
+      "identifier": "GEM207",
+      "image": "GEM207",
+      "print": "GEM207-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "Tomi Ong",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "GEM207",
+      "image": "GEM207-RF",
+      "print": "GEM207-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "GEM207",
+  ],
+  "sets": [
+    "GEM",
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "GEM207",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Shadowrealm Strength (shadowrealm-strength-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -501207,6 +502373,109 @@ exports[`Check for unintentional updates Shadowrealm Strength (shadowrealm-stren
     "Shadow",
   ],
   "typeText": "Shadow Necromancer Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Shadowrealm Walker (shadowrealm-walker-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Wirawan Pranoto",
+  ],
+  "cardIdentifier": "shadowrealm-walker-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "GEM208",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may banish a card from your hand. If it's Shadow, create a Gate to i'Arathael token.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Shadowrealm Walker",
+  "pitch": 1,
+  "power": 4,
+  "printings": [
+    {
+      "artists": [
+        "Wirawan Pranoto",
+      ],
+      "identifier": "GEM208",
+      "image": "GEM208",
+      "print": "GEM208-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "Wirawan Pranoto",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "GEM208",
+      "image": "GEM208-RF",
+      "print": "GEM208-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "GEM208",
+  ],
+  "sets": [
+    "GEM",
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "GEM208",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action - Attack",
   "types": [
     "Action",
   ],
