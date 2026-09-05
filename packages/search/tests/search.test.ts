@@ -586,6 +586,31 @@ describe("Excluding a printing attribute leaves the printings alone", () => {
   });
 });
 
+describe("Every spelling of a rarity renders the same printings", () => {
+  const cardSearch = new Search(doubleSidedCards);
+
+  // A printing carries its rarity as the enum member, so a value the filter
+  // resolved reaches the matching-printings pass as that member rather than as
+  // the spelling the query wrote.
+  const getMatchingPrintingIdentifiers = (query: string): string[][] => {
+    const { searchResults } = cardSearch.search(query);
+    expect(searchResults.length).toBeGreaterThan(0);
+
+    return searchResults.map(({ matchingPrintings }) =>
+      (matchingPrintings || []).map(({ identifier }) => identifier),
+    );
+  };
+
+  it("Rarity named in full and by its letter", () => {
+    const fromName = getMatchingPrintingIdentifiers("r:majestic");
+
+    expect(fromName).toEqual(getMatchingPrintingIdentifiers("r:m"));
+    expect(fromName.filter((identifiers) => identifiers.length === 0)).toEqual(
+      [],
+    );
+  });
+});
+
 describe("Shorthands property works", () => {
   const cardSearch = new Search(doubleSidedCards);
 
@@ -813,11 +838,14 @@ describe("Relation filters", () => {
 
   const emptyChainSearches = ['chain:""', "chain:"];
 
-  it.each(emptyChainSearches)("Seeds no chain from %s", (searchTerm) => {
-    const { searchResults } = cardSearch.search(searchTerm);
+  it.each(emptyChainSearches)(
+    "Applies no filter for the empty chain value in %s",
+    (searchTerm) => {
+      const { searchResults } = cardSearch.search(searchTerm);
 
-    expect(searchResults.length).toEqual(0);
-  });
+      expect(searchResults.length).toEqual(doubleSidedCards.length);
+    },
+  );
 
   it("Answers for every pitch of the card the argument names", () => {
     const { searchResults } = cardSearch.search('references:"hyper driver"');
