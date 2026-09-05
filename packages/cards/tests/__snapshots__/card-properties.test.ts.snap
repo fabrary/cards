@@ -136209,18 +136209,32 @@ At the beginning of your action phase, destroy this, then your next attack this 
         "url": "https://www.tcgplayer.com/product/587215?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Carlos Cruchaga",
+      ],
+      "foiling": "Cold",
+      "identifier": "GEM191",
+      "image": "GEM191-CF",
+      "print": "GEM191-Cold",
+      "rarity": "Promo",
+      "set": "GEM",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
     "AJV018",
+    "GEM191",
   ],
   "sets": [
     "Armory Deck Origins: Jarl",
+    "GEM",
   ],
-  "specialImage": "AJV018",
+  "specialImage": "GEM191-CF",
   "specializations": [
     "Jarl",
   ],
@@ -266391,21 +266405,53 @@ exports[`Check for unintentional updates Heads Up (heads-up-red) vs snapshot 1`]
         "url": "https://www.tcgplayer.com/product/708193?Language=English&Printing=Normal",
       },
     },
+    {
+      "artists": [
+        "Reinaldo Indrajaya",
+      ],
+      "identifier": "GEM213",
+      "image": "GEM213",
+      "print": "GEM213-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "Reinaldo Indrajaya",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "GEM213",
+      "image": "GEM213-RF",
+      "print": "GEM213-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
     "AOL014",
+    "GEM213",
   ],
   "sets": [
     "Armory Deck: Olympia",
+    "GEM",
   ],
   "shorthands": [
     "Buffs",
   ],
-  "specialImage": "AOL014",
+  "specialImage": "GEM213",
   "subtypes": [
     "Non-Attack",
   ],
@@ -266494,6 +266540,7 @@ exports[`Check for unintentional updates Headstrong Stampede (headstrong-stamped
   ],
   "sets": [
     "GEM",
+    "Usurp the Shadow Throne",
   ],
   "shorthands": [
     "Poppers",
@@ -623900,6 +623947,7 @@ exports[`Check for unintentional updates V for Valor (v-for-valor-yellow) vs sna
 exports[`Check for unintentional updates V of the Vanguard (v-of-the-vanguard-yellow) vs snapshot 1`] = `
 {
   "artists": [
+    "Muhammad Fajri",
     "Narendra B Adi",
   ],
   "cardIdentifier": "v-of-the-vanguard-yellow",
@@ -624046,14 +624094,32 @@ Your attacks this combat chain get +1{p} for each Light card charged this way.",
         "url": "https://www.tcgplayer.com/product/238388?Language=English&Printing=Normal",
       },
     },
+    {
+      "artists": [
+        "Muhammad Fajri",
+      ],
+      "foiling": "Cold",
+      "identifier": "GEM189",
+      "image": "GEM189-CF",
+      "print": "GEM189-Cold-Alternate Art-Full Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+        "Full Art",
+      ],
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
     "ASB023",
     "BOL009",
+    "GEM189",
     "MON035",
     "SBL030",
   ],
@@ -624061,9 +624127,10 @@ Your attacks this combat chain get +1{p} for each Light card charged this way.",
     "Armory Deck: Boltyn",
     "Boltyn Blitz Deck",
     "Boltyn Silver Age Deck",
+    "GEM",
     "Monarch",
   ],
-  "specialImage": "MON035-RF",
+  "specialImage": "GEM189-CF",
   "specializations": [
     "Boltyn",
   ],

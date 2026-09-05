@@ -105269,12 +105269,24 @@ When this is equipped, create a Gold token.`,
             url: "https://www.tcgplayer.com/product/587215?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Cold,
+      identifier: "GEM191",
+      image: "GEM191-CF",
+      
+      
+      print: "GEM191-Cold",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["AJV018"],
-    sets: [Release.ArmoryDeckOriginsJarl],
-    specialImage: "AJV018",
+    setIdentifiers: ["AJV018","GEM191"],
+    sets: [Release.ArmoryDeckOriginsJarl,Release.GEM],
+    specialImage: "GEM191-CF",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Earth Action - Aura",
@@ -204381,12 +204393,36 @@ If you have a head equipped and the defending hero doesn't, this gets +1{p}.
             url: "https://www.tcgplayer.com/product/708193?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Reinaldo Indrajaya"],
+      
+      identifier: "GEM213",
+      image: "GEM213",
+      
+      
+      print: "GEM213-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Reinaldo Indrajaya"],
+      foiling: Foiling.Rainbow,
+      identifier: "GEM213",
+      image: "GEM213-RF",
+      
+      
+      print: "GEM213-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["AOL014"],
-    sets: [Release.ArmoryDeckOlympia],
-    specialImage: "AOL014",
+    setIdentifiers: ["AOL014","GEM213"],
+    sets: [Release.ArmoryDeckOlympia,Release.GEM],
+    specialImage: "GEM213",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
@@ -204460,7 +204496,7 @@ If you have a head equipped and the defending hero doesn't, this gets +1{p}.
     rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
     setIdentifiers: ["GEM211"],
-    sets: [Release.GEM],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
     specialImage: "GEM211",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -478150,7 +478186,7 @@ When this hits a hero, turn all cards in their banished zone face-down. They los
   
   
   },{
-    artists: ["Narendra B Adi"],
+    artists: ["Muhammad Fajri","Narendra B Adi"],
     cardIdentifier: "v-of-the-vanguard-yellow",
     classes: [Class.Warrior],
     defaultImage: "SBL030",
@@ -478263,12 +478299,24 @@ When this hits a hero, turn all cards in their banished zone face-down. They los
             url: "https://www.tcgplayer.com/product/238388?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Muhammad Fajri"],
+      foiling: Foiling.Cold,
+      identifier: "GEM189",
+      image: "GEM189-CF",
+      
+      
+      print: "GEM189-Cold-Alternate Art-Full Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["ASB023","BOL009","MON035","SBL030"],
-    sets: [Release.ArmoryDeckBoltyn,Release.BoltynBlitzDeck,Release.BoltynSilverAgeDeck,Release.Monarch],
-    specialImage: "MON035-RF",
+    setIdentifiers: ["ASB023","BOL009","GEM189","MON035","SBL030"],
+    sets: [Release.ArmoryDeckBoltyn,Release.BoltynBlitzDeck,Release.BoltynSilverAgeDeck,Release.GEM,Release.Monarch],
+    specialImage: "GEM189-CF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Warrior Action - Attack",
