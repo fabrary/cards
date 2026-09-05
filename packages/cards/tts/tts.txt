@@ -4572,6 +4572,7 @@ OSCCardDB = {
   ["IAR118"] = { name = "Vexing Gloomblade (2)", text = "You may play this from your banished zone.\n\n**Usurp**\n\nWhen this hits a hero, deal 2 arcane damage to any target.\n\n**Blood Debt**", keywords = "Blood Debt,Usurp", types = "Action"},
   ["IAR119"] = { name = "Vexing Gloomblade (3)", text = "You may play this from your banished zone.\n\n**Usurp**\n\nWhen this hits a hero, deal 2 arcane damage to any target.\n\n**Blood Debt**", keywords = "Blood Debt,Usurp", types = "Action"},
   ["IAR120"] = { name = "Embrace Sin (2)", text = "Your next attack this turn gets +2{p}.\n\nYou may play an aura with Runechant in its name from your banished zone this turn.\n\n**Go again**", keywords = "Go again", types = "Action"},
+  ["IAR121"] = { name = "Forbidden Harvest (2)", text = "Turn up to 3 cards in your banished zone face-down, then create a Runechant token for each Shadow card turned face-down this way.\n\n**Go again**", keywords = "Go again", types = "Action"},
   ["IAR126"] = { name = "Demonbound Gloomblade (1)", text = "You may play this from your banished zone.\n\n**Usurp**\n\n**Blood Debt**", keywords = "Blood Debt,Usurp", types = "Action"},
   ["IAR127"] = { name = "Demonbound Gloomblade (2)", text = "You may play this from your banished zone.\n\n**Usurp**\n\n**Blood Debt**", keywords = "Blood Debt,Usurp", types = "Action"},
   ["IAR128"] = { name = "Demonbound Gloomblade (3)", text = "You may play this from your banished zone.\n\n**Usurp**\n\n**Blood Debt**", keywords = "Blood Debt,Usurp", types = "Action"},

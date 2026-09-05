@@ -23141,6 +23141,109 @@ When this hits, create X Runechant tokens, where X is the damage dealt this way.
 }
 `;
 
+exports[`Check for unintentional updates Arknight Descendancy (arknight-descendancy-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "SanSan",
+  ],
+  "cardIdentifier": "arknight-descendancy-blue",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 5,
+  "createdExtras": [
+    "runechant",
+  ],
+  "defaultImage": "IAR111",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Viserai Specialization**
+
+This costs {r} less to play for each Runechant you control.
+
+When this is banished from anywhere, you may pay up to 3{h}. Create that many Runechant tokens.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Specialization",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Shiyana",
+    "Viserai2",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Arknight Descendancy",
+  "pitch": 3,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "SanSan",
+      ],
+      "identifier": "IAR111",
+      "image": "IAR111",
+      "print": "IAR111",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "SanSan",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR111",
+      "image": "IAR111-RF",
+      "print": "IAR111-Rainbow",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "referencedCards": [
+    "runechant",
+  ],
+  "setIdentifiers": [
+    "IAR111",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR111",
+  "specializations": [
+    "Viserai",
+  ],
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Arknight Shard (arknight-shard-blue) vs snapshot 1`] = `
 {
   "artists": [

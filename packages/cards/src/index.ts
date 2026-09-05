@@ -176547,6 +176547,81 @@ At the beginning of your action phase, destroy this.`,
   
   
   },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "forbidden-harvest-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR121",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Forbidden Harvest",
+    printings: [{
+        artists: ["Muhammad Fajri"],
+      
+      identifier: "IAR121",
+      image: "IAR121",
+      
+      
+      print: "IAR121",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Muhammad Fajri"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR121",
+      image: "IAR121-RF",
+      
+      
+      print: "IAR121-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR121"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR121",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action",
+
+    
+    
+    cost: 1,createdExtras: ["runechant"],
+    defense: 2,
+    
+    functionalText: `Turn up to 3 cards in your banished zone face-down, then create a Runechant token for each Shadow card turned face-down this way.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 2,
+    referencedCards: ["runechant"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "force-of-nature-blue",
     classes: [Class.Runeblade],
@@ -241098,7 +241173,8 @@ When this hits a hero and you don't control a Spellbane Aegis, create a Spellban
     
   
   
-  },{
+  }];
+const cards4: Card[] = [{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "judge-jury-executioner-red",
     classes: [Class.Ranger],
@@ -241179,8 +241255,7 @@ When this attacks, if it has an aim counter, it gets "When this hits a hero, the
     
   
   
-  }];
-const cards4: Card[] = [{
+  },{
     artists: ["Amelia Tan"],
     cardIdentifier: "jump-start-red",
     classes: [Class.Mechanologist],
@@ -322840,7 +322915,8 @@ You may choose a card revealed this way. If you do, they put it on the bottom of
     
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Alexis Susani"],
     cardIdentifier: "pry-yellow",
     classes: [Class.Wizard],
@@ -322921,8 +322997,7 @@ You may choose a card revealed this way. If you do, they put it on the bottom of
     
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Alexis Susani"],
     cardIdentifier: "pry-blue",
     classes: [Class.Wizard],
@@ -403354,7 +403429,8 @@ Whenever you roll a 1 on a die, destroy this.
     
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "skyzyk-red",
     classes: [Class.NotClassed],
@@ -403433,8 +403509,7 @@ Whenever you roll a 1 on a die, destroy this.
     talents: [Talent.Lightning],
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Mariusz Gandzel"],
     cardIdentifier: "slap-happy-red",
     classes: [Class.Guardian,Class.Warrior],
@@ -482512,7 +482587,8 @@ When this hits a hero, deal 2 arcane damage to any target.
     
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Henrique Lindner"],
     cardIdentifier: "vexing-malice-yellow",
     classes: [Class.Runeblade],
@@ -482636,8 +482712,7 @@ When this hits a hero, deal 2 arcane damage to any target.
     
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "vexing-malice-blue",
     classes: [Class.Runeblade],
