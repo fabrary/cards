@@ -1361,10 +1361,10 @@ Whenever a card is put into your soul, create a Ponder token. At the start of yo
       
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["IAR114"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["GEM200","IAR114"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
     specialImage: "IAR114",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -2038,10 +2038,10 @@ The first time you destroy a Lightning Flow each turn, **amp 1**.
       
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["IAR009"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["GEM194","IAR009"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
     specialImage: "IAR009",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -2115,10 +2115,10 @@ The first time you destroy a Lightning Flow each turn, **amp 1**.
       
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["IAR010"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["GEM195","IAR010"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
     specialImage: "IAR010",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -2650,10 +2650,10 @@ When this hits, you may search your deck for a Darkest Hour, banish it, then shu
       
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["IAR115"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["GEM201","IAR115"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
     specialImage: "IAR115",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -3416,10 +3416,10 @@ Your next Shadow attack this turn gets +1{p}. **Go again**
       
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["IAR179"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["GEM209","IAR179"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
     specialImage: "IAR179",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -5934,6 +5934,79 @@ Create a Runechant token.
   
   
   },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "peak-power-red",
+    classes: [Class.Brute],
+    defaultImage: "IAR041",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
+    name: "Peak Power",
+    printings: [{
+        artists: ["Nikolay Moskvin"],
+      
+      identifier: "IAR041",
+      image: "IAR041",
+      
+      
+      print: "IAR041",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Nikolay Moskvin"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR041",
+      image: "IAR041-RF",
+      
+      
+      print: "IAR041-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR041"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR041",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Brute Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 2,
+    
+    functionalText: `When this attacks, reveal the top card of your deck. If the revealed card has 6 or more base {p}, this gets **overpower**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Overpower],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 7,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Muhammad Fajri"],
     cardIdentifier: "planar-chaos-red",
     classes: [Class.NotClassed],
@@ -6044,10 +6117,10 @@ The next Gate to i'Arathael token you activate this turn can target an action ca
       
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["IAR116"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["GEM202","IAR116"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
     specialImage: "IAR116",
     subtypes: [Subtype.Attack],
     types: [Type.Action],

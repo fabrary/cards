@@ -1127,6 +1127,81 @@ When this has no steam counters on it, destroy it.`,
   
   
   },{
+    artists: ["Wirawan Pranoto"],
+    cardIdentifier: "acrid-stench-red",
+    classes: [Class.Necromancer],
+    defaultImage: "GEM196",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Acrid Stench",
+    printings: [{
+        artists: ["Wirawan Pranoto"],
+      
+      identifier: "GEM196",
+      image: "GEM196",
+      
+      
+      print: "GEM196-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Wirawan Pranoto"],
+      foiling: Foiling.Rainbow,
+      identifier: "GEM196",
+      image: "GEM196-RF",
+      
+      
+      print: "GEM196-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["GEM196"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "GEM196",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Attack",
+
+    
+    
+    cost: 0,createdExtras: ["corrupted-corpse"],
+    defense: 2,
+    
+    functionalText: `When this attacks, you may discard a zombie. If you do, create a Corrupted Corpse in your banished zone.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 3,referencedCards: ["corrupted-corpse"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Olga Tereshenko"],
     cardIdentifier: "act-of-glory-red",
     classes: [Class.Guardian],
@@ -52319,12 +52394,36 @@ If the discarded card has 6 or more {p}, draw 2 cards and this gets **go again**
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Maerel Hibadita"],
+      
+      identifier: "GEM200",
+      image: "GEM200",
+      
+      
+      print: "GEM200-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Maerel Hibadita"],
+      foiling: Foiling.Rainbow,
+      identifier: "GEM200",
+      image: "GEM200-RF",
+      
+      
+      print: "GEM200-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["IAR114"],
-    sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR114",
+    setIdentifiers: ["GEM200","IAR114"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "GEM200",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Runeblade Action - Attack",
@@ -56849,6 +56948,81 @@ Whenever this banishes a card and this has banished another card with the same n
     
     
     
+  
+  
+  },{
+    artists: ["Amirul HHF"],
+    cardIdentifier: "bone-mass-red",
+    classes: [Class.Necromancer],
+    defaultImage: "GEM197",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Bone Mass",
+    printings: [{
+        artists: ["Amirul HHF"],
+      
+      identifier: "GEM197",
+      image: "GEM197",
+      
+      
+      print: "GEM197-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Amirul HHF"],
+      foiling: Foiling.Rainbow,
+      identifier: "GEM197",
+      image: "GEM197-RF",
+      
+      
+      print: "GEM197-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["GEM197"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "GEM197",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may discard a zombie. If you do, your next attack this turn gets +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 3,
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
   
   
   },{
@@ -61796,6 +61970,81 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     
     
     talents: [Talent.Earth,Talent.Elemental,Talent.Ice,Talent.Lightning],
+  
+  
+  },{
+    artists: ["Brian Madya Narendra"],
+    cardIdentifier: "breach-flesh-red",
+    classes: [Class.NotClassed],
+    defaultImage: "GEM204",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Breach Flesh",
+    printings: [{
+        artists: ["Brian Madya Narendra"],
+      
+      identifier: "GEM204",
+      image: "GEM204",
+      
+      
+      print: "GEM204-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Brian Madya Narendra"],
+      foiling: Foiling.Rainbow,
+      identifier: "GEM204",
+      image: "GEM204-RF",
+      
+      
+      print: "GEM204-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["GEM204"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "GEM204",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 0,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `When this hits, create a Gate to i'Arathael token
+
+**Blood Debt**"`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 4,referencedCards: ["gate-to-iarathael"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
   
   
   },{
@@ -80548,7 +80797,8 @@ The next card you play this turn with an arcane damage effect, instead deals tha
     talents: [Talent.Draconic],
   
   
-  },{
+  }];
+const cards2: Card[] = [{
     artists: ["Livia Prima"],
     cardIdentifier: "cindra",
     classes: [Class.Ninja],
@@ -81070,8 +81320,7 @@ When this is defended by 1 or more attack action cards, this gets +1{p} until en
     
   
   
-  }];
-const cards2: Card[] = [{
+  },{
     artists: ["Jessada Sutthi","Sebastian Szmyd"],
     cardIdentifier: "cintari-sellsword",
     classes: [Class.Warrior],
@@ -84292,6 +84541,81 @@ You may destroy a Bloodrot Pox token you control. If you do gain 1{h}.
     
     
     
+  
+  
+  },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "cleave-the-heavens-red",
+    classes: [Class.Brute],
+    defaultImage: "GEM192",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Cleave the Heavens",
+    printings: [{
+        artists: ["Alief Rusdiatama"],
+      
+      identifier: "GEM192",
+      image: "GEM192",
+      
+      
+      print: "GEM192-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Alief Rusdiatama"],
+      foiling: Foiling.Rainbow,
+      identifier: "GEM192",
+      image: "GEM192-RF",
+      
+      
+      print: "GEM192-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["GEM192"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "GEM192",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 2,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `**Instant** - Banish this from your hand: Create a Gate to i'Arathael token.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 6,referencedCards: ["gate-to-iarathael"],
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
   
   
   },{
@@ -95022,12 +95346,36 @@ Deal 1 arcane damage to any target.`,
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["SanSan"],
+      
+      identifier: "GEM194",
+      image: "GEM194",
+      
+      
+      print: "GEM194-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["SanSan"],
+      foiling: Foiling.Rainbow,
+      identifier: "GEM194",
+      image: "GEM194-RF",
+      
+      
+      print: "GEM194-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["IAR009"],
-    sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR009",
+    setIdentifiers: ["GEM194","IAR009"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "GEM194",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Brute Action - Attack",
@@ -95099,12 +95447,36 @@ Deal 1 arcane damage to any target.`,
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Kevin Sidharta"],
+      
+      identifier: "GEM195",
+      image: "GEM195",
+      
+      
+      print: "GEM195-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Kevin Sidharta"],
+      foiling: Foiling.Rainbow,
+      identifier: "GEM195",
+      image: "GEM195-RF",
+      
+      
+      print: "GEM195-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["IAR010"],
-    sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR010",
+    setIdentifiers: ["GEM195","IAR010"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "GEM195",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Brute Action - Attack",
@@ -96722,6 +97094,81 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
   
   
   },{
+    artists: ["Yosi Saputra"],
+    cardIdentifier: "corporeal-chasm-red",
+    classes: [Class.NotClassed],
+    defaultImage: "GEM205",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Corporeal Chasm",
+    printings: [{
+        artists: ["Yosi Saputra"],
+      
+      identifier: "GEM205",
+      image: "GEM205",
+      
+      
+      print: "GEM205-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Yosi Saputra"],
+      foiling: Foiling.Rainbow,
+      identifier: "GEM205",
+      image: "GEM205-RF",
+      
+      
+      print: "GEM205-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["GEM205"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "GEM205",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 3,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `When this hits, create a Gate to i'Arathael token
+
+**Blood Debt**"`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 7,referencedCards: ["gate-to-iarathael"],
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Mark Poole"],
     cardIdentifier: "corrosive-space-dust-red",
     classes: [Class.Illusionist],
@@ -97202,12 +97649,24 @@ This card's attacks get **go again**.
       set: Release.ArmoryDeckMalice,
       
       
+    },{
+        artists: ["Dzulfikar Aliy"],
+      foiling: Foiling.Cold,
+      identifier: "GEM188",
+      image: "GEM188-CF",
+      
+      
+      print: "GEM188-Cold",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["AMA003"],
-    sets: [Release.ArmoryDeckMalice],
-    specialImage: "AMA003-RF",
+    setIdentifiers: ["AMA003","GEM188"],
+    sets: [Release.ArmoryDeckMalice,Release.GEM],
+    specialImage: "GEM188-CF",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
     typeText: "Shadow Equipment - Head",
@@ -105919,12 +106378,36 @@ Each hero banishes a card from their hand.
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["YDZ"],
+      
+      identifier: "GEM201",
+      image: "GEM201",
+      
+      
+      print: "GEM201-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["YDZ"],
+      foiling: Foiling.Rainbow,
+      identifier: "GEM201",
+      image: "GEM201-RF",
+      
+      
+      print: "GEM201-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["IAR115"],
-    sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR115",
+    setIdentifiers: ["GEM201","IAR115"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "GEM201",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Runeblade Action - Attack",
@@ -120138,12 +120621,36 @@ When you lose {h} during your turn, destroy this.`,
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "GEM209",
+      image: "GEM209",
+      
+      
+      print: "GEM209-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.Rainbow,
+      identifier: "GEM209",
+      image: "GEM209-RF",
+      
+      
+      print: "GEM209-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["IAR179"],
-    sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR179",
+    setIdentifiers: ["GEM209","IAR179"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "GEM209",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Action",
@@ -159274,7 +159781,8 @@ Equip Fyendal's Spring Tunic. If you don't, **negate** this.`,
     
   
   
-  },{
+  }];
+const cards3: Card[] = [{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "falcon-wing-blue",
     classes: [Class.Ranger],
@@ -159747,8 +160255,7 @@ Target attack action card gets +1{p}.`,
     talents: [Talent.Mystic],
   
   
-  }];
-const cards3: Card[] = [{
+  },{
     artists: ["Billy Christian"],
     cardIdentifier: "fang-dracai-of-blades",
     classes: [Class.Warrior],
@@ -203845,6 +204352,79 @@ If you have a head equipped and the defending hero doesn't, this gets +1{p}.
   
   
   },{
+    artists: ["Audy Ravindra"],
+    cardIdentifier: "headstrong-stampede-red",
+    classes: [Class.Brute],
+    defaultImage: "GEM211",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
+    name: "Headstrong Stampede",
+    printings: [{
+        artists: ["Audy Ravindra"],
+      
+      identifier: "GEM211",
+      image: "GEM211",
+      
+      
+      print: "GEM211-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Audy Ravindra"],
+      foiling: Foiling.Rainbow,
+      identifier: "GEM211",
+      image: "GEM211-RF",
+      
+      
+      print: "GEM211-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["GEM211"],
+    sets: [Release.GEM],
+    specialImage: "GEM211",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Brute Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `When this attacks, reveal the top card of your deck. If the revealed card has 6 or more base {p}, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 6,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Dmitry Isakevitch"],
     cardIdentifier: "healing-balm-red",
     classes: [Class.Generic],
@@ -240538,7 +241118,8 @@ When this attacks, if it has an aim counter, it gets "When this hits a hero, the
     
   
   
-  },{
+  }];
+const cards4: Card[] = [{
     artists: ["Amelia Tan"],
     cardIdentifier: "jump-start-yellow",
     classes: [Class.Mechanologist],
@@ -241084,8 +241665,7 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
     
   
   
-  }];
-const cards4: Card[] = [{
+  },{
     artists: ["Sariya Asavametha"],
     cardIdentifier: "kabuto-of-imperial-authority",
     classes: [Class.Warrior],
@@ -262231,6 +262811,81 @@ Damage that would be dealt by this can't be prevented.`,
   
   
   },{
+    artists: ["Stefano Moroni"],
+    cardIdentifier: "malignant-migration-red",
+    classes: [Class.Necromancer],
+    defaultImage: "GEM199",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Malignant Migration",
+    printings: [{
+        artists: ["Stefano Moroni"],
+      
+      identifier: "GEM199",
+      image: "GEM199",
+      
+      
+      print: "GEM199-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Stefano Moroni"],
+      foiling: Foiling.Rainbow,
+      identifier: "GEM199",
+      image: "GEM199-RF",
+      
+      
+      print: "GEM199-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["GEM199"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "GEM199",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may discard a zombie. If you do, put a card from your banished zone into your graveyard.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Yunior Susanto"],
     cardIdentifier: "man-overboard-red",
     classes: [Class.Necromancer,Class.Pirate],
@@ -272768,7 +273423,7 @@ Whenever this banishes a non-attack action card, gain 1{h}.`,
     classes: [Class.Warrior],
     defaultImage: "BOL002",
     firstReleaseDate: "2021-05-07",
-    legalFormats: [Format.Blitz,Format.Open,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Minerva Themis",
     printings: [{
@@ -272801,12 +273456,24 @@ Whenever this banishes a non-attack action card, gain 1{h}.`,
             url: "https://www.tcgplayer.com/product/257325?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Mihail Spil-Haufter"],
+      foiling: Foiling.Cold,
+      identifier: "GEM219",
+      image: "GEM219-MV",
+      
+      
+      print: "GEM219-Cold-Full Art",
+      rarity: Rarity.Rare,
+      set: Release.GEM,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Majestic,Rarity.Promo],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["BOL002","FAB044"],
-    sets: [Release.BoltynBlitzDeck,Release.Promos],
-    specialImage: "BOL002",
+    rarities: [Rarity.Majestic,Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["BOL002","FAB044","GEM219"],
+    sets: [Release.BoltynBlitzDeck,Release.GEM,Release.Promos],
+    specialImage: "GEM219-MV",
     subtypes: [],
     types: [Type.Mentor],
     typeText: "Warrior Mentor",
@@ -300774,6 +301441,79 @@ At the start of your action phase, destroy this.`,
   
   
   },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "peak-power-red",
+    classes: [Class.Brute],
+    defaultImage: "IAR041",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
+    name: "Peak Power",
+    printings: [{
+        artists: ["Nikolay Moskvin"],
+      
+      identifier: "IAR041",
+      image: "IAR041",
+      
+      
+      print: "IAR041",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Nikolay Moskvin"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR041",
+      image: "IAR041-RF",
+      
+      
+      print: "IAR041-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR041"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR041",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Brute Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 2,
+    
+    functionalText: `When this attacks, reveal the top card of your deck. If the revealed card has 6 or more base {p}, this gets **overpower**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Overpower],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 7,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Mario Wibisono"],
     cardIdentifier: "pearl-amulet-blue",
     classes: [Class.Generic],
@@ -309440,12 +310180,36 @@ When this hits a hero, banish the top card of their deck.`,
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Bastien Jez"],
+      
+      identifier: "GEM202",
+      image: "GEM202",
+      
+      
+      print: "GEM202-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Bastien Jez"],
+      foiling: Foiling.Rainbow,
+      identifier: "GEM202",
+      image: "GEM202-RF",
+      
+      
+      print: "GEM202-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["IAR116"],
-    sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR116",
+    setIdentifiers: ["GEM202","IAR116"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "GEM202",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Runeblade Action - Attack",
@@ -319540,12 +320304,24 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
             url: "https://www.tcgplayer.com/product/708191?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Surya Prasetya"],
+      foiling: Foiling.Cold,
+      identifier: "GEM187",
+      image: "GEM187-CF",
+      
+      
+      print: "GEM187-Cold",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["AOL006"],
-    sets: [Release.ArmoryDeckOlympia],
-    specialImage: "AOL006-RF",
+    setIdentifiers: ["AOL006","GEM187"],
+    sets: [Release.ArmoryDeckOlympia,Release.GEM],
+    specialImage: "GEM187-CF",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
     typeText: "Guardian / Warrior Equipment - Legs",
@@ -321991,7 +322767,8 @@ You may choose a card revealed this way. If you do, they put it on the bottom of
     
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Daniel Jiménez"],
     cardIdentifier: "public-bounty-red",
     classes: [Class.Generic],
@@ -322714,8 +323491,7 @@ Banish the top card of your deck. If it's yellow, create a Gate to i'Arathael to
     talents: [Talent.Shadow],
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Marco González"],
     cardIdentifier: "pull-from-beyond-blue",
     classes: [Class.NotClassed],
@@ -383361,6 +384137,81 @@ If you paid the addition cost to play this, it gets **go again**.
   
   
   },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "shadowrealm-bloodhound-red",
+    classes: [Class.NotClassed],
+    defaultImage: "GEM206",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Shadowrealm Bloodhound",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "GEM206",
+      image: "GEM206",
+      
+      
+      print: "GEM206-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.Rainbow,
+      identifier: "GEM206",
+      image: "GEM206-RF",
+      
+      
+      print: "GEM206-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["GEM206"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "GEM206",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `When this attacks, you may banish a card from your hand. If it's Shadow, this gets **go again**.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 6,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Stefano Moroni"],
     cardIdentifier: "shadowrealm-harrower-blue",
     classes: [Class.NotClassed],
@@ -383705,6 +384556,81 @@ If 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 
   
   
   },{
+    artists: ["Tomi Ong"],
+    cardIdentifier: "shadowrealm-ripper-red",
+    classes: [Class.NotClassed],
+    defaultImage: "GEM207",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Shadowrealm Ripper",
+    printings: [{
+        artists: ["Tomi Ong"],
+      
+      identifier: "GEM207",
+      image: "GEM207",
+      
+      
+      print: "GEM207-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Tomi Ong"],
+      foiling: Foiling.Rainbow,
+      identifier: "GEM207",
+      image: "GEM207-RF",
+      
+      
+      print: "GEM207-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["GEM207"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "GEM207",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `When this attacks, you may banish a card from your hand. If it's Shadow, this gets +2{p}.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Surya Prasetya"],
     cardIdentifier: "shadowrealm-strength-red",
     classes: [Class.Necromancer],
@@ -383856,6 +384782,81 @@ If 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 
     
     
     shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Wirawan Pranoto"],
+    cardIdentifier: "shadowrealm-walker-red",
+    classes: [Class.NotClassed],
+    defaultImage: "GEM208",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Shadowrealm Walker",
+    printings: [{
+        artists: ["Wirawan Pranoto"],
+      
+      identifier: "GEM208",
+      image: "GEM208",
+      
+      
+      print: "GEM208-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Wirawan Pranoto"],
+      foiling: Foiling.Rainbow,
+      identifier: "GEM208",
+      image: "GEM208-RF",
+      
+      
+      print: "GEM208-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["GEM208"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "GEM208",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 0,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `When this attacks, you may banish a card from your hand. If it's Shadow, create a Gate to i'Arathael token.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 4,referencedCards: ["gate-to-iarathael"],
+    
+    
     
     
     
@@ -402267,7 +403268,8 @@ Whenever you roll a 1 on a die, destroy this.
     
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "slay-the-scholars-red",
     classes: [Class.Assassin],
@@ -403466,8 +404468,7 @@ Your second sword or dagger attack this turn gets +1{p}.
     
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Ismatulloh"],
     cardIdentifier: "slice-up-red",
     classes: [Class.Warrior],
@@ -452963,7 +453964,7 @@ If you've played another blue card this turn, **transcend**.`,
     classes: [Class.Generic],
     defaultImage: "ARK007",
     firstReleaseDate: "2025-01-31",
-    legalFormats: [Format.Blitz,Format.Open,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Slippy],
     name: "The Hand that Pulls the Strings",
     printings: [{
@@ -452984,6 +453985,18 @@ If you've played another blue card this turn, **transcend**.`,
     },{
         artists: ["Pavel Rtishchev (Klaher)"],
       foiling: Foiling.Cold,
+      identifier: "GEM218",
+      image: "GEM218-MV",
+      
+      
+      print: "GEM218-Cold-Full Art",
+      rarity: Rarity.Rare,
+      set: Release.GEM,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Pavel Rtishchev (Klaher)"],
+      foiling: Foiling.Cold,
       identifier: "LGS391",
       image: "JA_LGS391-CF",
       
@@ -452997,11 +454010,11 @@ If you've played another blue card this turn, **transcend**.`,
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Majestic,Rarity.Promo],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["ARK007","LGS391"],
-    sets: [Release.ArakniBlitzDeckARK,Release.Promos],
-    specialImage: "ARK007",
+    rarities: [Rarity.Majestic,Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["ARK007","GEM218","LGS391"],
+    sets: [Release.ArakniBlitzDeckARK,Release.GEM,Release.Promos],
+    specialImage: "GEM218-MV",
     subtypes: [],
     types: [Type.Mentor],
     typeText: "Arakni Mentor",
@@ -481479,7 +482492,8 @@ When this hits a hero, deal 2 arcane damage to any target.
     
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "vexing-quillhand",
     classes: [Class.Runeblade],
@@ -482782,8 +483796,7 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
     
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Sebastian Szmyd"],
     cardIdentifier: "vigorous-engagement-red",
     classes: [Class.Warrior],

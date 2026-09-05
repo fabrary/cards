@@ -66982,18 +66982,50 @@ When this hits a hero, you may banish target aura permanent they control.
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
+    {
+      "artists": [
+        "Maerel Hibadita",
+      ],
+      "identifier": "GEM200",
+      "image": "GEM200",
+      "print": "GEM200-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "Maerel Hibadita",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "GEM200",
+      "image": "GEM200-RF",
+      "print": "GEM200-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
+    "GEM200",
     "IAR114",
   ],
   "sets": [
+    "GEM",
     "Usurp the Shadow Throne",
   ],
-  "specialImage": "IAR114",
+  "specialImage": "GEM200",
   "subtypes": [
     "Attack",
   ],
@@ -122682,8 +122714,38 @@ exports[`Check for unintentional updates Consuming Lash (consuming-lash-yellow) 
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
+    {
+      "artists": [
+        "SanSan",
+      ],
+      "identifier": "GEM194",
+      "image": "GEM194",
+      "print": "GEM194-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "SanSan",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "GEM194",
+      "image": "GEM194-RF",
+      "print": "GEM194-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -122693,15 +122755,17 @@ exports[`Check for unintentional updates Consuming Lash (consuming-lash-yellow) 
     "blasmophet-the-soul-harvester",
   ],
   "setIdentifiers": [
+    "GEM194",
     "IAR009",
   ],
   "sets": [
+    "GEM",
     "Usurp the Shadow Throne",
   ],
   "shorthands": [
     "Poppers",
   ],
-  "specialImage": "IAR009",
+  "specialImage": "GEM194",
   "subtypes": [
     "Attack",
   ],
@@ -122778,8 +122842,38 @@ exports[`Check for unintentional updates Consuming Strength (consuming-strength-
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
+    {
+      "artists": [
+        "Kevin Sidharta",
+      ],
+      "identifier": "GEM195",
+      "image": "GEM195",
+      "print": "GEM195-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "Kevin Sidharta",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "GEM195",
+      "image": "GEM195-RF",
+      "print": "GEM195-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -122789,16 +122883,18 @@ exports[`Check for unintentional updates Consuming Strength (consuming-strength-
     "blasmophet-the-soul-harvester",
   ],
   "setIdentifiers": [
+    "GEM195",
     "IAR010",
   ],
   "sets": [
+    "GEM",
     "Usurp the Shadow Throne",
   ],
   "shorthands": [
     "Buffs",
     "Poppers",
   ],
-  "specialImage": "IAR010",
+  "specialImage": "GEM195",
   "subtypes": [
     "Attack",
   ],
@@ -125326,18 +125422,32 @@ exports[`Check for unintentional updates Corrupted Crown (corrupted-crown) vs sn
       "rarity": "Rare",
       "set": "Armory Deck: Malice",
     },
+    {
+      "artists": [
+        "Dzulfikar Aliy",
+      ],
+      "foiling": "Cold",
+      "identifier": "GEM188",
+      "image": "GEM188-CF",
+      "print": "GEM188-Cold",
+      "rarity": "Promo",
+      "set": "GEM",
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
     "AMA003",
+    "GEM188",
   ],
   "sets": [
     "Armory Deck: Malice",
+    "GEM",
   ],
-  "specialImage": "AMA003-RF",
+  "specialImage": "GEM188-CF",
   "subtypes": [
     "Head",
   ],
@@ -136976,18 +137086,50 @@ When this hits a hero, they banish a card from their hand.
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
+    {
+      "artists": [
+        "YDZ",
+      ],
+      "identifier": "GEM201",
+      "image": "GEM201",
+      "print": "GEM201-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "YDZ",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "GEM201",
+      "image": "GEM201-RF",
+      "print": "GEM201-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
+    "GEM201",
     "IAR115",
   ],
   "sets": [
+    "GEM",
     "Usurp the Shadow Throne",
   ],
-  "specialImage": "IAR115",
+  "specialImage": "GEM201",
   "subtypes": [
     "Attack",
   ],
@@ -155372,18 +155514,50 @@ exports[`Check for unintentional updates Dimenxxional Ferryman (dimenxxional-fer
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
+    {
+      "artists": [
+        "Tomasz Jedruszek",
+      ],
+      "identifier": "GEM209",
+      "image": "GEM209",
+      "print": "GEM209-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "Tomasz Jedruszek",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "GEM209",
+      "image": "GEM209-RF",
+      "print": "GEM209-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
+    "GEM209",
     "IAR179",
   ],
   "sets": [
+    "GEM",
     "Usurp the Shadow Throne",
   ],
-  "specialImage": "IAR179",
+  "specialImage": "GEM209",
   "subtypes": [
     "Non-Attack",
   ],
@@ -352971,6 +353145,7 @@ exports[`Check for unintentional updates Minerva Themis (minerva-themis) vs snap
   "legalFormats": [
     "Blitz",
     "Open",
+    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -353017,21 +353192,39 @@ exports[`Check for unintentional updates Minerva Themis (minerva-themis) vs snap
         "url": "https://www.tcgplayer.com/product/257325?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Mihail Spil-Haufter",
+      ],
+      "foiling": "Cold",
+      "identifier": "GEM219",
+      "image": "GEM219-MV",
+      "print": "GEM219-Cold-Full Art",
+      "rarity": "Rare",
+      "set": "GEM",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
   ],
   "rarities": [
     "Majestic",
     "Promo",
+    "Rare",
   ],
-  "rarity": "Majestic",
+  "rarity": "Rare",
   "setIdentifiers": [
     "BOL002",
     "FAB044",
+    "GEM219",
   ],
   "sets": [
     "Boltyn Blitz Deck",
+    "GEM",
     "Promos",
   ],
-  "specialImage": "BOL002",
+  "specialImage": "GEM219-MV",
   "subtypes": [],
   "typeText": "Warrior Mentor",
   "types": [
@@ -403009,18 +403202,50 @@ When this hits a hero, they banish a card in their arsenal.
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
+    {
+      "artists": [
+        "Bastien Jez",
+      ],
+      "identifier": "GEM202",
+      "image": "GEM202",
+      "print": "GEM202-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "Bastien Jez",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "GEM202",
+      "image": "GEM202-RF",
+      "print": "GEM202-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
+    "GEM202",
     "IAR116",
   ],
   "sets": [
+    "GEM",
     "Usurp the Shadow Throne",
   ],
-  "specialImage": "IAR116",
+  "specialImage": "GEM202",
   "subtypes": [
     "Attack",
   ],
@@ -416508,18 +416733,32 @@ exports[`Check for unintentional updates Prizeworn Pathfinders (prizeworn-pathfi
         "url": "https://www.tcgplayer.com/product/708191?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Surya Prasetya",
+      ],
+      "foiling": "Cold",
+      "identifier": "GEM187",
+      "image": "GEM187-CF",
+      "print": "GEM187-Cold",
+      "rarity": "Promo",
+      "set": "GEM",
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
     "AOL006",
+    "GEM187",
   ],
   "sets": [
     "Armory Deck: Olympia",
+    "GEM",
   ],
-  "specialImage": "AOL006-RF",
+  "specialImage": "GEM187-CF",
   "subtypes": [
     "Legs",
   ],
@@ -590914,6 +591153,7 @@ At the beginning of your end phase, destroy a Silver you control. If you don't, 
   "legalFormats": [
     "Blitz",
     "Open",
+    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -590952,6 +591192,21 @@ At the beginning of your end phase, destroy a Silver you control. If you don't, 
         "Pavel Rtishchev (Klaher)",
       ],
       "foiling": "Cold",
+      "identifier": "GEM218",
+      "image": "GEM218-MV",
+      "print": "GEM218-Cold-Full Art",
+      "rarity": "Rare",
+      "set": "GEM",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
+    {
+      "artists": [
+        "Pavel Rtishchev (Klaher)",
+      ],
+      "foiling": "Cold",
       "identifier": "LGS391",
       "image": "JA_LGS391-CF",
       "print": "LGS391-Cold-Full Art",
@@ -590970,20 +591225,23 @@ At the beginning of your end phase, destroy a Silver you control. If you don't, 
   "rarities": [
     "Majestic",
     "Promo",
+    "Rare",
   ],
-  "rarity": "Majestic",
+  "rarity": "Rare",
   "referencedCards": [
     "silver",
   ],
   "setIdentifiers": [
     "ARK007",
+    "GEM218",
     "LGS391",
   ],
   "sets": [
     "Arakni Hunted Blitz Deck",
+    "GEM",
     "Promos",
   ],
-  "specialImage": "ARK007",
+  "specialImage": "GEM218-MV",
   "subtypes": [],
   "typeText": "Arakni Mentor",
   "types": [

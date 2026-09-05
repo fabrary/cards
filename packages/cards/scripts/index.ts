@@ -130,6 +130,13 @@ releasedCards.forEach((card) => {
     ).sort();
     duplicate.legalFormats = legalFormats;
 
+    const metatypes = Array.from(
+      new Set([...(duplicate.metatypes || []), ...(card.metatypes || [])]),
+    ).sort();
+    if (metatypes.length > 0) {
+      duplicate.metatypes = metatypes;
+    }
+
     // duplicate.arcane = arcane;
     duplicate.artists = artists;
     duplicate.defaultImage = defaultImage;
