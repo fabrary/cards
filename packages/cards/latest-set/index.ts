@@ -244,6 +244,85 @@
   
   
   },{
+    artists: ["SanSan"],
+    cardIdentifier: "arknight-descendancy-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR111",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Shiyana,Hero.Viserai2],
+    name: "Arknight Descendancy",
+    printings: [{
+        artists: ["SanSan"],
+      
+      identifier: "IAR111",
+      image: "IAR111",
+      
+      
+      print: "IAR111",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["SanSan"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR111",
+      image: "IAR111-RF",
+      
+      
+      print: "IAR111-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR111"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR111",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 5,createdExtras: ["runechant"],
+    defense: 3,
+    
+    functionalText: `**Viserai Specialization**
+
+This costs {r} less to play for each Runechant you control.
+
+When this is banished from anywhere, you may pay up to 3{h}. Create that many Runechant tokens.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.Specialization],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    power: 6,referencedCards: ["runechant"],
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    specializations: [Hero.Viserai],
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Isuardi Therianto","Max Kostin"],
     cardIdentifier: "arknight-shard-blue",
     classes: [Class.Runeblade],

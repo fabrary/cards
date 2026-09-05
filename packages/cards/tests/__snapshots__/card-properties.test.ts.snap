@@ -539263,23 +539263,42 @@ When this hits a hero, banish all cards in their soul. They lose {h} equal to th
         "url": "https://www.tcgplayer.com/product/238466?Language=English&Printing=Normal",
       },
     },
+    {
+      "artists": [
+        "soyameii",
+      ],
+      "foiling": "Cold",
+      "identifier": "GEM190",
+      "image": "GEM190-CF",
+      "print": "GEM190-Cold-Alternate Art-Full Art",
+      "rarity": "Promo",
+      "set": "GEM",
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+        "Full Art",
+      ],
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
+    "GEM190",
     "LEV008",
     "MON198",
   ],
   "sets": [
+    "GEM",
     "Levia Blitz Deck",
     "Monarch",
   ],
   "shorthands": [
     "Poppers",
   ],
-  "specialImage": "MON198-RF",
+  "specialImage": "GEM190-CF",
   "specializations": [
     "Levia",
   ],

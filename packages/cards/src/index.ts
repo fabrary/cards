@@ -18028,6 +18028,85 @@ When this hits, create X Runechant tokens, where X is the damage dealt this way.
   
   
   },{
+    artists: ["SanSan"],
+    cardIdentifier: "arknight-descendancy-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR111",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Shiyana,Hero.Viserai2],
+    name: "Arknight Descendancy",
+    printings: [{
+        artists: ["SanSan"],
+      
+      identifier: "IAR111",
+      image: "IAR111",
+      
+      
+      print: "IAR111",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["SanSan"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR111",
+      image: "IAR111-RF",
+      
+      
+      print: "IAR111-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR111"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR111",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 5,createdExtras: ["runechant"],
+    defense: 3,
+    
+    functionalText: `**Viserai Specialization**
+
+This costs {r} less to play for each Runechant you control.
+
+When this is banished from anywhere, you may pay up to 3{h}. Create that many Runechant tokens.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.Specialization],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    power: 6,referencedCards: ["runechant"],
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    specializations: [Hero.Viserai],
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Isuardi Therianto","Max Kostin"],
     cardIdentifier: "arknight-shard-blue",
     classes: [Class.Runeblade],
@@ -80688,7 +80767,8 @@ The next card you play this turn with an arcane damage effect, instead deals tha
     talents: [Talent.Draconic],
   
   
-  },{
+  }];
+const cards2: Card[] = [{
     artists: ["Athiwut B."],
     cardIdentifier: "cinderskin-devotion-blue",
     classes: [Class.Ninja],
@@ -80797,8 +80877,7 @@ The next card you play this turn with an arcane damage effect, instead deals tha
     talents: [Talent.Draconic],
   
   
-  }];
-const cards2: Card[] = [{
+  },{
     artists: ["Livia Prima"],
     cardIdentifier: "cindra",
     classes: [Class.Ninja],
@@ -159721,7 +159800,8 @@ Equip Fyendal's Spring Tunic. If you don't, **negate** this.`,
     
   
   
-  },{
+  }];
+const cards3: Card[] = [{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "falcon-wing-yellow",
     classes: [Class.Ranger],
@@ -159817,8 +159897,7 @@ Equip Fyendal's Spring Tunic. If you don't, **negate** this.`,
     
   
   
-  }];
-const cards3: Card[] = [{
+  },{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "falcon-wing-blue",
     classes: [Class.Ranger],
@@ -241100,7 +241179,8 @@ When this attacks, if it has an aim counter, it gets "When this hits a hero, the
     
   
   
-  },{
+  }];
+const cards4: Card[] = [{
     artists: ["Amelia Tan"],
     cardIdentifier: "jump-start-red",
     classes: [Class.Mechanologist],
@@ -241226,8 +241306,7 @@ When this attacks, if it has an aim counter, it gets "When this hits a hero, the
     
   
   
-  }];
-const cards4: Card[] = [{
+  },{
     artists: ["Amelia Tan"],
     cardIdentifier: "jump-start-yellow",
     classes: [Class.Mechanologist],
@@ -322842,7 +322921,8 @@ You may choose a card revealed this way. If you do, they put it on the bottom of
     
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Alexis Susani"],
     cardIdentifier: "pry-blue",
     classes: [Class.Wizard],
@@ -322923,8 +323003,7 @@ You may choose a card revealed this way. If you do, they put it on the bottom of
     
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Daniel Jiménez"],
     cardIdentifier: "public-bounty-red",
     classes: [Class.Generic],
@@ -403354,7 +403433,8 @@ Whenever you roll a 1 on a die, destroy this.
     talents: [Talent.Lightning],
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Mariusz Gandzel"],
     cardIdentifier: "slap-happy-red",
     classes: [Class.Guardian,Class.Warrior],
@@ -403448,8 +403528,7 @@ Whenever you roll a 1 on a die, destroy this.
     
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "slay-the-scholars-red",
     classes: [Class.Assassin],
@@ -413271,12 +413350,24 @@ If this deals damage, look at the top card of your deck. If it's a Wizard non-at
             url: "https://www.tcgplayer.com/product/238466?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["soyameii"],
+      foiling: Foiling.Cold,
+      identifier: "GEM190",
+      image: "GEM190-CF",
+      
+      
+      print: "GEM190-Cold-Alternate Art-Full Art",
+      rarity: Rarity.Promo,
+      set: Release.GEM,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["LEV008","MON198"],
-    sets: [Release.LeviaBlitzDeck,Release.Monarch],
-    specialImage: "MON198-RF",
+    setIdentifiers: ["GEM190","LEV008","MON198"],
+    sets: [Release.GEM,Release.LeviaBlitzDeck,Release.Monarch],
+    specialImage: "GEM190-CF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Action - Attack",
@@ -482545,7 +482636,8 @@ When this hits a hero, deal 2 arcane damage to any target.
     
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Henrique Lindner"],
     cardIdentifier: "vexing-malice-blue",
     classes: [Class.Runeblade],
@@ -482684,8 +482776,7 @@ When this hits a hero, deal 2 arcane damage to any target.
     
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "vexing-quillhand",
     classes: [Class.Runeblade],
