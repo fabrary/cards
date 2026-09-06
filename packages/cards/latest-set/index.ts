@@ -6143,13 +6143,159 @@ Create a Runechant token.
     keywords: [Keyword.Overpower],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Rainbow],
   
     
     pitch: 1,
     power: 7,
     
     shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "peak-power-yellow",
+    classes: [Class.Brute],
+    defaultImage: "IAR042",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
+    name: "Peak Power",
+    printings: [{
+        artists: ["Nikolay Moskvin"],
+      
+      identifier: "IAR042",
+      image: "IAR042",
+      
+      
+      print: "IAR042",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Nikolay Moskvin"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR042",
+      image: "IAR042-RF",
+      
+      
+      print: "IAR042-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR042"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR042",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Brute Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 2,
+    
+    functionalText: `When this attacks, reveal the top card of your deck. If the revealed card has 6 or more base {p}, this gets **overpower**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Overpower],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 6,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "peak-power-blue",
+    classes: [Class.Brute],
+    defaultImage: "IAR043",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
+    name: "Peak Power",
+    printings: [{
+        artists: ["Nikolay Moskvin"],
+      
+      identifier: "IAR043",
+      image: "IAR043",
+      
+      
+      print: "IAR043",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Nikolay Moskvin"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR043",
+      image: "IAR043-RF",
+      
+      
+      print: "IAR043-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR043"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR043",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Brute Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 2,
+    
+    functionalText: `When this attacks, reveal the top card of your deck. If the revealed card has 6 or more base {p}, this gets **overpower**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Overpower],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 5,
+    
+    
     
     
     

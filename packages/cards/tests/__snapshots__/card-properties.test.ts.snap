@@ -229384,6 +229384,99 @@ exports[`Check for unintentional updates For the Realm (for-the-realm-red) vs sn
 }
 `;
 
+exports[`Check for unintentional updates Forbidden Harvest (forbidden-harvest-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Muhammad Fajri",
+  ],
+  "cardIdentifier": "forbidden-harvest-yellow",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 1,
+  "createdExtras": [
+    "runechant",
+  ],
+  "defaultImage": "IAR121",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "Turn up to 3 cards in your banished zone face-down, then create a Runechant token for each Shadow card turned face-down this way.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Chane",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Forbidden Harvest",
+  "pitch": 2,
+  "printings": [
+    {
+      "artists": [
+        "Muhammad Fajri",
+      ],
+      "identifier": "IAR121",
+      "image": "IAR121",
+      "print": "IAR121",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Muhammad Fajri",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR121",
+      "image": "IAR121-RF",
+      "print": "IAR121-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "referencedCards": [
+    "runechant",
+  ],
+  "setIdentifiers": [
+    "IAR121",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR121",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Force Sight (force-sight-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -392755,6 +392848,7 @@ exports[`Check for unintentional updates Peak Power (peak-power-red) vs snapshot
   ],
   "meta": [
     "Deck",
+    "Rainbow",
   ],
   "name": "Peak Power",
   "pitch": 1,
