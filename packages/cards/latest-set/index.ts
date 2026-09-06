@@ -23,6 +23,231 @@
   } from '@flesh-and-blood/types';
 
   const cards1: Card[] = [{
+    artists: ["Wirawan Pranoto"],
+    cardIdentifier: "acrid-stench-red",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR069",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Acrid Stench",
+    printings: [{
+        artists: ["Wirawan Pranoto"],
+      
+      identifier: "IAR069",
+      image: "IAR069",
+      
+      
+      print: "IAR069",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Wirawan Pranoto"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR069",
+      image: "IAR069-RF",
+      
+      
+      print: "IAR069-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["GEM196","IAR069"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "IAR069",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Attack",
+
+    
+    
+    cost: 0,createdExtras: ["corrupted-corpse"],
+    defense: 2,
+    
+    functionalText: `When this attacks, you may discard a zombie. If you do, create a Corrupted Corpse in your banished zone.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 3,referencedCards: ["corrupted-corpse"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Wirawan Pranoto"],
+    cardIdentifier: "acrid-stench-yellow",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR070",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Acrid Stench",
+    printings: [{
+        artists: ["Wirawan Pranoto"],
+      
+      identifier: "IAR070",
+      image: "IAR070",
+      
+      
+      print: "IAR070",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Wirawan Pranoto"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR070",
+      image: "IAR070-RF",
+      
+      
+      print: "IAR070-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR070"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR070",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Attack",
+
+    
+    
+    cost: 0,createdExtras: ["corrupted-corpse"],
+    defense: 2,
+    
+    functionalText: `When this attacks, you may discard a zombie. If you do, create a Corrupted Corpse in your banished zone.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 2,referencedCards: ["corrupted-corpse"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Wirawan Pranoto"],
+    cardIdentifier: "acrid-stench-blue",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR071",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Acrid Stench",
+    printings: [{
+        artists: ["Wirawan Pranoto"],
+      
+      identifier: "IAR071",
+      image: "IAR071",
+      
+      
+      print: "IAR071",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Wirawan Pranoto"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR071",
+      image: "IAR071-RF",
+      
+      
+      print: "IAR071-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR071"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR071",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Attack",
+
+    
+    
+    cost: 0,createdExtras: ["corrupted-corpse"],
+    defense: 2,
+    
+    functionalText: `When this attacks, you may discard a zombie. If you do, create a Corrupted Corpse in your banished zone.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 1,referencedCards: ["corrupted-corpse"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Rio Sabda"],
     cardIdentifier: "ancient-earth-oak-red",
     classes: [Class.NotClassed],
@@ -1559,6 +1784,231 @@ When this hits a hero, you may banish target aura permanent they control.
   
   
   },{
+    artists: ["Amirul HHF"],
+    cardIdentifier: "bone-mass-red",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR072",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Bone Mass",
+    printings: [{
+        artists: ["Amirul HHF"],
+      
+      identifier: "IAR072",
+      image: "IAR072",
+      
+      
+      print: "IAR072",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Amirul HHF"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR072",
+      image: "IAR072-RF",
+      
+      
+      print: "IAR072-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["GEM197","IAR072"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "IAR072",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may discard a zombie. If you do, your next attack this turn gets +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 3,
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Amirul HHF"],
+    cardIdentifier: "bone-mass-yellow",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR073",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Bone Mass",
+    printings: [{
+        artists: ["Amirul HHF"],
+      
+      identifier: "IAR073",
+      image: "IAR073",
+      
+      
+      print: "IAR073",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Amirul HHF"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR073",
+      image: "IAR073-RF",
+      
+      
+      print: "IAR073-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR073"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR073",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may discard a zombie. If you do, your next attack this turn gets +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 2,
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Amirul HHF"],
+    cardIdentifier: "bone-mass-blue",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR074",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Bone Mass",
+    printings: [{
+        artists: ["Amirul HHF"],
+      
+      identifier: "IAR074",
+      image: "IAR074",
+      
+      
+      print: "IAR074",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Amirul HHF"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR074",
+      image: "IAR074-RF",
+      
+      
+      print: "IAR074-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR074"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR074",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may discard a zombie. If you do, your next attack this turn gets +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 1,
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "boneseer-skullcap",
     classes: [Class.Brute],
@@ -1706,6 +2156,231 @@ If you've charged this turn, this gets **go again** and "When this hits, create 
     
     
     talents: [Talent.Light],
+  
+  
+  },{
+    artists: ["Brian Madya Narendra"],
+    cardIdentifier: "breach-flesh-red",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR182",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Breach Flesh",
+    printings: [{
+        artists: ["Brian Madya Narendra"],
+      
+      identifier: "IAR182",
+      image: "IAR182",
+      
+      
+      print: "IAR182",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Brian Madya Narendra"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR182",
+      image: "IAR182-RF",
+      
+      
+      print: "IAR182-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["GEM204","IAR182"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "IAR182",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 0,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `When this hits, create a Gate to i'Arathael token
+
+**Blood Debt**"`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 4,referencedCards: ["gate-to-iarathael"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Brian Madya Narendra"],
+    cardIdentifier: "breach-flesh-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR183",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Breach Flesh",
+    printings: [{
+        artists: ["Brian Madya Narendra"],
+      
+      identifier: "IAR183",
+      image: "IAR183",
+      
+      
+      print: "IAR183",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Brian Madya Narendra"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR183",
+      image: "IAR183-RF",
+      
+      
+      print: "IAR183-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR183"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR183",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 0,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `When this hits, create a Gate to i'Arathael token
+
+**Blood Debt**"`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 3,referencedCards: ["gate-to-iarathael"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Brian Madya Narendra"],
+    cardIdentifier: "breach-flesh-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR184",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Breach Flesh",
+    printings: [{
+        artists: ["Brian Madya Narendra"],
+      
+      identifier: "IAR184",
+      image: "IAR184",
+      
+      
+      print: "IAR184",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Brian Madya Narendra"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR184",
+      image: "IAR184-RF",
+      
+      
+      print: "IAR184-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR184"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR184",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 0,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `When this hits, create a Gate to i'Arathael token
+
+**Blood Debt**"`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 2,referencedCards: ["gate-to-iarathael"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
   
   
   },{
@@ -2009,6 +2684,231 @@ The first time you destroy a Lightning Flow each turn, **amp 1**.
   
   
   },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "cleave-the-heavens-red",
+    classes: [Class.Brute],
+    defaultImage: "IAR020",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Cleave the Heavens",
+    printings: [{
+        artists: ["Alief Rusdiatama"],
+      
+      identifier: "IAR020",
+      image: "IAR020",
+      
+      
+      print: "IAR020",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Alief Rusdiatama"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR020",
+      image: "IAR020-RF",
+      
+      
+      print: "IAR020-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["GEM192","IAR020"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "IAR020",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 2,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `**Instant** - Banish this from your hand: Create a Gate to i'Arathael token.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 6,referencedCards: ["gate-to-iarathael"],
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "cleave-the-heavens-yellow",
+    classes: [Class.Brute],
+    defaultImage: "IAR021",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Cleave the Heavens",
+    printings: [{
+        artists: ["Alief Rusdiatama"],
+      
+      identifier: "IAR021",
+      image: "IAR021",
+      
+      
+      print: "IAR021",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Alief Rusdiatama"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR021",
+      image: "IAR021-RF",
+      
+      
+      print: "IAR021-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR021"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR021",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 2,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `**Instant** - Banish this from your hand: Create a Gate to i'Arathael token.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 6,referencedCards: ["gate-to-iarathael"],
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "cleave-the-heavens-blue",
+    classes: [Class.Brute],
+    defaultImage: "IAR022",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Cleave the Heavens",
+    printings: [{
+        artists: ["Alief Rusdiatama"],
+      
+      identifier: "IAR022",
+      image: "IAR022",
+      
+      
+      print: "IAR022",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Alief Rusdiatama"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR022",
+      image: "IAR022-RF",
+      
+      
+      print: "IAR022-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR022"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR022",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 2,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `**Instant** - Banish this from your hand: Create a Gate to i'Arathael token.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 6,referencedCards: ["gate-to-iarathael"],
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Satriasa"],
     cardIdentifier: "consuming-appetite-yellow",
     classes: [Class.Brute],
@@ -2227,6 +3127,231 @@ The first time you destroy a Lightning Flow each turn, **amp 1**.
     power: 6,referencedCards: ["blasmophet-levia-consumed","blasmophet-the-insatiable-hunger","blasmophet-the-soul-harvester"],
     
     shorthands: [Shorthand.Buffs,Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Yosi Saputra"],
+    cardIdentifier: "corporeal-chasm-red",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR185",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Corporeal Chasm",
+    printings: [{
+        artists: ["Yosi Saputra"],
+      
+      identifier: "IAR185",
+      image: "IAR185",
+      
+      
+      print: "IAR185",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Yosi Saputra"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR185",
+      image: "IAR185-RF",
+      
+      
+      print: "IAR185-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["GEM205","IAR185"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "IAR185",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 3,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `When this hits, create a Gate to i'Arathael token
+
+**Blood Debt**"`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 7,referencedCards: ["gate-to-iarathael"],
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Yosi Saputra"],
+    cardIdentifier: "corporeal-chasm-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR186",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Corporeal Chasm",
+    printings: [{
+        artists: ["Yosi Saputra"],
+      
+      identifier: "IAR186",
+      image: "IAR186",
+      
+      
+      print: "IAR186",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Yosi Saputra"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR186",
+      image: "IAR186-RF",
+      
+      
+      print: "IAR186-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR186"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR186",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 3,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `When this hits, create a Gate to i'Arathael token
+
+**Blood Debt**"`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 6,referencedCards: ["gate-to-iarathael"],
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Yosi Saputra"],
+    cardIdentifier: "corporeal-chasm-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR187",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Corporeal Chasm",
+    printings: [{
+        artists: ["Yosi Saputra"],
+      
+      identifier: "IAR187",
+      image: "IAR187",
+      
+      
+      print: "IAR187",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Yosi Saputra"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR187",
+      image: "IAR187-RF",
+      
+      
+      print: "IAR187-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR187"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR187",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 3,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `When this hits, create a Gate to i'Arathael token
+
+**Blood Debt**"`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 5,referencedCards: ["gate-to-iarathael"],
+    
+    
     
     
     
@@ -4509,6 +5634,225 @@ The first Guardian or Revered attack action card you play each turn gets "When t
   
   
   },{
+    artists: ["Audy Ravindra"],
+    cardIdentifier: "headstrong-stampede-red",
+    classes: [Class.Brute],
+    defaultImage: "IAR047",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
+    name: "Headstrong Stampede",
+    printings: [{
+        artists: ["Audy Ravindra"],
+      
+      identifier: "IAR047",
+      image: "IAR047",
+      
+      
+      print: "IAR047",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Audy Ravindra"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR047",
+      image: "IAR047-RF",
+      
+      
+      print: "IAR047-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["GEM211","IAR047"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "IAR047",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Brute Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `When this attacks, reveal the top card of your deck. If the revealed card has 6 or more base {p}, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 6,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Audy Ravindra"],
+    cardIdentifier: "headstrong-stampede-yellow",
+    classes: [Class.Brute],
+    defaultImage: "IAR048",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
+    name: "Headstrong Stampede",
+    printings: [{
+        artists: ["Audy Ravindra"],
+      
+      identifier: "IAR048",
+      image: "IAR048",
+      
+      
+      print: "IAR048",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Audy Ravindra"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR048",
+      image: "IAR048-RF",
+      
+      
+      print: "IAR048-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR048"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR048",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Brute Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `When this attacks, reveal the top card of your deck. If the revealed card has 6 or more base {p}, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Audy Ravindra"],
+    cardIdentifier: "headstrong-stampede-blue",
+    classes: [Class.Brute],
+    defaultImage: "IAR049",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
+    name: "Headstrong Stampede",
+    printings: [{
+        artists: ["Audy Ravindra"],
+      
+      identifier: "IAR049",
+      image: "IAR049",
+      
+      
+      print: "IAR049",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Audy Ravindra"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR049",
+      image: "IAR049-RF",
+      
+      
+      print: "IAR049-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR049"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR049",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Brute Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `When this attacks, reveal the top card of your deck. If the revealed card has 6 or more base {p}, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Lizhe Liang"],
     cardIdentifier: "hell-hammer",
     classes: [Class.Brute],
@@ -5248,6 +6592,231 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
     referencedCards: ["corrupted-corpse"],
     
     shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Stefano Moroni"],
+    cardIdentifier: "malignant-migration-red",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR075",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Malignant Migration",
+    printings: [{
+        artists: ["Stefano Moroni"],
+      
+      identifier: "IAR075",
+      image: "IAR075",
+      
+      
+      print: "IAR075",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Stefano Moroni"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR075",
+      image: "IAR075-RF",
+      
+      
+      print: "IAR075-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["GEM199","IAR075"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "IAR075",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may discard a zombie. If you do, put a card from your banished zone into your graveyard.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Stefano Moroni"],
+    cardIdentifier: "malignant-migration-yellow",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR076",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Malignant Migration",
+    printings: [{
+        artists: ["Stefano Moroni"],
+      
+      identifier: "IAR076",
+      image: "IAR076",
+      
+      
+      print: "IAR076",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Stefano Moroni"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR076",
+      image: "IAR076-RF",
+      
+      
+      print: "IAR076-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR076"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR076",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may discard a zombie. If you do, put a card from your banished zone into your graveyard.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Stefano Moroni"],
+    cardIdentifier: "malignant-migration-blue",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR077",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Malignant Migration",
+    printings: [{
+        artists: ["Stefano Moroni"],
+      
+      identifier: "IAR077",
+      image: "IAR077",
+      
+      
+      print: "IAR077",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Stefano Moroni"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR077",
+      image: "IAR077-RF",
+      
+      
+      print: "IAR077-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR077"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR077",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may discard a zombie. If you do, put a card from your banished zone into your graveyard.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 1,
+    
+    
     
     
     
@@ -8507,6 +10076,231 @@ When this hits a hero, create a Runechant token.`,
   
   
   },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "shadowrealm-bloodhound-red",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR194",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Shadowrealm Bloodhound",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "IAR194",
+      image: "IAR194",
+      
+      
+      print: "IAR194",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR194",
+      image: "IAR194-RF",
+      
+      
+      print: "IAR194-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["GEM206","IAR194"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "IAR194",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `When this attacks, you may banish a card from your hand. If it's Shadow, this gets **go again**.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 6,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "shadowrealm-bloodhound-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR195",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Shadowrealm Bloodhound",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "IAR195",
+      image: "IAR195",
+      
+      
+      print: "IAR195",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR195",
+      image: "IAR195-RF",
+      
+      
+      print: "IAR195-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR195"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR195",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `When this attacks, you may banish a card from your hand. If it's Shadow, this gets **go again**.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "shadowrealm-bloodhound-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR196",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Shadowrealm Bloodhound",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "IAR196",
+      image: "IAR196",
+      
+      
+      print: "IAR196",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR196",
+      image: "IAR196-RF",
+      
+      
+      print: "IAR196-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR196"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR196",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `When this attacks, you may banish a card from your hand. If it's Shadow, this gets **go again**.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Stefano Moroni"],
     cardIdentifier: "shadowrealm-harrower-blue",
     classes: [Class.NotClassed],
@@ -8732,6 +10526,231 @@ When this hits a hero, create a Runechant token.`,
   
   
   },{
+    artists: ["Tomi Ong"],
+    cardIdentifier: "shadowrealm-ripper-red",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR197",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Shadowrealm Ripper",
+    printings: [{
+        artists: ["Tomi Ong"],
+      
+      identifier: "IAR197",
+      image: "IAR197",
+      
+      
+      print: "IAR197",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Tomi Ong"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR197",
+      image: "IAR197-RF",
+      
+      
+      print: "IAR197-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["GEM207","IAR197"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "IAR197",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `When this attacks, you may banish a card from your hand. If it's Shadow, this gets +2{p}.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Tomi Ong"],
+    cardIdentifier: "shadowrealm-ripper-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR198",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Shadowrealm Ripper",
+    printings: [{
+        artists: ["Tomi Ong"],
+      
+      identifier: "IAR198",
+      image: "IAR198",
+      
+      
+      print: "IAR198",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Tomi Ong"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR198",
+      image: "IAR198-RF",
+      
+      
+      print: "IAR198-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR198"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR198",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `When this attacks, you may banish a card from your hand. If it's Shadow, this gets +2{p}.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Tomi Ong"],
+    cardIdentifier: "shadowrealm-ripper-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR199",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Shadowrealm Ripper",
+    printings: [{
+        artists: ["Tomi Ong"],
+      
+      identifier: "IAR199",
+      image: "IAR199",
+      
+      
+      print: "IAR199",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Tomi Ong"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR199",
+      image: "IAR199-RF",
+      
+      
+      print: "IAR199-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR199"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR199",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `When this attacks, you may banish a card from your hand. If it's Shadow, this gets +2{p}.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Surya Prasetya"],
     cardIdentifier: "shadowrealm-strength-red",
     classes: [Class.Necromancer],
@@ -8796,6 +10815,231 @@ When this hits a hero, create a Runechant token.`,
     
     
     shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Wirawan Pranoto"],
+    cardIdentifier: "shadowrealm-walker-red",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR200",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Shadowrealm Walker",
+    printings: [{
+        artists: ["Wirawan Pranoto"],
+      
+      identifier: "IAR200",
+      image: "IAR200",
+      
+      
+      print: "IAR200",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Wirawan Pranoto"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR200",
+      image: "IAR200-RF",
+      
+      
+      print: "IAR200-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["GEM208","IAR200"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "IAR200",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 0,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `When this attacks, you may banish a card from your hand. If it's Shadow, create a Gate to i'Arathael token.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 4,referencedCards: ["gate-to-iarathael"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Wirawan Pranoto"],
+    cardIdentifier: "shadowrealm-walker-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR201",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Shadowrealm Walker",
+    printings: [{
+        artists: ["Wirawan Pranoto"],
+      
+      identifier: "IAR201",
+      image: "IAR201",
+      
+      
+      print: "IAR201",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Wirawan Pranoto"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR201",
+      image: "IAR201-RF",
+      
+      
+      print: "IAR201-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR201"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR201",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 0,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `When this attacks, you may banish a card from your hand. If it's Shadow, create a Gate to i'Arathael token.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 3,referencedCards: ["gate-to-iarathael"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Wirawan Pranoto"],
+    cardIdentifier: "shadowrealm-walker-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR202",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Shadowrealm Walker",
+    printings: [{
+        artists: ["Wirawan Pranoto"],
+      
+      identifier: "IAR202",
+      image: "IAR202",
+      
+      
+      print: "IAR202",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Wirawan Pranoto"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR202",
+      image: "IAR202-RF",
+      
+      
+      print: "IAR202-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR202"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR202",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 0,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `When this attacks, you may banish a card from your hand. If it's Shadow, create a Gate to i'Arathael token.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 2,referencedCards: ["gate-to-iarathael"],
+    
+    
     
     
     

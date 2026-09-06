@@ -56,6 +56,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/acrid-stench-yellow</loc>
+    <lastmod>2026-09-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/acrid-stench-blue</loc>
+    <lastmod>2026-09-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/act-of-glory-red</loc>
     <lastmod>2025-09-10</lastmod>
     <priority>0.5</priority>
@@ -2836,6 +2846,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/bone-mass-yellow</loc>
+    <lastmod>2026-09-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/bone-mass-blue</loc>
+    <lastmod>2026-09-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/bone-puppetry</loc>
     <lastmod>2026-02-04</lastmod>
     <priority>0.5</priority>
@@ -3073,6 +3093,16 @@
   <url>
     <loc>https://fabrary.net/cards/breach-flesh-red</loc>
     <lastmod>2026-09-05</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/breach-flesh-yellow</loc>
+    <lastmod>2026-09-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/breach-flesh-blue</loc>
+    <lastmod>2026-09-06</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -4211,6 +4241,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/cleave-the-heavens-yellow</loc>
+    <lastmod>2026-09-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/cleave-the-heavens-blue</loc>
+    <lastmod>2026-09-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/cleave-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -4848,6 +4888,16 @@
   <url>
     <loc>https://fabrary.net/cards/corporeal-chasm-red</loc>
     <lastmod>2026-09-05</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/corporeal-chasm-yellow</loc>
+    <lastmod>2026-09-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/corporeal-chasm-blue</loc>
+    <lastmod>2026-09-06</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -10276,6 +10326,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/headstrong-stampede-yellow</loc>
+    <lastmod>2026-09-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/headstrong-stampede-blue</loc>
+    <lastmod>2026-09-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/healing-balm-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -13068,6 +13128,16 @@
   <url>
     <loc>https://fabrary.net/cards/malignant-migration-red</loc>
     <lastmod>2026-09-05</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/malignant-migration-yellow</loc>
+    <lastmod>2026-09-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/malignant-migration-blue</loc>
+    <lastmod>2026-09-06</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -19016,6 +19086,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/shadowrealm-bloodhound-yellow</loc>
+    <lastmod>2026-09-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/shadowrealm-bloodhound-blue</loc>
+    <lastmod>2026-09-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/shadowrealm-harrower-blue</loc>
     <lastmod>2026-07-17</lastmod>
     <priority>0.5</priority>
@@ -19041,6 +19121,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/shadowrealm-ripper-yellow</loc>
+    <lastmod>2026-09-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/shadowrealm-ripper-blue</loc>
+    <lastmod>2026-09-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/shadowrealm-strength-red</loc>
     <lastmod>2026-08-09</lastmod>
     <priority>0.5</priority>
@@ -19053,6 +19143,16 @@
   <url>
     <loc>https://fabrary.net/cards/shadowrealm-walker-red</loc>
     <lastmod>2026-09-05</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/shadowrealm-walker-yellow</loc>
+    <lastmod>2026-09-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/shadowrealm-walker-blue</loc>
+    <lastmod>2026-09-06</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

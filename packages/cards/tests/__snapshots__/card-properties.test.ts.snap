@@ -1310,7 +1310,7 @@ exports[`Check for unintentional updates Acrid Stench (acrid-stench-red) vs snap
   "createdExtras": [
     "corrupted-corpse",
   ],
-  "defaultImage": "GEM196",
+  "defaultImage": "IAR069",
   "defense": 2,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "When this attacks, you may discard a zombie. If you do, create a Corrupted Corpse in your banished zone.
@@ -1322,9 +1322,12 @@ exports[`Check for unintentional updates Acrid Stench (acrid-stench-red) vs snap
   "legalFormats": [
     "Blitz",
     "Classic Constructed",
+    "Draft",
     "Golden Age",
     "Living Legend",
     "Open",
+    "Sealed",
+    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -1332,11 +1335,33 @@ exports[`Check for unintentional updates Acrid Stench (acrid-stench-red) vs snap
   ],
   "meta": [
     "Deck",
+    "Rainbow",
   ],
   "name": "Acrid Stench",
   "pitch": 1,
   "power": 3,
   "printings": [
+    {
+      "artists": [
+        "Wirawan Pranoto",
+      ],
+      "identifier": "IAR069",
+      "image": "IAR069",
+      "print": "IAR069",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Wirawan Pranoto",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR069",
+      "image": "IAR069-RF",
+      "print": "IAR069-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
     {
       "artists": [
         "Wirawan Pranoto",
@@ -1368,14 +1393,16 @@ exports[`Check for unintentional updates Acrid Stench (acrid-stench-red) vs snap
     },
   ],
   "rarities": [
+    "Common",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "referencedCards": [
     "corrupted-corpse",
   ],
   "setIdentifiers": [
     "GEM196",
+    "IAR069",
   ],
   "sets": [
     "GEM",
@@ -72810,7 +72837,7 @@ exports[`Check for unintentional updates Bone Mass (bone-mass-red) vs snapshot 1
     "Necromancer",
   ],
   "cost": 0,
-  "defaultImage": "GEM197",
+  "defaultImage": "IAR072",
   "defense": 2,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "When this attacks, you may discard a zombie. If you do, your next attack this turn gets +1{p}.
@@ -72822,9 +72849,12 @@ exports[`Check for unintentional updates Bone Mass (bone-mass-red) vs snapshot 1
   "legalFormats": [
     "Blitz",
     "Classic Constructed",
+    "Draft",
     "Golden Age",
     "Living Legend",
     "Open",
+    "Sealed",
+    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -72832,11 +72862,33 @@ exports[`Check for unintentional updates Bone Mass (bone-mass-red) vs snapshot 1
   ],
   "meta": [
     "Deck",
+    "Rainbow",
   ],
   "name": "Bone Mass",
   "pitch": 1,
   "power": 3,
   "printings": [
+    {
+      "artists": [
+        "Amirul HHF",
+      ],
+      "identifier": "IAR072",
+      "image": "IAR072",
+      "print": "IAR072",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Amirul HHF",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR072",
+      "image": "IAR072-RF",
+      "print": "IAR072-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
     {
       "artists": [
         "Amirul HHF",
@@ -72868,11 +72920,13 @@ exports[`Check for unintentional updates Bone Mass (bone-mass-red) vs snapshot 1
     },
   ],
   "rarities": [
+    "Common",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "setIdentifiers": [
     "GEM197",
+    "IAR072",
   ],
   "sets": [
     "GEM",
@@ -79319,7 +79373,7 @@ exports[`Check for unintentional updates Breach Flesh (breach-flesh-red) vs snap
   "createdExtras": [
     "gate-to-iarathael",
   ],
-  "defaultImage": "GEM204",
+  "defaultImage": "IAR182",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "When this hits, create a Gate to i'Arathael token
@@ -79331,9 +79385,12 @@ exports[`Check for unintentional updates Breach Flesh (breach-flesh-red) vs snap
   "legalFormats": [
     "Blitz",
     "Classic Constructed",
+    "Draft",
     "Golden Age",
     "Living Legend",
     "Open",
+    "Sealed",
+    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -79346,11 +79403,33 @@ exports[`Check for unintentional updates Breach Flesh (breach-flesh-red) vs snap
   ],
   "meta": [
     "Deck",
+    "Rainbow",
   ],
   "name": "Breach Flesh",
   "pitch": 1,
   "power": 4,
   "printings": [
+    {
+      "artists": [
+        "Brian Madya Narendra",
+      ],
+      "identifier": "IAR182",
+      "image": "IAR182",
+      "print": "IAR182",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Brian Madya Narendra",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR182",
+      "image": "IAR182-RF",
+      "print": "IAR182-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
     {
       "artists": [
         "Brian Madya Narendra",
@@ -79382,14 +79461,16 @@ exports[`Check for unintentional updates Breach Flesh (breach-flesh-red) vs snap
     },
   ],
   "rarities": [
+    "Common",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "referencedCards": [
     "gate-to-iarathael",
   ],
   "setIdentifiers": [
     "GEM204",
+    "IAR182",
   ],
   "sets": [
     "GEM",
@@ -109354,7 +109435,7 @@ exports[`Check for unintentional updates Cleave the Heavens (cleave-the-heavens-
   "createdExtras": [
     "gate-to-iarathael",
   ],
-  "defaultImage": "GEM192",
+  "defaultImage": "IAR020",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "**Instant** - Banish this from your hand: Create a Gate to i'Arathael token.
@@ -109366,9 +109447,12 @@ exports[`Check for unintentional updates Cleave the Heavens (cleave-the-heavens-
   "legalFormats": [
     "Blitz",
     "Classic Constructed",
+    "Draft",
     "Golden Age",
     "Living Legend",
     "Open",
+    "Sealed",
+    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -109376,11 +109460,33 @@ exports[`Check for unintentional updates Cleave the Heavens (cleave-the-heavens-
   ],
   "meta": [
     "Deck",
+    "Rainbow",
   ],
   "name": "Cleave the Heavens",
   "pitch": 1,
   "power": 6,
   "printings": [
+    {
+      "artists": [
+        "Alief Rusdiatama",
+      ],
+      "identifier": "IAR020",
+      "image": "IAR020",
+      "print": "IAR020",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Alief Rusdiatama",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR020",
+      "image": "IAR020-RF",
+      "print": "IAR020-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
     {
       "artists": [
         "Alief Rusdiatama",
@@ -109412,14 +109518,16 @@ exports[`Check for unintentional updates Cleave the Heavens (cleave-the-heavens-
     },
   ],
   "rarities": [
+    "Common",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "referencedCards": [
     "gate-to-iarathael",
   ],
   "setIdentifiers": [
     "GEM192",
+    "IAR020",
   ],
   "sets": [
     "GEM",
@@ -125358,7 +125466,7 @@ exports[`Check for unintentional updates Corporeal Chasm (corporeal-chasm-red) v
   "createdExtras": [
     "gate-to-iarathael",
   ],
-  "defaultImage": "GEM205",
+  "defaultImage": "IAR185",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "When this hits, create a Gate to i'Arathael token
@@ -125370,9 +125478,12 @@ exports[`Check for unintentional updates Corporeal Chasm (corporeal-chasm-red) v
   "legalFormats": [
     "Blitz",
     "Classic Constructed",
+    "Draft",
     "Golden Age",
     "Living Legend",
     "Open",
+    "Sealed",
+    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -125385,11 +125496,33 @@ exports[`Check for unintentional updates Corporeal Chasm (corporeal-chasm-red) v
   ],
   "meta": [
     "Deck",
+    "Rainbow",
   ],
   "name": "Corporeal Chasm",
   "pitch": 1,
   "power": 7,
   "printings": [
+    {
+      "artists": [
+        "Yosi Saputra",
+      ],
+      "identifier": "IAR185",
+      "image": "IAR185",
+      "print": "IAR185",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Yosi Saputra",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR185",
+      "image": "IAR185-RF",
+      "print": "IAR185-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
     {
       "artists": [
         "Yosi Saputra",
@@ -125421,14 +125554,16 @@ exports[`Check for unintentional updates Corporeal Chasm (corporeal-chasm-red) v
     },
   ],
   "rarities": [
+    "Common",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "referencedCards": [
     "gate-to-iarathael",
   ],
   "setIdentifiers": [
     "GEM205",
+    "IAR185",
   ],
   "sets": [
     "GEM",
@@ -266668,7 +266803,7 @@ exports[`Check for unintentional updates Headstrong Stampede (headstrong-stamped
     "Brute",
   ],
   "cost": 2,
-  "defaultImage": "GEM211",
+  "defaultImage": "IAR047",
   "defense": 2,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "When this attacks, reveal the top card of your deck. If the revealed card has 6 or more base {p}, this gets **go again**.",
@@ -266678,9 +266813,12 @@ exports[`Check for unintentional updates Headstrong Stampede (headstrong-stamped
   "legalFormats": [
     "Blitz",
     "Classic Constructed",
+    "Draft",
     "Golden Age",
     "Living Legend",
     "Open",
+    "Sealed",
+    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -266692,11 +266830,33 @@ exports[`Check for unintentional updates Headstrong Stampede (headstrong-stamped
   ],
   "meta": [
     "Deck",
+    "Rainbow",
   ],
   "name": "Headstrong Stampede",
   "pitch": 1,
   "power": 6,
   "printings": [
+    {
+      "artists": [
+        "Audy Ravindra",
+      ],
+      "identifier": "IAR047",
+      "image": "IAR047",
+      "print": "IAR047",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Audy Ravindra",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR047",
+      "image": "IAR047-RF",
+      "print": "IAR047-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
     {
       "artists": [
         "Audy Ravindra",
@@ -266728,11 +266888,13 @@ exports[`Check for unintentional updates Headstrong Stampede (headstrong-stamped
     },
   ],
   "rarities": [
+    "Common",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "setIdentifiers": [
     "GEM211",
+    "IAR047",
   ],
   "sets": [
     "GEM",
@@ -341517,7 +341679,7 @@ exports[`Check for unintentional updates Malignant Migration (malignant-migratio
     "Necromancer",
   ],
   "cost": 0,
-  "defaultImage": "GEM199",
+  "defaultImage": "IAR075",
   "defense": 2,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "When this attacks, you may discard a zombie. If you do, put a card from your banished zone into your graveyard.
@@ -341529,9 +341691,12 @@ exports[`Check for unintentional updates Malignant Migration (malignant-migratio
   "legalFormats": [
     "Blitz",
     "Classic Constructed",
+    "Draft",
     "Golden Age",
     "Living Legend",
     "Open",
+    "Sealed",
+    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -341539,11 +341704,33 @@ exports[`Check for unintentional updates Malignant Migration (malignant-migratio
   ],
   "meta": [
     "Deck",
+    "Rainbow",
   ],
   "name": "Malignant Migration",
   "pitch": 1,
   "power": 3,
   "printings": [
+    {
+      "artists": [
+        "Stefano Moroni",
+      ],
+      "identifier": "IAR075",
+      "image": "IAR075",
+      "print": "IAR075",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Stefano Moroni",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR075",
+      "image": "IAR075-RF",
+      "print": "IAR075-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
     {
       "artists": [
         "Stefano Moroni",
@@ -341575,11 +341762,13 @@ exports[`Check for unintentional updates Malignant Migration (malignant-migratio
     },
   ],
   "rarities": [
+    "Common",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "setIdentifiers": [
     "GEM199",
+    "IAR075",
   ],
   "sets": [
     "GEM",
@@ -501813,7 +502002,7 @@ exports[`Check for unintentional updates Shadowrealm Bloodhound (shadowrealm-blo
     "NotClassed",
   ],
   "cost": 2,
-  "defaultImage": "GEM206",
+  "defaultImage": "IAR194",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "When this attacks, you may banish a card from your hand. If it's Shadow, this gets **go again**.
@@ -501826,9 +502015,12 @@ exports[`Check for unintentional updates Shadowrealm Bloodhound (shadowrealm-blo
   "legalFormats": [
     "Blitz",
     "Classic Constructed",
+    "Draft",
     "Golden Age",
     "Living Legend",
     "Open",
+    "Sealed",
+    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -501841,11 +502033,33 @@ exports[`Check for unintentional updates Shadowrealm Bloodhound (shadowrealm-blo
   ],
   "meta": [
     "Deck",
+    "Rainbow",
   ],
   "name": "Shadowrealm Bloodhound",
   "pitch": 1,
   "power": 6,
   "printings": [
+    {
+      "artists": [
+        "Mariusz Gandzel",
+      ],
+      "identifier": "IAR194",
+      "image": "IAR194",
+      "print": "IAR194",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Mariusz Gandzel",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR194",
+      "image": "IAR194-RF",
+      "print": "IAR194-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
     {
       "artists": [
         "Mariusz Gandzel",
@@ -501877,11 +502091,13 @@ exports[`Check for unintentional updates Shadowrealm Bloodhound (shadowrealm-blo
     },
   ],
   "rarities": [
+    "Common",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "setIdentifiers": [
     "GEM206",
+    "IAR194",
   ],
   "sets": [
     "GEM",
@@ -502346,7 +502562,7 @@ exports[`Check for unintentional updates Shadowrealm Ripper (shadowrealm-ripper-
     "NotClassed",
   ],
   "cost": 1,
-  "defaultImage": "GEM207",
+  "defaultImage": "IAR197",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "When this attacks, you may banish a card from your hand. If it's Shadow, this gets +2{p}.
@@ -502358,9 +502574,12 @@ exports[`Check for unintentional updates Shadowrealm Ripper (shadowrealm-ripper-
   "legalFormats": [
     "Blitz",
     "Classic Constructed",
+    "Draft",
     "Golden Age",
     "Living Legend",
     "Open",
+    "Sealed",
+    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -502373,11 +502592,33 @@ exports[`Check for unintentional updates Shadowrealm Ripper (shadowrealm-ripper-
   ],
   "meta": [
     "Deck",
+    "Rainbow",
   ],
   "name": "Shadowrealm Ripper",
   "pitch": 1,
   "power": 5,
   "printings": [
+    {
+      "artists": [
+        "Tomi Ong",
+      ],
+      "identifier": "IAR197",
+      "image": "IAR197",
+      "print": "IAR197",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Tomi Ong",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR197",
+      "image": "IAR197-RF",
+      "print": "IAR197-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
     {
       "artists": [
         "Tomi Ong",
@@ -502409,11 +502650,13 @@ exports[`Check for unintentional updates Shadowrealm Ripper (shadowrealm-ripper-
     },
   ],
   "rarities": [
+    "Common",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "setIdentifiers": [
     "GEM207",
+    "IAR197",
   ],
   "sets": [
     "GEM",
@@ -502636,7 +502879,7 @@ exports[`Check for unintentional updates Shadowrealm Walker (shadowrealm-walker-
   "createdExtras": [
     "gate-to-iarathael",
   ],
-  "defaultImage": "GEM208",
+  "defaultImage": "IAR200",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "When this attacks, you may banish a card from your hand. If it's Shadow, create a Gate to i'Arathael token.
@@ -502648,9 +502891,12 @@ exports[`Check for unintentional updates Shadowrealm Walker (shadowrealm-walker-
   "legalFormats": [
     "Blitz",
     "Classic Constructed",
+    "Draft",
     "Golden Age",
     "Living Legend",
     "Open",
+    "Sealed",
+    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -502663,11 +502909,33 @@ exports[`Check for unintentional updates Shadowrealm Walker (shadowrealm-walker-
   ],
   "meta": [
     "Deck",
+    "Rainbow",
   ],
   "name": "Shadowrealm Walker",
   "pitch": 1,
   "power": 4,
   "printings": [
+    {
+      "artists": [
+        "Wirawan Pranoto",
+      ],
+      "identifier": "IAR200",
+      "image": "IAR200",
+      "print": "IAR200",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Wirawan Pranoto",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR200",
+      "image": "IAR200-RF",
+      "print": "IAR200-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
     {
       "artists": [
         "Wirawan Pranoto",
@@ -502699,14 +502967,16 @@ exports[`Check for unintentional updates Shadowrealm Walker (shadowrealm-walker-
     },
   ],
   "rarities": [
+    "Common",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "referencedCards": [
     "gate-to-iarathael",
   ],
   "setIdentifiers": [
     "GEM208",
+    "IAR200",
   ],
   "sets": [
     "GEM",
