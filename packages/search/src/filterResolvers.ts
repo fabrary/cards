@@ -276,6 +276,30 @@ const getPitchResolution: FilterResolver = (term) => {
   };
 };
 
+// Keyed by each set's name as a filter reads it, so neither case nor
+// punctuation is part of the match.
+const releasesByName = new Map<string, Release>();
+for (const release of Object.values(Release)) {
+  const name = getNormalizedFilterValue(release);
+  const releaseWithSameName = releasesByName.get(name);
+  if (releaseWithSameName === undefined) {
+    releasesByName.set(name, release);
+  } else {
+    throw new Error(
+      `${releaseWithSameName} and ${release} are one name as a filter reads it, so a set filter naming it could reach either`,
+    );
+  }
+}
+
+const getReleasesFromLookup = (
+  lookup: Map<string, Release>,
+  value: string,
+): Release[] => {
+  const release = lookup.get(value);
+
+  return release ? [release] : [];
+};
+
 const getMatchingReleasesFromValue = (
   value: string,
   additionalSets: Release[],
@@ -284,16 +308,8 @@ const getMatchingReleasesFromValue = (
   // of a name, then as a set the caller carries: each rung is reached only
   // where the one above it named no set.
   const rungs: (() => Release[])[] = [
-    () => {
-      const setFromValue = Object.values(Release).find(
-        (release) => getNormalizedFilterValue(release) === value,
-      );
-      return setFromValue ? [setFromValue] : [];
-    },
-    () => {
-      const setFromSetIdentifier = setIdentifierToSetMappings.get(value);
-      return setFromSetIdentifier ? [setFromSetIdentifier] : [];
-    },
+    () => getReleasesFromLookup(releasesByName, value),
+    () => getReleasesFromLookup(setIdentifierToSetMappings, value),
     () =>
       Object.values(Release).filter((release) =>
         release.toLowerCase().includes(value),

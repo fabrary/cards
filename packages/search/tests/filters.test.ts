@@ -439,3 +439,34 @@ describe("Set names expand only where a set filter expects one", () => {
     expect(appliedFilters[0].values).toEqual(["uprising"]);
   });
 });
+
+describe("A set value names a set before it fragments one", () => {
+  // A name written without its punctuation matches no name to expand and no
+  // name it is a fragment of, so the name rung is the only one that answers it.
+  it("reads a name written without its punctuation as that set", () => {
+    const {
+      appliedFilters,
+      attributes: { releases },
+    } = getKeywordsAndAppliedFiltersFromText(
+      'set:"classic battles rhinar vs dorinthea"',
+      index,
+    );
+
+    expect(releases).toEqual([Release.ClassicBattlesRhinarDorinthea]);
+    expect(appliedFilters[0].values).toEqual([
+      "classic battles rhinar vs dorinthea",
+    ]);
+  });
+
+  // The expansion rewrites the name to its own set identifier, so the value
+  // never reaches the fragment rung the longer name would answer.
+  it("reads a name a longer set's name contains as the shorter set", () => {
+    const {
+      appliedFilters,
+      attributes: { releases },
+    } = getKeywordsAndAppliedFiltersFromText('set:"smash palace"', index);
+
+    expect(releases).toEqual([Release.SmashPalace]);
+    expect(appliedFilters[0].values).toEqual(["smash palace"]);
+  });
+});
