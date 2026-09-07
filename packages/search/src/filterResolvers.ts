@@ -2,6 +2,10 @@
 // mean, which filters they apply, what they say about the printings a result
 // renders, and which of them named nothing. A resolver reads only the term
 // passed to it, so no filter can leave another one's reading behind it.
+//
+// A value arrives as raw search text, so every table one is looked up in is a
+// Map: a value spelling an inherited object member reads as the miss it is
+// rather than as whatever Object.prototype holds under that name.
 
 import {
   DoubleSidedCard,
@@ -10,6 +14,7 @@ import {
   Meta,
   Rarity,
   Release,
+  setIdentifierToSetMappings,
   Treatment,
   Type,
 } from "@flesh-and-blood/types";
@@ -25,10 +30,6 @@ import {
   type Modifier,
 } from "./filterMappings.js";
 import { getNormalizedFilterValue, getTextWithoutMarkup } from "./helpers.js";
-import {
-  getLookupWithoutInheritedKeys,
-  releasesBySetIdentifier,
-} from "./lookups.js";
 import { getMetaFilterResolution } from "./metaFilters.js";
 import {
   CatalogueIndex,
@@ -246,13 +247,15 @@ const getVocabularyResolution = <Key extends QueryAttributeList>(
   };
 };
 
-const pitchValuesMapping = getLookupWithoutInheritedKeys<number>({
-  purple: 4,
-  blue: 3,
-  yellow: 2,
-  red: 1,
-  white: 0,
-});
+const pitchValuesMapping = new Map<string, number>(
+  Object.entries({
+    purple: 4,
+    blue: 3,
+    yellow: 2,
+    red: 1,
+    white: 0,
+  }),
+);
 
 // A colour names a pitch value, and anything else is passed through for the
 // number it may already be.
@@ -260,7 +263,7 @@ const getPitchResolution: FilterResolver = (term) => {
   const filterValues: FilterValue[] = [];
   const canonicalValues: string[] = [];
   for (const { modifier, value } of term.filterValues) {
-    const pitchValue = pitchValuesMapping[value];
+    const pitchValue = pitchValuesMapping.get(value);
     const canonicalValue = pitchValue === undefined ? value : `${pitchValue}`;
     filterValues.push({ modifier, value: canonicalValue });
     canonicalValues.push(canonicalValue);
@@ -273,6 +276,30 @@ const getPitchResolution: FilterResolver = (term) => {
   };
 };
 
+// Keyed by each set's name as a filter reads it, so neither case nor
+// punctuation is part of the match.
+const releasesByName = new Map<string, Release>();
+for (const release of Object.values(Release)) {
+  const name = getNormalizedFilterValue(release);
+  const releaseWithSameName = releasesByName.get(name);
+  if (releaseWithSameName === undefined) {
+    releasesByName.set(name, release);
+  } else {
+    throw new Error(
+      `${releaseWithSameName} and ${release} are one name as a filter reads it, so a set filter naming it could reach either`,
+    );
+  }
+}
+
+const getReleasesFromLookup = (
+  lookup: Map<string, Release>,
+  value: string,
+): Release[] => {
+  const release = lookup.get(value);
+
+  return release ? [release] : [];
+};
+
 const getMatchingReleasesFromValue = (
   value: string,
   additionalSets: Release[],
@@ -281,16 +308,8 @@ const getMatchingReleasesFromValue = (
   // of a name, then as a set the caller carries: each rung is reached only
   // where the one above it named no set.
   const rungs: (() => Release[])[] = [
-    () => {
-      const setFromValue = Object.values(Release).find(
-        (release) => getNormalizedFilterValue(release) === value,
-      );
-      return setFromValue ? [setFromValue] : [];
-    },
-    () => {
-      const setFromSetIdentifier = releasesBySetIdentifier[value];
-      return setFromSetIdentifier ? [setFromSetIdentifier] : [];
-    },
+    () => getReleasesFromLookup(releasesByName, value),
+    () => getReleasesFromLookup(setIdentifierToSetMappings, value),
     () =>
       Object.values(Release).filter((release) =>
         release.toLowerCase().includes(value),
@@ -318,20 +337,22 @@ const getSetResolution: FilterResolver = (term, { additionalSets }) =>
     getMatchingReleasesFromValue(value, additionalSets),
   );
 
-const foilingValuesMapping = getLookupWithoutInheritedKeys<Foiling>({
-  r: Foiling.Rainbow,
-  rf: Foiling.Rainbow,
-  rainbow: Foiling.Rainbow,
-  c: Foiling.Cold,
-  cf: Foiling.Cold,
-  cold: Foiling.Cold,
-  g: Foiling.Gold,
-  gf: Foiling.Gold,
-  gold: Foiling.Gold,
-});
+const foilingValuesMapping = new Map<string, Foiling>(
+  Object.entries({
+    r: Foiling.Rainbow,
+    rf: Foiling.Rainbow,
+    rainbow: Foiling.Rainbow,
+    c: Foiling.Cold,
+    cf: Foiling.Cold,
+    cold: Foiling.Cold,
+    g: Foiling.Gold,
+    gf: Foiling.Gold,
+    gold: Foiling.Gold,
+  }),
+);
 
 const getFoilingsFromValue = (value: string): Foiling[] => {
-  const foiling = foilingValuesMapping[value];
+  const foiling = foilingValuesMapping.get(value);
 
   return foiling ? [foiling] : [];
 };
@@ -339,15 +360,8 @@ const getFoilingsFromValue = (value: string): Foiling[] => {
 const getFoilingResolution: FilterResolver = (term) =>
   getVocabularyResolution(term, "foilings", getFoilingsFromValue);
 
-const treatmentValuesMapping = getLookupWithoutInheritedKeys<Treatment>({
-  ...Object.values(Treatment).reduce<Record<string, Treatment>>(
-    (treatmentsByLowercasedName, treatment) => {
-      treatmentsByLowercasedName[treatment.toLowerCase()] = treatment;
-      return treatmentsByLowercasedName;
-    },
-    {},
-  ),
-  ...{
+const treatmentValuesMapping = new Map<string, Treatment>(
+  Object.entries({
     aa: Treatment.AA,
     alt: Treatment.AA,
     "alt art": Treatment.AA,
@@ -361,15 +375,19 @@ const treatmentValuesMapping = getLookupWithoutInheritedKeys<Treatment>({
     fa: Treatment.FA,
     full: Treatment.FA,
     "full art": Treatment.FA,
-  },
-});
-const treatmentsByAbbreviation =
-  getLookupWithoutInheritedKeys<Treatment>(Treatment);
+  }),
+);
+for (const treatment of Object.values(Treatment)) {
+  treatmentValuesMapping.set(treatment.toLowerCase(), treatment);
+}
+const treatmentsByAbbreviation = new Map<string, Treatment>(
+  Object.entries(Treatment),
+);
 
 const getTreatmentsFromValue = (value: string): Treatment[] => {
   const treatment =
-    treatmentValuesMapping[value] ||
-    treatmentsByAbbreviation[value.toUpperCase()];
+    treatmentValuesMapping.get(value) ||
+    treatmentsByAbbreviation.get(value.toUpperCase());
 
   return treatment ? [treatment] : [];
 };
@@ -377,8 +395,8 @@ const getTreatmentsFromValue = (value: string): Treatment[] => {
 const getTreatmentResolution: FilterResolver = (term) =>
   getVocabularyResolution(term, "treatments", getTreatmentsFromValue);
 
-export const RARITY_VALUES_MAPPING: { [key: string]: Rarity } =
-  getLookupWithoutInheritedKeys<Rarity>({
+export const RARITY_VALUES_MAPPING = new Map<string, Rarity>(
+  Object.entries({
     b: Rarity.Basic,
     c: Rarity.Common,
     f: Rarity.Fabled,
@@ -389,10 +407,11 @@ export const RARITY_VALUES_MAPPING: { [key: string]: Rarity } =
     s: Rarity.SuperRare,
     t: Rarity.Token,
     v: Rarity.Marvel,
-  });
+  }),
+);
 
 const getRarityFromValue = (value: string): Rarity | undefined =>
-  RARITY_VALUES_MAPPING[value] ||
+  RARITY_VALUES_MAPPING.get(value) ||
   Object.values(Rarity).find((rarity) => rarity.toLowerCase() === value);
 
 // A rarity value keeps its comparison, which the expansion walks along the
@@ -461,14 +480,16 @@ const previewFilter: CardPropertyMapping = {
   isDate: true,
 };
 
-const metaValuesMapping = getLookupWithoutInheritedKeys<Meta>({
-  dual: Meta.DualClass,
-  exp: Meta.Expansion,
-  expansion: Meta.Expansion,
-  rainbow: Meta.Rainbow,
-  reprint: Meta.Reprint,
-  reprints: Meta.Reprint,
-});
+const metaValuesMapping = new Map<string, Meta>(
+  Object.entries({
+    dual: Meta.DualClass,
+    exp: Meta.Expansion,
+    expansion: Meta.Expansion,
+    rainbow: Meta.Rainbow,
+    reprint: Meta.Reprint,
+    reprints: Meta.Reprint,
+  }),
+);
 
 // A nickname names one meta value; failing that a value stands for every meta
 // it sits inside, which only answers where no nickname has answered already.
@@ -478,7 +499,7 @@ const getMetaValuesFromWrittenValues = (
   const values: Meta[] = [];
   const unnamedValues: string[] = [];
   for (const writtenValue of writtenValues) {
-    const meta = metaValuesMapping[writtenValue];
+    const meta = metaValuesMapping.get(writtenValue);
     if (meta) {
       values.push(meta);
     } else {
@@ -797,28 +818,28 @@ const getReferencesResolution: FilterResolver = (term, { index }) =>
     getRelatedCardIdentifiers(index, value, false),
   );
 
-const resolverByFilterCategory = getLookupWithoutInheritedKeys<FilterResolver>({
-  [FilterCategory.Artist]: getArtistResolution,
-  [FilterCategory.Banned]: getLegalityResolution,
-  [FilterCategory.Chain]: getChainResolution,
-  [FilterCategory.Foiling]: getFoilingResolution,
-  [FilterCategory.Is]: getMetaResolution,
-  [FilterCategory.Legal]: getLegalityResolution,
-  [FilterCategory.Pitch]: getPitchResolution,
-  [FilterCategory.Print]: getPrintResolution,
-  [FilterCategory.Rarity]: getRarityResolution,
-  [FilterCategory.ReferencedBy]: getReferencedByResolution,
-  [FilterCategory.References]: getReferencesResolution,
-  [FilterCategory.Set]: getSetResolution,
-  [FilterCategory.Treatment]: getTreatmentResolution,
-});
+const resolverByFilterCategory = new Map<FilterCategory, FilterResolver>([
+  [FilterCategory.Artist, getArtistResolution],
+  [FilterCategory.Banned, getLegalityResolution],
+  [FilterCategory.Chain, getChainResolution],
+  [FilterCategory.Foiling, getFoilingResolution],
+  [FilterCategory.Is, getMetaResolution],
+  [FilterCategory.Legal, getLegalityResolution],
+  [FilterCategory.Pitch, getPitchResolution],
+  [FilterCategory.Print, getPrintResolution],
+  [FilterCategory.Rarity, getRarityResolution],
+  [FilterCategory.ReferencedBy, getReferencedByResolution],
+  [FilterCategory.References, getReferencesResolution],
+  [FilterCategory.Set, getSetResolution],
+  [FilterCategory.Treatment, getTreatmentResolution],
+]);
 
 /** What one filter term asks for, whichever filter it names. */
 export const getFilterResolution = (
   term: FilterTerm,
   context: FilterResolverContext,
 ): FilterResolution =>
-  (resolverByFilterCategory[term.category] || getDefaultResolution)(
+  (resolverByFilterCategory.get(term.category) || getDefaultResolution)(
     term,
     context,
   );

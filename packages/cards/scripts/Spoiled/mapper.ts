@@ -11,6 +11,7 @@ import {
   getRarities,
   getRarityFromRawString,
   getRestrictedFormats,
+  getSetFromIdentifier,
   getSpecializations,
   getStringIfNotNumber,
   getTraits,
@@ -29,7 +30,6 @@ import {
   Treatment,
   Type,
   getCardIdentifier,
-  setIdentifierToSetMappings,
 } from "@flesh-and-blood/types";
 import { ParsedCard } from "./parser";
 import {
@@ -274,7 +274,10 @@ const getPrinting = (
 
   const rarity = getRarityFromRawString(rarityString);
 
-  const set = setIdentifierToSetMappings[setString.toLowerCase()];
+  const set = getSetFromIdentifier({
+    identifier: cardIdentifier,
+    setIdentifier: setString,
+  });
 
   const foiling = FOILING_KEY_TO_ENUM_MAPPING[foilingString || ""];
 
@@ -672,15 +675,15 @@ export const getParsedRarities = (
 };
 
 const getSets = (
+  cardIdentifier: string,
   { setIdentifiers }: ParsedCard,
   printings: Printing[],
 ): Release[] => {
   const sets = new Set<Release>();
   for (const setIdentifier of setIdentifiers) {
-    const set = setIdentifierToSetMappings[setIdentifier.toLowerCase()];
-    if (set) {
-      sets.add(set);
-    }
+    sets.add(
+      getSetFromIdentifier({ identifier: cardIdentifier, setIdentifier }),
+    );
   }
 
   for (const printing of printings) {
@@ -741,7 +744,7 @@ const getCardData = (card: ParsedCard): PreliminaryCard => {
   const keywords = getKeywords(card);
   const name = card.name.trim();
   const pitch = getNumberOrUndefined(card.pitch);
-  const sets = getSets(card, printings);
+  const sets = getSets(cardIdentifier, card, printings);
   const restrictedFormats = getRestrictedFormats({ ...card, cardIdentifier });
   const specializations = getSpecializations(card);
   const talents = getTalents(card);

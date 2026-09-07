@@ -1,5 +1,4 @@
 import { Class, Hero, Rarity, Release, Talent } from "./interfaces.js";
-import { getLookupWithoutInheritedKeys } from "./lookups.js";
 
 export enum Language {
   English = "English",
@@ -2069,8 +2068,12 @@ export const releases: ReleaseInfo[] = [
   },
 ];
 
-export const fullSetIdentifiers: { [key: string]: Release } =
-  getLookupWithoutInheritedKeys({
+// A set identifier reaches these tables as raw user text (search filters,
+// shared deck URLs), so each is a Map: a key can only ever match a real entry,
+// never a member every object inherits, and the miss a lookup can answer with
+// is part of what a caller binds.
+export const fullSetIdentifiers = new Map<string, Release>(
+  Object.entries({
     wtr: Release.WelcomeToRathe,
     arc: Release.ArcaneRising,
     cru: Release.CrucibleOfWar,
@@ -2096,12 +2099,12 @@ export const fullSetIdentifiers: { [key: string]: Release } =
     mpw: Release.MasteryPackWarrior,
     iar: Release.UsurpTheShadowThrone,
     mpa: Release.MasteryPackAssassin,
-  });
+  }),
+);
 
-export const setIdentifierToSetMappings: { [key: string]: Release } =
-  getLookupWithoutInheritedKeys({
-    ...fullSetIdentifiers,
-
+export const setIdentifierToSetMappings = new Map<string, Release>([
+  ...fullSetIdentifiers,
+  ...Object.entries({
     // Armory decks
     aac: Release.ArmoryDeckArakni,
     aaz: Release.ArmoryDeckAzalea,
@@ -2215,21 +2218,27 @@ export const setIdentifierToSetMappings: { [key: string]: Release } =
     oxo: Release.Promos,
     xxx: Release.Promos,
     win: Release.Promos,
-  });
+  }),
+]);
 
-const tempSetToSetIdentifierMappings: { [key: string]: string[] } = {};
-for (const [setIdentifier, set] of Object.entries(setIdentifierToSetMappings)) {
-  const entry = tempSetToSetIdentifierMappings[set];
-  if (entry) {
-    entry.push(setIdentifier);
-  } else {
-    tempSetToSetIdentifierMappings[set] = [setIdentifier];
+// The identifiers a release carries, read by release name. That name is as raw
+// as the text the tables above take (a set out of stored deck state), so the
+// key stays a string rather than a Release.
+const getSetIdentifiersByRelease = (): Map<string, string[]> => {
+  const setIdentifiersByRelease = new Map<string, string[]>();
+  for (const [setIdentifier, release] of setIdentifierToSetMappings) {
+    const setIdentifiers = setIdentifiersByRelease.get(release);
+    if (setIdentifiers) {
+      setIdentifiers.push(setIdentifier);
+    } else {
+      setIdentifiersByRelease.set(release, [setIdentifier]);
+    }
   }
-}
 
-export const setToSetIdentifierMappings = getLookupWithoutInheritedKeys(
-  tempSetToSetIdentifierMappings,
-);
+  return setIdentifiersByRelease;
+};
+
+export const setToSetIdentifierMappings = getSetIdentifiersByRelease();
 
 export interface SilverAgeChapter {
   chapter: number;

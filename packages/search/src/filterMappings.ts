@@ -20,7 +20,6 @@ import {
   Type,
 } from "@flesh-and-blood/types";
 import { getNormalizedFilterValue } from "./helpers.js";
-import { getLookupWithoutInheritedKeys } from "./lookups.js";
 
 /**
  * Which filter a key names, rather than how it was spelled: every alias of a
@@ -626,9 +625,10 @@ export const filtersToCardPropertyMappings = {
  * The same mappings, read by a key a query wrote. Filter keys are typed by the
  * searcher, so an unrecognised key is a miss to skip rather than a type error.
  */
-export const filtersToCardPropertyMappingsByKey: {
-  [key: string]: FilterToPropertyMapping | undefined;
-} = getLookupWithoutInheritedKeys(filtersToCardPropertyMappings);
+const filtersToCardPropertyMappingsByKey = new Map<
+  string,
+  FilterToPropertyMapping
+>(Object.entries(filtersToCardPropertyMappings));
 
 /**
  * The filter a key names, however it was capitalised, and nothing where the
@@ -637,7 +637,7 @@ export const filtersToCardPropertyMappingsByKey: {
 export const getFilterMapping = (
   key: string,
 ): FilterToPropertyMapping | undefined =>
-  filtersToCardPropertyMappingsByKey[key.toLowerCase()];
+  filtersToCardPropertyMappingsByKey.get(key.toLowerCase());
 
 export const getFilterCategory = (key: string): FilterCategory | undefined =>
   getFilterMapping(key)?.category;
@@ -678,12 +678,14 @@ export const aliasesByFilterCategory: Record<
 
 // Many aliases name the one mapping, so each is walked once and every value it
 // declares points back at the same object.
-const getFilterMappingsByVocabularyValue = (): {
-  [normalizedValue: string]: FilterToPropertyMapping[];
-} => {
-  const mappingsByVocabularyValue = Object.create(null) as {
-    [normalizedValue: string]: FilterToPropertyMapping[];
-  };
+const getFilterMappingsByVocabularyValue = (): Map<
+  string,
+  FilterToPropertyMapping[]
+> => {
+  const mappingsByVocabularyValue = new Map<
+    string,
+    FilterToPropertyMapping[]
+  >();
   const walkedMappings = new Set<FilterToPropertyMapping>();
   const mappings: FilterToPropertyMapping[] = Object.values(
     filtersToCardPropertyMappings,
@@ -695,11 +697,12 @@ const getFilterMappingsByVocabularyValue = (): {
       walkedMappings.add(mapping);
       for (const vocabularyValue of vocabulary) {
         const normalizedValue = getNormalizedFilterValue(vocabularyValue);
-        const mappingsHoldingValue = mappingsByVocabularyValue[normalizedValue];
+        const mappingsHoldingValue =
+          mappingsByVocabularyValue.get(normalizedValue);
         if (mappingsHoldingValue) {
           mappingsHoldingValue.push(mapping);
         } else {
-          mappingsByVocabularyValue[normalizedValue] = [mapping];
+          mappingsByVocabularyValue.set(normalizedValue, [mapping]);
         }
       }
     }
@@ -713,9 +716,7 @@ const getFilterMappingsByVocabularyValue = (): {
  * normalized. A value reaching no entry is one no filter declares, which is
  * either a mistake or newer than the enums shipped here.
  */
-const filterMappingsByVocabularyValue: {
-  [normalizedValue: string]: FilterToPropertyMapping[] | undefined;
-} = getFilterMappingsByVocabularyValue();
+const filterMappingsByVocabularyValue = getFilterMappingsByVocabularyValue();
 
 /**
  * Whether the values a filter declares hold the one written against it,
@@ -725,9 +726,9 @@ export const getIsValueInFilterVocabulary = (
   category: FilterCategory,
   value: string,
 ): boolean =>
-  !!filterMappingsByVocabularyValue[getNormalizedFilterValue(value)]?.some(
-    (mapping) => mapping.category === category,
-  );
+  !!filterMappingsByVocabularyValue
+    .get(getNormalizedFilterValue(value))
+    ?.some((mapping) => mapping.category === category);
 
 // The filters other than the one written that hold every value it could not
 // place. A term is suggested whole, so a value the other filter does not hold
@@ -741,7 +742,7 @@ const getFilterMappingsHoldingValues = (
 
   for (const value of values) {
     const mappingsHoldingValue = (
-      filterMappingsByVocabularyValue[getNormalizedFilterValue(value)] || []
+      filterMappingsByVocabularyValue.get(getNormalizedFilterValue(value)) || []
     ).filter((mapping) => mapping.category !== category);
 
     mappingsHoldingValues = isFirstValue

@@ -85614,9 +85614,9 @@ You may destroy a Bloodrot Pox token you control. If you do gain 1{h}.
   
     
     pitch: 2,
-    power: 6,referencedCards: ["gate-to-iarathael"],
+    power: 5,referencedCards: ["gate-to-iarathael"],
     
-    shorthands: [Shorthand.Poppers],
+    
     
     
     
@@ -85689,9 +85689,9 @@ You may destroy a Bloodrot Pox token you control. If you do gain 1{h}.
   
     
     pitch: 3,
-    power: 6,referencedCards: ["gate-to-iarathael"],
+    power: 4,referencedCards: ["gate-to-iarathael"],
     
-    shorthands: [Shorthand.Poppers],
+    
     
     
     

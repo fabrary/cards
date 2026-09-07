@@ -491,22 +491,31 @@ export const getSpecializations = (card: {
   return specializations;
 };
 
-export const getSets = ({
-  setIdentifiers,
+// A printing whose set identifier isn't a known set would be written out with no
+// set at all, so the transform stops instead of generating a card with a hole.
+export const getSetFromIdentifier = ({
+  identifier,
+  setIdentifier,
 }: {
-  setIdentifiers: string[];
-}): Release[] => {
-  const sets = new Set<Release>();
-  for (const setIdentifier of setIdentifiers) {
-    const set = setIdentifierToSetMappings[setIdentifier.toLowerCase()];
-    if (set) {
-      sets.add(set);
-    }
-  }
-  const arr = Array.from(sets);
-  arr.sort();
+  identifier: string;
+  setIdentifier: string;
+}): Release => {
+  // A blank Set Identifiers cell reaches here as an empty string, which is a
+  // miss like any other rather than something to lowercase.
+  const matchingSet = setIdentifier
+    ? setIdentifierToSetMappings.get(setIdentifier.toLowerCase())
+    : undefined;
 
-  return arr;
+  let set: Release;
+  if (matchingSet) {
+    set = matchingSet;
+  } else {
+    throw new Error(
+      `No set for set identifier "${setIdentifier}" on ${identifier}: add it to setIdentifierToSetMappings in packages/types/src/sets.ts or fix the source row`,
+    );
+  }
+
+  return set;
 };
 
 export const getTraits = ({

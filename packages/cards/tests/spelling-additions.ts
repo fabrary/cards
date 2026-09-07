@@ -83,6 +83,7 @@ export const ADDITIONS = [
   "bladesaint",
   "blasmophet",
   "blazen",
+  "bloodfrenzy",
   "bloodloss",
   "bloodrot",
   "bloodrun",

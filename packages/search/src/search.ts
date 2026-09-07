@@ -4,6 +4,8 @@ import {
   Hero,
   Printing,
   Release,
+  setIdentifierToSetMappings,
+  setToSetIdentifierMappings,
 } from "@flesh-and-blood/types";
 import Fuse from "fuse.js";
 import { PUNCTUATION } from "./constants.js";
@@ -20,7 +22,6 @@ import {
 } from "./queryParse.js";
 import { memes } from "./memes.js";
 import { getNormalizedText, getTextWithoutMarkup } from "./helpers.js";
-import { releasesBySetIdentifier, setIdentifiersByRelease } from "./lookups.js";
 import { FilterProperty } from "./metaFilters.js";
 import { CatalogueIndex, getCatalogueIndex } from "./searchIndex.js";
 
@@ -171,8 +172,9 @@ class Search {
 
       const shouldSortByRelease = attributes.releases.length === 1;
       if (shouldSortByRelease) {
-        const matchingSetIdentifiers =
-          setIdentifiersByRelease[attributes.releases[0]];
+        const matchingSetIdentifiers = setToSetIdentifierMappings.get(
+          attributes.releases[0],
+        );
         if (matchingSetIdentifiers?.length) {
           setIdentifierToSortBy = matchingSetIdentifiers[0].toUpperCase();
         }
@@ -182,7 +184,7 @@ class Search {
         !setIdentifierToSortBy && attributes.prints.length === 1;
       if (shouldSortByPrint) {
         const setToSort = attributes.prints[0];
-        if (releasesBySetIdentifier[setToSort]) {
+        if (setIdentifierToSetMappings.has(setToSort)) {
           setIdentifierToSortBy = setToSort.toUpperCase();
         }
       }

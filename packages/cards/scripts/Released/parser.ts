@@ -1,10 +1,10 @@
 import {
   Release,
-  setIdentifierToSetMappings,
   setToSetIdentifierMappings,
   Type,
 } from "@flesh-and-blood/types";
 import { readFileSync } from "fs";
+import { getSetFromIdentifier } from "../Shared";
 
 const IMAGES_TO_EXCLUDE = [
   "ROS257",
@@ -211,18 +211,19 @@ export const parseJSON = (cardJSON: string, setJSON: string): ParsedCard[] => {
                 `No set found for ${set_id} ${set_printing_unique_id}`,
               );
             } else {
-              const validSets = Object.keys(setToSetIdentifierMappings);
-
               if (matchingSet.id === "ARK") {
                 matchingSet.name = Release.ArakniBlitzDeckARK;
               }
-              const matchingValidSet = validSets.find(
-                (setName) => setName === matchingSet.name,
+              const isNamedRelease = setToSetIdentifierMappings.has(
+                matchingSet.name,
               );
-              if (matchingValidSet) {
-                set = matchingValidSet as Release;
+              if (isNamedRelease) {
+                set = matchingSet.name as Release;
               } else {
-                set = setIdentifierToSetMappings[set_id.toLowerCase()];
+                set = getSetFromIdentifier({
+                  identifier: id,
+                  setIdentifier: set_id,
+                });
               }
             }
 

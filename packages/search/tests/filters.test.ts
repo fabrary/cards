@@ -12,6 +12,7 @@ import {
   RARITY_VALUES_MAPPING,
 } from "../src/filters";
 import { cards } from "@flesh-and-blood/cards";
+import { getNormalizedFilterValue } from "../src/helpers";
 import Search from "../src/search";
 import { getCatalogueIndex } from "../src/searchIndex";
 
@@ -274,7 +275,7 @@ describe("Gets the right attribute filters", () => {
 });
 
 describe("Complete filter abbreviation mapping", () => {
-  const mappedRarities = Object.values(RARITY_VALUES_MAPPING);
+  const mappedRarities = [...RARITY_VALUES_MAPPING.values()];
   it.each(Object.values(Rarity))("%s has a matching filter value", (rarity) => {
     const matchingFilterValue = mappedRarities.includes(rarity);
 
@@ -322,6 +323,35 @@ describe("Inherited object member names are not filters or filter values", () =>
         getKeywordsAndAppliedFiltersFromText(`${filterKey}${name}`, index),
       ).not.toThrow();
     }
+  });
+
+  // A filter a name does reach carries the name as it was written, never what
+  // Object.prototype holds under it, and no name reaches an attribute saying
+  // which printings a result renders.
+  it.each(inheritedNames)("%s resolves to no inherited member", (name) => {
+    const valuesTheNameCanCarry = [
+      name.toLowerCase(),
+      getNormalizedFilterValue(name),
+    ];
+    let checkedValues = 0;
+    for (const filterKey of filterKeys) {
+      const { appliedFilters, attributes } =
+        getKeywordsAndAppliedFiltersFromText(`${filterKey}${name}`, index);
+
+      for (const { values } of appliedFilters) {
+        for (const value of values) {
+          expect(valuesTheNameCanCarry).toContain(value);
+          checkedValues += 1;
+        }
+      }
+
+      expect(attributes.foilings).toEqual([]);
+      expect(attributes.rarities).toEqual([]);
+      expect(attributes.releases).toEqual([]);
+      expect(attributes.treatments).toEqual([]);
+    }
+
+    expect(checkedValues).toBeGreaterThan(0);
   });
 
   it.each(inheritedNames)("%s applies no filter", (name) => {
@@ -407,5 +437,36 @@ describe("Set names expand only where a set filter expects one", () => {
     );
 
     expect(appliedFilters[0].values).toEqual(["uprising"]);
+  });
+});
+
+describe("A set value names a set before it fragments one", () => {
+  // A name written without its punctuation matches no name to expand and no
+  // name it is a fragment of, so the name rung is the only one that answers it.
+  it("reads a name written without its punctuation as that set", () => {
+    const {
+      appliedFilters,
+      attributes: { releases },
+    } = getKeywordsAndAppliedFiltersFromText(
+      'set:"classic battles rhinar vs dorinthea"',
+      index,
+    );
+
+    expect(releases).toEqual([Release.ClassicBattlesRhinarDorinthea]);
+    expect(appliedFilters[0].values).toEqual([
+      "classic battles rhinar vs dorinthea",
+    ]);
+  });
+
+  // The expansion rewrites the name to its own set identifier, so the value
+  // never reaches the fragment rung the longer name would answer.
+  it("reads a name a longer set's name contains as the shorter set", () => {
+    const {
+      appliedFilters,
+      attributes: { releases },
+    } = getKeywordsAndAppliedFiltersFromText('set:"smash palace"', index);
+
+    expect(releases).toEqual([Release.SmashPalace]);
+    expect(appliedFilters[0].values).toEqual(["smash palace"]);
   });
 });

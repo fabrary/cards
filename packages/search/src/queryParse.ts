@@ -136,10 +136,12 @@ const punctuationOverrides = [
 ];
 
 const setIdentifiersBySetName = new Map(
-  Object.entries(setToSetIdentifierMappings).map(([set, setIdentifiers]) => [
-    set.toLowerCase(),
-    setIdentifiers,
-  ]),
+  [...setToSetIdentifierMappings].map(
+    ([release, setIdentifiers]): [string, string[]] => [
+      release.toLowerCase(),
+      setIdentifiers,
+    ],
+  ),
 );
 
 // A print is a set's identifier, so both filters take a set name where a value
