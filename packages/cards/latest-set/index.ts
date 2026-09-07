@@ -3057,9 +3057,9 @@ The first time you destroy a Lightning Flow each turn, **amp 1**.
   
     
     pitch: 2,
-    power: 6,referencedCards: ["gate-to-iarathael"],
+    power: 5,referencedCards: ["gate-to-iarathael"],
     
-    shorthands: [Shorthand.Poppers],
+    
     
     
     
@@ -3132,9 +3132,9 @@ The first time you destroy a Lightning Flow each turn, **amp 1**.
   
     
     pitch: 3,
-    power: 6,referencedCards: ["gate-to-iarathael"],
+    power: 4,referencedCards: ["gate-to-iarathael"],
     
-    shorthands: [Shorthand.Poppers],
+    
     
     
     

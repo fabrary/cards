@@ -66403,6 +66403,317 @@ As an additional cost to play this, destroy any number of Copper you control. Fo
 }
 `;
 
+exports[`Check for unintentional updates Bloodfrenzy Gloomblade (bloodfrenzy-gloomblade-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mariusz Gandzel",
+  ],
+  "cardIdentifier": "bloodfrenzy-gloomblade-blue",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 1,
+  "defaultImage": "IAR125",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-18",
+  "functionalText": "You may play this from your banished zone.
+
+**Usurp**
+
+If you've dealt damage to the defending hero this turn, this gets **go again**.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+    "Usurp",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Chane",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+    "Reprint",
+  ],
+  "name": "Bloodfrenzy Gloomblade",
+  "pitch": 3,
+  "power": 1,
+  "printings": [
+    {
+      "artists": [
+        "Mariusz Gandzel",
+      ],
+      "identifier": "IAR125",
+      "image": "IAR125",
+      "print": "IAR125",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Mariusz Gandzel",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR125",
+      "image": "IAR125-RF",
+      "print": "IAR125-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Mariusz Gandzel",
+      ],
+      "identifier": "SBW028",
+      "image": "SBW028",
+      "print": "SBW028",
+      "rarity": "Common",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR125",
+    "SBW028",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+    "Viserai Between Worlds Silver Age Deck",
+  ],
+  "specialImage": "IAR125",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Bloodfrenzy Gloomblade (bloodfrenzy-gloomblade-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mariusz Gandzel",
+  ],
+  "cardIdentifier": "bloodfrenzy-gloomblade-red",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 1,
+  "defaultImage": "IAR123",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-18",
+  "functionalText": "You may play this from your banished zone.
+
+**Usurp**
+
+If you've dealt damage to the defending hero this turn, this gets **go again**.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+    "Usurp",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Chane",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+    "Reprint",
+  ],
+  "name": "Bloodfrenzy Gloomblade",
+  "pitch": 1,
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Mariusz Gandzel",
+      ],
+      "identifier": "IAR123",
+      "image": "IAR123",
+      "print": "IAR123",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Mariusz Gandzel",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR123",
+      "image": "IAR123-RF",
+      "print": "IAR123-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Mariusz Gandzel",
+      ],
+      "identifier": "SBW010",
+      "image": "SBW010",
+      "print": "SBW010",
+      "rarity": "Common",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR123",
+    "SBW010",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+    "Viserai Between Worlds Silver Age Deck",
+  ],
+  "specialImage": "IAR123",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Bloodfrenzy Gloomblade (bloodfrenzy-gloomblade-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mariusz Gandzel",
+  ],
+  "cardIdentifier": "bloodfrenzy-gloomblade-yellow",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 1,
+  "defaultImage": "IAR124",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "You may play this from your banished zone.
+
+**Usurp**
+
+If you've dealt damage to the defending hero this turn, this gets **go again**.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+    "Usurp",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Chane",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Bloodfrenzy Gloomblade",
+  "pitch": 2,
+  "power": 2,
+  "printings": [
+    {
+      "artists": [
+        "Mariusz Gandzel",
+      ],
+      "identifier": "IAR124",
+      "image": "IAR124",
+      "print": "IAR124",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Mariusz Gandzel",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR124",
+      "image": "IAR124-RF",
+      "print": "IAR124-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR124",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR124",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Bloodied Oval (bloodied-oval) vs snapshot 1`] = `
 {
   "artists": [
@@ -110050,7 +110361,7 @@ exports[`Check for unintentional updates Cleave the Heavens (cleave-the-heavens-
   ],
   "name": "Cleave the Heavens",
   "pitch": 3,
-  "power": 6,
+  "power": 4,
   "printings": [
     {
       "artists": [
@@ -110086,9 +110397,6 @@ exports[`Check for unintentional updates Cleave the Heavens (cleave-the-heavens-
   ],
   "sets": [
     "Usurp the Shadow Throne",
-  ],
-  "shorthands": [
-    "Poppers",
   ],
   "specialImage": "IAR022",
   "subtypes": [
@@ -110274,7 +110582,7 @@ exports[`Check for unintentional updates Cleave the Heavens (cleave-the-heavens-
   ],
   "name": "Cleave the Heavens",
   "pitch": 2,
-  "power": 6,
+  "power": 5,
   "printings": [
     {
       "artists": [
@@ -110310,9 +110618,6 @@ exports[`Check for unintentional updates Cleave the Heavens (cleave-the-heavens-
   ],
   "sets": [
     "Usurp the Shadow Throne",
-  ],
-  "shorthands": [
-    "Poppers",
   ],
   "specialImage": "IAR021",
   "subtypes": [
@@ -362780,6 +363085,332 @@ When this hits, you may banish 3 traps with cost 0 or more from your graveyard f
     "Attack",
   ],
   "typeText": "Ranger Action - Arrow Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Murmuring Gloomblade (murmuring-gloomblade-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Surya Prasetya",
+  ],
+  "cardIdentifier": "murmuring-gloomblade-blue",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 2,
+  "createdExtras": [
+    "runechant",
+  ],
+  "defaultImage": "IAR134",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-18",
+  "functionalText": "You may play this from your banished zone.
+
+**Usurp**
+
+When this attacks or hits, create a Runechant token.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Usurp",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Chane",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+    "Reprint",
+  ],
+  "name": "Murmuring Gloomblade",
+  "pitch": 3,
+  "power": 2,
+  "printings": [
+    {
+      "artists": [
+        "Surya Prasetya",
+      ],
+      "identifier": "IAR134",
+      "image": "IAR134",
+      "print": "IAR134",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Surya Prasetya",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR134",
+      "image": "IAR134-RF",
+      "print": "IAR134-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Surya Prasetya",
+      ],
+      "identifier": "SBW031",
+      "image": "SBW031",
+      "print": "SBW031",
+      "rarity": "Common",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "runechant",
+  ],
+  "setIdentifiers": [
+    "IAR134",
+    "SBW031",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+    "Viserai Between Worlds Silver Age Deck",
+  ],
+  "specialImage": "IAR134",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Murmuring Gloomblade (murmuring-gloomblade-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Surya Prasetya",
+  ],
+  "cardIdentifier": "murmuring-gloomblade-red",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 2,
+  "createdExtras": [
+    "runechant",
+  ],
+  "defaultImage": "IAR132",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-18",
+  "functionalText": "You may play this from your banished zone.
+
+**Usurp**
+
+When this attacks or hits, create a Runechant token.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Usurp",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Chane",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+    "Reprint",
+  ],
+  "name": "Murmuring Gloomblade",
+  "pitch": 1,
+  "power": 4,
+  "printings": [
+    {
+      "artists": [
+        "Surya Prasetya",
+      ],
+      "identifier": "IAR132",
+      "image": "IAR132",
+      "print": "IAR132",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Surya Prasetya",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR132",
+      "image": "IAR132-RF",
+      "print": "IAR132-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Surya Prasetya",
+      ],
+      "identifier": "SBW015",
+      "image": "SBW015",
+      "print": "SBW015",
+      "rarity": "Common",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "runechant",
+  ],
+  "setIdentifiers": [
+    "IAR132",
+    "SBW015",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+    "Viserai Between Worlds Silver Age Deck",
+  ],
+  "specialImage": "IAR132",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Murmuring Gloomblade (murmuring-gloomblade-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Surya Prasetya",
+  ],
+  "cardIdentifier": "murmuring-gloomblade-yellow",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 2,
+  "createdExtras": [
+    "runechant",
+  ],
+  "defaultImage": "IAR133",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "You may play this from your banished zone.
+
+**Usurp**
+
+When this attacks or hits, create a Runechant token.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Usurp",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Chane",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Murmuring Gloomblade",
+  "pitch": 2,
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Surya Prasetya",
+      ],
+      "identifier": "IAR133",
+      "image": "IAR133",
+      "print": "IAR133",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Surya Prasetya",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR133",
+      "image": "IAR133-RF",
+      "print": "IAR133-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "runechant",
+  ],
+  "setIdentifiers": [
+    "IAR133",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR133",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
   "types": [
     "Action",
   ],
