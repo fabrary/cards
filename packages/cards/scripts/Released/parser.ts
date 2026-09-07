@@ -1,10 +1,10 @@
 import {
   Release,
-  setIdentifierToSetMappings,
   setToSetIdentifierMappings,
   Type,
 } from "@flesh-and-blood/types";
 import { readFileSync } from "fs";
+import { getSetFromIdentifier } from "../Shared";
 
 const IMAGES_TO_EXCLUDE = [
   "ROS257",
@@ -222,7 +222,10 @@ export const parseJSON = (cardJSON: string, setJSON: string): ParsedCard[] => {
               if (matchingValidSet) {
                 set = matchingValidSet as Release;
               } else {
-                set = setIdentifierToSetMappings[set_id.toLowerCase()];
+                set = getSetFromIdentifier({
+                  identifier: id,
+                  setIdentifier: set_id,
+                });
               }
             }
 

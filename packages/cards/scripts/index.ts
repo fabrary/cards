@@ -227,10 +227,17 @@ const latestSet = releases
   .reverse()
   .find(({ releaseType }) => releaseType === ReleaseType.StandaloneBooster)
   ?.release as Release;
-const latestSetPrefix =
-  setToSetIdentifierMappings[latestSet]?.length > 0
-    ? setToSetIdentifierMappings[latestSet][0].toUpperCase()
-    : undefined;
+// The rainbow foil pass below matches latest set cards by this prefix, so a
+// latest set with no identifiers would quietly write the file without those
+// printings.
+const latestSetIdentifiers = setToSetIdentifierMappings[latestSet];
+const hasLatestSetIdentifiers = !!latestSetIdentifiers?.length;
+let latestSetPrefix: string;
+if (hasLatestSetIdentifiers) {
+  latestSetPrefix = latestSetIdentifiers[0].toUpperCase();
+} else {
+  throw new Error(`No set identifiers for ${latestSet}`);
+}
 
 const getLatestSetCards = ({ printings, sets }: Card) => {
   const isInLatestSet = sets.includes(latestSet);
@@ -242,34 +249,30 @@ const getLatestSetCards = ({ printings, sets }: Card) => {
 
 const latestSetCards = completedCards.filter(getLatestSetCards);
 
-let shouldAddRainbowFoilsToLatestSet = false;
-const shouldCheckLatestSetForRainbowFoils = !!latestSetPrefix;
+const latestSetCardIdentifiers: { [key: string]: number } = {};
+
+for (const latestSetCard of latestSetCards) {
+  const latestSetIdentifier = latestSetCard.setIdentifiers.find(
+    (setIdentifier) => setIdentifier.startsWith(latestSetPrefix),
+  );
+
+  if (latestSetIdentifier) {
+    const setNumberString = latestSetIdentifier.replace(latestSetPrefix, "");
+    const setNumber = parseInt(setNumberString);
+
+    latestSetCardIdentifiers[latestSetIdentifier] = setNumber;
+  }
+}
+
+const setNumbers = Object.values(latestSetCardIdentifiers).sort(
+  (a, b) => a - b,
+);
+
 // every card from latest set is present
 // rainbow foils haven't already been added
-if (shouldCheckLatestSetForRainbowFoils) {
-  const latestSetCardIdentifiers: { [key: string]: number } = {};
-
-  for (const latestSetCard of latestSetCards) {
-    const latestSetIdentifier = latestSetCard.setIdentifiers.find(
-      (setIdentifier) => setIdentifier.startsWith(latestSetPrefix),
-    );
-
-    if (latestSetIdentifier) {
-      const setNumberString = latestSetIdentifier.replace(latestSetPrefix, "");
-      const setNumber = parseInt(setNumberString);
-
-      latestSetCardIdentifiers[latestSetIdentifier] = setNumber;
-    }
-  }
-
-  const setNumbers = Object.values(latestSetCardIdentifiers).sort(
-    (a, b) => a - b,
-  );
-
-  shouldAddRainbowFoilsToLatestSet = setNumbers.every(
-    (setNumber, index) => setNumber === index,
-  );
-}
+const shouldAddRainbowFoilsToLatestSet = setNumbers.every(
+  (setNumber, index) => setNumber === index,
+);
 
 let cardsToWrite = completedCards;
 

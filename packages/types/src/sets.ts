@@ -2069,7 +2069,12 @@ export const releases: ReleaseInfo[] = [
   },
 ];
 
-export const fullSetIdentifiers: { [key: string]: Release } =
+// The value types admit the miss that getLookupWithoutInheritedKeys leaves
+// these tables with, rather than letting a caller bind a release it never got.
+export type ReleaseBySetIdentifier = { [key: string]: Release | undefined };
+export type SetIdentifiersByRelease = { [key: string]: string[] | undefined };
+
+export const fullSetIdentifiers: ReleaseBySetIdentifier =
   getLookupWithoutInheritedKeys({
     wtr: Release.WelcomeToRathe,
     arc: Release.ArcaneRising,
@@ -2098,7 +2103,7 @@ export const fullSetIdentifiers: { [key: string]: Release } =
     mpa: Release.MasteryPackAssassin,
   });
 
-export const setIdentifierToSetMappings: { [key: string]: Release } =
+export const setIdentifierToSetMappings: ReleaseBySetIdentifier =
   getLookupWithoutInheritedKeys({
     ...fullSetIdentifiers,
 
@@ -2219,17 +2224,18 @@ export const setIdentifierToSetMappings: { [key: string]: Release } =
 
 const tempSetToSetIdentifierMappings: { [key: string]: string[] } = {};
 for (const [setIdentifier, set] of Object.entries(setIdentifierToSetMappings)) {
-  const entry = tempSetToSetIdentifierMappings[set];
-  if (entry) {
-    entry.push(setIdentifier);
-  } else {
-    tempSetToSetIdentifierMappings[set] = [setIdentifier];
+  if (set) {
+    const entry = tempSetToSetIdentifierMappings[set];
+    if (entry) {
+      entry.push(setIdentifier);
+    } else {
+      tempSetToSetIdentifierMappings[set] = [setIdentifier];
+    }
   }
 }
 
-export const setToSetIdentifierMappings = getLookupWithoutInheritedKeys(
-  tempSetToSetIdentifierMappings,
-);
+export const setToSetIdentifierMappings: SetIdentifiersByRelease =
+  getLookupWithoutInheritedKeys(tempSetToSetIdentifierMappings);
 
 export interface SilverAgeChapter {
   chapter: number;
