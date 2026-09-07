@@ -1,6 +1,5 @@
 import { Format, Hero, Talent } from "@flesh-and-blood/types";
 import { PUNCTUATION } from "./constants.js";
-import { getLookupWithoutInheritedKeys } from "./lookups.js";
 import {
   aliasesByFilterCategory,
   availableExclusions,
@@ -440,12 +439,12 @@ const filtersByExcludedCategory: {
   { category: FilterCategory.Talent, filters: noTalents },
 ];
 
-const getExcludedFilters = (): { [key: string]: AppliedFilter[] } => {
-  const filtersByKey = getLookupWithoutInheritedKeys<AppliedFilter[]>({});
+const getExcludedFilters = (): Map<string, AppliedFilter[]> => {
+  const filtersByKey = new Map<string, AppliedFilter[]>();
   for (const { category, filters } of filtersByExcludedCategory) {
     for (const alias of aliasesByFilterCategory[category]) {
       for (const exclusion of availableExclusions) {
-        filtersByKey[`${exclusion}${alias}`] = filters;
+        filtersByKey.set(`${exclusion}${alias}`, filters);
       }
     }
   }
@@ -461,7 +460,7 @@ const excludedFilters = getExcludedFilters();
  */
 export const getExcludedMetaFilters = (filterKey: string) => {
   const filters: AppliedFilter[] = [];
-  const matchingFilters = excludedFilters[filterKey];
+  const matchingFilters = excludedFilters.get(filterKey);
   if (matchingFilters) {
     filters.push(...matchingFilters);
   }

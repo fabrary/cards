@@ -500,14 +500,18 @@ export const getSetFromIdentifier = ({
   identifier: string;
   setIdentifier: string;
 }): Release => {
-  const matchingSet = setIdentifierToSetMappings[setIdentifier.toLowerCase()];
+  // A blank Set Identifiers cell reaches here as an empty string, which is a
+  // miss like any other rather than something to lowercase.
+  const matchingSet = setIdentifier
+    ? setIdentifierToSetMappings.get(setIdentifier.toLowerCase())
+    : undefined;
 
   let set: Release;
   if (matchingSet) {
     set = matchingSet;
   } else {
     throw new Error(
-      `No set for set identifier ${setIdentifier} on ${identifier}: add it to setIdentifierToSetMappings in packages/types/src/sets.ts or fix the source row`,
+      `No set for set identifier "${setIdentifier}" on ${identifier}: add it to setIdentifierToSetMappings in packages/types/src/sets.ts or fix the source row`,
     );
   }
 

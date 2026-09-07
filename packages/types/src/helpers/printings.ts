@@ -56,9 +56,9 @@ export const getPrint = (printing: {
   return `${identifier}${edition}${foiling}${treatment}${back}${suffix}`;
 };
 
-export const orderedFullSetBlackBorderIdentifiers = Object.keys(
-  fullSetIdentifiers,
-)
+export const orderedFullSetBlackBorderIdentifiers = [
+  ...fullSetIdentifiers.keys(),
+]
   .filter((set) => !set.toLowerCase().includes("hp"))
   .reverse()
   .map((set) => set.toUpperCase());
@@ -434,7 +434,7 @@ export const getBoomerPrinting = (
     let firstPrinting: Printing | undefined =
       printings.length > 0 ? printings[0] : undefined;
 
-    for (const release of Object.values(fullSetIdentifiers)) {
+    for (const release of fullSetIdentifiers.values()) {
       const matchingPrinting = printings.find(
         (printing) => printing.set === release,
       );

@@ -412,8 +412,8 @@ describe("Every set has results", () => {
 
   it.each(Object.values(Release))(
     "%s has results from abbreviated set",
-    (set: string) => {
-      const abbreviations = setToSetIdentifierMappings[set] as string[];
+    (set: Release) => {
+      const abbreviations = setToSetIdentifierMappings.get(set) as string[];
 
       for (const abbreviation of abbreviations) {
         const { searchResults } = cardSearch.search(`s:${abbreviation}`);

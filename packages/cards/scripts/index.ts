@@ -223,14 +223,22 @@ for (const card of cardsWithAdditionalProperties) {
   }
 }
 
-const latestSet = releases
+const latestStandaloneBooster = releases
   .reverse()
-  .find(({ releaseType }) => releaseType === ReleaseType.StandaloneBooster)
-  ?.release as Release;
+  .find(({ releaseType }) => releaseType === ReleaseType.StandaloneBooster);
+let latestSet: Release;
+if (latestStandaloneBooster) {
+  latestSet = latestStandaloneBooster.release;
+} else {
+  throw new Error(
+    `No ${ReleaseType.StandaloneBooster} release to take the latest set from`,
+  );
+}
+
 // The rainbow foil pass below matches latest set cards by this prefix, so a
 // latest set with no identifiers would quietly write the file without those
 // printings.
-const latestSetIdentifiers = setToSetIdentifierMappings[latestSet];
+const latestSetIdentifiers = setToSetIdentifierMappings.get(latestSet);
 const hasLatestSetIdentifiers = !!latestSetIdentifiers?.length;
 let latestSetPrefix: string;
 if (hasLatestSetIdentifiers) {

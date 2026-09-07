@@ -211,16 +211,14 @@ export const parseJSON = (cardJSON: string, setJSON: string): ParsedCard[] => {
                 `No set found for ${set_id} ${set_printing_unique_id}`,
               );
             } else {
-              const validSets = Object.keys(setToSetIdentifierMappings);
-
               if (matchingSet.id === "ARK") {
                 matchingSet.name = Release.ArakniBlitzDeckARK;
               }
-              const matchingValidSet = validSets.find(
-                (setName) => setName === matchingSet.name,
+              const isNamedRelease = setToSetIdentifierMappings.has(
+                matchingSet.name,
               );
-              if (matchingValidSet) {
-                set = matchingValidSet as Release;
+              if (isNamedRelease) {
+                set = matchingSet.name as Release;
               } else {
                 set = getSetFromIdentifier({
                   identifier: id,
