@@ -15377,12 +15377,24 @@ When this leaves the arena during your turn, create a Runechant token.`,
     artists: ["Elya Nur Sri Ayu","Rodrigo Rizo"],
     cardIdentifier: "arcane-polarity-red",
     classes: [Class.Generic],
-    defaultImage: "SBA030",
+    defaultImage: "SBW023",
     firstReleaseDate: "2024-09-20",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Arcane Polarity",
     printings: [{
+        artists: ["Rodrigo Rizo"],
+      
+      identifier: "SBW023",
+      image: "SBW023",
+      
+      
+      print: "SBW023",
+      rarity: Rarity.Common,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },{
         artists: ["Rodrigo Rizo"],
       
       identifier: "SBA030",
@@ -15475,8 +15487,8 @@ When this leaves the arena during your turn, create a Runechant token.`,
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["LGS458","ROS231","SBA030","SBZ020","SFA028"],
-    sets: [Release.BlazeSilverAgeDeck,Release.BriarSilverAgeDeck,Release.FaiSilverAgeDeck,Release.Promos,Release.Rosetta],
+    setIdentifiers: ["LGS458","ROS231","SBA030","SBW023","SBZ020","SFA028"],
+    sets: [Release.BlazeSilverAgeDeck,Release.BriarSilverAgeDeck,Release.FaiSilverAgeDeck,Release.Promos,Release.Rosetta,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "LGS458-RF",
     subtypes: [],
     types: [Type.Instant],
@@ -51946,6 +51958,267 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
   
   },{
     artists: ["Mariusz Gandzel"],
+    cardIdentifier: "bloodfrenzy-gloomblade-red",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR123",
+    firstReleaseDate: "2026-09-18",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Bloodfrenzy Gloomblade",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "IAR123",
+      image: "IAR123",
+      
+      
+      print: "IAR123",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR123",
+      image: "IAR123-RF",
+      
+      
+      print: "IAR123-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "SBW010",
+      image: "SBW010",
+      
+      
+      print: "SBW010",
+      rarity: Rarity.Common,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR123","SBW010"],
+    sets: [Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
+    specialImage: "IAR123",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `You may play this from your banished zone.
+
+**Usurp**
+
+If you've dealt damage to the defending hero this turn, this gets **go again**.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain,Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
+  
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "bloodfrenzy-gloomblade-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR124",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Bloodfrenzy Gloomblade",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "IAR124",
+      image: "IAR124",
+      
+      
+      print: "IAR124",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR124",
+      image: "IAR124-RF",
+      
+      
+      print: "IAR124-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR124"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR124",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `You may play this from your banished zone.
+
+**Usurp**
+
+If you've dealt damage to the defending hero this turn, this gets **go again**.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain,Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "bloodfrenzy-gloomblade-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR125",
+    firstReleaseDate: "2026-09-18",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Bloodfrenzy Gloomblade",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "IAR125",
+      image: "IAR125",
+      
+      
+      print: "IAR125",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR125",
+      image: "IAR125-RF",
+      
+      
+      print: "IAR125-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "SBW028",
+      image: "SBW028",
+      
+      
+      print: "SBW028",
+      rarity: Rarity.Common,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR125","SBW028"],
+    sets: [Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
+    specialImage: "IAR125",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `You may play this from your banished zone.
+
+**Usurp**
+
+If you've dealt damage to the defending hero this turn, this gets **go again**.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain,Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
+  
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Mariusz Gandzel"],
     cardIdentifier: "bloodied-oval",
     classes: [Class.Generic],
     defaultImage: "HVY206",
@@ -53229,12 +53502,24 @@ When you are dealt damage, destroy this.`,
     artists: ["Andy Aslamov"],
     cardIdentifier: "blossom-of-spring",
     classes: [Class.Generic],
-    defaultImage: "SAT005",
+    defaultImage: "SBW006",
     firstReleaseDate: "2022-05-27",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Blossom of Spring",
     printings: [{
+        artists: ["Andy Aslamov"],
+      
+      identifier: "SBW006",
+      image: "SBW006",
+      
+      
+      print: "SBW006",
+      rarity: Rarity.Common,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },{
         artists: ["Andy Aslamov"],
       
       identifier: "SAT005",
@@ -53513,8 +53798,8 @@ When you are dealt damage, destroy this.`,
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["ARA004","AUR004","BDD004","DDD004","DVR004","FAB418","KAT004","LGS100","LSS010","RVD004","SAR005","SAT005","SAZ006","SBA006","SDA007","SDO005","SEN005","SVI005","TER005"],
-    sets: [Release.FirstStrikeAurora,Release.FirstStrikeTerra,Release.ArakniBlitzDeck,Release.ArakniSilverAgeDeck,Release.AzaleaSilverAgeDeck,Release.BravoDemoDeck,Release.BriarSilverAgeDeck,Release.ClassicBattlesRhinarDorinthea,Release.DashSilverAgeDeck,Release.DorintheaDemoDeck,Release.DorintheaSilverAgeDeck,Release.EnigmaSilverAgeDeck,Release.KatsuBlitzDeck,Release.PrismSilverAgeDeck,Release.Promos,Release.ViseraiSilverAgeDeck],
+    setIdentifiers: ["ARA004","AUR004","BDD004","DDD004","DVR004","FAB418","KAT004","LGS100","LSS010","RVD004","SAR005","SAT005","SAZ006","SBA006","SBW006","SDA007","SDO005","SEN005","SVI005","TER005"],
+    sets: [Release.FirstStrikeAurora,Release.FirstStrikeTerra,Release.ArakniBlitzDeck,Release.ArakniSilverAgeDeck,Release.AzaleaSilverAgeDeck,Release.BravoDemoDeck,Release.BriarSilverAgeDeck,Release.ClassicBattlesRhinarDorinthea,Release.DashSilverAgeDeck,Release.DorintheaDemoDeck,Release.DorintheaSilverAgeDeck,Release.EnigmaSilverAgeDeck,Release.KatsuBlitzDeck,Release.PrismSilverAgeDeck,Release.Promos,Release.ViseraiBetweenWorldsSilverAgeDeck,Release.ViseraiSilverAgeDeck],
     specialImage: "LGS100-CF",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -80301,7 +80586,8 @@ Create 3 Runechant tokens.`,
     
   
   
-  },{
+  }];
+const cards2: Card[] = [{
     artists: ["Aluísio Cervelle"],
     cardIdentifier: "chromatic-refinement-red",
     classes: [Class.NotClassed],
@@ -80538,8 +80824,7 @@ Create 3 Runechant tokens.`,
     talents: [Talent.Lightning],
   
   
-  }];
-const cards2: Card[] = [{
+  },{
     artists: ["Lius Lasahido"],
     cardIdentifier: "chum-friendly-first-mate-yellow",
     classes: [Class.Necromancer,Class.Pirate],
@@ -98606,7 +98891,7 @@ This card's attacks get **go again**.
     cardIdentifier: "corrupted-crown",
     classes: [Class.NotClassed],
     defaultImage: "AMA003-RF",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Taylor,Hero.Viserai2,Hero.Vynnset],
     name: "Corrupted Crown",
@@ -98624,6 +98909,18 @@ This card's attacks get **go again**.
       
     },{
         artists: ["Dzulfikar Aliy"],
+      
+      identifier: "SBW004",
+      image: "SBW004",
+      
+      
+      print: "SBW004",
+      rarity: Rarity.Rare,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },{
+        artists: ["Dzulfikar Aliy"],
       foiling: Foiling.Cold,
       identifier: "GEM188",
       image: "GEM188-CF",
@@ -98637,8 +98934,8 @@ This card's attacks get **go again**.
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["AMA003","GEM188"],
-    sets: [Release.ArmoryDeckMalice,Release.GEM],
+    setIdentifiers: ["AMA003","GEM188","SBW004"],
+    sets: [Release.ArmoryDeckMalice,Release.GEM,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "GEM188-CF",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -98659,7 +98956,7 @@ This card's attacks get **go again**.
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -105113,12 +105410,24 @@ Whenever an arrow is put face-up into your arsenal from your deck, you may pay {
     artists: ["Alexander Nikolaev"],
     cardIdentifier: "crown-of-dichotomy",
     classes: [Class.Runeblade],
-    defaultImage: "SBA005",
+    defaultImage: "SBW005",
     firstReleaseDate: "2020-03-27",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Taylor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset],
     name: "Crown of Dichotomy",
     printings: [{
+        artists: ["Alexander Nikolaev"],
+      
+      identifier: "SBW005",
+      image: "SBW005",
+      
+      
+      print: "SBW005",
+      rarity: Rarity.Common,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },{
         artists: ["Alexander Nikolaev"],
       
       identifier: "SBA005",
@@ -105226,8 +105535,8 @@ Whenever an arrow is put face-up into your arsenal from your deck, you may pay {
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["1HP263","ARC079","SBA005","SVI004"],
-    sets: [Release.ArcaneRising,Release.BriarSilverAgeDeck,Release.HistoryPack1,Release.ViseraiSilverAgeDeck],
+    setIdentifiers: ["1HP263","ARC079","SBA005","SBW005","SVI004"],
+    sets: [Release.ArcaneRising,Release.BriarSilverAgeDeck,Release.HistoryPack1,Release.ViseraiBetweenWorldsSilverAgeDeck,Release.ViseraiSilverAgeDeck],
     specialImage: "ARC079-CF",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -107335,7 +107644,7 @@ Each hero banishes a card from their hand.
     cardIdentifier: "cullingsong-gloomblade-red",
     classes: [Class.Runeblade],
     defaultImage: "IAR115",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Cullingsong Gloomblade",
@@ -107366,6 +107675,18 @@ Each hero banishes a card from their hand.
     },{
         artists: ["YDZ"],
       
+      identifier: "SBW011",
+      image: "SBW011",
+      
+      
+      print: "SBW011",
+      rarity: Rarity.Rare,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },{
+        artists: ["YDZ"],
+      
       identifier: "GEM201",
       image: "GEM201",
       
@@ -107390,8 +107711,8 @@ Each hero banishes a card from their hand.
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["GEM201","IAR115"],
-    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    setIdentifiers: ["GEM201","IAR115","SBW011"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "GEM201",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -107416,7 +107737,7 @@ When this hits a hero, they banish a card from their hand.
     keywords: [Keyword.BloodDebt,Keyword.Usurp],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -117915,7 +118236,7 @@ When the combat chain closes, you may banish this face-down. If you do, for each
     cardIdentifier: "demonbound-gloomblade-red",
     classes: [Class.Runeblade],
     defaultImage: "IAR126",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Demonbound Gloomblade",
@@ -117943,11 +118264,23 @@ When the combat chain closes, you may banish this face-down. If you do, for each
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Rio Sabda"],
+      
+      identifier: "SBW012",
+      image: "SBW012",
+      
+      
+      print: "SBW012",
+      rarity: Rarity.Common,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["IAR126"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["IAR126","SBW012"],
+    sets: [Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR126",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -117970,7 +118303,7 @@ When the combat chain closes, you may banish this face-down. If you do, for each
     keywords: [Keyword.BloodDebt,Keyword.Usurp],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -118069,7 +118402,7 @@ When the combat chain closes, you may banish this face-down. If you do, for each
     cardIdentifier: "demonbound-gloomblade-blue",
     classes: [Class.Runeblade],
     defaultImage: "IAR128",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Demonbound Gloomblade",
@@ -118097,11 +118430,23 @@ When the combat chain closes, you may banish this face-down. If you do, for each
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Rio Sabda"],
+      
+      identifier: "SBW029",
+      image: "SBW029",
+      
+      
+      print: "SBW029",
+      rarity: Rarity.Common,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["IAR128"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["IAR128","SBW029"],
+    sets: [Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR128",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -118124,7 +118469,7 @@ When the combat chain closes, you may banish this face-down. If you do, for each
     keywords: [Keyword.BloodDebt,Keyword.Usurp],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -142452,7 +142797,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
     cardIdentifier: "embrace-ursur-red",
     classes: [Class.Runeblade],
     defaultImage: "IAR129",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Embrace Ursur",
@@ -142483,6 +142828,18 @@ You may play an aura with Runechant in its name from your banished zone this tur
     },{
         artists: ["Alif Zahrah"],
       
+      identifier: "SBW013",
+      image: "SBW013",
+      
+      
+      print: "SBW013",
+      rarity: Rarity.Common,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },{
+        artists: ["Alif Zahrah"],
+      
       identifier: "GEM203",
       image: "GEM203",
       
@@ -142507,8 +142864,8 @@ You may play an aura with Runechant in its name from your banished zone this tur
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["GEM203","IAR129"],
-    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    setIdentifiers: ["GEM203","IAR129","SBW013"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "GEM203",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -142527,7 +142884,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -142549,7 +142906,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
     cardIdentifier: "embrace-ursur-yellow",
     classes: [Class.Runeblade],
     defaultImage: "IAR130",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Embrace Ursur",
@@ -142577,11 +142934,23 @@ You may play an aura with Runechant in its name from your banished zone this tur
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Alif Zahrah"],
+      
+      identifier: "SBW024",
+      image: "SBW024",
+      
+      
+      print: "SBW024",
+      rarity: Rarity.Common,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["IAR130"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["IAR130","SBW024"],
+    sets: [Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR130",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -142600,7 +142969,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -142622,7 +142991,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
     cardIdentifier: "embrace-ursur-blue",
     classes: [Class.Runeblade],
     defaultImage: "IAR131",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Embrace Ursur",
@@ -142650,11 +143019,23 @@ You may play an aura with Runechant in its name from your banished zone this tur
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Alif Zahrah"],
+      
+      identifier: "SBW030",
+      image: "SBW030",
+      
+      
+      print: "SBW030",
+      rarity: Rarity.Common,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["IAR131"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["IAR131","SBW030"],
+    sets: [Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR131",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -142673,7 +143054,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -159552,7 +159933,8 @@ When this is pitched, **opt 2**.`,
     
   
   
-  },{
+  }];
+const cards3: Card[] = [{
     artists: ["Andrew Chou"],
     cardIdentifier: "fabric-of-hope-red",
     classes: [Class.Generic],
@@ -159746,8 +160128,7 @@ Equip Crown of Providence. If you don't, **negate** this.`,
     
   
   
-  }];
-const cards3: Card[] = [{
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "fabric-of-spring-yellow",
     classes: [Class.Generic],
@@ -184543,12 +184924,24 @@ Create a Runechant token.
     artists: ["Federico Musetti"],
     cardIdentifier: "galaxxi-black",
     classes: [Class.Runeblade],
-    defaultImage: "U-MON155",
+    defaultImage: "SBW002",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Galaxxi Black",
     printings: [{
+        artists: ["Federico Musetti"],
+      
+      identifier: "SBW002",
+      image: "SBW002",
+      
+      
+      print: "SBW002",
+      rarity: Rarity.Common,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },{
         artists: ["Federico Musetti"],
       edition: ReleaseEdition.Unlimited,
       identifier: "MON155",
@@ -184626,8 +185019,8 @@ Create a Runechant token.
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["CHN003","LGS046","MON155"],
-    sets: [Release.ChaneBlitzDeck,Release.Monarch,Release.Promos],
+    setIdentifiers: ["CHN003","LGS046","MON155","SBW002"],
+    sets: [Release.ChaneBlitzDeck,Release.Monarch,Release.Promos,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "MON155-CF",
     subtypes: [Subtype.TwoHanded,Subtype.Sword],
     types: [Type.Weapon],
@@ -185851,9 +186244,9 @@ You may put a Hyper Driver from your banished zone into the arena.
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "gate-to-iarathael",
     classes: [Class.NotClassed],
-    defaultImage: "FAB507-RF",
-    firstReleaseDate: "2026-09-25",
-    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    defaultImage: "SBW034",
+    firstReleaseDate: "2026-09-18",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
     name: "Gate to i'Arathael",
     printings: [{
@@ -185888,6 +186281,18 @@ You may put a Hyper Driver from your banished zone into the arena.
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Carlos Cruchaga"],
+      
+      identifier: "SBW034",
+      image: "SBW034",
+      
+      
+      print: "SBW034",
+      rarity: Rarity.Basic,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },{
+        artists: ["Carlos Cruchaga"],
       foiling: Foiling.Rainbow,
       identifier: "FAB507",
       image: "FAB507-RF",
@@ -185899,10 +186304,10 @@ You may put a Hyper Driver from your banished zone into the arena.
       
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Marvel,Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["FAB507","IAR222"],
-    sets: [Release.Promos,Release.UsurpTheShadowThrone],
+    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["FAB507","IAR222","SBW034"],
+    sets: [Release.Promos,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR222-MV",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -185921,7 +186326,7 @@ You may put a Hyper Driver from your banished zone into the arena.
     
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -240889,7 +241294,8 @@ Whenever you play an Ice card during an opponent's turn, create a Frostbite toke
     talents: [Talent.Elemental,Talent.Ice],
   
   
-  },{
+  }];
+const cards4: Card[] = [{
     artists: ["Jackson Tjota"],
     cardIdentifier: "jack-be-nimble-red",
     classes: [Class.Generic],
@@ -241132,8 +241538,7 @@ When this hits a hero, {u} an ally they control, then **steal** it until the end
     talents: [Talent.Shadow],
   
   
-  }];
-const cards4: Card[] = [{
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "jack-o-lantern-yellow",
     classes: [Class.Runeblade],
@@ -259148,12 +259553,24 @@ If you've **boosted** this turn, **opt 1**.
     artists: ["Kevin Sidharta","Shen Fei"],
     cardIdentifier: "looking-for-a-scrap-red",
     classes: [Class.Generic],
-    defaultImage: "OUT195",
+    defaultImage: "SBW014",
     firstReleaseDate: "2023-03-24",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Looking for a Scrap",
     printings: [{
+        artists: ["Shen Fei"],
+      
+      identifier: "SBW014",
+      image: "SBW014",
+      
+      
+      print: "SBW014",
+      rarity: Rarity.Rare,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },{
         artists: ["Shen Fei"],
       
       identifier: "OUT195",
@@ -259216,8 +259633,8 @@ If you've **boosted** this turn, **opt 1**.
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["ANQ028","FAB356","OUT195"],
-    sets: [Release.Outsiders,Release.Promos],
+    setIdentifiers: ["ANQ028","FAB356","OUT195","SBW014"],
+    sets: [Release.Outsiders,Release.Promos,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "FAB356-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -259236,7 +259653,7 @@ If you've **boosted** this turn, **opt 1**.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -263297,12 +263714,24 @@ When this hits a Runeblade or Wizard hero, you may destroy an aura they control.
     artists: ["Max Kostin"],
     cardIdentifier: "malefic-incantation-red",
     classes: [Class.Runeblade],
-    defaultImage: "SVI021",
+    defaultImage: "SBW020",
     firstReleaseDate: "2024-09-20",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Viserai2,Hero.Vynnset],
     name: "Malefic Incantation",
     printings: [{
+        artists: ["Max Kostin"],
+      
+      identifier: "SBW020",
+      image: "SBW020",
+      
+      
+      print: "SBW020",
+      rarity: Rarity.Rare,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },{
         artists: ["Max Kostin"],
       
       identifier: "SVI021",
@@ -263395,8 +263824,8 @@ When this hits a Runeblade or Wizard hero, you may destroy an aura they control.
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["AVS015","FLR015","GEM075","ROS130","SVI021"],
-    sets: [Release.ArmoryDeckLegendsViserai,Release.FlorianBlitzDeck,Release.GEM,Release.Rosetta,Release.ViseraiSilverAgeDeck],
+    setIdentifiers: ["AVS015","FLR015","GEM075","ROS130","SBW020","SVI021"],
+    sets: [Release.ArmoryDeckLegendsViserai,Release.FlorianBlitzDeck,Release.GEM,Release.Rosetta,Release.ViseraiBetweenWorldsSilverAgeDeck,Release.ViseraiSilverAgeDeck],
     specialImage: "GEM075-CF",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
@@ -263440,12 +263869,24 @@ Once per turn, when you play an attack action card, remove a verse counter from 
     artists: ["Max Kostin"],
     cardIdentifier: "malefic-incantation-yellow",
     classes: [Class.Runeblade],
-    defaultImage: "SVI025",
+    defaultImage: "SBW025",
     firstReleaseDate: "2024-09-20",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Viserai2,Hero.Vynnset],
     name: "Malefic Incantation",
     printings: [{
+        artists: ["Max Kostin"],
+      
+      identifier: "SBW025",
+      image: "SBW025",
+      
+      
+      print: "SBW025",
+      rarity: Rarity.Rare,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },{
         artists: ["Max Kostin"],
       
       identifier: "SVI025",
@@ -263508,9 +263949,9 @@ Once per turn, when you play an attack action card, remove a verse counter from 
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["AVS022","ROS131","SVI025"],
-    sets: [Release.ArmoryDeckLegendsViserai,Release.Rosetta,Release.ViseraiSilverAgeDeck],
-    specialImage: "SVI025",
+    setIdentifiers: ["AVS022","ROS131","SBW025","SVI025"],
+    sets: [Release.ArmoryDeckLegendsViserai,Release.Rosetta,Release.ViseraiBetweenWorldsSilverAgeDeck,Release.ViseraiSilverAgeDeck],
+    specialImage: "SBW025",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action - Aura",
@@ -274936,7 +275377,7 @@ Whenever this banishes a non-attack action card, gain 1{h}.`,
         artists: ["Mihail Spil-Haufter"],
       foiling: Foiling.Cold,
       identifier: "GEM219",
-      image: "GEM219-MV",
+      image: "GEM219-CF",
       
       
       print: "GEM219-Cold-Full Art",
@@ -274949,7 +275390,7 @@ Whenever this banishes a non-attack action card, gain 1{h}.`,
     rarity: Rarity.Rare,
     setIdentifiers: ["BOL002","FAB044","GEM219"],
     sets: [Release.BoltynBlitzDeck,Release.GEM,Release.Promos],
-    specialImage: "GEM219-MV",
+    specialImage: "GEM219-CF",
     subtypes: [],
     types: [Type.Mentor],
     typeText: "Warrior Mentor",
@@ -279877,6 +280318,267 @@ When this hits, you may banish 3 traps with cost 0 or more from your graveyard f
     
     specializations: [Hero.Riptide],
     
+  
+  
+  },{
+    artists: ["Surya Prasetya"],
+    cardIdentifier: "murmuring-gloomblade-red",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR132",
+    firstReleaseDate: "2026-09-18",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Murmuring Gloomblade",
+    printings: [{
+        artists: ["Surya Prasetya"],
+      
+      identifier: "IAR132",
+      image: "IAR132",
+      
+      
+      print: "IAR132",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Surya Prasetya"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR132",
+      image: "IAR132-RF",
+      
+      
+      print: "IAR132-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Surya Prasetya"],
+      
+      identifier: "SBW015",
+      image: "SBW015",
+      
+      
+      print: "SBW015",
+      rarity: Rarity.Common,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR132","SBW015"],
+    sets: [Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
+    specialImage: "IAR132",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 2,createdExtras: ["runechant"],
+    defense: 3,
+    
+    functionalText: `You may play this from your banished zone.
+
+**Usurp**
+
+When this attacks or hits, create a Runechant token.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
+  
+    
+    pitch: 1,
+    power: 4,referencedCards: ["runechant"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Surya Prasetya"],
+    cardIdentifier: "murmuring-gloomblade-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR133",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Murmuring Gloomblade",
+    printings: [{
+        artists: ["Surya Prasetya"],
+      
+      identifier: "IAR133",
+      image: "IAR133",
+      
+      
+      print: "IAR133",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Surya Prasetya"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR133",
+      image: "IAR133-RF",
+      
+      
+      print: "IAR133-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR133"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR133",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 2,createdExtras: ["runechant"],
+    defense: 3,
+    
+    functionalText: `You may play this from your banished zone.
+
+**Usurp**
+
+When this attacks or hits, create a Runechant token.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 3,referencedCards: ["runechant"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Surya Prasetya"],
+    cardIdentifier: "murmuring-gloomblade-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR134",
+    firstReleaseDate: "2026-09-18",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Murmuring Gloomblade",
+    printings: [{
+        artists: ["Surya Prasetya"],
+      
+      identifier: "IAR134",
+      image: "IAR134",
+      
+      
+      print: "IAR134",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Surya Prasetya"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR134",
+      image: "IAR134-RF",
+      
+      
+      print: "IAR134-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Surya Prasetya"],
+      
+      identifier: "SBW031",
+      image: "SBW031",
+      
+      
+      print: "SBW031",
+      rarity: Rarity.Common,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR134","SBW031"],
+    sets: [Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
+    specialImage: "IAR134",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 2,createdExtras: ["runechant"],
+    defense: 3,
+    
+    functionalText: `You may play this from your banished zone.
+
+**Usurp**
+
+When this attacks or hits, create a Runechant token.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
+  
+    
+    pitch: 3,
+    power: 2,referencedCards: ["runechant"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
   
   
   },{
@@ -285484,12 +286186,24 @@ When this enters the arena, name a card. The named card can't be pitched or play
     artists: ["Anastasia Chernaya","Tatiana Trubnikova"],
     cardIdentifier: "nullrune-boots",
     classes: [Class.Generic],
-    defaultImage: "SBL010",
+    defaultImage: "SBW008",
     firstReleaseDate: "2020-03-27",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Nullrune Boots",
     printings: [{
+        artists: ["Tatiana Trubnikova"],
+      
+      identifier: "SBW008",
+      image: "SBW008",
+      
+      
+      print: "SBW008",
+      rarity: Rarity.Common,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },{
         artists: ["Tatiana Trubnikova"],
       
       identifier: "SBL010",
@@ -285657,8 +286371,8 @@ When this enters the arena, name a card. The named card can't be pitched or play
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["1HP349","ARC158","FAB071","FAB248","LGS372","SBL010","SBR011","SVI010"],
-    sets: [Release.ArcaneRising,Release.BoltynSilverAgeDeck,Release.BravoSilverAgeDeck,Release.HistoryPack1,Release.Promos,Release.ViseraiSilverAgeDeck],
+    setIdentifiers: ["1HP349","ARC158","FAB071","FAB248","LGS372","SBL010","SBR011","SBW008","SVI010"],
+    sets: [Release.ArcaneRising,Release.BoltynSilverAgeDeck,Release.BravoSilverAgeDeck,Release.HistoryPack1,Release.Promos,Release.ViseraiBetweenWorldsSilverAgeDeck,Release.ViseraiSilverAgeDeck],
     specialImage: "FAB248-RF",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -289274,12 +289988,24 @@ When this hits a hero, create a Toughness and a Vigor token.`,
     artists: ["Mariusz Gandzel"],
     cardIdentifier: "olde-leather-boots",
     classes: [Class.Generic],
-    defaultImage: "MPW143",
+    defaultImage: "SBW009",
     firstReleaseDate: "2026-08-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Olde Leather Boots",
     printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "SBW009",
+      image: "SBW009",
+      
+      
+      print: "SBW009",
+      rarity: Rarity.Common,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },{
         artists: ["Mariusz Gandzel"],
       
       identifier: "MPW143",
@@ -289312,8 +290038,8 @@ When this hits a hero, create a Toughness and a Vigor token.`,
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["MPW143"],
-    sets: [Release.MasteryPackWarrior],
+    setIdentifiers: ["MPW143","SBW009"],
+    sets: [Release.MasteryPackWarrior,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "MPW143-CF",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -289334,7 +290060,7 @@ When this hits a hero, create a Toughness and a Vigor token.`,
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -293596,6 +294322,18 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
       
     },{
         artists: ["Tommy Suhartono"],
+      
+      identifier: "SBW021",
+      image: "SBW021",
+      
+      
+      print: "SBW021",
+      rarity: Rarity.Common,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },{
+        artists: ["Tommy Suhartono"],
       foiling: Foiling.Cold,
       identifier: "JDG090",
       image: "JDG090-CF",
@@ -293609,8 +294347,8 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["IAR141","JDG090"],
-    sets: [Release.Promos,Release.UsurpTheShadowThrone],
+    setIdentifiers: ["IAR141","JDG090","SBW021"],
+    sets: [Release.Promos,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "JDG090-CF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -293633,7 +294371,7 @@ Create a Runechant token.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -311822,7 +312560,7 @@ When this hits a hero, banish the top card of their deck.`,
     cardIdentifier: "plundersong-gloomblade-red",
     classes: [Class.Runeblade],
     defaultImage: "IAR116",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Plundersong Gloomblade",
@@ -311853,6 +312591,18 @@ When this hits a hero, banish the top card of their deck.`,
     },{
         artists: ["Bastien Jez"],
       
+      identifier: "SBW016",
+      image: "SBW016",
+      
+      
+      print: "SBW016",
+      rarity: Rarity.Rare,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },{
+        artists: ["Bastien Jez"],
+      
       identifier: "GEM202",
       image: "GEM202",
       
@@ -311877,8 +312627,8 @@ When this hits a hero, banish the top card of their deck.`,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["GEM202","IAR116"],
-    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    setIdentifiers: ["GEM202","IAR116","SBW016"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "GEM202",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -311903,7 +312653,7 @@ When this hits a hero, they banish a card in their arsenal.
     keywords: [Keyword.BloodDebt,Keyword.Usurp],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -322282,7 +323032,8 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "proclamation-of-combat",
     classes: [Class.Adjudicator],
@@ -322732,8 +323483,7 @@ You may play Evos from your banished zone.`,
     
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Riordan Delmiro"],
     cardIdentifier: "prognosticate-blue",
     classes: [Class.Wizard],
@@ -324992,7 +325742,7 @@ The second time you crank each turn, draw a card.`,
     cardIdentifier: "pull-from-beyond-red",
     classes: [Class.NotClassed],
     defaultImage: "IAR212",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
     name: "Pull from Beyond",
@@ -325022,6 +325772,18 @@ The second time you crank each turn, draw a card.`,
       
     },{
         artists: ["Marco González"],
+      
+      identifier: "SBW022",
+      image: "SBW022",
+      
+      
+      print: "SBW022",
+      rarity: Rarity.Common,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },{
+        artists: ["Marco González"],
       foiling: Foiling.Rainbow,
       identifier: "FAB518",
       image: "FAB518-RF",
@@ -325035,8 +325797,8 @@ The second time you crank each turn, draw a card.`,
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["FAB518","IAR212"],
-    sets: [Release.Promos,Release.UsurpTheShadowThrone],
+    setIdentifiers: ["FAB518","IAR212","SBW022"],
+    sets: [Release.Promos,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "FAB518-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -325057,7 +325819,7 @@ Banish the top card of your deck. If it's red, create a Gate to i'Arathael token
     keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -325166,7 +325928,7 @@ Banish the top card of your deck. If it's yellow, create a Gate to i'Arathael to
     cardIdentifier: "pull-from-beyond-blue",
     classes: [Class.NotClassed],
     defaultImage: "IAR214",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
     name: "Pull from Beyond",
@@ -325196,6 +325958,18 @@ Banish the top card of your deck. If it's yellow, create a Gate to i'Arathael to
       
     },{
         artists: ["Marco González"],
+      
+      identifier: "SBW033",
+      image: "SBW033",
+      
+      
+      print: "SBW033",
+      rarity: Rarity.Common,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },{
+        artists: ["Marco González"],
       foiling: Foiling.Rainbow,
       identifier: "FAB520",
       image: "FAB520-RF",
@@ -325209,8 +325983,8 @@ Banish the top card of your deck. If it's yellow, create a Gate to i'Arathael to
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["FAB520","IAR214"],
-    sets: [Release.Promos,Release.UsurpTheShadowThrone],
+    setIdentifiers: ["FAB520","IAR214","SBW033"],
+    sets: [Release.Promos,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "FAB520-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -325231,7 +326005,7 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
     keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -364312,12 +365086,24 @@ At the beginning of your action phase, remove a verse counter from this. If you 
     artists: ["Daniel Jiménez","Jessketchin"],
     cardIdentifier: "runechant",
     classes: [Class.Runeblade],
-    defaultImage: "SBA036",
+    defaultImage: "SBW035",
     firstReleaseDate: "2020-03-27",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Shiyana,Hero.Taylor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yorick],
     name: "Runechant",
     printings: [{
+        artists: ["Daniel Jiménez"],
+      
+      identifier: "SBW035",
+      image: "SBW035",
+      
+      
+      print: "SBW035",
+      rarity: Rarity.Basic,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },{
         artists: ["Jessketchin"],
       
       identifier: "SBA036",
@@ -364632,8 +365418,8 @@ At the beginning of your action phase, remove a verse counter from this. If you 
     },],
     rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Basic,
-    setIdentifiers: ["1HP300","ARC112","AUA028","AVS030","CRU157","DTD214","DYN191","EVR119","FAB152","FAB265","FAB266","FAB283","FAB284","FLR028","ROS162","SBA036","SVI034"],
-    sets: [Release.ArcaneRising,Release.ArmoryDeckLegendsViserai,Release.AuroraBlitzDeck,Release.BriarSilverAgeDeck,Release.CrucibleOfWar,Release.DuskTillDawn,Release.Dynasty,Release.Everfest,Release.FlorianBlitzDeck,Release.HistoryPack1,Release.Promos,Release.Rosetta,Release.ViseraiSilverAgeDeck],
+    setIdentifiers: ["1HP300","ARC112","AUA028","AVS030","CRU157","DTD214","DYN191","EVR119","FAB152","FAB265","FAB266","FAB283","FAB284","FLR028","ROS162","SBA036","SBW035","SVI034"],
+    sets: [Release.ArcaneRising,Release.ArmoryDeckLegendsViserai,Release.AuroraBlitzDeck,Release.BriarSilverAgeDeck,Release.CrucibleOfWar,Release.DuskTillDawn,Release.Dynasty,Release.Everfest,Release.FlorianBlitzDeck,Release.HistoryPack1,Release.Promos,Release.Rosetta,Release.ViseraiBetweenWorldsSilverAgeDeck,Release.ViseraiSilverAgeDeck],
     specialImage: "FAB266-RF",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -364959,7 +365745,7 @@ At the beginning of your action phase or when you play an attack action card, de
     cardIdentifier: "runechant-of-lust-yellow",
     classes: [Class.Runeblade],
     defaultImage: "IAR154",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Viserai2,Hero.Vynnset],
     name: "Runechant of Lust",
@@ -364992,6 +365778,18 @@ At the beginning of your action phase or when you play an attack action card, de
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["MJ Fetesio"],
+      
+      identifier: "SBW026",
+      image: "SBW026",
+      
+      
+      print: "SBW026",
+      rarity: Rarity.Common,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },{
+        artists: ["MJ Fetesio"],
       foiling: Foiling.Rainbow,
       identifier: "GEM180",
       image: "GEM180-RF",
@@ -365008,8 +365806,8 @@ At the beginning of your action phase or when you play an attack action card, de
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["GEM180","IAR154"],
-    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    setIdentifiers: ["GEM180","IAR154","SBW026"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR154-MV",
     subtypes: [Subtype.Aura],
     types: [Type.Instant],
@@ -365032,7 +365830,7 @@ At the beginning of your action phase or when you play an attack action card, de
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -365149,7 +365947,7 @@ At the beginning of your action phase or when you play an attack action card, de
     cardIdentifier: "runechant-of-sloth-yellow",
     classes: [Class.Runeblade],
     defaultImage: "IAR156",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Viserai2,Hero.Vynnset],
     name: "Runechant of Sloth",
@@ -365182,6 +365980,18 @@ At the beginning of your action phase or when you play an attack action card, de
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["MJ Fetesio"],
+      
+      identifier: "SBW027",
+      image: "SBW027",
+      
+      
+      print: "SBW027",
+      rarity: Rarity.Common,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },{
+        artists: ["MJ Fetesio"],
       foiling: Foiling.Rainbow,
       identifier: "GEM182",
       image: "GEM182-RF",
@@ -365198,8 +366008,8 @@ At the beginning of your action phase or when you play an attack action card, de
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["GEM182","IAR156"],
-    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    setIdentifiers: ["GEM182","IAR156","SBW027"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR156-MV",
     subtypes: [Subtype.Aura],
     types: [Type.Instant],
@@ -365222,7 +366032,7 @@ At the beginning of your action phase or when you play an attack action card, de
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -365338,12 +366148,24 @@ At the beginning of your action phase or when you play an attack action card, de
     artists: ["Firaz M. Rasyid"],
     cardIdentifier: "runehold-release",
     classes: [Class.Runeblade],
-    defaultImage: "ROS116",
+    defaultImage: "SBW007",
     firstReleaseDate: "2024-09-20",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Taylor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset],
     name: "Runehold Release",
     printings: [{
+        artists: ["Firaz M. Rasyid"],
+      
+      identifier: "SBW007",
+      image: "SBW007",
+      
+      
+      print: "SBW007",
+      rarity: Rarity.Common,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },{
         artists: ["Firaz M. Rasyid"],
       
       identifier: "ROS116",
@@ -365421,8 +366243,8 @@ At the beginning of your action phase or when you play an attack action card, de
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["AUA005","FLR005","LGS317","ROS116"],
-    sets: [Release.AuroraBlitzDeck,Release.FlorianBlitzDeck,Release.Promos,Release.Rosetta],
+    setIdentifiers: ["AUA005","FLR005","LGS317","ROS116","SBW007"],
+    sets: [Release.AuroraBlitzDeck,Release.FlorianBlitzDeck,Release.Promos,Release.Rosetta,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "ROS116-CF",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -365805,7 +366627,7 @@ At the beginning of your action phase or when you play an attack action card, de
     cardIdentifier: "runic-disposition-red",
     classes: [Class.Runeblade],
     defaultImage: "IAR146",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Viserai2,Hero.Vynnset],
     name: "Runic Disposition",
@@ -365833,11 +366655,23 @@ At the beginning of your action phase or when you play an attack action card, de
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Bo Setiaji"],
+      
+      identifier: "SBW017",
+      image: "SBW017",
+      
+      
+      print: "SBW017",
+      rarity: Rarity.Rare,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["IAR146"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["IAR146","SBW017"],
+    sets: [Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR146",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -365858,7 +366692,7 @@ At the beginning of your action phase or when you play an attack action card, de
     keywords: [Keyword.Usurp],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -384850,7 +385684,7 @@ When this hits a hero, look at the top 2 cards of their deck. Banish 1 of them.`
     cardIdentifier: "seven-sin-nebula",
     classes: [Class.Runeblade],
     defaultImage: "IAR108",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Seven Sin Nebula",
@@ -384868,6 +385702,18 @@ When this hits a hero, look at the top 2 cards of their deck. Banish 1 of them.`
       
     },{
         artists: ["Ismatulloh"],
+      
+      identifier: "SBW003",
+      image: "SBW003",
+      
+      
+      print: "SBW003",
+      rarity: Rarity.Common,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },{
+        artists: ["Ismatulloh"],
       foiling: Foiling.Cold,
       identifier: "GEM185",
       image: "GEM185-CF",
@@ -384879,10 +385725,10 @@ When this hits a hero, look at the top 2 cards of their deck. Banish 1 of them.`
       
       
     },],
-    rarities: [Rarity.Basic,Rarity.Promo],
+    rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["GEM185","IAR108"],
-    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    setIdentifiers: ["GEM185","IAR108","SBW003"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "GEM185-CF",
     subtypes: [Subtype.TwoHanded,Subtype.Sword],
     types: [Type.Weapon],
@@ -384903,7 +385749,7 @@ When this hits a hero, create a Runechant token.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -402821,7 +403667,8 @@ If this was played from your banished zone, it gets "When this attacks, you may 
     
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Andrew Chou"],
     cardIdentifier: "sisters-of-fire-red",
     classes: [Class.Warrior],
@@ -403316,8 +404163,7 @@ Target dagger attack gets +3{p}.`,
     
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Marco González"],
     cardIdentifier: "skittering-sands-red",
     classes: [Class.Illusionist],
@@ -456214,7 +457060,7 @@ If you've played another blue card this turn, **transcend**.`,
         artists: ["Pavel Rtishchev (Klaher)"],
       foiling: Foiling.Cold,
       identifier: "GEM218",
-      image: "GEM218-MV",
+      image: "GEM218-CF",
       
       
       print: "GEM218-Cold-Full Art",
@@ -456242,7 +457088,7 @@ If you've played another blue card this turn, **transcend**.`,
     rarity: Rarity.Rare,
     setIdentifiers: ["ARK007","GEM218","LGS391"],
     sets: [Release.ArakniBlitzDeckARK,Release.GEM,Release.Promos],
-    specialImage: "GEM218-MV",
+    specialImage: "GEM218-CF",
     subtypes: [],
     types: [Type.Mentor],
     typeText: "Arakni Mentor",
@@ -481895,7 +482741,8 @@ When this defends, you may pay {r}. If you do, it gets +1{d} and **blade break**
     talents: [Talent.Shadow],
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Muhammad Fajri"],
     cardIdentifier: "vantom-wraith-red",
     classes: [Class.Runeblade],
@@ -482400,8 +483247,7 @@ Deal 1 arcane damage to any target.`,
     
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "veiled-intentions-blue",
     classes: [Class.Illusionist],
@@ -484099,7 +484945,7 @@ If you've pitched a blue card this turn, create a Fang Strike in your hand.`,
     cardIdentifier: "vexing-gloomblade-red",
     classes: [Class.Runeblade],
     defaultImage: "IAR117",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Vexing Gloomblade",
@@ -484127,11 +484973,23 @@ If you've pitched a blue card this turn, create a Fang Strike in your hand.`,
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Yunior Susanto"],
+      
+      identifier: "SBW018",
+      image: "SBW018",
+      
+      
+      print: "SBW018",
+      rarity: Rarity.Rare,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["IAR117"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["IAR117","SBW018"],
+    sets: [Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR117",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -484156,7 +485014,7 @@ When this hits a hero, deal 2 arcane damage to any target.
     keywords: [Keyword.BloodDebt,Keyword.Usurp],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -484598,12 +485456,24 @@ When this hits a hero, deal 2 arcane damage to any target.
     artists: ["Henrique Lindner"],
     cardIdentifier: "vexing-malice-blue",
     classes: [Class.Runeblade],
-    defaultImage: "SVI028",
+    defaultImage: "SBW032",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Viserai2,Hero.Vynnset],
     name: "Vexing Malice",
     printings: [{
+        artists: ["Henrique Lindner"],
+      
+      identifier: "SBW032",
+      image: "SBW032",
+      
+      
+      print: "SBW032",
+      rarity: Rarity.Rare,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },{
         artists: ["Henrique Lindner"],
       
       identifier: "SVI028",
@@ -484696,8 +485566,8 @@ When this hits a hero, deal 2 arcane damage to any target.
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["LGS059","MON234","SVI028"],
-    sets: [Release.Monarch,Release.Promos,Release.ViseraiSilverAgeDeck],
+    setIdentifiers: ["LGS059","MON234","SBW032","SVI028"],
+    sets: [Release.Monarch,Release.Promos,Release.ViseraiBetweenWorldsSilverAgeDeck,Release.ViseraiSilverAgeDeck],
     specialImage: "LGS059-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -499751,12 +500621,24 @@ If it's **fused**, it gets **dominate**.
     artists: ["Orson CaptainSass"],
     cardIdentifier: "weeping-battleground-red",
     classes: [Class.Runeblade],
-    defaultImage: "PEN103",
+    defaultImage: "SBW019",
     firstReleaseDate: "2026-02-13",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Viserai2,Hero.Vynnset],
     name: "Weeping Battleground",
     printings: [{
+        artists: ["Orson CaptainSass"],
+      
+      identifier: "SBW019",
+      image: "SBW019",
+      
+      
+      print: "SBW019",
+      rarity: Rarity.Common,
+      set: Release.ViseraiBetweenWorldsSilverAgeDeck,
+      
+      
+    },{
         artists: ["Orson CaptainSass"],
       
       identifier: "PEN103",
@@ -499819,8 +500701,8 @@ If it's **fused**, it gets **dominate**.
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["GEM123","PEN103"],
-    sets: [Release.CompendiumOfRathe,Release.GEM],
+    setIdentifiers: ["GEM123","PEN103","SBW019"],
+    sets: [Release.CompendiumOfRathe,Release.GEM,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "GEM123",
     subtypes: [],
     types: [Type.DefenseReaction],
@@ -499839,7 +500721,7 @@ If it's **fused**, it gets **dominate**.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,

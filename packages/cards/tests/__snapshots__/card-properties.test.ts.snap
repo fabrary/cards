@@ -1297,6 +1297,99 @@ exports[`Check for unintentional updates Achilles Accelerator (achilles-accelera
 }
 `;
 
+exports[`Check for unintentional updates Acrid Stench (acrid-stench-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Wirawan Pranoto",
+  ],
+  "cardIdentifier": "acrid-stench-blue",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "corrupted-corpse",
+  ],
+  "defaultImage": "IAR071",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may discard a zombie. If you do, create a Corrupted Corpse in your banished zone.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Acrid Stench",
+  "pitch": 3,
+  "power": 1,
+  "printings": [
+    {
+      "artists": [
+        "Wirawan Pranoto",
+      ],
+      "identifier": "IAR071",
+      "image": "IAR071",
+      "print": "IAR071",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Wirawan Pranoto",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR071",
+      "image": "IAR071-RF",
+      "print": "IAR071-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "corrupted-corpse",
+  ],
+  "setIdentifiers": [
+    "IAR071",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR071",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Acrid Stench (acrid-stench-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -1409,6 +1502,99 @@ exports[`Check for unintentional updates Acrid Stench (acrid-stench-red) vs snap
     "Usurp the Shadow Throne",
   ],
   "specialImage": "GEM196",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Acrid Stench (acrid-stench-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Wirawan Pranoto",
+  ],
+  "cardIdentifier": "acrid-stench-yellow",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "corrupted-corpse",
+  ],
+  "defaultImage": "IAR070",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may discard a zombie. If you do, create a Corrupted Corpse in your banished zone.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Acrid Stench",
+  "pitch": 2,
+  "power": 2,
+  "printings": [
+    {
+      "artists": [
+        "Wirawan Pranoto",
+      ],
+      "identifier": "IAR070",
+      "image": "IAR070",
+      "print": "IAR070",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Wirawan Pranoto",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR070",
+      "image": "IAR070-RF",
+      "print": "IAR070-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "corrupted-corpse",
+  ],
+  "setIdentifiers": [
+    "IAR070",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR070",
   "subtypes": [
     "Attack",
   ],
@@ -19585,7 +19771,7 @@ exports[`Check for unintentional updates Arcane Polarity (arcane-polarity-red) v
     "Generic",
   ],
   "cost": 0,
-  "defaultImage": "SBA030",
+  "defaultImage": "SBW023",
   "firstReleaseDate": "2024-09-20",
   "functionalText": "Gain 1{h}
 
@@ -19701,6 +19887,16 @@ If you've been dealt arcane damage this turn, instead gain 4{h}.",
       "artists": [
         "Rodrigo Rizo",
       ],
+      "identifier": "SBW023",
+      "image": "SBW023",
+      "print": "SBW023",
+      "rarity": "Common",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
+    {
+      "artists": [
+        "Rodrigo Rizo",
+      ],
       "identifier": "SBA030",
       "image": "SBA030",
       "print": "SBA030",
@@ -19798,6 +19994,7 @@ If you've been dealt arcane damage this turn, instead gain 4{h}.",
     "LGS458",
     "ROS231",
     "SBA030",
+    "SBW023",
     "SBZ020",
     "SFA028",
   ],
@@ -19807,6 +20004,7 @@ If you've been dealt arcane damage this turn, instead gain 4{h}.",
     "Fai Silver Age Deck",
     "Promos",
     "Rosetta",
+    "Viserai Between Worlds Silver Age Deck",
   ],
   "specialImage": "LGS458-RF",
   "subtypes": [],
@@ -67904,7 +68102,7 @@ exports[`Check for unintentional updates Blossom of Spring (blossom-of-spring) v
   "classes": [
     "Generic",
   ],
-  "defaultImage": "SAT005",
+  "defaultImage": "SBW006",
   "defense": 0,
   "firstReleaseDate": "2022-05-27",
   "functionalText": "**Action** - Destroy this: Gain {r}. **Go again**",
@@ -68014,6 +68212,16 @@ exports[`Check for unintentional updates Blossom of Spring (blossom-of-spring) v
   ],
   "name": "Blossom of Spring",
   "printings": [
+    {
+      "artists": [
+        "Andy Aslamov",
+      ],
+      "identifier": "SBW006",
+      "image": "SBW006",
+      "print": "SBW006",
+      "rarity": "Common",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
     {
       "artists": [
         "Andy Aslamov",
@@ -68298,6 +68506,7 @@ exports[`Check for unintentional updates Blossom of Spring (blossom-of-spring) v
     "SAT005",
     "SAZ006",
     "SBA006",
+    "SBW006",
     "SDA007",
     "SDO005",
     "SEN005",
@@ -68320,6 +68529,7 @@ exports[`Check for unintentional updates Blossom of Spring (blossom-of-spring) v
     "Katsu Blitz Deck",
     "Prism Silver Age Deck",
     "Promos",
+    "Viserai Between Worlds Silver Age Deck",
     "Viserai Silver Age Deck",
   ],
   "specialImage": "LGS100-CF",
@@ -72827,6 +73037,96 @@ exports[`Check for unintentional updates Bone Head Barrier (bone-head-barrier-ye
 }
 `;
 
+exports[`Check for unintentional updates Bone Mass (bone-mass-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Amirul HHF",
+  ],
+  "cardIdentifier": "bone-mass-blue",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "defaultImage": "IAR074",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may discard a zombie. If you do, your next attack this turn gets +1{p}.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Bone Mass",
+  "pitch": 3,
+  "power": 1,
+  "printings": [
+    {
+      "artists": [
+        "Amirul HHF",
+      ],
+      "identifier": "IAR074",
+      "image": "IAR074",
+      "print": "IAR074",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Amirul HHF",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR074",
+      "image": "IAR074-RF",
+      "print": "IAR074-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR074",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "IAR074",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Bone Mass (bone-mass-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -72936,6 +73236,96 @@ exports[`Check for unintentional updates Bone Mass (bone-mass-red) vs snapshot 1
     "Buffs",
   ],
   "specialImage": "GEM197",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Bone Mass (bone-mass-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Amirul HHF",
+  ],
+  "cardIdentifier": "bone-mass-yellow",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "defaultImage": "IAR073",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may discard a zombie. If you do, your next attack this turn gets +1{p}.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Bone Mass",
+  "pitch": 2,
+  "power": 2,
+  "printings": [
+    {
+      "artists": [
+        "Amirul HHF",
+      ],
+      "identifier": "IAR073",
+      "image": "IAR073",
+      "print": "IAR073",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Amirul HHF",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR073",
+      "image": "IAR073-RF",
+      "print": "IAR073-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR073",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "IAR073",
   "subtypes": [
     "Attack",
   ],
@@ -79360,6 +79750,104 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
 }
 `;
 
+exports[`Check for unintentional updates Breach Flesh (breach-flesh-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Brian Madya Narendra",
+  ],
+  "cardIdentifier": "breach-flesh-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "IAR184",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this hits, create a Gate to i'Arathael token
+
+**Blood Debt**"",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Breach Flesh",
+  "pitch": 3,
+  "power": 2,
+  "printings": [
+    {
+      "artists": [
+        "Brian Madya Narendra",
+      ],
+      "identifier": "IAR184",
+      "image": "IAR184",
+      "print": "IAR184",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Brian Madya Narendra",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR184",
+      "image": "IAR184-RF",
+      "print": "IAR184-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "IAR184",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR184",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Breach Flesh (breach-flesh-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -79477,6 +79965,104 @@ exports[`Check for unintentional updates Breach Flesh (breach-flesh-red) vs snap
     "Usurp the Shadow Throne",
   ],
   "specialImage": "GEM204",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Breach Flesh (breach-flesh-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Brian Madya Narendra",
+  ],
+  "cardIdentifier": "breach-flesh-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "IAR183",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this hits, create a Gate to i'Arathael token
+
+**Blood Debt**"",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Breach Flesh",
+  "pitch": 2,
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Brian Madya Narendra",
+      ],
+      "identifier": "IAR183",
+      "image": "IAR183",
+      "print": "IAR183",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Brian Madya Narendra",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR183",
+      "image": "IAR183-RF",
+      "print": "IAR183-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "IAR183",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR183",
   "subtypes": [
     "Attack",
   ],
@@ -109422,6 +110008,102 @@ exports[`Check for unintentional updates Cleave (cleave-red) vs snapshot 1`] = `
 }
 `;
 
+exports[`Check for unintentional updates Cleave the Heavens (cleave-the-heavens-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alief Rusdiatama",
+  ],
+  "cardIdentifier": "cleave-the-heavens-blue",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "IAR022",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Instant** - Banish this from your hand: Create a Gate to i'Arathael token.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Cleave the Heavens",
+  "pitch": 3,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "Alief Rusdiatama",
+      ],
+      "identifier": "IAR022",
+      "image": "IAR022",
+      "print": "IAR022",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Alief Rusdiatama",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR022",
+      "image": "IAR022-RF",
+      "print": "IAR022-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "IAR022",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR022",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Cleave the Heavens (cleave-the-heavens-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -109537,6 +110219,102 @@ exports[`Check for unintentional updates Cleave the Heavens (cleave-the-heavens-
     "Poppers",
   ],
   "specialImage": "GEM192",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Cleave the Heavens (cleave-the-heavens-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alief Rusdiatama",
+  ],
+  "cardIdentifier": "cleave-the-heavens-yellow",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "IAR021",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Instant** - Banish this from your hand: Create a Gate to i'Arathael token.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Cleave the Heavens",
+  "pitch": 2,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "Alief Rusdiatama",
+      ],
+      "identifier": "IAR021",
+      "image": "IAR021",
+      "print": "IAR021",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Alief Rusdiatama",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR021",
+      "image": "IAR021-RF",
+      "print": "IAR021-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "IAR021",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR021",
   "subtypes": [
     "Attack",
   ],
@@ -125453,6 +126231,104 @@ exports[`Check for unintentional updates Coronet Peak (coronet-peak) vs snapshot
 }
 `;
 
+exports[`Check for unintentional updates Corporeal Chasm (corporeal-chasm-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Yosi Saputra",
+  ],
+  "cardIdentifier": "corporeal-chasm-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 3,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "IAR187",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this hits, create a Gate to i'Arathael token
+
+**Blood Debt**"",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Corporeal Chasm",
+  "pitch": 3,
+  "power": 5,
+  "printings": [
+    {
+      "artists": [
+        "Yosi Saputra",
+      ],
+      "identifier": "IAR187",
+      "image": "IAR187",
+      "print": "IAR187",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Yosi Saputra",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR187",
+      "image": "IAR187-RF",
+      "print": "IAR187-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "IAR187",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR187",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Corporeal Chasm (corporeal-chasm-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -125573,6 +126449,107 @@ exports[`Check for unintentional updates Corporeal Chasm (corporeal-chasm-red) v
     "Poppers",
   ],
   "specialImage": "GEM205",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Corporeal Chasm (corporeal-chasm-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Yosi Saputra",
+  ],
+  "cardIdentifier": "corporeal-chasm-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 3,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "IAR186",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this hits, create a Gate to i'Arathael token
+
+**Blood Debt**"",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Corporeal Chasm",
+  "pitch": 2,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "Yosi Saputra",
+      ],
+      "identifier": "IAR186",
+      "image": "IAR186",
+      "print": "IAR186",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Yosi Saputra",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR186",
+      "image": "IAR186-RF",
+      "print": "IAR186-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "IAR186",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR186",
   "subtypes": [
     "Attack",
   ],
@@ -126154,7 +127131,7 @@ exports[`Check for unintentional updates Corrupted Crown (corrupted-crown) vs sn
   ],
   "defaultImage": "AMA003-RF",
   "defense": 1,
-  "firstReleaseDate": "2026-09-25",
+  "firstReleaseDate": "2026-09-18",
   "functionalText": "When this defends, you may banish a card from your hand. If you do, this gets +1{d}.
 
 **Blade Break**",
@@ -126181,6 +127158,7 @@ exports[`Check for unintentional updates Corrupted Crown (corrupted-crown) vs sn
   ],
   "meta": [
     "Arena",
+    "Reprint",
   ],
   "name": "Corrupted Crown",
   "printings": [
@@ -126194,6 +127172,16 @@ exports[`Check for unintentional updates Corrupted Crown (corrupted-crown) vs sn
       "print": "AMA003-Rainbow",
       "rarity": "Rare",
       "set": "Armory Deck: Malice",
+    },
+    {
+      "artists": [
+        "Dzulfikar Aliy",
+      ],
+      "identifier": "SBW004",
+      "image": "SBW004",
+      "print": "SBW004",
+      "rarity": "Rare",
+      "set": "Viserai Between Worlds Silver Age Deck",
     },
     {
       "artists": [
@@ -126215,10 +127203,12 @@ exports[`Check for unintentional updates Corrupted Crown (corrupted-crown) vs sn
   "setIdentifiers": [
     "AMA003",
     "GEM188",
+    "SBW004",
   ],
   "sets": [
     "Armory Deck: Malice",
     "GEM",
+    "Viserai Between Worlds Silver Age Deck",
   ],
   "specialImage": "GEM188-CF",
   "subtypes": [
@@ -134949,7 +135939,7 @@ exports[`Check for unintentional updates Crown of Dichotomy (crown-of-dichotomy)
   "classes": [
     "Runeblade",
   ],
-  "defaultImage": "SBA005",
+  "defaultImage": "SBW005",
   "defense": 0,
   "firstReleaseDate": "2020-03-27",
   "functionalText": "**Action** - {r}, destroy this: Put target Runeblade attack action card and target Runeblade non-attack action card from your graveyard on top of your deck in any order.
@@ -134986,6 +135976,16 @@ exports[`Check for unintentional updates Crown of Dichotomy (crown-of-dichotomy)
   ],
   "name": "Crown of Dichotomy",
   "printings": [
+    {
+      "artists": [
+        "Alexander Nikolaev",
+      ],
+      "identifier": "SBW005",
+      "image": "SBW005",
+      "print": "SBW005",
+      "rarity": "Common",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
     {
       "artists": [
         "Alexander Nikolaev",
@@ -135099,12 +136099,14 @@ exports[`Check for unintentional updates Crown of Dichotomy (crown-of-dichotomy)
     "1HP263",
     "ARC079",
     "SBA005",
+    "SBW005",
     "SVI004",
   ],
   "sets": [
     "Arcane Rising",
     "Briar Silver Age Deck",
     "History Pack 1",
+    "Viserai Between Worlds Silver Age Deck",
     "Viserai Silver Age Deck",
   ],
   "specialImage": "ARC079-CF",
@@ -137817,7 +138819,7 @@ exports[`Check for unintentional updates Cullingsong Gloomblade (cullingsong-glo
   "cost": 0,
   "defaultImage": "IAR115",
   "defense": 3,
-  "firstReleaseDate": "2026-09-25",
+  "firstReleaseDate": "2026-09-18",
   "functionalText": "You may play this from your banished zone.
 
 **Usurp**
@@ -137847,6 +138849,7 @@ When this hits a hero, they banish a card from their hand.
   ],
   "meta": [
     "Deck",
+    "Reprint",
   ],
   "name": "Cullingsong Gloomblade",
   "pitch": 1,
@@ -137872,6 +138875,16 @@ When this hits a hero, they banish a card from their hand.
       "print": "IAR115-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "YDZ",
+      ],
+      "identifier": "SBW011",
+      "image": "SBW011",
+      "print": "SBW011",
+      "rarity": "Rare",
+      "set": "Viserai Between Worlds Silver Age Deck",
     },
     {
       "artists": [
@@ -137911,10 +138924,12 @@ When this hits a hero, they banish a card from their hand.
   "setIdentifiers": [
     "GEM201",
     "IAR115",
+    "SBW011",
   ],
   "sets": [
     "GEM",
     "Usurp the Shadow Throne",
+    "Viserai Between Worlds Silver Age Deck",
   ],
   "specialImage": "GEM201",
   "subtypes": [
@@ -151449,7 +152464,7 @@ exports[`Check for unintentional updates Demonbound Gloomblade (demonbound-gloom
   "cost": 0,
   "defaultImage": "IAR128",
   "defense": 3,
-  "firstReleaseDate": "2026-09-25",
+  "firstReleaseDate": "2026-09-18",
   "functionalText": "You may play this from your banished zone.
 
 **Usurp**
@@ -151478,6 +152493,7 @@ exports[`Check for unintentional updates Demonbound Gloomblade (demonbound-gloom
   "meta": [
     "Deck",
     "Rainbow",
+    "Reprint",
   ],
   "name": "Demonbound Gloomblade",
   "pitch": 3,
@@ -151504,6 +152520,16 @@ exports[`Check for unintentional updates Demonbound Gloomblade (demonbound-gloom
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
     },
+    {
+      "artists": [
+        "Rio Sabda",
+      ],
+      "identifier": "SBW029",
+      "image": "SBW029",
+      "print": "SBW029",
+      "rarity": "Common",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -151511,9 +152537,11 @@ exports[`Check for unintentional updates Demonbound Gloomblade (demonbound-gloom
   "rarity": "Common",
   "setIdentifiers": [
     "IAR128",
+    "SBW029",
   ],
   "sets": [
     "Usurp the Shadow Throne",
+    "Viserai Between Worlds Silver Age Deck",
   ],
   "specialImage": "IAR128",
   "subtypes": [
@@ -151541,7 +152569,7 @@ exports[`Check for unintentional updates Demonbound Gloomblade (demonbound-gloom
   "cost": 0,
   "defaultImage": "IAR126",
   "defense": 3,
-  "firstReleaseDate": "2026-09-25",
+  "firstReleaseDate": "2026-09-18",
   "functionalText": "You may play this from your banished zone.
 
 **Usurp**
@@ -151570,6 +152598,7 @@ exports[`Check for unintentional updates Demonbound Gloomblade (demonbound-gloom
   "meta": [
     "Deck",
     "Rainbow",
+    "Reprint",
   ],
   "name": "Demonbound Gloomblade",
   "pitch": 1,
@@ -151596,6 +152625,16 @@ exports[`Check for unintentional updates Demonbound Gloomblade (demonbound-gloom
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
     },
+    {
+      "artists": [
+        "Rio Sabda",
+      ],
+      "identifier": "SBW012",
+      "image": "SBW012",
+      "print": "SBW012",
+      "rarity": "Common",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -151603,9 +152642,11 @@ exports[`Check for unintentional updates Demonbound Gloomblade (demonbound-gloom
   "rarity": "Common",
   "setIdentifiers": [
     "IAR126",
+    "SBW012",
   ],
   "sets": [
     "Usurp the Shadow Throne",
+    "Viserai Between Worlds Silver Age Deck",
   ],
   "specialImage": "IAR126",
   "subtypes": [
@@ -182877,7 +183918,7 @@ exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-blue) vs s
   ],
   "defaultImage": "IAR131",
   "defense": 3,
-  "firstReleaseDate": "2026-09-25",
+  "firstReleaseDate": "2026-09-18",
   "functionalText": "When this attacks, you may banish a card from your hand. If it's Runeblade, create a Runechant token. If it's Shadow, this gets **go again**.",
   "keywords": [
     "Go again",
@@ -182901,6 +183942,7 @@ exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-blue) vs s
   "meta": [
     "Deck",
     "Rainbow",
+    "Reprint",
   ],
   "name": "Embrace Ursur",
   "pitch": 3,
@@ -182927,6 +183969,16 @@ exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-blue) vs s
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
     },
+    {
+      "artists": [
+        "Alif Zahrah",
+      ],
+      "identifier": "SBW030",
+      "image": "SBW030",
+      "print": "SBW030",
+      "rarity": "Common",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -182937,9 +183989,11 @@ exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-blue) vs s
   ],
   "setIdentifiers": [
     "IAR131",
+    "SBW030",
   ],
   "sets": [
     "Usurp the Shadow Throne",
+    "Viserai Between Worlds Silver Age Deck",
   ],
   "specialImage": "IAR131",
   "subtypes": [
@@ -182970,7 +184024,7 @@ exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-red) vs sn
   ],
   "defaultImage": "IAR129",
   "defense": 3,
-  "firstReleaseDate": "2026-09-25",
+  "firstReleaseDate": "2026-09-18",
   "functionalText": "When this attacks, you may banish a card from your hand. If it's Runeblade, create a Runechant token. If it's Shadow, this gets **go again**.",
   "keywords": [
     "Go again",
@@ -182994,6 +184048,7 @@ exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-red) vs sn
   "meta": [
     "Deck",
     "Rainbow",
+    "Reprint",
   ],
   "name": "Embrace Ursur",
   "pitch": 1,
@@ -183019,6 +184074,16 @@ exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-red) vs sn
       "print": "IAR129-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Alif Zahrah",
+      ],
+      "identifier": "SBW013",
+      "image": "SBW013",
+      "print": "SBW013",
+      "rarity": "Common",
+      "set": "Viserai Between Worlds Silver Age Deck",
     },
     {
       "artists": [
@@ -183061,10 +184126,12 @@ exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-red) vs sn
   "setIdentifiers": [
     "GEM203",
     "IAR129",
+    "SBW013",
   ],
   "sets": [
     "GEM",
     "Usurp the Shadow Throne",
+    "Viserai Between Worlds Silver Age Deck",
   ],
   "specialImage": "GEM203",
   "subtypes": [
@@ -183095,7 +184162,7 @@ exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-yellow) vs
   ],
   "defaultImage": "IAR130",
   "defense": 3,
-  "firstReleaseDate": "2026-09-25",
+  "firstReleaseDate": "2026-09-18",
   "functionalText": "When this attacks, you may banish a card from your hand. If it's Runeblade, create a Runechant token. If it's Shadow, this gets **go again**.",
   "keywords": [
     "Go again",
@@ -183119,6 +184186,7 @@ exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-yellow) vs
   "meta": [
     "Deck",
     "Rainbow",
+    "Reprint",
   ],
   "name": "Embrace Ursur",
   "pitch": 2,
@@ -183145,6 +184213,16 @@ exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-yellow) vs
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
     },
+    {
+      "artists": [
+        "Alif Zahrah",
+      ],
+      "identifier": "SBW024",
+      "image": "SBW024",
+      "print": "SBW024",
+      "rarity": "Common",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -183155,9 +184233,11 @@ exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-yellow) vs
   ],
   "setIdentifiers": [
     "IAR130",
+    "SBW024",
   ],
   "sets": [
     "Usurp the Shadow Throne",
+    "Viserai Between Worlds Silver Age Deck",
   ],
   "specialImage": "IAR130",
   "subtypes": [
@@ -239587,7 +240667,7 @@ exports[`Check for unintentional updates Galaxxi Black (galaxxi-black) vs snapsh
   "classes": [
     "Runeblade",
   ],
-  "defaultImage": "U-MON155",
+  "defaultImage": "SBW002",
   "firstReleaseDate": "2021-05-07",
   "functionalText": "**Once per Turn Action** - {r}: **Attack**
 
@@ -239617,6 +240697,16 @@ When this hits a hero, deal 1 arcane damage to them.",
   "name": "Galaxxi Black",
   "power": 1,
   "printings": [
+    {
+      "artists": [
+        "Federico Musetti",
+      ],
+      "identifier": "SBW002",
+      "image": "SBW002",
+      "print": "SBW002",
+      "rarity": "Common",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
     {
       "artists": [
         "Federico Musetti",
@@ -239707,11 +240797,13 @@ When this hits a hero, deal 1 arcane damage to them.",
     "CHN003",
     "LGS046",
     "MON155",
+    "SBW002",
   ],
   "sets": [
     "Chane Blitz Deck",
     "Monarch",
     "Promos",
+    "Viserai Between Worlds Silver Age Deck",
   ],
   "specialImage": "MON155-CF",
   "subtypes": [
@@ -241320,8 +242412,8 @@ exports[`Check for unintentional updates Gate to i'Arathael (gate-to-iarathael) 
   "classes": [
     "NotClassed",
   ],
-  "defaultImage": "FAB507-RF",
-  "firstReleaseDate": "2026-09-25",
+  "defaultImage": "SBW034",
+  "firstReleaseDate": "2026-09-18",
   "functionalText": "**Instant** - {r}, destroy this: You may play target action card with blood debt from your banished zone this turn.",
   "legalFormats": [
     "Blitz",
@@ -241331,6 +242423,7 @@ exports[`Check for unintentional updates Gate to i'Arathael (gate-to-iarathael) 
     "Living Legend",
     "Open",
     "Sealed",
+    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -241340,6 +242433,9 @@ exports[`Check for unintentional updates Gate to i'Arathael (gate-to-iarathael) 
     "Malice",
     "Viserai2",
     "Vynnset",
+  ],
+  "meta": [
+    "Reprint",
   ],
   "name": "Gate to i'Arathael",
   "printings": [
@@ -241385,6 +242481,16 @@ exports[`Check for unintentional updates Gate to i'Arathael (gate-to-iarathael) 
       "artists": [
         "Carlos Cruchaga",
       ],
+      "identifier": "SBW034",
+      "image": "SBW034",
+      "print": "SBW034",
+      "rarity": "Basic",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
+    {
+      "artists": [
+        "Carlos Cruchaga",
+      ],
       "foiling": "Rainbow",
       "identifier": "FAB507",
       "image": "FAB507-RF",
@@ -241398,17 +242504,20 @@ exports[`Check for unintentional updates Gate to i'Arathael (gate-to-iarathael) 
     },
   ],
   "rarities": [
+    "Basic",
     "Marvel",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Basic",
   "setIdentifiers": [
     "FAB507",
     "IAR222",
+    "SBW034",
   ],
   "sets": [
     "Promos",
     "Usurp the Shadow Throne",
+    "Viserai Between Worlds Silver Age Deck",
   ],
   "specialImage": "IAR222-MV",
   "subtypes": [
@@ -266793,6 +267902,92 @@ exports[`Check for unintentional updates Heads Up (heads-up-red) vs snapshot 1`]
 }
 `;
 
+exports[`Check for unintentional updates Headstrong Stampede (headstrong-stampede-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Audy Ravindra",
+  ],
+  "cardIdentifier": "headstrong-stampede-blue",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR049",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, reveal the top card of your deck. If the revealed card has 6 or more base {p}, this gets **go again**.",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Kayo",
+    "Levia",
+    "RKO",
+    "Rhinar",
+    "Tuffnut",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Headstrong Stampede",
+  "pitch": 3,
+  "power": 4,
+  "printings": [
+    {
+      "artists": [
+        "Audy Ravindra",
+      ],
+      "identifier": "IAR049",
+      "image": "IAR049",
+      "print": "IAR049",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Audy Ravindra",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR049",
+      "image": "IAR049-RF",
+      "print": "IAR049-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR049",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR049",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Headstrong Stampede (headstrong-stampede-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -266904,6 +268099,92 @@ exports[`Check for unintentional updates Headstrong Stampede (headstrong-stamped
     "Poppers",
   ],
   "specialImage": "GEM211",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Headstrong Stampede (headstrong-stampede-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Audy Ravindra",
+  ],
+  "cardIdentifier": "headstrong-stampede-yellow",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR048",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, reveal the top card of your deck. If the revealed card has 6 or more base {p}, this gets **go again**.",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Kayo",
+    "Levia",
+    "RKO",
+    "Rhinar",
+    "Tuffnut",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Headstrong Stampede",
+  "pitch": 2,
+  "power": 5,
+  "printings": [
+    {
+      "artists": [
+        "Audy Ravindra",
+      ],
+      "identifier": "IAR048",
+      "image": "IAR048",
+      "print": "IAR048",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Audy Ravindra",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR048",
+      "image": "IAR048-RF",
+      "print": "IAR048-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR048",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR048",
   "subtypes": [
     "Attack",
   ],
@@ -335387,7 +336668,7 @@ exports[`Check for unintentional updates Looking for a Scrap (looking-for-a-scra
     "Generic",
   ],
   "cost": 1,
-  "defaultImage": "OUT195",
+  "defaultImage": "SBW014",
   "defense": 2,
   "firstReleaseDate": "2023-03-24",
   "functionalText": "As an additional cost to play this, you may banish a card with 1{p} from your graveyard. If you do, this gets +1{p} and **go again**.",
@@ -335496,11 +336777,22 @@ exports[`Check for unintentional updates Looking for a Scrap (looking-for-a-scra
   "meta": [
     "Deck",
     "Rainbow",
+    "Reprint",
   ],
   "name": "Looking for a Scrap",
   "pitch": 1,
   "power": 4,
   "printings": [
+    {
+      "artists": [
+        "Shen Fei",
+      ],
+      "identifier": "SBW014",
+      "image": "SBW014",
+      "print": "SBW014",
+      "rarity": "Rare",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
     {
       "artists": [
         "Shen Fei",
@@ -335578,10 +336870,12 @@ exports[`Check for unintentional updates Looking for a Scrap (looking-for-a-scra
     "ANQ028",
     "FAB356",
     "OUT195",
+    "SBW014",
   ],
   "sets": [
     "Outsiders",
     "Promos",
+    "Viserai Between Worlds Silver Age Deck",
   ],
   "specialImage": "FAB356-RF",
   "subtypes": [
@@ -340776,7 +342070,7 @@ exports[`Check for unintentional updates Malefic Incantation (malefic-incantatio
   "createdExtras": [
     "runechant",
   ],
-  "defaultImage": "SVI021",
+  "defaultImage": "SBW020",
   "defense": 2,
   "firstReleaseDate": "2024-09-20",
   "functionalText": "**Go again**
@@ -340816,6 +342110,16 @@ Once per turn, when you play an attack action card, remove a verse counter from 
   "name": "Malefic Incantation",
   "pitch": 1,
   "printings": [
+    {
+      "artists": [
+        "Max Kostin",
+      ],
+      "identifier": "SBW020",
+      "image": "SBW020",
+      "print": "SBW020",
+      "rarity": "Rare",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
     {
       "artists": [
         "Max Kostin",
@@ -340916,6 +342220,7 @@ Once per turn, when you play an attack action card, remove a verse counter from 
     "FLR015",
     "GEM075",
     "ROS130",
+    "SBW020",
     "SVI021",
   ],
   "sets": [
@@ -340923,6 +342228,7 @@ Once per turn, when you play an attack action card, remove a verse counter from 
     "Florian Blitz Deck",
     "GEM",
     "Rosetta",
+    "Viserai Between Worlds Silver Age Deck",
     "Viserai Silver Age Deck",
   ],
   "specialImage": "GEM075-CF",
@@ -340950,7 +342256,7 @@ exports[`Check for unintentional updates Malefic Incantation (malefic-incantatio
   "createdExtras": [
     "runechant",
   ],
-  "defaultImage": "SVI025",
+  "defaultImage": "SBW025",
   "defense": 2,
   "firstReleaseDate": "2024-09-20",
   "functionalText": "**Go again**
@@ -340990,6 +342296,16 @@ Once per turn, when you play an attack action card, remove a verse counter from 
   "name": "Malefic Incantation",
   "pitch": 2,
   "printings": [
+    {
+      "artists": [
+        "Max Kostin",
+      ],
+      "identifier": "SBW025",
+      "image": "SBW025",
+      "print": "SBW025",
+      "rarity": "Rare",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
     {
       "artists": [
         "Max Kostin",
@@ -341058,14 +342374,16 @@ Once per turn, when you play an attack action card, remove a verse counter from 
   "setIdentifiers": [
     "AVS022",
     "ROS131",
+    "SBW025",
     "SVI025",
   ],
   "sets": [
     "Armory Deck Legends: Viserai",
     "Rosetta",
+    "Viserai Between Worlds Silver Age Deck",
     "Viserai Silver Age Deck",
   ],
-  "specialImage": "SVI025",
+  "specialImage": "SBW025",
   "subtypes": [
     "Aura",
     "Non-Attack",
@@ -341669,6 +342987,93 @@ Damage that would be dealt by this can't be prevented.",
 }
 `;
 
+exports[`Check for unintentional updates Malignant Migration (malignant-migration-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Stefano Moroni",
+  ],
+  "cardIdentifier": "malignant-migration-blue",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "defaultImage": "IAR077",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may discard a zombie. If you do, put a card from your banished zone into your graveyard.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Malignant Migration",
+  "pitch": 3,
+  "power": 1,
+  "printings": [
+    {
+      "artists": [
+        "Stefano Moroni",
+      ],
+      "identifier": "IAR077",
+      "image": "IAR077",
+      "print": "IAR077",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Stefano Moroni",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR077",
+      "image": "IAR077-RF",
+      "print": "IAR077-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR077",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR077",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Malignant Migration (malignant-migration-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -341775,6 +343180,93 @@ exports[`Check for unintentional updates Malignant Migration (malignant-migratio
     "Usurp the Shadow Throne",
   ],
   "specialImage": "GEM199",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Malignant Migration (malignant-migration-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Stefano Moroni",
+  ],
+  "cardIdentifier": "malignant-migration-yellow",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "defaultImage": "IAR076",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may discard a zombie. If you do, put a card from your banished zone into your graveyard.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Malignant Migration",
+  "pitch": 2,
+  "power": 2,
+  "printings": [
+    {
+      "artists": [
+        "Stefano Moroni",
+      ],
+      "identifier": "IAR076",
+      "image": "IAR076",
+      "print": "IAR076",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Stefano Moroni",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR076",
+      "image": "IAR076-RF",
+      "print": "IAR076-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR076",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR076",
   "subtypes": [
     "Attack",
   ],
@@ -354414,7 +355906,7 @@ exports[`Check for unintentional updates Minerva Themis (minerva-themis) vs snap
       ],
       "foiling": "Cold",
       "identifier": "GEM219",
-      "image": "GEM219-MV",
+      "image": "GEM219-CF",
       "print": "GEM219-Cold-Full Art",
       "rarity": "Rare",
       "set": "GEM",
@@ -354440,7 +355932,7 @@ exports[`Check for unintentional updates Minerva Themis (minerva-themis) vs snap
     "GEM",
     "Promos",
   ],
-  "specialImage": "GEM219-MV",
+  "specialImage": "GEM219-CF",
   "subtypes": [],
   "typeText": "Warrior Mentor",
   "types": [
@@ -369137,7 +370629,7 @@ exports[`Check for unintentional updates Nullrune Boots (nullrune-boots) vs snap
   "classes": [
     "Generic",
   ],
-  "defaultImage": "SBL010",
+  "defaultImage": "SBW008",
   "defense": 0,
   "firstReleaseDate": "2020-03-27",
   "functionalText": "**Arcane Barrier 1**",
@@ -369249,6 +370741,16 @@ exports[`Check for unintentional updates Nullrune Boots (nullrune-boots) vs snap
   ],
   "name": "Nullrune Boots",
   "printings": [
+    {
+      "artists": [
+        "Tatiana Trubnikova",
+      ],
+      "identifier": "SBW008",
+      "image": "SBW008",
+      "print": "SBW008",
+      "rarity": "Common",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
     {
       "artists": [
         "Tatiana Trubnikova",
@@ -369430,6 +370932,7 @@ exports[`Check for unintentional updates Nullrune Boots (nullrune-boots) vs snap
     "LGS372",
     "SBL010",
     "SBR011",
+    "SBW008",
     "SVI010",
   ],
   "sets": [
@@ -369438,6 +370941,7 @@ exports[`Check for unintentional updates Nullrune Boots (nullrune-boots) vs snap
     "Bravo Silver Age Deck",
     "History Pack 1",
     "Promos",
+    "Viserai Between Worlds Silver Age Deck",
     "Viserai Silver Age Deck",
   ],
   "specialImage": "FAB248-RF",
@@ -374262,7 +375766,7 @@ exports[`Check for unintentional updates Olde Leather Boots (olde-leather-boots)
   "classes": [
     "Generic",
   ],
-  "defaultImage": "MPW143",
+  "defaultImage": "SBW009",
   "defense": 0,
   "firstReleaseDate": "2026-08-07",
   "functionalText": "If you've been attacked 2 or more times this turn, this gets +2{d}.
@@ -374370,9 +375874,20 @@ exports[`Check for unintentional updates Olde Leather Boots (olde-leather-boots)
   ],
   "meta": [
     "Arena",
+    "Reprint",
   ],
   "name": "Olde Leather Boots",
   "printings": [
+    {
+      "artists": [
+        "Mariusz Gandzel",
+      ],
+      "identifier": "SBW009",
+      "image": "SBW009",
+      "print": "SBW009",
+      "rarity": "Common",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
     {
       "artists": [
         "Mariusz Gandzel",
@@ -374409,9 +375924,11 @@ exports[`Check for unintentional updates Olde Leather Boots (olde-leather-boots)
   "rarity": "Common",
   "setIdentifiers": [
     "MPW143",
+    "SBW009",
   ],
   "sets": [
     "Mastery Pack: Warrior",
+    "Viserai Between Worlds Silver Age Deck",
   ],
   "specialImage": "MPW143-CF",
   "subtypes": [
@@ -380621,6 +382138,7 @@ Create a Runechant token.
   "meta": [
     "Deck",
     "Rainbow",
+    "Reprint",
   ],
   "name": "Otherworldly Sins",
   "pitch": 1,
@@ -380650,6 +382168,16 @@ Create a Runechant token.
       "artists": [
         "Tommy Suhartono",
       ],
+      "identifier": "SBW021",
+      "image": "SBW021",
+      "print": "SBW021",
+      "rarity": "Common",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
+    {
+      "artists": [
+        "Tommy Suhartono",
+      ],
       "foiling": "Cold",
       "identifier": "JDG090",
       "image": "JDG090-CF",
@@ -380669,10 +382197,12 @@ Create a Runechant token.
   "setIdentifiers": [
     "IAR141",
     "JDG090",
+    "SBW021",
   ],
   "sets": [
     "Promos",
     "Usurp the Shadow Throne",
+    "Viserai Between Worlds Silver Age Deck",
   ],
   "shorthands": [
     "Buffs",
@@ -393000,6 +394530,92 @@ At the start of your action phase, destroy this.",
 }
 `;
 
+exports[`Check for unintentional updates Peak Power (peak-power-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nikolay Moskvin",
+  ],
+  "cardIdentifier": "peak-power-blue",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 3,
+  "defaultImage": "IAR043",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, reveal the top card of your deck. If the revealed card has 6 or more base {p}, this gets **overpower**.",
+  "keywords": [
+    "Overpower",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Kayo",
+    "Levia",
+    "RKO",
+    "Rhinar",
+    "Tuffnut",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Peak Power",
+  "pitch": 3,
+  "power": 5,
+  "printings": [
+    {
+      "artists": [
+        "Nikolay Moskvin",
+      ],
+      "identifier": "IAR043",
+      "image": "IAR043",
+      "print": "IAR043",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Nikolay Moskvin",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR043",
+      "image": "IAR043-RF",
+      "print": "IAR043-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR043",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR043",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Peak Power (peak-power-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -393079,6 +394695,95 @@ exports[`Check for unintentional updates Peak Power (peak-power-red) vs snapshot
     "Poppers",
   ],
   "specialImage": "IAR041",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Peak Power (peak-power-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nikolay Moskvin",
+  ],
+  "cardIdentifier": "peak-power-yellow",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 3,
+  "defaultImage": "IAR042",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, reveal the top card of your deck. If the revealed card has 6 or more base {p}, this gets **overpower**.",
+  "keywords": [
+    "Overpower",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Kayo",
+    "Levia",
+    "RKO",
+    "Rhinar",
+    "Tuffnut",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Peak Power",
+  "pitch": 2,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "Nikolay Moskvin",
+      ],
+      "identifier": "IAR042",
+      "image": "IAR042",
+      "print": "IAR042",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Nikolay Moskvin",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR042",
+      "image": "IAR042-RF",
+      "print": "IAR042-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR042",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR042",
   "subtypes": [
     "Attack",
   ],
@@ -404515,7 +406220,7 @@ exports[`Check for unintentional updates Plundersong Gloomblade (plundersong-glo
   "cost": 0,
   "defaultImage": "IAR116",
   "defense": 3,
-  "firstReleaseDate": "2026-09-25",
+  "firstReleaseDate": "2026-09-18",
   "functionalText": "You may play this from your banished zone.
 
 **Usurp**
@@ -404545,6 +406250,7 @@ When this hits a hero, they banish a card in their arsenal.
   ],
   "meta": [
     "Deck",
+    "Reprint",
   ],
   "name": "Plundersong Gloomblade",
   "pitch": 1,
@@ -404570,6 +406276,16 @@ When this hits a hero, they banish a card in their arsenal.
       "print": "IAR116-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Bastien Jez",
+      ],
+      "identifier": "SBW016",
+      "image": "SBW016",
+      "print": "SBW016",
+      "rarity": "Rare",
+      "set": "Viserai Between Worlds Silver Age Deck",
     },
     {
       "artists": [
@@ -404609,10 +406325,12 @@ When this hits a hero, they banish a card in their arsenal.
   "setIdentifiers": [
     "GEM202",
     "IAR116",
+    "SBW016",
   ],
   "sets": [
     "GEM",
     "Usurp the Shadow Throne",
+    "Viserai Between Worlds Silver Age Deck",
   ],
   "specialImage": "GEM202",
   "subtypes": [
@@ -422138,7 +423856,7 @@ exports[`Check for unintentional updates Pull from Beyond (pull-from-beyond-blue
   ],
   "defaultImage": "IAR214",
   "defense": 3,
-  "firstReleaseDate": "2026-09-25",
+  "firstReleaseDate": "2026-09-18",
   "functionalText": "**Opt 2**
 
 Banish the top card of your deck. If it's blue, create a Gate to i'Arathael token. **Go again**",
@@ -422168,6 +423886,7 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
   "meta": [
     "Deck",
     "Rainbow",
+    "Reprint",
   ],
   "name": "Pull from Beyond",
   "pitch": 3,
@@ -422197,6 +423916,16 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
       "artists": [
         "Marco González",
       ],
+      "identifier": "SBW033",
+      "image": "SBW033",
+      "print": "SBW033",
+      "rarity": "Common",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
+    {
+      "artists": [
+        "Marco González",
+      ],
       "foiling": "Rainbow",
       "identifier": "FAB520",
       "image": "FAB520-RF",
@@ -422220,10 +423949,12 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
   "setIdentifiers": [
     "FAB520",
     "IAR214",
+    "SBW033",
   ],
   "sets": [
     "Promos",
     "Usurp the Shadow Throne",
+    "Viserai Between Worlds Silver Age Deck",
   ],
   "specialImage": "FAB520-RF",
   "subtypes": [
@@ -422254,7 +423985,7 @@ exports[`Check for unintentional updates Pull from Beyond (pull-from-beyond-red)
   ],
   "defaultImage": "IAR212",
   "defense": 3,
-  "firstReleaseDate": "2026-09-25",
+  "firstReleaseDate": "2026-09-18",
   "functionalText": "**Opt 2**
 
 Banish the top card of your deck. If it's red, create a Gate to i'Arathael token. **Go again**",
@@ -422284,6 +424015,7 @@ Banish the top card of your deck. If it's red, create a Gate to i'Arathael token
   "meta": [
     "Deck",
     "Rainbow",
+    "Reprint",
   ],
   "name": "Pull from Beyond",
   "pitch": 1,
@@ -422313,6 +424045,16 @@ Banish the top card of your deck. If it's red, create a Gate to i'Arathael token
       "artists": [
         "Marco González",
       ],
+      "identifier": "SBW022",
+      "image": "SBW022",
+      "print": "SBW022",
+      "rarity": "Common",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
+    {
+      "artists": [
+        "Marco González",
+      ],
       "foiling": "Rainbow",
       "identifier": "FAB518",
       "image": "FAB518-RF",
@@ -422336,10 +424078,12 @@ Banish the top card of your deck. If it's red, create a Gate to i'Arathael token
   "setIdentifiers": [
     "FAB518",
     "IAR212",
+    "SBW022",
   ],
   "sets": [
     "Promos",
     "Usurp the Shadow Throne",
+    "Viserai Between Worlds Silver Age Deck",
   ],
   "specialImage": "FAB518-RF",
   "subtypes": [
@@ -474375,7 +476119,7 @@ exports[`Check for unintentional updates Runechant (runechant) vs snapshot 1`] =
   "classes": [
     "Runeblade",
   ],
-  "defaultImage": "SBA036",
+  "defaultImage": "SBW035",
   "firstReleaseDate": "2020-03-27",
   "functionalText": "When you play an attack action card or activate a weapon attack, destroy this and deal 1 arcane damage to target opposing hero.",
   "legalFormats": [
@@ -474407,6 +476151,16 @@ exports[`Check for unintentional updates Runechant (runechant) vs snapshot 1`] =
   ],
   "name": "Runechant",
   "printings": [
+    {
+      "artists": [
+        "Daniel Jiménez",
+      ],
+      "identifier": "SBW035",
+      "image": "SBW035",
+      "print": "SBW035",
+      "rarity": "Basic",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
     {
       "artists": [
         "Jessketchin",
@@ -474771,6 +476525,7 @@ exports[`Check for unintentional updates Runechant (runechant) vs snapshot 1`] =
     "FLR028",
     "ROS162",
     "SBA036",
+    "SBW035",
     "SVI034",
   ],
   "sets": [
@@ -474786,6 +476541,7 @@ exports[`Check for unintentional updates Runechant (runechant) vs snapshot 1`] =
     "History Pack 1",
     "Promos",
     "Rosetta",
+    "Viserai Between Worlds Silver Age Deck",
     "Viserai Silver Age Deck",
   ],
   "specialImage": "FAB266-RF",
@@ -475193,7 +476949,7 @@ exports[`Check for unintentional updates Runechant of Lust (runechant-of-lust-ye
     "runechant",
   ],
   "defaultImage": "IAR154",
-  "firstReleaseDate": "2026-09-25",
+  "firstReleaseDate": "2026-09-18",
   "functionalText": "This counts as a Runechant. When an attack usurps this, create a Runechant token.
 
 When this is destroyed, create a Runechant token.
@@ -475222,6 +476978,7 @@ At the beginning of your action phase or when you play an attack action card, de
   ],
   "meta": [
     "Deck",
+    "Reprint",
   ],
   "name": "Runechant of Lust",
   "pitch": 2,
@@ -475259,6 +477016,16 @@ At the beginning of your action phase or when you play an attack action card, de
       "artists": [
         "MJ Fetesio",
       ],
+      "identifier": "SBW026",
+      "image": "SBW026",
+      "print": "SBW026",
+      "rarity": "Common",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
+    {
+      "artists": [
+        "MJ Fetesio",
+      ],
       "foiling": "Rainbow",
       "identifier": "GEM180",
       "image": "GEM180-RF",
@@ -475287,10 +477054,12 @@ At the beginning of your action phase or when you play an attack action card, de
   "setIdentifiers": [
     "GEM180",
     "IAR154",
+    "SBW026",
   ],
   "sets": [
     "GEM",
     "Usurp the Shadow Throne",
+    "Viserai Between Worlds Silver Age Deck",
   ],
   "shorthands": [
     "Sin",
@@ -475447,7 +477216,7 @@ exports[`Check for unintentional updates Runechant of Sloth (runechant-of-sloth-
     "runechant",
   ],
   "defaultImage": "IAR156",
-  "firstReleaseDate": "2026-09-25",
+  "firstReleaseDate": "2026-09-18",
   "functionalText": "This counts as a Runechant. When an attack usurps this, it gets **go again**.
 
 When this is destroyed, create a Runechant token.
@@ -475479,6 +477248,7 @@ At the beginning of your action phase or when you play an attack action card, de
   ],
   "meta": [
     "Deck",
+    "Reprint",
   ],
   "name": "Runechant of Sloth",
   "pitch": 2,
@@ -475516,6 +477286,16 @@ At the beginning of your action phase or when you play an attack action card, de
       "artists": [
         "MJ Fetesio",
       ],
+      "identifier": "SBW027",
+      "image": "SBW027",
+      "print": "SBW027",
+      "rarity": "Common",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
+    {
+      "artists": [
+        "MJ Fetesio",
+      ],
       "foiling": "Rainbow",
       "identifier": "GEM182",
       "image": "GEM182-RF",
@@ -475544,10 +477324,12 @@ At the beginning of your action phase or when you play an attack action card, de
   "setIdentifiers": [
     "GEM182",
     "IAR156",
+    "SBW027",
   ],
   "sets": [
     "GEM",
     "Usurp the Shadow Throne",
+    "Viserai Between Worlds Silver Age Deck",
   ],
   "shorthands": [
     "Sin",
@@ -475705,7 +477487,7 @@ exports[`Check for unintentional updates Runehold Release (runehold-release) vs 
   "createdExtras": [
     "runechant",
   ],
-  "defaultImage": "ROS116",
+  "defaultImage": "SBW007",
   "defense": 0,
   "firstReleaseDate": "2024-09-20",
   "functionalText": "**Action** - Destroy this: Create a Runechant token. **Go again**",
@@ -475740,6 +477522,16 @@ exports[`Check for unintentional updates Runehold Release (runehold-release) vs 
   ],
   "name": "Runehold Release",
   "printings": [
+    {
+      "artists": [
+        "Firaz M. Rasyid",
+      ],
+      "identifier": "SBW007",
+      "image": "SBW007",
+      "print": "SBW007",
+      "rarity": "Common",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
     {
       "artists": [
         "Firaz M. Rasyid",
@@ -475826,12 +477618,14 @@ exports[`Check for unintentional updates Runehold Release (runehold-release) vs 
     "FLR005",
     "LGS317",
     "ROS116",
+    "SBW007",
   ],
   "sets": [
     "Aurora Blitz Deck",
     "Florian Blitz Deck",
     "Promos",
     "Rosetta",
+    "Viserai Between Worlds Silver Age Deck",
   ],
   "specialImage": "ROS116-CF",
   "subtypes": [
@@ -476368,7 +478162,7 @@ exports[`Check for unintentional updates Runic Disposition (runic-disposition-re
   ],
   "defaultImage": "IAR146",
   "defense": 2,
-  "firstReleaseDate": "2026-09-25",
+  "firstReleaseDate": "2026-09-18",
   "functionalText": "**Usurp**
 
 **Instant** - Discard this: Create a Runechant token.",
@@ -476399,6 +478193,7 @@ exports[`Check for unintentional updates Runic Disposition (runic-disposition-re
   "meta": [
     "Deck",
     "Rainbow",
+    "Reprint",
   ],
   "name": "Runic Disposition",
   "pitch": 1,
@@ -476425,6 +478220,16 @@ exports[`Check for unintentional updates Runic Disposition (runic-disposition-re
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
+    {
+      "artists": [
+        "Bo Setiaji",
+      ],
+      "identifier": "SBW017",
+      "image": "SBW017",
+      "print": "SBW017",
+      "rarity": "Rare",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
   ],
   "rarities": [
     "Rare",
@@ -476435,9 +478240,11 @@ exports[`Check for unintentional updates Runic Disposition (runic-disposition-re
   ],
   "setIdentifiers": [
     "IAR146",
+    "SBW017",
   ],
   "sets": [
     "Usurp the Shadow Throne",
+    "Viserai Between Worlds Silver Age Deck",
   ],
   "shorthands": [
     "Poppers",
@@ -500849,7 +502656,7 @@ exports[`Check for unintentional updates Seven Sin Nebula (seven-sin-nebula) vs 
     "runechant",
   ],
   "defaultImage": "IAR108",
-  "firstReleaseDate": "2026-09-25",
+  "firstReleaseDate": "2026-09-18",
   "functionalText": "**Action** - {r}, {t}: **Attack**. Activate this only if you've played a card from a banished zone this turn.
 
 When this hits a hero, create a Runechant token.",
@@ -500871,6 +502678,7 @@ When this hits a hero, create a Runechant token.",
   ],
   "meta": [
     "Arena",
+    "Reprint",
   ],
   "name": "Seven Sin Nebula",
   "power": 3,
@@ -500889,6 +502697,16 @@ When this hits a hero, create a Runechant token.",
       "artists": [
         "Ismatulloh",
       ],
+      "identifier": "SBW003",
+      "image": "SBW003",
+      "print": "SBW003",
+      "rarity": "Common",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
+    {
+      "artists": [
+        "Ismatulloh",
+      ],
       "foiling": "Cold",
       "identifier": "GEM185",
       "image": "GEM185-CF",
@@ -500899,6 +502717,7 @@ When this hits a hero, create a Runechant token.",
   ],
   "rarities": [
     "Basic",
+    "Common",
     "Promo",
   ],
   "rarity": "Basic",
@@ -500908,10 +502727,12 @@ When this hits a hero, create a Runechant token.",
   "setIdentifiers": [
     "GEM185",
     "IAR108",
+    "SBW003",
   ],
   "sets": [
     "GEM",
     "Usurp the Shadow Throne",
+    "Viserai Between Worlds Silver Age Deck",
   ],
   "shorthands": [
     "Tap",
@@ -501992,6 +503813,99 @@ If you paid the addition cost to play this, it gets **go again**.
 }
 `;
 
+exports[`Check for unintentional updates Shadowrealm Bloodhound (shadowrealm-bloodhound-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mariusz Gandzel",
+  ],
+  "cardIdentifier": "shadowrealm-bloodhound-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR196",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may banish a card from your hand. If it's Shadow, this gets **go again**.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Shadowrealm Bloodhound",
+  "pitch": 3,
+  "power": 4,
+  "printings": [
+    {
+      "artists": [
+        "Mariusz Gandzel",
+      ],
+      "identifier": "IAR196",
+      "image": "IAR196",
+      "print": "IAR196",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Mariusz Gandzel",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR196",
+      "image": "IAR196-RF",
+      "print": "IAR196-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR196",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR196",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Shadowrealm Bloodhound (shadowrealm-bloodhound-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -502107,6 +504021,99 @@ exports[`Check for unintentional updates Shadowrealm Bloodhound (shadowrealm-blo
     "Poppers",
   ],
   "specialImage": "GEM206",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Shadowrealm Bloodhound (shadowrealm-bloodhound-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mariusz Gandzel",
+  ],
+  "cardIdentifier": "shadowrealm-bloodhound-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR195",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may banish a card from your hand. If it's Shadow, this gets **go again**.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Shadowrealm Bloodhound",
+  "pitch": 2,
+  "power": 5,
+  "printings": [
+    {
+      "artists": [
+        "Mariusz Gandzel",
+      ],
+      "identifier": "IAR195",
+      "image": "IAR195",
+      "print": "IAR195",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Mariusz Gandzel",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR195",
+      "image": "IAR195-RF",
+      "print": "IAR195-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR195",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR195",
   "subtypes": [
     "Attack",
   ],
@@ -502552,6 +504559,98 @@ exports[`Check for unintentional updates Shadowrealm Reaper (shadowrealm-reaper-
 }
 `;
 
+exports[`Check for unintentional updates Shadowrealm Ripper (shadowrealm-ripper-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomi Ong",
+  ],
+  "cardIdentifier": "shadowrealm-ripper-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 1,
+  "defaultImage": "IAR199",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may banish a card from your hand. If it's Shadow, this gets +2{p}.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Shadowrealm Ripper",
+  "pitch": 3,
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Tomi Ong",
+      ],
+      "identifier": "IAR199",
+      "image": "IAR199",
+      "print": "IAR199",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Tomi Ong",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR199",
+      "image": "IAR199-RF",
+      "print": "IAR199-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR199",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR199",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Shadowrealm Ripper (shadowrealm-ripper-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -502663,6 +504762,98 @@ exports[`Check for unintentional updates Shadowrealm Ripper (shadowrealm-ripper-
     "Usurp the Shadow Throne",
   ],
   "specialImage": "GEM207",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Shadowrealm Ripper (shadowrealm-ripper-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomi Ong",
+  ],
+  "cardIdentifier": "shadowrealm-ripper-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 1,
+  "defaultImage": "IAR198",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may banish a card from your hand. If it's Shadow, this gets +2{p}.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Shadowrealm Ripper",
+  "pitch": 2,
+  "power": 4,
+  "printings": [
+    {
+      "artists": [
+        "Tomi Ong",
+      ],
+      "identifier": "IAR198",
+      "image": "IAR198",
+      "print": "IAR198",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Tomi Ong",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR198",
+      "image": "IAR198-RF",
+      "print": "IAR198-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR198",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR198",
   "subtypes": [
     "Attack",
   ],
@@ -502866,6 +505057,104 @@ exports[`Check for unintentional updates Shadowrealm Strength (shadowrealm-stren
 }
 `;
 
+exports[`Check for unintentional updates Shadowrealm Walker (shadowrealm-walker-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Wirawan Pranoto",
+  ],
+  "cardIdentifier": "shadowrealm-walker-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "IAR202",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may banish a card from your hand. If it's Shadow, create a Gate to i'Arathael token.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Shadowrealm Walker",
+  "pitch": 3,
+  "power": 2,
+  "printings": [
+    {
+      "artists": [
+        "Wirawan Pranoto",
+      ],
+      "identifier": "IAR202",
+      "image": "IAR202",
+      "print": "IAR202",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Wirawan Pranoto",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR202",
+      "image": "IAR202-RF",
+      "print": "IAR202-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "IAR202",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR202",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Shadowrealm Walker (shadowrealm-walker-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -502983,6 +505272,104 @@ exports[`Check for unintentional updates Shadowrealm Walker (shadowrealm-walker-
     "Usurp the Shadow Throne",
   ],
   "specialImage": "GEM208",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Shadowrealm Walker (shadowrealm-walker-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Wirawan Pranoto",
+  ],
+  "cardIdentifier": "shadowrealm-walker-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "IAR201",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may banish a card from your hand. If it's Shadow, create a Gate to i'Arathael token.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Shadowrealm Walker",
+  "pitch": 2,
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Wirawan Pranoto",
+      ],
+      "identifier": "IAR201",
+      "image": "IAR201",
+      "print": "IAR201",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Wirawan Pranoto",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR201",
+      "image": "IAR201-RF",
+      "print": "IAR201-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "IAR201",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR201",
   "subtypes": [
     "Attack",
   ],
@@ -592995,7 +595382,7 @@ At the beginning of your end phase, destroy a Silver you control. If you don't, 
       ],
       "foiling": "Cold",
       "identifier": "GEM218",
-      "image": "GEM218-MV",
+      "image": "GEM218-CF",
       "print": "GEM218-Cold-Full Art",
       "rarity": "Rare",
       "set": "GEM",
@@ -593043,7 +595430,7 @@ At the beginning of your end phase, destroy a Silver you control. If you don't, 
     "GEM",
     "Promos",
   ],
-  "specialImage": "GEM218-MV",
+  "specialImage": "GEM218-CF",
   "subtypes": [],
   "typeText": "Arakni Mentor",
   "types": [
@@ -629393,7 +631780,7 @@ exports[`Check for unintentional updates Vexing Gloomblade (vexing-gloomblade-re
   "cost": 3,
   "defaultImage": "IAR117",
   "defense": 3,
-  "firstReleaseDate": "2026-09-25",
+  "firstReleaseDate": "2026-09-18",
   "functionalText": "You may play this from your banished zone.
 
 **Usurp**
@@ -629424,6 +631811,7 @@ When this hits a hero, deal 2 arcane damage to any target.
   "meta": [
     "Deck",
     "Rainbow",
+    "Reprint",
   ],
   "name": "Vexing Gloomblade",
   "pitch": 1,
@@ -629450,6 +631838,16 @@ When this hits a hero, deal 2 arcane damage to any target.
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
+    {
+      "artists": [
+        "Yunior Susanto",
+      ],
+      "identifier": "SBW018",
+      "image": "SBW018",
+      "print": "SBW018",
+      "rarity": "Rare",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
   ],
   "rarities": [
     "Rare",
@@ -629457,9 +631855,11 @@ When this hits a hero, deal 2 arcane damage to any target.
   "rarity": "Rare",
   "setIdentifiers": [
     "IAR117",
+    "SBW018",
   ],
   "sets": [
     "Usurp the Shadow Throne",
+    "Viserai Between Worlds Silver Age Deck",
   ],
   "specialImage": "IAR117",
   "subtypes": [
@@ -629580,7 +631980,7 @@ exports[`Check for unintentional updates Vexing Malice (vexing-malice-blue) vs s
     "Runeblade",
   ],
   "cost": 1,
-  "defaultImage": "SVI028",
+  "defaultImage": "SBW032",
   "defense": 3,
   "firstReleaseDate": "2021-05-07",
   "functionalText": "When this attacks, deal 2 arcane damage to target hero.",
@@ -629614,6 +632014,16 @@ exports[`Check for unintentional updates Vexing Malice (vexing-malice-blue) vs s
   "pitch": 3,
   "power": 1,
   "printings": [
+    {
+      "artists": [
+        "Henrique Lindner",
+      ],
+      "identifier": "SBW032",
+      "image": "SBW032",
+      "print": "SBW032",
+      "rarity": "Rare",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
     {
       "artists": [
         "Henrique Lindner",
@@ -629718,11 +632128,13 @@ exports[`Check for unintentional updates Vexing Malice (vexing-malice-blue) vs s
   "setIdentifiers": [
     "LGS059",
     "MON234",
+    "SBW032",
     "SVI028",
   ],
   "sets": [
     "Monarch",
     "Promos",
+    "Viserai Between Worlds Silver Age Deck",
     "Viserai Silver Age Deck",
   ],
   "specialImage": "LGS059-RF",
@@ -650281,7 +652693,7 @@ exports[`Check for unintentional updates Weeping Battleground (weeping-battlegro
     "Runeblade",
   ],
   "cost": 0,
-  "defaultImage": "PEN103",
+  "defaultImage": "SBW019",
   "defense": 3,
   "firstReleaseDate": "2026-02-13",
   "functionalText": "You may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.",
@@ -650307,10 +652719,21 @@ exports[`Check for unintentional updates Weeping Battleground (weeping-battlegro
   "meta": [
     "Deck",
     "Rainbow",
+    "Reprint",
   ],
   "name": "Weeping Battleground",
   "pitch": 1,
   "printings": [
+    {
+      "artists": [
+        "Orson CaptainSass",
+      ],
+      "identifier": "SBW019",
+      "image": "SBW019",
+      "print": "SBW019",
+      "rarity": "Common",
+      "set": "Viserai Between Worlds Silver Age Deck",
+    },
     {
       "artists": [
         "Orson CaptainSass",
@@ -650386,10 +652809,12 @@ exports[`Check for unintentional updates Weeping Battleground (weeping-battlegro
   "setIdentifiers": [
     "GEM123",
     "PEN103",
+    "SBW019",
   ],
   "sets": [
     "Compendium of Rathe",
     "GEM",
+    "Viserai Between Worlds Silver Age Deck",
   ],
   "specialImage": "GEM123",
   "subtypes": [],

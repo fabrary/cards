@@ -1962,7 +1962,7 @@ export const releases: ReleaseInfo[] = [
     cards: 40,
     classes: [Class.Illusionist],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/TBD" },
+      { url: "https://fabrary.net/decks/01KYX5AKV8MSXP5310XSYF15DJ" },
     ],
     heroes: [Hero.Prism],
     languages: ALL_LANGUAGES,
@@ -1977,7 +1977,7 @@ export const releases: ReleaseInfo[] = [
     cards: 40,
     classes: [Class.Runeblade],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/TBD" },
+      { url: "https://fabrary.net/decks/01M1WWKBXCEF7RGFG9MM4PYRKB" },
     ],
     heroes: [Hero.Viserai2],
     languages: ALL_LANGUAGES,

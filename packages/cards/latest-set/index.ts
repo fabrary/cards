@@ -1632,6 +1632,243 @@ Whenever a card is put into your soul, create a Ponder token. At the start of yo
   
   
   },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "bloodfrenzy-gloomblade-red",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR123",
+    firstReleaseDate: "2026-09-18",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Bloodfrenzy Gloomblade",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "IAR123",
+      image: "IAR123",
+      
+      
+      print: "IAR123",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR123",
+      image: "IAR123-RF",
+      
+      
+      print: "IAR123-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR123","SBW010"],
+    sets: [Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
+    specialImage: "IAR123",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `You may play this from your banished zone.
+
+**Usurp**
+
+If you've dealt damage to the defending hero this turn, this gets **go again**.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain,Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
+  
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "bloodfrenzy-gloomblade-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR124",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Bloodfrenzy Gloomblade",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "IAR124",
+      image: "IAR124",
+      
+      
+      print: "IAR124",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR124",
+      image: "IAR124-RF",
+      
+      
+      print: "IAR124-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR124"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR124",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `You may play this from your banished zone.
+
+**Usurp**
+
+If you've dealt damage to the defending hero this turn, this gets **go again**.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain,Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "bloodfrenzy-gloomblade-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR125",
+    firstReleaseDate: "2026-09-18",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Bloodfrenzy Gloomblade",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "IAR125",
+      image: "IAR125",
+      
+      
+      print: "IAR125",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR125",
+      image: "IAR125-RF",
+      
+      
+      print: "IAR125-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR125","SBW028"],
+    sets: [Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
+    specialImage: "IAR125",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `You may play this from your banished zone.
+
+**Usurp**
+
+If you've dealt damage to the defending hero this turn, this gets **go again**.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain,Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
+  
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Maerel Hibadita"],
     cardIdentifier: "bloodsong-gloomblade-red",
     classes: [Class.Runeblade],
@@ -3825,7 +4062,7 @@ When this hits, you may search your deck for a Darkest Hour, banish it, then shu
     cardIdentifier: "cullingsong-gloomblade-red",
     classes: [Class.Runeblade],
     defaultImage: "IAR115",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Cullingsong Gloomblade",
@@ -3856,8 +4093,8 @@ When this hits, you may search your deck for a Darkest Hour, banish it, then shu
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["GEM201","IAR115"],
-    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    setIdentifiers: ["GEM201","IAR115","SBW011"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR115",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -3882,7 +4119,7 @@ When this hits a hero, they banish a card from their hand.
     keywords: [Keyword.BloodDebt,Keyword.Usurp],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -4285,7 +4522,7 @@ Your next Shadow attack this turn gets +1{p}. **Go again**
     cardIdentifier: "demonbound-gloomblade-red",
     classes: [Class.Runeblade],
     defaultImage: "IAR126",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Demonbound Gloomblade",
@@ -4316,8 +4553,8 @@ Your next Shadow attack this turn gets +1{p}. **Go again**
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["IAR126"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["IAR126","SBW012"],
+    sets: [Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR126",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -4340,7 +4577,7 @@ Your next Shadow attack this turn gets +1{p}. **Go again**
     keywords: [Keyword.BloodDebt,Keyword.Usurp],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -4439,7 +4676,7 @@ Your next Shadow attack this turn gets +1{p}. **Go again**
     cardIdentifier: "demonbound-gloomblade-blue",
     classes: [Class.Runeblade],
     defaultImage: "IAR128",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Demonbound Gloomblade",
@@ -4470,8 +4707,8 @@ Your next Shadow attack this turn gets +1{p}. **Go again**
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["IAR128"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["IAR128","SBW029"],
+    sets: [Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR128",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -4494,7 +4731,7 @@ Your next Shadow attack this turn gets +1{p}. **Go again**
     keywords: [Keyword.BloodDebt,Keyword.Usurp],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -4818,7 +5055,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
     cardIdentifier: "embrace-ursur-red",
     classes: [Class.Runeblade],
     defaultImage: "IAR129",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Embrace Ursur",
@@ -4849,8 +5086,8 @@ You may play an aura with Runechant in its name from your banished zone this tur
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["GEM203","IAR129"],
-    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    setIdentifiers: ["GEM203","IAR129","SBW013"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR129",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -4869,7 +5106,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -4891,7 +5128,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
     cardIdentifier: "embrace-ursur-yellow",
     classes: [Class.Runeblade],
     defaultImage: "IAR130",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Embrace Ursur",
@@ -4922,8 +5159,8 @@ You may play an aura with Runechant in its name from your banished zone this tur
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["IAR130"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["IAR130","SBW024"],
+    sets: [Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR130",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -4942,7 +5179,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -4964,7 +5201,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
     cardIdentifier: "embrace-ursur-blue",
     classes: [Class.Runeblade],
     defaultImage: "IAR131",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Embrace Ursur",
@@ -4995,8 +5232,8 @@ You may play an aura with Runechant in its name from your banished zone this tur
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["IAR131"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["IAR131","SBW030"],
+    sets: [Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR131",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -5015,7 +5252,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -5263,8 +5500,8 @@ You may play an aura with Runechant in its name from your banished zone this tur
     cardIdentifier: "gate-to-iarathael",
     classes: [Class.NotClassed],
     defaultImage: "IAR222-MV",
-    firstReleaseDate: "2026-09-25",
-    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    firstReleaseDate: "2026-09-18",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
     name: "Gate to i'Arathael",
     printings: [{
@@ -5298,10 +5535,10 @@ You may play an aura with Runechant in its name from your banished zone this tur
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Marvel,Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["FAB507","IAR222"],
-    sets: [Release.Promos,Release.UsurpTheShadowThrone],
+    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["FAB507","IAR222","SBW034"],
+    sets: [Release.Promos,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR222-MV",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -5320,7 +5557,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
     
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -7053,6 +7290,243 @@ The bound ally gets +1{p} and "Whenever this hits a hero or dies, create a Gate 
   
   
   },{
+    artists: ["Surya Prasetya"],
+    cardIdentifier: "murmuring-gloomblade-red",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR132",
+    firstReleaseDate: "2026-09-18",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Murmuring Gloomblade",
+    printings: [{
+        artists: ["Surya Prasetya"],
+      
+      identifier: "IAR132",
+      image: "IAR132",
+      
+      
+      print: "IAR132",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Surya Prasetya"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR132",
+      image: "IAR132-RF",
+      
+      
+      print: "IAR132-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR132","SBW015"],
+    sets: [Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
+    specialImage: "IAR132",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 2,createdExtras: ["runechant"],
+    defense: 3,
+    
+    functionalText: `You may play this from your banished zone.
+
+**Usurp**
+
+When this attacks or hits, create a Runechant token.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
+  
+    
+    pitch: 1,
+    power: 4,referencedCards: ["runechant"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Surya Prasetya"],
+    cardIdentifier: "murmuring-gloomblade-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR133",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Murmuring Gloomblade",
+    printings: [{
+        artists: ["Surya Prasetya"],
+      
+      identifier: "IAR133",
+      image: "IAR133",
+      
+      
+      print: "IAR133",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Surya Prasetya"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR133",
+      image: "IAR133-RF",
+      
+      
+      print: "IAR133-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR133"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR133",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 2,createdExtras: ["runechant"],
+    defense: 3,
+    
+    functionalText: `You may play this from your banished zone.
+
+**Usurp**
+
+When this attacks or hits, create a Runechant token.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 3,referencedCards: ["runechant"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Surya Prasetya"],
+    cardIdentifier: "murmuring-gloomblade-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR134",
+    firstReleaseDate: "2026-09-18",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Murmuring Gloomblade",
+    printings: [{
+        artists: ["Surya Prasetya"],
+      
+      identifier: "IAR134",
+      image: "IAR134",
+      
+      
+      print: "IAR134",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Surya Prasetya"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR134",
+      image: "IAR134-RF",
+      
+      
+      print: "IAR134-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR134","SBW031"],
+    sets: [Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
+    specialImage: "IAR134",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 2,createdExtras: ["runechant"],
+    defense: 3,
+    
+    functionalText: `You may play this from your banished zone.
+
+**Usurp**
+
+When this attacks or hits, create a Runechant token.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
+  
+    
+    pitch: 3,
+    power: 2,referencedCards: ["runechant"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Jefrey Yonathan"],
     cardIdentifier: "ominous-toll-red",
     classes: [Class.Necromancer],
@@ -7388,8 +7862,8 @@ The bound ally gets +1{p} and "Whenever this hits a hero or dies, create a Gate 
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["IAR141","JDG090"],
-    sets: [Release.Promos,Release.UsurpTheShadowThrone],
+    setIdentifiers: ["IAR141","JDG090","SBW021"],
+    sets: [Release.Promos,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR141",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -7412,7 +7886,7 @@ Create a Runechant token.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -7957,7 +8431,7 @@ The next Gate to i'Arathael token you activate this turn can target an action ca
     cardIdentifier: "plundersong-gloomblade-red",
     classes: [Class.Runeblade],
     defaultImage: "IAR116",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Plundersong Gloomblade",
@@ -7988,8 +8462,8 @@ The next Gate to i'Arathael token you activate this turn can target an action ca
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["GEM202","IAR116"],
-    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    setIdentifiers: ["GEM202","IAR116","SBW016"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR116",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -8014,7 +8488,7 @@ When this hits a hero, they banish a card in their arsenal.
     keywords: [Keyword.BloodDebt,Keyword.Usurp],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -8036,7 +8510,7 @@ When this hits a hero, they banish a card in their arsenal.
     cardIdentifier: "pull-from-beyond-red",
     classes: [Class.NotClassed],
     defaultImage: "IAR212",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
     name: "Pull from Beyond",
@@ -8067,8 +8541,8 @@ When this hits a hero, they banish a card in their arsenal.
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["FAB518","IAR212"],
-    sets: [Release.Promos,Release.UsurpTheShadowThrone],
+    setIdentifiers: ["FAB518","IAR212","SBW022"],
+    sets: [Release.Promos,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR212",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -8089,7 +8563,7 @@ Banish the top card of your deck. If it's red, create a Gate to i'Arathael token
     keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -8186,7 +8660,7 @@ Banish the top card of your deck. If it's yellow, create a Gate to i'Arathael to
     cardIdentifier: "pull-from-beyond-blue",
     classes: [Class.NotClassed],
     defaultImage: "IAR214",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
     name: "Pull from Beyond",
@@ -8217,8 +8691,8 @@ Banish the top card of your deck. If it's yellow, create a Gate to i'Arathael to
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["FAB520","IAR214"],
-    sets: [Release.Promos,Release.UsurpTheShadowThrone],
+    setIdentifiers: ["FAB520","IAR214","SBW033"],
+    sets: [Release.Promos,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR214",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -8239,7 +8713,7 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
     keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -9172,7 +9646,7 @@ At the beginning of your action phase or when you play an attack action card, de
     cardIdentifier: "runechant-of-lust-yellow",
     classes: [Class.Runeblade],
     defaultImage: "IAR154",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Viserai2,Hero.Vynnset],
     name: "Runechant of Lust",
@@ -9206,8 +9680,8 @@ At the beginning of your action phase or when you play an attack action card, de
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["GEM180","IAR154"],
-    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    setIdentifiers: ["GEM180","IAR154","SBW026"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR154-MV",
     subtypes: [Subtype.Aura],
     types: [Type.Instant],
@@ -9230,7 +9704,7 @@ At the beginning of your action phase or when you play an attack action card, de
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -9332,7 +9806,7 @@ At the beginning of your action phase or when you play an attack action card, de
     cardIdentifier: "runechant-of-sloth-yellow",
     classes: [Class.Runeblade],
     defaultImage: "IAR156",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Viserai2,Hero.Vynnset],
     name: "Runechant of Sloth",
@@ -9366,8 +9840,8 @@ At the beginning of your action phase or when you play an attack action card, de
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["GEM182","IAR156"],
-    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    setIdentifiers: ["GEM182","IAR156","SBW027"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR156-MV",
     subtypes: [Subtype.Aura],
     types: [Type.Instant],
@@ -9390,7 +9864,7 @@ At the beginning of your action phase or when you play an attack action card, de
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -9492,7 +9966,7 @@ At the beginning of your action phase or when you play an attack action card, de
     cardIdentifier: "runic-disposition-red",
     classes: [Class.Runeblade],
     defaultImage: "IAR146",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Viserai2,Hero.Vynnset],
     name: "Runic Disposition",
@@ -9523,8 +9997,8 @@ At the beginning of your action phase or when you play an attack action card, de
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["IAR146"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["IAR146","SBW017"],
+    sets: [Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR146",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -9545,7 +10019,7 @@ At the beginning of your action phase or when you play an attack action card, de
     keywords: [Keyword.Usurp],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -10017,7 +10491,7 @@ At the beginning of your action phase or when you play an attack action card, de
     cardIdentifier: "seven-sin-nebula",
     classes: [Class.Runeblade],
     defaultImage: "IAR108",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Seven Sin Nebula",
@@ -10034,10 +10508,10 @@ At the beginning of your action phase or when you play an attack action card, de
       
       
     },],
-    rarities: [Rarity.Basic,Rarity.Promo],
+    rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["GEM185","IAR108"],
-    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    setIdentifiers: ["GEM185","IAR108","SBW003"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR108",
     subtypes: [Subtype.TwoHanded,Subtype.Sword],
     types: [Type.Weapon],
@@ -10058,7 +10532,7 @@ When this hits a hero, create a Runechant token.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -11738,7 +12212,7 @@ When this hits a hero, turn all cards in their banished zone face-down. They los
     cardIdentifier: "vexing-gloomblade-red",
     classes: [Class.Runeblade],
     defaultImage: "IAR117",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Vexing Gloomblade",
@@ -11769,8 +12243,8 @@ When this hits a hero, turn all cards in their banished zone face-down. They los
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["IAR117"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["IAR117","SBW018"],
+    sets: [Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR117",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -11795,7 +12269,7 @@ When this hits a hero, deal 2 arcane damage to any target.
     keywords: [Keyword.BloodDebt,Keyword.Usurp],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
