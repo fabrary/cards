@@ -3146,6 +3146,231 @@ The first time you destroy a Lightning Flow each turn, **amp 1**.
   
   
   },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "commit-to-corruption-red",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR060",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Commit to Corruption",
+    printings: [{
+        artists: ["Isuardi Therianto"],
+      
+      identifier: "IAR060",
+      image: "IAR060",
+      
+      
+      print: "IAR060",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Isuardi Therianto"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR060",
+      image: "IAR060-RF",
+      
+      
+      print: "IAR060-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["AMA009","IAR060"],
+    sets: [Release.ArmoryDeckMalice,Release.UsurpTheShadowThrone],
+    specialImage: "IAR060",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action",
+
+    
+    
+    cost: 0,createdExtras: ["corrupted-corpse"],
+    defense: 3,
+    
+    functionalText: `Your next attack this turn gets +3{p} and "When this hits, create a Corrupted Corpse in your banished zone."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    life: 3,
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
+  
+    
+    pitch: 1,
+    referencedCards: ["corrupted-corpse"],
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "commit-to-corruption-yellow",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR061",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Commit to Corruption",
+    printings: [{
+        artists: ["Isuardi Therianto"],
+      
+      identifier: "IAR061",
+      image: "IAR061",
+      
+      
+      print: "IAR061",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Isuardi Therianto"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR061",
+      image: "IAR061-RF",
+      
+      
+      print: "IAR061-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR061"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR061",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action",
+
+    
+    
+    cost: 0,createdExtras: ["corrupted-corpse"],
+    
+    
+    functionalText: `Your next attack this turn gets +2{p} and "When this hits, create a Corrupted Corpse in your banished zone."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    life: 3,
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    referencedCards: ["corrupted-corpse"],
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "commit-to-corruption-blue",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR062",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Commit to Corruption",
+    printings: [{
+        artists: ["Isuardi Therianto"],
+      
+      identifier: "IAR062",
+      image: "IAR062",
+      
+      
+      print: "IAR062",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Isuardi Therianto"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR062",
+      image: "IAR062-RF",
+      
+      
+      print: "IAR062-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR062"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR062",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action",
+
+    
+    
+    cost: 0,createdExtras: ["corrupted-corpse"],
+    
+    
+    functionalText: `Your next attack this turn gets +1{p} and "When this hits, create a Corrupted Corpse in your banished zone."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    life: 3,
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    referencedCards: ["corrupted-corpse"],
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Satriasa"],
     cardIdentifier: "consuming-appetite-yellow",
     classes: [Class.Brute],
@@ -9254,6 +9479,81 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
   
   
   },{
+    artists: ["Stormy Elia Fanggidae"],
+    cardIdentifier: "restless-steed-red",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR089",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Restless Steed",
+    printings: [{
+        artists: ["Stormy Elia Fanggidae"],
+      
+      identifier: "IAR089",
+      image: "IAR089",
+      
+      
+      print: "IAR089",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Stormy Elia Fanggidae"],
+      foiling: Foiling.Cold,
+      identifier: "IAR089",
+      image: "IAR089-MV",
+      
+      
+      print: "IAR089-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },],
+    rarities: [Rarity.Common,Rarity.Marvel],
+    rarity: Rarity.Common,
+    setIdentifiers: ["AMA019","IAR089"],
+    sets: [Release.ArmoryDeckMalice,Release.UsurpTheShadowThrone],
+    specialImage: "IAR089-MV",
+    subtypes: [Subtype.Ally,Subtype.NonAttack,Subtype.Zombie],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Zombie Ally",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `When this hits, the attack gets **go again**.
+
+**Decay**`,
+    
+    
+    
+    
+    keywords: [Keyword.Decay],
+    
+    life: 3,
+    meta: [Meta.Deck,Meta.Reprint],
+  
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Billy Christian"],
     cardIdentifier: "restless-templar-red",
     classes: [Class.Necromancer],
@@ -9316,6 +9616,81 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
     
     pitch: 1,
     power: 3,referencedCards: ["gate-to-iarathael"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Esty Swandana"],
+    cardIdentifier: "rites-of-nightfall-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR181",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Rites of Nightfall",
+    printings: [{
+        artists: ["Esty Swandana"],
+      
+      identifier: "IAR181",
+      image: "IAR181",
+      
+      
+      print: "IAR181",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Esty Swandana"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR181",
+      image: "IAR181-RF",
+      
+      
+      print: "IAR181-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["AMA024","IAR181"],
+    sets: [Release.ArmoryDeckMalice,Release.UsurpTheShadowThrone],
+    specialImage: "IAR181",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    
+    
+    cost: 1,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `Create a Gate to i'Arathael token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Reprint],
+  
+    
+    pitch: 3,
+    referencedCards: ["gate-to-iarathael"],
     
     
     
@@ -11225,6 +11600,81 @@ When this hits a hero, create a Runechant token.`,
   
   
   },{
+    artists: ["Hansen Oni"],
+    cardIdentifier: "shadowrealm-solace-blue",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR081",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Shadowrealm Solace",
+    printings: [{
+        artists: ["Hansen Oni"],
+      
+      identifier: "IAR081",
+      image: "IAR081",
+      
+      
+      print: "IAR081",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Hansen Oni"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR081",
+      image: "IAR081-RF",
+      
+      
+      print: "IAR081-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["AMA025","IAR081"],
+    sets: [Release.ArmoryDeckMalice,Release.UsurpTheShadowThrone],
+    specialImage: "IAR081",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `You may put a card from your banished zone into your graveyard. If it's a zombie, gain 1{h}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Reprint],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Surya Prasetya"],
     cardIdentifier: "shadowrealm-strength-red",
     classes: [Class.Necromancer],
@@ -11676,6 +12126,237 @@ If this was played from your banished zone, it gets "When this attacks, you may 
     
     
     talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Mark Poole"],
+    cardIdentifier: "skeletal-puppetry-red",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR094",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Frankie,Hero.GravyBones,Hero.Malice],
+    name: "Skeletal Puppetry",
+    printings: [{
+        artists: ["Mark Poole"],
+      
+      identifier: "IAR094",
+      image: "IAR094",
+      
+      
+      print: "IAR094",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Mark Poole"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR094",
+      image: "IAR094-RF",
+      
+      
+      print: "IAR094-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["AMA013","IAR094"],
+    sets: [Release.ArmoryDeckMalice,Release.UsurpTheShadowThrone],
+    specialImage: "IAR094",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Necromancer Action",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `You may discard an ally rather than pay this card's {r} cost.
+
+Your next ally attack this turn gets +3{p} and **go again**.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Mark Poole"],
+    cardIdentifier: "skeletal-puppetry-yellow",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR095",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Frankie,Hero.GravyBones,Hero.Malice],
+    name: "Skeletal Puppetry",
+    printings: [{
+        artists: ["Mark Poole"],
+      
+      identifier: "IAR095",
+      image: "IAR095",
+      
+      
+      print: "IAR095",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Mark Poole"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR095",
+      image: "IAR095-RF",
+      
+      
+      print: "IAR095-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR095"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR095",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Necromancer Action",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `You may discard an ally rather than pay this card's {r} cost.
+
+Your next ally attack this turn gets +2{p} and **go again**.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Mark Poole"],
+    cardIdentifier: "skeletal-puppetry-blue",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR096",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Frankie,Hero.GravyBones,Hero.Malice],
+    name: "Skeletal Puppetry",
+    printings: [{
+        artists: ["Mark Poole"],
+      
+      identifier: "IAR096",
+      image: "IAR096",
+      
+      
+      print: "IAR096",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Mark Poole"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR096",
+      image: "IAR096-RF",
+      
+      
+      print: "IAR096-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["AMA027","IAR096"],
+    sets: [Release.ArmoryDeckMalice,Release.UsurpTheShadowThrone],
+    specialImage: "IAR096",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Necromancer Action",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `You may discard an ally rather than pay this card's {r} cost.
+
+Your next ally attack this turn gets +1{p} and **go again**.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
+  
+    
+    pitch: 3,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{

@@ -106563,6 +106563,78 @@ exports[`Check for unintentional updates Civic Steps (civic-steps) vs snapshot 1
 }
 `;
 
+exports[`Check for unintentional updates Clambering Corpses (clambering-corpses-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "clambering-corpses-blue",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "defaultImage": "AMA021",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may discard a zombie. If you do, this gets +3{p} and **go again**.
+
+When this hits a hero, your zombie attacks this turn get **go again**.",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Clambering Corpses",
+  "pitch": 3,
+  "power": 1,
+  "printings": [
+    {
+      "artists": [
+        "Tomasz Jedruszek",
+      ],
+      "identifier": "AMA021",
+      "image": "AMA021",
+      "print": "AMA021",
+      "rarity": "Majestic",
+      "set": "Armory Deck: Malice",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "AMA021",
+  ],
+  "sets": [
+    "Armory Deck: Malice",
+  ],
+  "specialImage": "AMA021",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Clamp Press (clamp-press-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -119154,6 +119226,115 @@ Until end of turn, your Warrior attacks get "When this is defended by 1 or more 
     "Non-Attack",
   ],
   "typeText": "Warrior Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Commit to Corruption (commit-to-corruption-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "commit-to-corruption-red",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "corrupted-corpse",
+  ],
+  "defaultImage": "AMA009",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "Your next attack this turn gets +3{p} and "When this hits, create a Corrupted Corpse in your banished zone."
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "life": 3,
+  "meta": [
+    "Deck",
+    "Rainbow",
+    "Reprint",
+  ],
+  "name": "Commit to Corruption",
+  "pitch": 1,
+  "printings": [
+    {
+      "artists": [
+        "Isuardi Therianto",
+      ],
+      "identifier": "AMA009",
+      "image": "AMA009",
+      "print": "AMA009",
+      "rarity": "Rare",
+      "set": "Armory Deck: Malice",
+    },
+    {
+      "artists": [
+        "Isuardi Therianto",
+      ],
+      "identifier": "IAR060",
+      "image": "IAR060",
+      "print": "IAR060",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Isuardi Therianto",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR060",
+      "image": "IAR060-RF",
+      "print": "IAR060-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "referencedCards": [
+    "corrupted-corpse",
+  ],
+  "setIdentifiers": [
+    "AMA009",
+    "IAR060",
+  ],
+  "sets": [
+    "Armory Deck: Malice",
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "AMA009",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action",
   "types": [
     "Action",
   ],
@@ -170809,6 +170990,78 @@ exports[`Check for unintentional updates Drone of Brutality (drone-of-brutality-
   "typeText": "Generic Action - Attack",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Drop Dead Bodice (drop-dead-bodice) vs snapshot 1`] = `
+{
+  "artists": [
+    "Ilham Bahtiar",
+  ],
+  "cardIdentifier": "drop-dead-bodice",
+  "classes": [
+    "Necromancer",
+  ],
+  "defaultImage": "AMA004-RF",
+  "defense": 0,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Instant** - Destroy this: Until end of turn, whenever a zombie is put into your graveyard, gain {r}.
+
+**Arcane Barrier 1**",
+  "keywords": [
+    "Arcane Barrier",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+    "Taylor",
+  ],
+  "meta": [
+    "Arena",
+  ],
+  "name": "Drop Dead Bodice",
+  "printings": [
+    {
+      "artists": [
+        "Ilham Bahtiar",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "AMA004",
+      "image": "AMA004-RF",
+      "print": "AMA004-Rainbow",
+      "rarity": "Rare",
+      "set": "Armory Deck: Malice",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "AMA004",
+  ],
+  "sets": [
+    "Armory Deck: Malice",
+  ],
+  "specialImage": "AMA004-RF",
+  "subtypes": [
+    "Chest",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Equipment - Chest",
+  "types": [
+    "Equipment",
   ],
 }
 `;
@@ -382706,6 +382959,84 @@ exports[`Check for unintentional updates Oscilio, Scion of the Third Age (oscili
 }
 `;
 
+exports[`Check for unintentional updates Otherworldly Ossuary (otherworldly-ossuary-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Ausonia",
+  ],
+  "cardIdentifier": "otherworldly-ossuary-blue",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 1,
+  "createdExtras": [
+    "corrupted-corpse",
+  ],
+  "defaultImage": "AMA022",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "Create a Corrupted Corpse in your banished zone.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Otherworldly Ossuary",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Ausonia",
+      ],
+      "identifier": "AMA022",
+      "image": "AMA022",
+      "print": "AMA022",
+      "rarity": "Rare",
+      "set": "Armory Deck: Malice",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "referencedCards": [
+    "corrupted-corpse",
+  ],
+  "setIdentifiers": [
+    "AMA022",
+  ],
+  "sets": [
+    "Armory Deck: Malice",
+  ],
+  "specialImage": "AMA022",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Otherworldly Sins (otherworldly-sins-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -455885,6 +456216,112 @@ exports[`Check for unintentional updates Restless Quartermaster (restless-quarte
 }
 `;
 
+exports[`Check for unintentional updates Restless Steed (restless-steed-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Stormy Elia Fanggidae",
+  ],
+  "cardIdentifier": "restless-steed-red",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "defaultImage": "AMA019",
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this hits, the attack gets **go again**.
+
+**Decay**",
+  "keywords": [
+    "Decay",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "life": 3,
+  "meta": [
+    "Deck",
+    "Reprint",
+  ],
+  "name": "Restless Steed",
+  "pitch": 1,
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Stormy Elia Fanggidae",
+      ],
+      "identifier": "AMA019",
+      "image": "AMA019",
+      "print": "AMA019",
+      "rarity": "Common",
+      "set": "Armory Deck: Malice",
+    },
+    {
+      "artists": [
+        "Stormy Elia Fanggidae",
+      ],
+      "identifier": "IAR089",
+      "image": "IAR089",
+      "print": "IAR089",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Stormy Elia Fanggidae",
+      ],
+      "foiling": "Cold",
+      "identifier": "IAR089",
+      "image": "IAR089-MV",
+      "print": "IAR089-Cold-Full Art",
+      "rarity": "Marvel",
+      "set": "Usurp the Shadow Throne",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
+  ],
+  "rarities": [
+    "Common",
+    "Marvel",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "AMA019",
+    "IAR089",
+  ],
+  "sets": [
+    "Armory Deck: Malice",
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR089-MV",
+  "subtypes": [
+    "Ally",
+    "Non-Attack",
+    "Zombie",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action - Zombie Ally",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Restless Templar (restless-templar-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -468368,6 +468805,115 @@ If you've dealt arcane damage this turn, this gets **go again**.",
     "Elemental",
   ],
   "typeText": "Elemental Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Rites of Nightfall (rites-of-nightfall-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Esty Swandana",
+  ],
+  "cardIdentifier": "rites-of-nightfall-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 1,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "AMA024",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "Create a Gate to i'Arathael token.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Reprint",
+  ],
+  "name": "Rites of Nightfall",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Esty Swandana",
+      ],
+      "identifier": "AMA024",
+      "image": "AMA024",
+      "print": "AMA024",
+      "rarity": "Rare",
+      "set": "Armory Deck: Malice",
+    },
+    {
+      "artists": [
+        "Esty Swandana",
+      ],
+      "identifier": "IAR181",
+      "image": "IAR181",
+      "print": "IAR181",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Esty Swandana",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR181",
+      "image": "IAR181-RF",
+      "print": "IAR181-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "AMA024",
+    "IAR181",
+  ],
+  "sets": [
+    "Armory Deck: Malice",
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "AMA024",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action",
   "types": [
     "Action",
   ],
@@ -505641,6 +506187,104 @@ exports[`Check for unintentional updates Shadowrealm Ripper (shadowrealm-ripper-
 }
 `;
 
+exports[`Check for unintentional updates Shadowrealm Solace (shadowrealm-solace-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Hansen Oni",
+  ],
+  "cardIdentifier": "shadowrealm-solace-blue",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "defaultImage": "AMA025",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "You may put a card from your banished zone into your graveyard. If it's a zombie, gain 1{h}.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+    "Reprint",
+  ],
+  "name": "Shadowrealm Solace",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Hansen Oni",
+      ],
+      "identifier": "AMA025",
+      "image": "AMA025",
+      "print": "AMA025",
+      "rarity": "Common",
+      "set": "Armory Deck: Malice",
+    },
+    {
+      "artists": [
+        "Hansen Oni",
+      ],
+      "identifier": "IAR081",
+      "image": "IAR081",
+      "print": "IAR081",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Hansen Oni",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR081",
+      "image": "IAR081-RF",
+      "print": "IAR081-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "AMA025",
+    "IAR081",
+  ],
+  "sets": [
+    "Armory Deck: Malice",
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "AMA025",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Shadowrealm Strength (shadowrealm-strength-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -527539,6 +528183,212 @@ exports[`Check for unintentional updates Sizzling Steel (sizzling-steel-red) vs 
   "typeText": "Draconic Warrior Attack Reaction",
   "types": [
     "Attack Reaction",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Skeletal Puppetry (skeletal-puppetry-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mark Poole",
+  ],
+  "cardIdentifier": "skeletal-puppetry-blue",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 2,
+  "defaultImage": "AMA027",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "You may discard an ally rather than pay this card's {r} cost.
+
+Your next ally attack this turn gets +1{p} and **go again**.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Frankie",
+    "Gravy Bones",
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+    "Reprint",
+  ],
+  "name": "Skeletal Puppetry",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Mark Poole",
+      ],
+      "identifier": "AMA027",
+      "image": "AMA027",
+      "print": "AMA027",
+      "rarity": "Rare",
+      "set": "Armory Deck: Malice",
+    },
+    {
+      "artists": [
+        "Mark Poole",
+      ],
+      "identifier": "IAR096",
+      "image": "IAR096",
+      "print": "IAR096",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Mark Poole",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR096",
+      "image": "IAR096-RF",
+      "print": "IAR096-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "AMA027",
+    "IAR096",
+  ],
+  "sets": [
+    "Armory Deck: Malice",
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "AMA027",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Necromancer Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Skeletal Puppetry (skeletal-puppetry-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mark Poole",
+  ],
+  "cardIdentifier": "skeletal-puppetry-red",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 2,
+  "defaultImage": "AMA013",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "You may discard an ally rather than pay this card's {r} cost.
+
+Your next ally attack this turn gets +3{p} and **go again**.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Frankie",
+    "Gravy Bones",
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+    "Reprint",
+  ],
+  "name": "Skeletal Puppetry",
+  "pitch": 1,
+  "printings": [
+    {
+      "artists": [
+        "Mark Poole",
+      ],
+      "identifier": "AMA013",
+      "image": "AMA013",
+      "print": "AMA013",
+      "rarity": "Rare",
+      "set": "Armory Deck: Malice",
+    },
+    {
+      "artists": [
+        "Mark Poole",
+      ],
+      "identifier": "IAR094",
+      "image": "IAR094",
+      "print": "IAR094",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Mark Poole",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR094",
+      "image": "IAR094-RF",
+      "print": "IAR094-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "AMA013",
+    "IAR094",
+  ],
+  "sets": [
+    "Armory Deck: Malice",
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "AMA013",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Necromancer Action",
+  "types": [
+    "Action",
   ],
 }
 `;

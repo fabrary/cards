@@ -2014,7 +2014,7 @@ export const releases: ReleaseInfo[] = [
     cards: 30,
     classes: [Class.Necromancer],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/01KXQF1YZHCHP2KAMDBS5WC5Q9" },
+      { url: "https://fabrary.net/decks/01KXQF1YZHCHP2KAMDBS5WC5Q9" },
     ],
     heroes: [Hero.Malice],
     languages: ALL_LANGUAGES,
