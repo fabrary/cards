@@ -401,6 +401,7 @@ export const ADDITIONS = [
   "OrbWeaver",
   "orihon",
   "oscilio",
+  "ossuary",
   "ouvia",
   "overblast",
   "overswing",

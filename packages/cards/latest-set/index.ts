@@ -3712,8 +3712,8 @@ When this hits a hero, banish all cards in their arsenal.
     },],
     rarities: [Rarity.Basic,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["FAB506","IAR090"],
-    sets: [Release.Promos,Release.UsurpTheShadowThrone],
+    setIdentifiers: ["AMA029","FAB506","IAR090"],
+    sets: [Release.ArmoryDeckMalice,Release.Promos,Release.UsurpTheShadowThrone],
     specialImage: "IAR090-RF",
     subtypes: [Subtype.Ally,Subtype.NonAttack,Subtype.Zombie],
     types: [Type.Action],
@@ -3736,7 +3736,7 @@ This card's attacks get **go again**.
     keywords: [Keyword.BloodDebt,Keyword.GoAgain,Keyword.Incarnate],
     
     life: 3,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -3943,8 +3943,8 @@ When this hits, you may search your deck for a Darkest Hour, banish it, then shu
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["IAR169"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["AMA020","IAR169"],
+    sets: [Release.ArmoryDeckMalice,Release.UsurpTheShadowThrone],
     specialImage: "IAR169",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -3967,7 +3967,7 @@ When this hits, you may search your deck for a Darkest Hour, banish it, then shu
     keywords: [Keyword.BloodDebt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -4247,8 +4247,8 @@ When this hits a hero, they banish a card from their hand.
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["IAR209"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["AMA010","IAR209"],
+    sets: [Release.ArmoryDeckMalice,Release.UsurpTheShadowThrone],
     specialImage: "IAR209",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -4271,7 +4271,7 @@ Your next Shadow attack this turn gets +4{p}. **Go again**
     keywords: [Keyword.BloodDebt,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -5537,8 +5537,8 @@ You may play an aura with Runechant in its name from your banished zone this tur
     },],
     rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["FAB507","IAR222","SBW034"],
-    sets: [Release.Promos,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
+    setIdentifiers: ["AMA030","FAB507","IAR222","SBW034"],
+    sets: [Release.ArmoryDeckMalice,Release.Promos,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR222-MV",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -7250,8 +7250,8 @@ The bound ally gets +1{p} and "Whenever this hits a hero or dies, gain 1{h}."`,
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["IAR068"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["AMA028","IAR068"],
+    sets: [Release.ArmoryDeckMalice,Release.UsurpTheShadowThrone],
     specialImage: "IAR068",
     subtypes: [Subtype.Aura],
     types: [Type.Instant],
@@ -7272,7 +7272,7 @@ The bound ally gets +1{p} and "Whenever this hits a hero or dies, create a Gate 
     keywords: [Keyword.Binds],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -7562,8 +7562,8 @@ When this attacks or hits, create a Runechant token.
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["GEM198","IAR078"],
-    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    setIdentifiers: ["AMA007","GEM198","IAR078"],
+    sets: [Release.ArmoryDeckMalice,Release.GEM,Release.UsurpTheShadowThrone],
     specialImage: "IAR078",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -7584,7 +7584,7 @@ When this attacks or hits, create a Runechant token.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -8691,8 +8691,8 @@ Banish the top card of your deck. If it's yellow, create a Gate to i'Arathael to
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["FAB520","IAR214","SBW033"],
-    sets: [Release.Promos,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
+    setIdentifiers: ["AMA023","FAB520","IAR214","SBW033"],
+    sets: [Release.ArmoryDeckMalice,Release.Promos,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR214",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -8989,8 +8989,8 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["IAR063"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["AMA015","IAR063"],
+    sets: [Release.ArmoryDeckMalice,Release.UsurpTheShadowThrone],
     specialImage: "IAR063-MV",
     subtypes: [Subtype.Ally,Subtype.NonAttack,Subtype.Zombie],
     types: [Type.Action],
@@ -9011,7 +9011,7 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
     keywords: [Keyword.Decay],
     
     life: 3,
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -9064,8 +9064,8 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["IAR064"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["AMA016","IAR064"],
+    sets: [Release.ArmoryDeckMalice,Release.UsurpTheShadowThrone],
     specialImage: "IAR064-MV",
     subtypes: [Subtype.Ally,Subtype.NonAttack,Subtype.Zombie],
     types: [Type.Action],
@@ -9086,7 +9086,7 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
     keywords: [Keyword.Decay],
     
     life: 3,
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -9139,8 +9139,8 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
     },],
     rarities: [Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Common,
-    setIdentifiers: ["IAR086"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["AMA017","IAR086"],
+    sets: [Release.ArmoryDeckMalice,Release.UsurpTheShadowThrone],
     specialImage: "IAR086-MV",
     subtypes: [Subtype.Ally,Subtype.NonAttack,Subtype.Zombie],
     types: [Type.Action],
@@ -9161,7 +9161,7 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
     keywords: [Keyword.Decay],
     
     life: 3,
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -9214,8 +9214,8 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
     },],
     rarities: [Rarity.Common,Rarity.Rare],
     rarity: Rarity.Common,
-    setIdentifiers: ["IAR065"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["AMA018","IAR065"],
+    sets: [Release.ArmoryDeckMalice,Release.UsurpTheShadowThrone],
     specialImage: "IAR065-MV",
     subtypes: [Subtype.Ally,Subtype.NonAttack,Subtype.Zombie],
     types: [Type.Action],
@@ -9236,7 +9236,7 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
     keywords: [Keyword.Decay],
     
     life: 3,
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,

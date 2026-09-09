@@ -127292,7 +127292,7 @@ exports[`Check for unintentional updates Corrupted Corpse (corrupted-corpse) vs 
     "Necromancer",
   ],
   "cost": 2,
-  "defaultImage": "IAR090",
+  "defaultImage": "AMA029",
   "firstReleaseDate": "2026-09-25",
   "functionalText": "**Incarnate**
 
@@ -127319,9 +127319,22 @@ This card's attacks get **go again**.
     "Malice",
   ],
   "life": 3,
+  "meta": [
+    "Reprint",
+  ],
   "name": "Corrupted Corpse",
   "power": 3,
   "printings": [
+    {
+      "artists": [
+        "Carlos Cruchaga",
+      ],
+      "identifier": "AMA029",
+      "image": "AMA029",
+      "print": "AMA029",
+      "rarity": "Basic",
+      "set": "Armory Deck: Malice",
+    },
     {
       "artists": [
         "Carlos Cruchaga",
@@ -127402,10 +127415,12 @@ This card's attacks get **go again**.
   ],
   "rarity": "Basic",
   "setIdentifiers": [
+    "AMA029",
     "FAB506",
     "IAR090",
   ],
   "sets": [
+    "Armory Deck: Malice",
     "Promos",
     "Usurp the Shadow Throne",
   ],
@@ -129112,7 +129127,7 @@ exports[`Check for unintentional updates Countdown to Extinction (countdown-to-e
   "createdExtras": [
     "gate-to-iarathael",
   ],
-  "defaultImage": "IAR169",
+  "defaultImage": "AMA020",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "When this attacks, create a Gate to i'Arathael token.
@@ -129145,11 +129160,22 @@ When this hits, you may search your deck for a Darkest Hour, banish it, then shu
   "meta": [
     "Deck",
     "Rainbow",
+    "Reprint",
   ],
   "name": "Countdown to Extinction",
   "pitch": 3,
   "power": 4,
   "printings": [
+    {
+      "artists": [
+        "Nailsen Ivanderlie",
+      ],
+      "identifier": "AMA020",
+      "image": "AMA020",
+      "print": "AMA020",
+      "rarity": "Rare",
+      "set": "Armory Deck: Malice",
+    },
     {
       "artists": [
         "Nailsen Ivanderlie",
@@ -129183,12 +129209,14 @@ When this hits, you may search your deck for a Darkest Hour, banish it, then shu
     "gate-to-iarathael",
   ],
   "setIdentifiers": [
+    "AMA020",
     "IAR169",
   ],
   "sets": [
+    "Armory Deck: Malice",
     "Usurp the Shadow Throne",
   ],
-  "specialImage": "IAR169",
+  "specialImage": "AMA020",
   "subtypes": [
     "Attack",
   ],
@@ -144043,7 +144071,7 @@ exports[`Check for unintentional updates Darkest Hour (darkest-hour-red) vs snap
     "NotClassed",
   ],
   "cost": 2,
-  "defaultImage": "IAR209",
+  "defaultImage": "AMA010",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "You may put a card from your hand on top of your deck rather than pay this card's {r} cost.
@@ -144077,10 +144105,21 @@ Your next Shadow attack this turn gets +4{p}. **Go again**
   "meta": [
     "Deck",
     "Rainbow",
+    "Reprint",
   ],
   "name": "Darkest Hour",
   "pitch": 1,
   "printings": [
+    {
+      "artists": [
+        "Nailsen Ivanderlie",
+      ],
+      "identifier": "AMA010",
+      "image": "AMA010",
+      "print": "AMA010",
+      "rarity": "Common",
+      "set": "Armory Deck: Malice",
+    },
     {
       "artists": [
         "Nailsen Ivanderlie",
@@ -144108,15 +144147,17 @@ Your next Shadow attack this turn gets +4{p}. **Go again**
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "AMA010",
     "IAR209",
   ],
   "sets": [
+    "Armory Deck: Malice",
     "Usurp the Shadow Throne",
   ],
   "shorthands": [
     "Buffs",
   ],
-  "specialImage": "IAR209",
+  "specialImage": "AMA010",
   "subtypes": [
     "Non-Attack",
   ],
@@ -242717,7 +242758,7 @@ exports[`Check for unintentional updates Gate to i'Arathael (gate-to-iarathael) 
   "classes": [
     "NotClassed",
   ],
-  "defaultImage": "SBW034",
+  "defaultImage": "AMA030",
   "firstReleaseDate": "2026-09-18",
   "functionalText": "**Instant** - {r}, destroy this: You may play target action card with blood debt from your banished zone this turn.",
   "legalFormats": [
@@ -242744,6 +242785,16 @@ exports[`Check for unintentional updates Gate to i'Arathael (gate-to-iarathael) 
   ],
   "name": "Gate to i'Arathael",
   "printings": [
+    {
+      "artists": [
+        "Carlos Cruchaga",
+      ],
+      "identifier": "AMA030",
+      "image": "AMA030",
+      "print": "AMA030",
+      "rarity": "Basic",
+      "set": "Armory Deck: Malice",
+    },
     {
       "artists": [
         "Carlos Cruchaga",
@@ -242815,11 +242866,13 @@ exports[`Check for unintentional updates Gate to i'Arathael (gate-to-iarathael) 
   ],
   "rarity": "Basic",
   "setIdentifiers": [
+    "AMA030",
     "FAB507",
     "IAR222",
     "SBW034",
   ],
   "sets": [
+    "Armory Deck: Malice",
     "Promos",
     "Usurp the Shadow Throne",
     "Viserai Between Worlds Silver Age Deck",
@@ -345037,7 +345090,7 @@ exports[`Check for unintentional updates Mark of Ushering (mark-of-ushering-blue
   "createdExtras": [
     "gate-to-iarathael",
   ],
-  "defaultImage": "IAR068",
+  "defaultImage": "AMA028",
   "firstReleaseDate": "2026-09-25",
   "functionalText": "**Binds** to an ally permanent you control.
 
@@ -345061,10 +345114,21 @@ The bound ally gets +1{p} and "Whenever this hits a hero or dies, create a Gate 
   ],
   "meta": [
     "Deck",
+    "Reprint",
   ],
   "name": "Mark of Ushering",
   "pitch": 3,
   "printings": [
+    {
+      "artists": [
+        "Tomasz Jedruszek",
+      ],
+      "identifier": "AMA028",
+      "image": "AMA028",
+      "print": "AMA028",
+      "rarity": "Rare",
+      "set": "Armory Deck: Malice",
+    },
     {
       "artists": [
         "Tomasz Jedruszek",
@@ -345095,12 +345159,14 @@ The bound ally gets +1{p} and "Whenever this hits a hero or dies, create a Gate 
     "gate-to-iarathael",
   ],
   "setIdentifiers": [
+    "AMA028",
     "IAR068",
   ],
   "sets": [
+    "Armory Deck: Malice",
     "Usurp the Shadow Throne",
   ],
-  "specialImage": "IAR068",
+  "specialImage": "AMA028",
   "subtypes": [
     "Aura",
   ],
@@ -378624,7 +378690,7 @@ exports[`Check for unintentional updates Ominous Toll (ominous-toll-red) vs snap
   "createdExtras": [
     "gate-to-iarathael",
   ],
-  "defaultImage": "IAR078",
+  "defaultImage": "AMA007",
   "defense": 2,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "When this attacks, you may discard a zombie. If you do, create a Gate to i'Arathael token.
@@ -378650,11 +378716,22 @@ exports[`Check for unintentional updates Ominous Toll (ominous-toll-red) vs snap
   "meta": [
     "Deck",
     "Rainbow",
+    "Reprint",
   ],
   "name": "Ominous Toll",
   "pitch": 1,
   "power": 3,
   "printings": [
+    {
+      "artists": [
+        "Jefrey Yonathan",
+      ],
+      "identifier": "AMA007",
+      "image": "AMA007",
+      "print": "AMA007",
+      "rarity": "Common",
+      "set": "Armory Deck: Malice",
+    },
     {
       "artists": [
         "Jefrey Yonathan",
@@ -378715,10 +378792,12 @@ exports[`Check for unintentional updates Ominous Toll (ominous-toll-red) vs snap
     "gate-to-iarathael",
   ],
   "setIdentifiers": [
+    "AMA007",
     "GEM198",
     "IAR078",
   ],
   "sets": [
+    "Armory Deck: Malice",
     "GEM",
     "Usurp the Shadow Throne",
   ],
@@ -424485,7 +424564,7 @@ exports[`Check for unintentional updates Pull from Beyond (pull-from-beyond-blue
   "createdExtras": [
     "gate-to-iarathael",
   ],
-  "defaultImage": "IAR214",
+  "defaultImage": "AMA023",
   "defense": 3,
   "firstReleaseDate": "2026-09-18",
   "functionalText": "**Opt 2**
@@ -424522,6 +424601,16 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
   "name": "Pull from Beyond",
   "pitch": 3,
   "printings": [
+    {
+      "artists": [
+        "Marco González",
+      ],
+      "identifier": "AMA023",
+      "image": "AMA023",
+      "print": "AMA023",
+      "rarity": "Common",
+      "set": "Armory Deck: Malice",
+    },
     {
       "artists": [
         "Marco González",
@@ -424578,11 +424667,13 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
     "gate-to-iarathael",
   ],
   "setIdentifiers": [
+    "AMA023",
     "FAB520",
     "IAR214",
     "SBW033",
   ],
   "sets": [
+    "Armory Deck: Malice",
     "Promos",
     "Usurp the Shadow Throne",
     "Viserai Between Worlds Silver Age Deck",
@@ -455371,7 +455462,7 @@ exports[`Check for unintentional updates Restless Looter (restless-looter-red) v
     "Necromancer",
   ],
   "cost": 0,
-  "defaultImage": "IAR063",
+  "defaultImage": "AMA015",
   "firstReleaseDate": "2026-09-25",
   "functionalText": "**Instant** - {t}: Discard a card. If you do, draw a card.
 
@@ -455396,11 +455487,22 @@ exports[`Check for unintentional updates Restless Looter (restless-looter-red) v
   "life": 3,
   "meta": [
     "Deck",
+    "Reprint",
   ],
   "name": "Restless Looter",
   "pitch": 1,
   "power": 3,
   "printings": [
+    {
+      "artists": [
+        "Saad Irfan",
+      ],
+      "identifier": "AMA015",
+      "image": "AMA015",
+      "print": "AMA015",
+      "rarity": "Rare",
+      "set": "Armory Deck: Malice",
+    },
     {
       "artists": [
         "Saad Irfan",
@@ -455433,9 +455535,11 @@ exports[`Check for unintentional updates Restless Looter (restless-looter-red) v
   ],
   "rarity": "Rare",
   "setIdentifiers": [
+    "AMA015",
     "IAR063",
   ],
   "sets": [
+    "Armory Deck: Malice",
     "Usurp the Shadow Throne",
   ],
   "shorthands": [
@@ -455467,7 +455571,7 @@ exports[`Check for unintentional updates Restless Magister (restless-magister-re
     "Necromancer",
   ],
   "cost": 0,
-  "defaultImage": "IAR064",
+  "defaultImage": "AMA016",
   "firstReleaseDate": "2026-09-25",
   "functionalText": "When this hits a hero, they banish a card from their hand.
 
@@ -455492,11 +455596,22 @@ exports[`Check for unintentional updates Restless Magister (restless-magister-re
   "life": 3,
   "meta": [
     "Deck",
+    "Reprint",
   ],
   "name": "Restless Magister",
   "pitch": 1,
   "power": 3,
   "printings": [
+    {
+      "artists": [
+        "Isuardi Therianto",
+      ],
+      "identifier": "AMA016",
+      "image": "AMA016",
+      "print": "AMA016",
+      "rarity": "Rare",
+      "set": "Armory Deck: Malice",
+    },
     {
       "artists": [
         "Isuardi Therianto",
@@ -455529,9 +455644,11 @@ exports[`Check for unintentional updates Restless Magister (restless-magister-re
   ],
   "rarity": "Rare",
   "setIdentifiers": [
+    "AMA016",
     "IAR064",
   ],
   "sets": [
+    "Armory Deck: Malice",
     "Usurp the Shadow Throne",
   ],
   "specialImage": "IAR064-MV",
@@ -455563,7 +455680,7 @@ exports[`Check for unintentional updates Restless Outlaw (restless-outlaw-red) v
   "createdExtras": [
     "corrupted-corpse",
   ],
-  "defaultImage": "IAR086",
+  "defaultImage": "AMA017",
   "firstReleaseDate": "2026-09-25",
   "functionalText": "When this dies, create a Corrupted Corpse in your banished zone.
 
@@ -455588,11 +455705,22 @@ exports[`Check for unintentional updates Restless Outlaw (restless-outlaw-red) v
   "life": 3,
   "meta": [
     "Deck",
+    "Reprint",
   ],
   "name": "Restless Outlaw",
   "pitch": 1,
   "power": 3,
   "printings": [
+    {
+      "artists": [
+        "Kevin Sidharta",
+      ],
+      "identifier": "AMA017",
+      "image": "AMA017",
+      "print": "AMA017",
+      "rarity": "Common",
+      "set": "Armory Deck: Malice",
+    },
     {
       "artists": [
         "Kevin Sidharta",
@@ -455628,9 +455756,11 @@ exports[`Check for unintentional updates Restless Outlaw (restless-outlaw-red) v
     "corrupted-corpse",
   ],
   "setIdentifiers": [
+    "AMA017",
     "IAR086",
   ],
   "sets": [
+    "Armory Deck: Malice",
     "Usurp the Shadow Throne",
   ],
   "specialImage": "IAR086-MV",
@@ -455659,7 +455789,7 @@ exports[`Check for unintentional updates Restless Quartermaster (restless-quarte
     "Necromancer",
   ],
   "cost": 0,
-  "defaultImage": "IAR065",
+  "defaultImage": "AMA018",
   "firstReleaseDate": "2026-09-25",
   "functionalText": "When this hits a hero, they banish a card in their arsenal.
 
@@ -455684,11 +455814,22 @@ exports[`Check for unintentional updates Restless Quartermaster (restless-quarte
   "life": 3,
   "meta": [
     "Deck",
+    "Reprint",
   ],
   "name": "Restless Quartermaster",
   "pitch": 1,
   "power": 3,
   "printings": [
+    {
+      "artists": [
+        "Sebastian Giacobino",
+      ],
+      "identifier": "AMA018",
+      "image": "AMA018",
+      "print": "AMA018",
+      "rarity": "Rare",
+      "set": "Armory Deck: Malice",
+    },
     {
       "artists": [
         "Sebastian Giacobino",
@@ -455721,9 +455862,11 @@ exports[`Check for unintentional updates Restless Quartermaster (restless-quarte
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "AMA018",
     "IAR065",
   ],
   "sets": [
+    "Armory Deck: Malice",
     "Usurp the Shadow Throne",
   ],
   "specialImage": "IAR065-MV",
@@ -525471,7 +525614,7 @@ exports[`Check for unintentional updates Sink Below (sink-below-red) vs snapshot
     "Generic",
   ],
   "cost": 0,
-  "defaultImage": "ASR018",
+  "defaultImage": "AMA008",
   "defense": 4,
   "firstReleaseDate": "2019-10-11",
   "functionalText": "You may put a card from your hand on the bottom of your deck. If you do, draw a card.",
@@ -525582,6 +525725,16 @@ exports[`Check for unintentional updates Sink Below (sink-below-red) vs snapshot
   "name": "Sink Below",
   "pitch": 1,
   "printings": [
+    {
+      "artists": [
+        "Vlad Varlamov",
+      ],
+      "identifier": "AMA008",
+      "image": "AMA008",
+      "print": "AMA008",
+      "rarity": "Rare",
+      "set": "Armory Deck: Malice",
+    },
     {
       "artists": [
         "Vlad Varlamov",
@@ -525798,6 +525951,7 @@ exports[`Check for unintentional updates Sink Below (sink-below-red) vs snapshot
   "rarity": "Common",
   "setIdentifiers": [
     "1HP408",
+    "AMA008",
     "ANQ034",
     "ASB016",
     "ASR018",
@@ -525811,6 +525965,7 @@ exports[`Check for unintentional updates Sink Below (sink-below-red) vs snapshot
   "sets": [
     "Armory Deck: Boltyn",
     "Armory Deck: Ira",
+    "Armory Deck: Malice",
     "Dromai Blitz Deck",
     "History Pack 1",
     "Promos",

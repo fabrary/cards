@@ -82837,6 +82837,69 @@ Cintari Sellsword can only attack if you've attacked with a weapon this turn.`,
   
   
   },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "clambering-corpses-blue",
+    classes: [Class.Necromancer],
+    defaultImage: "AMA021",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Clambering Corpses",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "AMA021",
+      image: "AMA021",
+      
+      
+      print: "AMA021",
+      rarity: Rarity.Majestic,
+      set: Release.ArmoryDeckMalice,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["AMA021"],
+    sets: [Release.ArmoryDeckMalice],
+    specialImage: "AMA021",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `When this attacks, you may discard a zombie. If you do, this gets +3{p} and **go again**.
+
+When this hits a hero, your zombie attacks this turn get **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Mariusz Gandzel"],
     cardIdentifier: "clamp-press-blue",
     classes: [Class.Mechanologist],
@@ -92448,6 +92511,69 @@ Until end of turn, your Warrior attacks get "When this is defended by 1 or more 
   
   
   },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "commit-to-corruption-red",
+    classes: [Class.Necromancer],
+    defaultImage: "AMA009",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Commit to Corruption",
+    printings: [{
+        artists: ["Isuardi Therianto"],
+      
+      identifier: "AMA009",
+      image: "AMA009",
+      
+      
+      print: "AMA009",
+      rarity: Rarity.Rare,
+      set: Release.ArmoryDeckMalice,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["AMA009"],
+    sets: [Release.ArmoryDeckMalice],
+    specialImage: "AMA009",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action",
+
+    
+    
+    cost: 0,createdExtras: ["corrupted-corpse"],
+    defense: 3,
+    
+    functionalText: `Your next attack this turn gets +3{p} and "When this hits, create a Corrupted Corpse in your banished zone."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    referencedCards: ["corrupted-corpse"],
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "companion-of-the-claw-red",
     classes: [Class.Ninja],
@@ -98777,12 +98903,24 @@ When this hits a hero, banish all cards in their arsenal.
     artists: ["Carlos Cruchaga","Jefrey Yonathan","Ramza Ardyputra"],
     cardIdentifier: "corrupted-corpse",
     classes: [Class.Necromancer],
-    defaultImage: "IAR090",
+    defaultImage: "AMA029",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Malice],
     name: "Corrupted Corpse",
     printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "AMA029",
+      image: "AMA029",
+      
+      
+      print: "AMA029",
+      rarity: Rarity.Basic,
+      set: Release.ArmoryDeckMalice,
+      
+      
+    },{
         artists: ["Carlos Cruchaga"],
       
       identifier: "IAR090",
@@ -98845,8 +98983,8 @@ When this hits a hero, banish all cards in their arsenal.
     },],
     rarities: [Rarity.Basic,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["FAB506","IAR090"],
-    sets: [Release.Promos,Release.UsurpTheShadowThrone],
+    setIdentifiers: ["AMA029","FAB506","IAR090"],
+    sets: [Release.ArmoryDeckMalice,Release.Promos,Release.UsurpTheShadowThrone],
     specialImage: "IAR090-RF",
     subtypes: [Subtype.Ally,Subtype.NonAttack,Subtype.Zombie],
     types: [Type.Action],
@@ -98869,7 +99007,7 @@ This card's attacks get **go again**.
     keywords: [Keyword.BloodDebt,Keyword.GoAgain,Keyword.Incarnate],
     
     life: 3,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -100232,12 +100370,24 @@ When this hits, you may search your deck for a Darkest Hour, banish it, then shu
     artists: ["Nailsen Ivanderlie"],
     cardIdentifier: "countdown-to-extinction-blue",
     classes: [Class.NotClassed],
-    defaultImage: "IAR169",
+    defaultImage: "AMA020",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
     name: "Countdown to Extinction",
     printings: [{
+        artists: ["Nailsen Ivanderlie"],
+      
+      identifier: "AMA020",
+      image: "AMA020",
+      
+      
+      print: "AMA020",
+      rarity: Rarity.Rare,
+      set: Release.ArmoryDeckMalice,
+      
+      
+    },{
         artists: ["Nailsen Ivanderlie"],
       
       identifier: "IAR169",
@@ -100264,9 +100414,9 @@ When this hits, you may search your deck for a Darkest Hour, banish it, then shu
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["IAR169"],
-    sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR169",
+    setIdentifiers: ["AMA020","IAR169"],
+    sets: [Release.ArmoryDeckMalice,Release.UsurpTheShadowThrone],
+    specialImage: "AMA020",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Action - Attack",
@@ -100288,7 +100438,7 @@ When this hits, you may search your deck for a Darkest Hour, banish it, then shu
     keywords: [Keyword.BloodDebt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -111227,12 +111377,24 @@ Prevent the next X arcane damage that would be dealt to you this turn, where X i
     artists: ["Nailsen Ivanderlie"],
     cardIdentifier: "darkest-hour-red",
     classes: [Class.NotClassed],
-    defaultImage: "IAR209",
+    defaultImage: "AMA010",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
     name: "Darkest Hour",
     printings: [{
+        artists: ["Nailsen Ivanderlie"],
+      
+      identifier: "AMA010",
+      image: "AMA010",
+      
+      
+      print: "AMA010",
+      rarity: Rarity.Common,
+      set: Release.ArmoryDeckMalice,
+      
+      
+    },{
         artists: ["Nailsen Ivanderlie"],
       
       identifier: "IAR209",
@@ -111259,9 +111421,9 @@ Prevent the next X arcane damage that would be dealt to you this turn, where X i
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["IAR209"],
-    sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR209",
+    setIdentifiers: ["AMA010","IAR209"],
+    sets: [Release.ArmoryDeckMalice,Release.UsurpTheShadowThrone],
+    specialImage: "AMA010",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Action",
@@ -111283,7 +111445,7 @@ Your next Shadow attack this turn gets +4{p}. **Go again**
     keywords: [Keyword.BloodDebt,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -132099,6 +132261,69 @@ If you've played a red card this turn, your dragon attacks get **go again**.`,
     
     
     
+  
+  
+  },{
+    artists: ["Ilham Bahtiar"],
+    cardIdentifier: "drop-dead-bodice",
+    classes: [Class.Necromancer],
+    defaultImage: "AMA004-RF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice,Hero.Taylor],
+    name: "Drop Dead Bodice",
+    printings: [{
+        artists: ["Ilham Bahtiar"],
+      foiling: Foiling.Rainbow,
+      identifier: "AMA004",
+      image: "AMA004-RF",
+      
+      
+      print: "AMA004-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.ArmoryDeckMalice,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["AMA004"],
+    sets: [Release.ArmoryDeckMalice],
+    specialImage: "AMA004-RF",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Shadow Necromancer Equipment - Chest",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `**Instant** - Destroy this: Until end of turn, whenever a zombie is put into your graveyard, gain {r}.
+
+**Arcane Barrier 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.ArcaneBarrier],
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
   
   
   },{
@@ -159662,7 +159887,8 @@ Target attack gets +1{p}.
     
   
   
-  },{
+  }];
+const cards3: Card[] = [{
     artists: ["Phu Thieu"],
     cardIdentifier: "exude-confidence-red",
     classes: [Class.Generic],
@@ -159933,8 +160159,7 @@ When this is pitched, **opt 2**.`,
     
   
   
-  }];
-const cards3: Card[] = [{
+  },{
     artists: ["Andrew Chou"],
     cardIdentifier: "fabric-of-hope-red",
     classes: [Class.Generic],
@@ -186244,12 +186469,24 @@ You may put a Hyper Driver from your banished zone into the arena.
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "gate-to-iarathael",
     classes: [Class.NotClassed],
-    defaultImage: "SBW034",
+    defaultImage: "AMA030",
     firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
     name: "Gate to i'Arathael",
     printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "AMA030",
+      image: "AMA030",
+      
+      
+      print: "AMA030",
+      rarity: Rarity.Basic,
+      set: Release.ArmoryDeckMalice,
+      
+      
+    },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Cold,
       identifier: "IAR222",
@@ -186306,8 +186543,8 @@ You may put a Hyper Driver from your banished zone into the arena.
     },],
     rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["FAB507","IAR222","SBW034"],
-    sets: [Release.Promos,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
+    setIdentifiers: ["AMA030","FAB507","IAR222","SBW034"],
+    sets: [Release.ArmoryDeckMalice,Release.Promos,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR222-MV",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -240930,7 +241167,8 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
     
   
   
-  },{
+  }];
+const cards4: Card[] = [{
     artists: ["Shen Fei"],
     cardIdentifier: "isolate-blue",
     classes: [Class.Assassin],
@@ -241294,8 +241532,7 @@ Whenever you play an Ice card during an opponent's turn, create a Frostbite toke
     talents: [Talent.Elemental,Talent.Ice],
   
   
-  }];
-const cards4: Card[] = [{
+  },{
     artists: ["Jackson Tjota"],
     cardIdentifier: "jack-be-nimble-red",
     classes: [Class.Generic],
@@ -267020,12 +267257,24 @@ If this is attacking a **marked** hero, this gets +1{p}.`,
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "mark-of-ushering-blue",
     classes: [Class.Necromancer],
-    defaultImage: "IAR068",
+    defaultImage: "AMA028",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Malice],
     name: "Mark of Ushering",
     printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "AMA028",
+      image: "AMA028",
+      
+      
+      print: "AMA028",
+      rarity: Rarity.Rare,
+      set: Release.ArmoryDeckMalice,
+      
+      
+    },{
         artists: ["Tomasz Jedruszek"],
       
       identifier: "IAR068",
@@ -267052,9 +267301,9 @@ If this is attacking a **marked** hero, this gets +1{p}.`,
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["IAR068"],
-    sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR068",
+    setIdentifiers: ["AMA028","IAR068"],
+    sets: [Release.ArmoryDeckMalice,Release.UsurpTheShadowThrone],
+    specialImage: "AMA028",
     subtypes: [Subtype.Aura],
     types: [Type.Instant],
     typeText: "Shadow Necromancer Instant - Aura",
@@ -267074,7 +267323,7 @@ The bound ally gets +1{p} and "Whenever this hits a hero or dies, create a Gate 
     keywords: [Keyword.Binds],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -291358,12 +291607,24 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
     artists: ["Jefrey Yonathan"],
     cardIdentifier: "ominous-toll-red",
     classes: [Class.Necromancer],
-    defaultImage: "IAR078",
+    defaultImage: "AMA007",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Malice],
     name: "Ominous Toll",
     printings: [{
+        artists: ["Jefrey Yonathan"],
+      
+      identifier: "AMA007",
+      image: "AMA007",
+      
+      
+      print: "AMA007",
+      rarity: Rarity.Common,
+      set: Release.ArmoryDeckMalice,
+      
+      
+    },{
         artists: ["Jefrey Yonathan"],
       
       identifier: "IAR078",
@@ -291414,8 +291675,8 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["GEM198","IAR078"],
-    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    setIdentifiers: ["AMA007","GEM198","IAR078"],
+    sets: [Release.ArmoryDeckMalice,Release.GEM,Release.UsurpTheShadowThrone],
     specialImage: "GEM198",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -291436,7 +291697,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -294287,6 +294548,69 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
     talents: [Talent.Lightning],
   
   young: true
+  },{
+    artists: ["Ausonia"],
+    cardIdentifier: "otherworldly-ossuary-blue",
+    classes: [Class.Necromancer],
+    defaultImage: "AMA022",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Otherworldly Ossuary",
+    printings: [{
+        artists: ["Ausonia"],
+      
+      identifier: "AMA022",
+      image: "AMA022",
+      
+      
+      print: "AMA022",
+      rarity: Rarity.Rare,
+      set: Release.ArmoryDeckMalice,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["AMA022"],
+    sets: [Release.ArmoryDeckMalice],
+    specialImage: "AMA022",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action",
+
+    
+    
+    cost: 1,createdExtras: ["corrupted-corpse"],
+    defense: 3,
+    
+    functionalText: `Create a Corrupted Corpse in your banished zone.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    referencedCards: ["corrupted-corpse"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
   },{
     artists: ["Tommy Suhartono"],
     cardIdentifier: "otherworldly-sins-red",
@@ -322700,7 +323024,8 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Surya Prasetya"],
     cardIdentifier: "prizeworn-pathfinders",
     classes: [Class.Guardian,Class.Warrior],
@@ -323032,8 +323357,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "proclamation-of-combat",
     classes: [Class.Adjudicator],
@@ -325927,12 +326251,24 @@ Banish the top card of your deck. If it's yellow, create a Gate to i'Arathael to
     artists: ["Marco González"],
     cardIdentifier: "pull-from-beyond-blue",
     classes: [Class.NotClassed],
-    defaultImage: "IAR214",
+    defaultImage: "AMA023",
     firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
     name: "Pull from Beyond",
     printings: [{
+        artists: ["Marco González"],
+      
+      identifier: "AMA023",
+      image: "AMA023",
+      
+      
+      print: "AMA023",
+      rarity: Rarity.Common,
+      set: Release.ArmoryDeckMalice,
+      
+      
+    },{
         artists: ["Marco González"],
       
       identifier: "IAR214",
@@ -325983,8 +326319,8 @@ Banish the top card of your deck. If it's yellow, create a Gate to i'Arathael to
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["FAB520","IAR214","SBW033"],
-    sets: [Release.Promos,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
+    setIdentifiers: ["AMA023","FAB520","IAR214","SBW033"],
+    sets: [Release.ArmoryDeckMalice,Release.Promos,Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "FAB520-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -348555,12 +348891,24 @@ At the start of your turn, destroy this and draw a card.`,
     artists: ["Saad Irfan"],
     cardIdentifier: "restless-looter-red",
     classes: [Class.Necromancer],
-    defaultImage: "IAR063",
+    defaultImage: "AMA015",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Malice],
     name: "Restless Looter",
     printings: [{
+        artists: ["Saad Irfan"],
+      
+      identifier: "AMA015",
+      image: "AMA015",
+      
+      
+      print: "AMA015",
+      rarity: Rarity.Rare,
+      set: Release.ArmoryDeckMalice,
+      
+      
+    },{
         artists: ["Saad Irfan"],
       
       identifier: "IAR063",
@@ -348587,8 +348935,8 @@ At the start of your turn, destroy this and draw a card.`,
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["IAR063"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["AMA015","IAR063"],
+    sets: [Release.ArmoryDeckMalice,Release.UsurpTheShadowThrone],
     specialImage: "IAR063-MV",
     subtypes: [Subtype.Ally,Subtype.NonAttack,Subtype.Zombie],
     types: [Type.Action],
@@ -348609,7 +348957,7 @@ At the start of your turn, destroy this and draw a card.`,
     keywords: [Keyword.Decay],
     
     life: 3,
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -348630,12 +348978,24 @@ At the start of your turn, destroy this and draw a card.`,
     artists: ["Isuardi Therianto"],
     cardIdentifier: "restless-magister-red",
     classes: [Class.Necromancer],
-    defaultImage: "IAR064",
+    defaultImage: "AMA016",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Malice],
     name: "Restless Magister",
     printings: [{
+        artists: ["Isuardi Therianto"],
+      
+      identifier: "AMA016",
+      image: "AMA016",
+      
+      
+      print: "AMA016",
+      rarity: Rarity.Rare,
+      set: Release.ArmoryDeckMalice,
+      
+      
+    },{
         artists: ["Isuardi Therianto"],
       
       identifier: "IAR064",
@@ -348662,8 +349022,8 @@ At the start of your turn, destroy this and draw a card.`,
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["IAR064"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["AMA016","IAR064"],
+    sets: [Release.ArmoryDeckMalice,Release.UsurpTheShadowThrone],
     specialImage: "IAR064-MV",
     subtypes: [Subtype.Ally,Subtype.NonAttack,Subtype.Zombie],
     types: [Type.Action],
@@ -348684,7 +349044,7 @@ At the start of your turn, destroy this and draw a card.`,
     keywords: [Keyword.Decay],
     
     life: 3,
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -348705,12 +349065,24 @@ At the start of your turn, destroy this and draw a card.`,
     artists: ["Kevin Sidharta"],
     cardIdentifier: "restless-outlaw-red",
     classes: [Class.Necromancer],
-    defaultImage: "IAR086",
+    defaultImage: "AMA017",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Malice],
     name: "Restless Outlaw",
     printings: [{
+        artists: ["Kevin Sidharta"],
+      
+      identifier: "AMA017",
+      image: "AMA017",
+      
+      
+      print: "AMA017",
+      rarity: Rarity.Common,
+      set: Release.ArmoryDeckMalice,
+      
+      
+    },{
         artists: ["Kevin Sidharta"],
       
       identifier: "IAR086",
@@ -348737,8 +349109,8 @@ At the start of your turn, destroy this and draw a card.`,
     },],
     rarities: [Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Common,
-    setIdentifiers: ["IAR086"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["AMA017","IAR086"],
+    sets: [Release.ArmoryDeckMalice,Release.UsurpTheShadowThrone],
     specialImage: "IAR086-MV",
     subtypes: [Subtype.Ally,Subtype.NonAttack,Subtype.Zombie],
     types: [Type.Action],
@@ -348759,7 +349131,7 @@ At the start of your turn, destroy this and draw a card.`,
     keywords: [Keyword.Decay],
     
     life: 3,
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -348780,12 +349152,24 @@ At the start of your turn, destroy this and draw a card.`,
     artists: ["Sebastian Giacobino"],
     cardIdentifier: "restless-quartermaster-red",
     classes: [Class.Necromancer],
-    defaultImage: "IAR065",
+    defaultImage: "AMA018",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Malice],
     name: "Restless Quartermaster",
     printings: [{
+        artists: ["Sebastian Giacobino"],
+      
+      identifier: "AMA018",
+      image: "AMA018",
+      
+      
+      print: "AMA018",
+      rarity: Rarity.Rare,
+      set: Release.ArmoryDeckMalice,
+      
+      
+    },{
         artists: ["Sebastian Giacobino"],
       
       identifier: "IAR065",
@@ -348812,8 +349196,8 @@ At the start of your turn, destroy this and draw a card.`,
     },],
     rarities: [Rarity.Common,Rarity.Rare],
     rarity: Rarity.Common,
-    setIdentifiers: ["IAR065"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["AMA018","IAR065"],
+    sets: [Release.ArmoryDeckMalice,Release.UsurpTheShadowThrone],
     specialImage: "IAR065-MV",
     subtypes: [Subtype.Ally,Subtype.NonAttack,Subtype.Zombie],
     types: [Type.Action],
@@ -348825,6 +349209,69 @@ At the start of your turn, destroy this and draw a card.`,
     
     
     functionalText: `When this hits a hero, they banish a card in their arsenal.
+
+**Decay**`,
+    
+    
+    
+    
+    keywords: [Keyword.Decay],
+    
+    life: 3,
+    meta: [Meta.Deck,Meta.Reprint],
+  
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Stormy Elia Fanggidae"],
+    cardIdentifier: "restless-steed-red",
+    classes: [Class.Necromancer],
+    defaultImage: "AMA019",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Restless Steed",
+    printings: [{
+        artists: ["Stormy Elia Fanggidae"],
+      
+      identifier: "AMA019",
+      image: "AMA019",
+      
+      
+      print: "AMA019",
+      rarity: Rarity.Common,
+      set: Release.ArmoryDeckMalice,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["AMA019"],
+    sets: [Release.ArmoryDeckMalice],
+    specialImage: "AMA019",
+    subtypes: [Subtype.Ally,Subtype.NonAttack,Subtype.Zombie],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Zombie Ally",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `When this hits, the attack gets **go again**.
 
 **Decay**`,
     
@@ -358440,6 +358887,69 @@ If you've dealt arcane damage this turn, this gets **go again**.`,
     
     
     talents: [Talent.Elemental],
+  
+  
+  },{
+    artists: ["Esty Swandana"],
+    cardIdentifier: "rites-of-nightfall-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "AMA024",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Rites of Nightfall",
+    printings: [{
+        artists: ["Esty Swandana"],
+      
+      identifier: "AMA024",
+      image: "AMA024",
+      
+      
+      print: "AMA024",
+      rarity: Rarity.Rare,
+      set: Release.ArmoryDeckMalice,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["AMA024"],
+    sets: [Release.ArmoryDeckMalice],
+    specialImage: "AMA024",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    
+    
+    cost: 1,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `Create a Gate to i'Arathael token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    referencedCards: ["gate-to-iarathael"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
   
   
   },{
@@ -387519,6 +388029,69 @@ If 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 
   
   
   },{
+    artists: ["Hansen Oni"],
+    cardIdentifier: "shadowrealm-solace-blue",
+    classes: [Class.Necromancer],
+    defaultImage: "AMA025",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Shadowrealm Solace",
+    printings: [{
+        artists: ["Hansen Oni"],
+      
+      identifier: "AMA025",
+      image: "AMA025",
+      
+      
+      print: "AMA025",
+      rarity: Rarity.Common,
+      set: Release.ArmoryDeckMalice,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["AMA025"],
+    sets: [Release.ArmoryDeckMalice],
+    specialImage: "AMA025",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `You may put a card from your banished zone into your graveyard. If it's a zombie, gain 1{h}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Surya Prasetya"],
     cardIdentifier: "shadowrealm-strength-red",
     classes: [Class.Necromancer],
@@ -402676,12 +403249,24 @@ Target weapon attack gets +1{p}.
     artists: ["Kimberly Pantoni","Simon Dominic","Tomasz Jedruszek","Vlad Varlamov"],
     cardIdentifier: "sink-below-red",
     classes: [Class.Generic],
-    defaultImage: "ASR018",
+    defaultImage: "AMA008",
     firstReleaseDate: "2019-10-11",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Sink Below",
     printings: [{
+        artists: ["Vlad Varlamov"],
+      
+      identifier: "AMA008",
+      image: "AMA008",
+      
+      
+      print: "AMA008",
+      rarity: Rarity.Rare,
+      set: Release.ArmoryDeckMalice,
+      
+      
+    },{
         artists: ["Vlad Varlamov"],
       
       identifier: "ASR018",
@@ -402876,8 +403461,8 @@ Target weapon attack gets +1{p}.
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
-    setIdentifiers: ["1HP408","ANQ034","ASB016","ASR018","DRO028","FAB332","FAB359","FAB515","JDG020","WTR215"],
-    sets: [Release.ArmoryDeckBoltyn,Release.ArmoryDeckIra,Release.DromaiBlitzDeck,Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
+    setIdentifiers: ["1HP408","AMA008","ANQ034","ASB016","ASR018","DRO028","FAB332","FAB359","FAB515","JDG020","WTR215"],
+    sets: [Release.ArmoryDeckBoltyn,Release.ArmoryDeckIra,Release.ArmoryDeckMalice,Release.DromaiBlitzDeck,Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "FAB515-CF",
     subtypes: [],
     types: [Type.DefenseReaction],
@@ -403037,7 +403622,8 @@ Target weapon attack gets +1{p}.
     
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Vlad Varlamov"],
     cardIdentifier: "sink-below-blue",
     classes: [Class.Generic],
@@ -403667,8 +404253,7 @@ If this was played from your banished zone, it gets "When this attacks, you may 
     
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Andrew Chou"],
     cardIdentifier: "sisters-of-fire-red",
     classes: [Class.Warrior],
@@ -404082,6 +404667,136 @@ Target dagger attack gets +3{p}.`,
     
     
     talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["Mark Poole"],
+    cardIdentifier: "skeletal-puppetry-red",
+    classes: [Class.Necromancer],
+    defaultImage: "AMA013",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Frankie,Hero.GravyBones,Hero.Malice],
+    name: "Skeletal Puppetry",
+    printings: [{
+        artists: ["Mark Poole"],
+      
+      identifier: "AMA013",
+      image: "AMA013",
+      
+      
+      print: "AMA013",
+      rarity: Rarity.Rare,
+      set: Release.ArmoryDeckMalice,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["AMA013"],
+    sets: [Release.ArmoryDeckMalice],
+    specialImage: "AMA013",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Necromancer Action",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `You may discard an ally rather than pay this card's {r} cost.
+
+Your next ally attack this turn gets +3{p} and **go again**.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Mark Poole"],
+    cardIdentifier: "skeletal-puppetry-blue",
+    classes: [Class.Necromancer],
+    defaultImage: "AMA027",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Frankie,Hero.GravyBones,Hero.Malice],
+    name: "Skeletal Puppetry",
+    printings: [{
+        artists: ["Mark Poole"],
+      
+      identifier: "AMA027",
+      image: "AMA027",
+      
+      
+      print: "AMA027",
+      rarity: Rarity.Rare,
+      set: Release.ArmoryDeckMalice,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["AMA027"],
+    sets: [Release.ArmoryDeckMalice],
+    specialImage: "AMA027",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Necromancer Action",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `You may discard an ally rather than pay this card's {r} cost.
+
+Your next ally attack this turn gets +1{p} and **go again**.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
@@ -481857,7 +482572,8 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
     talents: [Talent.Light],
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Silvia Meiliani"],
     cardIdentifier: "valiant-thrust-yellow",
     classes: [Class.Warrior],
@@ -482741,8 +483457,7 @@ When this defends, you may pay {r}. If you do, it gets +1{d} and **blade break**
     talents: [Talent.Shadow],
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Muhammad Fajri"],
     cardIdentifier: "vantom-wraith-red",
     classes: [Class.Runeblade],
