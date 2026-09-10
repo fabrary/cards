@@ -5546,6 +5546,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/dam-the-shadowake-red</loc>
+    <lastmod>2026-09-10</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/dam-the-shadowake-yellow</loc>
+    <lastmod>2026-09-10</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/dam-the-shadowake-blue</loc>
+    <lastmod>2026-09-10</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/dampen-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -5573,6 +5588,11 @@
   <url>
     <loc>https://fabrary.net/cards/danse-macabre</loc>
     <lastmod>2026-08-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/dark-arcanite-boots</loc>
+    <lastmod>2026-09-10</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -8098,6 +8118,11 @@
   <url>
     <loc>https://fabrary.net/cards/falcon-wing-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/fallen-herald-yellow</loc>
+    <lastmod>2026-09-10</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -17313,6 +17338,11 @@
   <url>
     <loc>https://fabrary.net/cards/restless-quartermaster-red</loc>
     <lastmod>2026-08-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/restless-shieldmaiden-red</loc>
+    <lastmod>2026-09-10</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

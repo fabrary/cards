@@ -4362,6 +4362,225 @@ When this hits a hero, they banish a card from their hand.
   
   
   },{
+    artists: ["Petrinda Wiyugo"],
+    cardIdentifier: "dam-the-shadowake-red",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR218",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Dam the Shadowake",
+    printings: [{
+        artists: ["Petrinda Wiyugo"],
+      
+      identifier: "IAR218",
+      image: "IAR218",
+      
+      
+      print: "IAR218",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Petrinda Wiyugo"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR218",
+      image: "IAR218-RF",
+      
+      
+      print: "IAR218-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR218"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR218",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Shadow Block",
+
+    
+    
+    createdExtras: ["gate-to-iarathael"],
+    defense: 4,
+    
+    functionalText: `When this defends a Shadow hero's attack, create a Gate to i'Arathael token.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    referencedCards: ["gate-to-iarathael"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Petrinda Wiyugo"],
+    cardIdentifier: "dam-the-shadowake-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR219",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Dam the Shadowake",
+    printings: [{
+        artists: ["Petrinda Wiyugo"],
+      
+      identifier: "IAR219",
+      image: "IAR219",
+      
+      
+      print: "IAR219",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Petrinda Wiyugo"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR219",
+      image: "IAR219-RF",
+      
+      
+      print: "IAR219-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR219"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR219",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Shadow Block",
+
+    
+    
+    createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `When this defends a Shadow hero's attack, create a Gate to i'Arathael token.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    referencedCards: ["gate-to-iarathael"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Petrinda Wiyugo"],
+    cardIdentifier: "dam-the-shadowake-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR220",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Dam the Shadowake",
+    printings: [{
+        artists: ["Petrinda Wiyugo"],
+      
+      identifier: "IAR220",
+      image: "IAR220",
+      
+      
+      print: "IAR220",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Petrinda Wiyugo"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR220",
+      image: "IAR220-RF",
+      
+      
+      print: "IAR220-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR220"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR220",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Shadow Block",
+
+    
+    
+    createdExtras: ["gate-to-iarathael"],
+    defense: 2,
+    
+    functionalText: `When this defends a Shadow hero's attack, create a Gate to i'Arathael token.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    referencedCards: ["gate-to-iarathael"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Amtepra"],
     cardIdentifier: "danse-macabre",
     classes: [Class.Necromancer],
@@ -4426,6 +4645,79 @@ When this hits a hero, they banish a card from their hand.
     
     
     shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["M Fakhrur Rozzi"],
+    cardIdentifier: "dark-arcanite-boots",
+    classes: [Class.Generic],
+    defaultImage: "IAR227",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    name: "Dark Arcanite Boots",
+    printings: [{
+        artists: ["M Fakhrur Rozzi"],
+      
+      identifier: "IAR227",
+      image: "IAR227",
+      
+      
+      print: "IAR227",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["M Fakhrur Rozzi"],
+      foiling: Foiling.Cold,
+      identifier: "IAR227",
+      image: "IAR227-CF",
+      
+      
+      print: "IAR227-Cold",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR227"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR227-CF",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Legs",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `**Shadow Resist 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.ShadowResist],
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
+    
+    
     
     
     
@@ -5567,6 +5859,81 @@ You may play an aura with Runechant in its name from your banished zone this tur
     
     
     
+  
+  
+  },{
+    artists: ["Livia Prima"],
+    cardIdentifier: "fallen-herald-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR165",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Fallen Herald",
+    printings: [{
+        artists: ["Livia Prima"],
+      
+      identifier: "IAR165",
+      image: "IAR165",
+      
+      
+      print: "IAR165",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Livia Prima"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR165",
+      image: "IAR165-RF",
+      
+      
+      print: "IAR165-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR165"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR165",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 2,
+    
+    
+    functionalText: `**Instant** - Banish this from your hand: Prevent the next 4 damage that would be dealt to you this turn.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 2,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
   
   
   },{
@@ -9462,6 +9829,81 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
     
     life: 3,
     meta: [Meta.Deck,Meta.Reprint],
+  
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "restless-shieldmaiden-red",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR088",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Restless Shieldmaiden",
+    printings: [{
+        artists: ["Joseph Qiu"],
+      
+      identifier: "IAR088",
+      image: "IAR088",
+      
+      
+      print: "IAR088",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Joseph Qiu"],
+      foiling: Foiling.Cold,
+      identifier: "IAR088",
+      image: "IAR088-MV",
+      
+      
+      print: "IAR088-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },],
+    rarities: [Rarity.Common,Rarity.Marvel],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR088"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR088-MV",
+    subtypes: [Subtype.Ally,Subtype.NonAttack,Subtype.Zombie],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Zombie Ally",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `**Shadow Resist 1**
+
+**Decay**`,
+    
+    
+    
+    
+    keywords: [Keyword.Decay,Keyword.ShadowResist],
+    
+    life: 3,
+    meta: [Meta.Deck],
   
     
     pitch: 1,

@@ -119232,6 +119232,101 @@ Until end of turn, your Warrior attacks get "When this is defended by 1 or more 
 }
 `;
 
+exports[`Check for unintentional updates Commit to Corruption (commit-to-corruption-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "commit-to-corruption-blue",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "corrupted-corpse",
+  ],
+  "defaultImage": "IAR062",
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "Your next attack this turn gets +1{p} and "When this hits, create a Corrupted Corpse in your banished zone."
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "life": 3,
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Commit to Corruption",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Isuardi Therianto",
+      ],
+      "identifier": "IAR062",
+      "image": "IAR062",
+      "print": "IAR062",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Isuardi Therianto",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR062",
+      "image": "IAR062-RF",
+      "print": "IAR062-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "referencedCards": [
+    "corrupted-corpse",
+  ],
+  "setIdentifiers": [
+    "IAR062",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "IAR062",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Commit to Corruption (commit-to-corruption-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -119328,6 +119423,101 @@ exports[`Check for unintentional updates Commit to Corruption (commit-to-corrupt
     "Buffs",
   ],
   "specialImage": "AMA009",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Commit to Corruption (commit-to-corruption-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "commit-to-corruption-yellow",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "corrupted-corpse",
+  ],
+  "defaultImage": "IAR061",
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "Your next attack this turn gets +2{p} and "When this hits, create a Corrupted Corpse in your banished zone."
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "life": 3,
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Commit to Corruption",
+  "pitch": 2,
+  "printings": [
+    {
+      "artists": [
+        "Isuardi Therianto",
+      ],
+      "identifier": "IAR061",
+      "image": "IAR061",
+      "print": "IAR061",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Isuardi Therianto",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR061",
+      "image": "IAR061-RF",
+      "print": "IAR061-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "referencedCards": [
+    "corrupted-corpse",
+  ],
+  "setIdentifiers": [
+    "IAR061",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "IAR061",
   "subtypes": [
     "Non-Attack",
   ],
@@ -528383,6 +528573,96 @@ Your next ally attack this turn gets +3{p} and **go again**.
     "Buffs",
   ],
   "specialImage": "AMA013",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Necromancer Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Skeletal Puppetry (skeletal-puppetry-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mark Poole",
+  ],
+  "cardIdentifier": "skeletal-puppetry-yellow",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR095",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "You may discard an ally rather than pay this card's {r} cost.
+
+Your next ally attack this turn gets +2{p} and **go again**.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Frankie",
+    "Gravy Bones",
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Skeletal Puppetry",
+  "pitch": 2,
+  "printings": [
+    {
+      "artists": [
+        "Mark Poole",
+      ],
+      "identifier": "IAR095",
+      "image": "IAR095",
+      "print": "IAR095",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Mark Poole",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR095",
+      "image": "IAR095-RF",
+      "print": "IAR095-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR095",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "IAR095",
   "subtypes": [
     "Non-Attack",
   ],

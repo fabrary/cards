@@ -588,6 +588,7 @@ export enum Keyword {
   RuneGate = "Rune Gate",
   Rupture = "Rupture",
   Scrap = "Scrap",
+  ShadowResist = "Shadow Resist",
   Sharpen = "Sharpen",
   Solflare = "Solflare",
   Specialization = "Specialization",
