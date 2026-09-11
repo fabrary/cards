@@ -495763,7 +495763,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
     defaultImage: "IAR106_BACK",
     firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Viserai],
+    legalHeroes: [Hero.Viserai2],
     name: "Viserai, Usurper",
     printings: [{
         artists: ["Nathaniel Himawan"],
@@ -495844,7 +495844,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
 
 At the beginning of each end phase, if you've created or activated a Gate to i'Arathael this turn, you may **traverse**.`,
     
-    hero: Hero.Viserai,
+    hero: Hero.Viserai2,
     intellect: 4,
     isCardBack: true,
     keywords: [Keyword.GoAgain,Keyword.Traverse],
