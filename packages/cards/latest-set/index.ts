@@ -5155,7 +5155,7 @@ When this hits a hero, banish all cards in their arsenal.
   
   
   },{
-    artists: ["Carlos Cruchaga","Jefrey Yonathan","Ramza Ardyputra"],
+    artists: ["Carlos Cruchaga","Jefrey Yonathan","Ramza Ardyputra","Sebastian Giacobino"],
     cardIdentifier: "corrupted-corpse",
     classes: [Class.Necromancer],
     defaultImage: "IAR090",
@@ -5196,7 +5196,7 @@ When this hits a hero, banish all cards in their arsenal.
     },],
     rarities: [Rarity.Basic,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["AMA029","FAB506","IAR090"],
+    setIdentifiers: ["AMA029","FAB506","FAB514","IAR090"],
     sets: [Release.ArmoryDeckMalice,Release.Promos,Release.UsurpTheShadowThrone],
     specialImage: "IAR090-RF",
     subtypes: [Subtype.Ally,Subtype.NonAttack,Subtype.Zombie],

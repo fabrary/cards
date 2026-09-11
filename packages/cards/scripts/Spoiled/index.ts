@@ -1,4 +1,5 @@
 import { PreliminaryCard } from "../Shared/preliminary-card";
+import { additionalPrintingsByCardIdentifier } from "./additional-printings";
 import { mapCSV } from "./mapper";
 import { parseCSV, ParsedCard } from "./parser";
 import {
@@ -48,6 +49,19 @@ const parsedSpoiledPromoAndGemCards = (
 const spoiledPromoCards: PreliminaryCard[] = mapCSV(
   parsedSpoiledPromoAndGemCards,
 );
+
+const spoiledCardIdentifiers = new Set(
+  [...spoiledSetCards, ...spoiledPromoCards].map(
+    ({ cardIdentifier }) => cardIdentifier,
+  ),
+);
+for (const cardIdentifier of Object.keys(additionalPrintingsByCardIdentifier)) {
+  if (!spoiledCardIdentifiers.has(cardIdentifier)) {
+    throw new Error(
+      `Additional printings are listed for ${cardIdentifier}, which no spoiled card matches`,
+    );
+  }
+}
 
 const deduplicatedCards: PreliminaryCard[] = [];
 

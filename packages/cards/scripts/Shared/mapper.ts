@@ -330,8 +330,9 @@ export interface PrintCollision {
 // A print is the key every later merge treats as a printing's identity, and
 // printings-with-tcgplayer.json is keyed by it, so two printings of one card sharing a
 // print silently become one. That happens when the sheets give a card several arts
-// that agree on identifier, foiling and treatments, which the print string can only
-// tell apart through the suffix overrides in the types package.
+// that agree on identifier, foiling and treatments, and whose images carry no art
+// letter to tell them apart: the print takes its suffix from the letter an image ends
+// in, after an optional MV, RF or CF finish token.
 export const getPrintCollisions = (
   cards: PreliminaryCard[],
 ): PrintCollision[] => {
@@ -372,7 +373,7 @@ export const assertPrintsAreUnique = (cardsBySource: {
 
   if (collisionDescriptions.length) {
     throw new Error(
-      `Print collisions found (${collisionDescriptions.length}). Every printing but the first is dropped when the sources are merged, so give each one a distinct print by adding its image to suffixOverrides in packages/types/src/helpers/printings.ts:\n${collisionDescriptions.join("\n")}`,
+      `Print collisions found (${collisionDescriptions.length}). Every printing but the first is dropped when the sources are merged, so each one needs a distinct print. A print's suffix is the art letter its image ends in, after an optional MV, RF or CF finish token, so check the images against artLetterMatcher in packages/types/src/helpers/printings.ts, and add an image whose trailing marker is not an art letter to suffixOverrides in the same file:\n${collisionDescriptions.join("\n")}`,
     );
   }
 };

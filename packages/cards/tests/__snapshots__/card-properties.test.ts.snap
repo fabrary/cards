@@ -28005,7 +28005,7 @@ exports[`Check for unintentional updates Aurora (aurora) vs snapshot 1`] = `
       "foiling": "Cold",
       "identifier": "ROS008",
       "image": "ROS008-MVA",
-      "print": "ROS008-Cold-Alternate Art",
+      "print": "ROS008-Cold-Alternate Art-A",
       "rarity": "Marvel",
       "set": "Rosetta",
       "tcgplayer": {
@@ -28043,7 +28043,7 @@ exports[`Check for unintentional updates Aurora (aurora) vs snapshot 1`] = `
       "foiling": "Cold",
       "identifier": "ROS008",
       "image": "ROS008-MVA_BACK",
-      "print": "ROS008-Cold-Alternate Art-Full Art-Back-V3",
+      "print": "ROS008-Cold-Alternate Art-Full Art-Back-A",
       "rarity": "Marvel",
       "set": "Rosetta",
       "tcgplayer": {
@@ -129181,6 +129181,7 @@ exports[`Check for unintentional updates Corrupted Corpse (corrupted-corpse) vs 
     "Carlos Cruchaga",
     "Jefrey Yonathan",
     "Ramza Ardyputra",
+    "Sebastian Giacobino",
   ],
   "cardIdentifier": "corrupted-corpse",
   "classes": [
@@ -129269,12 +129270,172 @@ This card's attacks get **go again**.
     },
     {
       "artists": [
+        "Sebastian Giacobino",
+      ],
+      "foiling": "Cold",
+      "identifier": "FAB514",
+      "image": "FAB514-MVA",
+      "print": "FAB514-Cold-Alternate Art-Full Art-A",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+        "Full Art",
+      ],
+    },
+    {
+      "artists": [
+        "Sebastian Giacobino",
+      ],
+      "foiling": "Cold",
+      "identifier": "FAB514",
+      "image": "FAB514-MVB",
+      "print": "FAB514-Cold-Alternate Art-Full Art-B",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+        "Full Art",
+      ],
+    },
+    {
+      "artists": [
+        "Sebastian Giacobino",
+      ],
+      "foiling": "Cold",
+      "identifier": "FAB514",
+      "image": "FAB514-MVC",
+      "print": "FAB514-Cold-Alternate Art-Full Art-C",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+        "Full Art",
+      ],
+    },
+    {
+      "artists": [
+        "Sebastian Giacobino",
+      ],
+      "foiling": "Cold",
+      "identifier": "FAB514",
+      "image": "FAB514-MVD",
+      "print": "FAB514-Cold-Alternate Art-Full Art-D",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+        "Full Art",
+      ],
+    },
+    {
+      "artists": [
+        "Sebastian Giacobino",
+      ],
+      "foiling": "Cold",
+      "identifier": "FAB514",
+      "image": "FAB514-MVE",
+      "print": "FAB514-Cold-Alternate Art-Full Art-E",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+        "Full Art",
+      ],
+    },
+    {
+      "artists": [
+        "Sebastian Giacobino",
+      ],
+      "foiling": "Cold",
+      "identifier": "FAB514",
+      "image": "FAB514-MVF",
+      "print": "FAB514-Cold-Alternate Art-Full Art-F",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+        "Full Art",
+      ],
+    },
+    {
+      "artists": [
+        "Sebastian Giacobino",
+      ],
+      "foiling": "Cold",
+      "identifier": "FAB514",
+      "image": "FAB514-MVG",
+      "print": "FAB514-Cold-Alternate Art-Full Art-G",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+        "Full Art",
+      ],
+    },
+    {
+      "artists": [
+        "Sebastian Giacobino",
+      ],
+      "foiling": "Cold",
+      "identifier": "FAB514",
+      "image": "FAB514-MVH",
+      "print": "FAB514-Cold-Alternate Art-Full Art-H",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+        "Full Art",
+      ],
+    },
+    {
+      "artists": [
+        "Sebastian Giacobino",
+      ],
+      "foiling": "Cold",
+      "identifier": "FAB514",
+      "image": "FAB514-MVI",
+      "print": "FAB514-Cold-Alternate Art-Full Art-I",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+        "Full Art",
+      ],
+    },
+    {
+      "artists": [
+        "Sebastian Giacobino",
+      ],
+      "foiling": "Cold",
+      "identifier": "FAB514",
+      "image": "FAB514-MVJ",
+      "print": "FAB514-Cold-Alternate Art-Full Art-J",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+        "Full Art",
+      ],
+    },
+    {
+      "artists": [
         "Ramza Ardyputra",
       ],
       "foiling": "Rainbow",
       "identifier": "FAB506",
       "image": "KO_FAB506-MVA",
-      "print": "FAB506-Rainbow-Alternate Art-Full Art",
+      "print": "FAB506-Rainbow-Alternate Art-Full Art-A",
       "rarity": "Promo",
       "set": "Promos",
       "treatment": "Alternate Art",
@@ -129290,7 +129451,7 @@ This card's attacks get **go again**.
       "foiling": "Rainbow",
       "identifier": "FAB506",
       "image": "KO_FAB506-MVB",
-      "print": "FAB506-Rainbow-Alternate Art-Full Art-V2",
+      "print": "FAB506-Rainbow-Alternate Art-Full Art-B",
       "rarity": "Promo",
       "set": "Promos",
       "treatment": "Alternate Art",
@@ -129306,7 +129467,7 @@ This card's attacks get **go again**.
       "foiling": "Rainbow",
       "identifier": "FAB506",
       "image": "KO_FAB506-MVC",
-      "print": "FAB506-Rainbow-Alternate Art-Full Art-V3",
+      "print": "FAB506-Rainbow-Alternate Art-Full Art-C",
       "rarity": "Promo",
       "set": "Promos",
       "treatment": "Alternate Art",
@@ -129324,6 +129485,7 @@ This card's attacks get **go again**.
   "setIdentifiers": [
     "AMA029",
     "FAB506",
+    "FAB514",
     "IAR090",
   ],
   "sets": [
@@ -129331,7 +129493,7 @@ This card's attacks get **go again**.
     "Promos",
     "Usurp the Shadow Throne",
   ],
-  "specialImage": "IAR090-RF",
+  "specialImage": "FAB514-MVJ",
   "subtypes": [
     "Ally",
     "Non-Attack",
@@ -336462,7 +336624,7 @@ exports[`Check for unintentional updates Lightning Flow (lightning-flow) vs snap
       "foiling": "Cold",
       "identifier": "OMN203",
       "image": "OMN203-MVB",
-      "print": "OMN203-Cold-Full Art-V2",
+      "print": "OMN203-Cold-Full Art-B",
       "rarity": "Marvel",
       "set": "Omens of the Third Age",
       "tcgplayer": {
@@ -336481,7 +336643,7 @@ exports[`Check for unintentional updates Lightning Flow (lightning-flow) vs snap
       "foiling": "Cold",
       "identifier": "OMN203",
       "image": "OMN203-MVA",
-      "print": "OMN203-Cold-Alternate Art-Full Art",
+      "print": "OMN203-Cold-Alternate Art-Full Art-A",
       "rarity": "Marvel",
       "set": "Omens of the Third Age",
       "tcgplayer": {
@@ -336501,7 +336663,7 @@ exports[`Check for unintentional updates Lightning Flow (lightning-flow) vs snap
       "foiling": "Cold",
       "identifier": "OMN203",
       "image": "OMN203-MVC",
-      "print": "OMN203-Cold-Alternate Art-Full Art-V3",
+      "print": "OMN203-Cold-Alternate Art-Full Art-C",
       "rarity": "Marvel",
       "set": "Omens of the Third Age",
       "tcgplayer": {
@@ -336521,7 +336683,7 @@ exports[`Check for unintentional updates Lightning Flow (lightning-flow) vs snap
       "foiling": "Rainbow",
       "identifier": "FAB470",
       "image": "FAB470-RFC",
-      "print": "FAB470-Rainbow-Alternate Border-Extended Art-V3",
+      "print": "FAB470-Rainbow-Alternate Border-Extended Art-C",
       "rarity": "Promo",
       "set": "Promos",
       "tcgplayer": {
@@ -336541,7 +336703,7 @@ exports[`Check for unintentional updates Lightning Flow (lightning-flow) vs snap
       "foiling": "Rainbow",
       "identifier": "FAB470",
       "image": "FAB470-RFA",
-      "print": "FAB470-Rainbow-Alternate Art-Alternate Border-Extended Art",
+      "print": "FAB470-Rainbow-Alternate Art-Alternate Border-Extended Art-A",
       "rarity": "Promo",
       "set": "Promos",
       "tcgplayer": {
@@ -336562,7 +336724,7 @@ exports[`Check for unintentional updates Lightning Flow (lightning-flow) vs snap
       "foiling": "Rainbow",
       "identifier": "FAB470",
       "image": "FAB470-RFB",
-      "print": "FAB470-Rainbow-Alternate Art-Alternate Border-Extended Art-V2",
+      "print": "FAB470-Rainbow-Alternate Art-Alternate Border-Extended Art-B",
       "rarity": "Promo",
       "set": "Promos",
       "tcgplayer": {
@@ -484670,7 +484832,7 @@ exports[`Check for unintentional updates Runechant (runechant) vs snapshot 1`] =
       ],
       "identifier": "ROS162",
       "image": "ROS162-A",
-      "print": "ROS162-Alternate Art",
+      "print": "ROS162-Alternate Art-A",
       "rarity": "Token",
       "set": "Rosetta",
       "tcgplayer": {
@@ -484688,7 +484850,7 @@ exports[`Check for unintentional updates Runechant (runechant) vs snapshot 1`] =
       ],
       "identifier": "ROS162",
       "image": "ROS162-B",
-      "print": "ROS162-Alternate Art-V2",
+      "print": "ROS162-Alternate Art-B",
       "rarity": "Token",
       "set": "Rosetta",
       "tcgplayer": {
@@ -510419,28 +510581,8 @@ exports[`Check for unintentional updates Seismic Surge (seismic-surge) vs snapsh
       ],
       "foiling": "Cold",
       "identifier": "MPG112",
-      "image": "MPG112-C",
-      "print": "MPG112-Cold-Alternate Art-Full Art",
-      "rarity": "Marvel",
-      "set": "Mastery Pack: Guardian",
-      "tcgplayer": {
-        "productId": "647747",
-        "url": "https://www.tcgplayer.com/product/647747?Language=English&Printing=Cold+Foil",
-      },
-      "treatment": "Alternate Art",
-      "treatments": [
-        "Alternate Art",
-        "Full Art",
-      ],
-    },
-    {
-      "artists": [
-        "Asur Misoa",
-      ],
-      "foiling": "Cold",
-      "identifier": "MPG112",
       "image": "MPG112-A",
-      "print": "MPG112-Cold-Alternate Art-Full Art-V2",
+      "print": "MPG112-Cold-Alternate Art-Full Art-A",
       "rarity": "Marvel",
       "set": "Mastery Pack: Guardian",
       "tcgplayer": {
@@ -510460,12 +510602,32 @@ exports[`Check for unintentional updates Seismic Surge (seismic-surge) vs snapsh
       "foiling": "Cold",
       "identifier": "MPG112",
       "image": "MPG112-B",
-      "print": "MPG112-Cold-Alternate Art-Full Art-V3",
+      "print": "MPG112-Cold-Alternate Art-Full Art-B",
       "rarity": "Marvel",
       "set": "Mastery Pack: Guardian",
       "tcgplayer": {
         "productId": "647743",
         "url": "https://www.tcgplayer.com/product/647743?Language=English&Printing=Cold+Foil",
+      },
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+        "Full Art",
+      ],
+    },
+    {
+      "artists": [
+        "Asur Misoa",
+      ],
+      "foiling": "Cold",
+      "identifier": "MPG112",
+      "image": "MPG112-C",
+      "print": "MPG112-Cold-Alternate Art-Full Art-C",
+      "rarity": "Marvel",
+      "set": "Mastery Pack: Guardian",
+      "tcgplayer": {
+        "productId": "647747",
+        "url": "https://www.tcgplayer.com/product/647747?Language=English&Printing=Cold+Foil",
       },
       "treatment": "Alternate Art",
       "treatments": [
@@ -510686,7 +510848,7 @@ exports[`Check for unintentional updates Seismic Surge (seismic-surge) vs snapsh
     "Tales of Aria",
     "Welcome to Rathe",
   ],
-  "specialImage": "MPG112-B",
+  "specialImage": "MPG112-C",
   "subtypes": [
     "Aura",
   ],
@@ -556153,7 +556315,7 @@ exports[`Check for unintentional updates Spectral Shield (spectral-shield) vs sn
       ],
       "identifier": "MST158",
       "image": "MST158-A",
-      "print": "MST158-Alternate Art",
+      "print": "MST158-Alternate Art-A",
       "rarity": "Token",
       "set": "Part the Mistveil",
       "tcgplayer": {
@@ -556171,7 +556333,7 @@ exports[`Check for unintentional updates Spectral Shield (spectral-shield) vs sn
       ],
       "identifier": "MST158",
       "image": "MST158-B",
-      "print": "MST158-Alternate Art-V3",
+      "print": "MST158-Alternate Art-B",
       "rarity": "Token",
       "set": "Part the Mistveil",
       "tcgplayer": {

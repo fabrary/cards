@@ -10,6 +10,7 @@ import {
   getCardFromGEMCardIdentifier,
   getBoomerPrinting,
   getMaxRarityPrinting,
+  getPrint,
 } from "../src/helpers";
 import {
   CardRole,
@@ -530,4 +531,184 @@ describe("Printings", () => {
     );
     expect(maxRarityPrinting.image).toEqual("DYN000");
   });
+});
+
+describe("getPrint", () => {
+  const prints: [
+    string,
+    {
+      expected: string;
+      foiling?: Foiling;
+      identifier: string;
+      image: string;
+      treatments?: Treatment[];
+    },
+  ][] = [
+    [
+      "An art letter with no finish token",
+      {
+        expected: "MPG112-Cold-Alternate Art-Full Art-A",
+        foiling: Foiling.Cold,
+        identifier: "MPG112",
+        image: "MPG112-A",
+        treatments: [Treatment.AA, Treatment.FA],
+      },
+    ],
+    [
+      "An art letter after the MV finish token",
+      {
+        expected: "FAB514-Cold-Alternate Art-Full Art-J",
+        foiling: Foiling.Cold,
+        identifier: "FAB514",
+        image: "FAB514-MVJ",
+        treatments: [Treatment.AA, Treatment.FA],
+      },
+    ],
+    [
+      "An art letter after the RF finish token",
+      {
+        expected: "FAB470-B",
+        identifier: "FAB470",
+        image: "FAB470-RFB",
+      },
+    ],
+    [
+      "An art letter after the CF finish token",
+      {
+        expected: "XYZ001-A",
+        identifier: "XYZ001",
+        image: "XYZ001-CFA",
+      },
+    ],
+    [
+      "An art letter on a back face follows the back marker",
+      {
+        expected: "ROS008-Cold-Alternate Art-Full Art-Back-A",
+        foiling: Foiling.Cold,
+        identifier: "ROS008",
+        image: "ROS008-MVA_BACK",
+        treatments: [Treatment.AA, Treatment.FA],
+      },
+    ],
+    [
+      "An art letter on a prefixed image",
+      {
+        expected: "FAB506-A",
+        identifier: "FAB506",
+        image: "KO_FAB506-MVA",
+      },
+    ],
+    [
+      "A lowercase image name",
+      {
+        expected: "MPG112-A",
+        identifier: "MPG112",
+        image: "mpg112-a",
+      },
+    ],
+    [
+      "An override supplies a suffix the rule does not derive",
+      {
+        expected: "HER146-Rainbow-ARF",
+        foiling: Foiling.Rainbow,
+        identifier: "HER146",
+        image: "HER146-ARF",
+      },
+    ],
+    [
+      "A letter before the finish token, with no override",
+      {
+        expected: "ABC001",
+        identifier: "ABC001",
+        image: "ABC001-ARF",
+      },
+    ],
+    [
+      "The RF finish token on its own",
+      {
+        expected: "ABC001",
+        identifier: "ABC001",
+        image: "ABC001-RF",
+      },
+    ],
+    [
+      "The CF finish token on its own",
+      {
+        expected: "ABC001",
+        identifier: "ABC001",
+        image: "ABC001-CF",
+      },
+    ],
+    [
+      "The MV finish token on its own",
+      {
+        expected: "ABC001",
+        identifier: "ABC001",
+        image: "ABC001-MV",
+      },
+    ],
+    [
+      "An alternate art treatment token",
+      {
+        expected: "ABC001",
+        identifier: "ABC001",
+        image: "ABC001-AA",
+      },
+    ],
+    [
+      "An extended art treatment token",
+      {
+        expected: "ABC001",
+        identifier: "ABC001",
+        image: "ABC001-EA",
+      },
+    ],
+    [
+      "A gold foil finish token",
+      {
+        expected: "ABC001",
+        identifier: "ABC001",
+        image: "ABC001-GF",
+      },
+    ],
+    [
+      "A textured foil finish token",
+      {
+        expected: "ABC001",
+        identifier: "ABC001",
+        image: "ABC001-TP",
+      },
+    ],
+    [
+      "An image with no trailing token",
+      {
+        expected: "ABC001",
+        identifier: "ABC001",
+        image: "ABC001",
+      },
+    ],
+    [
+      "A finish token on a back face",
+      {
+        expected: "ABC001-Back",
+        identifier: "ABC001",
+        image: "ABC001-RF_BACK",
+      },
+    ],
+  ];
+
+  it.each(prints)(
+    "%s",
+    (_, { expected, foiling, identifier, image, treatments }) => {
+      const print = getPrint({
+        foiling,
+        identifier,
+        image,
+        set: Release.Promos,
+        treatments,
+      });
+
+      expect(print).toEqual(expected);
+    },
+  );
 });

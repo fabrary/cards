@@ -9,6 +9,7 @@ import {
   getHeroFromCard,
   getNumberOrUndefined,
   getRarities,
+  getRarity,
   getRarityFromRawString,
   getRestrictedFormats,
   getSetFromIdentifier,
@@ -37,6 +38,7 @@ import {
   getPrint,
   getSpecialPrinting,
 } from "@flesh-and-blood/types";
+import { additionalPrintingsByCardIdentifier } from "./additional-printings";
 
 import { getBannedAndLegalFormats } from "../Shared/legality";
 import {
@@ -248,6 +250,7 @@ interface PrintingInput {
   artists: string[];
   foilingString?: string;
   identifier: string;
+  image?: string;
   imageUrl?: string;
   isExpansionSlot?: boolean;
   rarityString: string;
@@ -266,6 +269,7 @@ const getPrinting = (
     isExpansionSlot,
     foilingString,
     identifier,
+    image: imageName,
     imageUrl,
     rarityString,
     setString,
@@ -292,23 +296,19 @@ const getPrinting = (
   }
   treatments.sort();
 
-  let image;
-  if (imageUrl) {
+  let image: string | undefined;
+  if (imageName) {
+    image = imageName;
+  } else if (imageUrl) {
     const parsedUrl = imageUrl
       .replace(".format-webp", "")
       .replace(".width-450", "")
       .replace("_yajPa8R", "");
 
-    // const shouldRemoveRFandCF = treatments.length === 0;
-    // if (shouldRemoveRFandCF) {
-    //   parsedUrl = parsedUrl.replace("-RF", "").replace("-CF", "");
-    // }
     image = parsedUrl.substring(
       parsedUrl.lastIndexOf("/") + 1,
       parsedUrl.lastIndexOf("."),
     );
-  } else {
-    // image = identifier;
   }
 
   const print = getPrint({ identifier, image, foiling, set, treatments });
@@ -596,8 +596,31 @@ const getPrintings = (cardIdentifier: string, card: ParsedCard): Printing[] => {
     }
   }
 
+  const additionalPrintingSeries =
+    additionalPrintingsByCardIdentifier[cardIdentifier] ?? [];
+
+  for (const series of additionalPrintingSeries) {
+    const { artLetters, imageBase, ...printingInput } = series;
+
+    for (const artLetter of artLetters) {
+      printings.push(
+        getPrinting(cardIdentifier, card, {
+          ...printingInput,
+          artists: [...series.artists],
+          image: `${imageBase}${artLetter}`,
+        }),
+      );
+    }
+  }
+
   const printingsOverride: Printing[] = [];
   if (card.name === "Inner Chi") {
+    if (additionalPrintingSeries.length) {
+      throw new Error(
+        `${card.name} has both a printings override and additional printings, and the override would discard them`,
+      );
+    }
+
     for (const { identifier, setString, properties } of innerChiPrintings) {
       const basePrinting = {
         artists: ["Carlos Cruchaga"],
@@ -727,16 +750,53 @@ const getYoung = (card: ParsedCard): boolean | null => {
   return types.includes("Hero") && types.includes("Young") ? true : null;
 };
 
+const getSortedUnique = <T>(...lists: T[][]): T[] => {
+  const unique = new Set<T>();
+  for (const list of lists) {
+    for (const entry of list) {
+      unique.add(entry);
+    }
+  }
+
+  const sorted = Array.from(unique);
+  sorted.sort();
+
+  return sorted;
+};
+
 const getCardData = (card: ParsedCard): PreliminaryCard => {
   const cardIdentifier = getCardIdentifier(card);
 
   const { metatypes, types, subtypes } = getTypeSubtypeAndMetatype(card);
   const printings = getPrintings(cardIdentifier, card);
 
-  const setIdentifiers = [...card.identifiers];
-  setIdentifiers.sort();
+  const additionalArtists: string[] = [];
+  const additionalIdentifiers: string[] = [];
+  const additionalRarities: Rarity[] = [];
+  for (const series of additionalPrintingsByCardIdentifier[cardIdentifier] ??
+    []) {
+    const seriesRarity = getRarityFromRawString(series.rarityString);
+    if (!seriesRarity) {
+      throw new Error(
+        `Additional printings for ${cardIdentifier} carry the unknown rarity string "${series.rarityString}"`,
+      );
+    }
 
-  const { rarities, rarity } = getParsedRarities(card);
+    additionalArtists.push(...series.artists);
+    additionalIdentifiers.push(series.identifier);
+    additionalRarities.push(seriesRarity);
+  }
+
+  const setIdentifiers = getSortedUnique(
+    card.identifiers,
+    additionalIdentifiers,
+  );
+
+  const { rarities: sheetRarities } = getParsedRarities(card);
+  const rarities = getSortedUnique(sheetRarities, additionalRarities);
+  const rarity = getRarity(rarities);
+
+  const artists = getSortedUnique(getArtists(card), additionalArtists);
 
   // const bannedFormats = getBannedFormats(card);
   const classes = getClasses(card);
@@ -804,7 +864,7 @@ const getCardData = (card: ParsedCard): PreliminaryCard => {
   // }
 
   return {
-    artists: getArtists(card),
+    artists,
     cardIdentifier,
     classes,
     defaultImage: getDefaultPrinting(
