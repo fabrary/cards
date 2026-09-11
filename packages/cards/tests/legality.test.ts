@@ -212,3 +212,18 @@ describe("Macros follow class and talent", () => {
     expect(getLegalHeroes(macroCardIdentifier)).toEqual(heroes);
   });
 });
+
+// The back is reached by transforming from a front, so it is playable wherever
+// any front is, even though its own type line names no age.
+describe("A hero card back is legal wherever any of its fronts is", () => {
+  it.each([["viserai-usurper"]])("%s", (backCardIdentifier) => {
+    const back = getCard(backCardIdentifier);
+    const frontLegalFormats = new Set(
+      (back.oppositeSideCardIdentifiers as string[]).flatMap(
+        (frontCardIdentifier) => getCard(frontCardIdentifier).legalFormats,
+      ),
+    );
+
+    expect(back.legalFormats).toEqual(Array.from(frontLegalFormats).sort());
+  });
+});

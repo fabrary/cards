@@ -1120,6 +1120,290 @@ When this has no steam counters on it, destroy it.",
 }
 `;
 
+exports[`Check for unintentional updates Abyssal Bite (abyssal-bite-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Widya Wang",
+  ],
+  "cardIdentifier": "abyssal-bite-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 1,
+  "defaultImage": "IAR206",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "You may play this from your banished zone.
+
+Your next Shadow attack this turn gets +1{p}. **Go again**
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Abyssal Bite",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Widya Wang",
+      ],
+      "identifier": "IAR206",
+      "image": "IAR206",
+      "print": "IAR206",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Widya Wang",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR206",
+      "image": "IAR206-RF",
+      "print": "IAR206-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR206",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "IAR206",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Abyssal Force (abyssal-force-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Reza Aswadananta",
+  ],
+  "cardIdentifier": "abyssal-force-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 1,
+  "defaultImage": "IAR207",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": ""You may play this from your banished zone.
+
+Your next Shadow attack this turn gets **overpower**.
+
+**Go again**
+
+**Blood Debt**"",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Abyssal Force",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Reza Aswadananta",
+      ],
+      "identifier": "IAR207",
+      "image": "IAR207",
+      "print": "IAR207",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Reza Aswadananta",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR207",
+      "image": "IAR207-RF",
+      "print": "IAR207-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR207",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR207",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Abyssal Rush (abyssal-rush-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Bramasta Aji",
+  ],
+  "cardIdentifier": "abyssal-rush-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 1,
+  "defaultImage": "IAR208",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": ""You may play this from your banished zone.
+
+Your next Shadow attack this turn gets "When this hits, it gets **go again**." **Go again**
+
+**Blood Debt**"",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Abyssal Rush",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Bramasta Aji",
+      ],
+      "identifier": "IAR208",
+      "image": "IAR208",
+      "print": "IAR208",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Bramasta Aji",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR208",
+      "image": "IAR208-RF",
+      "print": "IAR208-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR208",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR208",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Achilles Accelerator (achilles-accelerator) vs snapshot 1`] = `
 {
   "artists": [
@@ -30511,9 +30795,6 @@ exports[`Check for unintentional updates Baalghor, Omen of the End (baalghor-ome
   "artists": [
     "Lius Lasahido",
   ],
-  "bannedFormats": [
-    "Silver Age",
-  ],
   "cardIdentifier": "baalghor-omen-of-the-end",
   "classes": [
     "NotClassed",
@@ -35098,6 +35379,100 @@ exports[`Check for unintentional updates Banneret of Salvation (banneret-of-salv
     "Promos",
   ],
   "specialImage": "LGS180-RF",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Banneret of Swordsmanship (banneret-of-swordsmanship-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Bastien Jez",
+  ],
+  "cardIdentifier": "banneret-of-swordsmanship-yellow",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 1,
+  "createdExtras": [
+    "flurry",
+  ],
+  "defaultImage": "IAR253",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Solflare** - When this is charged to your soul, create a Flurry token.",
+  "keywords": [
+    "Solflare",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Boltyn",
+  ],
+  "meta": [
+    "Deck",
+    "Expansion slot",
+  ],
+  "name": "Banneret of Swordsmanship",
+  "pitch": 2,
+  "power": 4,
+  "printings": [
+    {
+      "artists": [
+        "Bastien Jez",
+      ],
+      "identifier": "IAR253",
+      "image": "IAR253",
+      "isExpansionSlot": true,
+      "print": "IAR253",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Bastien Jez",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR253",
+      "image": "IAR253-RF",
+      "isExpansionSlot": true,
+      "print": "IAR253-Rainbow-Extended Art",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "referencedCards": [
+    "flurry",
+  ],
+  "setIdentifiers": [
+    "IAR253",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR253-RF",
   "subtypes": [
     "Attack",
   ],
@@ -56777,6 +57152,97 @@ exports[`Check for unintentional updates Blanch (blanch-yellow) vs snapshot 1`] 
 }
 `;
 
+exports[`Check for unintentional updates Blasmophet's Boon (blasmophets-boon-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Raynor Maharsi",
+  ],
+  "cardIdentifier": "blasmophets-boon-blue",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 1,
+  "defaultImage": "IAR035",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "If you control a Blasmophet, this card's {p} is 6. Otherwise, it's 0.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Blasmophet's Boon",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Raynor Maharsi",
+      ],
+      "identifier": "IAR035",
+      "image": "IAR035",
+      "print": "IAR035",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Raynor Maharsi",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR035",
+      "image": "IAR035-RF",
+      "print": "IAR035-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "blasmophet-levia-consumed",
+    "blasmophet-the-insatiable-hunger",
+    "blasmophet-the-soul-harvester",
+  ],
+  "setIdentifiers": [
+    "IAR035",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR035",
+  "specialPower": "*",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Blasmophet, Levia Consumed (blasmophet-levia-consumed) vs snapshot 1`] = `
 {
   "artists": [
@@ -72011,6 +72477,249 @@ exports[`Check for unintentional updates Boltyn (boltyn) vs snapshot 1`] = `
     "Hero",
   ],
   "young": true,
+}
+`;
+
+exports[`Check for unintentional updates Bonded Burial (bonded-burial-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tatiana Krstic",
+  ],
+  "cardIdentifier": "bonded-burial-blue",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 1,
+  "defaultImage": "IAR102",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this hits a hero, you may destroy an ally you control or discard an ally. If you do, they discard a card.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Frankie",
+    "Gravy Bones",
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Bonded Burial",
+  "pitch": 3,
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Tatiana Krstic",
+      ],
+      "identifier": "IAR102",
+      "image": "IAR102",
+      "print": "IAR102",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Tatiana Krstic",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR102",
+      "image": "IAR102-RF",
+      "print": "IAR102-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR102",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR102",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Necromancer Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Bonded Burial (bonded-burial-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tatiana Krstic",
+  ],
+  "cardIdentifier": "bonded-burial-red",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 1,
+  "defaultImage": "IAR100",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this hits a hero, you may destroy an ally you control or discard an ally. If you do, they discard a card.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Frankie",
+    "Gravy Bones",
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Bonded Burial",
+  "pitch": 1,
+  "power": 5,
+  "printings": [
+    {
+      "artists": [
+        "Tatiana Krstic",
+      ],
+      "identifier": "IAR100",
+      "image": "IAR100",
+      "print": "IAR100",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Tatiana Krstic",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR100",
+      "image": "IAR100-RF",
+      "print": "IAR100-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR100",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR100",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Necromancer Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Bonded Burial (bonded-burial-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tatiana Krstic",
+  ],
+  "cardIdentifier": "bonded-burial-yellow",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 1,
+  "defaultImage": "IAR101",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this hits a hero, you may destroy an ally you control or discard an ally. If you do, they discard a card.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Frankie",
+    "Gravy Bones",
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Bonded Burial",
+  "pitch": 2,
+  "power": 4,
+  "printings": [
+    {
+      "artists": [
+        "Tatiana Krstic",
+      ],
+      "identifier": "IAR101",
+      "image": "IAR101",
+      "print": "IAR101",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Tatiana Krstic",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR101",
+      "image": "IAR101-RF",
+      "print": "IAR101-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR101",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR101",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Necromancer Action - Attack",
+  "types": [
+    "Action",
+  ],
 }
 `;
 
@@ -114610,6 +115319,103 @@ exports[`Check for unintentional updates Cogwerx Dovetail (cogwerx-dovetail-red)
 }
 `;
 
+exports[`Check for unintentional updates Cogwerx Prong Bot (cogwerx-prong-bot-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mariusz Gandzel",
+  ],
+  "cardIdentifier": "cogwerx-prong-bot-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "createdExtras": [
+    "golden-cog",
+  ],
+  "defaultImage": "IAR247",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this hits a hero, you may put a steam counter on an item you control with crank.
+
+**Instant** - {r}, discard this: Create a Golden Cog token.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Dash",
+    "Data Doll",
+    "Maxx",
+    "Puffin",
+    "Teklovossen",
+  ],
+  "meta": [
+    "Deck",
+    "Expansion slot",
+  ],
+  "name": "Cogwerx Prong Bot",
+  "pitch": 2,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "Mariusz Gandzel",
+      ],
+      "identifier": "IAR247",
+      "image": "IAR247",
+      "isExpansionSlot": true,
+      "print": "IAR247",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Mariusz Gandzel",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR247",
+      "image": "IAR247-RF",
+      "isExpansionSlot": true,
+      "print": "IAR247-Rainbow-Extended Art",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "referencedCards": [
+    "golden-cog",
+  ],
+  "setIdentifiers": [
+    "IAR247",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR247-RF",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Cogwerx Tinker Rings (cogwerx-tinker-rings) vs snapshot 1`] = `
 {
   "artists": [
@@ -124744,6 +125550,100 @@ exports[`Check for unintentional updates Consuming Appetite (consuming-appetite-
 }
 `;
 
+exports[`Check for unintentional updates Consuming Command (consuming-command-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mariusz Gandzel",
+  ],
+  "cardIdentifier": "consuming-command-blue",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 1,
+  "defaultImage": "IAR036",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "Until end of turn, Blasmophet, the Insatiable Hunger tokens you control get "**Action** - {t}: **Attack**. **Go again**"
+
+**Go again**
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Consuming Command",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Mariusz Gandzel",
+      ],
+      "identifier": "IAR036",
+      "image": "IAR036",
+      "print": "IAR036",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Mariusz Gandzel",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR036",
+      "image": "IAR036-RF",
+      "print": "IAR036-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "blasmophet-the-insatiable-hunger",
+  ],
+  "setIdentifiers": [
+    "IAR036",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Tap",
+  ],
+  "specialImage": "IAR036",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Consuming Lash (consuming-lash-yellow) vs snapshot 1`] = `
 {
   "artists": [
@@ -127235,6 +128135,237 @@ exports[`Check for unintentional updates Corporeal Chasm (corporeal-chasm-yellow
   "typeText": "Shadow Action - Attack",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Corpse Cover (corpse-cover-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Julio Sidharta",
+  ],
+  "cardIdentifier": "corpse-cover-blue",
+  "classes": [
+    "Necromancer",
+  ],
+  "defaultImage": "IAR099",
+  "defense": 1,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Once per Turn Instant** - Destroy an ally you control or discard an ally: Prevent the next 2 damage that would be dealt to you this turn. Activate this only while this card is defending.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Frankie",
+    "Gravy Bones",
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Corpse Cover",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Julio Sidharta",
+      ],
+      "identifier": "IAR099",
+      "image": "IAR099",
+      "print": "IAR099",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Julio Sidharta",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR099",
+      "image": "IAR099-RF",
+      "print": "IAR099-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR099",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR099",
+  "subtypes": [],
+  "typeText": "Necromancer Block",
+  "types": [
+    "Block",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Corpse Cover (corpse-cover-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Julio Sidharta",
+  ],
+  "cardIdentifier": "corpse-cover-red",
+  "classes": [
+    "Necromancer",
+  ],
+  "defaultImage": "IAR097",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Once per Turn Instant** - Destroy an ally you control or discard an ally: Prevent the next 2 damage that would be dealt to you this turn. Activate this only while this card is defending.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Frankie",
+    "Gravy Bones",
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Corpse Cover",
+  "pitch": 1,
+  "printings": [
+    {
+      "artists": [
+        "Julio Sidharta",
+      ],
+      "identifier": "IAR097",
+      "image": "IAR097",
+      "print": "IAR097",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Julio Sidharta",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR097",
+      "image": "IAR097-RF",
+      "print": "IAR097-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR097",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR097",
+  "subtypes": [],
+  "typeText": "Necromancer Block",
+  "types": [
+    "Block",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Corpse Cover (corpse-cover-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Julio Sidharta",
+  ],
+  "cardIdentifier": "corpse-cover-yellow",
+  "classes": [
+    "Necromancer",
+  ],
+  "defaultImage": "IAR098",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Once per Turn Instant** - Destroy an ally you control or discard an ally: Prevent the next 2 damage that would be dealt to you this turn. Activate this only while this card is defending.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Frankie",
+    "Gravy Bones",
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Corpse Cover",
+  "pitch": 2,
+  "printings": [
+    {
+      "artists": [
+        "Julio Sidharta",
+      ],
+      "identifier": "IAR098",
+      "image": "IAR098",
+      "print": "IAR098",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Julio Sidharta",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR098",
+      "image": "IAR098-RF",
+      "print": "IAR098-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR098",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR098",
+  "subtypes": [],
+  "typeText": "Necromancer Block",
+  "types": [
+    "Block",
   ],
 }
 `;
@@ -144775,6 +145906,495 @@ exports[`Check for unintentional updates Dark Arcanite Boots (dark-arcanite-boot
     "Legs",
   ],
   "typeText": "Generic Equipment - Legs",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Dark Arcanite Gloves (dark-arcanite-gloves) vs snapshot 1`] = `
+{
+  "artists": [
+    "Petrinda Wiyugo",
+  ],
+  "cardIdentifier": "dark-arcanite-gloves",
+  "classes": [
+    "Generic",
+  ],
+  "defaultImage": "IAR226",
+  "defense": 0,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Shadow Resist 1**",
+  "keywords": [
+    "Shadow Resist",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Arakni",
+    "Aurora",
+    "Aurora2",
+    "Azalea",
+    "Baalghor",
+    "Benji",
+    "Betsy",
+    "Blaze",
+    "Bolfar",
+    "Boltyn",
+    "Bravo",
+    "Brevant",
+    "Briar",
+    "Broscilio",
+    "Brutus",
+    "Chane",
+    "Cindra",
+    "Crackni",
+    "Crix",
+    "Dash",
+    "Data Doll",
+    "Dorinthea",
+    "Dromai",
+    "Emperor",
+    "Enigma",
+    "Fai",
+    "Fang",
+    "Florian",
+    "Frankie",
+    "Genis",
+    "Gravy Bones",
+    "Hala",
+    "Ira",
+    "Iyslander",
+    "Jarl",
+    "Kano",
+    "Kassai",
+    "Katsu",
+    "Kavdaen",
+    "Kayo",
+    "Killjoy",
+    "Kox",
+    "Levia",
+    "Lexi",
+    "Librarian",
+    "Lyath",
+    "Malice",
+    "Marlynn",
+    "Maxx",
+    "Melody",
+    "Mortimer",
+    "Nuu",
+    "Oldhim",
+    "Olympia",
+    "Oscilio",
+    "Pleiades",
+    "Prism",
+    "Puffin",
+    "RKO",
+    "Reya",
+    "Rhinar",
+    "Riptide",
+    "Ruu'di",
+    "Scurv",
+    "Shiyana",
+    "Slippy",
+    "Squizzy",
+    "Starvo",
+    "Taipanis",
+    "Taylor",
+    "Teklovossen",
+    "Terra",
+    "Theryon",
+    "Tuffnut",
+    "Uzuri",
+    "Valda",
+    "Verdance",
+    "Victor",
+    "Viserai",
+    "Viserai2",
+    "Vynnset",
+    "Yoji",
+    "Yorick",
+    "Zane",
+    "Zen",
+    "Zyggy",
+  ],
+  "meta": [
+    "Arena",
+  ],
+  "name": "Dark Arcanite Gloves",
+  "printings": [
+    {
+      "artists": [
+        "Petrinda Wiyugo",
+      ],
+      "identifier": "IAR226",
+      "image": "IAR226",
+      "print": "IAR226",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Petrinda Wiyugo",
+      ],
+      "foiling": "Cold",
+      "identifier": "IAR226",
+      "image": "IAR226-CF",
+      "print": "IAR226-Cold",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR226",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR226-CF",
+  "subtypes": [
+    "Arms",
+  ],
+  "typeText": "Generic Equipment - Arms",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Dark Arcanite Helm (dark-arcanite-helm) vs snapshot 1`] = `
+{
+  "artists": [
+    "Andi Cahyo W",
+  ],
+  "cardIdentifier": "dark-arcanite-helm",
+  "classes": [
+    "Generic",
+  ],
+  "defaultImage": "IAR224",
+  "defense": 0,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Shadow Resist 1**",
+  "keywords": [
+    "Shadow Resist",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Arakni",
+    "Aurora",
+    "Aurora2",
+    "Azalea",
+    "Baalghor",
+    "Benji",
+    "Betsy",
+    "Blaze",
+    "Bolfar",
+    "Boltyn",
+    "Bravo",
+    "Brevant",
+    "Briar",
+    "Broscilio",
+    "Brutus",
+    "Chane",
+    "Cindra",
+    "Crackni",
+    "Crix",
+    "Dash",
+    "Data Doll",
+    "Dorinthea",
+    "Dromai",
+    "Emperor",
+    "Enigma",
+    "Fai",
+    "Fang",
+    "Florian",
+    "Frankie",
+    "Genis",
+    "Gravy Bones",
+    "Hala",
+    "Ira",
+    "Iyslander",
+    "Jarl",
+    "Kano",
+    "Kassai",
+    "Katsu",
+    "Kavdaen",
+    "Kayo",
+    "Killjoy",
+    "Kox",
+    "Levia",
+    "Lexi",
+    "Librarian",
+    "Lyath",
+    "Malice",
+    "Marlynn",
+    "Maxx",
+    "Melody",
+    "Mortimer",
+    "Nuu",
+    "Oldhim",
+    "Olympia",
+    "Oscilio",
+    "Pleiades",
+    "Prism",
+    "Puffin",
+    "RKO",
+    "Reya",
+    "Rhinar",
+    "Riptide",
+    "Ruu'di",
+    "Scurv",
+    "Shiyana",
+    "Slippy",
+    "Squizzy",
+    "Starvo",
+    "Taipanis",
+    "Taylor",
+    "Teklovossen",
+    "Terra",
+    "Theryon",
+    "Tuffnut",
+    "Uzuri",
+    "Valda",
+    "Verdance",
+    "Victor",
+    "Viserai",
+    "Viserai2",
+    "Vynnset",
+    "Yoji",
+    "Yorick",
+    "Zane",
+    "Zen",
+    "Zyggy",
+  ],
+  "meta": [
+    "Arena",
+  ],
+  "name": "Dark Arcanite Helm",
+  "printings": [
+    {
+      "artists": [
+        "Andi Cahyo W",
+      ],
+      "identifier": "IAR224",
+      "image": "IAR224",
+      "print": "IAR224",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Andi Cahyo W",
+      ],
+      "foiling": "Cold",
+      "identifier": "IAR224",
+      "image": "IAR224-CF",
+      "print": "IAR224-Cold",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR224",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR224-CF",
+  "subtypes": [
+    "Head",
+  ],
+  "typeText": "Generic Equipment - Head",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Dark Arcanite Plating (dark-arcanite-plating) vs snapshot 1`] = `
+{
+  "artists": [
+    "Galih M",
+  ],
+  "cardIdentifier": "dark-arcanite-plating",
+  "classes": [
+    "Generic",
+  ],
+  "defaultImage": "IAR225",
+  "defense": 0,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Shadow Resist 1**",
+  "keywords": [
+    "Shadow Resist",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Arakni",
+    "Aurora",
+    "Aurora2",
+    "Azalea",
+    "Baalghor",
+    "Benji",
+    "Betsy",
+    "Blaze",
+    "Bolfar",
+    "Boltyn",
+    "Bravo",
+    "Brevant",
+    "Briar",
+    "Broscilio",
+    "Brutus",
+    "Chane",
+    "Cindra",
+    "Crackni",
+    "Crix",
+    "Dash",
+    "Data Doll",
+    "Dorinthea",
+    "Dromai",
+    "Emperor",
+    "Enigma",
+    "Fai",
+    "Fang",
+    "Florian",
+    "Frankie",
+    "Genis",
+    "Gravy Bones",
+    "Hala",
+    "Ira",
+    "Iyslander",
+    "Jarl",
+    "Kano",
+    "Kassai",
+    "Katsu",
+    "Kavdaen",
+    "Kayo",
+    "Killjoy",
+    "Kox",
+    "Levia",
+    "Lexi",
+    "Librarian",
+    "Lyath",
+    "Malice",
+    "Marlynn",
+    "Maxx",
+    "Melody",
+    "Mortimer",
+    "Nuu",
+    "Oldhim",
+    "Olympia",
+    "Oscilio",
+    "Pleiades",
+    "Prism",
+    "Puffin",
+    "RKO",
+    "Reya",
+    "Rhinar",
+    "Riptide",
+    "Ruu'di",
+    "Scurv",
+    "Shiyana",
+    "Slippy",
+    "Squizzy",
+    "Starvo",
+    "Taipanis",
+    "Taylor",
+    "Teklovossen",
+    "Terra",
+    "Theryon",
+    "Tuffnut",
+    "Uzuri",
+    "Valda",
+    "Verdance",
+    "Victor",
+    "Viserai",
+    "Viserai2",
+    "Vynnset",
+    "Yoji",
+    "Yorick",
+    "Zane",
+    "Zen",
+    "Zyggy",
+  ],
+  "meta": [
+    "Arena",
+  ],
+  "name": "Dark Arcanite Plating",
+  "printings": [
+    {
+      "artists": [
+        "Galih M",
+      ],
+      "identifier": "IAR225",
+      "image": "IAR225",
+      "print": "IAR225",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Galih M",
+      ],
+      "foiling": "Cold",
+      "identifier": "IAR225",
+      "image": "IAR225-CF",
+      "print": "IAR225-Cold",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR225",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR225-CF",
+  "subtypes": [
+    "Chest",
+  ],
+  "typeText": "Generic Equipment - Chest",
   "types": [
     "Equipment",
   ],
@@ -194361,6 +195981,297 @@ Choose 1;
 }
 `;
 
+exports[`Check for unintentional updates Enshrine Sin (enshrine-sin-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Simon Dominic",
+  ],
+  "cardIdentifier": "enshrine-sin-blue",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "runechant",
+  ],
+  "defaultImage": "IAR140",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "You may play this from your banished zone. If you do, it costs an additional {r} to play.
+
+**Opt 1**, then create a Runechant token. **Go again**
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Chane",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Enshrine Sin",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Simon Dominic",
+      ],
+      "identifier": "IAR140",
+      "image": "IAR140",
+      "print": "IAR140",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Simon Dominic",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR140",
+      "image": "IAR140-RF",
+      "print": "IAR140-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "runechant",
+  ],
+  "setIdentifiers": [
+    "IAR140",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR140",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Enshrine Sin (enshrine-sin-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Simon Dominic",
+  ],
+  "cardIdentifier": "enshrine-sin-red",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "runechant",
+  ],
+  "defaultImage": "IAR138",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "You may play this from your banished zone. If you do, it costs an additional {r} to play.
+
+**Opt 1**, then create a Runechant token. **Go again**
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Chane",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Enshrine Sin",
+  "pitch": 1,
+  "printings": [
+    {
+      "artists": [
+        "Simon Dominic",
+      ],
+      "identifier": "IAR138",
+      "image": "IAR138",
+      "print": "IAR138",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Simon Dominic",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR138",
+      "image": "IAR138-RF",
+      "print": "IAR138-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "runechant",
+  ],
+  "setIdentifiers": [
+    "IAR138",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR138",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Enshrine Sin (enshrine-sin-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Simon Dominic",
+  ],
+  "cardIdentifier": "enshrine-sin-yellow",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "runechant",
+  ],
+  "defaultImage": "IAR139",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "You may play this from your banished zone. If you do, it costs an additional {r} to play.
+
+**Opt 1**, then create a Runechant token. **Go again**
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Chane",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Enshrine Sin",
+  "pitch": 2,
+  "printings": [
+    {
+      "artists": [
+        "Simon Dominic",
+      ],
+      "identifier": "IAR139",
+      "image": "IAR139",
+      "print": "IAR139",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Simon Dominic",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR139",
+      "image": "IAR139-RF",
+      "print": "IAR139-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "runechant",
+  ],
+  "setIdentifiers": [
+    "IAR139",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR139",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Entangle (entangle-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -212478,6 +214389,95 @@ exports[`Check for unintentional updates Fault Line (fault-line-red) vs snapshot
 }
 `;
 
+exports[`Check for unintentional updates Favorable Winds (favorable-winds-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alifka Hammam",
+  ],
+  "cardIdentifier": "favorable-winds-yellow",
+  "classes": [
+    "Pirate",
+    "Ranger",
+  ],
+  "cost": 1,
+  "defaultImage": "IAR251",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "As an additional cost to play this, discard a Goldfin Harpoon.
+
+Draw 2 cards.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Marlynn",
+  ],
+  "meta": [
+    "Deck",
+    "Dual class",
+    "Expansion slot",
+  ],
+  "name": "Favorable Winds",
+  "pitch": 2,
+  "printings": [
+    {
+      "artists": [
+        "Alifka Hammam",
+      ],
+      "identifier": "IAR251",
+      "image": "IAR251",
+      "isExpansionSlot": true,
+      "print": "IAR251",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Alifka Hammam",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR251",
+      "image": "IAR251-RF",
+      "isExpansionSlot": true,
+      "print": "IAR251-Rainbow",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "referencedCards": [
+    "goldfin-harpoon",
+  ],
+  "setIdentifiers": [
+    "IAR251",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR251",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Pirate Ranger Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Fealty (fealty) vs snapshot 1`] = `
 {
   "artists": [
@@ -212800,6 +214800,549 @@ exports[`Check for unintentional updates Fearless Confrontation (fearless-confro
     "Attack",
   ],
   "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Feasting Shadowbeast (feasting-shadowbeast-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Ilham Bahtiar",
+  ],
+  "cardIdentifier": "feasting-shadowbeast-blue",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR025",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, banish the top card of your deck.
+
+If you've banished a card with 6 or more {p} this turn, this gets +2{p}.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Feasting Shadowbeast",
+  "pitch": 3,
+  "power": 4,
+  "printings": [
+    {
+      "artists": [
+        "Ilham Bahtiar",
+      ],
+      "identifier": "IAR025",
+      "image": "IAR025",
+      "print": "IAR025",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Ilham Bahtiar",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR025",
+      "image": "IAR025-RF",
+      "print": "IAR025-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR025",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR025",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Feasting Shadowbeast (feasting-shadowbeast-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Ilham Bahtiar",
+  ],
+  "cardIdentifier": "feasting-shadowbeast-red",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR023",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, banish the top card of your deck.
+
+If you've banished a card with 6 or more {p} this turn, this gets +2{p}.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Feasting Shadowbeast",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "Ilham Bahtiar",
+      ],
+      "identifier": "IAR023",
+      "image": "IAR023",
+      "print": "IAR023",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Ilham Bahtiar",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR023",
+      "image": "IAR023-RF",
+      "print": "IAR023-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR023",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR023",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Feasting Shadowbeast (feasting-shadowbeast-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Ilham Bahtiar",
+  ],
+  "cardIdentifier": "feasting-shadowbeast-yellow",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR024",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, banish the top card of your deck.
+
+If you've banished a card with 6 or more {p} this turn, this gets +2{p}.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Feasting Shadowbeast",
+  "pitch": 2,
+  "power": 5,
+  "printings": [
+    {
+      "artists": [
+        "Ilham Bahtiar",
+      ],
+      "identifier": "IAR024",
+      "image": "IAR024",
+      "print": "IAR024",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Ilham Bahtiar",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR024",
+      "image": "IAR024-RF",
+      "print": "IAR024-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR024",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR024",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Feeding Frenzy (feeding-frenzy-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "M Fakhrur Rozzi",
+  ],
+  "cardIdentifier": "feeding-frenzy-blue",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR028",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, banish the top card of your deck.
+
+If you've banished a card with 6 or more {p} this turn, this gets **go again**.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Feeding Frenzy",
+  "pitch": 3,
+  "power": 4,
+  "printings": [
+    {
+      "artists": [
+        "M Fakhrur Rozzi",
+      ],
+      "identifier": "IAR028",
+      "image": "IAR028",
+      "print": "IAR028",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "M Fakhrur Rozzi",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR028",
+      "image": "IAR028-RF",
+      "print": "IAR028-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR028",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR028",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Feeding Frenzy (feeding-frenzy-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "M Fakhrur Rozzi",
+  ],
+  "cardIdentifier": "feeding-frenzy-red",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR026",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, banish the top card of your deck.
+
+If you've banished a card with 6 or more {p} this turn, this gets **go again**.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Feeding Frenzy",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "M Fakhrur Rozzi",
+      ],
+      "identifier": "IAR026",
+      "image": "IAR026",
+      "print": "IAR026",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "M Fakhrur Rozzi",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR026",
+      "image": "IAR026-RF",
+      "print": "IAR026-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR026",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR026",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Feeding Frenzy (feeding-frenzy-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "M Fakhrur Rozzi",
+  ],
+  "cardIdentifier": "feeding-frenzy-yellow",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR027",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, banish the top card of your deck.
+
+If you've banished a card with 6 or more {p} this turn, this gets **go again**.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Feeding Frenzy",
+  "pitch": 2,
+  "power": 5,
+  "printings": [
+    {
+      "artists": [
+        "M Fakhrur Rozzi",
+      ],
+      "identifier": "IAR027",
+      "image": "IAR027",
+      "print": "IAR027",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "M Fakhrur Rozzi",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR027",
+      "image": "IAR027-RF",
+      "print": "IAR027-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR027",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR027",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action - Attack",
   "types": [
     "Action",
   ],
@@ -235915,6 +238458,97 @@ Deal 5 arcane damage to target hero. If this was **fused**, instead deal X arcan
 }
 `;
 
+exports[`Check for unintentional updates Fresh from the Forge (fresh-from-the-forge-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nailsen Ivanderlie",
+  ],
+  "cardIdentifier": "fresh-from-the-forge-red",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "marked",
+  ],
+  "defaultImage": "IAR255",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Sharpen** each dagger you control.
+
+The next time a dagger you control hits a hero this turn, you may remove a +1{p} counter from it. If you do, **mark** them.",
+  "keywords": [
+    "Mark",
+    "Sharpen",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Emperor",
+    "Fang",
+  ],
+  "meta": [
+    "Deck",
+    "Expansion slot",
+  ],
+  "name": "Fresh from the Forge",
+  "pitch": 1,
+  "printings": [
+    {
+      "artists": [
+        "Nailsen Ivanderlie",
+      ],
+      "identifier": "IAR255",
+      "image": "IAR255",
+      "isExpansionSlot": true,
+      "print": "IAR255",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Nailsen Ivanderlie",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR255",
+      "image": "IAR255-RF",
+      "isExpansionSlot": true,
+      "print": "IAR255-Rainbow",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "referencedCards": [
+    "marked",
+  ],
+  "setIdentifiers": [
+    "IAR255",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR255",
+  "subtypes": [],
+  "talents": [
+    "Draconic",
+  ],
+  "typeText": "Draconic Warrior Attack Reaction",
+  "types": [
+    "Attack Reaction",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Frightmare (frightmare-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -256201,6 +258835,97 @@ exports[`Check for unintentional updates Gore Belching (gore-belching-red) vs sn
 }
 `;
 
+exports[`Check for unintentional updates Goremass Summoning (goremass-summoning-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Farhan Pratama",
+  ],
+  "cardIdentifier": "goremass-summoning-blue",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "createdExtras": [
+    "blasmophet-the-insatiable-hunger",
+  ],
+  "defaultImage": "IAR037",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "If you've banished a card with 6 or more {p} this turn, create a Blasmophet, the Insatiable Hunger token.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Goremass Summoning",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Farhan Pratama",
+      ],
+      "identifier": "IAR037",
+      "image": "IAR037",
+      "print": "IAR037",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Farhan Pratama",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR037",
+      "image": "IAR037-RF",
+      "print": "IAR037-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "blasmophet-the-insatiable-hunger",
+  ],
+  "setIdentifiers": [
+    "IAR037",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR037",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Gorganian Tome (gorganian-tome) vs snapshot 1`] = `
 {
   "artists": [
@@ -256456,6 +259181,273 @@ Draw X cards, where X is 1 plus the number of Gorganian Tomes in all graveyards.
     "Non-Attack",
   ],
   "typeText": "Generic Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Gorging Shadowbeast (gorging-shadowbeast-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alif Zahrah",
+  ],
+  "cardIdentifier": "gorging-shadowbeast-blue",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR031",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, banish the top card of your deck.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Gorging Shadowbeast",
+  "pitch": 3,
+  "power": 5,
+  "printings": [
+    {
+      "artists": [
+        "Alif Zahrah",
+      ],
+      "identifier": "IAR031",
+      "image": "IAR031",
+      "print": "IAR031",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Alif Zahrah",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR031",
+      "image": "IAR031-RF",
+      "print": "IAR031-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR031",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR031",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Gorging Shadowbeast (gorging-shadowbeast-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alif Zahrah",
+  ],
+  "cardIdentifier": "gorging-shadowbeast-red",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR029",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, banish the top card of your deck.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Gorging Shadowbeast",
+  "pitch": 1,
+  "power": 7,
+  "printings": [
+    {
+      "artists": [
+        "Alif Zahrah",
+      ],
+      "identifier": "IAR029",
+      "image": "IAR029",
+      "print": "IAR029",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Alif Zahrah",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR029",
+      "image": "IAR029-RF",
+      "print": "IAR029-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR029",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR029",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Gorging Shadowbeast (gorging-shadowbeast-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alif Zahrah",
+  ],
+  "cardIdentifier": "gorging-shadowbeast-yellow",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR030",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, banish the top card of your deck.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Gorging Shadowbeast",
+  "pitch": 2,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "Alif Zahrah",
+      ],
+      "identifier": "IAR030",
+      "image": "IAR030",
+      "print": "IAR030",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Alif Zahrah",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR030",
+      "image": "IAR030-RF",
+      "print": "IAR030-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR030",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR030",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action - Attack",
   "types": [
     "Action",
   ],
@@ -287507,6 +290499,89 @@ exports[`Check for unintentional updates Hood of Second Thoughts (hood-of-second
   "typeText": "Generic Equipment - Head",
   "types": [
     "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Hoodwink (hoodwink-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Widya Wang",
+  ],
+  "cardIdentifier": "hoodwink-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "defaultImage": "IAR262",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Instant** - Discard this and any number of other cards: Prevent the next X arcane damage that would be dealt to you this turn, where X is the total base {d} of cards discarded this way.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Killjoy",
+    "Lyath",
+    "RKO",
+  ],
+  "meta": [
+    "Deck",
+    "Expansion slot",
+  ],
+  "name": "Hoodwink",
+  "pitch": 3,
+  "power": 1,
+  "printings": [
+    {
+      "artists": [
+        "Widya Wang",
+      ],
+      "identifier": "IAR262",
+      "image": "IAR262",
+      "isExpansionSlot": true,
+      "print": "IAR262",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Widya Wang",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR262",
+      "image": "IAR262-RF",
+      "isExpansionSlot": true,
+      "print": "IAR262-Rainbow",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "IAR262",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR262",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Reviled",
+  ],
+  "typeText": "Reviled Action - Attack",
+  "types": [
+    "Action",
   ],
 }
 `;
@@ -364173,6 +367248,172 @@ When this hits, you may banish 3 traps with cost 0 or more from your graveyard f
 }
 `;
 
+exports[`Check for unintentional updates Murmur of i'Arathael (murmur-of-iarathael-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alexis Susani",
+  ],
+  "cardIdentifier": "murmur-of-iarathael-red",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 1,
+  "defaultImage": "IAR230",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "If a card has been put into your banished zone this turn, this gets **go again**.",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Arakni",
+    "Aurora",
+    "Aurora2",
+    "Azalea",
+    "Baalghor",
+    "Benji",
+    "Betsy",
+    "Blaze",
+    "Bolfar",
+    "Boltyn",
+    "Bravo",
+    "Brevant",
+    "Briar",
+    "Broscilio",
+    "Brutus",
+    "Chane",
+    "Cindra",
+    "Crackni",
+    "Crix",
+    "Dash",
+    "Data Doll",
+    "Dorinthea",
+    "Dromai",
+    "Emperor",
+    "Enigma",
+    "Fai",
+    "Fang",
+    "Florian",
+    "Frankie",
+    "Genis",
+    "Gravy Bones",
+    "Hala",
+    "Ira",
+    "Iyslander",
+    "Jarl",
+    "Kano",
+    "Kassai",
+    "Katsu",
+    "Kavdaen",
+    "Kayo",
+    "Killjoy",
+    "Kox",
+    "Levia",
+    "Lexi",
+    "Librarian",
+    "Lyath",
+    "Malice",
+    "Marlynn",
+    "Maxx",
+    "Melody",
+    "Mortimer",
+    "Nuu",
+    "Oldhim",
+    "Olympia",
+    "Oscilio",
+    "Pleiades",
+    "Prism",
+    "Puffin",
+    "RKO",
+    "Reya",
+    "Rhinar",
+    "Riptide",
+    "Ruu'di",
+    "Scurv",
+    "Shiyana",
+    "Slippy",
+    "Squizzy",
+    "Starvo",
+    "Taipanis",
+    "Taylor",
+    "Teklovossen",
+    "Terra",
+    "Theryon",
+    "Tuffnut",
+    "Uzuri",
+    "Valda",
+    "Verdance",
+    "Victor",
+    "Viserai",
+    "Viserai2",
+    "Vynnset",
+    "Yoji",
+    "Yorick",
+    "Zane",
+    "Zen",
+    "Zyggy",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Murmur of i'Arathael",
+  "pitch": 1,
+  "power": 4,
+  "printings": [
+    {
+      "artists": [
+        "Alexis Susani",
+      ],
+      "identifier": "IAR230",
+      "image": "IAR230",
+      "print": "IAR230",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Alexis Susani",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR230",
+      "image": "IAR230-RF",
+      "print": "IAR230-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR230",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR230",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Murmuring Gloomblade (murmuring-gloomblade-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -365139,6 +368380,249 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
     "Non-Attack",
   ],
   "typeText": "Pirate Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Mutual Sacrifice (mutual-sacrifice-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Asur Misoa",
+  ],
+  "cardIdentifier": "mutual-sacrifice-blue",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 1,
+  "defaultImage": "IAR105",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this hits a hero, you may destroy an ally you control or discard an ally. If you do, they lose 2{h}.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Frankie",
+    "Gravy Bones",
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Mutual Sacrifice",
+  "pitch": 3,
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Asur Misoa",
+      ],
+      "identifier": "IAR105",
+      "image": "IAR105",
+      "print": "IAR105",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Asur Misoa",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR105",
+      "image": "IAR105-RF",
+      "print": "IAR105-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR105",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR105",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Necromancer Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Mutual Sacrifice (mutual-sacrifice-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Asur Misoa",
+  ],
+  "cardIdentifier": "mutual-sacrifice-red",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 1,
+  "defaultImage": "IAR103",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this hits a hero, you may destroy an ally you control or discard an ally. If you do, they lose 2{h}.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Frankie",
+    "Gravy Bones",
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Mutual Sacrifice",
+  "pitch": 1,
+  "power": 5,
+  "printings": [
+    {
+      "artists": [
+        "Asur Misoa",
+      ],
+      "identifier": "IAR103",
+      "image": "IAR103",
+      "print": "IAR103",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Asur Misoa",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR103",
+      "image": "IAR103-RF",
+      "print": "IAR103-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR103",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR103",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Necromancer Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Mutual Sacrifice (mutual-sacrifice-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Asur Misoa",
+  ],
+  "cardIdentifier": "mutual-sacrifice-yellow",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 1,
+  "defaultImage": "IAR104",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this hits a hero, you may destroy an ally you control or discard an ally. If you do, they lose 2{h}.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Frankie",
+    "Gravy Bones",
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Mutual Sacrifice",
+  "pitch": 2,
+  "power": 4,
+  "printings": [
+    {
+      "artists": [
+        "Asur Misoa",
+      ],
+      "identifier": "IAR104",
+      "image": "IAR104",
+      "print": "IAR104",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Asur Misoa",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR104",
+      "image": "IAR104-RF",
+      "print": "IAR104-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR104",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR104",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Necromancer Action - Attack",
   "types": [
     "Action",
   ],
@@ -398924,6 +402408,282 @@ You may {u} your hero.
 }
 `;
 
+exports[`Check for unintentional updates Permanent Interment (permanent-interment-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Erick Sambora",
+  ],
+  "cardIdentifier": "permanent-interment-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "defaultImage": "IAR193",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may pay up to {r}{r}{r}. Turn that many Shadow cards in your banished zone face-down. This gets +1{p} for each card turned face-down this way.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Permanent Interment",
+  "pitch": 3,
+  "power": 1,
+  "printings": [
+    {
+      "artists": [
+        "Erick Sambora",
+      ],
+      "identifier": "IAR193",
+      "image": "IAR193",
+      "print": "IAR193",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Erick Sambora",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR193",
+      "image": "IAR193-RF",
+      "print": "IAR193-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR193",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR193",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Permanent Interment (permanent-interment-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Erick Sambora",
+  ],
+  "cardIdentifier": "permanent-interment-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "defaultImage": "IAR191",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may pay up to {r}{r}{r}. Turn that many Shadow cards in your banished zone face-down. This gets +1{p} for each card turned face-down this way.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Permanent Interment",
+  "pitch": 1,
+  "power": 4,
+  "printings": [
+    {
+      "artists": [
+        "Erick Sambora",
+      ],
+      "identifier": "IAR191",
+      "image": "IAR191",
+      "print": "IAR191",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Erick Sambora",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR191",
+      "image": "IAR191-RF",
+      "print": "IAR191-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR191",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR191",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Permanent Interment (permanent-interment-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Erick Sambora",
+  ],
+  "cardIdentifier": "permanent-interment-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "defaultImage": "IAR192",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this attacks, you may pay up to {r}{r}{r}. Turn that many Shadow cards in your banished zone face-down. This gets +1{p} for each card turned face-down this way.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Permanent Interment",
+  "pitch": 2,
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Erick Sambora",
+      ],
+      "identifier": "IAR192",
+      "image": "IAR192",
+      "print": "IAR192",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Erick Sambora",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR192",
+      "image": "IAR192-RF",
+      "print": "IAR192-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR192",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR192",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Persuasive Prognosis (persuasive-prognosis-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -420146,9 +423906,6 @@ exports[`Check for unintentional updates Prism, Advent of Thrones (prism-advent-
   "artists": [
     "Livia Prima",
   ],
-  "bannedFormats": [
-    "Silver Age",
-  ],
   "cardIdentifier": "prism-advent-of-thrones",
   "classes": [
     "Illusionist",
@@ -423180,6 +426937,99 @@ If this was played from arsenal, it gets **go again**.",
     "Attack",
   ],
   "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Promise of Power (promise-of-power-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "promise-of-power-yellow",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 1,
+  "createdExtras": [
+    "runechant",
+  ],
+  "defaultImage": "IAR122",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "The next time you play an attack action card from your banished zone this turn, create 2 Runechant tokens.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Chane",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Promise of Power",
+  "pitch": 2,
+  "printings": [
+    {
+      "artists": [
+        "Isuardi Therianto",
+      ],
+      "identifier": "IAR122",
+      "image": "IAR122",
+      "print": "IAR122",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Isuardi Therianto",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR122",
+      "image": "IAR122-RF",
+      "print": "IAR122-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "referencedCards": [
+    "runechant",
+  ],
+  "setIdentifiers": [
+    "IAR122",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR122",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action",
   "types": [
     "Action",
   ],
@@ -439677,6 +443527,288 @@ exports[`Check for unintentional updates Rally the Rearguard (rally-the-rearguar
     "Attack",
   ],
   "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Rally the Shadow Horde (rally-the-shadow-horde-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "rally-the-shadow-horde-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 3,
+  "defaultImage": "IAR173",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Once per Turn Instant** - Banish a card from your hand: This gets +2{d}. Activate this only while this card is defending.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Rally the Shadow Horde",
+  "pitch": 3,
+  "power": 5,
+  "printings": [
+    {
+      "artists": [
+        "Marco González",
+      ],
+      "identifier": "IAR173",
+      "image": "IAR173",
+      "print": "IAR173",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Marco González",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR173",
+      "image": "IAR173-RF",
+      "print": "IAR173-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR173",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR173",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Rally the Shadow Horde (rally-the-shadow-horde-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "rally-the-shadow-horde-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 3,
+  "defaultImage": "IAR171",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Once per Turn Instant** - Banish a card from your hand: This gets +2{d}. Activate this only while this card is defending.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Rally the Shadow Horde",
+  "pitch": 1,
+  "power": 7,
+  "printings": [
+    {
+      "artists": [
+        "Marco González",
+      ],
+      "identifier": "IAR171",
+      "image": "IAR171",
+      "print": "IAR171",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Marco González",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR171",
+      "image": "IAR171-RF",
+      "print": "IAR171-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR171",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR171",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Rally the Shadow Horde (rally-the-shadow-horde-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "rally-the-shadow-horde-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 3,
+  "defaultImage": "IAR172",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Once per Turn Instant** - Banish a card from your hand: This gets +2{d}. Activate this only while this card is defending.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Rally the Shadow Horde",
+  "pitch": 2,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "Marco González",
+      ],
+      "identifier": "IAR172",
+      "image": "IAR172",
+      "print": "IAR172",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Marco González",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR172",
+      "image": "IAR172-RF",
+      "print": "IAR172-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR172",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR172",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action - Attack",
   "types": [
     "Action",
   ],
@@ -456872,6 +461004,102 @@ exports[`Check for unintentional updates Restless Outlaw (restless-outlaw-red) v
 }
 `;
 
+exports[`Check for unintentional updates Restless Plowman (restless-plowman-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Pavel Rtishchev (Klaher)",
+  ],
+  "cardIdentifier": "restless-plowman-red",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "defaultImage": "IAR087",
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Action** - {t}: Gain {r}. **Go again**
+
+**Decay**",
+  "keywords": [
+    "Decay",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "life": 3,
+  "meta": [
+    "Deck",
+  ],
+  "name": "Restless Plowman",
+  "pitch": 1,
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Pavel Rtishchev (Klaher)",
+      ],
+      "identifier": "IAR087",
+      "image": "IAR087",
+      "print": "IAR087",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Pavel Rtishchev (Klaher)",
+      ],
+      "foiling": "Cold",
+      "identifier": "IAR087",
+      "image": "IAR087-MV",
+      "print": "IAR087-Cold-Full Art",
+      "rarity": "Marvel",
+      "set": "Usurp the Shadow Throne",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
+  ],
+  "rarities": [
+    "Common",
+    "Marvel",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR087",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Tap",
+  ],
+  "specialImage": "IAR087-MV",
+  "subtypes": [
+    "Ally",
+    "Non-Attack",
+    "Zombie",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action - Zombie Ally",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Restless Quartermaster (restless-quartermaster-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -466316,6 +470544,258 @@ You may return a Phoenix Flame from your graveyard to your hand.
 }
 `;
 
+exports[`Check for unintentional updates Rise to the Challenge (rise-to-the-challenge-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nikolay Moskvin",
+  ],
+  "cardIdentifier": "rise-to-the-challenge-blue",
+  "classes": [
+    "Brute",
+  ],
+  "defaultImage": "IAR052",
+  "defense": 1,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this defends, reveal the top card of your deck. If the revealed card has 6 or more base {p}, this gets +2{d}. Otherwise, put the revealed card on the bottom.
+
+**Instant** - Discard this: Your next attack this turn gets +2{p}.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Kayo",
+    "Levia",
+    "RKO",
+    "Rhinar",
+    "Tuffnut",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Rise to the Challenge",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Nikolay Moskvin",
+      ],
+      "identifier": "IAR052",
+      "image": "IAR052",
+      "print": "IAR052",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Nikolay Moskvin",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR052",
+      "image": "IAR052-RF",
+      "print": "IAR052-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR052",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "IAR052",
+  "subtypes": [],
+  "typeText": "Brute Block",
+  "types": [
+    "Block",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Rise to the Challenge (rise-to-the-challenge-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nikolay Moskvin",
+  ],
+  "cardIdentifier": "rise-to-the-challenge-red",
+  "classes": [
+    "Brute",
+  ],
+  "defaultImage": "IAR050",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this defends, reveal the top card of your deck. If the revealed card has 6 or more base {p}, this gets +2{d}. Otherwise, put the revealed card on the bottom.
+
+**Instant** - Discard this: Your next attack this turn gets +2{p}.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Kayo",
+    "Levia",
+    "RKO",
+    "Rhinar",
+    "Tuffnut",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Rise to the Challenge",
+  "pitch": 1,
+  "printings": [
+    {
+      "artists": [
+        "Nikolay Moskvin",
+      ],
+      "identifier": "IAR050",
+      "image": "IAR050",
+      "print": "IAR050",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Nikolay Moskvin",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR050",
+      "image": "IAR050-RF",
+      "print": "IAR050-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR050",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "IAR050",
+  "subtypes": [],
+  "typeText": "Brute Block",
+  "types": [
+    "Block",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Rise to the Challenge (rise-to-the-challenge-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nikolay Moskvin",
+  ],
+  "cardIdentifier": "rise-to-the-challenge-yellow",
+  "classes": [
+    "Brute",
+  ],
+  "defaultImage": "IAR051",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this defends, reveal the top card of your deck. If the revealed card has 6 or more base {p}, this gets +2{d}. Otherwise, put the revealed card on the bottom.
+
+**Instant** - Discard this: Your next attack this turn gets +2{p}.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Kayo",
+    "Levia",
+    "RKO",
+    "Rhinar",
+    "Tuffnut",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Rise to the Challenge",
+  "pitch": 2,
+  "printings": [
+    {
+      "artists": [
+        "Nikolay Moskvin",
+      ],
+      "identifier": "IAR051",
+      "image": "IAR051",
+      "print": "IAR051",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Nikolay Moskvin",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR051",
+      "image": "IAR051-RF",
+      "print": "IAR051-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR051",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "IAR051",
+  "subtypes": [],
+  "typeText": "Brute Block",
+  "types": [
+    "Block",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Rising Energy (rising-energy-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -471493,6 +475973,279 @@ When this defends, target attack gets -2{p} unless the attacking hero pays {r}."
 }
 `;
 
+exports[`Check for unintentional updates Rocktop Bellow (rocktop-bellow-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Aluísio Cervelle",
+  ],
+  "cardIdentifier": "rocktop-bellow-blue",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR046",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "Reveal the top card of your deck. If the revealed card has 6 or more base {p}, your next attack this turn gets **overpower**. Otherwise, put the revealed card on the bottom.
+
+Your next attack this turn gets +2{p}. **Go again**",
+  "keywords": [
+    "Go again",
+    "Overpower",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Kayo",
+    "Levia",
+    "RKO",
+    "Rhinar",
+    "Tuffnut",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Rocktop Bellow",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Aluísio Cervelle",
+      ],
+      "identifier": "IAR046",
+      "image": "IAR046",
+      "print": "IAR046",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Aluísio Cervelle",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR046",
+      "image": "IAR046-RF",
+      "print": "IAR046-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR046",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "IAR046",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Brute Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Rocktop Bellow (rocktop-bellow-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Aluísio Cervelle",
+  ],
+  "cardIdentifier": "rocktop-bellow-red",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR044",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "Reveal the top card of your deck. If the revealed card has 6 or more base {p}, your next attack this turn gets **overpower**. Otherwise, put the revealed card on the bottom.
+
+Your next attack this turn gets +4{p}. **Go again**",
+  "keywords": [
+    "Go again",
+    "Overpower",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Kayo",
+    "Levia",
+    "RKO",
+    "Rhinar",
+    "Tuffnut",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Rocktop Bellow",
+  "pitch": 1,
+  "printings": [
+    {
+      "artists": [
+        "Aluísio Cervelle",
+      ],
+      "identifier": "IAR044",
+      "image": "IAR044",
+      "print": "IAR044",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Aluísio Cervelle",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR044",
+      "image": "IAR044-RF",
+      "print": "IAR044-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR044",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "IAR044",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Brute Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Rocktop Bellow (rocktop-bellow-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Aluísio Cervelle",
+  ],
+  "cardIdentifier": "rocktop-bellow-yellow",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR045",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "Reveal the top card of your deck. If the revealed card has 6 or more base {p}, your next attack this turn gets **overpower**. Otherwise, put the revealed card on the bottom.
+
+Your next attack this turn gets +3{p}. **Go again**",
+  "keywords": [
+    "Go again",
+    "Overpower",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Kayo",
+    "Levia",
+    "RKO",
+    "Rhinar",
+    "Tuffnut",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Rocktop Bellow",
+  "pitch": 2,
+  "printings": [
+    {
+      "artists": [
+        "Aluísio Cervelle",
+      ],
+      "identifier": "IAR045",
+      "image": "IAR045",
+      "print": "IAR045",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Aluísio Cervelle",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR045",
+      "image": "IAR045-RF",
+      "print": "IAR045-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR045",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "IAR045",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Brute Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Rockyard Rodeo (rockyard-rodeo-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -476174,6 +480927,460 @@ Your next Brute attack this turn gets +3{p}.
     "Non-Attack",
   ],
   "typeText": "Brute Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Rumbling Hunger (rumbling-hunger-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marcellino Tan",
+  ],
+  "cardIdentifier": "rumbling-hunger-blue",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "createdExtras": [
+    "blasmophet-the-insatiable-hunger",
+  ],
+  "defaultImage": "IAR016",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this hits, if you've banished a card with 6 or more {p} this turn, create a Blasmophet, the Insatiable Hunger token and this gets **go again**.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Rumbling Hunger",
+  "pitch": 3,
+  "power": 4,
+  "printings": [
+    {
+      "artists": [
+        "Marcellino Tan",
+      ],
+      "identifier": "IAR016",
+      "image": "IAR016",
+      "print": "IAR016",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Marcellino Tan",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR016",
+      "image": "IAR016-RF",
+      "print": "IAR016-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "referencedCards": [
+    "blasmophet-the-insatiable-hunger",
+  ],
+  "setIdentifiers": [
+    "IAR016",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR016",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Rumbling Hunger (rumbling-hunger-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marcellino Tan",
+  ],
+  "cardIdentifier": "rumbling-hunger-red",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "createdExtras": [
+    "blasmophet-the-insatiable-hunger",
+  ],
+  "defaultImage": "IAR014",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this hits, if you've banished a card with 6 or more {p} this turn, create a Blasmophet, the Insatiable Hunger token and this gets **go again**.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Rumbling Hunger",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "Marcellino Tan",
+      ],
+      "identifier": "IAR014",
+      "image": "IAR014",
+      "print": "IAR014",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Marcellino Tan",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR014",
+      "image": "IAR014-RF",
+      "print": "IAR014-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "referencedCards": [
+    "blasmophet-the-insatiable-hunger",
+  ],
+  "setIdentifiers": [
+    "IAR014",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR014",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Rumbling Hunger (rumbling-hunger-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marcellino Tan",
+  ],
+  "cardIdentifier": "rumbling-hunger-yellow",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "createdExtras": [
+    "blasmophet-the-insatiable-hunger",
+  ],
+  "defaultImage": "IAR015",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this hits, if you've banished a card with 6 or more {p} this turn, create a Blasmophet, the Insatiable Hunger token and this gets **go again**.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Rumbling Hunger",
+  "pitch": 2,
+  "power": 5,
+  "printings": [
+    {
+      "artists": [
+        "Marcellino Tan",
+      ],
+      "identifier": "IAR015",
+      "image": "IAR015",
+      "print": "IAR015",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Marcellino Tan",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR015",
+      "image": "IAR015-RF",
+      "print": "IAR015-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "referencedCards": [
+    "blasmophet-the-insatiable-hunger",
+  ],
+  "setIdentifiers": [
+    "IAR015",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR015",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Rumbling of i'Arathael (rumbling-of-iarathael-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alexis Susani",
+  ],
+  "cardIdentifier": "rumbling-of-iarathael-red",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR231",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "If a card has been put into your banished zone this turn, this gets **overpower**.",
+  "keywords": [
+    "Overpower",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Arakni",
+    "Aurora",
+    "Aurora2",
+    "Azalea",
+    "Baalghor",
+    "Benji",
+    "Betsy",
+    "Blaze",
+    "Bolfar",
+    "Boltyn",
+    "Bravo",
+    "Brevant",
+    "Briar",
+    "Broscilio",
+    "Brutus",
+    "Chane",
+    "Cindra",
+    "Crackni",
+    "Crix",
+    "Dash",
+    "Data Doll",
+    "Dorinthea",
+    "Dromai",
+    "Emperor",
+    "Enigma",
+    "Fai",
+    "Fang",
+    "Florian",
+    "Frankie",
+    "Genis",
+    "Gravy Bones",
+    "Hala",
+    "Ira",
+    "Iyslander",
+    "Jarl",
+    "Kano",
+    "Kassai",
+    "Katsu",
+    "Kavdaen",
+    "Kayo",
+    "Killjoy",
+    "Kox",
+    "Levia",
+    "Lexi",
+    "Librarian",
+    "Lyath",
+    "Malice",
+    "Marlynn",
+    "Maxx",
+    "Melody",
+    "Mortimer",
+    "Nuu",
+    "Oldhim",
+    "Olympia",
+    "Oscilio",
+    "Pleiades",
+    "Prism",
+    "Puffin",
+    "RKO",
+    "Reya",
+    "Rhinar",
+    "Riptide",
+    "Ruu'di",
+    "Scurv",
+    "Shiyana",
+    "Slippy",
+    "Squizzy",
+    "Starvo",
+    "Taipanis",
+    "Taylor",
+    "Teklovossen",
+    "Terra",
+    "Theryon",
+    "Tuffnut",
+    "Uzuri",
+    "Valda",
+    "Verdance",
+    "Victor",
+    "Viserai",
+    "Viserai2",
+    "Vynnset",
+    "Yoji",
+    "Yorick",
+    "Zane",
+    "Zen",
+    "Zyggy",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Rumbling of i'Arathael",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "Alexis Susani",
+      ],
+      "identifier": "IAR231",
+      "image": "IAR231",
+      "print": "IAR231",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Alexis Susani",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR231",
+      "image": "IAR231-RF",
+      "print": "IAR231-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR231",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR231",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
   "types": [
     "Action",
   ],
@@ -486670,6 +491877,273 @@ exports[`Check for unintentional updates Sash of Sandikai (sash-of-sandikai) vs 
   "typeText": "Draconic Equipment - Chest",
   "types": [
     "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Satiate Bloodthirst (satiate-bloodthirst-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Jefrey Yonathan",
+  ],
+  "cardIdentifier": "satiate-bloodthirst-blue",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 3,
+  "defaultImage": "IAR034",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Instant** - Banish this from your hand: Gain 1{h}
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Satiate Bloodthirst",
+  "pitch": 3,
+  "power": 5,
+  "printings": [
+    {
+      "artists": [
+        "Jefrey Yonathan",
+      ],
+      "identifier": "IAR034",
+      "image": "IAR034",
+      "print": "IAR034",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Jefrey Yonathan",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR034",
+      "image": "IAR034-RF",
+      "print": "IAR034-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR034",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR034",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Satiate Bloodthirst (satiate-bloodthirst-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Jefrey Yonathan",
+  ],
+  "cardIdentifier": "satiate-bloodthirst-red",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 3,
+  "defaultImage": "IAR032",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Instant** - Banish this from your hand: Gain 1{h}
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Satiate Bloodthirst",
+  "pitch": 1,
+  "power": 7,
+  "printings": [
+    {
+      "artists": [
+        "Jefrey Yonathan",
+      ],
+      "identifier": "IAR032",
+      "image": "IAR032",
+      "print": "IAR032",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Jefrey Yonathan",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR032",
+      "image": "IAR032-RF",
+      "print": "IAR032-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR032",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR032",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Satiate Bloodthirst (satiate-bloodthirst-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Jefrey Yonathan",
+  ],
+  "cardIdentifier": "satiate-bloodthirst-yellow",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 3,
+  "defaultImage": "IAR033",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Instant** - Banish this from your hand: Gain 1{h}
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Satiate Bloodthirst",
+  "pitch": 2,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "Jefrey Yonathan",
+      ],
+      "identifier": "IAR033",
+      "image": "IAR033",
+      "print": "IAR033",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Jefrey Yonathan",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR033",
+      "image": "IAR033-RF",
+      "print": "IAR033-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR033",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR033",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action - Attack",
+  "types": [
+    "Action",
   ],
 }
 `;
@@ -506019,6 +511493,306 @@ If you paid the addition cost to play this, it gets **go again**.
 }
 `;
 
+exports[`Check for unintentional updates Shadowake Gloomblade (shadowake-gloomblade-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Arif Wijaya",
+  ],
+  "cardIdentifier": "shadowake-gloomblade-blue",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 2,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "IAR137",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "You may play this from your banished zone.
+
+**Usurp**
+
+When this hits, create a Gate to i'Arathael token.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Usurp",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Chane",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Shadowake Gloomblade",
+  "pitch": 3,
+  "power": 2,
+  "printings": [
+    {
+      "artists": [
+        "Arif Wijaya",
+      ],
+      "identifier": "IAR137",
+      "image": "IAR137",
+      "print": "IAR137",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Arif Wijaya",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR137",
+      "image": "IAR137-RF",
+      "print": "IAR137-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "IAR137",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR137",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Shadowake Gloomblade (shadowake-gloomblade-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Arif Wijaya",
+  ],
+  "cardIdentifier": "shadowake-gloomblade-red",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 2,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "IAR135",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "You may play this from your banished zone.
+
+**Usurp**
+
+When this hits, create a Gate to i'Arathael token.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Usurp",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Chane",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Shadowake Gloomblade",
+  "pitch": 1,
+  "power": 4,
+  "printings": [
+    {
+      "artists": [
+        "Arif Wijaya",
+      ],
+      "identifier": "IAR135",
+      "image": "IAR135",
+      "print": "IAR135",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Arif Wijaya",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR135",
+      "image": "IAR135-RF",
+      "print": "IAR135-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "IAR135",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR135",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Shadowake Gloomblade (shadowake-gloomblade-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Arif Wijaya",
+  ],
+  "cardIdentifier": "shadowake-gloomblade-yellow",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 2,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "IAR136",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "You may play this from your banished zone.
+
+**Usurp**
+
+When this hits, create a Gate to i'Arathael token.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Usurp",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Chane",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Shadowake Gloomblade",
+  "pitch": 2,
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Arif Wijaya",
+      ],
+      "identifier": "IAR136",
+      "image": "IAR136",
+      "print": "IAR136",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Arif Wijaya",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR136",
+      "image": "IAR136-RF",
+      "print": "IAR136-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "IAR136",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR136",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Shadowrealm Bloodhound (shadowrealm-bloodhound-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -507348,6 +513122,91 @@ exports[`Check for unintentional updates Shadowrealm Strength (shadowrealm-stren
     "Buffs",
   ],
   "specialImage": "JDG089-CF",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Shadowrealm Swiftness (shadowrealm-swiftness-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Arif Resu",
+  ],
+  "cardIdentifier": "shadowrealm-swiftness-yellow",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "defaultImage": "IAR083",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "You may put a card from your banished zone into your graveyard. If it's a zombie, your next attack this turn gets **go again**.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Shadowrealm Swiftness",
+  "pitch": 2,
+  "printings": [
+    {
+      "artists": [
+        "Arif Resu",
+      ],
+      "identifier": "IAR083",
+      "image": "IAR083",
+      "print": "IAR083",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Arif Resu",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR083",
+      "image": "IAR083-RF",
+      "print": "IAR083-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR083",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR083",
   "subtypes": [
     "Non-Attack",
   ],
@@ -565356,6 +571215,306 @@ exports[`Check for unintentional updates Step Between (step-between-red) vs snap
     "Attack",
   ],
   "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Step through Realms (step-through-realms-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Stormy Elia Fanggidae",
+  ],
+  "cardIdentifier": "step-through-realms-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 2,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "IAR217",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "Your next Shadow attack this turn gets +2{p} and "When this hits, create a Gate to i'Arathael token."
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Step through Realms",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Stormy Elia Fanggidae",
+      ],
+      "identifier": "IAR217",
+      "image": "IAR217",
+      "print": "IAR217",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Stormy Elia Fanggidae",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR217",
+      "image": "IAR217-RF",
+      "print": "IAR217-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "IAR217",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "IAR217",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Step through Realms (step-through-realms-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Stormy Elia Fanggidae",
+  ],
+  "cardIdentifier": "step-through-realms-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 2,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "IAR215",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "Your next Shadow attack this turn gets +4{p} and "When this hits, create a Gate to i'Arathael token."
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Step through Realms",
+  "pitch": 1,
+  "printings": [
+    {
+      "artists": [
+        "Stormy Elia Fanggidae",
+      ],
+      "identifier": "IAR215",
+      "image": "IAR215",
+      "print": "IAR215",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Stormy Elia Fanggidae",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR215",
+      "image": "IAR215-RF",
+      "print": "IAR215-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "IAR215",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "IAR215",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Step through Realms (step-through-realms-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Stormy Elia Fanggidae",
+  ],
+  "cardIdentifier": "step-through-realms-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 2,
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "IAR216",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "Your next Shadow attack this turn gets +3{p} and "When this hits, create a Gate to i'Arathael token."
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Step through Realms",
+  "pitch": 2,
+  "printings": [
+    {
+      "artists": [
+        "Stormy Elia Fanggidae",
+      ],
+      "identifier": "IAR216",
+      "image": "IAR216",
+      "print": "IAR216",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Stormy Elia Fanggidae",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR216",
+      "image": "IAR216-RF",
+      "print": "IAR216-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "IAR216",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "IAR216",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action",
   "types": [
     "Action",
   ],
@@ -640164,10 +646323,15 @@ At the beginning of each end phase, if you've created or activated a Gate to i'A
     "Traverse",
   ],
   "legalFormats": [
+    "Blitz",
     "Classic Constructed",
+    "Draft",
     "Golden Age",
     "Living Legend",
     "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
   ],
   "legalHeroes": [
     "Viserai",
@@ -657515,6 +663679,511 @@ exports[`Check for unintentional updates Whispering Mist (whispering-mist-blue) 
 }
 `;
 
+exports[`Check for unintentional updates Whispers Within (whispers-within-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Orson CaptainSass",
+  ],
+  "cardIdentifier": "whispers-within-blue",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 3,
+  "defaultImage": "IAR241",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this defends, **opt 1**.",
+  "keywords": [
+    "Opt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Arakni",
+    "Aurora",
+    "Aurora2",
+    "Azalea",
+    "Baalghor",
+    "Benji",
+    "Betsy",
+    "Blaze",
+    "Bolfar",
+    "Boltyn",
+    "Bravo",
+    "Brevant",
+    "Briar",
+    "Broscilio",
+    "Brutus",
+    "Chane",
+    "Cindra",
+    "Crackni",
+    "Crix",
+    "Dash",
+    "Data Doll",
+    "Dorinthea",
+    "Dromai",
+    "Enigma",
+    "Fai",
+    "Fang",
+    "Florian",
+    "Frankie",
+    "Genis",
+    "Gravy Bones",
+    "Hala",
+    "Ira",
+    "Iyslander",
+    "Jarl",
+    "Kano",
+    "Kassai",
+    "Katsu",
+    "Kavdaen",
+    "Kayo",
+    "Killjoy",
+    "Kox",
+    "Levia",
+    "Lexi",
+    "Librarian",
+    "Lyath",
+    "Malice",
+    "Marlynn",
+    "Maxx",
+    "Melody",
+    "Mortimer",
+    "Nuu",
+    "Oldhim",
+    "Olympia",
+    "Oscilio",
+    "Pleiades",
+    "Prism",
+    "Puffin",
+    "RKO",
+    "Reya",
+    "Rhinar",
+    "Riptide",
+    "Ruu'di",
+    "Scurv",
+    "Shiyana",
+    "Slippy",
+    "Squizzy",
+    "Starvo",
+    "Taipanis",
+    "Taylor",
+    "Teklovossen",
+    "Terra",
+    "Theryon",
+    "Tuffnut",
+    "Uzuri",
+    "Valda",
+    "Verdance",
+    "Victor",
+    "Viserai",
+    "Viserai2",
+    "Vynnset",
+    "Yoji",
+    "Yorick",
+    "Zane",
+    "Zen",
+    "Zyggy",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Whispers Within",
+  "pitch": 3,
+  "power": 5,
+  "printings": [
+    {
+      "artists": [
+        "Orson CaptainSass",
+      ],
+      "identifier": "IAR241",
+      "image": "IAR241",
+      "print": "IAR241",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Orson CaptainSass",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR241",
+      "image": "IAR241-RF",
+      "print": "IAR241-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR241",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR241",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Whispers Within (whispers-within-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Orson CaptainSass",
+  ],
+  "cardIdentifier": "whispers-within-red",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 3,
+  "defaultImage": "IAR239",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this defends, **opt 1**.",
+  "keywords": [
+    "Opt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Arakni",
+    "Aurora",
+    "Aurora2",
+    "Azalea",
+    "Baalghor",
+    "Benji",
+    "Betsy",
+    "Blaze",
+    "Bolfar",
+    "Boltyn",
+    "Bravo",
+    "Brevant",
+    "Briar",
+    "Broscilio",
+    "Brutus",
+    "Chane",
+    "Cindra",
+    "Crackni",
+    "Crix",
+    "Dash",
+    "Data Doll",
+    "Dorinthea",
+    "Dromai",
+    "Emperor",
+    "Enigma",
+    "Fai",
+    "Fang",
+    "Florian",
+    "Frankie",
+    "Genis",
+    "Gravy Bones",
+    "Hala",
+    "Ira",
+    "Iyslander",
+    "Jarl",
+    "Kano",
+    "Kassai",
+    "Katsu",
+    "Kavdaen",
+    "Kayo",
+    "Killjoy",
+    "Kox",
+    "Levia",
+    "Lexi",
+    "Librarian",
+    "Lyath",
+    "Malice",
+    "Marlynn",
+    "Maxx",
+    "Melody",
+    "Mortimer",
+    "Nuu",
+    "Oldhim",
+    "Olympia",
+    "Oscilio",
+    "Pleiades",
+    "Prism",
+    "Puffin",
+    "RKO",
+    "Reya",
+    "Rhinar",
+    "Riptide",
+    "Ruu'di",
+    "Scurv",
+    "Shiyana",
+    "Slippy",
+    "Squizzy",
+    "Starvo",
+    "Taipanis",
+    "Taylor",
+    "Teklovossen",
+    "Terra",
+    "Theryon",
+    "Tuffnut",
+    "Uzuri",
+    "Valda",
+    "Verdance",
+    "Victor",
+    "Viserai",
+    "Viserai2",
+    "Vynnset",
+    "Yoji",
+    "Yorick",
+    "Zane",
+    "Zen",
+    "Zyggy",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Whispers Within",
+  "pitch": 1,
+  "power": 7,
+  "printings": [
+    {
+      "artists": [
+        "Orson CaptainSass",
+      ],
+      "identifier": "IAR239",
+      "image": "IAR239",
+      "print": "IAR239",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Orson CaptainSass",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR239",
+      "image": "IAR239-RF",
+      "print": "IAR239-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR239",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR239",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Whispers Within (whispers-within-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Orson CaptainSass",
+  ],
+  "cardIdentifier": "whispers-within-yellow",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 3,
+  "defaultImage": "IAR240",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this defends, **opt 1**.",
+  "keywords": [
+    "Opt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Arakni",
+    "Aurora",
+    "Aurora2",
+    "Azalea",
+    "Baalghor",
+    "Benji",
+    "Betsy",
+    "Blaze",
+    "Bolfar",
+    "Boltyn",
+    "Bravo",
+    "Brevant",
+    "Briar",
+    "Broscilio",
+    "Brutus",
+    "Chane",
+    "Cindra",
+    "Crackni",
+    "Crix",
+    "Dash",
+    "Data Doll",
+    "Dorinthea",
+    "Dromai",
+    "Enigma",
+    "Fai",
+    "Fang",
+    "Florian",
+    "Frankie",
+    "Genis",
+    "Gravy Bones",
+    "Hala",
+    "Ira",
+    "Iyslander",
+    "Jarl",
+    "Kano",
+    "Kassai",
+    "Katsu",
+    "Kavdaen",
+    "Kayo",
+    "Killjoy",
+    "Kox",
+    "Levia",
+    "Lexi",
+    "Librarian",
+    "Lyath",
+    "Malice",
+    "Marlynn",
+    "Maxx",
+    "Melody",
+    "Mortimer",
+    "Nuu",
+    "Oldhim",
+    "Olympia",
+    "Oscilio",
+    "Pleiades",
+    "Prism",
+    "Puffin",
+    "RKO",
+    "Reya",
+    "Rhinar",
+    "Riptide",
+    "Ruu'di",
+    "Scurv",
+    "Shiyana",
+    "Slippy",
+    "Squizzy",
+    "Starvo",
+    "Taipanis",
+    "Taylor",
+    "Teklovossen",
+    "Terra",
+    "Theryon",
+    "Tuffnut",
+    "Uzuri",
+    "Valda",
+    "Verdance",
+    "Victor",
+    "Viserai",
+    "Viserai2",
+    "Vynnset",
+    "Yoji",
+    "Yorick",
+    "Zane",
+    "Zen",
+    "Zyggy",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Whispers Within",
+  "pitch": 2,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "Orson CaptainSass",
+      ],
+      "identifier": "IAR240",
+      "image": "IAR240",
+      "print": "IAR240",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Orson CaptainSass",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR240",
+      "image": "IAR240-RF",
+      "print": "IAR240-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR240",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR240",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Whittle from Bone (whittle-from-bone-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -660543,6 +667212,101 @@ exports[`Check for unintentional updates Wind Cutter (wind-cutter) vs snapshot 1
   "typeText": "Ninja Equipment - Arms",
   "types": [
     "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Wind Slicer (wind-slicer-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Satrya Darmawan",
+  ],
+  "cardIdentifier": "wind-slicer-blue",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 0,
+  "defaultImage": "IAR246",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Legendary**
+
+**Action** - {r}, {t}, destroy this when the combat chain closes: **Attack**. **Go again**
+
+When this hits a hero, they lose all hero card abilities during their next action phase",
+  "keywords": [
+    "Go again",
+    "Legendary",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Benji",
+    "Cindra",
+    "Fai",
+    "Ira",
+    "Katsu",
+    "Zen",
+  ],
+  "meta": [
+    "Deck",
+    "Expansion slot",
+  ],
+  "name": "Wind Slicer",
+  "pitch": 3,
+  "power": 1,
+  "printings": [
+    {
+      "artists": [
+        "Satrya Darmawan",
+      ],
+      "identifier": "IAR246",
+      "image": "IAR246",
+      "isExpansionSlot": true,
+      "print": "IAR246",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Satrya Darmawan",
+      ],
+      "foiling": "Cold",
+      "identifier": "IAR246",
+      "image": "IAR246-CF",
+      "isExpansionSlot": true,
+      "print": "IAR246-Cold",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "IAR246",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Tap",
+  ],
+  "specialImage": "IAR246-CF",
+  "subtypes": [
+    "Item",
+    "Shuriken",
+  ],
+  "typeText": "Ninja Instant - Shuriken Item",
+  "types": [
+    "Instant",
   ],
 }
 `;

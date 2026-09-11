@@ -32,11 +32,9 @@ const limitedLegalOverrideCards = [
   "Runechant of Wrath",
 ];
 
-// These heroes need to be marked banned even though legal per card data - rarity downshift cards haven't been released yet
-const SILVER_AGE_BANNED_CARD_EXCEPTIONS: string[] = [
-  "Baalghor, Omen of the End",
-  "Prism, Advent of Thrones",
-];
+// These cards need to be marked banned even though legal per card data - rarity downshift cards haven't been released yet
+const SILVER_AGE_BANNED_CARD_EXCEPTIONS: string[] = [];
+// These cards need to be marked legal because they only have a promo or marvel rarity but are legal in Silver Age
 const SILVER_AGE_LEGAL_CARD_EXCEPTIONS: string[] = ["Blade Dance"];
 
 const RARITIES_ALLOWED_IN_SILVER_AGE = [
@@ -280,7 +278,12 @@ const limitedFormatReleases = releaseInfoForLimitedFormat.map(
   ({ release }) => release,
 );
 
-export const getConfirmedBannedAndLegalFormats = ({
+export interface ConfirmedFormats {
+  bannedFormats?: Format[];
+  legalFormats: Format[];
+}
+
+const getConfirmedBannedAndLegalFormats = ({
   bannedFormats,
   classes,
   legalFormats,
@@ -291,7 +294,7 @@ export const getConfirmedBannedAndLegalFormats = ({
   sets,
   subtypes,
   types,
-}: PreliminaryCard): { bannedFormats?: Format[]; legalFormats: Format[] } => {
+}: PreliminaryCard): ConfirmedFormats => {
   const isHero = types.includes(Type.Hero);
 
   const isAnAdjudicator = classes.includes(Class.Adjudicator);
@@ -437,4 +440,60 @@ export const getConfirmedBannedAndLegalFormats = ({
     bannedFormats: confirmedBannedFormats,
     legalFormats: confirmedLegalFormats,
   };
+};
+
+// A hero printed on a card back (Viserai, Usurper) is reached by transforming
+// from one of its fronts, so it is playable wherever any front is. Its own type
+// line carries neither age nor rarity of its own, so judging it on its own data
+// reads it as an adult hero and drops the young-hero formats its young front is
+// legal in.
+const getIsAHeroCardBack = ({
+  isCardBack,
+  oppositeSideCardIdentifiers,
+  types,
+}: PreliminaryCard): boolean =>
+  !!isCardBack &&
+  types.includes(Type.Hero) &&
+  !!oppositeSideCardIdentifiers &&
+  oppositeSideCardIdentifiers.length > 0;
+
+export const getConfirmedBannedAndLegalFormatsByCardIdentifier = (
+  cards: PreliminaryCard[],
+): Map<string, ConfirmedFormats> => {
+  const confirmedFormatsByCardIdentifier = new Map<string, ConfirmedFormats>();
+  for (const card of cards) {
+    confirmedFormatsByCardIdentifier.set(
+      card.cardIdentifier,
+      getConfirmedBannedAndLegalFormats(card),
+    );
+  }
+
+  // Fronts are never card backs themselves, so their confirmed formats above are
+  // final by the time a back reads them.
+  for (const card of cards) {
+    if (getIsAHeroCardBack(card)) {
+      const legalFormats = new Set<Format>();
+      const bannedFormats = new Set<Format>();
+      for (const frontCardIdentifier of card.oppositeSideCardIdentifiers as string[]) {
+        const frontFormats =
+          confirmedFormatsByCardIdentifier.get(frontCardIdentifier);
+        for (const format of frontFormats?.legalFormats || []) {
+          legalFormats.add(format);
+        }
+        for (const format of frontFormats?.bannedFormats || []) {
+          bannedFormats.add(format);
+        }
+      }
+      for (const format of legalFormats) {
+        bannedFormats.delete(format);
+      }
+
+      confirmedFormatsByCardIdentifier.set(card.cardIdentifier, {
+        bannedFormats: Array.from(bannedFormats).sort(),
+        legalFormats: Array.from(legalFormats).sort(),
+      });
+    }
+  }
+
+  return confirmedFormatsByCardIdentifier;
 };

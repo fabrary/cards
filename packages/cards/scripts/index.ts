@@ -27,7 +27,8 @@ import {
   sortPrintingsByReleaseOrder,
 } from "./Shared";
 import {
-  getConfirmedBannedAndLegalFormats,
+  ConfirmedFormats,
+  getConfirmedBannedAndLegalFormatsByCardIdentifier,
   getLegalHeroesByCard,
 } from "./Shared/legality";
 import { CardRelations, getCardRelations } from "./Shared/get-card-relations";
@@ -187,9 +188,15 @@ const cardsWithRelations = deduplicatedCards.map((card) => ({
 // puts into play, so hero legality reads the whole card list at once.
 const legalHeroesByCardIdentifier = getLegalHeroesByCard(cardsWithRelations);
 
+// A hero card back takes its formats from its fronts, so format confirmation
+// reads the whole card list at once as well.
+const confirmedFormatsByCardIdentifier =
+  getConfirmedBannedAndLegalFormatsByCardIdentifier(cardsWithRelations);
+
 const cardsWithAdditionalProperties = cardsWithRelations.map((card) => {
-  const { bannedFormats, legalFormats } =
-    getConfirmedBannedAndLegalFormats(card);
+  const { bannedFormats, legalFormats } = confirmedFormatsByCardIdentifier.get(
+    card.cardIdentifier,
+  ) as ConfirmedFormats;
   const legalHeroes = legalHeroesByCardIdentifier.get(
     card.cardIdentifier,
   ) as Hero[];

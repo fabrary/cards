@@ -24346,7 +24346,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
     typeText: "Shadow Hero - Young Demon",
 
     
-    bannedFormats: [Format.SilverAge],
+    
     
     
     
@@ -325468,7 +325468,7 @@ Your next Brute attack this turn gets +3{p}.
     typeText: "Light Illusionist Hero - Young",
 
     
-    bannedFormats: [Format.SilverAge],
+    
     
     
     
@@ -495762,7 +495762,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
     classes: [Class.Runeblade],
     defaultImage: "IAR106_BACK",
     firstReleaseDate: "2026-09-18",
-    legalFormats: [Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open],
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Viserai],
     name: "Viserai, Usurper",
     printings: [{
