@@ -130655,7 +130655,7 @@ exports[`Check for unintentional updates Cracked Bauble (cracked-bauble-yellow) 
   "classes": [
     "Generic",
   ],
-  "defaultImage": "OMN226",
+  "defaultImage": "IAR242",
   "firstReleaseDate": "2019-10-11",
   "functionalText": "*(A player may add any number of Cracked Baubles to their card-pool in sealed deck or booster draft formats.)*",
   "legalFormats": [
@@ -130763,6 +130763,20 @@ exports[`Check for unintentional updates Cracked Bauble (cracked-bauble-yellow) 
   "name": "Cracked Bauble",
   "pitch": 2,
   "printings": [
+    {
+      "artists": [
+        "Sam Yang",
+      ],
+      "identifier": "IAR242",
+      "image": "IAR242",
+      "print": "IAR242-Extended Art",
+      "rarity": "Basic",
+      "set": "Usurp the Shadow Throne",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
     {
       "artists": [
         "Sam Yang",
@@ -131085,6 +131099,7 @@ exports[`Check for unintentional updates Cracked Bauble (cracked-bauble-yellow) 
     "ELE237",
     "HNT245",
     "HVY244",
+    "IAR242",
     "LGS083",
     "LGS227",
     "MON306",
@@ -131112,6 +131127,7 @@ exports[`Check for unintentional updates Cracked Bauble (cracked-bauble-yellow) 
     "Tales of Aria",
     "The Hunted",
     "Uprising",
+    "Usurp the Shadow Throne",
     "Welcome to Rathe",
   ],
   "specialImage": "LGS083-CF",
@@ -143708,6 +143724,273 @@ At the start of your turn, destroy this.",
 }
 `;
 
+exports[`Check for unintentional updates Dam the Shadowake (dam-the-shadowake-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Petrinda Wiyugo",
+  ],
+  "cardIdentifier": "dam-the-shadowake-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "IAR220",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this defends a Shadow hero's attack, create a Gate to i'Arathael token.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Dam the Shadowake",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Petrinda Wiyugo",
+      ],
+      "identifier": "IAR220",
+      "image": "IAR220",
+      "print": "IAR220",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Petrinda Wiyugo",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR220",
+      "image": "IAR220-RF",
+      "print": "IAR220-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "IAR220",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR220",
+  "subtypes": [],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Block",
+  "types": [
+    "Block",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Dam the Shadowake (dam-the-shadowake-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Petrinda Wiyugo",
+  ],
+  "cardIdentifier": "dam-the-shadowake-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "IAR218",
+  "defense": 4,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this defends a Shadow hero's attack, create a Gate to i'Arathael token.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Dam the Shadowake",
+  "pitch": 1,
+  "printings": [
+    {
+      "artists": [
+        "Petrinda Wiyugo",
+      ],
+      "identifier": "IAR218",
+      "image": "IAR218",
+      "print": "IAR218",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Petrinda Wiyugo",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR218",
+      "image": "IAR218-RF",
+      "print": "IAR218-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "IAR218",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR218",
+  "subtypes": [],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Block",
+  "types": [
+    "Block",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Dam the Shadowake (dam-the-shadowake-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Petrinda Wiyugo",
+  ],
+  "cardIdentifier": "dam-the-shadowake-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "createdExtras": [
+    "gate-to-iarathael",
+  ],
+  "defaultImage": "IAR219",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this defends a Shadow hero's attack, create a Gate to i'Arathael token.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Dam the Shadowake",
+  "pitch": 2,
+  "printings": [
+    {
+      "artists": [
+        "Petrinda Wiyugo",
+      ],
+      "identifier": "IAR219",
+      "image": "IAR219",
+      "print": "IAR219",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Petrinda Wiyugo",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR219",
+      "image": "IAR219-RF",
+      "print": "IAR219-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "gate-to-iarathael",
+  ],
+  "setIdentifiers": [
+    "IAR219",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR219",
+  "subtypes": [],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Block",
+  "types": [
+    "Block",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Dampen (dampen-blue) vs snapshot 1`] = `
 {
   "arcane": 2,
@@ -144329,6 +144612,169 @@ exports[`Check for unintentional updates Danse Macabre (danse-macabre) vs snapsh
     "Legs",
   ],
   "typeText": "Necromancer Equipment - Legs",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Dark Arcanite Boots (dark-arcanite-boots) vs snapshot 1`] = `
+{
+  "artists": [
+    "M Fakhrur Rozzi",
+  ],
+  "cardIdentifier": "dark-arcanite-boots",
+  "classes": [
+    "Generic",
+  ],
+  "defaultImage": "IAR227",
+  "defense": 0,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Shadow Resist 1**",
+  "keywords": [
+    "Shadow Resist",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Arakni",
+    "Aurora",
+    "Aurora2",
+    "Azalea",
+    "Baalghor",
+    "Benji",
+    "Betsy",
+    "Blaze",
+    "Bolfar",
+    "Boltyn",
+    "Bravo",
+    "Brevant",
+    "Briar",
+    "Broscilio",
+    "Brutus",
+    "Chane",
+    "Cindra",
+    "Crackni",
+    "Crix",
+    "Dash",
+    "Data Doll",
+    "Dorinthea",
+    "Dromai",
+    "Emperor",
+    "Enigma",
+    "Fai",
+    "Fang",
+    "Florian",
+    "Frankie",
+    "Genis",
+    "Gravy Bones",
+    "Hala",
+    "Ira",
+    "Iyslander",
+    "Jarl",
+    "Kano",
+    "Kassai",
+    "Katsu",
+    "Kavdaen",
+    "Kayo",
+    "Killjoy",
+    "Kox",
+    "Levia",
+    "Lexi",
+    "Librarian",
+    "Lyath",
+    "Malice",
+    "Marlynn",
+    "Maxx",
+    "Melody",
+    "Mortimer",
+    "Nuu",
+    "Oldhim",
+    "Olympia",
+    "Oscilio",
+    "Pleiades",
+    "Prism",
+    "Puffin",
+    "RKO",
+    "Reya",
+    "Rhinar",
+    "Riptide",
+    "Ruu'di",
+    "Scurv",
+    "Shiyana",
+    "Slippy",
+    "Squizzy",
+    "Starvo",
+    "Taipanis",
+    "Taylor",
+    "Teklovossen",
+    "Terra",
+    "Theryon",
+    "Tuffnut",
+    "Uzuri",
+    "Valda",
+    "Verdance",
+    "Victor",
+    "Viserai",
+    "Viserai2",
+    "Vynnset",
+    "Yoji",
+    "Yorick",
+    "Zane",
+    "Zen",
+    "Zyggy",
+  ],
+  "meta": [
+    "Arena",
+  ],
+  "name": "Dark Arcanite Boots",
+  "printings": [
+    {
+      "artists": [
+        "M Fakhrur Rozzi",
+      ],
+      "identifier": "IAR227",
+      "image": "IAR227",
+      "print": "IAR227",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "M Fakhrur Rozzi",
+      ],
+      "foiling": "Cold",
+      "identifier": "IAR227",
+      "image": "IAR227-CF",
+      "print": "IAR227-Cold",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR227",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR227-CF",
+  "subtypes": [
+    "Legs",
+  ],
+  "typeText": "Generic Equipment - Legs",
   "types": [
     "Equipment",
   ],
@@ -209308,6 +209754,95 @@ exports[`Check for unintentional updates Falcon Wing (falcon-wing-yellow) vs sna
 }
 `;
 
+exports[`Check for unintentional updates Fallen Herald (fallen-herald-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Livia Prima",
+  ],
+  "cardIdentifier": "fallen-herald-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR165",
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Instant** - Banish this from your hand: Prevent the next 4 damage that would be dealt to you this turn.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Fallen Herald",
+  "pitch": 2,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "Livia Prima",
+      ],
+      "identifier": "IAR165",
+      "image": "IAR165",
+      "print": "IAR165",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Livia Prima",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR165",
+      "image": "IAR165-RF",
+      "print": "IAR165-Rainbow",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "IAR165",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR165",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Familiar Stench (familiar-stench-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -245816,7 +246351,7 @@ exports[`Check for unintentional updates Ghostly Visit (ghostly-visit-blue) vs s
     "NotClassed",
   ],
   "cost": 1,
-  "defaultImage": "U-MON205",
+  "defaultImage": "IAR190",
   "defense": 3,
   "firstReleaseDate": "2021-05-07",
   "functionalText": "You may play this from your banished zone.
@@ -245847,11 +246382,22 @@ exports[`Check for unintentional updates Ghostly Visit (ghostly-visit-blue) vs s
   "meta": [
     "Deck",
     "Rainbow",
+    "Reprint",
   ],
   "name": "Ghostly Visit",
   "pitch": 3,
   "power": 2,
   "printings": [
+    {
+      "artists": [
+        "Alexandra Malygina",
+      ],
+      "identifier": "IAR190",
+      "image": "IAR190",
+      "print": "IAR190",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
     {
       "artists": [
         "Alexandra Malygina",
@@ -245941,11 +246487,13 @@ exports[`Check for unintentional updates Ghostly Visit (ghostly-visit-blue) vs s
   "rarity": "Common",
   "setIdentifiers": [
     "FAB040",
+    "IAR190",
     "MON205",
   ],
   "sets": [
     "Monarch",
     "Promos",
+    "Usurp the Shadow Throne",
   ],
   "specialImage": "FAB040-RF",
   "subtypes": [
@@ -245971,7 +246519,7 @@ exports[`Check for unintentional updates Ghostly Visit (ghostly-visit-red) vs sn
     "NotClassed",
   ],
   "cost": 1,
-  "defaultImage": "U-MON203",
+  "defaultImage": "IAR188",
   "defense": 3,
   "firstReleaseDate": "2021-05-07",
   "functionalText": "You may play this from your banished zone.
@@ -246008,6 +246556,16 @@ exports[`Check for unintentional updates Ghostly Visit (ghostly-visit-red) vs sn
   "pitch": 1,
   "power": 4,
   "printings": [
+    {
+      "artists": [
+        "Alexandra Malygina",
+      ],
+      "identifier": "IAR188",
+      "image": "IAR188",
+      "print": "IAR188",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
     {
       "artists": [
         "Alexandra Malygina",
@@ -246112,12 +246670,14 @@ exports[`Check for unintentional updates Ghostly Visit (ghostly-visit-red) vs sn
   "setIdentifiers": [
     "CHN021",
     "FAB038",
+    "IAR188",
     "MON203",
   ],
   "sets": [
     "Chane Blitz Deck",
     "Monarch",
     "Promos",
+    "Usurp the Shadow Throne",
   ],
   "specialImage": "FAB038-RF",
   "subtypes": [
@@ -246143,7 +246703,7 @@ exports[`Check for unintentional updates Ghostly Visit (ghostly-visit-yellow) vs
     "NotClassed",
   ],
   "cost": 1,
-  "defaultImage": "U-MON204",
+  "defaultImage": "IAR189",
   "defense": 3,
   "firstReleaseDate": "2021-05-07",
   "functionalText": "You may play this from your banished zone.
@@ -246174,11 +246734,22 @@ exports[`Check for unintentional updates Ghostly Visit (ghostly-visit-yellow) vs
   "meta": [
     "Deck",
     "Rainbow",
+    "Reprint",
   ],
   "name": "Ghostly Visit",
   "pitch": 2,
   "power": 3,
   "printings": [
+    {
+      "artists": [
+        "Alexandra Malygina",
+      ],
+      "identifier": "IAR189",
+      "image": "IAR189",
+      "print": "IAR189",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
     {
       "artists": [
         "Alexandra Malygina",
@@ -246268,11 +246839,13 @@ exports[`Check for unintentional updates Ghostly Visit (ghostly-visit-yellow) vs
   "rarity": "Common",
   "setIdentifiers": [
     "FAB039",
+    "IAR189",
     "MON204",
   ],
   "sets": [
     "Monarch",
     "Promos",
+    "Usurp the Shadow Throne",
   ],
   "specialImage": "FAB039-RF",
   "subtypes": [
@@ -419572,7 +420145,6 @@ exports[`Check for unintentional updates Prism, Advent of Thrones (prism-advent-
 {
   "artists": [
     "Livia Prima",
-    "Livia Prime",
   ],
   "bannedFormats": [
     "Silver Age",
@@ -419608,7 +420180,7 @@ exports[`Check for unintentional updates Prism, Advent of Thrones (prism-advent-
   "printings": [
     {
       "artists": [
-        "Livia Prime",
+        "Livia Prima",
       ],
       "identifier": "SAT001",
       "image": "SAT001",
@@ -456391,6 +456963,100 @@ exports[`Check for unintentional updates Restless Quartermaster (restless-quarte
     "Usurp the Shadow Throne",
   ],
   "specialImage": "IAR065-MV",
+  "subtypes": [
+    "Ally",
+    "Non-Attack",
+    "Zombie",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action - Zombie Ally",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Restless Shieldmaiden (restless-shieldmaiden-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Joseph Qiu",
+  ],
+  "cardIdentifier": "restless-shieldmaiden-red",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "defaultImage": "IAR088",
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Shadow Resist 1**
+
+**Decay**",
+  "keywords": [
+    "Decay",
+    "Shadow Resist",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "life": 3,
+  "meta": [
+    "Deck",
+  ],
+  "name": "Restless Shieldmaiden",
+  "pitch": 1,
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Joseph Qiu",
+      ],
+      "identifier": "IAR088",
+      "image": "IAR088",
+      "print": "IAR088",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Joseph Qiu",
+      ],
+      "foiling": "Cold",
+      "identifier": "IAR088",
+      "image": "IAR088-MV",
+      "print": "IAR088-Cold-Full Art",
+      "rarity": "Marvel",
+      "set": "Usurp the Shadow Throne",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
+  ],
+  "rarities": [
+    "Common",
+    "Marvel",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR088",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR088-MV",
   "subtypes": [
     "Ally",
     "Non-Attack",
@@ -499740,12 +500406,10 @@ exports[`Check for unintentional updates Seek Horizon (seek-horizon-blue) vs sna
     "Generic",
   ],
   "cost": 0,
-  "defaultImage": "OUT218",
+  "defaultImage": "IAR238",
   "defense": 2,
   "firstReleaseDate": "2021-05-07",
-  "functionalText": "As an additional cost to play this, you may put a card from your hand on top of your deck.
-
-If the additional cost was paid, this gets **go again**.",
+  "functionalText": "As an additional cost to play this, you may put a card from your hand on top of your deck. If you do, this gets **go again**.",
   "keywords": [
     "Go again",
   ],
@@ -499860,6 +500524,16 @@ If the additional cost was paid, this gets **go again**.",
       "artists": [
         "Tian Thongjomroon",
       ],
+      "identifier": "IAR238",
+      "image": "IAR238",
+      "print": "IAR238",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Tian Thongjomroon",
+      ],
       "identifier": "OUT218",
       "image": "OUT218",
       "print": "OUT218",
@@ -499939,12 +500613,14 @@ If the additional cost was paid, this gets **go again**.",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "IAR238",
     "MON253",
     "OUT218",
   ],
   "sets": [
     "Monarch",
     "Outsiders",
+    "Usurp the Shadow Throne",
   ],
   "specialImage": "MON253-RF",
   "subtypes": [
@@ -499967,12 +500643,10 @@ exports[`Check for unintentional updates Seek Horizon (seek-horizon-red) vs snap
     "Generic",
   ],
   "cost": 0,
-  "defaultImage": "OUT216",
+  "defaultImage": "IAR236",
   "defense": 2,
   "firstReleaseDate": "2021-05-07",
-  "functionalText": "As an additional cost to play this, you may put a card from your hand on top of your deck.
-
-If the additional cost was paid, this gets **go again**.",
+  "functionalText": "As an additional cost to play this, you may put a card from your hand on top of your deck. If you do, this gets **go again**.",
   "keywords": [
     "Go again",
   ],
@@ -500088,6 +500762,16 @@ If the additional cost was paid, this gets **go again**.",
       "artists": [
         "Tian Thongjomroon",
       ],
+      "identifier": "IAR236",
+      "image": "IAR236",
+      "print": "IAR236",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Tian Thongjomroon",
+      ],
       "identifier": "OUT216",
       "image": "OUT216",
       "print": "OUT216",
@@ -500182,6 +500866,7 @@ If the additional cost was paid, this gets **go again**.",
   "rarity": "Common",
   "setIdentifiers": [
     "AZL018",
+    "IAR236",
     "MON251",
     "OUT216",
   ],
@@ -500189,6 +500874,7 @@ If the additional cost was paid, this gets **go again**.",
     "Azalea Blitz Deck",
     "Monarch",
     "Outsiders",
+    "Usurp the Shadow Throne",
   ],
   "specialImage": "MON251-RF",
   "subtypes": [
@@ -500211,12 +500897,10 @@ exports[`Check for unintentional updates Seek Horizon (seek-horizon-yellow) vs s
     "Generic",
   ],
   "cost": 0,
-  "defaultImage": "OUT217",
+  "defaultImage": "IAR237",
   "defense": 2,
   "firstReleaseDate": "2021-05-07",
-  "functionalText": "As an additional cost to play this, you may put a card from your hand on top of your deck.
-
-If the additional cost was paid, this gets **go again**.",
+  "functionalText": "As an additional cost to play this, you may put a card from your hand on top of your deck. If you do, this gets **go again**.",
   "keywords": [
     "Go again",
   ],
@@ -500331,6 +501015,16 @@ If the additional cost was paid, this gets **go again**.",
       "artists": [
         "Tian Thongjomroon",
       ],
+      "identifier": "IAR237",
+      "image": "IAR237",
+      "print": "IAR237",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Tian Thongjomroon",
+      ],
       "identifier": "OUT217",
       "image": "OUT217",
       "print": "OUT217",
@@ -500410,12 +501104,14 @@ If the additional cost was paid, this gets **go again**.",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "IAR237",
     "MON252",
     "OUT217",
   ],
   "sets": [
     "Monarch",
     "Outsiders",
+    "Usurp the Shadow Throne",
   ],
   "specialImage": "MON252-RF",
   "subtypes": [
@@ -615903,7 +616599,7 @@ exports[`Check for unintentional updates Tremor of i'Arathael (tremor-of-iaratha
     "Generic",
   ],
   "cost": 1,
-  "defaultImage": "U-MON254",
+  "defaultImage": "IAR232",
   "defense": 2,
   "firstReleaseDate": "2021-05-07",
   "functionalText": "If a card has been put into your banished zone this turn, this gets +2{p}.",
@@ -616009,11 +616705,22 @@ exports[`Check for unintentional updates Tremor of i'Arathael (tremor-of-iaratha
   "meta": [
     "Deck",
     "Rainbow",
+    "Reprint",
   ],
   "name": "Tremor of i'Arathael",
   "pitch": 1,
   "power": 4,
   "printings": [
+    {
+      "artists": [
+        "Alexis Susani",
+      ],
+      "identifier": "IAR232",
+      "image": "IAR232",
+      "print": "IAR232",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
     {
       "artists": [
         "Alexis Susani",
@@ -616082,10 +616789,12 @@ exports[`Check for unintentional updates Tremor of i'Arathael (tremor-of-iaratha
   ],
   "rarity": "Rare",
   "setIdentifiers": [
+    "IAR232",
     "MON254",
   ],
   "sets": [
     "Monarch",
+    "Usurp the Shadow Throne",
   ],
   "specialImage": "MON254-RF",
   "subtypes": [
@@ -641055,7 +641764,7 @@ exports[`Check for unintentional updates Void Wraith (void-wraith-blue) vs snaps
     "NotClassed",
   ],
   "cost": 2,
-  "defaultImage": "U-MON211",
+  "defaultImage": "IAR205",
   "defense": 3,
   "firstReleaseDate": "2021-05-07",
   "functionalText": "You may play this from your banished zone.
@@ -641086,11 +641795,33 @@ exports[`Check for unintentional updates Void Wraith (void-wraith-blue) vs snaps
   "meta": [
     "Deck",
     "Rainbow",
+    "Reprint",
   ],
   "name": "Void Wraith",
   "pitch": 3,
   "power": 3,
   "printings": [
+    {
+      "artists": [
+        "Peyeyo",
+      ],
+      "identifier": "IAR205",
+      "image": "IAR205",
+      "print": "IAR205",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Peyeyo",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR205",
+      "image": "IAR205-RF",
+      "print": "IAR205-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
     {
       "artists": [
         "Peyeyo",
@@ -641159,10 +641890,12 @@ exports[`Check for unintentional updates Void Wraith (void-wraith-blue) vs snaps
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "IAR205",
     "MON211",
   ],
   "sets": [
     "Monarch",
+    "Usurp the Shadow Throne",
   ],
   "specialImage": "MON211-RF",
   "subtypes": [
@@ -641188,7 +641921,7 @@ exports[`Check for unintentional updates Void Wraith (void-wraith-red) vs snapsh
     "NotClassed",
   ],
   "cost": 2,
-  "defaultImage": "U-MON209",
+  "defaultImage": "IAR203",
   "defense": 3,
   "firstReleaseDate": "2021-05-07",
   "functionalText": "You may play this from your banished zone.
@@ -641219,11 +641952,33 @@ exports[`Check for unintentional updates Void Wraith (void-wraith-red) vs snapsh
   "meta": [
     "Deck",
     "Rainbow",
+    "Reprint",
   ],
   "name": "Void Wraith",
   "pitch": 1,
   "power": 5,
   "printings": [
+    {
+      "artists": [
+        "Peyeyo",
+      ],
+      "identifier": "IAR203",
+      "image": "IAR203",
+      "print": "IAR203",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Peyeyo",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR203",
+      "image": "IAR203-RF",
+      "print": "IAR203-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
     {
       "artists": [
         "Peyeyo",
@@ -641292,10 +642047,12 @@ exports[`Check for unintentional updates Void Wraith (void-wraith-red) vs snapsh
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "IAR203",
     "MON209",
   ],
   "sets": [
     "Monarch",
+    "Usurp the Shadow Throne",
   ],
   "specialImage": "MON209-RF",
   "subtypes": [
@@ -641321,7 +642078,7 @@ exports[`Check for unintentional updates Void Wraith (void-wraith-yellow) vs sna
     "NotClassed",
   ],
   "cost": 2,
-  "defaultImage": "U-MON210",
+  "defaultImage": "IAR204",
   "defense": 3,
   "firstReleaseDate": "2021-05-07",
   "functionalText": "You may play this from your banished zone.
@@ -641352,11 +642109,33 @@ exports[`Check for unintentional updates Void Wraith (void-wraith-yellow) vs sna
   "meta": [
     "Deck",
     "Rainbow",
+    "Reprint",
   ],
   "name": "Void Wraith",
   "pitch": 2,
   "power": 4,
   "printings": [
+    {
+      "artists": [
+        "Peyeyo",
+      ],
+      "identifier": "IAR204",
+      "image": "IAR204",
+      "print": "IAR204",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Peyeyo",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR204",
+      "image": "IAR204-RF",
+      "print": "IAR204-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
     {
       "artists": [
         "Peyeyo",
@@ -641425,10 +642204,12 @@ exports[`Check for unintentional updates Void Wraith (void-wraith-yellow) vs sna
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "IAR204",
     "MON210",
   ],
   "sets": [
     "Monarch",
+    "Usurp the Shadow Throne",
   ],
   "specialImage": "MON210-RF",
   "subtypes": [

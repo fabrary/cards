@@ -971,6 +971,239 @@ When this has no steam counters on it, destroy it.`,
   
   
   },{
+    artists: ["Widya Wang"],
+    cardIdentifier: "abyssal-bite-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR206",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Abyssal Bite",
+    printings: [{
+        artists: ["Widya Wang"],
+      
+      identifier: "IAR206",
+      image: "IAR206",
+      
+      
+      print: "IAR206",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Widya Wang"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR206",
+      image: "IAR206-RF",
+      
+      
+      print: "IAR206-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR206"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR206",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `You may play this from your banished zone.
+
+Your next Shadow attack this turn gets +1{p}. **Go again**
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Reza Aswadananta"],
+    cardIdentifier: "abyssal-force-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR207",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Abyssal Force",
+    printings: [{
+        artists: ["Reza Aswadananta"],
+      
+      identifier: "IAR207",
+      image: "IAR207",
+      
+      
+      print: "IAR207",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Reza Aswadananta"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR207",
+      image: "IAR207-RF",
+      
+      
+      print: "IAR207-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR207"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR207",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `"You may play this from your banished zone.
+
+Your next Shadow attack this turn gets **overpower**.
+
+**Go again**
+
+**Blood Debt**"`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Bramasta Aji"],
+    cardIdentifier: "abyssal-rush-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR208",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Abyssal Rush",
+    printings: [{
+        artists: ["Bramasta Aji"],
+      
+      identifier: "IAR208",
+      image: "IAR208",
+      
+      
+      print: "IAR208",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Bramasta Aji"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR208",
+      image: "IAR208-RF",
+      
+      
+      print: "IAR208-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR208"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR208",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `"You may play this from your banished zone.
+
+Your next Shadow attack this turn gets "When this hits, it gets **go again**." **Go again**
+
+**Blood Debt**"`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Pavel Chuvin"],
     cardIdentifier: "achilles-accelerator",
     classes: [Class.Mechanologist],
@@ -27551,6 +27784,79 @@ When this hits a hero, put a steam counter on an item you control with **crank**
   
   
   },{
+    artists: ["Bastien Jez"],
+    cardIdentifier: "banneret-of-swordsmanship-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "IAR253",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn],
+    name: "Banneret of Swordsmanship",
+    printings: [{
+        artists: ["Bastien Jez"],
+      
+      identifier: "IAR253",
+      image: "IAR253",
+      isExpansionSlot: true,
+      
+      print: "IAR253",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Bastien Jez"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR253",
+      image: "IAR253-RF",
+      isExpansionSlot: true,
+      
+      print: "IAR253-Rainbow-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR253"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR253-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action - Attack",
+
+    
+    
+    cost: 1,createdExtras: ["flurry"],
+    defense: 3,
+    
+    functionalText: `**Solflare** - When this is charged to your soul, create a Flurry token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Solflare],
+    
+    
+    meta: [Meta.Deck,Meta.Expansion],
+  
+    
+    pitch: 2,
+    power: 4,referencedCards: ["flurry"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+  
+  
+  },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "banneret-of-vigor-yellow",
     classes: [Class.Warrior],
@@ -44277,6 +44583,81 @@ When Blasmophet attacks, you may banish a Shadow card from your hand. If you do,
   
   
   },{
+    artists: ["Raynor Maharsi"],
+    cardIdentifier: "blasmophets-boon-blue",
+    classes: [Class.Brute],
+    defaultImage: "IAR035",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Blasmophet's Boon",
+    printings: [{
+        artists: ["Raynor Maharsi"],
+      
+      identifier: "IAR035",
+      image: "IAR035",
+      
+      
+      print: "IAR035",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Raynor Maharsi"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR035",
+      image: "IAR035-RF",
+      
+      
+      print: "IAR035-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR035"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR035",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `If you control a Blasmophet, this card's {p} is 6. Otherwise, it's 0.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    referencedCards: ["blasmophet-levia-consumed","blasmophet-the-insatiable-hunger","blasmophet-the-soul-harvester"],
+    
+    
+    
+    
+    
+    
+    
+    specialPower: "*",
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Mariusz Gandzel"],
     cardIdentifier: "blast-rig-red",
     classes: [Class.Mechanologist],
@@ -56366,6 +56747,225 @@ If you've **charged** this turn, this gets "When this hits, draw a card."`,
     talents: [Talent.Light],
   
   young: true
+  },{
+    artists: ["Tatiana Krstic"],
+    cardIdentifier: "bonded-burial-red",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR100",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Frankie,Hero.GravyBones,Hero.Malice],
+    name: "Bonded Burial",
+    printings: [{
+        artists: ["Tatiana Krstic"],
+      
+      identifier: "IAR100",
+      image: "IAR100",
+      
+      
+      print: "IAR100",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Tatiana Krstic"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR100",
+      image: "IAR100-RF",
+      
+      
+      print: "IAR100-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR100"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR100",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Necromancer Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `When this hits a hero, you may destroy an ally you control or discard an ally. If you do, they discard a card.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Tatiana Krstic"],
+    cardIdentifier: "bonded-burial-yellow",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR101",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Frankie,Hero.GravyBones,Hero.Malice],
+    name: "Bonded Burial",
+    printings: [{
+        artists: ["Tatiana Krstic"],
+      
+      identifier: "IAR101",
+      image: "IAR101",
+      
+      
+      print: "IAR101",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Tatiana Krstic"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR101",
+      image: "IAR101-RF",
+      
+      
+      print: "IAR101-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR101"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR101",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Necromancer Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `When this hits a hero, you may destroy an ally you control or discard an ally. If you do, they discard a card.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Tatiana Krstic"],
+    cardIdentifier: "bonded-burial-blue",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR102",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Frankie,Hero.GravyBones,Hero.Malice],
+    name: "Bonded Burial",
+    printings: [{
+        artists: ["Tatiana Krstic"],
+      
+      identifier: "IAR102",
+      image: "IAR102",
+      
+      
+      print: "IAR102",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Tatiana Krstic"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR102",
+      image: "IAR102-RF",
+      
+      
+      print: "IAR102-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR102"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR102",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Necromancer Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `When this hits a hero, you may destroy an ally you control or discard an ally. If you do, they discard a card.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
   },{
     artists: ["Fajareka Setiawan"],
     cardIdentifier: "bonds-of-agony-blue",
@@ -79743,7 +80343,8 @@ When this attacks, if this was **fused**, whenever an attack deals damage to a h
     
   
   
-  },{
+  }];
+const cards2: Card[] = [{
     artists: ["Emilis Emka"],
     cardIdentifier: "chokeslam-yellow",
     classes: [Class.Guardian],
@@ -80586,8 +81187,7 @@ Create 3 Runechant tokens.`,
     
   
   
-  }];
-const cards2: Card[] = [{
+  },{
     artists: ["Aluísio Cervelle"],
     cardIdentifier: "chromatic-refinement-red",
     classes: [Class.NotClassed],
@@ -88992,6 +89592,81 @@ You may {t} a cog you control. If you do, put this on the bottom of its owner's 
   
   
   },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "cogwerx-prong-bot-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "IAR247",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Dash,Hero.DataDoll,Hero.Maxx,Hero.Puffin,Hero.Teklovossen],
+    name: "Cogwerx Prong Bot",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "IAR247",
+      image: "IAR247",
+      isExpansionSlot: true,
+      
+      print: "IAR247",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR247",
+      image: "IAR247-RF",
+      isExpansionSlot: true,
+      
+      print: "IAR247-Rainbow-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR247"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR247-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    
+    
+    cost: 3,createdExtras: ["golden-cog"],
+    defense: 3,
+    
+    functionalText: `When this hits a hero, you may put a steam counter on an item you control with crank.
+
+**Instant** - {r}, discard this: Create a Golden Cog token.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck,Meta.Expansion],
+  
+    
+    pitch: 2,
+    power: 6,referencedCards: ["golden-cog"],
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "cogwerx-tinker-rings",
     classes: [Class.Mechanologist],
@@ -96698,6 +97373,83 @@ Deal 1 arcane damage to any target.`,
   
   
   },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "consuming-command-blue",
+    classes: [Class.Brute],
+    defaultImage: "IAR036",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Consuming Command",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "IAR036",
+      image: "IAR036",
+      
+      
+      print: "IAR036",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR036",
+      image: "IAR036-RF",
+      
+      
+      print: "IAR036-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR036"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR036",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Until end of turn, Blasmophet, the Insatiable Hunger tokens you control get "**Action** - {t}: **Attack**. **Go again**"
+
+**Go again**
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    referencedCards: ["blasmophet-the-insatiable-hunger"],
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["SanSan"],
     cardIdentifier: "consuming-lash-yellow",
     classes: [Class.Brute],
@@ -98724,6 +99476,225 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
     
     
     talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Julio Sidharta"],
+    cardIdentifier: "corpse-cover-red",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR097",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Frankie,Hero.GravyBones,Hero.Malice],
+    name: "Corpse Cover",
+    printings: [{
+        artists: ["Julio Sidharta"],
+      
+      identifier: "IAR097",
+      image: "IAR097",
+      
+      
+      print: "IAR097",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Julio Sidharta"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR097",
+      image: "IAR097-RF",
+      
+      
+      print: "IAR097-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR097"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR097",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Necromancer Block",
+
+    
+    
+    
+    defense: 3,
+    
+    functionalText: `**Once per Turn Instant** - Destroy an ally you control or discard an ally: Prevent the next 2 damage that would be dealt to you this turn. Activate this only while this card is defending.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Julio Sidharta"],
+    cardIdentifier: "corpse-cover-yellow",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR098",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Frankie,Hero.GravyBones,Hero.Malice],
+    name: "Corpse Cover",
+    printings: [{
+        artists: ["Julio Sidharta"],
+      
+      identifier: "IAR098",
+      image: "IAR098",
+      
+      
+      print: "IAR098",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Julio Sidharta"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR098",
+      image: "IAR098-RF",
+      
+      
+      print: "IAR098-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR098"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR098",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Necromancer Block",
+
+    
+    
+    
+    defense: 2,
+    
+    functionalText: `**Once per Turn Instant** - Destroy an ally you control or discard an ally: Prevent the next 2 damage that would be dealt to you this turn. Activate this only while this card is defending.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Julio Sidharta"],
+    cardIdentifier: "corpse-cover-blue",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR099",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Frankie,Hero.GravyBones,Hero.Malice],
+    name: "Corpse Cover",
+    printings: [{
+        artists: ["Julio Sidharta"],
+      
+      identifier: "IAR099",
+      image: "IAR099",
+      
+      
+      print: "IAR099",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Julio Sidharta"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR099",
+      image: "IAR099-RF",
+      
+      
+      print: "IAR099-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR099"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR099",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Necromancer Block",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `**Once per Turn Instant** - Destroy an ally you control or discard an ally: Prevent the next 2 damage that would be dealt to you this turn. Activate this only while this card is defending.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
@@ -101353,12 +102324,24 @@ When this defends an attack with {p} greater than its base, remove a +1{p} count
     artists: ["Alexandra Malygina","Sam Yang"],
     cardIdentifier: "cracked-bauble-yellow",
     classes: [Class.Generic],
-    defaultImage: "OMN226",
+    defaultImage: "IAR242",
     firstReleaseDate: "2019-10-11",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Cracked Bauble",
     printings: [{
+        artists: ["Sam Yang"],
+      
+      identifier: "IAR242",
+      image: "IAR242",
+      
+      
+      print: "IAR242-Extended Art",
+      rarity: Rarity.Basic,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
         artists: ["Sam Yang"],
       
       identifier: "OMN226",
@@ -101676,8 +102659,8 @@ When this defends an attack with {p} greater than its base, remove a +1{p} count
     },],
     rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Basic,
-    setIdentifiers: ["ARC218","CRU195","ELE237","HNT245","HVY244","LGS083","LGS227","MON306","MST224","OMN226","OUT238","ROS238","SEA246","SUP243","UPR224","WTR224"],
-    sets: [Release.ArcaneRising,Release.CrucibleOfWar,Release.HeavyHitters,Release.HighSeas,Release.Monarch,Release.OmensOfTheThirdAge,Release.Outsiders,Release.PartTheMistveil,Release.Promos,Release.Rosetta,Release.SuperSlam,Release.TalesOfAria,Release.TheHunted,Release.Uprising,Release.WelcomeToRathe],
+    setIdentifiers: ["ARC218","CRU195","ELE237","HNT245","HVY244","IAR242","LGS083","LGS227","MON306","MST224","OMN226","OUT238","ROS238","SEA246","SUP243","UPR224","WTR224"],
+    sets: [Release.ArcaneRising,Release.CrucibleOfWar,Release.HeavyHitters,Release.HighSeas,Release.Monarch,Release.OmensOfTheThirdAge,Release.Outsiders,Release.PartTheMistveil,Release.Promos,Release.Rosetta,Release.SuperSlam,Release.TalesOfAria,Release.TheHunted,Release.Uprising,Release.UsurpTheShadowThrone,Release.WelcomeToRathe],
     specialImage: "LGS083-CF",
     subtypes: [],
     types: [Type.Resource],
@@ -111808,6 +112791,225 @@ Prevent the next X arcane damage that would be dealt to you this turn, where X i
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
     typeText: "Generic Equipment - Legs",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `**Shadow Resist 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.ShadowResist],
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Petrinda Wiyugo"],
+    cardIdentifier: "dark-arcanite-gloves",
+    classes: [Class.Generic],
+    defaultImage: "IAR226",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    name: "Dark Arcanite Gloves",
+    printings: [{
+        artists: ["Petrinda Wiyugo"],
+      
+      identifier: "IAR226",
+      image: "IAR226",
+      
+      
+      print: "IAR226",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Petrinda Wiyugo"],
+      foiling: Foiling.Cold,
+      identifier: "IAR226",
+      image: "IAR226-CF",
+      
+      
+      print: "IAR226-Cold",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR226"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR226-CF",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Arms",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `**Shadow Resist 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.ShadowResist],
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Andi Cahyo W"],
+    cardIdentifier: "dark-arcanite-helm",
+    classes: [Class.Generic],
+    defaultImage: "IAR224",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    name: "Dark Arcanite Helm",
+    printings: [{
+        artists: ["Andi Cahyo W"],
+      
+      identifier: "IAR224",
+      image: "IAR224",
+      
+      
+      print: "IAR224",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Andi Cahyo W"],
+      foiling: Foiling.Cold,
+      identifier: "IAR224",
+      image: "IAR224-CF",
+      
+      
+      print: "IAR224-Cold",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR224"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR224-CF",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Head",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `**Shadow Resist 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.ShadowResist],
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Galih M"],
+    cardIdentifier: "dark-arcanite-plating",
+    classes: [Class.Generic],
+    defaultImage: "IAR225",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    name: "Dark Arcanite Plating",
+    printings: [{
+        artists: ["Galih M"],
+      
+      identifier: "IAR225",
+      image: "IAR225",
+      
+      
+      print: "IAR225",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Galih M"],
+      foiling: Foiling.Cold,
+      identifier: "IAR225",
+      image: "IAR225-CF",
+      
+      
+      print: "IAR225-Cold",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR225"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR225-CF",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Chest",
 
     
     
@@ -150604,6 +151806,237 @@ Choose 1;
   
   
   },{
+    artists: ["Simon Dominic"],
+    cardIdentifier: "enshrine-sin-red",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR138",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Enshrine Sin",
+    printings: [{
+        artists: ["Simon Dominic"],
+      
+      identifier: "IAR138",
+      image: "IAR138",
+      
+      
+      print: "IAR138",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Simon Dominic"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR138",
+      image: "IAR138-RF",
+      
+      
+      print: "IAR138-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR138"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR138",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action",
+
+    
+    
+    cost: 0,createdExtras: ["runechant"],
+    defense: 2,
+    
+    functionalText: `You may play this from your banished zone. If you do, it costs an additional {r} to play.
+
+**Opt 1**, then create a Runechant token. **Go again**
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    referencedCards: ["runechant"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Simon Dominic"],
+    cardIdentifier: "enshrine-sin-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR139",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Enshrine Sin",
+    printings: [{
+        artists: ["Simon Dominic"],
+      
+      identifier: "IAR139",
+      image: "IAR139",
+      
+      
+      print: "IAR139",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Simon Dominic"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR139",
+      image: "IAR139-RF",
+      
+      
+      print: "IAR139-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR139"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR139",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action",
+
+    
+    
+    cost: 0,createdExtras: ["runechant"],
+    defense: 2,
+    
+    functionalText: `You may play this from your banished zone. If you do, it costs an additional {r} to play.
+
+**Opt 1**, then create a Runechant token. **Go again**
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    referencedCards: ["runechant"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Simon Dominic"],
+    cardIdentifier: "enshrine-sin-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR140",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Enshrine Sin",
+    printings: [{
+        artists: ["Simon Dominic"],
+      
+      identifier: "IAR140",
+      image: "IAR140",
+      
+      
+      print: "IAR140",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Simon Dominic"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR140",
+      image: "IAR140-RF",
+      
+      
+      print: "IAR140-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR140"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR140",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action",
+
+    
+    
+    cost: 0,createdExtras: ["runechant"],
+    defense: 2,
+    
+    functionalText: `You may play this from your banished zone. If you do, it costs an additional {r} to play.
+
+**Opt 1**, then create a Runechant token. **Go again**
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    referencedCards: ["runechant"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Vito Vivodka"],
     cardIdentifier: "entangle-red",
     classes: [Class.Guardian],
@@ -157933,7 +159366,8 @@ When this is equipped, up to 1 target attack gets **go again**.`,
     
   
   
-  },{
+  }];
+const cards3: Card[] = [{
     artists: ["Kevin Sidharta"],
     cardIdentifier: "evo-zoom-call-yellow",
     classes: [Class.Mechanologist],
@@ -159689,8 +161123,7 @@ When this attacks, deal 1 arcane damage to target hero.`,
     talents: [Talent.Elemental],
   
   
-  }];
-const cards3: Card[] = [{
+  },{
     artists: ["Irina Plotnikova"],
     cardIdentifier: "exposed-to-the-elements-blue",
     classes: [Class.NotClassed],
@@ -164004,6 +165437,83 @@ Target attack gets +3{p}.`,
   
   
   },{
+    artists: ["Alifka Hammam"],
+    cardIdentifier: "favorable-winds-yellow",
+    classes: [Class.Pirate,Class.Ranger],
+    defaultImage: "IAR251",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Marlynn],
+    name: "Favorable Winds",
+    printings: [{
+        artists: ["Alifka Hammam"],
+      
+      identifier: "IAR251",
+      image: "IAR251",
+      isExpansionSlot: true,
+      
+      print: "IAR251",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Alifka Hammam"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR251",
+      image: "IAR251-RF",
+      isExpansionSlot: true,
+      
+      print: "IAR251-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR251"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR251",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Pirate Ranger Action",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `As an additional cost to play this, discard a Goldfin Harpoon.
+
+Draw 2 cards.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.DualClass,Meta.Expansion],
+  
+    
+    pitch: 2,
+    referencedCards: ["goldfin-harpoon"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Mario Wibisono"],
     cardIdentifier: "fealty",
     classes: [Class.NotClassed],
@@ -164218,6 +165728,468 @@ At the beginning of your end phase, if you haven't created a Fealty token or pla
     
     
     
+  
+  
+  },{
+    artists: ["Ilham Bahtiar"],
+    cardIdentifier: "feasting-shadowbeast-red",
+    classes: [Class.Brute],
+    defaultImage: "IAR023",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Feasting Shadowbeast",
+    printings: [{
+        artists: ["Ilham Bahtiar"],
+      
+      identifier: "IAR023",
+      image: "IAR023",
+      
+      
+      print: "IAR023",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Ilham Bahtiar"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR023",
+      image: "IAR023-RF",
+      
+      
+      print: "IAR023-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR023"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR023",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `When this attacks, banish the top card of your deck.
+
+If you've banished a card with 6 or more {p} this turn, this gets +2{p}.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 6,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Ilham Bahtiar"],
+    cardIdentifier: "feasting-shadowbeast-yellow",
+    classes: [Class.Brute],
+    defaultImage: "IAR024",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Feasting Shadowbeast",
+    printings: [{
+        artists: ["Ilham Bahtiar"],
+      
+      identifier: "IAR024",
+      image: "IAR024",
+      
+      
+      print: "IAR024",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Ilham Bahtiar"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR024",
+      image: "IAR024-RF",
+      
+      
+      print: "IAR024-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR024"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR024",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `When this attacks, banish the top card of your deck.
+
+If you've banished a card with 6 or more {p} this turn, this gets +2{p}.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Ilham Bahtiar"],
+    cardIdentifier: "feasting-shadowbeast-blue",
+    classes: [Class.Brute],
+    defaultImage: "IAR025",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Feasting Shadowbeast",
+    printings: [{
+        artists: ["Ilham Bahtiar"],
+      
+      identifier: "IAR025",
+      image: "IAR025",
+      
+      
+      print: "IAR025",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Ilham Bahtiar"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR025",
+      image: "IAR025-RF",
+      
+      
+      print: "IAR025-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR025"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR025",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `When this attacks, banish the top card of your deck.
+
+If you've banished a card with 6 or more {p} this turn, this gets +2{p}.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["M Fakhrur Rozzi"],
+    cardIdentifier: "feeding-frenzy-red",
+    classes: [Class.Brute],
+    defaultImage: "IAR026",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Feeding Frenzy",
+    printings: [{
+        artists: ["M Fakhrur Rozzi"],
+      
+      identifier: "IAR026",
+      image: "IAR026",
+      
+      
+      print: "IAR026",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["M Fakhrur Rozzi"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR026",
+      image: "IAR026-RF",
+      
+      
+      print: "IAR026-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR026"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR026",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `When this attacks, banish the top card of your deck.
+
+If you've banished a card with 6 or more {p} this turn, this gets **go again**.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 6,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["M Fakhrur Rozzi"],
+    cardIdentifier: "feeding-frenzy-yellow",
+    classes: [Class.Brute],
+    defaultImage: "IAR027",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Feeding Frenzy",
+    printings: [{
+        artists: ["M Fakhrur Rozzi"],
+      
+      identifier: "IAR027",
+      image: "IAR027",
+      
+      
+      print: "IAR027",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["M Fakhrur Rozzi"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR027",
+      image: "IAR027-RF",
+      
+      
+      print: "IAR027-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR027"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR027",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `When this attacks, banish the top card of your deck.
+
+If you've banished a card with 6 or more {p} this turn, this gets **go again**.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["M Fakhrur Rozzi"],
+    cardIdentifier: "feeding-frenzy-blue",
+    classes: [Class.Brute],
+    defaultImage: "IAR028",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Feeding Frenzy",
+    printings: [{
+        artists: ["M Fakhrur Rozzi"],
+      
+      identifier: "IAR028",
+      image: "IAR028",
+      
+      
+      print: "IAR028",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["M Fakhrur Rozzi"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR028",
+      image: "IAR028-RF",
+      
+      
+      print: "IAR028-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR028"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR028",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `When this attacks, banish the top card of your deck.
+
+If you've banished a card with 6 or more {p} this turn, this gets **go again**.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
   
   
   },{
@@ -181369,6 +183341,81 @@ Deal 5 arcane damage to target hero. If this was **fused**, instead deal X arcan
   
   
   },{
+    artists: ["Nailsen Ivanderlie"],
+    cardIdentifier: "fresh-from-the-forge-red",
+    classes: [Class.Warrior],
+    defaultImage: "IAR255",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Emperor,Hero.Fang],
+    name: "Fresh from the Forge",
+    printings: [{
+        artists: ["Nailsen Ivanderlie"],
+      
+      identifier: "IAR255",
+      image: "IAR255",
+      isExpansionSlot: true,
+      
+      print: "IAR255",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Nailsen Ivanderlie"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR255",
+      image: "IAR255-RF",
+      isExpansionSlot: true,
+      
+      print: "IAR255-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR255"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR255",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Draconic Warrior Attack Reaction",
+
+    
+    
+    cost: 0,createdExtras: ["marked"],
+    defense: 3,
+    
+    functionalText: `**Sharpen** each dagger you control.
+
+The next time a dagger you control hits a hero this turn, you may remove a +1{p} counter from it. If you do, **mark** them.`,
+    
+    
+    
+    
+    keywords: [Keyword.Mark,Keyword.Sharpen],
+    
+    
+    meta: [Meta.Deck,Meta.Expansion],
+  
+    
+    pitch: 1,
+    referencedCards: ["marked"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
     artists: ["BWusagi"],
     cardIdentifier: "frightmare-red",
     classes: [Class.Illusionist],
@@ -189084,12 +191131,24 @@ At the beginning of your end phase, remove an energy counter from this and creat
     artists: ["Alexandra Malygina"],
     cardIdentifier: "ghostly-visit-red",
     classes: [Class.NotClassed],
-    defaultImage: "U-MON203",
+    defaultImage: "IAR188",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
     name: "Ghostly Visit",
     printings: [{
+        artists: ["Alexandra Malygina"],
+      
+      identifier: "IAR188",
+      image: "IAR188",
+      
+      
+      print: "IAR188",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
         artists: ["Alexandra Malygina"],
       edition: ReleaseEdition.Unlimited,
       identifier: "MON203",
@@ -189182,8 +191241,8 @@ At the beginning of your end phase, remove an energy counter from this and creat
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["CHN021","FAB038","MON203"],
-    sets: [Release.ChaneBlitzDeck,Release.Monarch,Release.Promos],
+    setIdentifiers: ["CHN021","FAB038","IAR188","MON203"],
+    sets: [Release.ChaneBlitzDeck,Release.Monarch,Release.Promos,Release.UsurpTheShadowThrone],
     specialImage: "FAB038-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -189225,12 +191284,24 @@ At the beginning of your end phase, remove an energy counter from this and creat
     artists: ["Alexandra Malygina"],
     cardIdentifier: "ghostly-visit-yellow",
     classes: [Class.NotClassed],
-    defaultImage: "U-MON204",
+    defaultImage: "IAR189",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
     name: "Ghostly Visit",
     printings: [{
+        artists: ["Alexandra Malygina"],
+      
+      identifier: "IAR189",
+      image: "IAR189",
+      
+      
+      print: "IAR189",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
         artists: ["Alexandra Malygina"],
       edition: ReleaseEdition.Unlimited,
       identifier: "MON204",
@@ -189308,8 +191379,8 @@ At the beginning of your end phase, remove an energy counter from this and creat
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["FAB039","MON204"],
-    sets: [Release.Monarch,Release.Promos],
+    setIdentifiers: ["FAB039","IAR189","MON204"],
+    sets: [Release.Monarch,Release.Promos,Release.UsurpTheShadowThrone],
     specialImage: "FAB039-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -189330,7 +191401,7 @@ At the beginning of your end phase, remove an energy counter from this and creat
     keywords: [Keyword.BloodDebt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -189351,12 +191422,24 @@ At the beginning of your end phase, remove an energy counter from this and creat
     artists: ["Alexandra Malygina"],
     cardIdentifier: "ghostly-visit-blue",
     classes: [Class.NotClassed],
-    defaultImage: "U-MON205",
+    defaultImage: "IAR190",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
     name: "Ghostly Visit",
     printings: [{
+        artists: ["Alexandra Malygina"],
+      
+      identifier: "IAR190",
+      image: "IAR190",
+      
+      
+      print: "IAR190",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
         artists: ["Alexandra Malygina"],
       edition: ReleaseEdition.Unlimited,
       identifier: "MON205",
@@ -189434,8 +191517,8 @@ At the beginning of your end phase, remove an energy counter from this and creat
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["FAB040","MON205"],
-    sets: [Release.Monarch,Release.Promos],
+    setIdentifiers: ["FAB040","IAR190","MON205"],
+    sets: [Release.Monarch,Release.Promos,Release.UsurpTheShadowThrone],
     specialImage: "FAB040-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -189456,7 +191539,7 @@ At the beginning of your end phase, remove an energy counter from this and creat
     keywords: [Keyword.BloodDebt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -196635,6 +198718,81 @@ At the start of your turn, destroy this. If another hero drew a card from this, 
   
   
   },{
+    artists: ["Farhan Pratama"],
+    cardIdentifier: "goremass-summoning-blue",
+    classes: [Class.Brute],
+    defaultImage: "IAR037",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Goremass Summoning",
+    printings: [{
+        artists: ["Farhan Pratama"],
+      
+      identifier: "IAR037",
+      image: "IAR037",
+      
+      
+      print: "IAR037",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Farhan Pratama"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR037",
+      image: "IAR037-RF",
+      
+      
+      print: "IAR037-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR037"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR037",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action",
+
+    
+    
+    cost: 2,createdExtras: ["blasmophet-the-insatiable-hunger"],
+    defense: 3,
+    
+    functionalText: `If you've banished a card with 6 or more {p} this turn, create a Blasmophet, the Insatiable Hunger token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    referencedCards: ["blasmophet-the-insatiable-hunger"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "gorganian-tome",
     classes: [Class.Generic],
@@ -196790,6 +198948,231 @@ Draw X cards, where X is 1 plus the number of Gorganian Tomes in all graveyards.
     
     
     
+  
+  
+  },{
+    artists: ["Alif Zahrah"],
+    cardIdentifier: "gorging-shadowbeast-red",
+    classes: [Class.Brute],
+    defaultImage: "IAR029",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Gorging Shadowbeast",
+    printings: [{
+        artists: ["Alif Zahrah"],
+      
+      identifier: "IAR029",
+      image: "IAR029",
+      
+      
+      print: "IAR029",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Alif Zahrah"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR029",
+      image: "IAR029-RF",
+      
+      
+      print: "IAR029-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR029"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR029",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `When this attacks, banish the top card of your deck.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 7,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Alif Zahrah"],
+    cardIdentifier: "gorging-shadowbeast-yellow",
+    classes: [Class.Brute],
+    defaultImage: "IAR030",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Gorging Shadowbeast",
+    printings: [{
+        artists: ["Alif Zahrah"],
+      
+      identifier: "IAR030",
+      image: "IAR030",
+      
+      
+      print: "IAR030",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Alif Zahrah"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR030",
+      image: "IAR030-RF",
+      
+      
+      print: "IAR030-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR030"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR030",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `When this attacks, banish the top card of your deck.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 6,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Alif Zahrah"],
+    cardIdentifier: "gorging-shadowbeast-blue",
+    classes: [Class.Brute],
+    defaultImage: "IAR031",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Gorging Shadowbeast",
+    printings: [{
+        artists: ["Alif Zahrah"],
+      
+      identifier: "IAR031",
+      image: "IAR031",
+      
+      
+      print: "IAR031",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Alif Zahrah"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR031",
+      image: "IAR031-RF",
+      
+      
+      print: "IAR031-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR031"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR031",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `When this attacks, banish the top card of your deck.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
   
   
   },{
@@ -221064,6 +223447,79 @@ If it has 3 or more +1{p} counters, you may put an attack reaction card from you
   
   
   },{
+    artists: ["Widya Wang"],
+    cardIdentifier: "hoodwink-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR262",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Killjoy,Hero.Lyath,Hero.RKO],
+    name: "Hoodwink",
+    printings: [{
+        artists: ["Widya Wang"],
+      
+      identifier: "IAR262",
+      image: "IAR262",
+      isExpansionSlot: true,
+      
+      print: "IAR262",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Widya Wang"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR262",
+      image: "IAR262-RF",
+      isExpansionSlot: true,
+      
+      print: "IAR262-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR262"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR262",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Reviled Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Instant** - Discard this and any number of other cards: Prevent the next X arcane damage that would be dealt to you this turn, where X is the total base {d} of cards discarded this way.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck,Meta.Expansion],
+  
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
+  
+  
+  },{
     artists: ["Reza Aswadananta"],
     cardIdentifier: "hook-blue",
     classes: [Class.Ranger],
@@ -237047,7 +239503,8 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
     talents: [Talent.Light],
   
   
-  },{
+  }];
+const cards4: Card[] = [{
     artists: ["MJ Fetesio"],
     cardIdentifier: "invigorating-light-blue",
     classes: [Class.NotClassed],
@@ -240993,8 +243450,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
     
   
   
-  }];
-const cards4: Card[] = [{
+  },{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "ironsong-response-blue",
     classes: [Class.Warrior],
@@ -281111,6 +283567,79 @@ When this hits, you may banish 3 traps with cost 0 or more from your graveyard f
   
   
   },{
+    artists: ["Alexis Susani"],
+    cardIdentifier: "murmur-of-iarathael-red",
+    classes: [Class.Generic],
+    defaultImage: "IAR230",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    name: "Murmur of i'Arathael",
+    printings: [{
+        artists: ["Alexis Susani"],
+      
+      identifier: "IAR230",
+      image: "IAR230",
+      
+      
+      print: "IAR230",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Alexis Susani"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR230",
+      image: "IAR230-RF",
+      
+      
+      print: "IAR230-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR230"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR230",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `If a card has been put into your banished zone this turn, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Surya Prasetya"],
     cardIdentifier: "murmuring-gloomblade-red",
     classes: [Class.Runeblade],
@@ -281830,6 +284359,225 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
     
     pitch: 3,
     referencedCards: ["gold"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Asur Misoa"],
+    cardIdentifier: "mutual-sacrifice-red",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR103",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Frankie,Hero.GravyBones,Hero.Malice],
+    name: "Mutual Sacrifice",
+    printings: [{
+        artists: ["Asur Misoa"],
+      
+      identifier: "IAR103",
+      image: "IAR103",
+      
+      
+      print: "IAR103",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Asur Misoa"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR103",
+      image: "IAR103-RF",
+      
+      
+      print: "IAR103-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR103"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR103",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Necromancer Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `When this hits a hero, you may destroy an ally you control or discard an ally. If you do, they lose 2{h}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Asur Misoa"],
+    cardIdentifier: "mutual-sacrifice-yellow",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR104",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Frankie,Hero.GravyBones,Hero.Malice],
+    name: "Mutual Sacrifice",
+    printings: [{
+        artists: ["Asur Misoa"],
+      
+      identifier: "IAR104",
+      image: "IAR104",
+      
+      
+      print: "IAR104",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Asur Misoa"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR104",
+      image: "IAR104-RF",
+      
+      
+      print: "IAR104-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR104"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR104",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Necromancer Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `When this hits a hero, you may destroy an ally you control or discard an ally. If you do, they lose 2{h}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Asur Misoa"],
+    cardIdentifier: "mutual-sacrifice-blue",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR105",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Frankie,Hero.GravyBones,Hero.Malice],
+    name: "Mutual Sacrifice",
+    printings: [{
+        artists: ["Asur Misoa"],
+      
+      identifier: "IAR105",
+      image: "IAR105",
+      
+      
+      print: "IAR105",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Asur Misoa"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR105",
+      image: "IAR105-RF",
+      
+      
+      print: "IAR105-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR105"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR105",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Necromancer Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `When this hits a hero, you may destroy an ally you control or discard an ally. If you do, they lose 2{h}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 3,
     
     
     
@@ -306447,6 +309195,231 @@ You may {u} your hero.
   
   
   },{
+    artists: ["Erick Sambora"],
+    cardIdentifier: "permanent-interment-red",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR191",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Permanent Interment",
+    printings: [{
+        artists: ["Erick Sambora"],
+      
+      identifier: "IAR191",
+      image: "IAR191",
+      
+      
+      print: "IAR191",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Erick Sambora"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR191",
+      image: "IAR191-RF",
+      
+      
+      print: "IAR191-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR191"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR191",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `When this attacks, you may pay up to {r}{r}{r}. Turn that many Shadow cards in your banished zone face-down. This gets +1{p} for each card turned face-down this way.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Erick Sambora"],
+    cardIdentifier: "permanent-interment-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR192",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Permanent Interment",
+    printings: [{
+        artists: ["Erick Sambora"],
+      
+      identifier: "IAR192",
+      image: "IAR192",
+      
+      
+      print: "IAR192",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Erick Sambora"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR192",
+      image: "IAR192-RF",
+      
+      
+      print: "IAR192-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR192"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR192",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `When this attacks, you may pay up to {r}{r}{r}. Turn that many Shadow cards in your banished zone face-down. This gets +1{p} for each card turned face-down this way.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Erick Sambora"],
+    cardIdentifier: "permanent-interment-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR193",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Permanent Interment",
+    printings: [{
+        artists: ["Erick Sambora"],
+      
+      identifier: "IAR193",
+      image: "IAR193",
+      
+      
+      print: "IAR193",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Erick Sambora"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR193",
+      image: "IAR193-RF",
+      
+      
+      print: "IAR193-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR193"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR193",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `When this attacks, you may pay up to {r}{r}{r}. Turn that many Shadow cards in your banished zone face-down. This gets +1{p} for each card turned face-down this way.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Mario Wibisono"],
     cardIdentifier: "persuasive-prognosis-blue",
     classes: [Class.Assassin],
@@ -318820,7 +321793,8 @@ When this attacks, if you've **beaten chest** this turn, create a Might token.`,
     
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Sonia Sandoval"],
     cardIdentifier: "pounding-gale-red",
     classes: [Class.Ninja],
@@ -322433,7 +325407,7 @@ Your next Brute attack this turn gets +3{p}.
   
   young: true
   },{
-    artists: ["Livia Prima","Livia Prime"],
+    artists: ["Livia Prima"],
     cardIdentifier: "prism-advent-of-thrones",
     classes: [Class.Illusionist],
     defaultImage: "SAT001",
@@ -322442,7 +325416,7 @@ Your next Brute attack this turn gets +3{p}.
     legalHeroes: [Hero.Prism],
     name: "Prism, Advent of Thrones",
     printings: [{
-        artists: ["Livia Prime"],
+        artists: ["Livia Prima"],
       
       identifier: "SAT001",
       image: "SAT001",
@@ -322838,8 +325812,7 @@ Your next Brute attack this turn gets +3{p}.
     talents: [Talent.Light],
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Alexis Susani"],
     cardIdentifier: "prismatic-lens-yellow",
     classes: [Class.Mechanologist],
@@ -324760,6 +327733,81 @@ If this was played from arsenal, it gets **go again**.`,
     
     
     
+  
+  
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "promise-of-power-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR122",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Promise of Power",
+    printings: [{
+        artists: ["Isuardi Therianto"],
+      
+      identifier: "IAR122",
+      image: "IAR122",
+      
+      
+      print: "IAR122",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Isuardi Therianto"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR122",
+      image: "IAR122-RF",
+      
+      
+      print: "IAR122-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR122"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR122",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action",
+
+    
+    
+    cost: 1,createdExtras: ["runechant"],
+    defense: 2,
+    
+    functionalText: `The next time you play an attack action card from your banished zone this turn, create 2 Runechant tokens.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 2,
+    referencedCards: ["runechant"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
   
   
   },{
@@ -336382,6 +339430,231 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
     
     
     
+  
+  
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "rally-the-shadow-horde-red",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR171",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Rally the Shadow Horde",
+    printings: [{
+        artists: ["Marco González"],
+      
+      identifier: "IAR171",
+      image: "IAR171",
+      
+      
+      print: "IAR171",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Marco González"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR171",
+      image: "IAR171-RF",
+      
+      
+      print: "IAR171-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR171"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR171",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 2,
+    
+    functionalText: `**Once per Turn Instant** - Banish a card from your hand: This gets +2{d}. Activate this only while this card is defending.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 7,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "rally-the-shadow-horde-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR172",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Rally the Shadow Horde",
+    printings: [{
+        artists: ["Marco González"],
+      
+      identifier: "IAR172",
+      image: "IAR172",
+      
+      
+      print: "IAR172",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Marco González"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR172",
+      image: "IAR172-RF",
+      
+      
+      print: "IAR172-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR172"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR172",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 2,
+    
+    functionalText: `**Once per Turn Instant** - Banish a card from your hand: This gets +2{d}. Activate this only while this card is defending.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 6,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "rally-the-shadow-horde-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR173",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Rally the Shadow Horde",
+    printings: [{
+        artists: ["Marco González"],
+      
+      identifier: "IAR173",
+      image: "IAR173",
+      
+      
+      print: "IAR173",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Marco González"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR173",
+      image: "IAR173-RF",
+      
+      
+      print: "IAR173-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR173"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR173",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 2,
+    
+    functionalText: `**Once per Turn Instant** - Banish a card from your hand: This gets +2{d}. Activate this only while this card is defending.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
   
   
   },{
@@ -349690,6 +352963,81 @@ At the start of your turn, destroy this and draw a card.`,
   
   
   },{
+    artists: ["Pavel Rtishchev (Klaher)"],
+    cardIdentifier: "restless-plowman-red",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR087",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Restless Plowman",
+    printings: [{
+        artists: ["Pavel Rtishchev (Klaher)"],
+      
+      identifier: "IAR087",
+      image: "IAR087",
+      
+      
+      print: "IAR087",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Pavel Rtishchev (Klaher)"],
+      foiling: Foiling.Cold,
+      identifier: "IAR087",
+      image: "IAR087-MV",
+      
+      
+      print: "IAR087-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },],
+    rarities: [Rarity.Common,Rarity.Marvel],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR087"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR087-MV",
+    subtypes: [Subtype.Ally,Subtype.NonAttack,Subtype.Zombie],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Zombie Ally",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `**Action** - {t}: Gain {r}. **Go again**
+
+**Decay**`,
+    
+    
+    
+    
+    keywords: [Keyword.Decay],
+    
+    life: 3,
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 3,
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Sebastian Giacobino"],
     cardIdentifier: "restless-quartermaster-red",
     classes: [Class.Necromancer],
@@ -356752,6 +360100,231 @@ You may return a Phoenix Flame from your graveyard to your hand.
   
   
   },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "rise-to-the-challenge-red",
+    classes: [Class.Brute],
+    defaultImage: "IAR050",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
+    name: "Rise to the Challenge",
+    printings: [{
+        artists: ["Nikolay Moskvin"],
+      
+      identifier: "IAR050",
+      image: "IAR050",
+      
+      
+      print: "IAR050",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Nikolay Moskvin"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR050",
+      image: "IAR050-RF",
+      
+      
+      print: "IAR050-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR050"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR050",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Brute Block",
+
+    
+    
+    
+    defense: 3,
+    
+    functionalText: `When this defends, reveal the top card of your deck. If the revealed card has 6 or more base {p}, this gets +2{d}. Otherwise, put the revealed card on the bottom.
+
+**Instant** - Discard this: Your next attack this turn gets +2{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "rise-to-the-challenge-yellow",
+    classes: [Class.Brute],
+    defaultImage: "IAR051",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
+    name: "Rise to the Challenge",
+    printings: [{
+        artists: ["Nikolay Moskvin"],
+      
+      identifier: "IAR051",
+      image: "IAR051",
+      
+      
+      print: "IAR051",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Nikolay Moskvin"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR051",
+      image: "IAR051-RF",
+      
+      
+      print: "IAR051-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR051"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR051",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Brute Block",
+
+    
+    
+    
+    defense: 2,
+    
+    functionalText: `When this defends, reveal the top card of your deck. If the revealed card has 6 or more base {p}, this gets +2{d}. Otherwise, put the revealed card on the bottom.
+
+**Instant** - Discard this: Your next attack this turn gets +2{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "rise-to-the-challenge-blue",
+    classes: [Class.Brute],
+    defaultImage: "IAR052",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
+    name: "Rise to the Challenge",
+    printings: [{
+        artists: ["Nikolay Moskvin"],
+      
+      identifier: "IAR052",
+      image: "IAR052",
+      
+      
+      print: "IAR052",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Nikolay Moskvin"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR052",
+      image: "IAR052-RF",
+      
+      
+      print: "IAR052-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR052"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR052",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Brute Block",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `When this defends, reveal the top card of your deck. If the revealed card has 6 or more base {p}, this gets +2{d}. Otherwise, put the revealed card on the bottom.
+
+**Instant** - Discard this: Your next attack this turn gets +2{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "rise-up-red",
     classes: [Class.NotClassed],
@@ -360989,6 +364562,231 @@ When this defends, target attack gets -2{p} unless the attacking hero pays {r}.`
   
   
   },{
+    artists: ["Aluísio Cervelle"],
+    cardIdentifier: "rocktop-bellow-red",
+    classes: [Class.Brute],
+    defaultImage: "IAR044",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
+    name: "Rocktop Bellow",
+    printings: [{
+        artists: ["Aluísio Cervelle"],
+      
+      identifier: "IAR044",
+      image: "IAR044",
+      
+      
+      print: "IAR044",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Aluísio Cervelle"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR044",
+      image: "IAR044-RF",
+      
+      
+      print: "IAR044-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR044"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR044",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Brute Action",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `Reveal the top card of your deck. If the revealed card has 6 or more base {p}, your next attack this turn gets **overpower**. Otherwise, put the revealed card on the bottom.
+
+Your next attack this turn gets +4{p}. **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Overpower],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Aluísio Cervelle"],
+    cardIdentifier: "rocktop-bellow-yellow",
+    classes: [Class.Brute],
+    defaultImage: "IAR045",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
+    name: "Rocktop Bellow",
+    printings: [{
+        artists: ["Aluísio Cervelle"],
+      
+      identifier: "IAR045",
+      image: "IAR045",
+      
+      
+      print: "IAR045",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Aluísio Cervelle"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR045",
+      image: "IAR045-RF",
+      
+      
+      print: "IAR045-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR045"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR045",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Brute Action",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `Reveal the top card of your deck. If the revealed card has 6 or more base {p}, your next attack this turn gets **overpower**. Otherwise, put the revealed card on the bottom.
+
+Your next attack this turn gets +3{p}. **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Overpower],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Aluísio Cervelle"],
+    cardIdentifier: "rocktop-bellow-blue",
+    classes: [Class.Brute],
+    defaultImage: "IAR046",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
+    name: "Rocktop Bellow",
+    printings: [{
+        artists: ["Aluísio Cervelle"],
+      
+      identifier: "IAR046",
+      image: "IAR046",
+      
+      
+      print: "IAR046",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Aluísio Cervelle"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR046",
+      image: "IAR046-RF",
+      
+      
+      print: "IAR046-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR046"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR046",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Brute Action",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `Reveal the top card of your deck. If the revealed card has 6 or more base {p}, your next attack this turn gets **overpower**. Otherwise, put the revealed card on the bottom.
+
+Your next attack this turn gets +2{p}. **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Overpower],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Jefrey Yonathan"],
     cardIdentifier: "rockyard-rodeo-blue",
     classes: [Class.Generic],
@@ -364565,6 +368363,304 @@ Your next Brute attack this turn gets +2{p}.
     
     
     shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Marcellino Tan"],
+    cardIdentifier: "rumbling-hunger-red",
+    classes: [Class.Brute],
+    defaultImage: "IAR014",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Rumbling Hunger",
+    printings: [{
+        artists: ["Marcellino Tan"],
+      
+      identifier: "IAR014",
+      image: "IAR014",
+      
+      
+      print: "IAR014",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Marcellino Tan"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR014",
+      image: "IAR014-RF",
+      
+      
+      print: "IAR014-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR014"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR014",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 2,createdExtras: ["blasmophet-the-insatiable-hunger"],
+    defense: 3,
+    
+    functionalText: `When this hits, if you've banished a card with 6 or more {p} this turn, create a Blasmophet, the Insatiable Hunger token and this gets **go again**.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 6,referencedCards: ["blasmophet-the-insatiable-hunger"],
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Marcellino Tan"],
+    cardIdentifier: "rumbling-hunger-yellow",
+    classes: [Class.Brute],
+    defaultImage: "IAR015",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Rumbling Hunger",
+    printings: [{
+        artists: ["Marcellino Tan"],
+      
+      identifier: "IAR015",
+      image: "IAR015",
+      
+      
+      print: "IAR015",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Marcellino Tan"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR015",
+      image: "IAR015-RF",
+      
+      
+      print: "IAR015-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR015"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR015",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 2,createdExtras: ["blasmophet-the-insatiable-hunger"],
+    defense: 3,
+    
+    functionalText: `When this hits, if you've banished a card with 6 or more {p} this turn, create a Blasmophet, the Insatiable Hunger token and this gets **go again**.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 5,referencedCards: ["blasmophet-the-insatiable-hunger"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Marcellino Tan"],
+    cardIdentifier: "rumbling-hunger-blue",
+    classes: [Class.Brute],
+    defaultImage: "IAR016",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Rumbling Hunger",
+    printings: [{
+        artists: ["Marcellino Tan"],
+      
+      identifier: "IAR016",
+      image: "IAR016",
+      
+      
+      print: "IAR016",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Marcellino Tan"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR016",
+      image: "IAR016-RF",
+      
+      
+      print: "IAR016-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR016"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR016",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 2,createdExtras: ["blasmophet-the-insatiable-hunger"],
+    defense: 3,
+    
+    functionalText: `When this hits, if you've banished a card with 6 or more {p} this turn, create a Blasmophet, the Insatiable Hunger token and this gets **go again**.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 4,referencedCards: ["blasmophet-the-insatiable-hunger"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Alexis Susani"],
+    cardIdentifier: "rumbling-of-iarathael-red",
+    classes: [Class.Generic],
+    defaultImage: "IAR231",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    name: "Rumbling of i'Arathael",
+    printings: [{
+        artists: ["Alexis Susani"],
+      
+      identifier: "IAR231",
+      image: "IAR231",
+      
+      
+      print: "IAR231",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Alexis Susani"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR231",
+      image: "IAR231-RF",
+      
+      
+      print: "IAR231-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR231"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR231",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `If a card has been put into your banished zone this turn, this gets **overpower**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Overpower],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 6,
+    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -372915,6 +377011,231 @@ You may destroy a Frailty token you control. If you do, gain 1 {h}.
     
     
     talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["Jefrey Yonathan"],
+    cardIdentifier: "satiate-bloodthirst-red",
+    classes: [Class.Brute],
+    defaultImage: "IAR032",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Satiate Bloodthirst",
+    printings: [{
+        artists: ["Jefrey Yonathan"],
+      
+      identifier: "IAR032",
+      image: "IAR032",
+      
+      
+      print: "IAR032",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Jefrey Yonathan"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR032",
+      image: "IAR032-RF",
+      
+      
+      print: "IAR032-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR032"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR032",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 2,
+    
+    functionalText: `**Instant** - Banish this from your hand: Gain 1{h}
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 7,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Jefrey Yonathan"],
+    cardIdentifier: "satiate-bloodthirst-yellow",
+    classes: [Class.Brute],
+    defaultImage: "IAR033",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Satiate Bloodthirst",
+    printings: [{
+        artists: ["Jefrey Yonathan"],
+      
+      identifier: "IAR033",
+      image: "IAR033",
+      
+      
+      print: "IAR033",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Jefrey Yonathan"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR033",
+      image: "IAR033-RF",
+      
+      
+      print: "IAR033-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR033"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR033",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 2,
+    
+    functionalText: `**Instant** - Banish this from your hand: Gain 1{h}
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 6,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Jefrey Yonathan"],
+    cardIdentifier: "satiate-bloodthirst-blue",
+    classes: [Class.Brute],
+    defaultImage: "IAR034",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Satiate Bloodthirst",
+    printings: [{
+        artists: ["Jefrey Yonathan"],
+      
+      identifier: "IAR034",
+      image: "IAR034",
+      
+      
+      print: "IAR034",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Jefrey Yonathan"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR034",
+      image: "IAR034-RF",
+      
+      
+      print: "IAR034-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR034"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR034",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 2,
+    
+    functionalText: `**Instant** - Banish this from your hand: Gain 1{h}
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
   
   
   },{
@@ -383745,12 +388066,24 @@ Prevent the next 5 damage that would be dealt to you this turn.`,
     artists: ["Tian Thongjomroon"],
     cardIdentifier: "seek-horizon-red",
     classes: [Class.Generic],
-    defaultImage: "OUT216",
+    defaultImage: "IAR236",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Seek Horizon",
     printings: [{
+        artists: ["Tian Thongjomroon"],
+      
+      identifier: "IAR236",
+      image: "IAR236",
+      
+      
+      print: "IAR236",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
         artists: ["Tian Thongjomroon"],
       
       identifier: "OUT216",
@@ -383843,8 +388176,8 @@ Prevent the next 5 damage that would be dealt to you this turn.`,
     },],
     rarities: [Rarity.Common,Rarity.Rare],
     rarity: Rarity.Common,
-    setIdentifiers: ["AZL018","MON251","OUT216"],
-    sets: [Release.AzaleaBlitzDeck,Release.Monarch,Release.Outsiders],
+    setIdentifiers: ["AZL018","IAR236","MON251","OUT216"],
+    sets: [Release.AzaleaBlitzDeck,Release.Monarch,Release.Outsiders,Release.UsurpTheShadowThrone],
     specialImage: "MON251-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -383855,9 +388188,7 @@ Prevent the next 5 damage that would be dealt to you this turn.`,
     cost: 0,
     defense: 2,
     
-    functionalText: `As an additional cost to play this, you may put a card from your hand on top of your deck.
-
-If the additional cost was paid, this gets **go again**.`,
+    functionalText: `As an additional cost to play this, you may put a card from your hand on top of your deck. If you do, this gets **go again**.`,
     
     
     
@@ -383886,12 +388217,24 @@ If the additional cost was paid, this gets **go again**.`,
     artists: ["Tian Thongjomroon"],
     cardIdentifier: "seek-horizon-yellow",
     classes: [Class.Generic],
-    defaultImage: "OUT217",
+    defaultImage: "IAR237",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Seek Horizon",
     printings: [{
+        artists: ["Tian Thongjomroon"],
+      
+      identifier: "IAR237",
+      image: "IAR237",
+      
+      
+      print: "IAR237",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
         artists: ["Tian Thongjomroon"],
       
       identifier: "OUT217",
@@ -383969,8 +388312,8 @@ If the additional cost was paid, this gets **go again**.`,
     },],
     rarities: [Rarity.Common,Rarity.Rare],
     rarity: Rarity.Common,
-    setIdentifiers: ["MON252","OUT217"],
-    sets: [Release.Monarch,Release.Outsiders],
+    setIdentifiers: ["IAR237","MON252","OUT217"],
+    sets: [Release.Monarch,Release.Outsiders,Release.UsurpTheShadowThrone],
     specialImage: "MON252-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -383981,9 +388324,7 @@ If the additional cost was paid, this gets **go again**.`,
     cost: 0,
     defense: 2,
     
-    functionalText: `As an additional cost to play this, you may put a card from your hand on top of your deck.
-
-If the additional cost was paid, this gets **go again**.`,
+    functionalText: `As an additional cost to play this, you may put a card from your hand on top of your deck. If you do, this gets **go again**.`,
     
     
     
@@ -384012,12 +388353,24 @@ If the additional cost was paid, this gets **go again**.`,
     artists: ["Tian Thongjomroon"],
     cardIdentifier: "seek-horizon-blue",
     classes: [Class.Generic],
-    defaultImage: "OUT218",
+    defaultImage: "IAR238",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Seek Horizon",
     printings: [{
+        artists: ["Tian Thongjomroon"],
+      
+      identifier: "IAR238",
+      image: "IAR238",
+      
+      
+      print: "IAR238",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
         artists: ["Tian Thongjomroon"],
       
       identifier: "OUT218",
@@ -384095,8 +388448,8 @@ If the additional cost was paid, this gets **go again**.`,
     },],
     rarities: [Rarity.Common,Rarity.Rare],
     rarity: Rarity.Common,
-    setIdentifiers: ["MON253","OUT218"],
-    sets: [Release.Monarch,Release.Outsiders],
+    setIdentifiers: ["IAR238","MON253","OUT218"],
+    sets: [Release.Monarch,Release.Outsiders,Release.UsurpTheShadowThrone],
     specialImage: "MON253-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -384107,9 +388460,7 @@ If the additional cost was paid, this gets **go again**.`,
     cost: 0,
     defense: 2,
     
-    functionalText: `As an additional cost to play this, you may put a card from your hand on top of your deck.
-
-If the additional cost was paid, this gets **go again**.`,
+    functionalText: `As an additional cost to play this, you may put a card from your hand on top of your deck. If you do, this gets **go again**.`,
     
     
     
@@ -387851,6 +392202,243 @@ If you paid the addition cost to play this, it gets **go again**.
   
   
   },{
+    artists: ["Arif Wijaya"],
+    cardIdentifier: "shadowake-gloomblade-red",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR135",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Shadowake Gloomblade",
+    printings: [{
+        artists: ["Arif Wijaya"],
+      
+      identifier: "IAR135",
+      image: "IAR135",
+      
+      
+      print: "IAR135",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Arif Wijaya"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR135",
+      image: "IAR135-RF",
+      
+      
+      print: "IAR135-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR135"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR135",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 2,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `You may play this from your banished zone.
+
+**Usurp**
+
+When this hits, create a Gate to i'Arathael token.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 4,referencedCards: ["gate-to-iarathael"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Arif Wijaya"],
+    cardIdentifier: "shadowake-gloomblade-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR136",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Shadowake Gloomblade",
+    printings: [{
+        artists: ["Arif Wijaya"],
+      
+      identifier: "IAR136",
+      image: "IAR136",
+      
+      
+      print: "IAR136",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Arif Wijaya"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR136",
+      image: "IAR136-RF",
+      
+      
+      print: "IAR136-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR136"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR136",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 2,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `You may play this from your banished zone.
+
+**Usurp**
+
+When this hits, create a Gate to i'Arathael token.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 3,referencedCards: ["gate-to-iarathael"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Arif Wijaya"],
+    cardIdentifier: "shadowake-gloomblade-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR137",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Shadowake Gloomblade",
+    printings: [{
+        artists: ["Arif Wijaya"],
+      
+      identifier: "IAR137",
+      image: "IAR137",
+      
+      
+      print: "IAR137",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Arif Wijaya"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR137",
+      image: "IAR137-RF",
+      
+      
+      print: "IAR137-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR137"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR137",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 2,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `You may play this from your banished zone.
+
+**Usurp**
+
+When this hits, create a Gate to i'Arathael token.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 2,referencedCards: ["gate-to-iarathael"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Mariusz Gandzel"],
     cardIdentifier: "shadowrealm-bloodhound-red",
     classes: [Class.NotClassed],
@@ -388931,6 +393519,81 @@ If 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 
     
     
     shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Arif Resu"],
+    cardIdentifier: "shadowrealm-swiftness-yellow",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR083",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Shadowrealm Swiftness",
+    printings: [{
+        artists: ["Arif Resu"],
+      
+      identifier: "IAR083",
+      image: "IAR083",
+      
+      
+      print: "IAR083",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Arif Resu"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR083",
+      image: "IAR083-RF",
+      
+      
+      print: "IAR083-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR083"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR083",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `You may put a card from your banished zone into your graveyard. If it's a zombie, your next attack this turn gets **go again**.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 2,
+    
+    
+    
     
     
     
@@ -397450,7 +402113,8 @@ When this leaves the arena, discard a card then draw a card.`,
     
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Daniel Jiménez","Saad Irfan"],
     cardIdentifier: "sigil-of-deadwood-blue",
     classes: [Class.Runeblade],
@@ -403357,8 +408021,7 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
     
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "singeing-steelblade-blue",
     classes: [Class.Runeblade],
@@ -433968,6 +438631,231 @@ Until end of turn, target weapon you control gets +2{p} and "Whenever this hits,
     
     
     
+  
+  
+  },{
+    artists: ["Stormy Elia Fanggidae"],
+    cardIdentifier: "step-through-realms-red",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR215",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Step through Realms",
+    printings: [{
+        artists: ["Stormy Elia Fanggidae"],
+      
+      identifier: "IAR215",
+      image: "IAR215",
+      
+      
+      print: "IAR215",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Stormy Elia Fanggidae"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR215",
+      image: "IAR215-RF",
+      
+      
+      print: "IAR215-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR215"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR215",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    
+    
+    cost: 2,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `Your next Shadow attack this turn gets +4{p} and "When this hits, create a Gate to i'Arathael token."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    referencedCards: ["gate-to-iarathael"],
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Stormy Elia Fanggidae"],
+    cardIdentifier: "step-through-realms-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR216",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Step through Realms",
+    printings: [{
+        artists: ["Stormy Elia Fanggidae"],
+      
+      identifier: "IAR216",
+      image: "IAR216",
+      
+      
+      print: "IAR216",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Stormy Elia Fanggidae"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR216",
+      image: "IAR216-RF",
+      
+      
+      print: "IAR216-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR216"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR216",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    
+    
+    cost: 2,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `Your next Shadow attack this turn gets +3{p} and "When this hits, create a Gate to i'Arathael token."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    referencedCards: ["gate-to-iarathael"],
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Stormy Elia Fanggidae"],
+    cardIdentifier: "step-through-realms-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR217",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Step through Realms",
+    printings: [{
+        artists: ["Stormy Elia Fanggidae"],
+      
+      identifier: "IAR217",
+      image: "IAR217",
+      
+      
+      print: "IAR217",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Stormy Elia Fanggidae"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR217",
+      image: "IAR217-RF",
+      
+      
+      print: "IAR217-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR217"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR217",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    
+    
+    cost: 2,createdExtras: ["gate-to-iarathael"],
+    defense: 3,
+    
+    functionalText: `Your next Shadow attack this turn gets +2{p} and "When this hits, create a Gate to i'Arathael token."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    referencedCards: ["gate-to-iarathael"],
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
   
   
   },{
@@ -472322,12 +477210,24 @@ Whenever you or an ally you control deals damage to an opposing hero, you remove
     artists: ["Alexis Susani"],
     cardIdentifier: "tremor-of-iarathael-red",
     classes: [Class.Generic],
-    defaultImage: "U-MON254",
+    defaultImage: "IAR232",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Tremor of i'Arathael",
     printings: [{
+        artists: ["Alexis Susani"],
+      
+      identifier: "IAR232",
+      image: "IAR232",
+      
+      
+      print: "IAR232",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
         artists: ["Alexis Susani"],
       edition: ReleaseEdition.Unlimited,
       identifier: "MON254",
@@ -472390,8 +477290,8 @@ Whenever you or an ally you control deals damage to an opposing hero, you remove
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["MON254"],
-    sets: [Release.Monarch],
+    setIdentifiers: ["IAR232","MON254"],
+    sets: [Release.Monarch,Release.UsurpTheShadowThrone],
     specialImage: "MON254-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -472410,7 +477310,7 @@ Whenever you or an ally you control deals damage to an opposing hero, you remove
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -476051,7 +480951,8 @@ While this is defending, if you've been cheered this turn, it gets +3{d}.`,
     talents: [Talent.Revered],
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Billy Christian"],
     cardIdentifier: "twelve-petal-kasaya",
     classes: [Class.Ninja],
@@ -482370,8 +487271,7 @@ When this hits a hero, turn all cards in their banished zone face-down. They los
     
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "v-for-valor-red",
     classes: [Class.Warrior],
@@ -492054,12 +496954,36 @@ Create a Vigor and a Courage token. **Go again**`,
     artists: ["Peyeyo"],
     cardIdentifier: "void-wraith-red",
     classes: [Class.NotClassed],
-    defaultImage: "U-MON209",
+    defaultImage: "IAR203",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
     name: "Void Wraith",
     printings: [{
+        artists: ["Peyeyo"],
+      
+      identifier: "IAR203",
+      image: "IAR203",
+      
+      
+      print: "IAR203",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Peyeyo"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR203",
+      image: "IAR203-RF",
+      
+      
+      print: "IAR203-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
         artists: ["Peyeyo"],
       edition: ReleaseEdition.Unlimited,
       identifier: "MON209",
@@ -492122,8 +497046,8 @@ Create a Vigor and a Courage token. **Go again**`,
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["MON209"],
-    sets: [Release.Monarch],
+    setIdentifiers: ["IAR203","MON209"],
+    sets: [Release.Monarch,Release.UsurpTheShadowThrone],
     specialImage: "MON209-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -492144,7 +497068,7 @@ Create a Vigor and a Courage token. **Go again**`,
     keywords: [Keyword.BloodDebt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -492165,12 +497089,36 @@ Create a Vigor and a Courage token. **Go again**`,
     artists: ["Peyeyo"],
     cardIdentifier: "void-wraith-yellow",
     classes: [Class.NotClassed],
-    defaultImage: "U-MON210",
+    defaultImage: "IAR204",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
     name: "Void Wraith",
     printings: [{
+        artists: ["Peyeyo"],
+      
+      identifier: "IAR204",
+      image: "IAR204",
+      
+      
+      print: "IAR204",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Peyeyo"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR204",
+      image: "IAR204-RF",
+      
+      
+      print: "IAR204-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
         artists: ["Peyeyo"],
       edition: ReleaseEdition.Unlimited,
       identifier: "MON210",
@@ -492233,8 +497181,8 @@ Create a Vigor and a Courage token. **Go again**`,
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["MON210"],
-    sets: [Release.Monarch],
+    setIdentifiers: ["IAR204","MON210"],
+    sets: [Release.Monarch,Release.UsurpTheShadowThrone],
     specialImage: "MON210-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -492255,7 +497203,7 @@ Create a Vigor and a Courage token. **Go again**`,
     keywords: [Keyword.BloodDebt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -492276,12 +497224,36 @@ Create a Vigor and a Courage token. **Go again**`,
     artists: ["Peyeyo"],
     cardIdentifier: "void-wraith-blue",
     classes: [Class.NotClassed],
-    defaultImage: "U-MON211",
+    defaultImage: "IAR205",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
     name: "Void Wraith",
     printings: [{
+        artists: ["Peyeyo"],
+      
+      identifier: "IAR205",
+      image: "IAR205",
+      
+      
+      print: "IAR205",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Peyeyo"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR205",
+      image: "IAR205-RF",
+      
+      
+      print: "IAR205-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
         artists: ["Peyeyo"],
       edition: ReleaseEdition.Unlimited,
       identifier: "MON211",
@@ -492344,8 +497316,8 @@ Create a Vigor and a Courage token. **Go again**`,
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["MON211"],
-    sets: [Release.Monarch],
+    setIdentifiers: ["IAR205","MON211"],
+    sets: [Release.Monarch,Release.UsurpTheShadowThrone],
     specialImage: "MON211-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -492366,7 +497338,7 @@ Create a Vigor and a Courage token. **Go again**`,
     keywords: [Keyword.BloodDebt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -503824,6 +508796,225 @@ When this hits, and it's the second or higher chain link in a row to hit, draw 2
   
   
   },{
+    artists: ["Orson CaptainSass"],
+    cardIdentifier: "whispers-within-red",
+    classes: [Class.Generic],
+    defaultImage: "IAR239",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    name: "Whispers Within",
+    printings: [{
+        artists: ["Orson CaptainSass"],
+      
+      identifier: "IAR239",
+      image: "IAR239",
+      
+      
+      print: "IAR239",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Orson CaptainSass"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR239",
+      image: "IAR239-RF",
+      
+      
+      print: "IAR239-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR239"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR239",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 2,
+    
+    functionalText: `When this defends, **opt 1**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Opt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 7,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Orson CaptainSass"],
+    cardIdentifier: "whispers-within-yellow",
+    classes: [Class.Generic],
+    defaultImage: "IAR240",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    name: "Whispers Within",
+    printings: [{
+        artists: ["Orson CaptainSass"],
+      
+      identifier: "IAR240",
+      image: "IAR240",
+      
+      
+      print: "IAR240",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Orson CaptainSass"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR240",
+      image: "IAR240-RF",
+      
+      
+      print: "IAR240-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR240"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR240",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 2,
+    
+    functionalText: `When this defends, **opt 1**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Opt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 6,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Orson CaptainSass"],
+    cardIdentifier: "whispers-within-blue",
+    classes: [Class.Generic],
+    defaultImage: "IAR241",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    name: "Whispers Within",
+    printings: [{
+        artists: ["Orson CaptainSass"],
+      
+      identifier: "IAR241",
+      image: "IAR241",
+      
+      
+      print: "IAR241",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Orson CaptainSass"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR241",
+      image: "IAR241-RF",
+      
+      
+      print: "IAR241-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR241"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR241",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 2,
+    
+    functionalText: `When this defends, **opt 1**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Opt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Max Kostin"],
     cardIdentifier: "whittle-from-bone-red",
     classes: [Class.Assassin],
@@ -506333,6 +511524,83 @@ When this is pitched, **amp 1**.`,
     
     
     
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Satrya Darmawan"],
+    cardIdentifier: "wind-slicer-blue",
+    classes: [Class.Ninja],
+    defaultImage: "IAR246",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Zen],
+    name: "Wind Slicer",
+    printings: [{
+        artists: ["Satrya Darmawan"],
+      
+      identifier: "IAR246",
+      image: "IAR246",
+      isExpansionSlot: true,
+      
+      print: "IAR246",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Satrya Darmawan"],
+      foiling: Foiling.Cold,
+      identifier: "IAR246",
+      image: "IAR246-CF",
+      isExpansionSlot: true,
+      
+      print: "IAR246-Cold",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR246"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR246-CF",
+    subtypes: [Subtype.Item,Subtype.Shuriken],
+    types: [Type.Instant],
+    typeText: "Ninja Instant - Shuriken Item",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `**Legendary**
+
+**Action** - {r}, {t}, destroy this when the combat chain closes: **Attack**. **Go again**
+
+When this hits a hero, they lose all hero card abilities during their next action phase`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Legendary],
+    
+    
+    meta: [Meta.Deck,Meta.Expansion],
+  
+    
+    pitch: 3,
+    power: 1,
     
     shorthands: [Shorthand.Tap],
     
