@@ -1229,16 +1229,17 @@ exports[`Check for unintentional updates Abyssal Force (abyssal-force-blue) vs s
   "defaultImage": "IAR207",
   "defense": 2,
   "firstReleaseDate": "2026-09-25",
-  "functionalText": ""You may play this from your banished zone.
+  "functionalText": "You may play this from your banished zone.
 
 Your next Shadow attack this turn gets **overpower**.
 
 **Go again**
 
-**Blood Debt**"",
+**Blood Debt**",
   "keywords": [
     "Blood Debt",
     "Go again",
+    "Overpower",
   ],
   "legalFormats": [
     "Blitz",
@@ -1324,11 +1325,11 @@ exports[`Check for unintentional updates Abyssal Rush (abyssal-rush-blue) vs sna
   "defaultImage": "IAR208",
   "defense": 2,
   "firstReleaseDate": "2026-09-25",
-  "functionalText": ""You may play this from your banished zone.
+  "functionalText": "You may play this from your banished zone.
 
 Your next Shadow attack this turn gets "When this hits, it gets **go again**." **Go again**
 
-**Blood Debt**"",
+**Blood Debt**",
   "keywords": [
     "Blood Debt",
     "Go again",
@@ -1634,6 +1635,10 @@ exports[`Check for unintentional updates Acrid Stench (acrid-stench-blue) vs sna
       "print": "IAR071",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715834",
+        "url": "https://www.tcgplayer.com/product/715834?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -1645,6 +1650,10 @@ exports[`Check for unintentional updates Acrid Stench (acrid-stench-blue) vs sna
       "print": "IAR071-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715834",
+        "url": "https://www.tcgplayer.com/product/715834?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -1727,6 +1736,10 @@ exports[`Check for unintentional updates Acrid Stench (acrid-stench-red) vs snap
       "print": "IAR069",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715832",
+        "url": "https://www.tcgplayer.com/product/715832?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -1738,6 +1751,10 @@ exports[`Check for unintentional updates Acrid Stench (acrid-stench-red) vs snap
       "print": "IAR069-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715832",
+        "url": "https://www.tcgplayer.com/product/715832?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -1852,6 +1869,10 @@ exports[`Check for unintentional updates Acrid Stench (acrid-stench-yellow) vs s
       "print": "IAR070",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715833",
+        "url": "https://www.tcgplayer.com/product/715833?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -1863,6 +1884,10 @@ exports[`Check for unintentional updates Acrid Stench (acrid-stench-yellow) vs s
       "print": "IAR070-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715833",
+        "url": "https://www.tcgplayer.com/product/715833?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -13144,6 +13169,10 @@ exports[`Check for unintentional updates Ancient Earth Oak (ancient-earth-oak-re
       "print": "IAR261",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714338",
+        "url": "https://www.tcgplayer.com/product/714338?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -13156,6 +13185,10 @@ exports[`Check for unintentional updates Ancient Earth Oak (ancient-earth-oak-re
       "print": "IAR261-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714338",
+        "url": "https://www.tcgplayer.com/product/714338?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -15831,6 +15864,10 @@ exports[`Check for unintentional updates Apex Buster (apex-buster-yellow) vs sna
       "print": "IAR039",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "712964",
+        "url": "https://www.tcgplayer.com/product/712964?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -15842,6 +15879,10 @@ exports[`Check for unintentional updates Apex Buster (apex-buster-yellow) vs sna
       "print": "IAR039-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "712964",
+        "url": "https://www.tcgplayer.com/product/712964?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -16124,6 +16165,10 @@ exports[`Check for unintentional updates Appalling Bearers (appalling-bearers) v
       "print": "IAR056",
       "rarity": "Basic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706668",
+        "url": "https://www.tcgplayer.com/product/706668?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -16135,6 +16180,10 @@ exports[`Check for unintentional updates Appalling Bearers (appalling-bearers) v
       "print": "IAR056-Cold-Extended Art",
       "rarity": "Basic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706669",
+        "url": "https://www.tcgplayer.com/product/706669?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -23707,6 +23756,10 @@ When this is banished from anywhere, you may pay up to 3{h}. Create that many Ru
       "print": "IAR111",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715794",
+        "url": "https://www.tcgplayer.com/product/715794?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -23718,6 +23771,10 @@ When this is banished from anywhere, you may pay up to 3{h}. Create that many Ru
       "print": "IAR111-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715794",
+        "url": "https://www.tcgplayer.com/product/715794?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -23804,6 +23861,10 @@ When this is pitched, create a Runechant token.",
       "print": "IAR001-Alternate Art",
       "rarity": "Fabled",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706638",
+        "url": "https://www.tcgplayer.com/product/706638?Language=English&Printing=Normal",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -26377,6 +26438,10 @@ exports[`Check for unintentional updates Astral Ambience (astral-ambience-yellow
       "print": "IAR250",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714482",
+        "url": "https://www.tcgplayer.com/product/714482?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -26389,6 +26454,10 @@ exports[`Check for unintentional updates Astral Ambience (astral-ambience-yellow
       "print": "IAR250-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714482",
+        "url": "https://www.tcgplayer.com/product/714482?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -40712,6 +40781,10 @@ exports[`Check for unintentional updates Battle Clearing Bellow (battle-clearing
       "print": "IAR040",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "711442",
+        "url": "https://www.tcgplayer.com/product/711442?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -40723,6 +40796,10 @@ exports[`Check for unintentional updates Battle Clearing Bellow (battle-clearing
       "print": "IAR040-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "711442",
+        "url": "https://www.tcgplayer.com/product/711442?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -40885,6 +40962,10 @@ If this was played from arsenal, your next attack this turn gets +1{p}.
       "print": "IAR235",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "712761",
+        "url": "https://www.tcgplayer.com/product/712761?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -40896,6 +40977,10 @@ If this was played from arsenal, your next attack this turn gets +1{p}.
       "print": "IAR235-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "712761",
+        "url": "https://www.tcgplayer.com/product/712761?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -41059,6 +41144,10 @@ If this was played from arsenal, your next attack this turn gets +3{p}.
       "print": "IAR233",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "712759",
+        "url": "https://www.tcgplayer.com/product/712759?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -41070,6 +41159,10 @@ If this was played from arsenal, your next attack this turn gets +3{p}.
       "print": "IAR233-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "712759",
+        "url": "https://www.tcgplayer.com/product/712759?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -41232,6 +41325,10 @@ If this was played from arsenal, your next attack this turn gets +2{p}.
       "print": "IAR234",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "712760",
+        "url": "https://www.tcgplayer.com/product/712760?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -41243,6 +41340,10 @@ If this was played from arsenal, your next attack this turn gets +2{p}.
       "print": "IAR234-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "712760",
+        "url": "https://www.tcgplayer.com/product/712760?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -45426,6 +45527,10 @@ When this hits, create a Blasmophet, the Insatiable Hunger token.
       "print": "IAR019",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706656",
+        "url": "https://www.tcgplayer.com/product/706656?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -45437,6 +45542,10 @@ When this hits, create a Blasmophet, the Insatiable Hunger token.
       "print": "IAR019-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706656",
+        "url": "https://www.tcgplayer.com/product/706656?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -45521,6 +45630,10 @@ When this hits, create a Blasmophet, the Insatiable Hunger token.
       "print": "IAR017",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706652",
+        "url": "https://www.tcgplayer.com/product/706652?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -45532,6 +45645,10 @@ When this hits, create a Blasmophet, the Insatiable Hunger token.
       "print": "IAR017-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706652",
+        "url": "https://www.tcgplayer.com/product/706652?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -45633,6 +45750,10 @@ When this hits, create a Blasmophet, the Insatiable Hunger token.
       "print": "IAR018",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706654",
+        "url": "https://www.tcgplayer.com/product/706654?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -45644,6 +45765,10 @@ When this hits, create a Blasmophet, the Insatiable Hunger token.
       "print": "IAR018-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706654",
+        "url": "https://www.tcgplayer.com/product/706654?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -46707,6 +46832,10 @@ exports[`Check for unintentional updates Become the Shadow Lord (become-the-shad
       "print": "IAR113",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706695",
+        "url": "https://www.tcgplayer.com/product/706695?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -46718,6 +46847,10 @@ exports[`Check for unintentional updates Become the Shadow Lord (become-the-shad
       "print": "IAR113-Cold-Full Art",
       "rarity": "Marvel",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706697",
+        "url": "https://www.tcgplayer.com/product/706697?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -57396,6 +57529,10 @@ At the beginning of each end phase, you may banish a card from your hand. Then i
       "print": "IAR221",
       "rarity": "Basic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706743",
+        "url": "https://www.tcgplayer.com/product/706743?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -57407,6 +57544,10 @@ At the beginning of each end phase, you may banish a card from your hand. Then i
       "print": "IAR221-Cold-Full Art",
       "rarity": "Marvel",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706745",
+        "url": "https://www.tcgplayer.com/product/706745?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -57422,6 +57563,10 @@ At the beginning of each end phase, you may banish a card from your hand. Then i
       "print": "IAR221-Cold-Full Art-Back",
       "rarity": "Marvel",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706745",
+        "url": "https://www.tcgplayer.com/product/706745?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -63142,6 +63287,10 @@ Whenever a card is put into your soul, create a Ponder token. At the start of yo
       "print": "IAR258",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715685",
+        "url": "https://www.tcgplayer.com/product/715685?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -63154,6 +63303,10 @@ Whenever a card is put into your soul, create a Ponder token. At the start of yo
       "print": "IAR258-Cold-Extended Art",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715686",
+        "url": "https://www.tcgplayer.com/product/715686?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -65693,6 +65846,10 @@ exports[`Check for unintentional updates Blood Harvest (blood-harvest) vs snapsh
       "print": "IAR005",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706650",
+        "url": "https://www.tcgplayer.com/product/706650?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -65704,6 +65861,10 @@ exports[`Check for unintentional updates Blood Harvest (blood-harvest) vs snapsh
       "print": "IAR005-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706650",
+        "url": "https://www.tcgplayer.com/product/706650?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -66928,6 +67089,10 @@ If you've dealt damage to the defending hero this turn, this gets **go again**.
       "print": "IAR125",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715846",
+        "url": "https://www.tcgplayer.com/product/715846?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -66939,6 +67104,10 @@ If you've dealt damage to the defending hero this turn, this gets **go again**.
       "print": "IAR125-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715846",
+        "url": "https://www.tcgplayer.com/product/715846?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -67036,6 +67205,10 @@ If you've dealt damage to the defending hero this turn, this gets **go again**.
       "print": "IAR123",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715844",
+        "url": "https://www.tcgplayer.com/product/715844?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -67047,6 +67220,10 @@ If you've dealt damage to the defending hero this turn, this gets **go again**.
       "print": "IAR123-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715844",
+        "url": "https://www.tcgplayer.com/product/715844?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -67143,6 +67320,10 @@ If you've dealt damage to the defending hero this turn, this gets **go again**.
       "print": "IAR124",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715845",
+        "url": "https://www.tcgplayer.com/product/715845?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -67154,6 +67335,10 @@ If you've dealt damage to the defending hero this turn, this gets **go again**.
       "print": "IAR124-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715845",
+        "url": "https://www.tcgplayer.com/product/715845?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -68173,6 +68358,10 @@ When this hits a hero, you may banish target aura permanent they control.
       "print": "IAR114",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "711527",
+        "url": "https://www.tcgplayer.com/product/711527?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -68184,6 +68373,10 @@ When this hits a hero, you may banish target aura permanent they control.
       "print": "IAR114-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "711527",
+        "url": "https://www.tcgplayer.com/product/711527?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -73835,6 +74028,10 @@ exports[`Check for unintentional updates Bone Barrier (bone-barrier-blue) vs sna
       "print": "IAR093",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "711508",
+        "url": "https://www.tcgplayer.com/product/711508?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -73846,6 +74043,10 @@ exports[`Check for unintentional updates Bone Barrier (bone-barrier-blue) vs sna
       "print": "IAR093-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "711508",
+        "url": "https://www.tcgplayer.com/product/711508?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -74107,6 +74308,10 @@ exports[`Check for unintentional updates Bone Mass (bone-mass-blue) vs snapshot 
       "print": "IAR074",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715837",
+        "url": "https://www.tcgplayer.com/product/715837?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -74118,6 +74323,10 @@ exports[`Check for unintentional updates Bone Mass (bone-mass-blue) vs snapshot 
       "print": "IAR074-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715837",
+        "url": "https://www.tcgplayer.com/product/715837?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -74197,6 +74406,10 @@ exports[`Check for unintentional updates Bone Mass (bone-mass-red) vs snapshot 1
       "print": "IAR072",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715835",
+        "url": "https://www.tcgplayer.com/product/715835?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -74208,6 +74421,10 @@ exports[`Check for unintentional updates Bone Mass (bone-mass-red) vs snapshot 1
       "print": "IAR072-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715835",
+        "url": "https://www.tcgplayer.com/product/715835?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -74319,6 +74536,10 @@ exports[`Check for unintentional updates Bone Mass (bone-mass-yellow) vs snapsho
       "print": "IAR073",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715836",
+        "url": "https://www.tcgplayer.com/product/715836?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -74330,6 +74551,10 @@ exports[`Check for unintentional updates Bone Mass (bone-mass-yellow) vs snapsho
       "print": "IAR073-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715836",
+        "url": "https://www.tcgplayer.com/product/715836?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -74989,6 +75214,10 @@ exports[`Check for unintentional updates Boneseer Skullcap (boneseer-skullcap) v
       "print": "IAR038-Cold",
       "rarity": "Legendary",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715683",
+        "url": "https://www.tcgplayer.com/product/715683?Language=English&Printing=Cold+Foil",
+      },
     },
     {
       "artists": [
@@ -75000,6 +75229,10 @@ exports[`Check for unintentional updates Boneseer Skullcap (boneseer-skullcap) v
       "print": "IAR038-Rainbow",
       "rarity": "Legendary",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715683",
+        "url": "https://www.tcgplayer.com/product/715683?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -80039,6 +80272,10 @@ If you've charged this turn, this gets **go again** and "When this hits, create 
       "print": "IAR254",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715690",
+        "url": "https://www.tcgplayer.com/product/715690?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -80051,6 +80288,10 @@ If you've charged this turn, this gets **go again** and "When this hits, create 
       "print": "IAR254-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715690",
+        "url": "https://www.tcgplayer.com/product/715690?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -80828,6 +81069,10 @@ exports[`Check for unintentional updates Breach Flesh (breach-flesh-blue) vs sna
       "print": "IAR184",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716172",
+        "url": "https://www.tcgplayer.com/product/716172?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -80839,6 +81084,10 @@ exports[`Check for unintentional updates Breach Flesh (breach-flesh-blue) vs sna
       "print": "IAR184-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716172",
+        "url": "https://www.tcgplayer.com/product/716172?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -80926,6 +81175,10 @@ exports[`Check for unintentional updates Breach Flesh (breach-flesh-red) vs snap
       "print": "IAR182",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716170",
+        "url": "https://www.tcgplayer.com/product/716170?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -80937,6 +81190,10 @@ exports[`Check for unintentional updates Breach Flesh (breach-flesh-red) vs snap
       "print": "IAR182-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716170",
+        "url": "https://www.tcgplayer.com/product/716170?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -81056,6 +81313,10 @@ exports[`Check for unintentional updates Breach Flesh (breach-flesh-yellow) vs s
       "print": "IAR183",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716171",
+        "url": "https://www.tcgplayer.com/product/716171?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -81067,6 +81328,10 @@ exports[`Check for unintentional updates Breach Flesh (breach-flesh-yellow) vs s
       "print": "IAR183-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716171",
+        "url": "https://www.tcgplayer.com/product/716171?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -84110,6 +84375,10 @@ At the start of each turn, destroy this unless you put a zombie from your banish
       "print": "IAR058",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706671",
+        "url": "https://www.tcgplayer.com/product/706671?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -84121,6 +84390,10 @@ At the start of each turn, destroy this unless you put a zombie from your banish
       "print": "IAR058-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706671",
+        "url": "https://www.tcgplayer.com/product/706671?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -98156,6 +98429,10 @@ exports[`Check for unintentional updates Chains of Consecration (chains-of-conse
       "print": "IAR259",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714485",
+        "url": "https://www.tcgplayer.com/product/714485?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -98168,6 +98445,10 @@ exports[`Check for unintentional updates Chains of Consecration (chains-of-conse
       "print": "IAR259-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714485",
+        "url": "https://www.tcgplayer.com/product/714485?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -99739,6 +100020,10 @@ The first time you destroy a Lightning Flow each turn, **amp 1**.
       "print": "IAR257",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715691",
+        "url": "https://www.tcgplayer.com/product/715691?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -99751,6 +100036,10 @@ The first time you destroy a Lightning Flow each turn, **amp 1**.
       "print": "IAR257-Cold-Extended Art",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715692",
+        "url": "https://www.tcgplayer.com/product/715692?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -106632,6 +106921,10 @@ exports[`Check for unintentional updates Circlet of Eternal End (circlet-of-eter
       "print": "IAR223-Cold",
       "rarity": "Legendary",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706747",
+        "url": "https://www.tcgplayer.com/product/706747?Language=English&Printing=Cold+Foil",
+      },
     },
     {
       "artists": [
@@ -106643,6 +106936,10 @@ exports[`Check for unintentional updates Circlet of Eternal End (circlet-of-eter
       "print": "IAR223-Rainbow",
       "rarity": "Legendary",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706747",
+        "url": "https://www.tcgplayer.com/product/706747?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -107318,6 +107615,10 @@ When this hits a hero, your zombie attacks this turn get **go again**.",
       "print": "AMA021",
       "rarity": "Majestic",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "716143",
+        "url": "https://www.tcgplayer.com/product/716143?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
@@ -111114,7 +111415,7 @@ exports[`Check for unintentional updates Cleave the Heavens (cleave-the-heavens-
     "gate-to-iarathael",
   ],
   "defaultImage": "IAR022",
-  "defense": 3,
+  "defense": 2,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "**Instant** - Banish this from your hand: Create a Gate to i'Arathael token.
 
@@ -111153,6 +111454,10 @@ exports[`Check for unintentional updates Cleave the Heavens (cleave-the-heavens-
       "print": "IAR022",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715804",
+        "url": "https://www.tcgplayer.com/product/715804?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -111164,6 +111469,10 @@ exports[`Check for unintentional updates Cleave the Heavens (cleave-the-heavens-
       "print": "IAR022-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715804",
+        "url": "https://www.tcgplayer.com/product/715804?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -111207,7 +111516,7 @@ exports[`Check for unintentional updates Cleave the Heavens (cleave-the-heavens-
     "gate-to-iarathael",
   ],
   "defaultImage": "IAR020",
-  "defense": 3,
+  "defense": 2,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "**Instant** - Banish this from your hand: Create a Gate to i'Arathael token.
 
@@ -111246,6 +111555,10 @@ exports[`Check for unintentional updates Cleave the Heavens (cleave-the-heavens-
       "print": "IAR020",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715801",
+        "url": "https://www.tcgplayer.com/product/715801?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -111257,6 +111570,10 @@ exports[`Check for unintentional updates Cleave the Heavens (cleave-the-heavens-
       "print": "IAR020-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715801",
+        "url": "https://www.tcgplayer.com/product/715801?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -111335,7 +111652,7 @@ exports[`Check for unintentional updates Cleave the Heavens (cleave-the-heavens-
     "gate-to-iarathael",
   ],
   "defaultImage": "IAR021",
-  "defense": 3,
+  "defense": 2,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "**Instant** - Banish this from your hand: Create a Gate to i'Arathael token.
 
@@ -111374,6 +111691,10 @@ exports[`Check for unintentional updates Cleave the Heavens (cleave-the-heavens-
       "print": "IAR021",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715803",
+        "url": "https://www.tcgplayer.com/product/715803?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -111385,6 +111706,10 @@ exports[`Check for unintentional updates Cleave the Heavens (cleave-the-heavens-
       "print": "IAR021-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715803",
+        "url": "https://www.tcgplayer.com/product/715803?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -120187,6 +120512,10 @@ exports[`Check for unintentional updates Commit to Corruption (commit-to-corrupt
       "print": "AMA009",
       "rarity": "Rare",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "716133",
+        "url": "https://www.tcgplayer.com/product/716133?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -125474,6 +125803,10 @@ exports[`Check for unintentional updates Consuming Appetite (consuming-appetite-
       "print": "IAR008",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716167",
+        "url": "https://www.tcgplayer.com/product/716167?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -125485,6 +125818,10 @@ exports[`Check for unintentional updates Consuming Appetite (consuming-appetite-
       "print": "IAR008-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716167",
+        "url": "https://www.tcgplayer.com/product/716167?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -125495,6 +125832,10 @@ exports[`Check for unintentional updates Consuming Appetite (consuming-appetite-
       "print": "GEM193-Extended Art",
       "rarity": "Promo",
       "set": "GEM",
+      "tcgplayer": {
+        "productId": "714490",
+        "url": "https://www.tcgplayer.com/product/714490?Language=English&Printing=Normal",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -125510,6 +125851,10 @@ exports[`Check for unintentional updates Consuming Appetite (consuming-appetite-
       "print": "GEM193-Rainbow-Extended Art",
       "rarity": "Promo",
       "set": "GEM",
+      "tcgplayer": {
+        "productId": "714490",
+        "url": "https://www.tcgplayer.com/product/714490?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -125696,6 +126041,10 @@ exports[`Check for unintentional updates Consuming Lash (consuming-lash-yellow) 
       "print": "IAR009",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "711509",
+        "url": "https://www.tcgplayer.com/product/711509?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -125707,6 +126056,10 @@ exports[`Check for unintentional updates Consuming Lash (consuming-lash-yellow) 
       "print": "IAR009-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "711509",
+        "url": "https://www.tcgplayer.com/product/711509?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -125824,6 +126177,10 @@ exports[`Check for unintentional updates Consuming Strength (consuming-strength-
       "print": "IAR010",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "711510",
+        "url": "https://www.tcgplayer.com/product/711510?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -125835,6 +126192,10 @@ exports[`Check for unintentional updates Consuming Strength (consuming-strength-
       "print": "IAR010-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "711510",
+        "url": "https://www.tcgplayer.com/product/711510?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -127865,6 +128226,10 @@ exports[`Check for unintentional updates Corporeal Chasm (corporeal-chasm-blue) 
       "print": "IAR187",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716175",
+        "url": "https://www.tcgplayer.com/product/716175?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -127876,6 +128241,10 @@ exports[`Check for unintentional updates Corporeal Chasm (corporeal-chasm-blue) 
       "print": "IAR187-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716175",
+        "url": "https://www.tcgplayer.com/product/716175?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -127963,6 +128332,10 @@ exports[`Check for unintentional updates Corporeal Chasm (corporeal-chasm-red) v
       "print": "IAR185",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716173",
+        "url": "https://www.tcgplayer.com/product/716173?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -127974,6 +128347,10 @@ exports[`Check for unintentional updates Corporeal Chasm (corporeal-chasm-red) v
       "print": "IAR185-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716173",
+        "url": "https://www.tcgplayer.com/product/716173?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -128096,6 +128473,10 @@ exports[`Check for unintentional updates Corporeal Chasm (corporeal-chasm-yellow
       "print": "IAR186",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716174",
+        "url": "https://www.tcgplayer.com/product/716174?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -128107,6 +128488,10 @@ exports[`Check for unintentional updates Corporeal Chasm (corporeal-chasm-yellow
       "print": "IAR186-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716174",
+        "url": "https://www.tcgplayer.com/product/716174?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -128724,6 +129109,10 @@ When this hits a hero, banish all cards in their arsenal.
       "print": "IAR164",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706722",
+        "url": "https://www.tcgplayer.com/product/706722?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -128735,6 +129124,10 @@ When this hits a hero, banish all cards in their arsenal.
       "print": "IAR164-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706722",
+        "url": "https://www.tcgplayer.com/product/706722?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -128836,6 +129229,10 @@ This card's attacks get **go again**.
       "print": "AMA029",
       "rarity": "Basic",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "707748",
+        "url": "https://www.tcgplayer.com/product/707748?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -128846,6 +129243,10 @@ This card's attacks get **go again**.
       "print": "IAR090",
       "rarity": "Basic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706677",
+        "url": "https://www.tcgplayer.com/product/706677?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -128857,6 +129258,10 @@ This card's attacks get **go again**.
       "print": "IAR090-Rainbow-Extended Art",
       "rarity": "Basic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "707170",
+        "url": "https://www.tcgplayer.com/product/707170?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -128994,6 +129399,10 @@ exports[`Check for unintentional updates Corrupted Crown (corrupted-crown) vs sn
       "print": "AMA003-Rainbow",
       "rarity": "Rare",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "706912",
+        "url": "https://www.tcgplayer.com/product/706912?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -130677,6 +131086,10 @@ When this hits, you may search your deck for a Darkest Hour, banish it, then shu
       "print": "AMA020",
       "rarity": "Rare",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "716142",
+        "url": "https://www.tcgplayer.com/product/716142?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -130687,6 +131100,10 @@ When this hits, you may search your deck for a Darkest Hour, banish it, then shu
       "print": "IAR169",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716169",
+        "url": "https://www.tcgplayer.com/product/716169?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -130698,6 +131115,10 @@ When this hits, you may search your deck for a Darkest Hour, banish it, then shu
       "print": "IAR169-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716169",
+        "url": "https://www.tcgplayer.com/product/716169?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -130792,6 +131213,10 @@ When this hits, you may search your deck for a Darkest Hour, banish it, then shu
       "print": "IAR167",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714473",
+        "url": "https://www.tcgplayer.com/product/714473?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -130803,6 +131228,10 @@ When this hits, you may search your deck for a Darkest Hour, banish it, then shu
       "print": "IAR167-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714473",
+        "url": "https://www.tcgplayer.com/product/714473?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -130898,6 +131327,10 @@ When this hits, you may search your deck for a Darkest Hour, banish it, then shu
       "print": "IAR168",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716168",
+        "url": "https://www.tcgplayer.com/product/716168?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -130909,6 +131342,10 @@ When this hits, you may search your deck for a Darkest Hour, banish it, then shu
       "print": "IAR168-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716168",
+        "url": "https://www.tcgplayer.com/product/716168?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -140421,6 +140858,10 @@ exports[`Check for unintentional updates Crushing Headache (crushing-headache-re
       "print": "IAR244",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714161",
+        "url": "https://www.tcgplayer.com/product/714161?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -140433,6 +140874,10 @@ exports[`Check for unintentional updates Crushing Headache (crushing-headache-re
       "print": "IAR244-Rainbow-Extended Art",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714334",
+        "url": "https://www.tcgplayer.com/product/714334?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -140715,6 +141160,10 @@ When this hits a hero, they banish a card from their hand.
       "print": "IAR115",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714109",
+        "url": "https://www.tcgplayer.com/product/714109?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -140726,6 +141175,10 @@ When this hits a hero, they banish a card from their hand.
       "print": "IAR115-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714109",
+        "url": "https://www.tcgplayer.com/product/714109?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -144906,6 +145359,10 @@ exports[`Check for unintentional updates Dam the Shadowake (dam-the-shadowake-bl
       "print": "IAR220",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716189",
+        "url": "https://www.tcgplayer.com/product/716189?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -144917,6 +145374,10 @@ exports[`Check for unintentional updates Dam the Shadowake (dam-the-shadowake-bl
       "print": "IAR220-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716189",
+        "url": "https://www.tcgplayer.com/product/716189?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -144995,6 +145456,10 @@ exports[`Check for unintentional updates Dam the Shadowake (dam-the-shadowake-re
       "print": "IAR218",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716187",
+        "url": "https://www.tcgplayer.com/product/716187?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -145006,6 +145471,10 @@ exports[`Check for unintentional updates Dam the Shadowake (dam-the-shadowake-re
       "print": "IAR218-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716187",
+        "url": "https://www.tcgplayer.com/product/716187?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -145084,6 +145553,10 @@ exports[`Check for unintentional updates Dam the Shadowake (dam-the-shadowake-ye
       "print": "IAR219",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716188",
+        "url": "https://www.tcgplayer.com/product/716188?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -145095,6 +145568,10 @@ exports[`Check for unintentional updates Dam the Shadowake (dam-the-shadowake-ye
       "print": "IAR219-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716188",
+        "url": "https://www.tcgplayer.com/product/716188?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -145712,6 +146189,10 @@ exports[`Check for unintentional updates Danse Macabre (danse-macabre) vs snapsh
       "print": "IAR091-Cold",
       "rarity": "Legendary",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714343",
+        "url": "https://www.tcgplayer.com/product/714343?Language=English&Printing=Cold+Foil",
+      },
     },
     {
       "artists": [
@@ -145723,6 +146204,10 @@ exports[`Check for unintentional updates Danse Macabre (danse-macabre) vs snapsh
       "print": "IAR091-Rainbow",
       "rarity": "Legendary",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714343",
+        "url": "https://www.tcgplayer.com/product/714343?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -145878,6 +146363,10 @@ exports[`Check for unintentional updates Dark Arcanite Boots (dark-arcanite-boot
       "print": "IAR227",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716190",
+        "url": "https://www.tcgplayer.com/product/716190?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -145889,6 +146378,10 @@ exports[`Check for unintentional updates Dark Arcanite Boots (dark-arcanite-boot
       "print": "IAR227-Cold",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716190",
+        "url": "https://www.tcgplayer.com/product/716190?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -146458,6 +146951,10 @@ Your next Shadow attack this turn gets +1{p}. **Go again**
       "print": "IAR211",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716186",
+        "url": "https://www.tcgplayer.com/product/716186?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -146469,6 +146966,10 @@ Your next Shadow attack this turn gets +1{p}. **Go again**
       "print": "IAR211-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716186",
+        "url": "https://www.tcgplayer.com/product/716186?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -146556,6 +147057,10 @@ Your next Shadow attack this turn gets +4{p}. **Go again**
       "print": "AMA010",
       "rarity": "Common",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "716134",
+        "url": "https://www.tcgplayer.com/product/716134?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -146566,6 +147071,10 @@ Your next Shadow attack this turn gets +4{p}. **Go again**
       "print": "IAR209",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714474",
+        "url": "https://www.tcgplayer.com/product/714474?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -146577,6 +147086,10 @@ Your next Shadow attack this turn gets +4{p}. **Go again**
       "print": "IAR209-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714474",
+        "url": "https://www.tcgplayer.com/product/714474?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -146665,6 +147178,10 @@ Your next Shadow attack this turn gets +3{p}. **Go again**
       "print": "IAR210",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716185",
+        "url": "https://www.tcgplayer.com/product/716185?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -146676,6 +147193,10 @@ Your next Shadow attack this turn gets +3{p}. **Go again**
       "print": "IAR210-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716185",
+        "url": "https://www.tcgplayer.com/product/716185?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -150185,6 +150706,10 @@ exports[`Check for unintentional updates Deadly Spinneret (deadly-spinneret-red)
       "print": "IAR243",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714480",
+        "url": "https://www.tcgplayer.com/product/714480?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -155396,6 +155921,10 @@ exports[`Check for unintentional updates Demonbound Gloomblade (demonbound-gloom
       "print": "IAR126",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706699",
+        "url": "https://www.tcgplayer.com/product/706699?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -155407,6 +155936,10 @@ exports[`Check for unintentional updates Demonbound Gloomblade (demonbound-gloom
       "print": "IAR126-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706699",
+        "url": "https://www.tcgplayer.com/product/706699?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -158331,6 +158864,10 @@ exports[`Check for unintentional updates Devouring Doomwake (devouring-doomwake-
       "print": "IAR006",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715792",
+        "url": "https://www.tcgplayer.com/product/715792?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -158342,6 +158879,10 @@ exports[`Check for unintentional updates Devouring Doomwake (devouring-doomwake-
       "print": "IAR006-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715792",
+        "url": "https://www.tcgplayer.com/product/715792?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -159899,6 +160440,10 @@ Your next zombie attack this turn gets +4{p} and "When this hits, destroy this z
       "print": "AMA011",
       "rarity": "Majestic",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "706915",
+        "url": "https://www.tcgplayer.com/product/706915?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
@@ -160113,6 +160658,10 @@ exports[`Check for unintentional updates Dimenxxional Ferryman (dimenxxional-fer
       "print": "IAR179",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714477",
+        "url": "https://www.tcgplayer.com/product/714477?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -160124,6 +160673,10 @@ exports[`Check for unintentional updates Dimenxxional Ferryman (dimenxxional-fer
       "print": "IAR179-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714477",
+        "url": "https://www.tcgplayer.com/product/714477?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -173296,6 +173849,10 @@ exports[`Check for unintentional updates Drop Dead Bodice (drop-dead-bodice) vs 
       "print": "AMA004-Rainbow",
       "rarity": "Rare",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "716130",
+        "url": "https://www.tcgplayer.com/product/716130?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -179779,6 +180336,10 @@ When this defends an attack action card with the same name as another card playe
       "print": "IAR248",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714481",
+        "url": "https://www.tcgplayer.com/product/714481?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -179791,6 +180352,10 @@ When this defends an attack action card with the same name as another card playe
       "print": "IAR248-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714481",
+        "url": "https://www.tcgplayer.com/product/714481?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -186715,6 +187280,10 @@ You may play an aura with Runechant in its name from your banished zone this tur
       "print": "IAR120",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "711528",
+        "url": "https://www.tcgplayer.com/product/711528?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -186726,6 +187295,10 @@ You may play an aura with Runechant in its name from your banished zone this tur
       "print": "IAR120-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "711528",
+        "url": "https://www.tcgplayer.com/product/711528?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -186812,6 +187385,10 @@ exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-blue) vs s
       "print": "IAR131",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715849",
+        "url": "https://www.tcgplayer.com/product/715849?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -186823,6 +187400,10 @@ exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-blue) vs s
       "print": "IAR131-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715849",
+        "url": "https://www.tcgplayer.com/product/715849?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -186918,6 +187499,10 @@ exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-red) vs sn
       "print": "IAR129",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715847",
+        "url": "https://www.tcgplayer.com/product/715847?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -186929,6 +187514,10 @@ exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-red) vs sn
       "print": "IAR129-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715847",
+        "url": "https://www.tcgplayer.com/product/715847?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -186949,6 +187538,10 @@ exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-red) vs sn
       "print": "GEM203-Extended Art",
       "rarity": "Promo",
       "set": "GEM",
+      "tcgplayer": {
+        "productId": "714492",
+        "url": "https://www.tcgplayer.com/product/714492?Language=English&Printing=Normal",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -186964,6 +187557,10 @@ exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-red) vs sn
       "print": "GEM203-Rainbow-Extended Art",
       "rarity": "Promo",
       "set": "GEM",
+      "tcgplayer": {
+        "productId": "714492",
+        "url": "https://www.tcgplayer.com/product/714492?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -187056,6 +187653,10 @@ exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-yellow) vs
       "print": "IAR130",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715848",
+        "url": "https://www.tcgplayer.com/product/715848?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -187067,6 +187668,10 @@ exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-yellow) vs
       "print": "IAR130-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715848",
+        "url": "https://www.tcgplayer.com/product/715848?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -206418,6 +207023,10 @@ exports[`Check for unintentional updates Exorcism (exorcism-red) vs snapshot 1`]
       "print": "IAR229",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715694",
+        "url": "https://www.tcgplayer.com/product/715694?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -206429,6 +207038,10 @@ exports[`Check for unintentional updates Exorcism (exorcism-red) vs snapshot 1`]
       "print": "IAR229-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715694",
+        "url": "https://www.tcgplayer.com/product/715694?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -211717,6 +212330,10 @@ exports[`Check for unintentional updates Fallen Herald (fallen-herald-yellow) vs
       "print": "IAR165",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716166",
+        "url": "https://www.tcgplayer.com/product/716166?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -211728,6 +212345,10 @@ exports[`Check for unintentional updates Fallen Herald (fallen-herald-yellow) vs
       "print": "IAR165-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716166",
+        "url": "https://www.tcgplayer.com/product/716166?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -234519,6 +235140,10 @@ exports[`Check for unintentional updates Forbidden Harvest (forbidden-harvest-ye
       "print": "IAR121",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715796",
+        "url": "https://www.tcgplayer.com/product/715796?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -234530,6 +235155,10 @@ exports[`Check for unintentional updates Forbidden Harvest (forbidden-harvest-ye
       "print": "IAR121-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715796",
+        "url": "https://www.tcgplayer.com/product/715796?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -236077,6 +236706,10 @@ exports[`Check for unintentional updates Forsaken Strike (forsaken-strike-yellow
       "print": "IAR057",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "713244",
+        "url": "https://www.tcgplayer.com/product/713244?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -236088,6 +236721,10 @@ exports[`Check for unintentional updates Forsaken Strike (forsaken-strike-yellow
       "print": "IAR057-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "713244",
+        "url": "https://www.tcgplayer.com/product/713244?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -246406,6 +247043,10 @@ exports[`Check for unintentional updates Gate to i'Arathael (gate-to-iarathael) 
       "print": "AMA030",
       "rarity": "Basic",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "716151",
+        "url": "https://www.tcgplayer.com/product/716151?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -260389,6 +261030,10 @@ exports[`Check for unintentional updates Grasp of the Darknight (grasp-of-the-da
       "print": "IAR109",
       "rarity": "Basic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706689",
+        "url": "https://www.tcgplayer.com/product/706689?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -260400,6 +261045,10 @@ exports[`Check for unintentional updates Grasp of the Darknight (grasp-of-the-da
       "print": "IAR109-Cold-Extended Art",
       "rarity": "Basic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706691",
+        "url": "https://www.tcgplayer.com/product/706691?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -262535,6 +263184,10 @@ exports[`Check for unintentional updates Grille of Repentance (grille-of-repenta
       "print": "IAR161",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706715",
+        "url": "https://www.tcgplayer.com/product/706715?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -262546,6 +263199,10 @@ exports[`Check for unintentional updates Grille of Repentance (grille-of-repenta
       "print": "IAR161-Cold",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "707171",
+        "url": "https://www.tcgplayer.com/product/707171?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -267573,6 +268230,10 @@ exports[`Check for unintentional updates Harbinger of Destruction (harbinger-of-
       "print": "IAR170",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "711529",
+        "url": "https://www.tcgplayer.com/product/711529?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -267584,6 +268245,10 @@ exports[`Check for unintentional updates Harbinger of Destruction (harbinger-of-
       "print": "IAR170-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "711529",
+        "url": "https://www.tcgplayer.com/product/711529?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -270520,6 +271185,10 @@ The first Guardian or Revered attack action card you play each turn gets "When t
       "print": "IAR256",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714335",
+        "url": "https://www.tcgplayer.com/product/714335?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -270532,6 +271201,10 @@ The first Guardian or Revered attack action card you play each turn gets "When t
       "print": "IAR256-Cold-Extended Art",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714336",
+        "url": "https://www.tcgplayer.com/product/714336?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -272320,6 +272993,10 @@ exports[`Check for unintentional updates Headstrong Stampede (headstrong-stamped
       "print": "IAR049",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715828",
+        "url": "https://www.tcgplayer.com/product/715828?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -272331,6 +273008,10 @@ exports[`Check for unintentional updates Headstrong Stampede (headstrong-stamped
       "print": "IAR049-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715828",
+        "url": "https://www.tcgplayer.com/product/715828?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -272406,6 +273087,10 @@ exports[`Check for unintentional updates Headstrong Stampede (headstrong-stamped
       "print": "IAR047",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715826",
+        "url": "https://www.tcgplayer.com/product/715826?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -272417,6 +273102,10 @@ exports[`Check for unintentional updates Headstrong Stampede (headstrong-stamped
       "print": "IAR047-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715826",
+        "url": "https://www.tcgplayer.com/product/715826?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -272527,6 +273216,10 @@ exports[`Check for unintentional updates Headstrong Stampede (headstrong-stamped
       "print": "IAR048",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715827",
+        "url": "https://www.tcgplayer.com/product/715827?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -272538,6 +273231,10 @@ exports[`Check for unintentional updates Headstrong Stampede (headstrong-stamped
       "print": "IAR048-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715827",
+        "url": "https://www.tcgplayer.com/product/715827?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -277468,6 +278165,10 @@ When the combat chain closes, if you've attacked with this, banish it.
       "print": "IAR003",
       "rarity": "Basic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706646",
+        "url": "https://www.tcgplayer.com/product/706646?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -277667,6 +278368,10 @@ exports[`Check for unintentional updates Hellbound Assault (hellbound-assault-re
       "print": "IAR011",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "713197",
+        "url": "https://www.tcgplayer.com/product/713197?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -277678,6 +278383,10 @@ exports[`Check for unintentional updates Hellbound Assault (hellbound-assault-re
       "print": "IAR011-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "713197",
+        "url": "https://www.tcgplayer.com/product/713197?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -284177,6 +284886,10 @@ exports[`Check for unintentional updates Hex Gauntlet (hex-gauntlet) vs snapshot
       "print": "IAR004",
       "rarity": "Basic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706647",
+        "url": "https://www.tcgplayer.com/product/706647?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -298058,6 +298771,10 @@ exports[`Check for unintentional updates Ice Aged Oak (ice-aged-oak-blue) vs sna
       "print": "IAR260",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714340",
+        "url": "https://www.tcgplayer.com/product/714340?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -298070,6 +298787,10 @@ exports[`Check for unintentional updates Ice Aged Oak (ice-aged-oak-blue) vs sna
       "print": "IAR260-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714340",
+        "url": "https://www.tcgplayer.com/product/714340?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -306847,6 +307568,10 @@ exports[`Check for unintentional updates Ingest the Unknown (ingest-the-unknown-
       "print": "IAR007",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "712962",
+        "url": "https://www.tcgplayer.com/product/712962?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -306858,6 +307583,10 @@ exports[`Check for unintentional updates Ingest the Unknown (ingest-the-unknown-
       "print": "IAR007-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "712962",
+        "url": "https://www.tcgplayer.com/product/712962?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -332212,6 +332941,10 @@ exports[`Check for unintentional updates Levia (levia) vs snapshot 1`] = `
       "print": "IAR002",
       "rarity": "Basic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706641",
+        "url": "https://www.tcgplayer.com/product/706641?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -332223,6 +332956,10 @@ exports[`Check for unintentional updates Levia (levia) vs snapshot 1`] = `
       "print": "IAR002-Cold-Full Art",
       "rarity": "Marvel",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706643",
+        "url": "https://www.tcgplayer.com/product/706643?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -332238,6 +332975,10 @@ exports[`Check for unintentional updates Levia (levia) vs snapshot 1`] = `
       "print": "IAR002-Cold-Full Art-Back",
       "rarity": "Marvel",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706643",
+        "url": "https://www.tcgplayer.com/product/706643?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -346035,6 +346776,10 @@ exports[`Check for unintentional updates Mage Master Boots (mage-master-boots) v
       "print": "AMA006-Rainbow-Alternate Art",
       "rarity": "Common",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "706914",
+        "url": "https://www.tcgplayer.com/product/706914?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -346889,6 +347634,10 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
       "print": "IAR054",
       "rarity": "Basic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706660",
+        "url": "https://www.tcgplayer.com/product/706660?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -346900,6 +347649,10 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
       "print": "IAR054-Cold-Full Art",
       "rarity": "Marvel",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706661",
+        "url": "https://www.tcgplayer.com/product/706661?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -346915,6 +347668,10 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
       "print": "IAR054-Cold-Full Art-Back",
       "rarity": "Marvel",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706661",
+        "url": "https://www.tcgplayer.com/product/706661?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -347001,6 +347758,10 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
       "print": "AMA001-Rainbow",
       "rarity": "Majestic",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "706910",
+        "url": "https://www.tcgplayer.com/product/706910?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -347011,6 +347772,10 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
       "print": "IAR053",
       "rarity": "Basic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "707031",
+        "url": "https://www.tcgplayer.com/product/707031?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -347022,6 +347787,10 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
       "print": "GEM184-Cold-Full Art",
       "rarity": "Marvel",
       "set": "GEM",
+      "tcgplayer": {
+        "productId": "706940",
+        "url": "https://www.tcgplayer.com/product/706940?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -347068,6 +347837,10 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
       "print": "GEM184-Cold-Full Art-Back",
       "rarity": "Marvel",
       "set": "GEM",
+      "tcgplayer": {
+        "productId": "706940",
+        "url": "https://www.tcgplayer.com/product/706940?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -347486,6 +348259,10 @@ exports[`Check for unintentional updates Malignant Migration (malignant-migratio
       "print": "IAR077",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715840",
+        "url": "https://www.tcgplayer.com/product/715840?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -347497,6 +348274,10 @@ exports[`Check for unintentional updates Malignant Migration (malignant-migratio
       "print": "IAR077-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715840",
+        "url": "https://www.tcgplayer.com/product/715840?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -347573,6 +348354,10 @@ exports[`Check for unintentional updates Malignant Migration (malignant-migratio
       "print": "IAR075",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715838",
+        "url": "https://www.tcgplayer.com/product/715838?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -347584,6 +348369,10 @@ exports[`Check for unintentional updates Malignant Migration (malignant-migratio
       "print": "IAR075-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715838",
+        "url": "https://www.tcgplayer.com/product/715838?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -347692,6 +348481,10 @@ exports[`Check for unintentional updates Malignant Migration (malignant-migratio
       "print": "IAR076",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715839",
+        "url": "https://www.tcgplayer.com/product/715839?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -347703,6 +348496,10 @@ exports[`Check for unintentional updates Malignant Migration (malignant-migratio
       "print": "IAR076-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715839",
+        "url": "https://www.tcgplayer.com/product/715839?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -349044,6 +349841,10 @@ The bound ally gets +1{p} and "Whenever this hits a hero or dies, you may turn a
       "print": "IAR066",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715829",
+        "url": "https://www.tcgplayer.com/product/715829?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -349055,6 +349856,10 @@ The bound ally gets +1{p} and "Whenever this hits a hero or dies, you may turn a
       "print": "IAR066-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715829",
+        "url": "https://www.tcgplayer.com/product/715829?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -349131,6 +349936,10 @@ The bound ally gets +1{p} and "Whenever this hits a hero or dies, gain 1{h}."",
       "print": "IAR067",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715830",
+        "url": "https://www.tcgplayer.com/product/715830?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -349142,6 +349951,10 @@ The bound ally gets +1{p} and "Whenever this hits a hero or dies, gain 1{h}."",
       "print": "IAR067-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715830",
+        "url": "https://www.tcgplayer.com/product/715830?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -349219,6 +350032,10 @@ The bound ally gets +1{p} and "Whenever this hits a hero or dies, create a Gate 
       "print": "AMA028",
       "rarity": "Rare",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "716150",
+        "url": "https://www.tcgplayer.com/product/716150?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -349229,6 +350046,10 @@ The bound ally gets +1{p} and "Whenever this hits a hero or dies, create a Gate 
       "print": "IAR068",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715831",
+        "url": "https://www.tcgplayer.com/product/715831?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -349240,6 +350061,10 @@ The bound ally gets +1{p} and "Whenever this hits a hero or dies, create a Gate 
       "print": "IAR068-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715831",
+        "url": "https://www.tcgplayer.com/product/715831?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -367475,6 +368300,10 @@ When this attacks or hits, create a Runechant token.
       "print": "IAR134",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715852",
+        "url": "https://www.tcgplayer.com/product/715852?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -367486,6 +368315,10 @@ When this attacks or hits, create a Runechant token.
       "print": "IAR134-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715852",
+        "url": "https://www.tcgplayer.com/product/715852?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -367588,6 +368421,10 @@ When this attacks or hits, create a Runechant token.
       "print": "IAR132",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715850",
+        "url": "https://www.tcgplayer.com/product/715850?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -367599,6 +368436,10 @@ When this attacks or hits, create a Runechant token.
       "print": "IAR132-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715850",
+        "url": "https://www.tcgplayer.com/product/715850?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -367700,6 +368541,10 @@ When this attacks or hits, create a Runechant token.
       "print": "IAR133",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715851",
+        "url": "https://www.tcgplayer.com/product/715851?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -367711,6 +368556,10 @@ When this attacks or hits, create a Runechant token.
       "print": "IAR133-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715851",
+        "url": "https://www.tcgplayer.com/product/715851?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -383137,6 +383986,10 @@ exports[`Check for unintentional updates Ominous Toll (ominous-toll-blue) vs sna
       "print": "IAR080",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715843",
+        "url": "https://www.tcgplayer.com/product/715843?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -383148,6 +384001,10 @@ exports[`Check for unintentional updates Ominous Toll (ominous-toll-blue) vs sna
       "print": "IAR080-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715843",
+        "url": "https://www.tcgplayer.com/product/715843?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -383231,6 +384088,10 @@ exports[`Check for unintentional updates Ominous Toll (ominous-toll-red) vs snap
       "print": "AMA007",
       "rarity": "Common",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "716131",
+        "url": "https://www.tcgplayer.com/product/716131?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -383241,6 +384102,10 @@ exports[`Check for unintentional updates Ominous Toll (ominous-toll-red) vs snap
       "print": "IAR078",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715841",
+        "url": "https://www.tcgplayer.com/product/715841?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -383252,6 +384117,10 @@ exports[`Check for unintentional updates Ominous Toll (ominous-toll-red) vs snap
       "print": "IAR078-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715841",
+        "url": "https://www.tcgplayer.com/product/715841?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -383262,6 +384131,10 @@ exports[`Check for unintentional updates Ominous Toll (ominous-toll-red) vs snap
       "print": "GEM198-Extended Art",
       "rarity": "Promo",
       "set": "GEM",
+      "tcgplayer": {
+        "productId": "714491",
+        "url": "https://www.tcgplayer.com/product/714491?Language=English&Printing=Normal",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -383277,6 +384150,10 @@ exports[`Check for unintentional updates Ominous Toll (ominous-toll-red) vs snap
       "print": "GEM198-Rainbow-Extended Art",
       "rarity": "Promo",
       "set": "GEM",
+      "tcgplayer": {
+        "productId": "714491",
+        "url": "https://www.tcgplayer.com/product/714491?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -383368,6 +384245,10 @@ exports[`Check for unintentional updates Ominous Toll (ominous-toll-yellow) vs s
       "print": "IAR079",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715842",
+        "url": "https://www.tcgplayer.com/product/715842?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -383379,6 +384260,10 @@ exports[`Check for unintentional updates Ominous Toll (ominous-toll-yellow) vs s
       "print": "IAR079-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715842",
+        "url": "https://www.tcgplayer.com/product/715842?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -385690,6 +386575,10 @@ exports[`Check for unintentional updates Open the Gate to i'Arathael (open-the-g
       "print": "IAR166",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706724",
+        "url": "https://www.tcgplayer.com/product/706724?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -385701,6 +386590,10 @@ exports[`Check for unintentional updates Open the Gate to i'Arathael (open-the-g
       "print": "IAR166-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706724",
+        "url": "https://www.tcgplayer.com/product/706724?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -387255,6 +388148,10 @@ exports[`Check for unintentional updates Otherworldly Ossuary (otherworldly-ossu
       "print": "AMA022",
       "rarity": "Rare",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "716144",
+        "url": "https://www.tcgplayer.com/product/716144?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
@@ -397657,6 +398554,10 @@ exports[`Check for unintentional updates Path of Repentance (path-of-repentance)
       "print": "IAR163",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706720",
+        "url": "https://www.tcgplayer.com/product/706720?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -397668,6 +398569,10 @@ exports[`Check for unintentional updates Path of Repentance (path-of-repentance)
       "print": "IAR163-Cold",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "707173",
+        "url": "https://www.tcgplayer.com/product/707173?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -399870,6 +400775,10 @@ exports[`Check for unintentional updates Peak Power (peak-power-blue) vs snapsho
       "print": "IAR043",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715807",
+        "url": "https://www.tcgplayer.com/product/715807?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -399881,6 +400790,10 @@ exports[`Check for unintentional updates Peak Power (peak-power-blue) vs snapsho
       "print": "IAR043-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715807",
+        "url": "https://www.tcgplayer.com/product/715807?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -399956,6 +400869,10 @@ exports[`Check for unintentional updates Peak Power (peak-power-red) vs snapshot
       "print": "IAR041",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715787",
+        "url": "https://www.tcgplayer.com/product/715787?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -399967,6 +400884,10 @@ exports[`Check for unintentional updates Peak Power (peak-power-red) vs snapshot
       "print": "IAR041-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715787",
+        "url": "https://www.tcgplayer.com/product/715787?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -400045,6 +400966,10 @@ exports[`Check for unintentional updates Peak Power (peak-power-yellow) vs snaps
       "print": "IAR042",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715806",
+        "url": "https://www.tcgplayer.com/product/715806?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -400056,6 +400981,10 @@ exports[`Check for unintentional updates Peak Power (peak-power-yellow) vs snaps
       "print": "IAR042-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715806",
+        "url": "https://www.tcgplayer.com/product/715806?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -408735,6 +409664,10 @@ The next Gate to i'Arathael token you activate this turn can target an action ca
       "print": "IAR180",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714478",
+        "url": "https://www.tcgplayer.com/product/714478?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -408746,6 +409679,10 @@ The next Gate to i'Arathael token you activate this turn can target an action ca
       "print": "IAR180-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714478",
+        "url": "https://www.tcgplayer.com/product/714478?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -411829,6 +412766,10 @@ When this hits a hero, they banish a card in their arsenal.
       "print": "IAR116",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714108",
+        "url": "https://www.tcgplayer.com/product/714108?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -411840,6 +412781,10 @@ When this hits a hero, they banish a card in their arsenal.
       "print": "IAR116-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714108",
+        "url": "https://www.tcgplayer.com/product/714108?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -429553,6 +430498,10 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
       "print": "AMA023",
       "rarity": "Common",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "716145",
+        "url": "https://www.tcgplayer.com/product/716145?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -429563,6 +430512,10 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
       "print": "IAR214",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706741",
+        "url": "https://www.tcgplayer.com/product/706741?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -429574,6 +430527,10 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
       "print": "IAR214-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706741",
+        "url": "https://www.tcgplayer.com/product/706741?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -429694,6 +430651,10 @@ Banish the top card of your deck. If it's red, create a Gate to i'Arathael token
       "print": "IAR212",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706736",
+        "url": "https://www.tcgplayer.com/product/706736?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -429705,6 +430666,10 @@ Banish the top card of your deck. If it's red, create a Gate to i'Arathael token
       "print": "IAR212-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706736",
+        "url": "https://www.tcgplayer.com/product/706736?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -429822,6 +430787,10 @@ Banish the top card of your deck. If it's yellow, create a Gate to i'Arathael to
       "print": "IAR213",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706738",
+        "url": "https://www.tcgplayer.com/product/706738?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -429833,6 +430802,10 @@ Banish the top card of your deck. If it's yellow, create a Gate to i'Arathael to
       "print": "IAR213-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706738",
+        "url": "https://www.tcgplayer.com/product/706738?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -449538,6 +450511,10 @@ exports[`Check for unintentional updates Reach of the Abyss (reach-of-the-abyss)
       "print": "IAR160-Cold",
       "rarity": "Legendary",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714931",
+        "url": "https://www.tcgplayer.com/product/714931?Language=English&Printing=Cold+Foil",
+      },
     },
     {
       "artists": [
@@ -449549,6 +450526,10 @@ exports[`Check for unintentional updates Reach of the Abyss (reach-of-the-abyss)
       "print": "IAR160-Rainbow",
       "rarity": "Legendary",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714931",
+        "url": "https://www.tcgplayer.com/product/714931?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -460342,6 +461323,10 @@ exports[`Check for unintentional updates Restless Cleric (restless-cleric-red) v
       "print": "IAR084",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "711440",
+        "url": "https://www.tcgplayer.com/product/711440?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -460353,6 +461338,10 @@ exports[`Check for unintentional updates Restless Cleric (restless-cleric-red) v
       "print": "IAR084-Cold-Full Art",
       "rarity": "Marvel",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "711441",
+        "url": "https://www.tcgplayer.com/product/711441?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -460534,6 +461523,10 @@ exports[`Check for unintentional updates Restless Commander (restless-commander-
       "print": "AMA014",
       "rarity": "Majestic",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "706916",
+        "url": "https://www.tcgplayer.com/product/706916?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -460630,6 +461623,10 @@ exports[`Check for unintentional updates Restless Corporal (restless-corporal-re
       "print": "IAR085",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "713245",
+        "url": "https://www.tcgplayer.com/product/713245?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -460641,6 +461638,10 @@ exports[`Check for unintentional updates Restless Corporal (restless-corporal-re
       "print": "IAR085-Cold-Full Art",
       "rarity": "Marvel",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "713271",
+        "url": "https://www.tcgplayer.com/product/713271?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -460727,6 +461728,10 @@ exports[`Check for unintentional updates Restless Looter (restless-looter-red) v
       "print": "AMA015",
       "rarity": "Rare",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "716137",
+        "url": "https://www.tcgplayer.com/product/716137?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -460737,6 +461742,10 @@ exports[`Check for unintentional updates Restless Looter (restless-looter-red) v
       "print": "IAR063",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715781",
+        "url": "https://www.tcgplayer.com/product/715781?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -460748,6 +461757,10 @@ exports[`Check for unintentional updates Restless Looter (restless-looter-red) v
       "print": "IAR063-Cold-Full Art",
       "rarity": "Marvel",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715783",
+        "url": "https://www.tcgplayer.com/product/715783?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -460836,6 +461849,10 @@ exports[`Check for unintentional updates Restless Magister (restless-magister-re
       "print": "AMA016",
       "rarity": "Rare",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "716138",
+        "url": "https://www.tcgplayer.com/product/716138?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -460846,6 +461863,10 @@ exports[`Check for unintentional updates Restless Magister (restless-magister-re
       "print": "IAR064",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706673",
+        "url": "https://www.tcgplayer.com/product/706673?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -460857,6 +461878,10 @@ exports[`Check for unintentional updates Restless Magister (restless-magister-re
       "print": "IAR064-Cold-Full Art",
       "rarity": "Marvel",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706675",
+        "url": "https://www.tcgplayer.com/product/706675?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -460945,6 +461970,10 @@ exports[`Check for unintentional updates Restless Outlaw (restless-outlaw-red) v
       "print": "AMA017",
       "rarity": "Common",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "716139",
+        "url": "https://www.tcgplayer.com/product/716139?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -460955,6 +461984,10 @@ exports[`Check for unintentional updates Restless Outlaw (restless-outlaw-red) v
       "print": "IAR086",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "713246",
+        "url": "https://www.tcgplayer.com/product/713246?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -460966,6 +461999,10 @@ exports[`Check for unintentional updates Restless Outlaw (restless-outlaw-red) v
       "print": "IAR086-Cold-Full Art",
       "rarity": "Marvel",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "713247",
+        "url": "https://www.tcgplayer.com/product/713247?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -461021,6 +462058,7 @@ exports[`Check for unintentional updates Restless Plowman (restless-plowman-red)
 **Decay**",
   "keywords": [
     "Decay",
+    "Go again",
   ],
   "legalFormats": [
     "Blitz",
@@ -461150,6 +462188,10 @@ exports[`Check for unintentional updates Restless Quartermaster (restless-quarte
       "print": "AMA018",
       "rarity": "Rare",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "716140",
+        "url": "https://www.tcgplayer.com/product/716140?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -461160,6 +462202,10 @@ exports[`Check for unintentional updates Restless Quartermaster (restless-quarte
       "print": "IAR065",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "711438",
+        "url": "https://www.tcgplayer.com/product/711438?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -461171,6 +462217,10 @@ exports[`Check for unintentional updates Restless Quartermaster (restless-quarte
       "print": "IAR065-Cold-Full Art",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "711439",
+        "url": "https://www.tcgplayer.com/product/711439?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -461256,6 +462306,10 @@ exports[`Check for unintentional updates Restless Shieldmaiden (restless-shieldm
       "print": "IAR088",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716164",
+        "url": "https://www.tcgplayer.com/product/716164?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -461267,6 +462321,10 @@ exports[`Check for unintentional updates Restless Shieldmaiden (restless-shieldm
       "print": "IAR088-Cold-Full Art",
       "rarity": "Marvel",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716165",
+        "url": "https://www.tcgplayer.com/product/716165?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -461350,6 +462408,10 @@ exports[`Check for unintentional updates Restless Steed (restless-steed-red) vs 
       "print": "AMA019",
       "rarity": "Common",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "716141",
+        "url": "https://www.tcgplayer.com/product/716141?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -461457,6 +462519,10 @@ exports[`Check for unintentional updates Restless Templar (restless-templar-red)
       "print": "IAR059",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715778",
+        "url": "https://www.tcgplayer.com/product/715778?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -461468,6 +462534,10 @@ exports[`Check for unintentional updates Restless Templar (restless-templar-red)
       "print": "IAR059-Cold-Full Art",
       "rarity": "Marvel",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715780",
+        "url": "https://www.tcgplayer.com/product/715780?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -474204,6 +475274,10 @@ exports[`Check for unintentional updates Rites of Nightfall (rites-of-nightfall-
       "print": "AMA024",
       "rarity": "Rare",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "716146",
+        "url": "https://www.tcgplayer.com/product/716146?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -475700,6 +476774,10 @@ exports[`Check for unintentional updates Robe of Repentance (robe-of-repentance)
       "print": "IAR162",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706718",
+        "url": "https://www.tcgplayer.com/product/706718?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -475711,6 +476789,10 @@ exports[`Check for unintentional updates Robe of Repentance (robe-of-repentance)
       "print": "IAR162-Cold",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "707172",
+        "url": "https://www.tcgplayer.com/product/707172?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -483994,6 +485076,10 @@ At the beginning of your action phase or when you play an attack action card, de
       "print": "IAR152",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706703",
+        "url": "https://www.tcgplayer.com/product/706703?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -484121,6 +485207,10 @@ At the beginning of your action phase or when you play an attack action card, de
       "print": "IAR153",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706705",
+        "url": "https://www.tcgplayer.com/product/706705?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -484247,6 +485337,10 @@ At the beginning of your action phase or when you play an attack action card, de
       "print": "IAR145",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706701",
+        "url": "https://www.tcgplayer.com/product/706701?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -484375,6 +485469,10 @@ At the beginning of your action phase or when you play an attack action card, de
       "print": "IAR154",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706707",
+        "url": "https://www.tcgplayer.com/product/706707?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -484514,6 +485612,10 @@ At the beginning of your action phase or when you play an attack action card, de
       "print": "IAR155",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706709",
+        "url": "https://www.tcgplayer.com/product/706709?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -484645,6 +485747,10 @@ At the beginning of your action phase or when you play an attack action card, de
       "print": "IAR156",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706711",
+        "url": "https://www.tcgplayer.com/product/706711?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -484787,6 +485893,10 @@ At the beginning of your action phase or when you play an attack action card, de
       "print": "IAR157",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706714",
+        "url": "https://www.tcgplayer.com/product/706714?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -485493,6 +486603,10 @@ exports[`Check for unintentional updates Runic Disposition (runic-disposition-bl
       "print": "IAR148",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715854",
+        "url": "https://www.tcgplayer.com/product/715854?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -485504,6 +486618,10 @@ exports[`Check for unintentional updates Runic Disposition (runic-disposition-bl
       "print": "IAR148-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715854",
+        "url": "https://www.tcgplayer.com/product/715854?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -485591,6 +486709,10 @@ exports[`Check for unintentional updates Runic Disposition (runic-disposition-re
       "print": "IAR146",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714110",
+        "url": "https://www.tcgplayer.com/product/714110?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -485602,6 +486724,10 @@ exports[`Check for unintentional updates Runic Disposition (runic-disposition-re
       "print": "IAR146-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714110",
+        "url": "https://www.tcgplayer.com/product/714110?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -485703,6 +486829,10 @@ exports[`Check for unintentional updates Runic Disposition (runic-disposition-ye
       "print": "IAR147",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715853",
+        "url": "https://www.tcgplayer.com/product/715853?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -485714,6 +486844,10 @@ exports[`Check for unintentional updates Runic Disposition (runic-disposition-ye
       "print": "IAR147-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715853",
+        "url": "https://www.tcgplayer.com/product/715853?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -486423,6 +487557,10 @@ exports[`Check for unintentional updates Runic Reaving (runic-reaving-blue) vs s
       "print": "IAR151",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715857",
+        "url": "https://www.tcgplayer.com/product/715857?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -486434,6 +487572,10 @@ exports[`Check for unintentional updates Runic Reaving (runic-reaving-blue) vs s
       "print": "IAR151-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715857",
+        "url": "https://www.tcgplayer.com/product/715857?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -486521,6 +487663,10 @@ exports[`Check for unintentional updates Runic Reaving (runic-reaving-red) vs sn
       "print": "IAR149",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715855",
+        "url": "https://www.tcgplayer.com/product/715855?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -486532,6 +487678,10 @@ exports[`Check for unintentional updates Runic Reaving (runic-reaving-red) vs sn
       "print": "IAR149-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715855",
+        "url": "https://www.tcgplayer.com/product/715855?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -486637,6 +487787,10 @@ exports[`Check for unintentional updates Runic Reaving (runic-reaving-yellow) vs
       "print": "IAR150",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715856",
+        "url": "https://www.tcgplayer.com/product/715856?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -486648,6 +487802,10 @@ exports[`Check for unintentional updates Runic Reaving (runic-reaving-yellow) vs
       "print": "IAR150-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715856",
+        "url": "https://www.tcgplayer.com/product/715856?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -487067,6 +488225,10 @@ exports[`Check for unintentional updates Rush of Knowledge (rush-of-knowledge-bl
       "print": "IAR252",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714483",
+        "url": "https://www.tcgplayer.com/product/714483?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -487079,6 +488241,10 @@ exports[`Check for unintentional updates Rush of Knowledge (rush-of-knowledge-bl
       "print": "IAR252-Rainbow-Extended Art",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714484",
+        "url": "https://www.tcgplayer.com/product/714484?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -510372,6 +511538,10 @@ When this hits a hero, create a Runechant token.",
       "print": "IAR108",
       "rarity": "Basic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706687",
+        "url": "https://www.tcgplayer.com/product/706687?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -510393,6 +511563,10 @@ When this hits a hero, create a Runechant token.",
       "print": "GEM185-Cold",
       "rarity": "Promo",
       "set": "GEM",
+      "tcgplayer": {
+        "productId": "706941",
+        "url": "https://www.tcgplayer.com/product/706941?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -511849,6 +513023,10 @@ exports[`Check for unintentional updates Shadowrealm Bloodhound (shadowrealm-blo
       "print": "IAR196",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716178",
+        "url": "https://www.tcgplayer.com/product/716178?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -511860,6 +513038,10 @@ exports[`Check for unintentional updates Shadowrealm Bloodhound (shadowrealm-blo
       "print": "IAR196-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716178",
+        "url": "https://www.tcgplayer.com/product/716178?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -511942,6 +513124,10 @@ exports[`Check for unintentional updates Shadowrealm Bloodhound (shadowrealm-blo
       "print": "IAR194",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716176",
+        "url": "https://www.tcgplayer.com/product/716176?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -511953,6 +513139,10 @@ exports[`Check for unintentional updates Shadowrealm Bloodhound (shadowrealm-blo
       "print": "IAR194-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716176",
+        "url": "https://www.tcgplayer.com/product/716176?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -512070,6 +513260,10 @@ exports[`Check for unintentional updates Shadowrealm Bloodhound (shadowrealm-blo
       "print": "IAR195",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716177",
+        "url": "https://www.tcgplayer.com/product/716177?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -512081,6 +513275,10 @@ exports[`Check for unintentional updates Shadowrealm Bloodhound (shadowrealm-blo
       "print": "IAR195-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716177",
+        "url": "https://www.tcgplayer.com/product/716177?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -512161,6 +513359,10 @@ exports[`Check for unintentional updates Shadowrealm Harrower (shadowrealm-harro
       "print": "IAR174",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706726",
+        "url": "https://www.tcgplayer.com/product/706726?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -512172,6 +513374,10 @@ exports[`Check for unintentional updates Shadowrealm Harrower (shadowrealm-harro
       "print": "IAR174-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706726",
+        "url": "https://www.tcgplayer.com/product/706726?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -512271,6 +513477,10 @@ exports[`Check for unintentional updates Shadowrealm Harvester (shadowrealm-harv
       "print": "IAR175",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706728",
+        "url": "https://www.tcgplayer.com/product/706728?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -512282,6 +513492,10 @@ exports[`Check for unintentional updates Shadowrealm Harvester (shadowrealm-harv
       "print": "IAR175-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706728",
+        "url": "https://www.tcgplayer.com/product/706728?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -512484,6 +513698,10 @@ exports[`Check for unintentional updates Shadowrealm Reaper (shadowrealm-reaper-
       "print": "IAR176",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706731",
+        "url": "https://www.tcgplayer.com/product/706731?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -512495,6 +513713,10 @@ exports[`Check for unintentional updates Shadowrealm Reaper (shadowrealm-reaper-
       "print": "IAR176-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706731",
+        "url": "https://www.tcgplayer.com/product/706731?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -512594,6 +513816,10 @@ exports[`Check for unintentional updates Shadowrealm Ripper (shadowrealm-ripper-
       "print": "IAR199",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716181",
+        "url": "https://www.tcgplayer.com/product/716181?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -512605,6 +513831,10 @@ exports[`Check for unintentional updates Shadowrealm Ripper (shadowrealm-ripper-
       "print": "IAR199-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716181",
+        "url": "https://www.tcgplayer.com/product/716181?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -512686,6 +513916,10 @@ exports[`Check for unintentional updates Shadowrealm Ripper (shadowrealm-ripper-
       "print": "IAR197",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716179",
+        "url": "https://www.tcgplayer.com/product/716179?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -512697,6 +513931,10 @@ exports[`Check for unintentional updates Shadowrealm Ripper (shadowrealm-ripper-
       "print": "IAR197-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716179",
+        "url": "https://www.tcgplayer.com/product/716179?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -512810,6 +514048,10 @@ exports[`Check for unintentional updates Shadowrealm Ripper (shadowrealm-ripper-
       "print": "IAR198",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716180",
+        "url": "https://www.tcgplayer.com/product/716180?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -512821,6 +514063,10 @@ exports[`Check for unintentional updates Shadowrealm Ripper (shadowrealm-ripper-
       "print": "IAR198-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716180",
+        "url": "https://www.tcgplayer.com/product/716180?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -512896,6 +514142,10 @@ exports[`Check for unintentional updates Shadowrealm Solace (shadowrealm-solace-
       "print": "AMA025",
       "rarity": "Common",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "716147",
+        "url": "https://www.tcgplayer.com/product/716147?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -512991,6 +514241,10 @@ exports[`Check for unintentional updates Shadowrealm Strength (shadowrealm-stren
       "print": "AMA026",
       "rarity": "Common",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "716148",
+        "url": "https://www.tcgplayer.com/product/716148?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
@@ -513069,6 +514323,10 @@ exports[`Check for unintentional updates Shadowrealm Strength (shadowrealm-stren
       "print": "AMA012",
       "rarity": "Common",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "716135",
+        "url": "https://www.tcgplayer.com/product/716135?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -513079,6 +514337,10 @@ exports[`Check for unintentional updates Shadowrealm Strength (shadowrealm-stren
       "print": "IAR082",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "712754",
+        "url": "https://www.tcgplayer.com/product/712754?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -513090,6 +514352,10 @@ exports[`Check for unintentional updates Shadowrealm Strength (shadowrealm-stren
       "print": "IAR082-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "712754",
+        "url": "https://www.tcgplayer.com/product/712754?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -513278,6 +514544,10 @@ exports[`Check for unintentional updates Shadowrealm Walker (shadowrealm-walker-
       "print": "IAR202",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716184",
+        "url": "https://www.tcgplayer.com/product/716184?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -513289,6 +514559,10 @@ exports[`Check for unintentional updates Shadowrealm Walker (shadowrealm-walker-
       "print": "IAR202-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716184",
+        "url": "https://www.tcgplayer.com/product/716184?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -513376,6 +514650,10 @@ exports[`Check for unintentional updates Shadowrealm Walker (shadowrealm-walker-
       "print": "IAR200",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716182",
+        "url": "https://www.tcgplayer.com/product/716182?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -513387,6 +514665,10 @@ exports[`Check for unintentional updates Shadowrealm Walker (shadowrealm-walker-
       "print": "IAR200-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716182",
+        "url": "https://www.tcgplayer.com/product/716182?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -513506,6 +514788,10 @@ exports[`Check for unintentional updates Shadowrealm Walker (shadowrealm-walker-
       "print": "IAR201",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716183",
+        "url": "https://www.tcgplayer.com/product/716183?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -513517,6 +514803,10 @@ exports[`Check for unintentional updates Shadowrealm Walker (shadowrealm-walker-
       "print": "IAR201-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "716183",
+        "url": "https://www.tcgplayer.com/product/716183?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -528555,6 +529845,10 @@ At the beginning of your action phase, destroy this and create a Ponder token.",
       "print": "IAR249",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714487",
+        "url": "https://www.tcgplayer.com/product/714487?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -528567,6 +529861,10 @@ At the beginning of your action phase, destroy this and create a Ponder token.",
       "print": "IAR249-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714487",
+        "url": "https://www.tcgplayer.com/product/714487?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -533123,6 +534421,10 @@ exports[`Check for unintentional updates Sink Below (sink-below-red) vs snapshot
       "print": "AMA008",
       "rarity": "Rare",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "716132",
+        "url": "https://www.tcgplayer.com/product/716132?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -533739,6 +535041,10 @@ If this was played from your banished zone, it gets "When this attacks, you may 
       "print": "IAR112",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706693",
+        "url": "https://www.tcgplayer.com/product/706693?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -533750,6 +535056,10 @@ If this was played from your banished zone, it gets "When this attacks, you may 
       "print": "IAR112-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706693",
+        "url": "https://www.tcgplayer.com/product/706693?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -534986,6 +536296,10 @@ Your next ally attack this turn gets +1{p} and **go again**.
       "print": "AMA027",
       "rarity": "Rare",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "716149",
+        "url": "https://www.tcgplayer.com/product/716149?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -535089,6 +536403,10 @@ Your next ally attack this turn gets +3{p} and **go again**.
       "print": "AMA013",
       "rarity": "Rare",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "716136",
+        "url": "https://www.tcgplayer.com/product/716136?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -548351,6 +549669,10 @@ The next attack action card you play this turn costs {x} less to play and gets +
       "print": "IAR144",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714107",
+        "url": "https://www.tcgplayer.com/product/714107?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -548362,6 +549684,10 @@ The next attack action card you play this turn costs {x} less to play and gets +
       "print": "IAR144-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714107",
+        "url": "https://www.tcgplayer.com/product/714107?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -551106,6 +552432,10 @@ When this is pitched, lose 1{h}.",
       "print": "IAR000-Rainbow",
       "rarity": "Fabled",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706637",
+        "url": "https://www.tcgplayer.com/product/706637?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -551117,6 +552447,10 @@ When this is pitched, lose 1{h}.",
       "print": "IAR666-Cold-Full Art",
       "rarity": "Marvel",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706749",
+        "url": "https://www.tcgplayer.com/product/706749?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -573174,6 +574508,10 @@ exports[`Check for unintentional updates Stoke Vengeance (stoke-vengeance-red) v
       "print": "IAR245",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714479",
+        "url": "https://www.tcgplayer.com/product/714479?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -573186,6 +574524,10 @@ exports[`Check for unintentional updates Stoke Vengeance (stoke-vengeance-red) v
       "print": "IAR245-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "714479",
+        "url": "https://www.tcgplayer.com/product/714479?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -615986,6 +617328,10 @@ Draw a card and {u} your hero.
       "print": "IAR092",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715785",
+        "url": "https://www.tcgplayer.com/product/715785?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -615997,6 +617343,10 @@ Draw a card and {u} your hero.
       "print": "IAR092-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715785",
+        "url": "https://www.tcgplayer.com/product/715785?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -623934,6 +625284,10 @@ exports[`Check for unintentional updates Tribute to Greater Power (tribute-to-gr
       "print": "IAR177",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "711530",
+        "url": "https://www.tcgplayer.com/product/711530?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -623945,6 +625299,10 @@ exports[`Check for unintentional updates Tribute to Greater Power (tribute-to-gr
       "print": "IAR177-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "711530",
+        "url": "https://www.tcgplayer.com/product/711530?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -629143,6 +630501,10 @@ exports[`Check for unintentional updates Unbound by Shadow (unbound-by-shadow-re
       "print": "IAR178",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706733",
+        "url": "https://www.tcgplayer.com/product/706733?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -629154,6 +630516,10 @@ exports[`Check for unintentional updates Unbound by Shadow (unbound-by-shadow-re
       "print": "IAR178-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706733",
+        "url": "https://www.tcgplayer.com/product/706733?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -629247,6 +630613,10 @@ exports[`Check for unintentional updates Undead Grasp (undead-grasp) vs snapshot
       "print": "AMA005-Rainbow",
       "rarity": "Majestic",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "706913",
+        "url": "https://www.tcgplayer.com/product/706913?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -634982,6 +636352,10 @@ When this hits a hero, turn all cards in their banished zone face-down. They los
       "print": "IAR110",
       "rarity": "Legendary",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "711437",
+        "url": "https://www.tcgplayer.com/product/711437?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -634993,6 +636367,10 @@ When this hits a hero, turn all cards in their banished zone face-down. They los
       "print": "IAR110-Cold-Full Art",
       "rarity": "Marvel",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "711436",
+        "url": "https://www.tcgplayer.com/product/711436?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -640515,6 +641893,10 @@ When this hits a hero, deal 2 arcane damage to any target.
       "print": "IAR119",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "712758",
+        "url": "https://www.tcgplayer.com/product/712758?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -640526,6 +641908,10 @@ When this hits a hero, deal 2 arcane damage to any target.
       "print": "IAR119-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "712758",
+        "url": "https://www.tcgplayer.com/product/712758?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -640610,6 +641996,10 @@ When this hits a hero, deal 2 arcane damage to any target.
       "print": "IAR117",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "711526",
+        "url": "https://www.tcgplayer.com/product/711526?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -640621,6 +642011,10 @@ When this hits a hero, deal 2 arcane damage to any target.
       "print": "IAR117-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "711526",
+        "url": "https://www.tcgplayer.com/product/711526?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -640716,6 +642110,10 @@ When this hits a hero, deal 2 arcane damage to any target.
       "print": "IAR118",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "712757",
+        "url": "https://www.tcgplayer.com/product/712757?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -640727,6 +642125,10 @@ When this hits a hero, deal 2 arcane damage to any target.
       "print": "IAR118-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "712757",
+        "url": "https://www.tcgplayer.com/product/712757?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -645083,6 +646485,10 @@ When this hits a hero, return all aura permanents they control with that name to
       "print": "IAR228",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715695",
+        "url": "https://www.tcgplayer.com/product/715695?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -645094,6 +646500,10 @@ When this hits a hero, return all aura permanents they control with that name to
       "print": "IAR228-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "715695",
+        "url": "https://www.tcgplayer.com/product/715695?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -646023,6 +647433,10 @@ exports[`Check for unintentional updates Viserai, Between Worlds (viserai-betwee
       "print": "IAR107",
       "rarity": "Basic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706683",
+        "url": "https://www.tcgplayer.com/product/706683?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -646035,6 +647449,10 @@ exports[`Check for unintentional updates Viserai, Between Worlds (viserai-betwee
       "print": "IAR107-Cold-Full Art",
       "rarity": "Marvel",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706685",
+        "url": "https://www.tcgplayer.com/product/706685?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -646356,6 +647774,10 @@ At the beginning of each end phase, if you've created or activated a Gate to i'A
       "print": "IAR106-Back",
       "rarity": "Basic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706680",
+        "url": "https://www.tcgplayer.com/product/706680?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -646367,6 +647789,10 @@ At the beginning of each end phase, if you've created or activated a Gate to i'A
       "print": "IAR107-Back",
       "rarity": "Basic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706683",
+        "url": "https://www.tcgplayer.com/product/706683?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -646379,6 +647805,10 @@ At the beginning of each end phase, if you've created or activated a Gate to i'A
       "print": "IAR106-Cold-Full Art-Back",
       "rarity": "Marvel",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706681",
+        "url": "https://www.tcgplayer.com/product/706681?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -646395,6 +647825,10 @@ At the beginning of each end phase, if you've created or activated a Gate to i'A
       "print": "IAR107-Cold-Full Art-Back",
       "rarity": "Marvel",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706685",
+        "url": "https://www.tcgplayer.com/product/706685?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -646491,6 +647925,10 @@ exports[`Check for unintentional updates Viserai, the Forsaken (viserai-the-fors
       "print": "IAR106",
       "rarity": "Basic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706680",
+        "url": "https://www.tcgplayer.com/product/706680?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -646503,6 +647941,10 @@ exports[`Check for unintentional updates Viserai, the Forsaken (viserai-the-fors
       "print": "IAR106-Cold-Full Art",
       "rarity": "Marvel",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706681",
+        "url": "https://www.tcgplayer.com/product/706681?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -650682,6 +652124,10 @@ Zombies you control get "**Action** - {r}, {t}: **Attack**"",
       "print": "AMA002-Rainbow",
       "rarity": "Common",
       "set": "Armory Deck: Malice",
+      "tcgplayer": {
+        "productId": "706911",
+        "url": "https://www.tcgplayer.com/product/706911?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -650692,6 +652138,10 @@ Zombies you control get "**Action** - {r}, {t}: **Attack**"",
       "print": "IAR055",
       "rarity": "Basic",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706664",
+        "url": "https://www.tcgplayer.com/product/706664?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -650703,6 +652153,10 @@ Zombies you control get "**Action** - {r}, {t}: **Attack**"",
       "print": "GEM186-Cold",
       "rarity": "Promo",
       "set": "GEM",
+      "tcgplayer": {
+        "productId": "714489",
+        "url": "https://www.tcgplayer.com/product/714489?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [

@@ -21,6 +21,74 @@
       "url": "https://www.tcgplayer.com/product/695803?Language=English&Printing=Normal"
     }
   },
+  "abyssal-bite-blue": {
+    "IAR206": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR206-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "abyssal-force-blue": {
+    "IAR207": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR207-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "abyssal-rush-blue": {
+    "IAR208": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR208-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "acrid-stench-blue": {
+    "IAR071": {
+      "productId": "715834",
+      "url": "https://www.tcgplayer.com/product/715834?Language=English&Printing=Normal"
+    },
+    "IAR071-Rainbow": {
+      "productId": "715834",
+      "url": "https://www.tcgplayer.com/product/715834?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "acrid-stench-red": {
+    "IAR069": {
+      "productId": "715832",
+      "url": "https://www.tcgplayer.com/product/715832?Language=English&Printing=Normal"
+    },
+    "IAR069-Rainbow": {
+      "productId": "715832",
+      "url": "https://www.tcgplayer.com/product/715832?Language=English&Printing=Rainbow+Foil"
+    },
+    "GEM196-Extended Art": {
+      "productId": "",
+      "url": ""
+    },
+    "GEM196-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "acrid-stench-yellow": {
+    "IAR070": {
+      "productId": "715833",
+      "url": "https://www.tcgplayer.com/product/715833?Language=English&Printing=Normal"
+    },
+    "IAR070-Rainbow": {
+      "productId": "715833",
+      "url": "https://www.tcgplayer.com/product/715833?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "act-of-glory-red": {
     "SLY016": {
       "productId": "695840",
@@ -149,6 +217,16 @@
       "url": "https://www.tcgplayer.com/product/596304?Language=English&Printing=Normal"
     }
   },
+  "ancient-earth-oak-red": {
+    "IAR261": {
+      "productId": "714338",
+      "url": "https://www.tcgplayer.com/product/714338?Language=English&Printing=Normal"
+    },
+    "IAR261-Rainbow": {
+      "productId": "714338",
+      "url": "https://www.tcgplayer.com/product/714338?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "anticipating-gaze": {
     "AHA003-Rainbow": {
       "productId": "688743",
@@ -161,6 +239,16 @@
       "url": "https://www.tcgplayer.com/product/580609?Language=English&Printing=Cold+Foil"
     }
   },
+  "apex-buster-yellow": {
+    "IAR039": {
+      "productId": "712964",
+      "url": "https://www.tcgplayer.com/product/712964?Language=English&Printing=Normal"
+    },
+    "IAR039-Rainbow": {
+      "productId": "712964",
+      "url": "https://www.tcgplayer.com/product/712964?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "aphrodias": {
     "AZS002-Rainbow": {
       "productId": "682793",
@@ -169,6 +257,16 @@
     "GEM142-Cold": {
       "productId": "696183",
       "url": "https://www.tcgplayer.com/product/696183?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "appalling-bearers": {
+    "IAR056": {
+      "productId": "706668",
+      "url": "https://www.tcgplayer.com/product/706668?Language=English&Printing=Normal"
+    },
+    "IAR056-Cold-Extended Art": {
+      "productId": "706669",
+      "url": "https://www.tcgplayer.com/product/706669?Language=English&Printing=Cold+Foil"
     }
   },
   "aqua-seeing-shell": {
@@ -361,6 +459,22 @@
       "url": "https://www.tcgplayer.com/product/648209?Language=English&Printing=Normal"
     }
   },
+  "arknight-descendancy-blue": {
+    "IAR111": {
+      "productId": "715794",
+      "url": "https://www.tcgplayer.com/product/715794?Language=English&Printing=Normal"
+    },
+    "IAR111-Rainbow": {
+      "productId": "715794",
+      "url": "https://www.tcgplayer.com/product/715794?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "arknight-shard-blue": {
+    "IAR001-Alternate Art": {
+      "productId": "706638",
+      "url": "https://www.tcgplayer.com/product/706638?Language=English&Printing=Normal"
+    }
+  },
   "art-of-desire-body-red": {
     "AAC008": {
       "productId": "668371",
@@ -401,6 +515,16 @@
     "ARR016": {
       "productId": "663037",
       "url": "https://www.tcgplayer.com/product/663037?Language=English&Printing=Normal"
+    }
+  },
+  "astral-ambience-yellow": {
+    "IAR250": {
+      "productId": "714482",
+      "url": "https://www.tcgplayer.com/product/714482?Language=English&Printing=Normal"
+    },
+    "IAR250-Rainbow": {
+      "productId": "714482",
+      "url": "https://www.tcgplayer.com/product/714482?Language=English&Printing=Rainbow+Foil"
     }
   },
   "astral-strike-red": {
@@ -467,6 +591,10 @@
     "IAR159-Cold-Full Art-Back": {
       "productId": "696179",
       "url": "https://www.tcgplayer.com/product/696179?Language=English&Printing=Cold+Foil"
+    },
+    "IAR159-Rainbow": {
+      "productId": "",
+      "url": ""
     }
   },
   "back-alley-breakline-blue": {
@@ -539,6 +667,16 @@
     "SBL023": {
       "productId": "695937",
       "url": "https://www.tcgplayer.com/product/695937?Language=English&Printing=Normal"
+    }
+  },
+  "banneret-of-swordsmanship-yellow": {
+    "IAR253": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR253-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "bare-destruction-red": {
@@ -653,6 +791,46 @@
       "url": "https://www.tcgplayer.com/product/629871?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "battle-clearing-bellow-blue": {
+    "IAR040": {
+      "productId": "711442",
+      "url": "https://www.tcgplayer.com/product/711442?Language=English&Printing=Normal"
+    },
+    "IAR040-Rainbow": {
+      "productId": "711442",
+      "url": "https://www.tcgplayer.com/product/711442?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "battle-prep-blue": {
+    "IAR235": {
+      "productId": "712761",
+      "url": "https://www.tcgplayer.com/product/712761?Language=English&Printing=Normal"
+    },
+    "IAR235-Rainbow": {
+      "productId": "712761",
+      "url": "https://www.tcgplayer.com/product/712761?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "battle-prep-red": {
+    "IAR233": {
+      "productId": "712759",
+      "url": "https://www.tcgplayer.com/product/712759?Language=English&Printing=Normal"
+    },
+    "IAR233-Rainbow": {
+      "productId": "712759",
+      "url": "https://www.tcgplayer.com/product/712759?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "battle-prep-yellow": {
+    "IAR234": {
+      "productId": "712760",
+      "url": "https://www.tcgplayer.com/product/712760?Language=English&Printing=Normal"
+    },
+    "IAR234-Rainbow": {
+      "productId": "712760",
+      "url": "https://www.tcgplayer.com/product/712760?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "beaming-bravado-red": {
     "SBL011": {
       "productId": "695925",
@@ -687,10 +865,50 @@
       "url": "https://www.tcgplayer.com/product/696211?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "beckoning-hunger-blue": {
+    "IAR019": {
+      "productId": "706656",
+      "url": "https://www.tcgplayer.com/product/706656?Language=English&Printing=Normal"
+    },
+    "IAR019-Rainbow": {
+      "productId": "706656",
+      "url": "https://www.tcgplayer.com/product/706656?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "beckoning-hunger-red": {
+    "IAR017": {
+      "productId": "706652",
+      "url": "https://www.tcgplayer.com/product/706652?Language=English&Printing=Normal"
+    },
+    "IAR017-Rainbow": {
+      "productId": "706652",
+      "url": "https://www.tcgplayer.com/product/706652?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "beckoning-hunger-yellow": {
+    "IAR018": {
+      "productId": "706654",
+      "url": "https://www.tcgplayer.com/product/706654?Language=English&Printing=Normal"
+    },
+    "IAR018-Rainbow": {
+      "productId": "706654",
+      "url": "https://www.tcgplayer.com/product/706654?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "become-the-arknight-blue": {
     "AVS026": {
       "productId": "648233",
       "url": "https://www.tcgplayer.com/product/648233?Language=English&Printing=Normal"
+    }
+  },
+  "become-the-shadow-lord-blue": {
+    "IAR113": {
+      "productId": "706695",
+      "url": "https://www.tcgplayer.com/product/706695?Language=English&Printing=Normal"
+    },
+    "IAR113-Cold-Full Art": {
+      "productId": "706697",
+      "url": "https://www.tcgplayer.com/product/706697?Language=English&Printing=Cold+Foil"
     }
   },
   "beneath-the-surface-yellow": {
@@ -831,6 +1049,30 @@
       "url": "https://www.tcgplayer.com/product/683211?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "blasmophet-the-insatiable-hunger": {
+    "IAR221": {
+      "productId": "706743",
+      "url": "https://www.tcgplayer.com/product/706743?Language=English&Printing=Normal"
+    },
+    "IAR221-Cold-Full Art": {
+      "productId": "706745",
+      "url": "https://www.tcgplayer.com/product/706745?Language=English&Printing=Cold+Foil"
+    },
+    "IAR221-Cold-Full Art-Back": {
+      "productId": "706745",
+      "url": "https://www.tcgplayer.com/product/706745?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "blasmophets-boon-blue": {
+    "IAR035": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR035-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
   "blast-rig-red": {
     "GEM120-Extended Art": {
       "productId": "680621",
@@ -851,6 +1093,16 @@
       "url": "https://www.tcgplayer.com/product/565595?Language=English&Printing=Cold+Foil"
     }
   },
+  "blessing-of-suraya-yellow": {
+    "IAR258": {
+      "productId": "715685",
+      "url": "https://www.tcgplayer.com/product/715685?Language=English&Printing=Normal"
+    },
+    "IAR258-Cold-Extended Art": {
+      "productId": "715686",
+      "url": "https://www.tcgplayer.com/product/715686?Language=English&Printing=Cold+Foil"
+    }
+  },
   "blink-of-an-eye-red": {
     "AZS007": {
       "productId": "694849",
@@ -863,6 +1115,16 @@
       "url": "https://www.tcgplayer.com/product/694848?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "blood-harvest": {
+    "IAR005": {
+      "productId": "706650",
+      "url": "https://www.tcgplayer.com/product/706650?Language=English&Printing=Normal"
+    },
+    "IAR005-Rainbow": {
+      "productId": "706650",
+      "url": "https://www.tcgplayer.com/product/706650?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "blood-runs-deep-red": {
     "FAB316-Rainbow-Extended Art": {
       "productId": "625006",
@@ -873,6 +1135,36 @@
     "FAB293-Gold": {
       "productId": "618759",
       "url": "https://www.tcgplayer.com/product/618759?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "bloodfrenzy-gloomblade-blue": {
+    "IAR125": {
+      "productId": "715846",
+      "url": "https://www.tcgplayer.com/product/715846?Language=English&Printing=Normal"
+    },
+    "IAR125-Rainbow": {
+      "productId": "715846",
+      "url": "https://www.tcgplayer.com/product/715846?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "bloodfrenzy-gloomblade-red": {
+    "IAR123": {
+      "productId": "715844",
+      "url": "https://www.tcgplayer.com/product/715844?Language=English&Printing=Normal"
+    },
+    "IAR123-Rainbow": {
+      "productId": "715844",
+      "url": "https://www.tcgplayer.com/product/715844?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "bloodfrenzy-gloomblade-yellow": {
+    "IAR124": {
+      "productId": "715845",
+      "url": "https://www.tcgplayer.com/product/715845?Language=English&Printing=Normal"
+    },
+    "IAR124-Rainbow": {
+      "productId": "715845",
+      "url": "https://www.tcgplayer.com/product/715845?Language=English&Printing=Rainbow+Foil"
     }
   },
   "bloodrot-pox": {
@@ -889,6 +1181,24 @@
     "AVS004": {
       "productId": "648204",
       "url": "https://www.tcgplayer.com/product/648204?Language=English&Printing=Normal"
+    }
+  },
+  "bloodsong-gloomblade-red": {
+    "IAR114": {
+      "productId": "711527",
+      "url": "https://www.tcgplayer.com/product/711527?Language=English&Printing=Normal"
+    },
+    "IAR114-Rainbow": {
+      "productId": "711527",
+      "url": "https://www.tcgplayer.com/product/711527?Language=English&Printing=Rainbow+Foil"
+    },
+    "GEM200-Extended Art": {
+      "productId": "",
+      "url": ""
+    },
+    "GEM200-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "bloodtorn-bodice": {
@@ -977,10 +1287,88 @@
       "url": "https://www.tcgplayer.com/product/693414?Language=English&Printing=Cold+Foil"
     }
   },
+  "bonded-burial-blue": {
+    "IAR102": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR102-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "bonded-burial-red": {
+    "IAR100": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR100-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "bonded-burial-yellow": {
+    "IAR101": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR101-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
   "bonds-of-attraction-blue": {
     "NUU016": {
       "productId": "549750",
       "url": "https://www.tcgplayer.com/product/549750?Language=English&Printing=Normal"
+    }
+  },
+  "bone-barrier-blue": {
+    "IAR093": {
+      "productId": "711508",
+      "url": "https://www.tcgplayer.com/product/711508?Language=English&Printing=Normal"
+    },
+    "IAR093-Rainbow": {
+      "productId": "711508",
+      "url": "https://www.tcgplayer.com/product/711508?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "bone-mass-blue": {
+    "IAR074": {
+      "productId": "715837",
+      "url": "https://www.tcgplayer.com/product/715837?Language=English&Printing=Normal"
+    },
+    "IAR074-Rainbow": {
+      "productId": "715837",
+      "url": "https://www.tcgplayer.com/product/715837?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "bone-mass-red": {
+    "IAR072": {
+      "productId": "715835",
+      "url": "https://www.tcgplayer.com/product/715835?Language=English&Printing=Normal"
+    },
+    "IAR072-Rainbow": {
+      "productId": "715835",
+      "url": "https://www.tcgplayer.com/product/715835?Language=English&Printing=Rainbow+Foil"
+    },
+    "GEM197-Extended Art": {
+      "productId": "",
+      "url": ""
+    },
+    "GEM197-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "bone-mass-yellow": {
+    "IAR073": {
+      "productId": "715836",
+      "url": "https://www.tcgplayer.com/product/715836?Language=English&Printing=Normal"
+    },
+    "IAR073-Rainbow": {
+      "productId": "715836",
+      "url": "https://www.tcgplayer.com/product/715836?Language=English&Printing=Rainbow+Foil"
     }
   },
   "bonebreaker-bellow-red": {
@@ -993,6 +1381,16 @@
     "ARR025": {
       "productId": "663046",
       "url": "https://www.tcgplayer.com/product/663046?Language=English&Printing=Normal"
+    }
+  },
+  "boneseer-skullcap": {
+    "IAR038-Cold": {
+      "productId": "715683",
+      "url": "https://www.tcgplayer.com/product/715683?Language=English&Printing=Cold+Foil"
+    },
+    "IAR038-Rainbow": {
+      "productId": "715683",
+      "url": "https://www.tcgplayer.com/product/715683?Language=English&Printing=Rainbow+Foil"
     }
   },
   "boom-grenade-red": {
@@ -1049,6 +1447,16 @@
       "url": ""
     }
   },
+  "bravery-of-the-blade-red": {
+    "IAR254": {
+      "productId": "715690",
+      "url": "https://www.tcgplayer.com/product/715690?Language=English&Printing=Normal"
+    },
+    "IAR254-Rainbow": {
+      "productId": "715690",
+      "url": "https://www.tcgplayer.com/product/715690?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "bravo-flattering-showman": {
     "BDD001": {
       "productId": "646827",
@@ -1079,6 +1487,44 @@
       "url": ""
     }
   },
+  "breach-flesh-blue": {
+    "IAR184": {
+      "productId": "716172",
+      "url": "https://www.tcgplayer.com/product/716172?Language=English&Printing=Normal"
+    },
+    "IAR184-Rainbow": {
+      "productId": "716172",
+      "url": "https://www.tcgplayer.com/product/716172?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "breach-flesh-red": {
+    "IAR182": {
+      "productId": "716170",
+      "url": "https://www.tcgplayer.com/product/716170?Language=English&Printing=Normal"
+    },
+    "IAR182-Rainbow": {
+      "productId": "716170",
+      "url": "https://www.tcgplayer.com/product/716170?Language=English&Printing=Rainbow+Foil"
+    },
+    "GEM204-Extended Art": {
+      "productId": "",
+      "url": ""
+    },
+    "GEM204-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "breach-flesh-yellow": {
+    "IAR183": {
+      "productId": "716171",
+      "url": "https://www.tcgplayer.com/product/716171?Language=English&Printing=Normal"
+    },
+    "IAR183-Rainbow": {
+      "productId": "716171",
+      "url": "https://www.tcgplayer.com/product/716171?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "breaker-helm-protos": {
     "AMX003-Rainbow": {
       "productId": "628093",
@@ -1105,6 +1551,16 @@
     "WIN015-Cold": {
       "productId": "",
       "url": ""
+    }
+  },
+  "bridge-of-damnation-blue": {
+    "IAR058": {
+      "productId": "706671",
+      "url": "https://www.tcgplayer.com/product/706671?Language=English&Printing=Normal"
+    },
+    "IAR058-Rainbow": {
+      "productId": "706671",
+      "url": "https://www.tcgplayer.com/product/706671?Language=English&Printing=Rainbow+Foil"
     }
   },
   "brimming-blade-red": {
@@ -1229,6 +1685,16 @@
       "url": "https://www.tcgplayer.com/product/648245?Language=English&Printing=Normal"
     }
   },
+  "chains-of-consecration-yellow": {
+    "IAR259": {
+      "productId": "714485",
+      "url": "https://www.tcgplayer.com/product/714485?Language=English&Printing=Normal"
+    },
+    "IAR259-Rainbow": {
+      "productId": "714485",
+      "url": "https://www.tcgplayer.com/product/714485?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "chane-bound-by-shadow": {
     "WIN012-Cold": {
       "productId": "",
@@ -1255,6 +1721,16 @@
     "AJV017-Rainbow": {
       "productId": "587216",
       "url": "https://www.tcgplayer.com/product/587216?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "channel-stormgarden-yellow": {
+    "IAR257": {
+      "productId": "715691",
+      "url": "https://www.tcgplayer.com/product/715691?Language=English&Printing=Normal"
+    },
+    "IAR257-Cold-Extended Art": {
+      "productId": "715692",
+      "url": "https://www.tcgplayer.com/product/715692?Language=English&Printing=Cold+Foil"
     }
   },
   "channel-the-millennium-tree-red": {
@@ -1373,6 +1849,16 @@
       "url": "https://www.tcgplayer.com/product/539314?Language=English&Printing=Normal"
     }
   },
+  "circlet-of-eternal-end": {
+    "IAR223-Cold": {
+      "productId": "706747",
+      "url": "https://www.tcgplayer.com/product/706747?Language=English&Printing=Cold+Foil"
+    },
+    "IAR223-Rainbow": {
+      "productId": "706747",
+      "url": "https://www.tcgplayer.com/product/706747?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "circular-flowtide-yellow": {
     "AZS018": {
       "productId": "694859",
@@ -1407,6 +1893,12 @@
       "url": "https://www.tcgplayer.com/product/545434?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "clambering-corpses-blue": {
+    "AMA021": {
+      "productId": "716143",
+      "url": "https://www.tcgplayer.com/product/716143?Language=English&Printing=Normal"
+    }
+  },
   "clamp-press-blue": {
     "AMX026": {
       "productId": "628102",
@@ -1435,6 +1927,14 @@
     "AZS020": {
       "productId": "694861",
       "url": "https://www.tcgplayer.com/product/694861?Language=English&Printing=Normal"
+    },
+    "GEM216-Extended Art": {
+      "productId": "",
+      "url": ""
+    },
+    "GEM216-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "clearing-bellow-blue": {
@@ -1449,6 +1949,44 @@
       "url": "https://www.tcgplayer.com/product/704965?Language=English&Printing=Cold+Foil"
     }
   },
+  "cleave-the-heavens-blue": {
+    "IAR022": {
+      "productId": "715804",
+      "url": "https://www.tcgplayer.com/product/715804?Language=English&Printing=Normal"
+    },
+    "IAR022-Rainbow": {
+      "productId": "715804",
+      "url": "https://www.tcgplayer.com/product/715804?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "cleave-the-heavens-red": {
+    "IAR020": {
+      "productId": "715801",
+      "url": "https://www.tcgplayer.com/product/715801?Language=English&Printing=Normal"
+    },
+    "IAR020-Rainbow": {
+      "productId": "715801",
+      "url": "https://www.tcgplayer.com/product/715801?Language=English&Printing=Rainbow+Foil"
+    },
+    "GEM192-Extended Art": {
+      "productId": "",
+      "url": ""
+    },
+    "GEM192-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "cleave-the-heavens-yellow": {
+    "IAR021": {
+      "productId": "715803",
+      "url": "https://www.tcgplayer.com/product/715803?Language=English&Printing=Normal"
+    },
+    "IAR021-Rainbow": {
+      "productId": "715803",
+      "url": "https://www.tcgplayer.com/product/715803?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "cloud-cover-red": {
     "SBA031": {
       "productId": "695909",
@@ -1459,6 +1997,16 @@
     "LGS396-Rainbow": {
       "productId": "636241",
       "url": "https://www.tcgplayer.com/product/636241?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "cogwerx-prong-bot-yellow": {
+    "IAR247": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR247-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "cogwerx-tinker-rings": {
@@ -1501,6 +2049,40 @@
     "FAB278-Rainbow-Alternate Art": {
       "productId": "584721",
       "url": "https://www.tcgplayer.com/product/584721?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "commit-to-corruption-blue": {
+    "IAR062": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR062-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "commit-to-corruption-red": {
+    "IAR060": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR060-Rainbow": {
+      "productId": "",
+      "url": ""
+    },
+    "AMA009": {
+      "productId": "716133",
+      "url": "https://www.tcgplayer.com/product/716133?Language=English&Printing=Normal"
+    }
+  },
+  "commit-to-corruption-yellow": {
+    "IAR061": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR061-Rainbow": {
+      "productId": "",
+      "url": ""
     }
   },
   "compass-of-sunken-depths": {
@@ -1635,6 +2217,70 @@
       "url": "https://www.tcgplayer.com/product/680618?Language=English&Printing=Normal"
     }
   },
+  "consuming-appetite-yellow": {
+    "IAR008": {
+      "productId": "716167",
+      "url": "https://www.tcgplayer.com/product/716167?Language=English&Printing=Normal"
+    },
+    "IAR008-Rainbow": {
+      "productId": "716167",
+      "url": "https://www.tcgplayer.com/product/716167?Language=English&Printing=Rainbow+Foil"
+    },
+    "GEM193-Extended Art": {
+      "productId": "714490",
+      "url": "https://www.tcgplayer.com/product/714490?Language=English&Printing=Normal"
+    },
+    "GEM193-Rainbow-Extended Art": {
+      "productId": "714490",
+      "url": "https://www.tcgplayer.com/product/714490?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "consuming-command-blue": {
+    "IAR036": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR036-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "consuming-lash-yellow": {
+    "IAR009": {
+      "productId": "711509",
+      "url": "https://www.tcgplayer.com/product/711509?Language=English&Printing=Normal"
+    },
+    "IAR009-Rainbow": {
+      "productId": "711509",
+      "url": "https://www.tcgplayer.com/product/711509?Language=English&Printing=Rainbow+Foil"
+    },
+    "GEM194-Extended Art": {
+      "productId": "",
+      "url": ""
+    },
+    "GEM194-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "consuming-strength-yellow": {
+    "IAR010": {
+      "productId": "711510",
+      "url": "https://www.tcgplayer.com/product/711510?Language=English&Printing=Normal"
+    },
+    "IAR010-Rainbow": {
+      "productId": "711510",
+      "url": "https://www.tcgplayer.com/product/711510?Language=English&Printing=Rainbow+Foil"
+    },
+    "GEM195-Extended Art": {
+      "productId": "",
+      "url": ""
+    },
+    "GEM195-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
+    }
+  },
   "convection-amplifier-red": {
     "AIO016": {
       "productId": "586577",
@@ -1647,10 +2293,112 @@
       "url": "https://www.tcgplayer.com/product/638093?Language=English&Printing=Cold+Foil"
     }
   },
+  "corporeal-chasm-blue": {
+    "IAR187": {
+      "productId": "716175",
+      "url": "https://www.tcgplayer.com/product/716175?Language=English&Printing=Normal"
+    },
+    "IAR187-Rainbow": {
+      "productId": "716175",
+      "url": "https://www.tcgplayer.com/product/716175?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "corporeal-chasm-red": {
+    "IAR185": {
+      "productId": "716173",
+      "url": "https://www.tcgplayer.com/product/716173?Language=English&Printing=Normal"
+    },
+    "IAR185-Rainbow": {
+      "productId": "716173",
+      "url": "https://www.tcgplayer.com/product/716173?Language=English&Printing=Rainbow+Foil"
+    },
+    "GEM205-Extended Art": {
+      "productId": "",
+      "url": ""
+    },
+    "GEM205-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "corporeal-chasm-yellow": {
+    "IAR186": {
+      "productId": "716174",
+      "url": "https://www.tcgplayer.com/product/716174?Language=English&Printing=Normal"
+    },
+    "IAR186-Rainbow": {
+      "productId": "716174",
+      "url": "https://www.tcgplayer.com/product/716174?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "corpse-cover-blue": {
+    "IAR099": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR099-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "corpse-cover-red": {
+    "IAR097": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR097-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "corpse-cover-yellow": {
+    "IAR098": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR098-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
   "corrosive-space-dust-red": {
     "AZS016": {
       "productId": "694858",
       "url": "https://www.tcgplayer.com/product/694858?Language=English&Printing=Normal"
+    }
+  },
+  "corrupt-and-conquer-red": {
+    "IAR164": {
+      "productId": "706722",
+      "url": "https://www.tcgplayer.com/product/706722?Language=English&Printing=Normal"
+    },
+    "IAR164-Rainbow": {
+      "productId": "706722",
+      "url": "https://www.tcgplayer.com/product/706722?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "corrupted-corpse": {
+    "IAR090": {
+      "productId": "706677",
+      "url": "https://www.tcgplayer.com/product/706677?Language=English&Printing=Normal"
+    },
+    "IAR090-Rainbow-Extended Art": {
+      "productId": "707170",
+      "url": "https://www.tcgplayer.com/product/707170?Language=English&Printing=Rainbow+Foil"
+    },
+    "AMA029": {
+      "productId": "707748",
+      "url": "https://www.tcgplayer.com/product/707748?Language=English&Printing=Normal"
+    }
+  },
+  "corrupted-crown": {
+    "AMA003-Rainbow": {
+      "productId": "706912",
+      "url": "https://www.tcgplayer.com/product/706912?Language=English&Printing=Rainbow+Foil"
+    },
+    "GEM188-Cold": {
+      "productId": "",
+      "url": ""
     }
   },
   "cosmic-awakening-blue": {
@@ -1689,6 +2437,40 @@
       "url": "https://www.tcgplayer.com/product/604735?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "countdown-to-extinction-blue": {
+    "IAR169": {
+      "productId": "716169",
+      "url": "https://www.tcgplayer.com/product/716169?Language=English&Printing=Normal"
+    },
+    "IAR169-Rainbow": {
+      "productId": "716169",
+      "url": "https://www.tcgplayer.com/product/716169?Language=English&Printing=Rainbow+Foil"
+    },
+    "AMA020": {
+      "productId": "716142",
+      "url": "https://www.tcgplayer.com/product/716142?Language=English&Printing=Normal"
+    }
+  },
+  "countdown-to-extinction-red": {
+    "IAR167": {
+      "productId": "714473",
+      "url": "https://www.tcgplayer.com/product/714473?Language=English&Printing=Normal"
+    },
+    "IAR167-Rainbow": {
+      "productId": "714473",
+      "url": "https://www.tcgplayer.com/product/714473?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "countdown-to-extinction-yellow": {
+    "IAR168": {
+      "productId": "716168",
+      "url": "https://www.tcgplayer.com/product/716168?Language=English&Printing=Normal"
+    },
+    "IAR168-Rainbow": {
+      "productId": "716168",
+      "url": "https://www.tcgplayer.com/product/716168?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "courage": {
     "SBL035": {
       "productId": "695949",
@@ -1717,6 +2499,10 @@
     "LGS227-Rainbow": {
       "productId": "529297",
       "url": "https://www.tcgplayer.com/product/529297?Language=English&Printing=Rainbow+Foil"
+    },
+    "IAR242-Extended Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "cracker-bauble-yellow": {
@@ -1839,6 +2625,38 @@
     "AJV018-Rainbow": {
       "productId": "587215",
       "url": "https://www.tcgplayer.com/product/587215?Language=English&Printing=Rainbow+Foil"
+    },
+    "GEM191-Cold": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "crushing-headache-red": {
+    "IAR244": {
+      "productId": "714161",
+      "url": "https://www.tcgplayer.com/product/714161?Language=English&Printing=Normal"
+    },
+    "IAR244-Rainbow-Extended Art": {
+      "productId": "714334",
+      "url": "https://www.tcgplayer.com/product/714334?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "cullingsong-gloomblade-red": {
+    "IAR115": {
+      "productId": "714109",
+      "url": "https://www.tcgplayer.com/product/714109?Language=English&Printing=Normal"
+    },
+    "IAR115-Rainbow": {
+      "productId": "714109",
+      "url": "https://www.tcgplayer.com/product/714109?Language=English&Printing=Rainbow+Foil"
+    },
+    "GEM201-Extended Art": {
+      "productId": "",
+      "url": ""
+    },
+    "GEM201-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "cut-to-the-chase-red": {
@@ -1873,6 +2691,120 @@
     "LGS403-Rainbow-Extended Art": {
       "productId": "636252",
       "url": "https://www.tcgplayer.com/product/636252?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "dam-the-shadowake-blue": {
+    "IAR220": {
+      "productId": "716189",
+      "url": "https://www.tcgplayer.com/product/716189?Language=English&Printing=Normal"
+    },
+    "IAR220-Rainbow": {
+      "productId": "716189",
+      "url": "https://www.tcgplayer.com/product/716189?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "dam-the-shadowake-red": {
+    "IAR218": {
+      "productId": "716187",
+      "url": "https://www.tcgplayer.com/product/716187?Language=English&Printing=Normal"
+    },
+    "IAR218-Rainbow": {
+      "productId": "716187",
+      "url": "https://www.tcgplayer.com/product/716187?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "dam-the-shadowake-yellow": {
+    "IAR219": {
+      "productId": "716188",
+      "url": "https://www.tcgplayer.com/product/716188?Language=English&Printing=Normal"
+    },
+    "IAR219-Rainbow": {
+      "productId": "716188",
+      "url": "https://www.tcgplayer.com/product/716188?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "danse-macabre": {
+    "IAR091-Cold": {
+      "productId": "714343",
+      "url": "https://www.tcgplayer.com/product/714343?Language=English&Printing=Cold+Foil"
+    },
+    "IAR091-Rainbow": {
+      "productId": "714343",
+      "url": "https://www.tcgplayer.com/product/714343?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "dark-arcanite-boots": {
+    "IAR227": {
+      "productId": "716190",
+      "url": "https://www.tcgplayer.com/product/716190?Language=English&Printing=Normal"
+    },
+    "IAR227-Cold": {
+      "productId": "716190",
+      "url": "https://www.tcgplayer.com/product/716190?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "dark-arcanite-gloves": {
+    "IAR226": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR226-Cold": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "dark-arcanite-helm": {
+    "IAR224": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR224-Cold": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "dark-arcanite-plating": {
+    "IAR225": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR225-Cold": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "darkest-hour-blue": {
+    "IAR211": {
+      "productId": "716186",
+      "url": "https://www.tcgplayer.com/product/716186?Language=English&Printing=Normal"
+    },
+    "IAR211-Rainbow": {
+      "productId": "716186",
+      "url": "https://www.tcgplayer.com/product/716186?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "darkest-hour-red": {
+    "IAR209": {
+      "productId": "714474",
+      "url": "https://www.tcgplayer.com/product/714474?Language=English&Printing=Normal"
+    },
+    "IAR209-Rainbow": {
+      "productId": "714474",
+      "url": "https://www.tcgplayer.com/product/714474?Language=English&Printing=Rainbow+Foil"
+    },
+    "AMA010": {
+      "productId": "716134",
+      "url": "https://www.tcgplayer.com/product/716134?Language=English&Printing=Normal"
+    }
+  },
+  "darkest-hour-yellow": {
+    "IAR210": {
+      "productId": "716185",
+      "url": "https://www.tcgplayer.com/product/716185?Language=English&Printing=Normal"
+    },
+    "IAR210-Rainbow": {
+      "productId": "716185",
+      "url": "https://www.tcgplayer.com/product/716185?Language=English&Printing=Rainbow+Foil"
     }
   },
   "dash-io": {
@@ -1943,6 +2875,16 @@
       "url": "https://www.tcgplayer.com/product/688759?Language=English&Printing=Normal"
     }
   },
+  "deadly-spinneret-red": {
+    "IAR243": {
+      "productId": "714480",
+      "url": "https://www.tcgplayer.com/product/714480?Language=English&Printing=Normal"
+    },
+    "IAR243-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
+    }
+  },
   "deadwood-dirge-red": {
     "AVS014": {
       "productId": "648219",
@@ -1959,10 +2901,50 @@
       "url": "https://www.tcgplayer.com/product/646833?Language=English&Printing=Normal"
     }
   },
+  "demonbound-gloomblade-blue": {
+    "IAR128": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR128-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "demonbound-gloomblade-red": {
+    "IAR126": {
+      "productId": "706699",
+      "url": "https://www.tcgplayer.com/product/706699?Language=English&Printing=Normal"
+    },
+    "IAR126-Rainbow": {
+      "productId": "706699",
+      "url": "https://www.tcgplayer.com/product/706699?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "demonbound-gloomblade-yellow": {
+    "IAR127": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR127-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
   "den-of-the-spider-red": {
     "LGS383-Rainbow-Extended Art": {
       "productId": "618309",
       "url": "https://www.tcgplayer.com/product/618309?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "devouring-doomwake-red": {
+    "IAR006": {
+      "productId": "715792",
+      "url": "https://www.tcgplayer.com/product/715792?Language=English&Printing=Normal"
+    },
+    "IAR006-Rainbow": {
+      "productId": "715792",
+      "url": "https://www.tcgplayer.com/product/715792?Language=English&Printing=Rainbow+Foil"
     }
   },
   "diabolic-offering-blue": {
@@ -1975,6 +2957,12 @@
     "LSS008-Cold": {
       "productId": "580650",
       "url": "https://www.tcgplayer.com/product/580650?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "dig-for-souls-red": {
+    "AMA011": {
+      "productId": "706915",
+      "url": "https://www.tcgplayer.com/product/706915?Language=English&Printing=Normal"
     }
   },
   "dig-in-red": {
@@ -1993,6 +2981,24 @@
     "FAB386-Rainbow-Extended Art": {
       "productId": "657468",
       "url": "https://www.tcgplayer.com/product/657468?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "dimenxxional-ferryman-blue": {
+    "IAR179": {
+      "productId": "714477",
+      "url": "https://www.tcgplayer.com/product/714477?Language=English&Printing=Normal"
+    },
+    "IAR179-Rainbow": {
+      "productId": "714477",
+      "url": "https://www.tcgplayer.com/product/714477?Language=English&Printing=Rainbow+Foil"
+    },
+    "GEM209-Extended Art": {
+      "productId": "",
+      "url": ""
+    },
+    "GEM209-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "disable-blue": {
@@ -2133,6 +3139,12 @@
       "url": ""
     }
   },
+  "drop-dead-bodice": {
+    "AMA004-Rainbow": {
+      "productId": "716130",
+      "url": "https://www.tcgplayer.com/product/716130?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "duty-bound-blitz-red": {
     "SBL013": {
       "productId": "695927",
@@ -2199,6 +3211,16 @@
     "ARR003-Rainbow": {
       "productId": "663016",
       "url": "https://www.tcgplayer.com/product/663016?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "echoing-trap-blue": {
+    "IAR248": {
+      "productId": "714481",
+      "url": "https://www.tcgplayer.com/product/714481?Language=English&Printing=Normal"
+    },
+    "IAR248-Rainbow": {
+      "productId": "714481",
+      "url": "https://www.tcgplayer.com/product/714481?Language=English&Printing=Rainbow+Foil"
     }
   },
   "edge-of-autumn": {
@@ -2337,6 +3359,54 @@
       "url": "https://www.tcgplayer.com/product/620705?Language=English&Printing=Normal"
     }
   },
+  "embrace-sin-yellow": {
+    "IAR120": {
+      "productId": "711528",
+      "url": "https://www.tcgplayer.com/product/711528?Language=English&Printing=Normal"
+    },
+    "IAR120-Rainbow": {
+      "productId": "711528",
+      "url": "https://www.tcgplayer.com/product/711528?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "embrace-ursur-blue": {
+    "IAR131": {
+      "productId": "715849",
+      "url": "https://www.tcgplayer.com/product/715849?Language=English&Printing=Normal"
+    },
+    "IAR131-Rainbow": {
+      "productId": "715849",
+      "url": "https://www.tcgplayer.com/product/715849?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "embrace-ursur-red": {
+    "IAR129": {
+      "productId": "715847",
+      "url": "https://www.tcgplayer.com/product/715847?Language=English&Printing=Normal"
+    },
+    "IAR129-Rainbow": {
+      "productId": "715847",
+      "url": "https://www.tcgplayer.com/product/715847?Language=English&Printing=Rainbow+Foil"
+    },
+    "GEM203-Extended Art": {
+      "productId": "714492",
+      "url": "https://www.tcgplayer.com/product/714492?Language=English&Printing=Normal"
+    },
+    "GEM203-Rainbow-Extended Art": {
+      "productId": "714492",
+      "url": "https://www.tcgplayer.com/product/714492?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "embrace-ursur-yellow": {
+    "IAR130": {
+      "productId": "715848",
+      "url": "https://www.tcgplayer.com/product/715848?Language=English&Printing=Normal"
+    },
+    "IAR130-Rainbow": {
+      "productId": "715848",
+      "url": "https://www.tcgplayer.com/product/715848?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "emerging-avalanche-blue": {
     "AJV019": {
       "productId": "596255",
@@ -2473,6 +3543,36 @@
       "url": "https://www.tcgplayer.com/product/556973?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "enshrine-sin-blue": {
+    "IAR140": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR140-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "enshrine-sin-red": {
+    "IAR138": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR138-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "enshrine-sin-yellow": {
+    "IAR139": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR139-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
   "entwine-lightning-red": {
     "SBA012": {
       "productId": "695892",
@@ -2585,6 +3685,16 @@
       "url": "https://www.tcgplayer.com/product/663157?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "exorcism-red": {
+    "IAR229": {
+      "productId": "715694",
+      "url": "https://www.tcgplayer.com/product/715694?Language=English&Printing=Normal"
+    },
+    "IAR229-Rainbow": {
+      "productId": "715694",
+      "url": "https://www.tcgplayer.com/product/715694?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "expedite-red": {
     "AMX009": {
       "productId": "628107",
@@ -2633,6 +3743,16 @@
       "url": ""
     }
   },
+  "fallen-herald-yellow": {
+    "IAR165": {
+      "productId": "716166",
+      "url": "https://www.tcgplayer.com/product/716166?Language=English&Printing=Normal"
+    },
+    "IAR165-Rainbow": {
+      "productId": "716166",
+      "url": "https://www.tcgplayer.com/product/716166?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "fang-strike": {
     "NUU028": {
       "productId": "",
@@ -2667,8 +3787,78 @@
       "url": ""
     }
   },
+  "favorable-winds-yellow": {
+    "IAR251": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR251-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
   "fealty": {
     "SFA037": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "feasting-shadowbeast-blue": {
+    "IAR025": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR025-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "feasting-shadowbeast-red": {
+    "IAR023": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR023-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "feasting-shadowbeast-yellow": {
+    "IAR024": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR024-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "feeding-frenzy-blue": {
+    "IAR028": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR028-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "feeding-frenzy-red": {
+    "IAR026": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR026-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "feeding-frenzy-yellow": {
+    "IAR027": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR027-Rainbow": {
       "productId": "",
       "url": ""
     }
@@ -2715,6 +3905,16 @@
     "CON008-Rainbow-Alternate Art-Full Art": {
       "productId": "706934",
       "url": "https://www.tcgplayer.com/product/706934?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "flash-bolt-red": {
+    "GEM215-Extended Art": {
+      "productId": "",
+      "url": ""
+    },
+    "GEM215-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "flash-of-brilliance": {
@@ -2881,6 +4081,14 @@
     "AHA016": {
       "productId": "688755",
       "url": "https://www.tcgplayer.com/product/688755?Language=English&Printing=Normal"
+    },
+    "GEM214-Extended Art": {
+      "productId": "",
+      "url": ""
+    },
+    "GEM214-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "flurry-stance-red": {
@@ -2947,6 +4155,26 @@
       "url": "https://www.tcgplayer.com/product/618262?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "forbidden-harvest-yellow": {
+    "IAR121": {
+      "productId": "715796",
+      "url": "https://www.tcgplayer.com/product/715796?Language=English&Printing=Normal"
+    },
+    "IAR121-Rainbow": {
+      "productId": "715796",
+      "url": "https://www.tcgplayer.com/product/715796?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "forsaken-strike-yellow": {
+    "IAR057": {
+      "productId": "713244",
+      "url": "https://www.tcgplayer.com/product/713244?Language=English&Printing=Normal"
+    },
+    "IAR057-Rainbow": {
+      "productId": "713244",
+      "url": "https://www.tcgplayer.com/product/713244?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "four-finger-gloves": {
     "LGS322-Rainbow": {
       "productId": "584747",
@@ -2967,6 +4195,16 @@
   },
   "frankie-make-ends-meat": {
     "LSS021": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "fresh-from-the-forge-red": {
+    "IAR255": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR255-Rainbow": {
       "productId": "",
       "url": ""
     }
@@ -3091,6 +4329,10 @@
     "IAR222-Cold-Full Art-Back": {
       "productId": "696180",
       "url": "https://www.tcgplayer.com/product/696180?Language=English&Printing=Cold+Foil"
+    },
+    "AMA030": {
+      "productId": "716151",
+      "url": "https://www.tcgplayer.com/product/716151?Language=English&Printing=Normal"
     }
   },
   "gauntlets-of-iron-will": {
@@ -3149,6 +4391,24 @@
     "LGS443-Cold-Full Art": {
       "productId": "696804",
       "url": "https://www.tcgplayer.com/product/696804?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "ghostly-visit-blue": {
+    "IAR190": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "ghostly-visit-red": {
+    "IAR188": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "ghostly-visit-yellow": {
+    "IAR189": {
+      "productId": "",
+      "url": ""
     }
   },
   "give-and-take-red": {
@@ -3327,6 +4587,46 @@
       "url": "https://www.tcgplayer.com/product/695851?Language=English&Printing=Normal"
     }
   },
+  "goremass-summoning-blue": {
+    "IAR037": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR037-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "gorging-shadowbeast-blue": {
+    "IAR031": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR031-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "gorging-shadowbeast-red": {
+    "IAR029": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR029-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "gorging-shadowbeast-yellow": {
+    "IAR030": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR030-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
   "grains-of-bloodspill": {
     "FAB182-Gold": {
       "productId": "580612",
@@ -3337,6 +4637,16 @@
     "SAR033": {
       "productId": "",
       "url": ""
+    }
+  },
+  "grasp-of-the-darknight": {
+    "IAR109": {
+      "productId": "706689",
+      "url": "https://www.tcgplayer.com/product/706689?Language=English&Printing=Normal"
+    },
+    "IAR109-Cold-Extended Art": {
+      "productId": "706691",
+      "url": "https://www.tcgplayer.com/product/706691?Language=English&Printing=Cold+Foil"
     }
   },
   "gravekeeping-red": {
@@ -3365,6 +4675,16 @@
     "WIN048-Cold": {
       "productId": "",
       "url": ""
+    }
+  },
+  "grille-of-repentance": {
+    "IAR161": {
+      "productId": "706715",
+      "url": "https://www.tcgplayer.com/product/706715?Language=English&Printing=Normal"
+    },
+    "IAR161-Cold": {
+      "productId": "707171",
+      "url": "https://www.tcgplayer.com/product/707171?Language=English&Printing=Cold+Foil"
     }
   },
   "grimoire-of-fellingsong": {
@@ -3429,6 +4749,16 @@
       "url": "https://www.tcgplayer.com/product/578813?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "harbinger-of-destruction-red": {
+    "IAR170": {
+      "productId": "711529",
+      "url": "https://www.tcgplayer.com/product/711529?Language=English&Printing=Normal"
+    },
+    "IAR170-Rainbow": {
+      "productId": "711529",
+      "url": "https://www.tcgplayer.com/product/711529?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "hard-knuckle": {
     "FAB335-Cold": {
       "productId": "649249",
@@ -3455,6 +4785,64 @@
     "APR024": {
       "productId": "648260",
       "url": "https://www.tcgplayer.com/product/648260?Language=English&Printing=Normal"
+    }
+  },
+  "head-banging-chorus-yellow": {
+    "IAR256": {
+      "productId": "714335",
+      "url": "https://www.tcgplayer.com/product/714335?Language=English&Printing=Normal"
+    },
+    "IAR256-Cold-Extended Art": {
+      "productId": "714336",
+      "url": "https://www.tcgplayer.com/product/714336?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "heads-up-red": {
+    "GEM213-Extended Art": {
+      "productId": "",
+      "url": ""
+    },
+    "GEM213-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "headstrong-stampede-blue": {
+    "IAR049": {
+      "productId": "715828",
+      "url": "https://www.tcgplayer.com/product/715828?Language=English&Printing=Normal"
+    },
+    "IAR049-Rainbow": {
+      "productId": "715828",
+      "url": "https://www.tcgplayer.com/product/715828?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "headstrong-stampede-red": {
+    "IAR047": {
+      "productId": "715826",
+      "url": "https://www.tcgplayer.com/product/715826?Language=English&Printing=Normal"
+    },
+    "IAR047-Rainbow": {
+      "productId": "715826",
+      "url": "https://www.tcgplayer.com/product/715826?Language=English&Printing=Rainbow+Foil"
+    },
+    "GEM211-Extended Art": {
+      "productId": "",
+      "url": ""
+    },
+    "GEM211-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "headstrong-stampede-yellow": {
+    "IAR048": {
+      "productId": "715827",
+      "url": "https://www.tcgplayer.com/product/715827?Language=English&Printing=Normal"
+    },
+    "IAR048-Rainbow": {
+      "productId": "715827",
+      "url": "https://www.tcgplayer.com/product/715827?Language=English&Printing=Rainbow+Foil"
     }
   },
   "heartbeat-of-candlehold-blue": {
@@ -3521,6 +4909,42 @@
     "AMX010": {
       "productId": "628108",
       "url": "https://www.tcgplayer.com/product/628108?Language=English&Printing=Normal"
+    }
+  },
+  "hell-hammer": {
+    "IAR003": {
+      "productId": "706646",
+      "url": "https://www.tcgplayer.com/product/706646?Language=English&Printing=Normal"
+    }
+  },
+  "hellbound-assault-blue": {
+    "IAR013": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR013-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "hellbound-assault-red": {
+    "IAR011": {
+      "productId": "713197",
+      "url": "https://www.tcgplayer.com/product/713197?Language=English&Printing=Normal"
+    },
+    "IAR011-Rainbow": {
+      "productId": "713197",
+      "url": "https://www.tcgplayer.com/product/713197?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "hellbound-assault-yellow": {
+    "IAR012": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR012-Rainbow": {
+      "productId": "",
+      "url": ""
     }
   },
   "helm-of-astral-sanctuary": {
@@ -3621,6 +5045,16 @@
       "url": "https://www.tcgplayer.com/product/654173?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "hex-gauntlet": {
+    "IAR004": {
+      "productId": "706647",
+      "url": "https://www.tcgplayer.com/product/706647?Language=English&Printing=Normal"
+    },
+    "IAR004-Cold-Extended Art": {
+      "productId": "",
+      "url": ""
+    }
+  },
   "high-current-currency-blue": {
     "FAB424-Cold-Extended Art": {
       "productId": "",
@@ -3649,6 +5083,16 @@
     "LGS320-Rainbow": {
       "productId": "584745",
       "url": "https://www.tcgplayer.com/product/584745?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "hoodwink-blue": {
+    "IAR262": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR262-Rainbow": {
+      "productId": "",
+      "url": ""
     }
   },
   "hope-merchants-hood": {
@@ -3749,6 +5193,16 @@
       "url": "https://www.tcgplayer.com/product/580608?Language=English&Printing=Cold+Foil"
     }
   },
+  "ice-aged-oak-blue": {
+    "IAR260": {
+      "productId": "714340",
+      "url": "https://www.tcgplayer.com/product/714340?Language=English&Printing=Normal"
+    },
+    "IAR260-Rainbow": {
+      "productId": "714340",
+      "url": "https://www.tcgplayer.com/product/714340?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "icy-encounter-red": {
     "AJV010": {
       "productId": "596249",
@@ -3819,6 +5273,16 @@
     "AAC011": {
       "productId": "668375",
       "url": "https://www.tcgplayer.com/product/668375?Language=English&Printing=Normal"
+    }
+  },
+  "ingest-the-unknown-yellow": {
+    "IAR007": {
+      "productId": "712962",
+      "url": "https://www.tcgplayer.com/product/712962?Language=English&Printing=Normal"
+    },
+    "IAR007-Rainbow": {
+      "productId": "712962",
+      "url": "https://www.tcgplayer.com/product/712962?Language=English&Printing=Rainbow+Foil"
     }
   },
   "ink-lined-cloak": {
@@ -4105,6 +5569,20 @@
       "url": "https://www.tcgplayer.com/product/641624?Language=English&Printing=Normal"
     }
   },
+  "levia": {
+    "IAR002": {
+      "productId": "706641",
+      "url": "https://www.tcgplayer.com/product/706641?Language=English&Printing=Normal"
+    },
+    "IAR002-Cold-Full Art": {
+      "productId": "706643",
+      "url": "https://www.tcgplayer.com/product/706643?Language=English&Printing=Cold+Foil"
+    },
+    "IAR002-Cold-Full Art-Back": {
+      "productId": "706643",
+      "url": "https://www.tcgplayer.com/product/706643?Language=English&Printing=Cold+Foil"
+    }
+  },
   "levia-shadowborn-abomination": {
     "WIN011-Cold": {
       "productId": "",
@@ -4339,6 +5817,10 @@
     "APR006": {
       "productId": "648221",
       "url": "https://www.tcgplayer.com/product/648221?Language=English&Printing=Normal"
+    },
+    "AMA006-Rainbow-Alternate Art": {
+      "productId": "706914",
+      "url": "https://www.tcgplayer.com/product/706914?Language=English&Printing=Rainbow+Foil"
     }
   },
   "magrar": {
@@ -4363,6 +5845,76 @@
       "url": "https://www.tcgplayer.com/product/648229?Language=English&Printing=Normal"
     }
   },
+  "malice": {
+    "IAR054": {
+      "productId": "706660",
+      "url": "https://www.tcgplayer.com/product/706660?Language=English&Printing=Normal"
+    },
+    "IAR054-Cold-Full Art": {
+      "productId": "706661",
+      "url": "https://www.tcgplayer.com/product/706661?Language=English&Printing=Cold+Foil"
+    },
+    "IAR054-Cold-Full Art-Back": {
+      "productId": "706661",
+      "url": "https://www.tcgplayer.com/product/706661?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "malice-domina-of-the-dead": {
+    "IAR053": {
+      "productId": "707031",
+      "url": "https://www.tcgplayer.com/product/707031?Language=English&Printing=Normal"
+    },
+    "AMA001-Rainbow": {
+      "productId": "706910",
+      "url": "https://www.tcgplayer.com/product/706910?Language=English&Printing=Rainbow+Foil"
+    },
+    "GEM184-Cold-Full Art": {
+      "productId": "706940",
+      "url": "https://www.tcgplayer.com/product/706940?Language=English&Printing=Cold+Foil"
+    },
+    "GEM184-Cold-Full Art-Back": {
+      "productId": "706940",
+      "url": "https://www.tcgplayer.com/product/706940?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "malignant-migration-blue": {
+    "IAR077": {
+      "productId": "715840",
+      "url": "https://www.tcgplayer.com/product/715840?Language=English&Printing=Normal"
+    },
+    "IAR077-Rainbow": {
+      "productId": "715840",
+      "url": "https://www.tcgplayer.com/product/715840?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "malignant-migration-red": {
+    "IAR075": {
+      "productId": "715838",
+      "url": "https://www.tcgplayer.com/product/715838?Language=English&Printing=Normal"
+    },
+    "IAR075-Rainbow": {
+      "productId": "715838",
+      "url": "https://www.tcgplayer.com/product/715838?Language=English&Printing=Rainbow+Foil"
+    },
+    "GEM199-Extended Art": {
+      "productId": "",
+      "url": ""
+    },
+    "GEM199-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "malignant-migration-yellow": {
+    "IAR076": {
+      "productId": "715839",
+      "url": "https://www.tcgplayer.com/product/715839?Language=English&Printing=Normal"
+    },
+    "IAR076-Rainbow": {
+      "productId": "715839",
+      "url": "https://www.tcgplayer.com/product/715839?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "man-overboard-red": {
     "GEM126-Extended Art": {
       "productId": "678616",
@@ -4383,6 +5935,26 @@
     "AJV011": {
       "productId": "",
       "url": ""
+    }
+  },
+  "mark-of-neverest-blue": {
+    "IAR066": {
+      "productId": "715829",
+      "url": "https://www.tcgplayer.com/product/715829?Language=English&Printing=Normal"
+    },
+    "IAR066-Rainbow": {
+      "productId": "715829",
+      "url": "https://www.tcgplayer.com/product/715829?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "mark-of-pathstone-blue": {
+    "IAR067": {
+      "productId": "715830",
+      "url": "https://www.tcgplayer.com/product/715830?Language=English&Printing=Normal"
+    },
+    "IAR067-Rainbow": {
+      "productId": "715830",
+      "url": "https://www.tcgplayer.com/product/715830?Language=English&Printing=Rainbow+Foil"
     }
   },
   "mark-of-the-black-widow-red": {
@@ -4413,6 +5985,20 @@
     "LGS375-Rainbow": {
       "productId": "618266",
       "url": "https://www.tcgplayer.com/product/618266?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "mark-of-ushering-blue": {
+    "IAR068": {
+      "productId": "715831",
+      "url": "https://www.tcgplayer.com/product/715831?Language=English&Printing=Normal"
+    },
+    "IAR068-Rainbow": {
+      "productId": "715831",
+      "url": "https://www.tcgplayer.com/product/715831?Language=English&Printing=Rainbow+Foil"
+    },
+    "AMA028": {
+      "productId": "716150",
+      "url": "https://www.tcgplayer.com/product/716150?Language=English&Printing=Normal"
     }
   },
   "marked": {
@@ -4569,6 +6155,12 @@
       "url": "https://www.tcgplayer.com/product/618264?Language=English&Printing=Cold+Foil"
     }
   },
+  "minerva-themis": {
+    "GEM219-Cold-Full Art": {
+      "productId": "",
+      "url": ""
+    }
+  },
   "miraging-metamorph-red": {
     "AZS010": {
       "productId": "694852",
@@ -4645,6 +6237,76 @@
       "url": "https://www.tcgplayer.com/product/695974?Language=English&Printing=Normal"
     }
   },
+  "murmur-of-iarathael-red": {
+    "IAR230": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR230-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "murmuring-gloomblade-blue": {
+    "IAR134": {
+      "productId": "715852",
+      "url": "https://www.tcgplayer.com/product/715852?Language=English&Printing=Normal"
+    },
+    "IAR134-Rainbow": {
+      "productId": "715852",
+      "url": "https://www.tcgplayer.com/product/715852?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "murmuring-gloomblade-red": {
+    "IAR132": {
+      "productId": "715850",
+      "url": "https://www.tcgplayer.com/product/715850?Language=English&Printing=Normal"
+    },
+    "IAR132-Rainbow": {
+      "productId": "715850",
+      "url": "https://www.tcgplayer.com/product/715850?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "murmuring-gloomblade-yellow": {
+    "IAR133": {
+      "productId": "715851",
+      "url": "https://www.tcgplayer.com/product/715851?Language=English&Printing=Normal"
+    },
+    "IAR133-Rainbow": {
+      "productId": "715851",
+      "url": "https://www.tcgplayer.com/product/715851?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "mutual-sacrifice-blue": {
+    "IAR105": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR105-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "mutual-sacrifice-red": {
+    "IAR103": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR103-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "mutual-sacrifice-yellow": {
+    "IAR104": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR104-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
   "nebula-blade": {
     "AVS002": {
       "productId": "648203",
@@ -4661,6 +6323,14 @@
     "AAC028": {
       "productId": "668381",
       "url": "https://www.tcgplayer.com/product/668381?Language=English&Printing=Normal"
+    },
+    "GEM210-Extended Art": {
+      "productId": "",
+      "url": ""
+    },
+    "GEM210-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "nimblism-red": {
@@ -4885,10 +6555,62 @@
       "url": "https://www.tcgplayer.com/product/705056?Language=English&Printing=Cold+Foil"
     }
   },
+  "ominous-toll-blue": {
+    "IAR080": {
+      "productId": "715843",
+      "url": "https://www.tcgplayer.com/product/715843?Language=English&Printing=Normal"
+    },
+    "IAR080-Rainbow": {
+      "productId": "715843",
+      "url": "https://www.tcgplayer.com/product/715843?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "ominous-toll-red": {
+    "IAR078": {
+      "productId": "715841",
+      "url": "https://www.tcgplayer.com/product/715841?Language=English&Printing=Normal"
+    },
+    "IAR078-Rainbow": {
+      "productId": "715841",
+      "url": "https://www.tcgplayer.com/product/715841?Language=English&Printing=Rainbow+Foil"
+    },
+    "AMA007": {
+      "productId": "716131",
+      "url": "https://www.tcgplayer.com/product/716131?Language=English&Printing=Normal"
+    },
+    "GEM198-Extended Art": {
+      "productId": "714491",
+      "url": "https://www.tcgplayer.com/product/714491?Language=English&Printing=Normal"
+    },
+    "GEM198-Rainbow-Extended Art": {
+      "productId": "714491",
+      "url": "https://www.tcgplayer.com/product/714491?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "ominous-toll-yellow": {
+    "IAR079": {
+      "productId": "715842",
+      "url": "https://www.tcgplayer.com/product/715842?Language=English&Printing=Normal"
+    },
+    "IAR079-Rainbow": {
+      "productId": "715842",
+      "url": "https://www.tcgplayer.com/product/715842?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "open-the-flood-gates-blue": {
     "SBZ029": {
       "productId": "695820",
       "url": "https://www.tcgplayer.com/product/695820?Language=English&Printing=Normal"
+    }
+  },
+  "open-the-gate-to-iarathael-red": {
+    "IAR166": {
+      "productId": "706724",
+      "url": "https://www.tcgplayer.com/product/706724?Language=English&Printing=Normal"
+    },
+    "IAR166-Rainbow": {
+      "productId": "706724",
+      "url": "https://www.tcgplayer.com/product/706724?Language=English&Printing=Rainbow+Foil"
     }
   },
   "orb-weaver-spinneret-red": {
@@ -4905,6 +6627,52 @@
     "HER122-Rainbow": {
       "productId": "584694",
       "url": "https://www.tcgplayer.com/product/584694?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "otherworldly-ossuary-blue": {
+    "AMA022": {
+      "productId": "716144",
+      "url": "https://www.tcgplayer.com/product/716144?Language=English&Printing=Normal"
+    }
+  },
+  "otherworldly-sins-blue": {
+    "IAR143": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR143-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "otherworldly-sins-red": {
+    "IAR141": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR141-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "otherworldly-sins-yellow": {
+    "IAR142": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR142-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "overbear-red": {
+    "GEM217-Extended Art": {
+      "productId": "",
+      "url": ""
+    },
+    "GEM217-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "overcrowded-blue": {
@@ -4959,6 +6727,16 @@
       "url": "https://www.tcgplayer.com/product/648261?Language=English&Printing=Normal"
     }
   },
+  "path-of-repentance": {
+    "IAR163": {
+      "productId": "706720",
+      "url": "https://www.tcgplayer.com/product/706720?Language=English&Printing=Normal"
+    },
+    "IAR163-Cold": {
+      "productId": "707173",
+      "url": "https://www.tcgplayer.com/product/707173?Language=English&Printing=Cold+Foil"
+    }
+  },
   "path-of-same-ends-red": {
     "SBA016": {
       "productId": "695896",
@@ -4973,6 +6751,36 @@
       "url": "https://www.tcgplayer.com/product/696196?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "peak-power-blue": {
+    "IAR043": {
+      "productId": "715807",
+      "url": "https://www.tcgplayer.com/product/715807?Language=English&Printing=Normal"
+    },
+    "IAR043-Rainbow": {
+      "productId": "715807",
+      "url": "https://www.tcgplayer.com/product/715807?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "peak-power-red": {
+    "IAR041": {
+      "productId": "715787",
+      "url": "https://www.tcgplayer.com/product/715787?Language=English&Printing=Normal"
+    },
+    "IAR041-Rainbow": {
+      "productId": "715787",
+      "url": "https://www.tcgplayer.com/product/715787?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "peak-power-yellow": {
+    "IAR042": {
+      "productId": "715806",
+      "url": "https://www.tcgplayer.com/product/715806?Language=English&Printing=Normal"
+    },
+    "IAR042-Rainbow": {
+      "productId": "715806",
+      "url": "https://www.tcgplayer.com/product/715806?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "peg-leg": {
     "LGS395-Rainbow": {
       "productId": "636249",
@@ -4983,6 +6791,36 @@
     "FAB202-Rainbow-Extended Art": {
       "productId": "580619",
       "url": "https://www.tcgplayer.com/product/580619?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "permanent-interment-blue": {
+    "IAR193": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR193-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "permanent-interment-red": {
+    "IAR191": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR191-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "permanent-interment-yellow": {
+    "IAR192": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR192-Rainbow": {
+      "productId": "",
+      "url": ""
     }
   },
   "phantasmal-footsteps": {
@@ -5049,6 +6887,16 @@
       "url": "https://www.tcgplayer.com/product/696187?Language=English&Printing=Cold+Foil"
     }
   },
+  "planar-chaos-red": {
+    "IAR180": {
+      "productId": "714478",
+      "url": "https://www.tcgplayer.com/product/714478?Language=English&Printing=Normal"
+    },
+    "IAR180-Rainbow": {
+      "productId": "714478",
+      "url": "https://www.tcgplayer.com/product/714478?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "pledge-fealty-red": {
     "LGS385-Rainbow-Extended Art": {
       "productId": "624620",
@@ -5091,6 +6939,24 @@
     "FAB257-Gold": {
       "productId": "618762",
       "url": "https://www.tcgplayer.com/product/618762?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "plundersong-gloomblade-red": {
+    "IAR116": {
+      "productId": "714108",
+      "url": "https://www.tcgplayer.com/product/714108?Language=English&Printing=Normal"
+    },
+    "IAR116-Rainbow": {
+      "productId": "714108",
+      "url": "https://www.tcgplayer.com/product/714108?Language=English&Printing=Rainbow+Foil"
+    },
+    "GEM202-Extended Art": {
+      "productId": "",
+      "url": ""
+    },
+    "GEM202-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "poison-the-well-blue": {
@@ -5273,6 +7139,12 @@
       "url": ""
     }
   },
+  "prizeworn-pathfinders": {
+    "GEM187-Cold": {
+      "productId": "",
+      "url": ""
+    }
+  },
   "proclamation-of-abundance": {
     "JDG009-Cold": {
       "productId": "524400",
@@ -5283,6 +7155,16 @@
     "JDG019-Cold": {
       "productId": "555133",
       "url": "https://www.tcgplayer.com/product/555133?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "promise-of-power-yellow": {
+    "IAR122": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR122-Rainbow": {
+      "productId": "",
+      "url": ""
     }
   },
   "promising-terrain-blue": {
@@ -5317,6 +7199,40 @@
     "WIN047-Cold": {
       "productId": "",
       "url": ""
+    }
+  },
+  "pull-from-beyond-blue": {
+    "IAR214": {
+      "productId": "706741",
+      "url": "https://www.tcgplayer.com/product/706741?Language=English&Printing=Normal"
+    },
+    "IAR214-Rainbow": {
+      "productId": "706741",
+      "url": "https://www.tcgplayer.com/product/706741?Language=English&Printing=Rainbow+Foil"
+    },
+    "AMA023": {
+      "productId": "716145",
+      "url": "https://www.tcgplayer.com/product/716145?Language=English&Printing=Normal"
+    }
+  },
+  "pull-from-beyond-red": {
+    "IAR212": {
+      "productId": "706736",
+      "url": "https://www.tcgplayer.com/product/706736?Language=English&Printing=Normal"
+    },
+    "IAR212-Rainbow": {
+      "productId": "706736",
+      "url": "https://www.tcgplayer.com/product/706736?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "pull-from-beyond-yellow": {
+    "IAR213": {
+      "productId": "706738",
+      "url": "https://www.tcgplayer.com/product/706738?Language=English&Printing=Normal"
+    },
+    "IAR213-Rainbow": {
+      "productId": "706738",
+      "url": "https://www.tcgplayer.com/product/706738?Language=English&Printing=Rainbow+Foil"
     }
   },
   "pulsing-aether--life-red": {
@@ -5425,6 +7341,36 @@
       "url": "https://www.tcgplayer.com/product/680623?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "rally-the-shadow-horde-blue": {
+    "IAR173": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR173-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "rally-the-shadow-horde-red": {
+    "IAR171": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR171-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "rally-the-shadow-horde-yellow": {
+    "IAR172": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR172-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
   "rampant-growth--life-yellow": {
     "LGS341-Cold": {
       "productId": "609615",
@@ -5483,6 +7429,16 @@
     "AAC019": {
       "productId": "668387",
       "url": "https://www.tcgplayer.com/product/668387?Language=English&Printing=Normal"
+    }
+  },
+  "reach-of-the-abyss": {
+    "IAR160-Cold": {
+      "productId": "714931",
+      "url": "https://www.tcgplayer.com/product/714931?Language=English&Printing=Cold+Foil"
+    },
+    "IAR160-Rainbow": {
+      "productId": "714931",
+      "url": "https://www.tcgplayer.com/product/714931?Language=English&Printing=Rainbow+Foil"
     }
   },
   "read-the-runes-red": {
@@ -5575,6 +7531,132 @@
       "url": ""
     }
   },
+  "restless-cleric-red": {
+    "IAR084": {
+      "productId": "711440",
+      "url": "https://www.tcgplayer.com/product/711440?Language=English&Printing=Normal"
+    },
+    "IAR084-Cold-Full Art": {
+      "productId": "711441",
+      "url": "https://www.tcgplayer.com/product/711441?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "restless-commander-red": {
+    "AMA014": {
+      "productId": "706916",
+      "url": "https://www.tcgplayer.com/product/706916?Language=English&Printing=Normal"
+    }
+  },
+  "restless-corporal-red": {
+    "IAR085": {
+      "productId": "713245",
+      "url": "https://www.tcgplayer.com/product/713245?Language=English&Printing=Normal"
+    },
+    "IAR085-Cold-Full Art": {
+      "productId": "713271",
+      "url": "https://www.tcgplayer.com/product/713271?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "restless-looter-red": {
+    "IAR063": {
+      "productId": "715781",
+      "url": "https://www.tcgplayer.com/product/715781?Language=English&Printing=Normal"
+    },
+    "IAR063-Cold-Full Art": {
+      "productId": "715783",
+      "url": "https://www.tcgplayer.com/product/715783?Language=English&Printing=Cold+Foil"
+    },
+    "AMA015": {
+      "productId": "716137",
+      "url": "https://www.tcgplayer.com/product/716137?Language=English&Printing=Normal"
+    }
+  },
+  "restless-magister-red": {
+    "IAR064": {
+      "productId": "706673",
+      "url": "https://www.tcgplayer.com/product/706673?Language=English&Printing=Normal"
+    },
+    "IAR064-Cold-Full Art": {
+      "productId": "706675",
+      "url": "https://www.tcgplayer.com/product/706675?Language=English&Printing=Cold+Foil"
+    },
+    "AMA016": {
+      "productId": "716138",
+      "url": "https://www.tcgplayer.com/product/716138?Language=English&Printing=Normal"
+    }
+  },
+  "restless-outlaw-red": {
+    "IAR086": {
+      "productId": "713246",
+      "url": "https://www.tcgplayer.com/product/713246?Language=English&Printing=Normal"
+    },
+    "IAR086-Cold-Full Art": {
+      "productId": "713247",
+      "url": "https://www.tcgplayer.com/product/713247?Language=English&Printing=Cold+Foil"
+    },
+    "AMA017": {
+      "productId": "716139",
+      "url": "https://www.tcgplayer.com/product/716139?Language=English&Printing=Normal"
+    }
+  },
+  "restless-plowman-red": {
+    "IAR087": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR087-Cold-Full Art": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "restless-quartermaster-red": {
+    "IAR065": {
+      "productId": "711438",
+      "url": "https://www.tcgplayer.com/product/711438?Language=English&Printing=Normal"
+    },
+    "IAR065-Cold-Full Art": {
+      "productId": "711439",
+      "url": "https://www.tcgplayer.com/product/711439?Language=English&Printing=Cold+Foil"
+    },
+    "AMA018": {
+      "productId": "716140",
+      "url": "https://www.tcgplayer.com/product/716140?Language=English&Printing=Normal"
+    }
+  },
+  "restless-shieldmaiden-red": {
+    "IAR088": {
+      "productId": "716164",
+      "url": "https://www.tcgplayer.com/product/716164?Language=English&Printing=Normal"
+    },
+    "IAR088-Cold-Full Art": {
+      "productId": "716165",
+      "url": "https://www.tcgplayer.com/product/716165?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "restless-steed-red": {
+    "IAR089": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR089-Cold-Full Art": {
+      "productId": "",
+      "url": ""
+    },
+    "AMA019": {
+      "productId": "716141",
+      "url": "https://www.tcgplayer.com/product/716141?Language=English&Printing=Normal"
+    }
+  },
+  "restless-templar-red": {
+    "IAR059": {
+      "productId": "715778",
+      "url": "https://www.tcgplayer.com/product/715778?Language=English&Printing=Normal"
+    },
+    "IAR059-Cold-Full Art": {
+      "productId": "715780",
+      "url": "https://www.tcgplayer.com/product/715780?Language=English&Printing=Cold+Foil"
+    }
+  },
   "restvine-elixir-red": {
     "FAB435-Cold": {
       "productId": "704964",
@@ -5635,10 +7717,54 @@
       "url": "https://www.tcgplayer.com/product/676668?Language=English&Printing=Normal"
     }
   },
+  "rise-to-the-challenge-blue": {
+    "IAR052": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR052-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "rise-to-the-challenge-red": {
+    "IAR050": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR050-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "rise-to-the-challenge-yellow": {
+    "IAR051": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR051-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
   "rising-sun-setting-moon-blue": {
     "ZEN026": {
       "productId": "685558",
       "url": "https://www.tcgplayer.com/product/685558?Language=English&Printing=Normal"
+    }
+  },
+  "rites-of-nightfall-blue": {
+    "IAR181": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR181-Rainbow": {
+      "productId": "",
+      "url": ""
+    },
+    "AMA024": {
+      "productId": "716146",
+      "url": "https://www.tcgplayer.com/product/716146?Language=English&Printing=Normal"
     }
   },
   "roaring-beam-yellow": {
@@ -5665,6 +7791,46 @@
     "ASR004-Rainbow": {
       "productId": "641617",
       "url": "https://www.tcgplayer.com/product/641617?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "robe-of-repentance": {
+    "IAR162": {
+      "productId": "706718",
+      "url": "https://www.tcgplayer.com/product/706718?Language=English&Printing=Normal"
+    },
+    "IAR162-Cold": {
+      "productId": "707172",
+      "url": "https://www.tcgplayer.com/product/707172?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "rocktop-bellow-blue": {
+    "IAR046": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR046-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "rocktop-bellow-red": {
+    "IAR044": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR044-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "rocktop-bellow-yellow": {
+    "IAR045": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR045-Rainbow": {
+      "productId": "",
+      "url": ""
     }
   },
   "rockyard-rodeo-blue": {
@@ -5717,6 +7883,46 @@
     "LGS331-Rainbow": {
       "productId": "584697",
       "url": "https://www.tcgplayer.com/product/584697?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "rumbling-hunger-blue": {
+    "IAR016": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR016-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "rumbling-hunger-red": {
+    "IAR014": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR014-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "rumbling-hunger-yellow": {
+    "IAR015": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR015-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "rumbling-of-iarathael-red": {
+    "IAR231": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR231-Rainbow": {
+      "productId": "",
+      "url": ""
     }
   },
   "run-roughshod-blue": {
@@ -5777,6 +7983,10 @@
     "GEM178-Rainbow-Extended Art": {
       "productId": "696219",
       "url": "https://www.tcgplayer.com/product/696219?Language=English&Printing=Rainbow+Foil"
+    },
+    "IAR152": {
+      "productId": "706703",
+      "url": "https://www.tcgplayer.com/product/706703?Language=English&Printing=Normal"
     }
   },
   "runechant-of-gluttony-yellow": {
@@ -5787,6 +7997,10 @@
     "GEM179-Rainbow-Extended Art": {
       "productId": "696220",
       "url": "https://www.tcgplayer.com/product/696220?Language=English&Printing=Rainbow+Foil"
+    },
+    "IAR153": {
+      "productId": "706705",
+      "url": "https://www.tcgplayer.com/product/706705?Language=English&Printing=Normal"
     }
   },
   "runechant-of-greed-yellow": {
@@ -5797,6 +8011,10 @@
     "GEM177-Rainbow-Extended Art": {
       "productId": "696218",
       "url": "https://www.tcgplayer.com/product/696218?Language=English&Printing=Rainbow+Foil"
+    },
+    "IAR145": {
+      "productId": "706701",
+      "url": "https://www.tcgplayer.com/product/706701?Language=English&Printing=Normal"
     }
   },
   "runechant-of-lust-yellow": {
@@ -5807,6 +8025,10 @@
     "GEM180-Rainbow-Extended Art": {
       "productId": "696221",
       "url": "https://www.tcgplayer.com/product/696221?Language=English&Printing=Rainbow+Foil"
+    },
+    "IAR154": {
+      "productId": "706707",
+      "url": "https://www.tcgplayer.com/product/706707?Language=English&Printing=Normal"
     }
   },
   "runechant-of-pride-yellow": {
@@ -5817,6 +8039,10 @@
     "GEM181-Rainbow-Extended Art": {
       "productId": "696222",
       "url": "https://www.tcgplayer.com/product/696222?Language=English&Printing=Rainbow+Foil"
+    },
+    "IAR155": {
+      "productId": "706709",
+      "url": "https://www.tcgplayer.com/product/706709?Language=English&Printing=Normal"
     }
   },
   "runechant-of-sloth-yellow": {
@@ -5827,6 +8053,10 @@
     "GEM182-Rainbow-Extended Art": {
       "productId": "696223",
       "url": "https://www.tcgplayer.com/product/696223?Language=English&Printing=Rainbow+Foil"
+    },
+    "IAR156": {
+      "productId": "706711",
+      "url": "https://www.tcgplayer.com/product/706711?Language=English&Printing=Normal"
     }
   },
   "runechant-of-wrath-yellow": {
@@ -5837,6 +8067,10 @@
     "GEM183-Rainbow-Extended Art": {
       "productId": "696224",
       "url": "https://www.tcgplayer.com/product/696224?Language=English&Printing=Rainbow+Foil"
+    },
+    "IAR157": {
+      "productId": "706714",
+      "url": "https://www.tcgplayer.com/product/706714?Language=English&Printing=Normal"
     }
   },
   "runehold-release": {
@@ -5865,6 +8099,76 @@
     "AVS025": {
       "productId": "648232",
       "url": "https://www.tcgplayer.com/product/648232?Language=English&Printing=Normal"
+    }
+  },
+  "runic-disposition-blue": {
+    "IAR148": {
+      "productId": "715854",
+      "url": "https://www.tcgplayer.com/product/715854?Language=English&Printing=Normal"
+    },
+    "IAR148-Rainbow": {
+      "productId": "715854",
+      "url": "https://www.tcgplayer.com/product/715854?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "runic-disposition-red": {
+    "IAR146": {
+      "productId": "714110",
+      "url": "https://www.tcgplayer.com/product/714110?Language=English&Printing=Normal"
+    },
+    "IAR146-Rainbow": {
+      "productId": "714110",
+      "url": "https://www.tcgplayer.com/product/714110?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "runic-disposition-yellow": {
+    "IAR147": {
+      "productId": "715853",
+      "url": "https://www.tcgplayer.com/product/715853?Language=English&Printing=Normal"
+    },
+    "IAR147-Rainbow": {
+      "productId": "715853",
+      "url": "https://www.tcgplayer.com/product/715853?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "runic-reaving-blue": {
+    "IAR151": {
+      "productId": "715857",
+      "url": "https://www.tcgplayer.com/product/715857?Language=English&Printing=Normal"
+    },
+    "IAR151-Rainbow": {
+      "productId": "715857",
+      "url": "https://www.tcgplayer.com/product/715857?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "runic-reaving-red": {
+    "IAR149": {
+      "productId": "715855",
+      "url": "https://www.tcgplayer.com/product/715855?Language=English&Printing=Normal"
+    },
+    "IAR149-Rainbow": {
+      "productId": "715855",
+      "url": "https://www.tcgplayer.com/product/715855?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "runic-reaving-yellow": {
+    "IAR150": {
+      "productId": "715856",
+      "url": "https://www.tcgplayer.com/product/715856?Language=English&Printing=Normal"
+    },
+    "IAR150-Rainbow": {
+      "productId": "715856",
+      "url": "https://www.tcgplayer.com/product/715856?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "rush-of-knowledge-blue": {
+    "IAR252": {
+      "productId": "714483",
+      "url": "https://www.tcgplayer.com/product/714483?Language=English&Printing=Normal"
+    },
+    "IAR252-Rainbow-Extended Art": {
+      "productId": "714484",
+      "url": "https://www.tcgplayer.com/product/714484?Language=English&Printing=Rainbow+Foil"
     }
   },
   "rush-of-power-red": {
@@ -5913,6 +8217,36 @@
     "FAB436-Cold": {
       "productId": "705049",
       "url": "https://www.tcgplayer.com/product/705049?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "satiate-bloodthirst-blue": {
+    "IAR034": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR034-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "satiate-bloodthirst-red": {
+    "IAR032": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR032-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "satiate-bloodthirst-yellow": {
+    "IAR033": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR033-Rainbow": {
+      "productId": "",
+      "url": ""
     }
   },
   "savage-claw": {
@@ -6013,6 +8347,24 @@
       "url": "https://www.tcgplayer.com/product/695900?Language=English&Printing=Normal"
     }
   },
+  "seek-horizon-blue": {
+    "IAR238": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "seek-horizon-red": {
+    "IAR236": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "seek-horizon-yellow": {
+    "IAR237": {
+      "productId": "",
+      "url": ""
+    }
+  },
   "seek-vengeance-red": {
     "ASR012": {
       "productId": "641621",
@@ -6031,6 +8383,14 @@
     "ASR022": {
       "productId": "641622",
       "url": "https://www.tcgplayer.com/product/641622?Language=English&Printing=Normal"
+    },
+    "GEM212-Extended Art": {
+      "productId": "",
+      "url": ""
+    },
+    "GEM212-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "seeker-kunai-red": {
@@ -6079,6 +8439,234 @@
     "CON005-Cold-Alternate Art-Full Art-Back": {
       "productId": "707174",
       "url": "https://www.tcgplayer.com/product/707174?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "seven-sin-nebula": {
+    "IAR108": {
+      "productId": "706687",
+      "url": "https://www.tcgplayer.com/product/706687?Language=English&Printing=Normal"
+    },
+    "GEM185-Cold": {
+      "productId": "706941",
+      "url": "https://www.tcgplayer.com/product/706941?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "shadowake-gloomblade-blue": {
+    "IAR137": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR137-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "shadowake-gloomblade-red": {
+    "IAR135": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR135-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "shadowake-gloomblade-yellow": {
+    "IAR136": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR136-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "shadowrealm-bloodhound-blue": {
+    "IAR196": {
+      "productId": "716178",
+      "url": "https://www.tcgplayer.com/product/716178?Language=English&Printing=Normal"
+    },
+    "IAR196-Rainbow": {
+      "productId": "716178",
+      "url": "https://www.tcgplayer.com/product/716178?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "shadowrealm-bloodhound-red": {
+    "IAR194": {
+      "productId": "716176",
+      "url": "https://www.tcgplayer.com/product/716176?Language=English&Printing=Normal"
+    },
+    "IAR194-Rainbow": {
+      "productId": "716176",
+      "url": "https://www.tcgplayer.com/product/716176?Language=English&Printing=Rainbow+Foil"
+    },
+    "GEM206-Extended Art": {
+      "productId": "",
+      "url": ""
+    },
+    "GEM206-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "shadowrealm-bloodhound-yellow": {
+    "IAR195": {
+      "productId": "716177",
+      "url": "https://www.tcgplayer.com/product/716177?Language=English&Printing=Normal"
+    },
+    "IAR195-Rainbow": {
+      "productId": "716177",
+      "url": "https://www.tcgplayer.com/product/716177?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "shadowrealm-harrower-blue": {
+    "IAR174": {
+      "productId": "706726",
+      "url": "https://www.tcgplayer.com/product/706726?Language=English&Printing=Normal"
+    },
+    "IAR174-Rainbow": {
+      "productId": "706726",
+      "url": "https://www.tcgplayer.com/product/706726?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "shadowrealm-harvester-red": {
+    "IAR175": {
+      "productId": "706728",
+      "url": "https://www.tcgplayer.com/product/706728?Language=English&Printing=Normal"
+    },
+    "IAR175-Rainbow": {
+      "productId": "706728",
+      "url": "https://www.tcgplayer.com/product/706728?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "shadowrealm-reaper-yellow": {
+    "IAR176": {
+      "productId": "706731",
+      "url": "https://www.tcgplayer.com/product/706731?Language=English&Printing=Normal"
+    },
+    "IAR176-Rainbow": {
+      "productId": "706731",
+      "url": "https://www.tcgplayer.com/product/706731?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "shadowrealm-ripper-blue": {
+    "IAR199": {
+      "productId": "716181",
+      "url": "https://www.tcgplayer.com/product/716181?Language=English&Printing=Normal"
+    },
+    "IAR199-Rainbow": {
+      "productId": "716181",
+      "url": "https://www.tcgplayer.com/product/716181?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "shadowrealm-ripper-red": {
+    "IAR197": {
+      "productId": "716179",
+      "url": "https://www.tcgplayer.com/product/716179?Language=English&Printing=Normal"
+    },
+    "IAR197-Rainbow": {
+      "productId": "716179",
+      "url": "https://www.tcgplayer.com/product/716179?Language=English&Printing=Rainbow+Foil"
+    },
+    "GEM207-Extended Art": {
+      "productId": "",
+      "url": ""
+    },
+    "GEM207-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "shadowrealm-ripper-yellow": {
+    "IAR198": {
+      "productId": "716180",
+      "url": "https://www.tcgplayer.com/product/716180?Language=English&Printing=Normal"
+    },
+    "IAR198-Rainbow": {
+      "productId": "716180",
+      "url": "https://www.tcgplayer.com/product/716180?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "shadowrealm-solace-blue": {
+    "IAR081": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR081-Rainbow": {
+      "productId": "",
+      "url": ""
+    },
+    "AMA025": {
+      "productId": "716147",
+      "url": "https://www.tcgplayer.com/product/716147?Language=English&Printing=Normal"
+    }
+  },
+  "shadowrealm-strength-blue": {
+    "AMA026": {
+      "productId": "716148",
+      "url": "https://www.tcgplayer.com/product/716148?Language=English&Printing=Normal"
+    }
+  },
+  "shadowrealm-strength-red": {
+    "IAR082": {
+      "productId": "712754",
+      "url": "https://www.tcgplayer.com/product/712754?Language=English&Printing=Normal"
+    },
+    "IAR082-Rainbow": {
+      "productId": "712754",
+      "url": "https://www.tcgplayer.com/product/712754?Language=English&Printing=Rainbow+Foil"
+    },
+    "AMA012": {
+      "productId": "716135",
+      "url": "https://www.tcgplayer.com/product/716135?Language=English&Printing=Normal"
+    }
+  },
+  "shadowrealm-swiftness-yellow": {
+    "IAR083": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR083-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "shadowrealm-walker-blue": {
+    "IAR202": {
+      "productId": "716184",
+      "url": "https://www.tcgplayer.com/product/716184?Language=English&Printing=Normal"
+    },
+    "IAR202-Rainbow": {
+      "productId": "716184",
+      "url": "https://www.tcgplayer.com/product/716184?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "shadowrealm-walker-red": {
+    "IAR200": {
+      "productId": "716182",
+      "url": "https://www.tcgplayer.com/product/716182?Language=English&Printing=Normal"
+    },
+    "IAR200-Rainbow": {
+      "productId": "716182",
+      "url": "https://www.tcgplayer.com/product/716182?Language=English&Printing=Rainbow+Foil"
+    },
+    "GEM208-Extended Art": {
+      "productId": "",
+      "url": ""
+    },
+    "GEM208-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "shadowrealm-walker-yellow": {
+    "IAR201": {
+      "productId": "716183",
+      "url": "https://www.tcgplayer.com/product/716183?Language=English&Printing=Normal"
+    },
+    "IAR201-Rainbow": {
+      "productId": "716183",
+      "url": "https://www.tcgplayer.com/product/716183?Language=English&Printing=Rainbow+Foil"
     }
   },
   "shallow-water-shark-harpoon-yellow": {
@@ -6351,6 +8939,16 @@
       "url": "https://www.tcgplayer.com/product/584703?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "sigil-of-the-muse-red": {
+    "IAR249": {
+      "productId": "714487",
+      "url": "https://www.tcgplayer.com/product/714487?Language=English&Printing=Normal"
+    },
+    "IAR249-Rainbow": {
+      "productId": "714487",
+      "url": "https://www.tcgplayer.com/product/714487?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "silver": {
     "ARK027": {
       "productId": "617951",
@@ -6381,6 +8979,20 @@
     "FAB359-Rainbow-Alternate Art-Extended Art": {
       "productId": "672195",
       "url": "https://www.tcgplayer.com/product/672195?Language=English&Printing=Rainbow+Foil"
+    },
+    "AMA008": {
+      "productId": "716132",
+      "url": "https://www.tcgplayer.com/product/716132?Language=English&Printing=Normal"
+    }
+  },
+  "sinspeaker-gloomblade-red": {
+    "IAR112": {
+      "productId": "706693",
+      "url": "https://www.tcgplayer.com/product/706693?Language=English&Printing=Normal"
+    },
+    "IAR112-Rainbow": {
+      "productId": "706693",
+      "url": "https://www.tcgplayer.com/product/706693?Language=English&Printing=Rainbow+Foil"
     }
   },
   "sizzle-red": {
@@ -6395,6 +9007,44 @@
     "FAB274-Rainbow": {
       "productId": "584726",
       "url": "https://www.tcgplayer.com/product/584726?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "skeletal-puppetry-blue": {
+    "IAR096": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR096-Rainbow": {
+      "productId": "",
+      "url": ""
+    },
+    "AMA027": {
+      "productId": "716149",
+      "url": "https://www.tcgplayer.com/product/716149?Language=English&Printing=Normal"
+    }
+  },
+  "skeletal-puppetry-red": {
+    "IAR094": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR094-Rainbow": {
+      "productId": "",
+      "url": ""
+    },
+    "AMA013": {
+      "productId": "716136",
+      "url": "https://www.tcgplayer.com/product/716136?Language=English&Printing=Normal"
+    }
+  },
+  "skeletal-puppetry-yellow": {
+    "IAR095": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR095-Rainbow": {
+      "productId": "",
+      "url": ""
     }
   },
   "skullhorn": {
@@ -6533,6 +9183,32 @@
     "AVS019": {
       "productId": "648226",
       "url": "https://www.tcgplayer.com/product/648226?Language=English&Printing=Normal"
+    }
+  },
+  "sonata-dystopia-blue": {
+    "IAR144": {
+      "productId": "714107",
+      "url": "https://www.tcgplayer.com/product/714107?Language=English&Printing=Normal"
+    },
+    "IAR144-Rainbow": {
+      "productId": "714107",
+      "url": "https://www.tcgplayer.com/product/714107?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "soul-harvest-blue": {
+    "GEM190-Cold-Alternate Art-Full Art": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "soul-of-existence-purple": {
+    "IAR000-Rainbow": {
+      "productId": "706637",
+      "url": "https://www.tcgplayer.com/product/706637?Language=English&Printing=Rainbow+Foil"
+    },
+    "IAR666-Cold-Full Art": {
+      "productId": "706749",
+      "url": "https://www.tcgplayer.com/product/706749?Language=English&Printing=Cold+Foil"
     }
   },
   "soul-shield-yellow": {
@@ -6859,6 +9535,36 @@
       "url": "https://www.tcgplayer.com/product/596246?Language=English&Printing=Normal"
     }
   },
+  "step-through-realms-blue": {
+    "IAR217": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR217-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "step-through-realms-red": {
+    "IAR215": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR215-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "step-through-realms-yellow": {
+    "IAR216": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR216-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
   "sticky-fingers": {
     "JDG045-Cold-Full Art": {
       "productId": "",
@@ -6873,6 +9579,16 @@
     "GEM153-Rainbow-Extended Art": {
       "productId": "696194",
       "url": "https://www.tcgplayer.com/product/696194?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "stoke-vengeance-red": {
+    "IAR245": {
+      "productId": "714479",
+      "url": "https://www.tcgplayer.com/product/714479?Language=English&Printing=Normal"
+    },
+    "IAR245-Rainbow": {
+      "productId": "714479",
+      "url": "https://www.tcgplayer.com/product/714479?Language=English&Printing=Rainbow+Foil"
     }
   },
   "stonewall-gauntlet": {
@@ -7187,6 +9903,10 @@
     "LGS391-Cold-Full Art": {
       "productId": "618317",
       "url": "https://www.tcgplayer.com/product/618317?Language=English&Printing=Cold+Foil"
+    },
+    "GEM218-Cold-Full Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "the-librarian-magister-of-history": {
@@ -7309,6 +10029,16 @@
       "url": "https://www.tcgplayer.com/product/692549?Language=English&Printing=Cold+Foil"
     }
   },
+  "tome-of-necrosis-red": {
+    "IAR092": {
+      "productId": "715785",
+      "url": "https://www.tcgplayer.com/product/715785?Language=English&Printing=Normal"
+    },
+    "IAR092-Rainbow": {
+      "productId": "715785",
+      "url": "https://www.tcgplayer.com/product/715785?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "tome-of-the-arknight-blue": {
     "AVS029": {
       "productId": "648236",
@@ -7391,6 +10121,22 @@
     "FAB340-Cold-Full Art-Back": {
       "productId": "648471",
       "url": "https://www.tcgplayer.com/product/648471?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "tremor-of-iarathael-red": {
+    "IAR232": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "tribute-to-greater-power-red": {
+    "IAR177": {
+      "productId": "711530",
+      "url": "https://www.tcgplayer.com/product/711530?Language=English&Printing=Normal"
+    },
+    "IAR177-Rainbow": {
+      "productId": "711530",
+      "url": "https://www.tcgplayer.com/product/711530?Language=English&Printing=Rainbow+Foil"
     }
   },
   "tricorn-of-saltwater-death": {
@@ -7489,6 +10235,22 @@
       "url": ""
     }
   },
+  "unbound-by-shadow-red": {
+    "IAR178": {
+      "productId": "706733",
+      "url": "https://www.tcgplayer.com/product/706733?Language=English&Printing=Normal"
+    },
+    "IAR178-Rainbow": {
+      "productId": "706733",
+      "url": "https://www.tcgplayer.com/product/706733?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "undead-grasp": {
+    "AMA005-Rainbow": {
+      "productId": "706913",
+      "url": "https://www.tcgplayer.com/product/706913?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "undercover-acquisition-red": {
     "AAC018": {
       "productId": "668400",
@@ -7529,6 +10291,16 @@
       "url": "https://www.tcgplayer.com/product/656571?Language=English&Printing=Cold+Foil"
     }
   },
+  "usurp-the-shadow-throne-blue": {
+    "IAR110": {
+      "productId": "711437",
+      "url": "https://www.tcgplayer.com/product/711437?Language=English&Printing=Normal"
+    },
+    "IAR110-Cold-Full Art": {
+      "productId": "711436",
+      "url": "https://www.tcgplayer.com/product/711436?Language=English&Printing=Cold+Foil"
+    }
+  },
   "uzuri-switchblade": {
     "WIN021-Cold": {
       "productId": "",
@@ -7539,6 +10311,10 @@
     "SBL030": {
       "productId": "695944",
       "url": "https://www.tcgplayer.com/product/695944?Language=English&Printing=Normal"
+    },
+    "GEM189-Cold-Alternate Art-Full Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "valahai-riven-yellow": {
@@ -7587,6 +10363,36 @@
     "HER121-Rainbow": {
       "productId": "584693",
       "url": "https://www.tcgplayer.com/product/584693?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "vexing-gloomblade-blue": {
+    "IAR119": {
+      "productId": "712758",
+      "url": "https://www.tcgplayer.com/product/712758?Language=English&Printing=Normal"
+    },
+    "IAR119-Rainbow": {
+      "productId": "712758",
+      "url": "https://www.tcgplayer.com/product/712758?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "vexing-gloomblade-red": {
+    "IAR117": {
+      "productId": "711526",
+      "url": "https://www.tcgplayer.com/product/711526?Language=English&Printing=Normal"
+    },
+    "IAR117-Rainbow": {
+      "productId": "711526",
+      "url": "https://www.tcgplayer.com/product/711526?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "vexing-gloomblade-yellow": {
+    "IAR118": {
+      "productId": "712757",
+      "url": "https://www.tcgplayer.com/product/712757?Language=English&Printing=Normal"
+    },
+    "IAR118-Rainbow": {
+      "productId": "712757",
+      "url": "https://www.tcgplayer.com/product/712757?Language=English&Printing=Rainbow+Foil"
     }
   },
   "vexing-quillhand": {
@@ -7641,10 +10447,30 @@
       "url": "https://www.tcgplayer.com/product/654192?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "violent-gusto-red": {
+    "IAR228": {
+      "productId": "715695",
+      "url": "https://www.tcgplayer.com/product/715695?Language=English&Printing=Normal"
+    },
+    "IAR228-Rainbow": {
+      "productId": "715695",
+      "url": "https://www.tcgplayer.com/product/715695?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "viserai": {
     "HER068-Cold": {
       "productId": "605496",
       "url": "https://www.tcgplayer.com/product/605496?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "viserai-between-worlds": {
+    "IAR107": {
+      "productId": "706683",
+      "url": "https://www.tcgplayer.com/product/706683?Language=English&Printing=Normal"
+    },
+    "IAR107-Cold-Full Art": {
+      "productId": "706685",
+      "url": "https://www.tcgplayer.com/product/706685?Language=English&Printing=Cold+Foil"
     }
   },
   "viserai-rune-blood": {
@@ -7661,10 +10487,68 @@
       "url": "https://www.tcgplayer.com/product/585032?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "viserai-the-forsaken": {
+    "IAR106": {
+      "productId": "706680",
+      "url": "https://www.tcgplayer.com/product/706680?Language=English&Printing=Normal"
+    },
+    "IAR106-Cold-Full Art": {
+      "productId": "706681",
+      "url": "https://www.tcgplayer.com/product/706681?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "viserai-usurper": {
+    "IAR106-Back": {
+      "productId": "706680",
+      "url": "https://www.tcgplayer.com/product/706680?Language=English&Printing=Normal"
+    },
+    "IAR107-Back": {
+      "productId": "706683",
+      "url": "https://www.tcgplayer.com/product/706683?Language=English&Printing=Normal"
+    },
+    "IAR106-Cold-Full Art-Back": {
+      "productId": "706681",
+      "url": "https://www.tcgplayer.com/product/706681?Language=English&Printing=Cold+Foil"
+    },
+    "IAR107-Cold-Full Art-Back": {
+      "productId": "706685",
+      "url": "https://www.tcgplayer.com/product/706685?Language=English&Printing=Cold+Foil"
+    }
+  },
   "visit-the-dawnsmith-blue": {
     "AHA026": {
       "productId": "688765",
       "url": "https://www.tcgplayer.com/product/688765?Language=English&Printing=Normal"
+    }
+  },
+  "void-wraith-blue": {
+    "IAR205": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR205-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "void-wraith-red": {
+    "IAR203": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR203-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "void-wraith-yellow": {
+    "IAR204": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR204-Rainbow": {
+      "productId": "",
+      "url": ""
     }
   },
   "voltbound-duality-red": {
@@ -7701,6 +10585,20 @@
     "LGS334-Rainbow": {
       "productId": "584700",
       "url": "https://www.tcgplayer.com/product/584700?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "vox-necropolis": {
+    "IAR055": {
+      "productId": "706664",
+      "url": "https://www.tcgplayer.com/product/706664?Language=English&Printing=Normal"
+    },
+    "AMA002-Rainbow": {
+      "productId": "706911",
+      "url": "https://www.tcgplayer.com/product/706911?Language=English&Printing=Rainbow+Foil"
+    },
+    "GEM186-Cold": {
+      "productId": "714489",
+      "url": "https://www.tcgplayer.com/product/714489?Language=English&Printing=Cold+Foil"
     }
   },
   "vynnset-iron-maiden": {
@@ -7853,6 +10751,36 @@
       "url": "https://www.tcgplayer.com/product/695823?Language=English&Printing=Normal"
     }
   },
+  "whispers-within-blue": {
+    "IAR241": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR241-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "whispers-within-red": {
+    "IAR239": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR239-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "whispers-within-yellow": {
+    "IAR240": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR240-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
   "wild-ride-red": {
     "TNP001-Cold-Full Art": {
       "productId": "692575",
@@ -7869,6 +10797,16 @@
     "TNP003-Cold-Full Art": {
       "productId": "692577",
       "url": "https://www.tcgplayer.com/product/692577?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "wind-slicer-blue": {
+    "IAR246": {
+      "productId": "",
+      "url": ""
+    },
+    "IAR246-Cold": {
+      "productId": "",
+      "url": ""
     }
   },
   "wind-up-the-crowd-blue": {
