@@ -21950,7 +21950,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
       image: "ROS008-MVA",
       
       
-      print: "ROS008-Cold-Alternate Art",
+      print: "ROS008-Cold-Alternate Art-A",
       rarity: Rarity.Marvel,
       set: Release.Rosetta,
       tcgplayer: {
@@ -21980,7 +21980,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
       image: "ROS008-MVA_BACK",
       
       
-      print: "ROS008-Cold-Alternate Art-Full Art-Back-V3",
+      print: "ROS008-Cold-Alternate Art-Full Art-Back-A",
       rarity: Rarity.Marvel,
       set: Release.Rosetta,
       tcgplayer: {
@@ -100339,7 +100339,7 @@ When this hits a hero, banish all cards in their arsenal.
   
   
   },{
-    artists: ["Carlos Cruchaga","Jefrey Yonathan","Ramza Ardyputra"],
+    artists: ["Carlos Cruchaga","Jefrey Yonathan","Ramza Ardyputra","Sebastian Giacobino"],
     cardIdentifier: "corrupted-corpse",
     classes: [Class.Necromancer],
     defaultImage: "AMA029",
@@ -100393,13 +100393,133 @@ When this hits a hero, banish all cards in their arsenal.
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },{
+        artists: ["Sebastian Giacobino"],
+      foiling: Foiling.Cold,
+      identifier: "FAB514",
+      image: "FAB514-MVA",
+      
+      
+      print: "FAB514-Cold-Alternate Art-Full Art-A",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+    },{
+        artists: ["Sebastian Giacobino"],
+      foiling: Foiling.Cold,
+      identifier: "FAB514",
+      image: "FAB514-MVB",
+      
+      
+      print: "FAB514-Cold-Alternate Art-Full Art-B",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+    },{
+        artists: ["Sebastian Giacobino"],
+      foiling: Foiling.Cold,
+      identifier: "FAB514",
+      image: "FAB514-MVC",
+      
+      
+      print: "FAB514-Cold-Alternate Art-Full Art-C",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+    },{
+        artists: ["Sebastian Giacobino"],
+      foiling: Foiling.Cold,
+      identifier: "FAB514",
+      image: "FAB514-MVD",
+      
+      
+      print: "FAB514-Cold-Alternate Art-Full Art-D",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+    },{
+        artists: ["Sebastian Giacobino"],
+      foiling: Foiling.Cold,
+      identifier: "FAB514",
+      image: "FAB514-MVE",
+      
+      
+      print: "FAB514-Cold-Alternate Art-Full Art-E",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+    },{
+        artists: ["Sebastian Giacobino"],
+      foiling: Foiling.Cold,
+      identifier: "FAB514",
+      image: "FAB514-MVF",
+      
+      
+      print: "FAB514-Cold-Alternate Art-Full Art-F",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+    },{
+        artists: ["Sebastian Giacobino"],
+      foiling: Foiling.Cold,
+      identifier: "FAB514",
+      image: "FAB514-MVG",
+      
+      
+      print: "FAB514-Cold-Alternate Art-Full Art-G",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+    },{
+        artists: ["Sebastian Giacobino"],
+      foiling: Foiling.Cold,
+      identifier: "FAB514",
+      image: "FAB514-MVH",
+      
+      
+      print: "FAB514-Cold-Alternate Art-Full Art-H",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+    },{
+        artists: ["Sebastian Giacobino"],
+      foiling: Foiling.Cold,
+      identifier: "FAB514",
+      image: "FAB514-MVI",
+      
+      
+      print: "FAB514-Cold-Alternate Art-Full Art-I",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+    },{
+        artists: ["Sebastian Giacobino"],
+      foiling: Foiling.Cold,
+      identifier: "FAB514",
+      image: "FAB514-MVJ",
+      
+      
+      print: "FAB514-Cold-Alternate Art-Full Art-J",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+    },{
         artists: ["Ramza Ardyputra"],
       foiling: Foiling.Rainbow,
       identifier: "FAB506",
       image: "KO_FAB506-MVA",
       
       
-      print: "FAB506-Rainbow-Alternate Art-Full Art",
+      print: "FAB506-Rainbow-Alternate Art-Full Art-A",
       rarity: Rarity.Promo,
       set: Release.Promos,
       
@@ -100411,7 +100531,7 @@ When this hits a hero, banish all cards in their arsenal.
       image: "KO_FAB506-MVB",
       
       
-      print: "FAB506-Rainbow-Alternate Art-Full Art-V2",
+      print: "FAB506-Rainbow-Alternate Art-Full Art-B",
       rarity: Rarity.Promo,
       set: Release.Promos,
       
@@ -100423,7 +100543,7 @@ When this hits a hero, banish all cards in their arsenal.
       image: "KO_FAB506-MVC",
       
       
-      print: "FAB506-Rainbow-Alternate Art-Full Art-V3",
+      print: "FAB506-Rainbow-Alternate Art-Full Art-C",
       rarity: Rarity.Promo,
       set: Release.Promos,
       
@@ -100431,9 +100551,9 @@ When this hits a hero, banish all cards in their arsenal.
     },],
     rarities: [Rarity.Basic,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["AMA029","FAB506","IAR090"],
+    setIdentifiers: ["AMA029","FAB506","FAB514","IAR090"],
     sets: [Release.ArmoryDeckMalice,Release.Promos,Release.UsurpTheShadowThrone],
-    specialImage: "IAR090-RF",
+    specialImage: "FAB514-MVJ",
     subtypes: [Subtype.Ally,Subtype.NonAttack,Subtype.Zombie],
     types: [Type.Action],
     typeText: "Shadow Necromancer Action - Zombie Ally",
@@ -259094,7 +259214,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
       image: "OMN203-MVB",
       
       
-      print: "OMN203-Cold-Full Art-V2",
+      print: "OMN203-Cold-Full Art-B",
       rarity: Rarity.Marvel,
       set: Release.OmensOfTheThirdAge,
       tcgplayer: {
@@ -259109,7 +259229,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
       image: "OMN203-MVA",
       
       
-      print: "OMN203-Cold-Alternate Art-Full Art",
+      print: "OMN203-Cold-Alternate Art-Full Art-A",
       rarity: Rarity.Marvel,
       set: Release.OmensOfTheThirdAge,
       tcgplayer: {
@@ -259124,7 +259244,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
       image: "OMN203-MVC",
       
       
-      print: "OMN203-Cold-Alternate Art-Full Art-V3",
+      print: "OMN203-Cold-Alternate Art-Full Art-C",
       rarity: Rarity.Marvel,
       set: Release.OmensOfTheThirdAge,
       tcgplayer: {
@@ -259139,7 +259259,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
       image: "FAB470-RFC",
       
       
-      print: "FAB470-Rainbow-Alternate Border-Extended Art-V3",
+      print: "FAB470-Rainbow-Alternate Border-Extended Art-C",
       rarity: Rarity.Promo,
       set: Release.Promos,
       tcgplayer: {
@@ -259154,7 +259274,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
       image: "FAB470-RFA",
       
       
-      print: "FAB470-Rainbow-Alternate Art-Alternate Border-Extended Art",
+      print: "FAB470-Rainbow-Alternate Art-Alternate Border-Extended Art-A",
       rarity: Rarity.Promo,
       set: Release.Promos,
       tcgplayer: {
@@ -259169,7 +259289,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
       image: "FAB470-RFB",
       
       
-      print: "FAB470-Rainbow-Alternate Art-Alternate Border-Extended Art-V2",
+      print: "FAB470-Rainbow-Alternate Art-Alternate Border-Extended Art-B",
       rarity: Rarity.Promo,
       set: Release.Promos,
       tcgplayer: {
@@ -371232,7 +371352,7 @@ At the beginning of your action phase, remove a verse counter from this. If you 
       image: "ROS162-A",
       
       
-      print: "ROS162-Alternate Art",
+      print: "ROS162-Alternate Art-A",
       rarity: Rarity.Token,
       set: Release.Rosetta,
       tcgplayer: {
@@ -371247,7 +371367,7 @@ At the beginning of your action phase, remove a verse counter from this. If you 
       image: "ROS162-B",
       
       
-      print: "ROS162-Alternate Art-V2",
+      print: "ROS162-Alternate Art-B",
       rarity: Rarity.Token,
       set: Release.Rosetta,
       tcgplayer: {
@@ -391150,25 +391270,10 @@ Destroy X target aura tokens.
         artists: ["Asur Misoa"],
       foiling: Foiling.Cold,
       identifier: "MPG112",
-      image: "MPG112-C",
-      
-      
-      print: "MPG112-Cold-Alternate Art-Full Art",
-      rarity: Rarity.Marvel,
-      set: Release.MasteryPackGuardian,
-      tcgplayer: {
-            productId: "647747",
-            url: "https://www.tcgplayer.com/product/647747?Language=English&Printing=Cold+Foil"
-          },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
-    },{
-        artists: ["Asur Misoa"],
-      foiling: Foiling.Cold,
-      identifier: "MPG112",
       image: "MPG112-A",
       
       
-      print: "MPG112-Cold-Alternate Art-Full Art-V2",
+      print: "MPG112-Cold-Alternate Art-Full Art-A",
       rarity: Rarity.Marvel,
       set: Release.MasteryPackGuardian,
       tcgplayer: {
@@ -391183,12 +391288,27 @@ Destroy X target aura tokens.
       image: "MPG112-B",
       
       
-      print: "MPG112-Cold-Alternate Art-Full Art-V3",
+      print: "MPG112-Cold-Alternate Art-Full Art-B",
       rarity: Rarity.Marvel,
       set: Release.MasteryPackGuardian,
       tcgplayer: {
             productId: "647743",
             url: "https://www.tcgplayer.com/product/647743?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+    },{
+        artists: ["Asur Misoa"],
+      foiling: Foiling.Cold,
+      identifier: "MPG112",
+      image: "MPG112-C",
+      
+      
+      print: "MPG112-Cold-Alternate Art-Full Art-C",
+      rarity: Rarity.Marvel,
+      set: Release.MasteryPackGuardian,
+      tcgplayer: {
+            productId: "647747",
+            url: "https://www.tcgplayer.com/product/647747?Language=English&Printing=Cold+Foil"
           },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },{
@@ -391373,7 +391493,7 @@ Destroy X target aura tokens.
     rarity: Rarity.Basic,
     setIdentifiers: ["1HP085","AJV030","BDD019","CRU044","DTD204","ELE212","EVR036","FAB203","MPG112","OLD032","SBR035","SMP034","WTR075"],
     sets: [Release.ArmoryDeckOriginsJarl,Release.BravoDemoDeck,Release.BravoSilverAgeDeck,Release.CrucibleOfWar,Release.DuskTillDawn,Release.Everfest,Release.HistoryPack1,Release.MasteryPackGuardian,Release.OldhimBlitzDeck,Release.Promos,Release.SmashPalace,Release.TalesOfAria,Release.WelcomeToRathe],
-    specialImage: "MPG112-B",
+    specialImage: "MPG112-C",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
     typeText: "Guardian Token - Aura",
@@ -426848,7 +426968,7 @@ If you've **boosted** this turn, draw a card.`,
       image: "MST158-A",
       
       
-      print: "MST158-Alternate Art",
+      print: "MST158-Alternate Art-A",
       rarity: Rarity.Token,
       set: Release.PartTheMistveil,
       tcgplayer: {
@@ -426863,7 +426983,7 @@ If you've **boosted** this turn, draw a card.`,
       image: "MST158-B",
       
       
-      print: "MST158-Alternate Art-V3",
+      print: "MST158-Alternate Art-B",
       rarity: Rarity.Token,
       set: Release.PartTheMistveil,
       tcgplayer: {

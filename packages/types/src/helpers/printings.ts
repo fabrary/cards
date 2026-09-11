@@ -5,27 +5,26 @@ const identifierExtensionMapping: { [key: string]: string } = {
   // [Release.RhinarBlitzDeck]: "-Blitz",
 };
 
-// images mapped to suffixes, used when the set identifier, foiling, and treatments are the same but the images are different
+// A trailing marker that is neither a finish token nor an art letter still
+// needs a suffix of its own. HER146 is shared by kassai-of-the-golden-sand and
+// tuffnut-bumbling-hulkster, so an unsuffixed print collides across the two
+// cards.
 const suffixOverrides: { [key: string]: string } = {
-  "FAB470-RFB": "-V2",
-  "FAB470-RFC": "-V3",
-  "KO_FAB506-MVB": "-V2",
-  "KO_FAB506-MVC": "-V3",
-  "OMN203-MVB": "-V2",
-  "OMN203-MVC": "-V3",
-  "MPG112-A": "-V2",
-  "MPG112-B": "-V3",
-  MPG112_V2: "-V2",
-  MPG112_V3: "-V3",
-  "MST158-B": "-V3",
-  MST158_V3: "-V3",
-  "ROS162-B": "-V2",
-  ROS162_V2: "-V2",
-  "ROS008-MV_V2_BACK": "-V3",
-  "ROS008-MVA_BACK": "-V3",
-  SUP009_V3: "-V3",
-  SUP009_V3_BACK: "-V3",
   "HER146-ARF": "-ARF",
+};
+
+const artLetterMatcher = /-(?:MV|RF|CF)?([A-Z])$/;
+
+const getArtLetterSuffix = (upperCaseImage: string) => {
+  const imageWithoutBackMarker = upperCaseImage.replace(/_BACK$/, "");
+  const artLetter = artLetterMatcher.exec(imageWithoutBackMarker)?.[1];
+
+  let suffix = "";
+  if (artLetter) {
+    suffix = `-${artLetter}`;
+  }
+
+  return suffix;
 };
 
 export const getPrint = (printing: {
@@ -51,7 +50,9 @@ export const getPrint = (printing: {
 
   const back = printing.image?.toLowerCase().includes("back") ? `-Back` : ``;
 
-  const suffix = suffixOverrides[printing.image?.toUpperCase() || ""] || "";
+  const upperCaseImage = printing.image?.toUpperCase() || "";
+  const suffix =
+    suffixOverrides[upperCaseImage] ?? getArtLetterSuffix(upperCaseImage);
 
   return `${identifier}${edition}${foiling}${treatment}${back}${suffix}`;
 };
@@ -109,7 +110,7 @@ const SPECIAL_IMAGE_PRINTING_OVERRIDES: {
     print: "FAB178-Rainbow-Alternate Art-Extended Art",
   },
   "spectral-shield": {
-    print: "MST158-Alternate Art-V3",
+    print: "MST158-Alternate Art-B",
   },
   "tripwire-trap-red": {
     print: "LGS150-Rainbow",
@@ -163,7 +164,6 @@ export const getSpecialPrinting = (
     let alternateText: Printing | undefined;
     let coldExtendedArt: Printing | undefined;
     let coldFullArt: Printing | undefined;
-    let coldFullArt2: Printing | undefined;
     let extendedArt: Printing | undefined;
     let backFullArt: Printing | undefined;
     let frontFullArt: Printing | undefined;
@@ -214,10 +214,6 @@ export const getSpecialPrinting = (
           firstFullArt = printing;
           if (foiling === Foiling.Cold) {
             coldFullArt = printing;
-            if (upperCaseImage.includes("_V3")) {
-              coldFullArt2 = printing;
-              break;
-            }
           }
 
           if (upperCaseImage.includes("BACK")) {
@@ -250,7 +246,7 @@ export const getSpecialPrinting = (
         }
 
         if (
-          (upperCaseImage.includes("_V2") || upperCaseImage.includes("-MV")) &&
+          upperCaseImage.includes("-MV") &&
           treatments?.includes(Treatment.FA)
         ) {
           marvel = printing;
@@ -277,7 +273,6 @@ export const getSpecialPrinting = (
 
     const finalFullArt =
       fullArtAlternateArt ||
-      coldFullArt2 ||
       frontFullArt ||
       backFullArt ||
       coldFullArt ||
@@ -484,7 +479,6 @@ export const getMaxRarityPrinting = (
     let alternateText: Printing | undefined;
     let coldExtendedArt: Printing | undefined;
     let coldFullArt: Printing | undefined;
-    let coldFullArt2: Printing | undefined;
     let extendedArt: Printing | undefined;
     let backFullArt: Printing | undefined;
     let frontFullArt: Printing | undefined;
@@ -527,10 +521,6 @@ export const getMaxRarityPrinting = (
           firstFullArt = printing;
           if (foiling === Foiling.Cold) {
             coldFullArt = printing;
-            if (upperCaseImage.includes("_V3")) {
-              coldFullArt2 = printing;
-              break;
-            }
           }
 
           if (upperCaseImage.includes("BACK")) {
@@ -563,7 +553,7 @@ export const getMaxRarityPrinting = (
         }
 
         if (
-          (upperCaseImage.includes("_V2") || upperCaseImage.includes("-MV")) &&
+          upperCaseImage.includes("-MV") &&
           treatments?.includes(Treatment.FA)
         ) {
           marvel = printing;
@@ -592,7 +582,6 @@ export const getMaxRarityPrinting = (
 
     const finalFullArt =
       fullArtAlternateArt ||
-      coldFullArt2 ||
       frontFullArt ||
       backFullArt ||
       coldFullArt ||
