@@ -989,7 +989,10 @@ When this has no steam counters on it, destroy it.`,
       print: "IAR206",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716595",
+            url: "https://www.tcgplayer.com/product/716595?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Widya Wang"],
@@ -1001,7 +1004,10 @@ When this has no steam counters on it, destroy it.`,
       print: "IAR206-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716595",
+            url: "https://www.tcgplayer.com/product/716595?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -1066,7 +1072,10 @@ Your next Shadow attack this turn gets +1{p}. **Go again**
       print: "IAR207",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716596",
+            url: "https://www.tcgplayer.com/product/716596?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Reza Aswadananta"],
@@ -1078,7 +1087,10 @@ Your next Shadow attack this turn gets +1{p}. **Go again**
       print: "IAR207-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716596",
+            url: "https://www.tcgplayer.com/product/716596?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -1145,7 +1157,10 @@ Your next Shadow attack this turn gets **overpower**.
       print: "IAR208",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716597",
+            url: "https://www.tcgplayer.com/product/716597?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Bramasta Aji"],
@@ -1157,7 +1172,10 @@ Your next Shadow attack this turn gets **overpower**.
       print: "IAR208-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716597",
+            url: "https://www.tcgplayer.com/product/716597?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -27853,7 +27871,10 @@ When this hits a hero, put a steam counter on an item you control with **crank**
       print: "IAR253",
       rarity: Rarity.Majestic,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716617",
+            url: "https://www.tcgplayer.com/product/716617?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Bastien Jez"],
@@ -27865,7 +27886,10 @@ When this hits a hero, put a steam counter on an item you control with **crank**
       print: "IAR253-Rainbow-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716617",
+            url: "https://www.tcgplayer.com/product/716617?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
@@ -44709,7 +44733,10 @@ When Blasmophet attacks, you may banish a Shadow card from your hand. If you do,
       print: "IAR035",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716540",
+            url: "https://www.tcgplayer.com/product/716540?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Raynor Maharsi"],
@@ -44721,7 +44748,10 @@ When Blasmophet attacks, you may banish a Shadow card from your hand. If you do,
       print: "IAR035-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716540",
+            url: "https://www.tcgplayer.com/product/716540?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -56910,7 +56940,10 @@ If you've **charged** this turn, this gets "When this hits, draw a card."`,
       print: "IAR100",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716564",
+            url: "https://www.tcgplayer.com/product/716564?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Tatiana Krstic"],
@@ -56922,7 +56955,10 @@ If you've **charged** this turn, this gets "When this hits, draw a card."`,
       print: "IAR100-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716564",
+            url: "https://www.tcgplayer.com/product/716564?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -56983,7 +57019,10 @@ If you've **charged** this turn, this gets "When this hits, draw a card."`,
       print: "IAR101",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716565",
+            url: "https://www.tcgplayer.com/product/716565?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Tatiana Krstic"],
@@ -56995,7 +57034,10 @@ If you've **charged** this turn, this gets "When this hits, draw a card."`,
       print: "IAR101-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716565",
+            url: "https://www.tcgplayer.com/product/716565?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -57056,7 +57098,10 @@ If you've **charged** this turn, this gets "When this hits, draw a card."`,
       print: "IAR102",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716566",
+            url: "https://www.tcgplayer.com/product/716566?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Tatiana Krstic"],
@@ -57068,7 +57113,10 @@ If you've **charged** this turn, this gets "When this hits, draw a card."`,
       print: "IAR102-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716566",
+            url: "https://www.tcgplayer.com/product/716566?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -89853,7 +89901,10 @@ You may {t} a cog you control. If you do, put this on the bottom of its owner's 
       print: "IAR247",
       rarity: Rarity.Majestic,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716615",
+            url: "https://www.tcgplayer.com/product/716615?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mariusz Gandzel"],
@@ -89865,7 +89916,10 @@ You may {t} a cog you control. If you do, put this on the bottom of its owner's 
       print: "IAR247-Rainbow-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716615",
+            url: "https://www.tcgplayer.com/product/716615?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
@@ -93462,7 +93516,10 @@ Until end of turn, your Warrior attacks get "When this is defended by 1 or more 
       print: "IAR060",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716549",
+            url: "https://www.tcgplayer.com/product/716549?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Isuardi Therianto"],
@@ -93474,7 +93531,10 @@ Until end of turn, your Warrior attacks get "When this is defended by 1 or more 
       print: "IAR060-Rainbow",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716549",
+            url: "https://www.tcgplayer.com/product/716549?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -93537,7 +93597,10 @@ Until end of turn, your Warrior attacks get "When this is defended by 1 or more 
       print: "IAR061",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716550",
+            url: "https://www.tcgplayer.com/product/716550?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Isuardi Therianto"],
@@ -93549,7 +93612,10 @@ Until end of turn, your Warrior attacks get "When this is defended by 1 or more 
       print: "IAR061-Rainbow",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716550",
+            url: "https://www.tcgplayer.com/product/716550?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -93612,7 +93678,10 @@ Until end of turn, your Warrior attacks get "When this is defended by 1 or more 
       print: "IAR062",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716551",
+            url: "https://www.tcgplayer.com/product/716551?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Isuardi Therianto"],
@@ -93624,7 +93693,10 @@ Until end of turn, your Warrior attacks get "When this is defended by 1 or more 
       print: "IAR062-Rainbow",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716551",
+            url: "https://www.tcgplayer.com/product/716551?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -97649,7 +97721,10 @@ Deal 1 arcane damage to any target.`,
       print: "IAR036",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716541",
+            url: "https://www.tcgplayer.com/product/716541?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mariusz Gandzel"],
@@ -97661,7 +97736,10 @@ Deal 1 arcane damage to any target.`,
       print: "IAR036-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716541",
+            url: "https://www.tcgplayer.com/product/716541?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -99785,7 +99863,10 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
       print: "IAR097",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716561",
+            url: "https://www.tcgplayer.com/product/716561?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Julio Sidharta"],
@@ -99797,7 +99878,10 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
       print: "IAR097-Rainbow",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716561",
+            url: "https://www.tcgplayer.com/product/716561?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -99858,7 +99942,10 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
       print: "IAR098",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716562",
+            url: "https://www.tcgplayer.com/product/716562?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Julio Sidharta"],
@@ -99870,7 +99957,10 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
       print: "IAR098-Rainbow",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716562",
+            url: "https://www.tcgplayer.com/product/716562?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -99931,7 +100021,10 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
       print: "IAR099",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716563",
+            url: "https://www.tcgplayer.com/product/716563?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Julio Sidharta"],
@@ -99943,7 +100036,10 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
       print: "IAR099-Rainbow",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716563",
+            url: "https://www.tcgplayer.com/product/716563?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -102786,7 +102882,10 @@ When this defends an attack with {p} greater than its base, remove a +1{p} count
       print: "IAR242-Extended Art",
       rarity: Rarity.Basic,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716613",
+            url: "https://www.tcgplayer.com/product/716613?Language=English&Printing=Normal"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },{
         artists: ["Sam Yang"],
@@ -113330,7 +113429,10 @@ Prevent the next X arcane damage that would be dealt to you this turn, where X i
       print: "IAR226",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716603",
+            url: "https://www.tcgplayer.com/product/716603?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Petrinda Wiyugo"],
@@ -113342,7 +113444,10 @@ Prevent the next X arcane damage that would be dealt to you this turn, where X i
       print: "IAR226-Cold",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716603",
+            url: "https://www.tcgplayer.com/product/716603?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -113403,7 +113508,10 @@ Prevent the next X arcane damage that would be dealt to you this turn, where X i
       print: "IAR224",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716601",
+            url: "https://www.tcgplayer.com/product/716601?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Andi Cahyo W"],
@@ -113415,7 +113523,10 @@ Prevent the next X arcane damage that would be dealt to you this turn, where X i
       print: "IAR224-Cold",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716601",
+            url: "https://www.tcgplayer.com/product/716601?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -113476,7 +113587,10 @@ Prevent the next X arcane damage that would be dealt to you this turn, where X i
       print: "IAR225",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716602",
+            url: "https://www.tcgplayer.com/product/716602?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Galih M"],
@@ -113488,7 +113602,10 @@ Prevent the next X arcane damage that would be dealt to you this turn, where X i
       print: "IAR225-Cold",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716602",
+            url: "https://www.tcgplayer.com/product/716602?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -116746,7 +116863,10 @@ If it has an aim counter, it gets "When this hits a hero, look at their hand and
       print: "IAR243-Rainbow-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "714480",
+            url: "https://www.tcgplayer.com/product/714480?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
@@ -120688,7 +120808,10 @@ When the combat chain closes, you may banish this face-down. If you do, for each
       print: "IAR127",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716571",
+            url: "https://www.tcgplayer.com/product/716571?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Rio Sabda"],
@@ -120700,7 +120823,10 @@ When the combat chain closes, you may banish this face-down. If you do, for each
       print: "IAR127-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716571",
+            url: "https://www.tcgplayer.com/product/716571?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -120765,7 +120891,10 @@ When the combat chain closes, you may banish this face-down. If you do, for each
       print: "IAR128",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716572",
+            url: "https://www.tcgplayer.com/product/716572?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Rio Sabda"],
@@ -120777,7 +120906,10 @@ When the combat chain closes, you may banish this face-down. If you do, for each
       print: "IAR128-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716572",
+            url: "https://www.tcgplayer.com/product/716572?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Rio Sabda"],
@@ -152397,7 +152529,10 @@ Choose 1;
       print: "IAR138",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716576",
+            url: "https://www.tcgplayer.com/product/716576?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Simon Dominic"],
@@ -152409,7 +152544,10 @@ Choose 1;
       print: "IAR138-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716576",
+            url: "https://www.tcgplayer.com/product/716576?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -152474,7 +152612,10 @@ Choose 1;
       print: "IAR139",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716577",
+            url: "https://www.tcgplayer.com/product/716577?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Simon Dominic"],
@@ -152486,7 +152627,10 @@ Choose 1;
       print: "IAR139-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716577",
+            url: "https://www.tcgplayer.com/product/716577?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -152551,7 +152695,10 @@ Choose 1;
       print: "IAR140",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716578",
+            url: "https://www.tcgplayer.com/product/716578?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Simon Dominic"],
@@ -152563,7 +152710,10 @@ Choose 1;
       print: "IAR140-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716578",
+            url: "https://www.tcgplayer.com/product/716578?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -166040,7 +166190,10 @@ Target attack gets +3{p}.`,
       print: "IAR251",
       rarity: Rarity.Majestic,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716616",
+            url: "https://www.tcgplayer.com/product/716616?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Alifka Hammam"],
@@ -166052,7 +166205,10 @@ Target attack gets +3{p}.`,
       print: "IAR251-Rainbow",
       rarity: Rarity.Majestic,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716616",
+            url: "https://www.tcgplayer.com/product/716616?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -166334,7 +166490,10 @@ At the beginning of your end phase, if you haven't created a Fealty token or pla
       print: "IAR023",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716528",
+            url: "https://www.tcgplayer.com/product/716528?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Ilham Bahtiar"],
@@ -166346,7 +166505,10 @@ At the beginning of your end phase, if you haven't created a Fealty token or pla
       print: "IAR023-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716528",
+            url: "https://www.tcgplayer.com/product/716528?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -166411,7 +166573,10 @@ If you've banished a card with 6 or more {p} this turn, this gets +2{p}.
       print: "IAR024",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716529",
+            url: "https://www.tcgplayer.com/product/716529?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Ilham Bahtiar"],
@@ -166423,7 +166588,10 @@ If you've banished a card with 6 or more {p} this turn, this gets +2{p}.
       print: "IAR024-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716529",
+            url: "https://www.tcgplayer.com/product/716529?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -166488,7 +166656,10 @@ If you've banished a card with 6 or more {p} this turn, this gets +2{p}.
       print: "IAR025",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716530",
+            url: "https://www.tcgplayer.com/product/716530?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Ilham Bahtiar"],
@@ -166500,7 +166671,10 @@ If you've banished a card with 6 or more {p} this turn, this gets +2{p}.
       print: "IAR025-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716530",
+            url: "https://www.tcgplayer.com/product/716530?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -166565,7 +166739,10 @@ If you've banished a card with 6 or more {p} this turn, this gets +2{p}.
       print: "IAR026",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716531",
+            url: "https://www.tcgplayer.com/product/716531?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["M Fakhrur Rozzi"],
@@ -166577,7 +166754,10 @@ If you've banished a card with 6 or more {p} this turn, this gets +2{p}.
       print: "IAR026-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716531",
+            url: "https://www.tcgplayer.com/product/716531?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -166642,7 +166822,10 @@ If you've banished a card with 6 or more {p} this turn, this gets **go again**.
       print: "IAR027",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716532",
+            url: "https://www.tcgplayer.com/product/716532?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["M Fakhrur Rozzi"],
@@ -166654,7 +166837,10 @@ If you've banished a card with 6 or more {p} this turn, this gets **go again**.
       print: "IAR027-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716532",
+            url: "https://www.tcgplayer.com/product/716532?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -166719,7 +166905,10 @@ If you've banished a card with 6 or more {p} this turn, this gets **go again**.
       print: "IAR028",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716533",
+            url: "https://www.tcgplayer.com/product/716533?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["M Fakhrur Rozzi"],
@@ -166731,7 +166920,10 @@ If you've banished a card with 6 or more {p} this turn, this gets **go again**.
       print: "IAR028-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716533",
+            url: "https://www.tcgplayer.com/product/716533?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -183956,7 +184148,10 @@ Deal 5 arcane damage to target hero. If this was **fused**, instead deal X arcan
       print: "IAR255",
       rarity: Rarity.Majestic,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716618",
+            url: "https://www.tcgplayer.com/product/716618?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Nailsen Ivanderlie"],
@@ -183968,7 +184163,10 @@ Deal 5 arcane damage to target hero. If this was **fused**, instead deal X arcan
       print: "IAR255-Rainbow",
       rarity: Rarity.Majestic,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716618",
+            url: "https://www.tcgplayer.com/product/716618?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -191746,7 +191944,10 @@ At the beginning of your end phase, remove an energy counter from this and creat
       print: "IAR188",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716586",
+            url: "https://www.tcgplayer.com/product/716586?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Alexandra Malygina"],
@@ -191899,7 +192100,10 @@ At the beginning of your end phase, remove an energy counter from this and creat
       print: "IAR189",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716587",
+            url: "https://www.tcgplayer.com/product/716587?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Alexandra Malygina"],
@@ -192037,7 +192241,10 @@ At the beginning of your end phase, remove an energy counter from this and creat
       print: "IAR190",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716588",
+            url: "https://www.tcgplayer.com/product/716588?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Alexandra Malygina"],
@@ -199336,7 +199543,10 @@ At the start of your turn, destroy this. If another hero drew a card from this, 
       print: "IAR037",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716542",
+            url: "https://www.tcgplayer.com/product/716542?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Farhan Pratama"],
@@ -199348,7 +199558,10 @@ At the start of your turn, destroy this. If another hero drew a card from this, 
       print: "IAR037-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716542",
+            url: "https://www.tcgplayer.com/product/716542?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -199569,7 +199782,10 @@ Draw X cards, where X is 1 plus the number of Gorganian Tomes in all graveyards.
       print: "IAR029",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716534",
+            url: "https://www.tcgplayer.com/product/716534?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Alif Zahrah"],
@@ -199581,7 +199797,10 @@ Draw X cards, where X is 1 plus the number of Gorganian Tomes in all graveyards.
       print: "IAR029-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716534",
+            url: "https://www.tcgplayer.com/product/716534?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -199644,7 +199863,10 @@ Draw X cards, where X is 1 plus the number of Gorganian Tomes in all graveyards.
       print: "IAR030",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716535",
+            url: "https://www.tcgplayer.com/product/716535?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Alif Zahrah"],
@@ -199656,7 +199878,10 @@ Draw X cards, where X is 1 plus the number of Gorganian Tomes in all graveyards.
       print: "IAR030-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716535",
+            url: "https://www.tcgplayer.com/product/716535?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -199719,7 +199944,10 @@ Draw X cards, where X is 1 plus the number of Gorganian Tomes in all graveyards.
       print: "IAR031",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716536",
+            url: "https://www.tcgplayer.com/product/716536?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Alif Zahrah"],
@@ -199731,7 +199959,10 @@ Draw X cards, where X is 1 plus the number of Gorganian Tomes in all graveyards.
       print: "IAR031-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716536",
+            url: "https://www.tcgplayer.com/product/716536?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -213761,7 +213992,10 @@ When the combat chain closes, if you've attacked with this, banish it.
       print: "IAR012",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716523",
+            url: "https://www.tcgplayer.com/product/716523?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -213773,7 +214007,10 @@ When the combat chain closes, if you've attacked with this, banish it.
       print: "IAR012-Rainbow",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716523",
+            url: "https://www.tcgplayer.com/product/716523?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -213836,7 +214073,10 @@ When the combat chain closes, if you've attacked with this, banish it.
       print: "IAR013",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716524",
+            url: "https://www.tcgplayer.com/product/716524?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -213848,7 +214088,10 @@ When the combat chain closes, if you've attacked with this, banish it.
       print: "IAR013-Rainbow",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716524",
+            url: "https://www.tcgplayer.com/product/716524?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -218941,7 +219184,10 @@ Create a Toughness token.
       print: "IAR004-Cold-Extended Art",
       rarity: Rarity.Basic,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "706647",
+            url: "https://www.tcgplayer.com/product/706647?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Basic],
@@ -224119,7 +224365,10 @@ If it has 3 or more +1{p} counters, you may put an attack reaction card from you
       print: "IAR262",
       rarity: Rarity.Majestic,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716619",
+            url: "https://www.tcgplayer.com/product/716619?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Widya Wang"],
@@ -224131,7 +224380,10 @@ If it has 3 or more +1{p} counters, you may put an attack reaction card from you
       print: "IAR262-Rainbow",
       rarity: Rarity.Majestic,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716619",
+            url: "https://www.tcgplayer.com/product/716619?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -284323,7 +284575,10 @@ When this hits, you may banish 3 traps with cost 0 or more from your graveyard f
       print: "IAR230",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716604",
+            url: "https://www.tcgplayer.com/product/716604?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Alexis Susani"],
@@ -284335,7 +284590,10 @@ When this hits, you may banish 3 traps with cost 0 or more from your graveyard f
       print: "IAR230-Rainbow",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716604",
+            url: "https://www.tcgplayer.com/product/716604?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -285146,7 +285404,10 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
       print: "IAR103",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716567",
+            url: "https://www.tcgplayer.com/product/716567?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Asur Misoa"],
@@ -285158,7 +285419,10 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
       print: "IAR103-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716567",
+            url: "https://www.tcgplayer.com/product/716567?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -285219,7 +285483,10 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
       print: "IAR104",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716568",
+            url: "https://www.tcgplayer.com/product/716568?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Asur Misoa"],
@@ -285231,7 +285498,10 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
       print: "IAR104-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716568",
+            url: "https://www.tcgplayer.com/product/716568?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -285292,7 +285562,10 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
       print: "IAR105",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716569",
+            url: "https://www.tcgplayer.com/product/716569?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Asur Misoa"],
@@ -285304,7 +285577,10 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
       print: "IAR105-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716569",
+            url: "https://www.tcgplayer.com/product/716569?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -298711,7 +298987,10 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
       print: "IAR141",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716579",
+            url: "https://www.tcgplayer.com/product/716579?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Tommy Suhartono"],
@@ -298723,7 +299002,10 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
       print: "IAR141-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716579",
+            url: "https://www.tcgplayer.com/product/716579?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Tommy Suhartono"],
@@ -298812,7 +299094,10 @@ Create a Runechant token.
       print: "IAR142",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716580",
+            url: "https://www.tcgplayer.com/product/716580?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Tommy Suhartono"],
@@ -298824,7 +299109,10 @@ Create a Runechant token.
       print: "IAR142-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716580",
+            url: "https://www.tcgplayer.com/product/716580?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -298889,7 +299177,10 @@ Create a Runechant token.
       print: "IAR143",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716581",
+            url: "https://www.tcgplayer.com/product/716581?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Tommy Suhartono"],
@@ -298901,7 +299192,10 @@ Create a Runechant token.
       print: "IAR143-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716581",
+            url: "https://www.tcgplayer.com/product/716581?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -310029,7 +310323,10 @@ You may {u} your hero.
       print: "IAR191",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716589",
+            url: "https://www.tcgplayer.com/product/716589?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Erick Sambora"],
@@ -310041,7 +310338,10 @@ You may {u} your hero.
       print: "IAR191-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716589",
+            url: "https://www.tcgplayer.com/product/716589?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -310104,7 +310404,10 @@ You may {u} your hero.
       print: "IAR192",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716590",
+            url: "https://www.tcgplayer.com/product/716590?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Erick Sambora"],
@@ -310116,7 +310419,10 @@ You may {u} your hero.
       print: "IAR192-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716590",
+            url: "https://www.tcgplayer.com/product/716590?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -310179,7 +310485,10 @@ You may {u} your hero.
       print: "IAR193",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716591",
+            url: "https://www.tcgplayer.com/product/716591?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Erick Sambora"],
@@ -310191,7 +310500,10 @@ You may {u} your hero.
       print: "IAR193-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716591",
+            url: "https://www.tcgplayer.com/product/716591?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -328582,7 +328894,10 @@ If this was played from arsenal, it gets **go again**.`,
       print: "IAR122",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716570",
+            url: "https://www.tcgplayer.com/product/716570?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Isuardi Therianto"],
@@ -328594,7 +328909,10 @@ If this was played from arsenal, it gets **go again**.`,
       print: "IAR122-Rainbow",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716570",
+            url: "https://www.tcgplayer.com/product/716570?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -340300,7 +340618,10 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
       print: "IAR171",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716582",
+            url: "https://www.tcgplayer.com/product/716582?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Marco González"],
@@ -340312,7 +340633,10 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
       print: "IAR171-Rainbow",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716582",
+            url: "https://www.tcgplayer.com/product/716582?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -340375,7 +340699,10 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
       print: "IAR172",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716583",
+            url: "https://www.tcgplayer.com/product/716583?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Marco González"],
@@ -340387,7 +340714,10 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
       print: "IAR172-Rainbow",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716583",
+            url: "https://www.tcgplayer.com/product/716583?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -340450,7 +340780,10 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
       print: "IAR173",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716584",
+            url: "https://www.tcgplayer.com/product/716584?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Marco González"],
@@ -340462,7 +340795,10 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
       print: "IAR173-Rainbow",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716584",
+            url: "https://www.tcgplayer.com/product/716584?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -353878,7 +354214,10 @@ At the start of your turn, destroy this and draw a card.`,
       print: "IAR087",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716554",
+            url: "https://www.tcgplayer.com/product/716554?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Pavel Rtishchev (Klaher)"],
@@ -353890,7 +354229,10 @@ At the start of your turn, destroy this and draw a card.`,
       print: "IAR087-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716555",
+            url: "https://www.tcgplayer.com/product/716555?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel],
@@ -353981,7 +354323,7 @@ At the start of your turn, destroy this and draw a card.`,
       
       
       print: "IAR065-Cold-Full Art",
-      rarity: Rarity.Common,
+      rarity: Rarity.Marvel,
       set: Release.UsurpTheShadowThrone,
       tcgplayer: {
             productId: "711439",
@@ -353989,8 +354331,8 @@ At the start of your turn, destroy this and draw a card.`,
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Common,Rarity.Rare],
-    rarity: Rarity.Common,
+    rarities: [Rarity.Marvel,Rarity.Rare],
+    rarity: Rarity.Rare,
     setIdentifiers: ["AMA018","IAR065"],
     sets: [Release.ArmoryDeckMalice,Release.UsurpTheShadowThrone],
     specialImage: "IAR065-MV",
@@ -354145,7 +354487,10 @@ At the start of your turn, destroy this and draw a card.`,
       print: "IAR089",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716556",
+            url: "https://www.tcgplayer.com/product/716556?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Stormy Elia Fanggidae"],
@@ -354157,7 +354502,10 @@ At the start of your turn, destroy this and draw a card.`,
       print: "IAR089-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716557",
+            url: "https://www.tcgplayer.com/product/716557?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel],
@@ -361039,7 +361387,10 @@ You may return a Phoenix Flame from your graveyard to your hand.
       print: "IAR050",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716546",
+            url: "https://www.tcgplayer.com/product/716546?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Nikolay Moskvin"],
@@ -361051,7 +361402,10 @@ You may return a Phoenix Flame from your graveyard to your hand.
       print: "IAR050-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716546",
+            url: "https://www.tcgplayer.com/product/716546?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -361114,7 +361468,10 @@ You may return a Phoenix Flame from your graveyard to your hand.
       print: "IAR051",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716547",
+            url: "https://www.tcgplayer.com/product/716547?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Nikolay Moskvin"],
@@ -361126,7 +361483,10 @@ You may return a Phoenix Flame from your graveyard to your hand.
       print: "IAR051-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716547",
+            url: "https://www.tcgplayer.com/product/716547?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -361189,7 +361549,10 @@ You may return a Phoenix Flame from your graveyard to your hand.
       print: "IAR052",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716548",
+            url: "https://www.tcgplayer.com/product/716548?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Nikolay Moskvin"],
@@ -361201,7 +361564,10 @@ You may return a Phoenix Flame from your graveyard to your hand.
       print: "IAR052-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716548",
+            url: "https://www.tcgplayer.com/product/716548?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -364057,7 +364423,10 @@ If you've dealt arcane damage this turn, this gets **go again**.`,
       print: "IAR181",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716585",
+            url: "https://www.tcgplayer.com/product/716585?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Esty Swandana"],
@@ -364069,7 +364438,10 @@ If you've dealt arcane damage this turn, this gets **go again**.`,
       print: "IAR181-Rainbow",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716585",
+            url: "https://www.tcgplayer.com/product/716585?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -365510,7 +365882,10 @@ When this defends, target attack gets -2{p} unless the attacking hero pays {r}.`
       print: "IAR044",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716543",
+            url: "https://www.tcgplayer.com/product/716543?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Aluísio Cervelle"],
@@ -365522,7 +365897,10 @@ When this defends, target attack gets -2{p} unless the attacking hero pays {r}.`
       print: "IAR044-Rainbow",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716543",
+            url: "https://www.tcgplayer.com/product/716543?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -365585,7 +365963,10 @@ Your next attack this turn gets +4{p}. **Go again**`,
       print: "IAR045",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716544",
+            url: "https://www.tcgplayer.com/product/716544?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Aluísio Cervelle"],
@@ -365597,7 +365978,10 @@ Your next attack this turn gets +4{p}. **Go again**`,
       print: "IAR045-Rainbow",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716544",
+            url: "https://www.tcgplayer.com/product/716544?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -365660,7 +366044,10 @@ Your next attack this turn gets +3{p}. **Go again**`,
       print: "IAR046",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716545",
+            url: "https://www.tcgplayer.com/product/716545?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Aluísio Cervelle"],
@@ -365672,7 +366059,10 @@ Your next attack this turn gets +3{p}. **Go again**`,
       print: "IAR046-Rainbow",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716545",
+            url: "https://www.tcgplayer.com/product/716545?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -369322,7 +369712,10 @@ Your next Brute attack this turn gets +2{p}.
       print: "IAR014",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716525",
+            url: "https://www.tcgplayer.com/product/716525?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Marcellino Tan"],
@@ -369334,7 +369727,10 @@ Your next Brute attack this turn gets +2{p}.
       print: "IAR014-Rainbow",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716525",
+            url: "https://www.tcgplayer.com/product/716525?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -369397,7 +369793,10 @@ Your next Brute attack this turn gets +2{p}.
       print: "IAR015",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716526",
+            url: "https://www.tcgplayer.com/product/716526?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Marcellino Tan"],
@@ -369409,7 +369808,10 @@ Your next Brute attack this turn gets +2{p}.
       print: "IAR015-Rainbow",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716526",
+            url: "https://www.tcgplayer.com/product/716526?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -369472,7 +369874,10 @@ Your next Brute attack this turn gets +2{p}.
       print: "IAR016",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716527",
+            url: "https://www.tcgplayer.com/product/716527?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Marcellino Tan"],
@@ -369484,7 +369889,10 @@ Your next Brute attack this turn gets +2{p}.
       print: "IAR016-Rainbow",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716527",
+            url: "https://www.tcgplayer.com/product/716527?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -369547,7 +369955,10 @@ Your next Brute attack this turn gets +2{p}.
       print: "IAR231",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716605",
+            url: "https://www.tcgplayer.com/product/716605?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Alexis Susani"],
@@ -369559,7 +369970,10 @@ Your next Brute attack this turn gets +2{p}.
       print: "IAR231-Rainbow",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716605",
+            url: "https://www.tcgplayer.com/product/716605?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -378025,7 +378439,10 @@ You may destroy a Frailty token you control. If you do, gain 1 {h}.
       print: "IAR032",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716537",
+            url: "https://www.tcgplayer.com/product/716537?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Jefrey Yonathan"],
@@ -378037,7 +378454,10 @@ You may destroy a Frailty token you control. If you do, gain 1 {h}.
       print: "IAR032-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716537",
+            url: "https://www.tcgplayer.com/product/716537?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -378100,7 +378520,10 @@ You may destroy a Frailty token you control. If you do, gain 1 {h}.
       print: "IAR033",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716538",
+            url: "https://www.tcgplayer.com/product/716538?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Jefrey Yonathan"],
@@ -378112,7 +378535,10 @@ You may destroy a Frailty token you control. If you do, gain 1 {h}.
       print: "IAR033-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716538",
+            url: "https://www.tcgplayer.com/product/716538?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -378175,7 +378601,10 @@ You may destroy a Frailty token you control. If you do, gain 1 {h}.
       print: "IAR034",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716539",
+            url: "https://www.tcgplayer.com/product/716539?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Jefrey Yonathan"],
@@ -378187,7 +378616,10 @@ You may destroy a Frailty token you control. If you do, gain 1 {h}.
       print: "IAR034-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716539",
+            url: "https://www.tcgplayer.com/product/716539?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -389074,7 +389506,10 @@ Prevent the next 5 damage that would be dealt to you this turn.`,
       print: "IAR236",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716607",
+            url: "https://www.tcgplayer.com/product/716607?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Tian Thongjomroon"],
@@ -389225,7 +389660,10 @@ Prevent the next 5 damage that would be dealt to you this turn.`,
       print: "IAR237",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716608",
+            url: "https://www.tcgplayer.com/product/716608?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Tian Thongjomroon"],
@@ -389361,7 +389799,10 @@ Prevent the next 5 damage that would be dealt to you this turn.`,
       print: "IAR238",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716609",
+            url: "https://www.tcgplayer.com/product/716609?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Tian Thongjomroon"],
@@ -393219,7 +393660,10 @@ If you paid the addition cost to play this, it gets **go again**.
       print: "IAR135",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716573",
+            url: "https://www.tcgplayer.com/product/716573?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Arif Wijaya"],
@@ -393231,7 +393675,10 @@ If you paid the addition cost to play this, it gets **go again**.
       print: "IAR135-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716573",
+            url: "https://www.tcgplayer.com/product/716573?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -393298,7 +393745,10 @@ When this hits, create a Gate to i'Arathael token.
       print: "IAR136",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716574",
+            url: "https://www.tcgplayer.com/product/716574?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Arif Wijaya"],
@@ -393310,7 +393760,10 @@ When this hits, create a Gate to i'Arathael token.
       print: "IAR136-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716574",
+            url: "https://www.tcgplayer.com/product/716574?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -393377,7 +393830,10 @@ When this hits, create a Gate to i'Arathael token.
       print: "IAR137",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716575",
+            url: "https://www.tcgplayer.com/product/716575?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Arif Wijaya"],
@@ -393389,7 +393845,10 @@ When this hits, create a Gate to i'Arathael token.
       print: "IAR137-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716575",
+            url: "https://www.tcgplayer.com/product/716575?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -394367,7 +394826,10 @@ If 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 
       print: "IAR081",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716552",
+            url: "https://www.tcgplayer.com/product/716552?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Hansen Oni"],
@@ -394379,7 +394841,10 @@ If 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 
       print: "IAR081-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716552",
+            url: "https://www.tcgplayer.com/product/716552?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -394616,7 +395081,10 @@ If 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 
       print: "IAR083",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716553",
+            url: "https://www.tcgplayer.com/product/716553?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Arif Resu"],
@@ -394628,7 +395096,10 @@ If 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 
       print: "IAR083-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716553",
+            url: "https://www.tcgplayer.com/product/716553?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -411155,7 +411626,10 @@ Target dagger attack gets +3{p}.`,
       print: "IAR094",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716558",
+            url: "https://www.tcgplayer.com/product/716558?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mark Poole"],
@@ -411167,7 +411641,10 @@ Target dagger attack gets +3{p}.`,
       print: "IAR094-Rainbow",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716558",
+            url: "https://www.tcgplayer.com/product/716558?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -411232,7 +411709,10 @@ Your next ally attack this turn gets +3{p} and **go again**.
       print: "IAR095",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716559",
+            url: "https://www.tcgplayer.com/product/716559?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mark Poole"],
@@ -411244,7 +411724,10 @@ Your next ally attack this turn gets +3{p} and **go again**.
       print: "IAR095-Rainbow",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716559",
+            url: "https://www.tcgplayer.com/product/716559?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -411324,7 +411807,10 @@ Your next ally attack this turn gets +2{p} and **go again**.
       print: "IAR096",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716560",
+            url: "https://www.tcgplayer.com/product/716560?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mark Poole"],
@@ -411336,7 +411822,10 @@ Your next ally attack this turn gets +2{p} and **go again**.
       print: "IAR096-Rainbow",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716560",
+            url: "https://www.tcgplayer.com/product/716560?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -439771,7 +440260,10 @@ Until end of turn, target weapon you control gets +2{p} and "Whenever this hits,
       print: "IAR215",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716598",
+            url: "https://www.tcgplayer.com/product/716598?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Stormy Elia Fanggidae"],
@@ -439783,7 +440275,10 @@ Until end of turn, target weapon you control gets +2{p} and "Whenever this hits,
       print: "IAR215-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716598",
+            url: "https://www.tcgplayer.com/product/716598?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -439846,7 +440341,10 @@ Until end of turn, target weapon you control gets +2{p} and "Whenever this hits,
       print: "IAR216",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716599",
+            url: "https://www.tcgplayer.com/product/716599?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Stormy Elia Fanggidae"],
@@ -439858,7 +440356,10 @@ Until end of turn, target weapon you control gets +2{p} and "Whenever this hits,
       print: "IAR216-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716599",
+            url: "https://www.tcgplayer.com/product/716599?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -439921,7 +440422,10 @@ Until end of turn, target weapon you control gets +2{p} and "Whenever this hits,
       print: "IAR217",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716600",
+            url: "https://www.tcgplayer.com/product/716600?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Stormy Elia Fanggidae"],
@@ -439933,7 +440437,10 @@ Until end of turn, target weapon you control gets +2{p} and "Whenever this hits,
       print: "IAR217-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716600",
+            url: "https://www.tcgplayer.com/product/716600?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -478356,7 +478863,10 @@ Whenever you or an ally you control deals damage to an opposing hero, you remove
       print: "IAR232",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716606",
+            url: "https://www.tcgplayer.com/product/716606?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Alexis Susani"],
@@ -498169,19 +498679,10 @@ Create a Vigor and a Courage token. **Go again**`,
       print: "IAR203",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
-      
-    },{
-        artists: ["Peyeyo"],
-      foiling: Foiling.Rainbow,
-      identifier: "IAR203",
-      image: "IAR203-RF",
-      
-      
-      print: "IAR203-Rainbow",
-      rarity: Rarity.Common,
-      set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716592",
+            url: "https://www.tcgplayer.com/product/716592?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Peyeyo"],
@@ -498304,19 +498805,10 @@ Create a Vigor and a Courage token. **Go again**`,
       print: "IAR204",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
-      
-    },{
-        artists: ["Peyeyo"],
-      foiling: Foiling.Rainbow,
-      identifier: "IAR204",
-      image: "IAR204-RF",
-      
-      
-      print: "IAR204-Rainbow",
-      rarity: Rarity.Common,
-      set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716593",
+            url: "https://www.tcgplayer.com/product/716593?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Peyeyo"],
@@ -498439,19 +498931,10 @@ Create a Vigor and a Courage token. **Go again**`,
       print: "IAR205",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
-      
-    },{
-        artists: ["Peyeyo"],
-      foiling: Foiling.Rainbow,
-      identifier: "IAR205",
-      image: "IAR205-RF",
-      
-      
-      print: "IAR205-Rainbow",
-      rarity: Rarity.Common,
-      set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716594",
+            url: "https://www.tcgplayer.com/product/716594?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Peyeyo"],
@@ -510023,7 +510506,10 @@ When this hits, and it's the second or higher chain link in a row to hit, draw 2
       print: "IAR239",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716610",
+            url: "https://www.tcgplayer.com/product/716610?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Orson CaptainSass"],
@@ -510035,7 +510521,10 @@ When this hits, and it's the second or higher chain link in a row to hit, draw 2
       print: "IAR239-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716610",
+            url: "https://www.tcgplayer.com/product/716610?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -510096,7 +510585,10 @@ When this hits, and it's the second or higher chain link in a row to hit, draw 2
       print: "IAR240",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716611",
+            url: "https://www.tcgplayer.com/product/716611?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Orson CaptainSass"],
@@ -510108,7 +510600,10 @@ When this hits, and it's the second or higher chain link in a row to hit, draw 2
       print: "IAR240-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716611",
+            url: "https://www.tcgplayer.com/product/716611?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -510169,7 +510664,10 @@ When this hits, and it's the second or higher chain link in a row to hit, draw 2
       print: "IAR241",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716612",
+            url: "https://www.tcgplayer.com/product/716612?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Orson CaptainSass"],
@@ -510181,7 +510679,10 @@ When this hits, and it's the second or higher chain link in a row to hit, draw 2
       print: "IAR241-Rainbow",
       rarity: Rarity.Common,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716612",
+            url: "https://www.tcgplayer.com/product/716612?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -512764,7 +513265,10 @@ When this is pitched, **amp 1**.`,
       print: "IAR246",
       rarity: Rarity.Majestic,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716614",
+            url: "https://www.tcgplayer.com/product/716614?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Satrya Darmawan"],
@@ -512776,7 +513280,10 @@ When this is pitched, **amp 1**.`,
       print: "IAR246-Cold",
       rarity: Rarity.Majestic,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "716614",
+            url: "https://www.tcgplayer.com/product/716614?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
