@@ -883,6 +883,10 @@
     "IAR017-Rainbow": {
       "productId": "706652",
       "url": "https://www.tcgplayer.com/product/706652?Language=English&Printing=Rainbow+Foil"
+    },
+    "JDG088-Cold": {
+      "productId": "710779",
+      "url": "https://www.tcgplayer.com/product/710779?Language=English&Printing=Cold+Foil"
     }
   },
   "beckoning-hunger-yellow": {
@@ -1857,6 +1861,14 @@
     "IAR223-Rainbow": {
       "productId": "706747",
       "url": "https://www.tcgplayer.com/product/706747?Language=English&Printing=Rainbow+Foil"
+    },
+    "FAB491-Cold-Full Art": {
+      "productId": "",
+      "url": ""
+    },
+    "FAB491-Cold-Full Art-Back": {
+      "productId": "",
+      "url": ""
     }
   },
   "circular-flowtide-yellow": {
@@ -2375,6 +2387,10 @@
     "IAR164-Rainbow": {
       "productId": "706722",
       "url": "https://www.tcgplayer.com/product/706722?Language=English&Printing=Rainbow+Foil"
+    },
+    "FAB516-Cold-Full Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "corrupted-corpse": {
@@ -2389,6 +2405,58 @@
     "AMA029": {
       "productId": "707748",
       "url": "https://www.tcgplayer.com/product/707748?Language=English&Printing=Normal"
+    },
+    "FAB514-Cold-Alternate Art-Full Art-A": {
+      "productId": "",
+      "url": ""
+    },
+    "FAB514-Cold-Alternate Art-Full Art-B": {
+      "productId": "",
+      "url": ""
+    },
+    "FAB514-Cold-Alternate Art-Full Art-C": {
+      "productId": "",
+      "url": ""
+    },
+    "FAB514-Cold-Alternate Art-Full Art-D": {
+      "productId": "",
+      "url": ""
+    },
+    "FAB514-Cold-Alternate Art-Full Art-E": {
+      "productId": "",
+      "url": ""
+    },
+    "FAB514-Cold-Alternate Art-Full Art-F": {
+      "productId": "",
+      "url": ""
+    },
+    "FAB514-Cold-Alternate Art-Full Art-G": {
+      "productId": "",
+      "url": ""
+    },
+    "FAB514-Cold-Alternate Art-Full Art-H": {
+      "productId": "",
+      "url": ""
+    },
+    "FAB514-Cold-Alternate Art-Full Art-I": {
+      "productId": "",
+      "url": ""
+    },
+    "FAB514-Cold-Alternate Art-Full Art-J": {
+      "productId": "",
+      "url": ""
+    },
+    "FAB506-Rainbow-Alternate Art-Full Art-A": {
+      "productId": "707341",
+      "url": "https://www.tcgplayer.com/product/707341?Language=English&Printing=Rainbow+Foil"
+    },
+    "FAB506-Rainbow-Alternate Art-Full Art-B": {
+      "productId": "707342",
+      "url": "https://www.tcgplayer.com/product/707342?Language=English&Printing=Rainbow+Foil"
+    },
+    "FAB506-Rainbow-Alternate Art-Full Art-C": {
+      "productId": "707343",
+      "url": "https://www.tcgplayer.com/product/707343?Language=English&Printing=Rainbow+Foil"
     }
   },
   "corrupted-crown": {
@@ -3121,6 +3189,16 @@
     "FAB255-Gold": {
       "productId": "662253",
       "url": "https://www.tcgplayer.com/product/662253?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "drinking-buddy-red": {
+    "LSS024-Cold-Extended Art": {
+      "productId": "",
+      "url": ""
+    },
+    "LSS023-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "drive-brake": {
@@ -3879,6 +3957,12 @@
       "url": "https://www.tcgplayer.com/product/584728?Language=English&Printing=Cold+Foil"
     }
   },
+  "figment-of-hope-yellow": {
+    "LGS462-Cold-Full Art": {
+      "productId": "",
+      "url": ""
+    }
+  },
   "fire-that-burns-within-red": {
     "GEM132-Extended Art": {
       "productId": "678625",
@@ -4197,6 +4281,14 @@
     "LSS021": {
       "productId": "",
       "url": ""
+    },
+    "LSS021-Cold-Full Art": {
+      "productId": "",
+      "url": ""
+    },
+    "LSS021-Cold-Full Art-Back": {
+      "productId": "",
+      "url": ""
     }
   },
   "fresh-from-the-forge-red": {
@@ -4333,6 +4425,10 @@
     "AMA030": {
       "productId": "716151",
       "url": "https://www.tcgplayer.com/product/716151?Language=English&Printing=Normal"
+    },
+    "FAB507-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "gauntlets-of-iron-will": {
@@ -5133,6 +5229,12 @@
       "url": "https://www.tcgplayer.com/product/654176?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "humble-red": {
+    "LGS463-Cold-Alternate Art-Extended Art": {
+      "productId": "",
+      "url": ""
+    }
+  },
   "hungry-for-more-red": {
     "LGS438-Cold-Extended Art": {
       "productId": "666548",
@@ -5557,6 +5659,12 @@
       "url": "https://www.tcgplayer.com/product/618308?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "lay-low-yellow": {
+    "FAB513-Rainbow-Alternate Art-Extended Art": {
+      "productId": "706924",
+      "url": "https://www.tcgplayer.com/product/706924?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "leaven-sheath-red": {
     "FAB428-Rainbow-Extended Art": {
       "productId": "664630",
@@ -5585,6 +5693,14 @@
   },
   "levia-shadowborn-abomination": {
     "WIN011-Cold": {
+      "productId": "",
+      "url": ""
+    },
+    "HER175-Cold-Full Art": {
+      "productId": "",
+      "url": ""
+    },
+    "HER175-Cold-Full Art-Back": {
       "productId": "",
       "url": ""
     }
@@ -5875,6 +5991,18 @@
     "GEM184-Cold-Full Art-Back": {
       "productId": "706940",
       "url": "https://www.tcgplayer.com/product/706940?Language=English&Printing=Cold+Foil"
+    },
+    "HER172-Rainbow-Alternate Art": {
+      "productId": "707350",
+      "url": "https://www.tcgplayer.com/product/707350?Language=English&Printing=Rainbow+Foil"
+    },
+    "HER171-Cold-Alternate Art-Full Art": {
+      "productId": "707353",
+      "url": "https://www.tcgplayer.com/product/707353?Language=English&Printing=Cold+Foil"
+    },
+    "HER171-Cold-Alternate Art-Full Art-Back": {
+      "productId": "707353",
+      "url": "https://www.tcgplayer.com/product/707353?Language=English&Printing=Cold+Foil"
     }
   },
   "malignant-migration-blue": {
@@ -6611,6 +6739,10 @@
     "IAR166-Rainbow": {
       "productId": "706724",
       "url": "https://www.tcgplayer.com/product/706724?Language=English&Printing=Rainbow+Foil"
+    },
+    "FAB509-Cold-Full Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "orb-weaver-spinneret-red": {
@@ -6653,6 +6785,10 @@
     "IAR141-Rainbow": {
       "productId": "716579",
       "url": "https://www.tcgplayer.com/product/716579?Language=English&Printing=Rainbow+Foil"
+    },
+    "JDG090-Cold": {
+      "productId": "710780",
+      "url": "https://www.tcgplayer.com/product/710780?Language=English&Printing=Cold+Foil"
     }
   },
   "otherworldly-sins-yellow": {
@@ -7213,6 +7349,10 @@
     "AMA023": {
       "productId": "716145",
       "url": "https://www.tcgplayer.com/product/716145?Language=English&Printing=Normal"
+    },
+    "FAB520-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "pull-from-beyond-red": {
@@ -7223,6 +7363,10 @@
     "IAR212-Rainbow": {
       "productId": "706736",
       "url": "https://www.tcgplayer.com/product/706736?Language=English&Printing=Rainbow+Foil"
+    },
+    "FAB518-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "pull-from-beyond-yellow": {
@@ -7233,6 +7377,10 @@
     "IAR213-Rainbow": {
       "productId": "706738",
       "url": "https://www.tcgplayer.com/product/706738?Language=English&Printing=Rainbow+Foil"
+    },
+    "FAB519-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "pulsing-aether--life-red": {
@@ -7527,8 +7675,8 @@
   },
   "renounce-grandeur-red": {
     "FAB330-Rainbow-Extended Art": {
-      "productId": "",
-      "url": ""
+      "productId": "648077",
+      "url": "https://www.tcgplayer.com/product/648077?Language=English&Printing=Rainbow+Foil"
     }
   },
   "restless-cleric-red": {
@@ -7545,6 +7693,10 @@
     "AMA014": {
       "productId": "706916",
       "url": "https://www.tcgplayer.com/product/706916?Language=English&Printing=Normal"
+    },
+    "JDG086-Cold-Full Art": {
+      "productId": "710778",
+      "url": "https://www.tcgplayer.com/product/710778?Language=English&Printing=Cold+Foil"
     }
   },
   "restless-corporal-red": {
@@ -8149,6 +8301,10 @@
     "IAR149-Rainbow": {
       "productId": "715855",
       "url": "https://www.tcgplayer.com/product/715855?Language=English&Printing=Rainbow+Foil"
+    },
+    "FAB477-Rainbow-Alternate Art-Extended Art": {
+      "productId": "701601",
+      "url": "https://www.tcgplayer.com/product/701601?Language=English&Printing=Rainbow+Foil"
     }
   },
   "runic-reaving-yellow": {
@@ -8263,6 +8419,12 @@
     "GEM082-Rainbow-Alternate Art-Extended Art": {
       "productId": "654127",
       "url": "https://www.tcgplayer.com/product/654127?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "savor-bloodshed-red": {
+    "LGS459-Cold-Alternate Art-Extended Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "scar-for-a-scar-red": {
@@ -8527,6 +8689,10 @@
     "IAR174-Rainbow": {
       "productId": "706726",
       "url": "https://www.tcgplayer.com/product/706726?Language=English&Printing=Rainbow+Foil"
+    },
+    "FAB510-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "shadowrealm-harvester-red": {
@@ -8537,6 +8703,10 @@
     "IAR175-Rainbow": {
       "productId": "706728",
       "url": "https://www.tcgplayer.com/product/706728?Language=English&Printing=Rainbow+Foil"
+    },
+    "FAB511-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "shadowrealm-reaper-yellow": {
@@ -8547,6 +8717,10 @@
     "IAR176-Rainbow": {
       "productId": "706731",
       "url": "https://www.tcgplayer.com/product/706731?Language=English&Printing=Rainbow+Foil"
+    },
+    "FAB512-Rainbow-Extended Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "shadowrealm-ripper-blue": {
@@ -8619,6 +8793,10 @@
     "AMA012": {
       "productId": "716135",
       "url": "https://www.tcgplayer.com/product/716135?Language=English&Printing=Normal"
+    },
+    "JDG089-Cold": {
+      "productId": "",
+      "url": ""
     }
   },
   "shadowrealm-swiftness-yellow": {
@@ -8983,6 +9161,10 @@
     "AMA008": {
       "productId": "716132",
       "url": "https://www.tcgplayer.com/product/716132?Language=English&Printing=Normal"
+    },
+    "FAB515-Cold-Alternate Art-Full Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "sinspeaker-gloomblade-red": {
@@ -9479,6 +9661,12 @@
       "url": "https://www.tcgplayer.com/product/536258?Language=English&Printing=Cold+Foil"
     }
   },
+  "starworld-warning-yellow": {
+    "FAB468-Cold-Extended Art": {
+      "productId": "",
+      "url": ""
+    }
+  },
   "static-shock-red": {
     "SBA022": {
       "productId": "695902",
@@ -9605,8 +9793,8 @@
   },
   "stormshard-red": {
     "FAB478-Cold-Extended Art": {
-      "productId": "",
-      "url": ""
+      "productId": "715710",
+      "url": "https://www.tcgplayer.com/product/715710?Language=English&Printing=Cold+Foil"
     }
   },
   "stormwind-sheath-red": {
@@ -9661,6 +9849,12 @@
     "LGS439-Cold-Extended Art": {
       "productId": "666549",
       "url": "https://www.tcgplayer.com/product/666549?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "suraya-archangel-of-endless-hope": {
+    "LGS462-Cold-Full Art-Back": {
+      "productId": "",
+      "url": ""
     }
   },
   "surging-strike-red": {
@@ -9747,8 +9941,8 @@
   },
   "synapse-sparkcap": {
     "FAB410-Gold-Extended Art": {
-      "productId": "",
-      "url": ""
+      "productId": "713236",
+      "url": "https://www.tcgplayer.com/product/713236?Language=English&Printing=Cold+Foil"
     }
   },
   "t-bone-red": {
@@ -9847,6 +10041,10 @@
     "LSS003-Cold": {
       "productId": "562481",
       "url": "https://www.tcgplayer.com/product/562481?Language=English&Printing=Cold+Foil"
+    },
+    "LSS003-Cold-Full Art-Back": {
+      "productId": "",
+      "url": ""
     }
   },
   "tectonic-crust": {
@@ -10243,6 +10441,10 @@
     "IAR178-Rainbow": {
       "productId": "706733",
       "url": "https://www.tcgplayer.com/product/706733?Language=English&Printing=Rainbow+Foil"
+    },
+    "FAB508-Cold-Extended Art": {
+      "productId": "",
+      "url": ""
     }
   },
   "undead-grasp": {
@@ -10599,6 +10801,16 @@
     "GEM186-Cold": {
       "productId": "714489",
       "url": "https://www.tcgplayer.com/product/714489?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "vynnset": {
+    "JDG085-Cold-Full Art": {
+      "productId": "710777",
+      "url": "https://www.tcgplayer.com/product/710777?Language=English&Printing=Cold+Foil"
+    },
+    "JDG085-Cold-Full Art-Back": {
+      "productId": "710777",
+      "url": "https://www.tcgplayer.com/product/710777?Language=English&Printing=Cold+Foil"
     }
   },
   "vynnset-iron-maiden": {

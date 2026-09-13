@@ -45692,6 +45692,10 @@ When this hits, create a Blasmophet, the Insatiable Hunger token.
       "print": "JDG088-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "710779",
+        "url": "https://www.tcgplayer.com/product/710779?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -129566,6 +129570,10 @@ This card's attacks get **go again**.
       "print": "FAB506-Rainbow-Alternate Art-Full Art-A",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "707341",
+        "url": "https://www.tcgplayer.com/product/707341?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -129582,6 +129590,10 @@ This card's attacks get **go again**.
       "print": "FAB506-Rainbow-Alternate Art-Full Art-B",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "707342",
+        "url": "https://www.tcgplayer.com/product/707342?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -129598,6 +129610,10 @@ This card's attacks get **go again**.
       "print": "FAB506-Rainbow-Alternate Art-Full Art-C",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "707343",
+        "url": "https://www.tcgplayer.com/product/707343?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -196948,6 +196964,7 @@ exports[`Check for unintentional updates Enshrine Sin (enshrine-sin-blue) vs sna
   "keywords": [
     "Blood Debt",
     "Go again",
+    "Opt",
   ],
   "legalFormats": [
     "Blitz",
@@ -197053,6 +197070,7 @@ exports[`Check for unintentional updates Enshrine Sin (enshrine-sin-red) vs snap
   "keywords": [
     "Blood Debt",
     "Go again",
+    "Opt",
   ],
   "legalFormats": [
     "Blitz",
@@ -197158,6 +197176,7 @@ exports[`Check for unintentional updates Enshrine Sin (enshrine-sin-yellow) vs s
   "keywords": [
     "Blood Debt",
     "Go again",
+    "Opt",
   ],
   "legalFormats": [
     "Blitz",
@@ -328679,6 +328698,10 @@ If the attacking hero is **marked**, their next attack this turn gets -1{p}.",
       "print": "FAB513-Rainbow-Alternate Art-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "706924",
+        "url": "https://www.tcgplayer.com/product/706924?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Alternate Art",
@@ -348304,6 +348327,10 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
       "print": "HER172-Rainbow-Alternate Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "707350",
+        "url": "https://www.tcgplayer.com/product/707350?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -348319,6 +348346,10 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
       "print": "HER171-Cold-Alternate Art-Full Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "707353",
+        "url": "https://www.tcgplayer.com/product/707353?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -348354,6 +348385,10 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
       "print": "HER171-Cold-Alternate Art-Full Art-Back",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "707353",
+        "url": "https://www.tcgplayer.com/product/707353?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -388915,6 +388950,10 @@ Create a Runechant token.
       "print": "JDG090-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "710780",
+        "url": "https://www.tcgplayer.com/product/710780?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -460904,6 +460943,10 @@ exports[`Check for unintentional updates Renounce Grandeur (renounce-grandeur-re
       "print": "FAB330-Rainbow-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "648077",
+        "url": "https://www.tcgplayer.com/product/648077?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -462148,6 +462191,10 @@ exports[`Check for unintentional updates Restless Commander (restless-commander-
       "print": "JDG086-Cold-Full Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "710778",
+        "url": "https://www.tcgplayer.com/product/710778?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -488407,6 +488454,10 @@ exports[`Check for unintentional updates Runic Reaving (runic-reaving-red) vs sn
       "print": "FAB477-Rainbow-Alternate Art-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "701601",
+        "url": "https://www.tcgplayer.com/product/701601?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Alternate Art",
@@ -577477,6 +577528,10 @@ Target Lightning attack gets +3{p}.",
       "print": "FAB478-Cold-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "715710",
+        "url": "https://www.tcgplayer.com/product/715710?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -591573,6 +591628,10 @@ exports[`Check for unintentional updates Synapse Sparkcap (synapse-sparkcap) vs 
       "print": "FAB410-Gold-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "713236",
+        "url": "https://www.tcgplayer.com/product/713236?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -653084,6 +653143,10 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
       "print": "JDG085-Cold-Full Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "710777",
+        "url": "https://www.tcgplayer.com/product/710777?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -653099,6 +653162,10 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
       "print": "JDG085-Cold-Full Art-Back",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "710777",
+        "url": "https://www.tcgplayer.com/product/710777?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",

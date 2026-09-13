@@ -7649,7 +7649,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
     
     
     
-    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain,Keyword.Opt],
     
     
     meta: [Meta.Deck,Meta.Rainbow],
@@ -7732,7 +7732,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
     
     
     
-    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain,Keyword.Opt],
     
     
     meta: [Meta.Deck,Meta.Rainbow],
@@ -7815,7 +7815,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
     
     
     
-    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain,Keyword.Opt],
     
     
     meta: [Meta.Deck,Meta.Rainbow],

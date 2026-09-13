@@ -35557,7 +35557,10 @@ If you control a Vigor token, this gets +1{d}.
       print: "JDG088-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "710779",
+            url: "https://www.tcgplayer.com/product/710779?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -100618,7 +100621,10 @@ When this hits a hero, banish all cards in their arsenal.
       print: "FAB506-Rainbow-Alternate Art-Full Art-A",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "707341",
+            url: "https://www.tcgplayer.com/product/707341?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Jefrey Yonathan"],
@@ -100630,7 +100636,10 @@ When this hits a hero, banish all cards in their arsenal.
       print: "FAB506-Rainbow-Alternate Art-Full Art-B",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "707342",
+            url: "https://www.tcgplayer.com/product/707342?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Jefrey Yonathan"],
@@ -100642,7 +100651,10 @@ When this hits a hero, banish all cards in their arsenal.
       print: "FAB506-Rainbow-Alternate Art-Full Art-C",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "707343",
+            url: "https://www.tcgplayer.com/product/707343?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Promo],
@@ -152573,7 +152585,7 @@ Choose 1;
     
     
     
-    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain,Keyword.Opt],
     
     
     meta: [Meta.Deck,Meta.Rainbow],
@@ -152656,7 +152668,7 @@ Choose 1;
     
     
     
-    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain,Keyword.Opt],
     
     
     meta: [Meta.Deck,Meta.Rainbow],
@@ -152739,7 +152751,7 @@ Choose 1;
     
     
     
-    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain,Keyword.Opt],
     
     
     meta: [Meta.Deck,Meta.Rainbow],
@@ -253351,7 +253363,10 @@ While Barthimont is face-up in arsenal, whenever you play an attack action card,
       print: "FAB513-Rainbow-Alternate Art-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "706924",
+            url: "https://www.tcgplayer.com/product/706924?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
@@ -268397,7 +268412,10 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
       print: "HER172-Rainbow-Alternate Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "707350",
+            url: "https://www.tcgplayer.com/product/707350?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA],
     },{
         artists: ["Ramza Ardyputra"],
@@ -268409,7 +268427,10 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
       print: "HER171-Cold-Alternate Art-Full Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "707353",
+            url: "https://www.tcgplayer.com/product/707353?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["João G. Santos"],
@@ -268436,7 +268457,10 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
       print: "HER171-Cold-Alternate Art-Full Art-Back",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "707353",
+            url: "https://www.tcgplayer.com/product/707353?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
@@ -299029,7 +299053,10 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
       print: "JDG090-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "710780",
+            url: "https://www.tcgplayer.com/product/710780?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -352740,7 +352767,10 @@ When this hits a hero, until the end of their next turn, whenever they play an a
       print: "FAB330-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "648077",
+            url: "https://www.tcgplayer.com/product/648077?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -353782,7 +353812,10 @@ At the start of your turn, destroy this and draw a card.`,
       print: "JDG086-Cold-Full Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "710778",
+            url: "https://www.tcgplayer.com/product/710778?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -374062,7 +374095,10 @@ If an attack action card was pitched to play this, the next Runeblade attack act
       print: "FAB477-Rainbow-Alternate Art-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "701601",
+            url: "https://www.tcgplayer.com/product/701601?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -443357,7 +443393,10 @@ At the beginning of your action phase, destroy this.`,
       print: "FAB478-Cold-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "715710",
+            url: "https://www.tcgplayer.com/product/715710?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -453796,7 +453835,10 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
       print: "FAB410-Gold-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "713236",
+            url: "https://www.tcgplayer.com/product/713236?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -501006,7 +501048,10 @@ Zombies you control get "**Action** - {r}, {t}: **Attack**"`,
       print: "JDG085-Cold-Full Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "710777",
+            url: "https://www.tcgplayer.com/product/710777?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Federico Musetti"],
@@ -501018,7 +501063,10 @@ Zombies you control get "**Action** - {r}, {t}: **Attack**"`,
       print: "JDG085-Cold-Full Art-Back",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "710777",
+            url: "https://www.tcgplayer.com/product/710777?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
