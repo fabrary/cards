@@ -82831,7 +82831,10 @@ The next card you play this turn with an arcane damage effect, instead deals tha
       print: "HVY094",
       rarity: Rarity.Token,
       set: Release.HeavyHitters,
-      
+      tcgplayer: {
+            productId: "533029",
+            url: "https://www.tcgplayer.com/product/533029?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Reza Afshar"],
@@ -95698,7 +95701,10 @@ You may destroy an aura you control. If you do, each opponent destroys an aura p
       print: "SUP239",
       rarity: Rarity.Basic,
       set: Release.SuperSlam,
-      
+      tcgplayer: {
+            productId: "656557",
+            url: "https://www.tcgplayer.com/product/656557?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Sebastian Giacobino"],
@@ -106767,7 +106773,10 @@ The next time you attack with a sword this turn, draw a card, then put a card fr
       print: "ZEN029",
       rarity: Rarity.Token,
       set: Release.ZenBlitzDeck,
-      
+      tcgplayer: {
+            productId: "702037",
+            url: "https://www.tcgplayer.com/product/702037?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -164517,7 +164526,10 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
       print: "NUU028",
       rarity: Rarity.Token,
       set: Release.NuuBlitzDeck,
-      
+      tcgplayer: {
+            productId: "664986",
+            url: "https://www.tcgplayer.com/product/664986?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Edward Chee"],
@@ -198273,7 +198285,10 @@ This counts as a Gold.
       print: "SEA245",
       rarity: Rarity.Basic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "651392",
+            url: "https://www.tcgplayer.com/product/651392?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mario Wibisono"],
@@ -269381,7 +269396,10 @@ Damage that would be dealt by this can't be prevented.`,
       print: "HVY005",
       rarity: Rarity.Token,
       set: Release.HeavyHitters,
-      
+      tcgplayer: {
+            productId: "536967",
+            url: "https://www.tcgplayer.com/product/536967?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Jessada Sutthi"],
@@ -269609,7 +269627,10 @@ If you've discarded a card with 6 or more {p} this turn, this card's attacks get
       print: "AJV011",
       rarity: Rarity.Majestic,
       set: Release.ArmoryDeckOriginsJarl,
-      
+      tcgplayer: {
+            productId: "596250",
+            url: "https://www.tcgplayer.com/product/596250?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Federico Musetti"],
@@ -278384,7 +278405,10 @@ The first time you activate this each turn, gain 1 action point.`,
       print: "SUP240",
       rarity: Rarity.Basic,
       set: Release.SuperSlam,
-      
+      tcgplayer: {
+            productId: "656557",
+            url: "https://www.tcgplayer.com/product/656557?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Henrique Lindner"],
@@ -415502,7 +415526,10 @@ Your second sword or dagger attack this turn gets +1{p}.
       print: "NUU029",
       rarity: Rarity.Token,
       set: Release.NuuBlitzDeck,
-      
+      tcgplayer: {
+            productId: "664986",
+            url: "https://www.tcgplayer.com/product/664986?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mario Wibisono"],
@@ -446301,7 +446328,10 @@ At the beginning of your action phase, destroy this, then your next attack this 
       print: "AJV024",
       rarity: Rarity.Common,
       set: Release.ArmoryDeckOriginsJarl,
-      
+      tcgplayer: {
+            productId: "596302",
+            url: "https://www.tcgplayer.com/product/596302?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mariusz Gandzel"],
@@ -476444,7 +476474,10 @@ Draw a card.
       print: "SUP241",
       rarity: Rarity.Basic,
       set: Release.SuperSlam,
-      
+      tcgplayer: {
+            productId: "656557",
+            url: "https://www.tcgplayer.com/product/656557?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Henrique Lindner"],
@@ -478848,7 +478881,10 @@ If this was played from arsenal, it gets **go again**.`,
       print: "SEA247",
       rarity: Rarity.Basic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "638045",
+            url: "https://www.tcgplayer.com/product/638045?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Jessada Sutthi"],
@@ -494432,7 +494468,10 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
       print: "SUP242",
       rarity: Rarity.Basic,
       set: Release.SuperSlam,
-      
+      tcgplayer: {
+            productId: "656557",
+            url: "https://www.tcgplayer.com/product/656557?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Rio Sabda"],

@@ -106513,6 +106513,10 @@ When this is defended by 1 or more attack action cards, this gets +1{p} until en
       "print": "HVY094",
       "rarity": "Token",
       "set": "Heavy Hitters",
+      "tcgplayer": {
+        "productId": "533029",
+        "url": "https://www.tcgplayer.com/product/533029?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -123215,6 +123219,10 @@ exports[`Check for unintentional updates Confidence (confidence) vs snapshot 1`]
       "print": "SUP239",
       "rarity": "Basic",
       "set": "Super Slam",
+      "tcgplayer": {
+        "productId": "656557",
+        "url": "https://www.tcgplayer.com/product/656557?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -137988,6 +137996,10 @@ exports[`Check for unintentional updates Crouching Tiger (crouching-tiger) vs sn
       "print": "ZEN029",
       "rarity": "Token",
       "set": "Zen Blitz Deck",
+      "tcgplayer": {
+        "productId": "702037",
+        "url": "https://www.tcgplayer.com/product/702037?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -213195,6 +213207,10 @@ Target attack action card gets +1{p}.",
       "print": "NUU028",
       "rarity": "Token",
       "set": "Nuu Blitz Deck",
+      "tcgplayer": {
+        "productId": "664986",
+        "url": "https://www.tcgplayer.com/product/664986?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -258196,6 +258212,10 @@ exports[`Check for unintentional updates Goldkiss Rum (goldkiss-rum) vs snapshot
       "print": "SEA245",
       "rarity": "Basic",
       "set": "High Seas",
+      "tcgplayer": {
+        "productId": "651392",
+        "url": "https://www.tcgplayer.com/product/651392?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -349501,6 +349521,10 @@ If you've discarded a card with 6 or more {p} this turn, this card's attacks get
       "print": "HVY005",
       "rarity": "Token",
       "set": "Heavy Hitters",
+      "tcgplayer": {
+        "productId": "536967",
+        "url": "https://www.tcgplayer.com/product/536967?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -349765,6 +349789,10 @@ exports[`Check for unintentional updates Mangle (mangle-red) vs snapshot 1`] = `
       "print": "AJV011",
       "rarity": "Majestic",
       "set": "Armory Deck Origins: Jarl",
+      "tcgplayer": {
+        "productId": "596250",
+        "url": "https://www.tcgplayer.com/product/596250?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -360179,6 +360207,10 @@ exports[`Check for unintentional updates Might (might) vs snapshot 1`] = `
       "print": "SUP240",
       "rarity": "Basic",
       "set": "Super Slam",
+      "tcgplayer": {
+        "productId": "656557",
+        "url": "https://www.tcgplayer.com/product/656557?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -541772,6 +541804,10 @@ Target attack action card gets **go again**.",
       "print": "NUU029",
       "rarity": "Token",
       "set": "Nuu Blitz Deck",
+      "tcgplayer": {
+        "productId": "664986",
+        "url": "https://www.tcgplayer.com/product/664986?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -581377,6 +581413,10 @@ At the beginning of your action phase, destroy this, then your next attack this 
       "print": "AJV024",
       "rarity": "Common",
       "set": "Armory Deck Origins: Jarl",
+      "tcgplayer": {
+        "productId": "596302",
+        "url": "https://www.tcgplayer.com/product/596302?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -621515,6 +621555,10 @@ exports[`Check for unintentional updates Toughness (toughness) vs snapshot 1`] =
       "print": "SUP241",
       "rarity": "Basic",
       "set": "Super Slam",
+      "tcgplayer": {
+        "productId": "656557",
+        "url": "https://www.tcgplayer.com/product/656557?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -624669,6 +624713,10 @@ Whenever you or an ally you control deals damage to an opposing hero, you remove
       "print": "SEA247",
       "rarity": "Basic",
       "set": "High Seas",
+      "tcgplayer": {
+        "productId": "638045",
+        "url": "https://www.tcgplayer.com/product/638045?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -644521,6 +644569,10 @@ exports[`Check for unintentional updates Vigor (vigor) vs snapshot 1`] = `
       "print": "SUP242",
       "rarity": "Basic",
       "set": "Super Slam",
+      "tcgplayer": {
+        "productId": "656557",
+        "url": "https://www.tcgplayer.com/product/656557?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
