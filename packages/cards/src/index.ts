@@ -44562,11 +44562,23 @@ Once each turn, you may play a card with **blood debt** from your banished zone.
             url: "https://www.tcgplayer.com/product/706745?Language=English&Printing=Cold+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Lius Lasahido"],
+      foiling: Foiling.Rainbow,
+      identifier: "JDG092",
+      image: "JDG092-RF",
+      
+      
+      print: "JDG092-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Basic,Rarity.Marvel],
+    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["IAR221"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["IAR221","JDG092"],
+    sets: [Release.Promos,Release.UsurpTheShadowThrone],
     specialImage: "IAR221-MV",
     subtypes: [Subtype.Ally,Subtype.Demon],
     types: [Type.Token],
@@ -134633,12 +134645,24 @@ If you've played a red card this turn, your dragon attacks get **go again**.`,
             url: "https://www.tcgplayer.com/product/716130?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Ilham Bahtiar"],
+      foiling: Foiling.Cold,
+      identifier: "JDG087",
+      image: "JDG087-CF",
+      
+      
+      print: "JDG087-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["AMA004"],
-    sets: [Release.ArmoryDeckMalice],
-    specialImage: "AMA004-RF",
+    setIdentifiers: ["AMA004","JDG087"],
+    sets: [Release.ArmoryDeckMalice,Release.Promos],
+    specialImage: "JDG087-CF",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
     typeText: "Shadow Necromancer Equipment - Chest",
@@ -224397,12 +224421,24 @@ If it has 3 or more +1{p} counters, you may put an attack reaction card from you
             url: "https://www.tcgplayer.com/product/716619?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Widya Wang"],
+      foiling: Foiling.Cold,
+      identifier: "JDG091",
+      image: "JDG091-CF",
+      
+      
+      print: "JDG091-Cold-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["IAR262"],
-    sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR262",
+    setIdentifiers: ["IAR262","JDG091"],
+    sets: [Release.Promos,Release.UsurpTheShadowThrone],
+    specialImage: "JDG091-CF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Reviled Action - Attack",
