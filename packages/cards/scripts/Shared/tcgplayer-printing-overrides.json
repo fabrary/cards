@@ -1,0 +1,579 @@
+{
+  "anothos": {
+    "BVO003": "1st Edition Normal",
+    "LGS002-Cold": "1st Edition Cold Foil"
+  },
+  "awakening-bellow-blue": {
+    "RNR024": "1st Edition Normal"
+  },
+  "awakening-bellow-red": {
+    "RNR014": "1st Edition Normal"
+  },
+  "azalea": {
+    "HER014-Rainbow": "1st Edition Rainbow Foil"
+  },
+  "azalea-ace-in-the-hole": {
+    "HER010-Cold": "1st Edition Cold Foil",
+    "HER018-Rainbow": "1st Edition Rainbow Foil"
+  },
+  "barkbone-strapping": {
+    "RNR005": "1st Edition Normal"
+  },
+  "barraging-beatdown-blue": {
+    "RNR025": "1st Edition Normal"
+  },
+  "barraging-beatdown-yellow": {
+    "RNR018": "1st Edition Normal"
+  },
+  "barraging-brawnhide-blue": {
+    "BVO023": "1st Edition Normal"
+  },
+  "biting-blade-blue": {
+    "TEA020": "1st Edition Normal"
+  },
+  "biting-blade-red": {
+    "TEA008": "1st Edition Normal"
+  },
+  "bittering-thorns-yellow": {
+    "IRA005": "1st Edition Normal"
+  },
+  "blackout-kick-red": {
+    "KSU009": "1st Edition Normal"
+  },
+  "blessing-of-deliverance-blue": {
+    "BVO021": "1st Edition Normal",
+    "LGS025-Rainbow-Extended Art": "Normal"
+  },
+  "blessing-of-deliverance-red": {
+    "LGS006-Extended Art": "1st Edition Normal"
+  },
+  "boltyn": {
+    "BOL001-Rainbow": "Unlimited Edition Rainbow Foil"
+  },
+  "bravo": {
+    "BVO002": "1st Edition Normal"
+  },
+  "bravo-showstopper": {
+    "BVO001": "1st Edition Normal",
+    "HER002-Cold": "1st Edition Cold Foil",
+    "HER022-Rainbow": "1st Edition Rainbow Foil"
+  },
+  "breaking-scales": {
+    "KSU007": "1st Edition Normal"
+  },
+  "breakneck-battery-red": {
+    "RNR008": "1st Edition Normal"
+  },
+  "brutal-assault-blue": {
+    "IRA010": "1st Edition Normal"
+  },
+  "buckling-blow-blue": {
+    "BVO016": "1st Edition Normal"
+  },
+  "buckling-blow-red": {
+    "BVO008": "1st Edition Normal"
+  },
+  "cartilage-crush-blue": {
+    "BVO017": "1st Edition Normal"
+  },
+  "cartilage-crush-red": {
+    "BVO009": "1st Edition Normal"
+  },
+  "chane": {
+    "CHN001-Rainbow": "Unlimited Edition Rainbow Foil"
+  },
+  "chane-bound-by-shadow": {
+    "HER041-Rainbow": "Unlimited Edition Rainbow Foil"
+  },
+  "confidence": {
+    "FAB394-Cold-Full Art": "Normal"
+  },
+  "crazy-brew-blue": {
+    "FAB016-Cold": "Normal"
+  },
+  "crucible-of-aetherweave": {
+    "LGS012-Cold": "1st Edition Cold Foil"
+  },
+  "crush-confidence-blue": {
+    "BVO018": "1st Edition Normal"
+  },
+  "dash": {
+    "HER013-Rainbow": "1st Edition Rainbow Foil"
+  },
+  "dash-inventor-extraordinaire": {
+    "HER009-Cold": "1st Edition Cold Foil",
+    "HER017-Rainbow": "1st Edition Rainbow Foil"
+  },
+  "dawnblade": {
+    "LGS004-Cold": "1st Edition Cold Foil",
+    "TEA003": "1st Edition Normal"
+  },
+  "death-dealer": {
+    "LGS010-Cold": "1st Edition Cold Foil"
+  },
+  "debilitate-red": {
+    "BVO010": "1st Edition Normal"
+  },
+  "debilitate-yellow": {
+    "BVO013": "1st Edition Normal"
+  },
+  "disable-blue": {
+    "BVO019": "1st Edition Normal"
+  },
+  "disable-red": {
+    "BVO011": "1st Edition Normal"
+  },
+  "dorinthea": {
+    "HER008-Rainbow": "1st Edition Rainbow Foil",
+    "TEA002": "1st Edition Normal"
+  },
+  "dorinthea-ironsong": {
+    "HER004-Cold": "1st Edition Cold Foil",
+    "HER024-Rainbow": "1st Edition Rainbow Foil",
+    "TEA001": "1st Edition Normal"
+  },
+  "driving-blade-blue": {
+    "TEA022": "1st Edition Normal"
+  },
+  "driving-blade-red": {
+    "TEA012": "1st Edition Normal"
+  },
+  "drone-of-brutality-blue": {
+    "BVO025": "1st Edition Normal"
+  },
+  "drone-of-brutality-red": {
+    "RNR015": "1st Edition Normal"
+  },
+  "edge-of-autumn": {
+    "IRA002": "1st Edition Normal"
+  },
+  "emerging-power-red": {
+    "BVO012": "1st Edition Normal"
+  },
+  "emerging-power-yellow": {
+    "BVO014": "1st Edition Normal"
+  },
+  "emeritus-scolding-blue": {
+    "TNP009-Cold-Full Art": "Rainbow Foil"
+  },
+  "emeritus-scolding-red": {
+    "TNP007-Cold-Full Art": "Rainbow Foil"
+  },
+  "emeritus-scolding-yellow": {
+    "TNP008-Cold-Full Art": "Rainbow Foil"
+  },
+  "energy-potion-blue": {
+    "FAB012-Cold": "1st Edition Cold Foil",
+    "KSU029": "1st Edition Normal",
+    "TEA028": "1st Edition Normal"
+  },
+  "flic-flak-blue": {
+    "KSU025": "1st Edition Normal",
+    "TNP024-Cold-Full Art": "Rainbow Foil"
+  },
+  "flic-flak-red": {
+    "TNP022-Cold-Full Art": "Rainbow Foil"
+  },
+  "flic-flak-yellow": {
+    "TNP023-Cold-Full Art": "Rainbow Foil"
+  },
+  "flock-of-the-feather-walkers-blue": {
+    "RNR027": "1st Edition Normal",
+    "TEA026": "1st Edition Normal"
+  },
+  "fluster-fist-blue": {
+    "KSU022": "1st Edition Normal"
+  },
+  "fluster-fist-red": {
+    "KSU010": "1st Edition Normal"
+  },
+  "flying-kick-red": {
+    "IRA007": "1st Edition Normal"
+  },
+  "fyendals-spring-tunic": {
+    "FAB001-Gold-Extended Art": "1st Edition Cold Foil"
+  },
+  "go-bananas-yellow": {
+    "LSS002-Rainbow": "1st Edition Rainbow Foil"
+  },
+  "goliath-gauntlet": {
+    "BVO006": "1st Edition Normal"
+  },
+  "grasp-of-the-arknight": {
+    "FAB010-Gold": "1st Edition Cold Foil"
+  },
+  "harmonized-kodachi": {
+    "KSU003": "1st Edition Normal",
+    "KSU004": "1st Edition Normal",
+    "LGS003-Cold": "1st Edition Cold Foil"
+  },
+  "head-jab-blue": {
+    "IRA008-Alternate Art": "1st Edition Normal",
+    "KSU023": "1st Edition Normal"
+  },
+  "head-jab-red": {
+    "KSU011": "1st Edition Normal"
+  },
+  "heartened-cross-strap": {
+    "KSU006": "1st Edition Normal"
+  },
+  "helm-of-isens-peak": {
+    "BVO004": "1st Edition Normal"
+  },
+  "hope-merchants-hood": {
+    "TEA004": "1st Edition Normal"
+  },
+  "infecting-shot-blue": {
+    "TNP006-Cold-Full Art": "Rainbow Foil"
+  },
+  "infecting-shot-red": {
+    "TNP004-Cold-Full Art": "Rainbow Foil"
+  },
+  "infecting-shot-yellow": {
+    "TNP005-Cold-Full Art": "Rainbow Foil"
+  },
+  "ira-crimson-haze": {
+    "HER000-Cold": "1st Edition Cold Foil",
+    "IRA001": "1st Edition Normal"
+  },
+  "ironrot-gauntlet": {
+    "RNR006": "1st Edition Normal",
+    "TEA006": "1st Edition Normal"
+  },
+  "ironrot-helm": {
+    "KSU005": "1st Edition Normal",
+    "RNR004": "1st Edition Normal"
+  },
+  "ironrot-legs": {
+    "BVO007": "1st Edition Normal",
+    "KSU008": "1st Edition Normal"
+  },
+  "ironrot-plate": {
+    "BVO005": "1st Edition Normal",
+    "TEA005": "1st Edition Normal"
+  },
+  "ironsong-response-blue": {
+    "TEA021": "1st Edition Normal"
+  },
+  "ironsong-response-red": {
+    "LGS008-Extended Art": "1st Edition Normal"
+  },
+  "jarl-vetreidi": {
+    "AJV001-Rainbow": "Normal"
+  },
+  "kano": {
+    "HER016-Rainbow": "1st Edition Rainbow Foil"
+  },
+  "kano-dracai-of-aether": {
+    "HER012-Cold": "1st Edition Cold Foil",
+    "HER020-Rainbow": "1st Edition Rainbow Foil"
+  },
+  "katsu": {
+    "HER007-Rainbow": "1st Edition Rainbow Foil",
+    "KSU002": "1st Edition Normal"
+  },
+  "katsu-the-wanderer": {
+    "HER003-Cold": "1st Edition Cold Foil",
+    "HER023-Rainbow": "1st Edition Rainbow Foil",
+    "KSU001": "1st Edition Normal"
+  },
+  "leg-tap-red": {
+    "KSU012": "1st Edition Normal"
+  },
+  "leg-tap-yellow": {
+    "KSU018": "1st Edition Normal"
+  },
+  "levia": {
+    "LEV001-Rainbow": "Unlimited Edition Rainbow Foil"
+  },
+  "levia-shadowborn-abomination": {
+    "HER040-Rainbow": "Unlimited Edition Rainbow Foil"
+  },
+  "luminaris": {
+    "CON001-Rainbow-Alternate Art-Full Art": "Cold Foil"
+  },
+  "lunging-press-blue": {
+    "IRA011": "1st Edition Normal",
+    "KSU028": "1st Edition Normal"
+  },
+  "mauvrion-skies-blue": {
+    "TNP027-Cold-Full Art": "Rainbow Foil"
+  },
+  "mauvrion-skies-red": {
+    "TNP025-Cold-Full Art": "Rainbow Foil"
+  },
+  "mauvrion-skies-yellow": {
+    "TNP026-Cold-Full Art": "Rainbow Foil"
+  },
+  "natures-path-pilgrimage-blue": {
+    "TEA023": "1st Edition Normal"
+  },
+  "natures-path-pilgrimage-red": {
+    "TEA013": "1st Edition Normal"
+  },
+  "nebula-blade": {
+    "LGS011-Cold": "1st Edition Cold Foil"
+  },
+  "olympia-prized-fighter": {
+    "HER170-Rainbow-Alternate Art-Full Art": "Normal"
+  },
+  "open-the-center-red": {
+    "KSU013": "1st Edition Normal"
+  },
+  "over-loop-red": {
+    "LGS013-Extended Art": "1st Edition Normal"
+  },
+  "overpower-red": {
+    "TEA010": "1st Edition Normal"
+  },
+  "pack-hunt-red": {
+    "RNR009": "1st Edition Normal"
+  },
+  "phantasmal-footsteps": {
+    "CON002-Rainbow-Alternate Art-Full Art": "Cold Foil"
+  },
+  "potion-of-strength-blue": {
+    "BVO028": "1st Edition Normal",
+    "FAB013-Cold": "1st Edition Cold Foil"
+  },
+  "primeval-bellow-blue": {
+    "RNR026": "1st Edition Normal"
+  },
+  "prism": {
+    "PSM001-Rainbow": "Unlimited Edition Rainbow Foil"
+  },
+  "prism-sculptor-of-arc-light": {
+    "HER038-Rainbow": "Unlimited Edition Rainbow Foil"
+  },
+  "professor-teklovossen": {
+    "TCC001-Rainbow": "Normal"
+  },
+  "pummel-blue": {
+    "BVO027": "1st Edition Normal"
+  },
+  "quicken": {
+    "RNR031": "1st Edition Normal",
+    "TEA030": "1st Edition Normal"
+  },
+  "raging-onslaught-blue": {
+    "BVO024": "1st Edition Normal"
+  },
+  "raging-onslaught-yellow": {
+    "RNR020": "1st Edition Normal"
+  },
+  "razor-reflex-red": {
+    "TEA016": "1st Edition Normal"
+  },
+  "reaping-blade": {
+    "CON003-Rainbow-Alternate Art-Full Art": "Cold Foil"
+  },
+  "reduce-to-runechant-red": {
+    "LGS015-Extended Art": "1st Edition Normal"
+  },
+  "refraction-bolters": {
+    "TEA007": "1st Edition Normal"
+  },
+  "rhinar": {
+    "RNR002": "1st Edition Normal"
+  },
+  "rhinar-reckless-rampage": {
+    "HER001-Cold": "1st Edition Cold Foil",
+    "HER021-Rainbow": "1st Edition Rainbow Foil",
+    "RNR001": "1st Edition Normal"
+  },
+  "rising-knee-thrust-red": {
+    "KSU014": "1st Edition Normal"
+  },
+  "rising-knee-thrust-yellow": {
+    "KSU019": "1st Edition Normal"
+  },
+  "romping-club": {
+    "LGS001-Cold": "1st Edition Cold Foil",
+    "RNR003": "1st Edition Normal"
+  },
+  "salt-the-wound-yellow": {
+    "IRA004": "1st Edition Normal"
+  },
+  "savage-feast-red": {
+    "RNR010": "1st Edition Normal"
+  },
+  "savage-swing-red": {
+    "RNR011": "1st Edition Normal"
+  },
+  "savage-swing-yellow": {
+    "RNR016": "1st Edition Normal"
+  },
+  "scar-for-a-scar-red": {
+    "FAB015-Rainbow-Extended Art": "1st Edition Rainbow Foil",
+    "IRA009": "1st Edition Normal",
+    "KSU017": "1st Edition Normal"
+  },
+  "scour-the-battlescape-blue": {
+    "KSU026": "1st Edition Normal",
+    "RNR028": "1st Edition Normal",
+    "TEA027": "1st Edition Normal"
+  },
+  "ser-boltyn-breaker-of-dawn": {
+    "HER039-Rainbow": "Unlimited Edition Rainbow Foil"
+  },
+  "sharpen-steel-red": {
+    "TEA014": "1st Edition Normal"
+  },
+  "shred-blue": {
+    "TNP015-Cold-Full Art": "Rainbow Foil"
+  },
+  "shred-red": {
+    "TNP013-Cold-Full Art": "Rainbow Foil"
+  },
+  "shred-yellow": {
+    "TNP014-Cold-Full Art": "Rainbow Foil"
+  },
+  "sic-em-shot-red": {
+    "LGS014-Extended Art": "1st Edition Normal",
+    "LGS035-Rainbow-Extended Art": "Normal"
+  },
+  "sigil-of-solace-blue": {
+    "KSU030": "1st Edition Normal",
+    "RNR030": "1st Edition Normal",
+    "TEA029": "1st Edition Normal"
+  },
+  "sloggism-blue": {
+    "BVO029": "1st Edition Normal"
+  },
+  "smash-instinct-red": {
+    "RNR012": "1st Edition Normal"
+  },
+  "smash-instinct-yellow": {
+    "RNR017": "1st Edition Normal"
+  },
+  "snapdragon-scalers": {
+    "RNR007": "1st Edition Normal"
+  },
+  "spears-of-surreality-blue": {
+    "TNP018-Cold-Full Art": "Rainbow Foil"
+  },
+  "spears-of-surreality-red": {
+    "TNP016-Cold-Full Art": "Rainbow Foil"
+  },
+  "spears-of-surreality-yellow": {
+    "TNP017-Cold-Full Art": "Rainbow Foil"
+  },
+  "springboard-somersault-yellow": {
+    "BVO015": "1st Edition Normal",
+    "IRA012": "1st Edition Normal",
+    "KSU021": "1st Edition Normal",
+    "RNR022": "1st Edition Normal",
+    "TEA019": "1st Edition Normal"
+  },
+  "staunch-response-blue": {
+    "BVO020": "1st Edition Normal"
+  },
+  "staunch-response-red": {
+    "TNP019-Cold-Full Art": "Rainbow Foil"
+  },
+  "steelblade-shunt-red": {
+    "TEA011": "1st Edition Normal"
+  },
+  "stonewall-confidence-blue": {
+    "BVO022": "1st Edition Normal"
+  },
+  "storm-striders": {
+    "FAB011-Gold": "1st Edition Cold Foil"
+  },
+  "stroke-of-foresight-red": {
+    "TEA009": "1st Edition Normal"
+  },
+  "stroke-of-foresight-yellow": {
+    "TEA017": "1st Edition Normal"
+  },
+  "surging-strike-red": {
+    "KSU015": "1st Edition Normal"
+  },
+  "surging-strike-yellow": {
+    "KSU020": "1st Edition Normal"
+  },
+  "teklo-plasma-pistol": {
+    "LGS009-Cold": "1st Edition Cold Foil"
+  },
+  "timesnap-potion-blue": {
+    "FAB014-Cold": "1st Edition Cold Foil",
+    "RNR029": "1st Edition Normal"
+  },
+  "torrent-of-tempo-red": {
+    "IRA006": "1st Edition Normal"
+  },
+  "viserai": {
+    "HER015-Rainbow": "1st Edition Rainbow Foil"
+  },
+  "viserai-rune-blood": {
+    "HER011-Cold": "1st Edition Cold Foil",
+    "HER019-Rainbow": "1st Edition Rainbow Foil"
+  },
+  "voltic-bolt-red": {
+    "LGS016-Extended Art": "1st Edition Normal"
+  },
+  "voltic-bolt-yellow": {
+    "LGS042-Rainbow-Extended Art": "Normal"
+  },
+  "warriors-valor-blue": {
+    "TEA025": "1st Edition Normal",
+    "TNP012-Cold-Full Art": "Rainbow Foil"
+  },
+  "warriors-valor-red": {
+    "TNP010-Cold-Full Art": "Rainbow Foil"
+  },
+  "warriors-valor-yellow": {
+    "TEA018": "1st Edition Normal",
+    "TNP011-Cold-Full Art": "Rainbow Foil"
+  },
+  "whelming-gustwave-blue": {
+    "KSU024": "1st Edition Normal"
+  },
+  "whelming-gustwave-red": {
+    "KSU016": "1st Edition Normal",
+    "LGS007-Extended Art": "1st Edition Normal"
+  },
+  "whirling-mist-blossom-yellow": {
+    "IRA003": "1st Edition Normal"
+  },
+  "wild-ride-blue": {
+    "TNP003-Cold-Full Art": "Rainbow Foil"
+  },
+  "wild-ride-red": {
+    "TNP001-Cold-Full Art": "Rainbow Foil"
+  },
+  "wild-ride-yellow": {
+    "TNP002-Cold-Full Art": "Rainbow Foil"
+  },
+  "wounded-bull-blue": {
+    "BVO026": "1st Edition Normal"
+  },
+  "wounded-bull-yellow": {
+    "RNR021": "1st Edition Normal"
+  },
+  "wounding-blow-blue": {
+    "KSU027": "1st Edition Normal"
+  },
+  "wounding-blow-red": {
+    "TEA015": "1st Edition Normal"
+  },
+  "wrecker-romp-blue": {
+    "LGS005-Extended Art": "1st Edition Normal",
+    "RNR023": "1st Edition Normal"
+  },
+  "wrecker-romp-red": {
+    "RNR013": "1st Edition Normal"
+  },
+  "zen-state": {
+    "FAB244-Cold": "Rainbow Foil"
+  },
+  "zipper-hit-blue": {
+    "TNP030-Cold-Full Art": "Rainbow Foil"
+  },
+  "zipper-hit-red": {
+    "TNP028-Cold-Full Art": "Rainbow Foil"
+  },
+  "zipper-hit-yellow": {
+    "TNP029-Cold-Full Art": "Rainbow Foil"
+  }
+}

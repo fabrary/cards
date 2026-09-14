@@ -15,14 +15,16 @@ const tcgplayerOverrides = tcgplayerOverrideFile as {
   };
 };
 
-import tcgplayerFinishOverrideFile from "./tcgplayer-finish-overrides.json";
-// cardIdentifier -> print -> the finish TCGplayer files that print's listings under
-const tcgplayerFinishesByPrintByCard = new Map(
+import tcgplayerPrintingOverrideFile from "./tcgplayer-printing-overrides.json";
+// cardIdentifier -> print -> the TCGplayer printing that print's listings sit under
+const tcgplayerPrintingsByPrintByCard = new Map(
   Object.entries(
-    tcgplayerFinishOverrideFile as { [key: string]: { [key: string]: string } },
-  ).map(([cardIdentifier, finishesByPrint]) => [
+    tcgplayerPrintingOverrideFile as {
+      [key: string]: { [key: string]: string };
+    },
+  ).map(([cardIdentifier, printingsByPrint]) => [
     cardIdentifier,
-    new Map(Object.entries(finishesByPrint)),
+    new Map(Object.entries(printingsByPrint)),
   ]),
 );
 
@@ -164,39 +166,43 @@ export const getTCGPlayerInfoFromOverrides = (
   }
 };
 
-const TCGPLAYER_FINISH_PARAM = "Printing";
+const TCGPLAYER_PRINTING_PARAM = "Printing";
 
-// The api prices a printing from the finish its link names, and links name our finish, so a print
-// TCGplayer files under another finish (the CON001 rainbow foil sells as cold foil) goes unpriced
-// until its link names TCGplayer's. An entry that changes no link throws: a print key change or an
-// upstream fix would otherwise retire it silently.
-export const getCardsWithTCGplayerFinishOverrides = (cards: Card[]): Card[] => {
+// The api prices a printing from the TCGplayer printing its link names, and links name our edition
+// and finish. TCGplayer sometimes lists a print under another finish (the CON001 rainbow foil sells
+// as cold foil) or under an edition our data doesn't carry (hero deck cards sell as 1st Edition),
+// and the print goes unpriced until its link names TCGplayer's printing. An entry that changes no
+// link throws: a print key change or an upstream fix would otherwise retire it silently.
+export const getCardsWithTCGplayerPrintingOverrides = (
+  cards: Card[],
+): Card[] => {
   const unappliedOverrides = new Set<string>();
   for (const [
     cardIdentifier,
-    finishesByPrint,
-  ] of tcgplayerFinishesByPrintByCard) {
-    for (const print of finishesByPrint.keys()) {
+    printingsByPrint,
+  ] of tcgplayerPrintingsByPrintByCard) {
+    for (const print of printingsByPrint.keys()) {
       unappliedOverrides.add(`${cardIdentifier} ${print}`);
     }
   }
 
   const cardsWithOverrides = cards.map((card) => {
-    const finishesByPrint = tcgplayerFinishesByPrintByCard.get(
+    const printingsByPrint = tcgplayerPrintingsByPrintByCard.get(
       card.cardIdentifier,
     );
     let cardWithOverrides = card;
-    if (finishesByPrint) {
+    if (printingsByPrint) {
       const printings = card.printings.map((printing) => {
-        const finish = finishesByPrint.get(printing.print);
+        const tcgplayerPrinting = printingsByPrint.get(printing.print);
         let printingWithOverride = printing;
         const tcgplayerUrl = printing.tcgplayer?.url;
-        if (finish && tcgplayerUrl) {
+        if (tcgplayerPrinting && tcgplayerUrl) {
           const url = new URL(tcgplayerUrl);
           const shouldOverride =
-            url.searchParams.get(TCGPLAYER_FINISH_PARAM) !== finish;
+            url.searchParams.get(TCGPLAYER_PRINTING_PARAM) !==
+            tcgplayerPrinting;
           if (shouldOverride) {
-            url.searchParams.set(TCGPLAYER_FINISH_PARAM, finish);
+            url.searchParams.set(TCGPLAYER_PRINTING_PARAM, tcgplayerPrinting);
             printingWithOverride = {
               ...printing,
               tcgplayer: { ...printing.tcgplayer, url: url.toString() },
@@ -215,7 +221,7 @@ export const getCardsWithTCGplayerFinishOverrides = (cards: Card[]): Card[] => {
 
   if (unappliedOverrides.size > 0) {
     throw new Error(
-      `TCGplayer finish overrides that change no link (no such print, no link, or the link already names that finish): ${[...unappliedOverrides].join(", ")}`,
+      `TCGplayer printing overrides that change no link (no such print, no link, or the link already names that printing): ${[...unappliedOverrides].join(", ")}`,
     );
   }
 

@@ -12074,7 +12074,7 @@ When this hits a hero, banish the top card of their deck.`,
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225636",
-            url: "https://www.tcgplayer.com/product/225636?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225636?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -12119,7 +12119,7 @@ When this hits a hero, banish the top card of their deck.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "225585",
-            url: "https://www.tcgplayer.com/product/225585?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225585?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       
     },],
@@ -22023,17 +22023,17 @@ If you control a Spectral Shield, you may play this as though it were an instant
       
     },{
         artists: ["Ramza Ardyputra"],
-      
+      foiling: Foiling.Rainbow,
       identifier: "AUR001",
       image: "AUR001",
       
       
-      print: "AUR001",
+      print: "AUR001-Rainbow",
       rarity: Rarity.Rare,
       set: Release.FirstStrikeAurora,
       tcgplayer: {
             productId: "561886",
-            url: "https://www.tcgplayer.com/product/561886?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/561886?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -23478,7 +23478,7 @@ When Avalon attacks, you may banish a card from your hero's soul. If you do, put
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225342",
-            url: "https://www.tcgplayer.com/product/225342?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225342?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -23719,7 +23719,7 @@ The next Brute attack action card you play this turn gets +2{p}.
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225368",
-            url: "https://www.tcgplayer.com/product/225368?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225368?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -24035,7 +24035,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
       set: Release.Promos,
       tcgplayer: {
             productId: "225530",
-            url: "https://www.tcgplayer.com/product/225530?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/225530?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
       
     },],
@@ -24204,7 +24204,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
       set: Release.Promos,
       tcgplayer: {
             productId: "225525",
-            url: "https://www.tcgplayer.com/product/225525?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225525?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       
     },{
@@ -24231,7 +24231,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
       set: Release.Promos,
       tcgplayer: {
             productId: "225547",
-            url: "https://www.tcgplayer.com/product/225547?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/225547?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
       
     },],
@@ -29101,7 +29101,7 @@ When this attacks, if you've beaten chest this turn and you don't control a ches
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225328",
-            url: "https://www.tcgplayer.com/product/225328?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225328?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -29619,7 +29619,7 @@ When this attacks, if you've beaten chest this turn and you don't control a ches
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225352",
-            url: "https://www.tcgplayer.com/product/225352?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225352?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -29789,7 +29789,7 @@ When this attacks, if you've beaten chest this turn and you don't control a ches
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225369",
-            url: "https://www.tcgplayer.com/product/225369?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225369?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -30495,7 +30495,7 @@ If this is defended by fewer than 2 non-equipment cards, it gets **go again**.`,
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225717",
-            url: "https://www.tcgplayer.com/product/225717?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225717?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -40878,7 +40878,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225325",
-            url: "https://www.tcgplayer.com/product/225325?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225325?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -41115,7 +41115,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225350",
-            url: "https://www.tcgplayer.com/product/225350?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225350?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -42003,7 +42003,7 @@ If this was **fused**, the attacking hero discards a card unless they pay {r}{r}
       set: Release.IraWelcomeDeck,
       tcgplayer: {
             productId: "224951",
-            url: "https://www.tcgplayer.com/product/224951?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/224951?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -42210,7 +42210,7 @@ If this was **fused**, the attacking hero discards a card unless they pay {r}{r}
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225760",
-            url: "https://www.tcgplayer.com/product/225760?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225760?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -46462,7 +46462,7 @@ At the start of your turn, put this into your soul.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "225603",
-            url: "https://www.tcgplayer.com/product/225603?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225603?Language=English&Printing=1st+Edition+Normal"
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },{
@@ -46763,7 +46763,7 @@ At the beginning of your action phase, destroy this then reveal the top 2 cards 
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225714",
-            url: "https://www.tcgplayer.com/product/225714?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225714?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -46778,7 +46778,7 @@ At the beginning of your action phase, destroy this then reveal the top 2 cards 
       set: Release.Promos,
       tcgplayer: {
             productId: "229765",
-            url: "https://www.tcgplayer.com/product/229765?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/229765?Language=English&Printing=Normal"
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
@@ -56846,7 +56846,7 @@ If you've **charged** this turn, this gets "When this hits, draw a card."`,
       set: Release.BoltynBlitzDeck,
       tcgplayer: {
             productId: "238371",
-            url: "https://www.tcgplayer.com/product/238371?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/238371?Language=English&Printing=Unlimited+Edition+Rainbow+Foil"
           },
       
     },{
@@ -63011,7 +63011,7 @@ If you've charged this turn, this gets **go again** and "When this hits, create 
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225635",
-            url: "https://www.tcgplayer.com/product/225635?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225635?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -63334,7 +63334,7 @@ If you've charged this turn, this gets **go again** and "When this hits, create 
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225634",
-            url: "https://www.tcgplayer.com/product/225634?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225634?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -63349,7 +63349,7 @@ If you've charged this turn, this gets **go again** and "When this hits, create 
       set: Release.Promos,
       tcgplayer: {
             productId: "225517",
-            url: "https://www.tcgplayer.com/product/225517?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225517?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       
     },{
@@ -63376,7 +63376,7 @@ If you've charged this turn, this gets **go again** and "When this hits, create 
       set: Release.Promos,
       tcgplayer: {
             productId: "225574",
-            url: "https://www.tcgplayer.com/product/225574?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/225574?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
       
     },],
@@ -64928,7 +64928,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225754",
-            url: "https://www.tcgplayer.com/product/225754?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225754?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -65084,7 +65084,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225333",
-            url: "https://www.tcgplayer.com/product/225333?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225333?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -67742,7 +67742,7 @@ Target dagger attack gets +4{p}.`,
       set: Release.IraWelcomeDeck,
       tcgplayer: {
             productId: "224956",
-            url: "https://www.tcgplayer.com/product/224956?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/224956?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -68320,7 +68320,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225692",
-            url: "https://www.tcgplayer.com/product/225692?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225692?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -68613,7 +68613,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225705",
-            url: "https://www.tcgplayer.com/product/225705?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225705?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -74300,7 +74300,7 @@ At the start of your turn, if you have 13 or less {h}, banish this.
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225694",
-            url: "https://www.tcgplayer.com/product/225694?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225694?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -74593,7 +74593,7 @@ At the start of your turn, if you have 13 or less {h}, banish this.
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225707",
-            url: "https://www.tcgplayer.com/product/225707?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225707?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -76794,7 +76794,7 @@ When this hits a Brute hero, they discard a card. If it has 6 or more {p}, you l
       set: Release.ChaneBlitzDeck,
       tcgplayer: {
             productId: "238423",
-            url: "https://www.tcgplayer.com/product/238423?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/238423?Language=English&Printing=Unlimited+Edition+Rainbow+Foil"
           },
       
     },{
@@ -76930,7 +76930,7 @@ When this hits a Brute hero, they discard a card. If it has 6 or more {p}, you l
       set: Release.Promos,
       tcgplayer: {
             productId: "242129",
-            url: "https://www.tcgplayer.com/product/242129?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/242129?Language=English&Printing=Unlimited+Edition+Rainbow+Foil"
           },
       
     },],
@@ -95718,7 +95718,7 @@ You may destroy an aura you control. If you do, each opponent destroys an aura p
       set: Release.Promos,
       tcgplayer: {
             productId: "665039",
-            url: "https://www.tcgplayer.com/product/665039?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/665039?Language=English&Printing=Normal"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
@@ -105604,7 +105604,7 @@ When this attacks, if it scrapped a card, this gets **go again**. If a cog was s
       set: Release.Promos,
       tcgplayer: {
             productId: "229799",
-            url: "https://www.tcgplayer.com/product/229799?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/229799?Language=English&Printing=Normal"
           },
       
     },],
@@ -108220,7 +108220,7 @@ When this is equipped, create a Gold token.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "225616",
-            url: "https://www.tcgplayer.com/product/225616?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225616?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       
     },],
@@ -108858,7 +108858,7 @@ At the beginning of your action phase, destroy this, then your next attack this 
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225708",
-            url: "https://www.tcgplayer.com/product/225708?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225708?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -114149,7 +114149,7 @@ Your next Shadow attack this turn gets +1{p}. **Go again**
       set: Release.Promos,
       tcgplayer: {
             productId: "225529",
-            url: "https://www.tcgplayer.com/product/225529?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/225529?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
       
     },],
@@ -114582,7 +114582,7 @@ Once per turn, you may play a Mechanologist item with cost 1 or less from the to
       set: Release.Promos,
       tcgplayer: {
             productId: "225524",
-            url: "https://www.tcgplayer.com/product/225524?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225524?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       
     },{
@@ -114609,7 +114609,7 @@ Once per turn, you may play a Mechanologist item with cost 1 or less from the to
       set: Release.Promos,
       tcgplayer: {
             productId: "225545",
-            url: "https://www.tcgplayer.com/product/225545?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/225545?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
       
     },],
@@ -115640,7 +115640,7 @@ The next defense reaction card the defending hero plays this turn costs an addit
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225317",
-            url: "https://www.tcgplayer.com/product/225317?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225317?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -115685,7 +115685,7 @@ The next defense reaction card the defending hero plays this turn costs an addit
       set: Release.Promos,
       tcgplayer: {
             productId: "225594",
-            url: "https://www.tcgplayer.com/product/225594?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225594?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       
     },],
@@ -117816,7 +117816,7 @@ If it has an aim counter, it gets "When this hits a hero, look at their hand and
       set: Release.Promos,
       tcgplayer: {
             productId: "225611",
-            url: "https://www.tcgplayer.com/product/225611?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225611?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       
     },],
@@ -119078,7 +119078,7 @@ When a hero deals lethal damage to another hero, they create Gold tokens equal t
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225695",
-            url: "https://www.tcgplayer.com/product/225695?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225695?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -119232,7 +119232,7 @@ When a hero deals lethal damage to another hero, they create Gold tokens equal t
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225700",
-            url: "https://www.tcgplayer.com/product/225700?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225700?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -125081,7 +125081,7 @@ Each hero banishes a card from their arsenal.
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225697",
-            url: "https://www.tcgplayer.com/product/225697?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225697?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -125434,7 +125434,7 @@ Each hero banishes a card from their arsenal.
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225709",
-            url: "https://www.tcgplayer.com/product/225709?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225709?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -128348,7 +128348,7 @@ Create a Blasmophet, the Soul Harvester token.`,
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225316",
-            url: "https://www.tcgplayer.com/product/225316?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225316?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -128393,7 +128393,7 @@ Create a Blasmophet, the Soul Harvester token.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "225523",
-            url: "https://www.tcgplayer.com/product/225523?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/225523?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
       
     },],
@@ -128532,7 +128532,7 @@ Create a Blasmophet, the Soul Harvester token.`,
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225315",
-            url: "https://www.tcgplayer.com/product/225315?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225315?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -128547,7 +128547,7 @@ Create a Blasmophet, the Soul Harvester token.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "225519",
-            url: "https://www.tcgplayer.com/product/225519?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225519?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       
     },{
@@ -128574,7 +128574,7 @@ Create a Blasmophet, the Soul Harvester token.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "225577",
-            url: "https://www.tcgplayer.com/product/225577?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/225577?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
       
     },{
@@ -133697,7 +133697,7 @@ When this attacks a hero, you may **wager** with them. The winner draws a card, 
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225337",
-            url: "https://www.tcgplayer.com/product/225337?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225337?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -133979,7 +133979,7 @@ When this attacks a hero, you may **wager** with them. The winner draws a card, 
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225354",
-            url: "https://www.tcgplayer.com/product/225354?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225354?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -134339,7 +134339,7 @@ If you've played a red card this turn, your dragon attacks get **go again**.`,
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225344",
-            url: "https://www.tcgplayer.com/product/225344?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225344?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -134587,7 +134587,7 @@ If you've played a red card this turn, your dragon attacks get **go again**.`,
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225724",
-            url: "https://www.tcgplayer.com/product/225724?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225724?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -140780,7 +140780,7 @@ Create an Ursur, the Soul Reaper token.`,
       set: Release.IraWelcomeDeck,
       tcgplayer: {
             productId: "224948",
-            url: "https://www.tcgplayer.com/product/224948?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/224948?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -146625,7 +146625,7 @@ At the beginning of your action phase, destroy this then the next attack action 
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225699",
-            url: "https://www.tcgplayer.com/product/225699?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225699?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -146766,7 +146766,7 @@ At the beginning of your action phase, destroy this then the next Guardian attac
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225703",
-            url: "https://www.tcgplayer.com/product/225703?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225703?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -147003,7 +147003,7 @@ At the beginning of your action phase, destroy this then the next Guardian attac
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692551",
-            url: "https://www.tcgplayer.com/product/692551?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692551?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
@@ -147127,7 +147127,7 @@ At the beginning of your action phase, destroy this then the next Guardian attac
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692552",
-            url: "https://www.tcgplayer.com/product/692552?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692552?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
@@ -147266,7 +147266,7 @@ At the beginning of your action phase, destroy this then the next Guardian attac
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692553",
-            url: "https://www.tcgplayer.com/product/692553?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692553?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
@@ -149862,7 +149862,7 @@ When this hits a hero, until the end of their next turn, whenever they activate 
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225762",
-            url: "https://www.tcgplayer.com/product/225762?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225762?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -149877,7 +149877,7 @@ When this hits a hero, until the end of their next turn, whenever they activate 
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225362",
-            url: "https://www.tcgplayer.com/product/225362?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225362?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -149892,7 +149892,7 @@ When this hits a hero, until the end of their next turn, whenever they activate 
       set: Release.Promos,
       tcgplayer: {
             productId: "225511",
-            url: "https://www.tcgplayer.com/product/225511?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225511?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       
     },{
@@ -176325,7 +176325,7 @@ If it has an aim counter, it gets "Yellow cards get -1{d} while defending this."
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692554",
-            url: "https://www.tcgplayer.com/product/692554?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692554?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
@@ -176479,7 +176479,7 @@ If it has an aim counter, it gets "Yellow cards get -1{d} while defending this."
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692555",
-            url: "https://www.tcgplayer.com/product/692555?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692555?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
@@ -176618,7 +176618,7 @@ If it has an aim counter, it gets "Yellow cards get -1{d} while defending this."
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225763",
-            url: "https://www.tcgplayer.com/product/225763?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225763?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -176633,7 +176633,7 @@ If it has an aim counter, it gets "Yellow cards get -1{d} while defending this."
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692556",
-            url: "https://www.tcgplayer.com/product/692556?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692556?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
@@ -178343,7 +178343,7 @@ When this attacks, create a Quicken token.`,
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225371",
-            url: "https://www.tcgplayer.com/product/225371?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225371?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -178358,7 +178358,7 @@ When this attacks, create a Quicken token.`,
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225360",
-            url: "https://www.tcgplayer.com/product/225360?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225360?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -179814,7 +179814,7 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225765",
-            url: "https://www.tcgplayer.com/product/225765?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225765?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -180047,7 +180047,7 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225764",
-            url: "https://www.tcgplayer.com/product/225764?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225764?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -180600,7 +180600,7 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
       set: Release.IraWelcomeDeck,
       tcgplayer: {
             productId: "224953",
-            url: "https://www.tcgplayer.com/product/224953?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/224953?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -188484,7 +188484,7 @@ Create a Runechant token.
       set: Release.Promos,
       tcgplayer: {
             productId: "225501",
-            url: "https://www.tcgplayer.com/product/225501?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225501?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },{
@@ -195651,7 +195651,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
       set: Release.Promos,
       tcgplayer: {
             productId: "225624",
-            url: "https://www.tcgplayer.com/product/225624?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/225624?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
       
     },],
@@ -198804,7 +198804,7 @@ Create a Golden Cog token.`,
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225639",
-            url: "https://www.tcgplayer.com/product/225639?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225639?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -200668,7 +200668,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "225509",
-            url: "https://www.tcgplayer.com/product/225509?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225509?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       
     },],
@@ -206447,7 +206447,7 @@ The third time you play a card with **boost** each turn, put a steam counter on 
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225746",
-            url: "https://www.tcgplayer.com/product/225746?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225746?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -206462,7 +206462,7 @@ The third time you play a card with **boost** each turn, put a steam counter on 
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225746",
-            url: "https://www.tcgplayer.com/product/225746?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225746?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -206522,7 +206522,7 @@ The third time you play a card with **boost** each turn, put a steam counter on 
       set: Release.Promos,
       tcgplayer: {
             productId: "225592",
-            url: "https://www.tcgplayer.com/product/225592?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225592?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       
     },],
@@ -208696,7 +208696,7 @@ The first Guardian or Revered attack action card you play each turn gets "When t
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225769",
-            url: "https://www.tcgplayer.com/product/225769?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225769?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -209049,7 +209049,7 @@ The first Guardian or Revered attack action card you play each turn gets "When t
       set: Release.IraWelcomeDeck,
       tcgplayer: {
             productId: "224954",
-            url: "https://www.tcgplayer.com/product/224954?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/224954?Language=English&Printing=1st+Edition+Normal"
           },
       treatment: Treatment.AA,treatments: [Treatment.AA],
     },{
@@ -209064,7 +209064,7 @@ The first Guardian or Revered attack action card you play each turn gets "When t
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225767",
-            url: "https://www.tcgplayer.com/product/225767?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225767?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -211488,7 +211488,7 @@ Gain 1{h}. Gain 1{h}. Gain 1{h}.
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225751",
-            url: "https://www.tcgplayer.com/product/225751?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225751?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -214551,7 +214551,7 @@ When the combat chain closes, if you've attacked with this, banish it.
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225637",
-            url: "https://www.tcgplayer.com/product/225637?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225637?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -224866,7 +224866,7 @@ If it has 3 or more +1{p} counters, you may put an attack reaction card from you
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225319",
-            url: "https://www.tcgplayer.com/product/225319?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225319?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -235990,7 +235990,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692557",
-            url: "https://www.tcgplayer.com/product/692557?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692557?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
@@ -236116,7 +236116,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692558",
-            url: "https://www.tcgplayer.com/product/692558?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692558?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
@@ -236227,7 +236227,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692559",
-            url: "https://www.tcgplayer.com/product/692559?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692559?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
@@ -241866,7 +241866,7 @@ const cards4: Card[] = [{
       set: Release.IraWelcomeDeck,
       tcgplayer: {
             productId: "224947",
-            url: "https://www.tcgplayer.com/product/224947?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/224947?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -241881,7 +241881,7 @@ const cards4: Card[] = [{
       set: Release.Promos,
       tcgplayer: {
             productId: "225515",
-            url: "https://www.tcgplayer.com/product/225515?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225515?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       
     },],
@@ -243091,7 +243091,7 @@ const cards4: Card[] = [{
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225330",
-            url: "https://www.tcgplayer.com/product/225330?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225330?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -243106,7 +243106,7 @@ const cards4: Card[] = [{
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225322",
-            url: "https://www.tcgplayer.com/product/225322?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225322?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -243332,7 +243332,7 @@ const cards4: Card[] = [{
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225749",
-            url: "https://www.tcgplayer.com/product/225749?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225749?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -243359,7 +243359,7 @@ const cards4: Card[] = [{
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225326",
-            url: "https://www.tcgplayer.com/product/225326?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225326?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -243618,7 +243618,7 @@ const cards4: Card[] = [{
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225640",
-            url: "https://www.tcgplayer.com/product/225640?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225640?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -243633,7 +243633,7 @@ const cards4: Card[] = [{
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225756",
-            url: "https://www.tcgplayer.com/product/225756?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225756?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -243799,7 +243799,7 @@ const cards4: Card[] = [{
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225638",
-            url: "https://www.tcgplayer.com/product/225638?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225638?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -243826,7 +243826,7 @@ const cards4: Card[] = [{
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225320",
-            url: "https://www.tcgplayer.com/product/225320?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225320?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -244234,7 +244234,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
       set: Release.Promos,
       tcgplayer: {
             productId: "225608",
-            url: "https://www.tcgplayer.com/product/225608?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225608?Language=English&Printing=1st+Edition+Normal"
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },{
@@ -244542,7 +244542,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225353",
-            url: "https://www.tcgplayer.com/product/225353?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225353?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -246030,7 +246030,7 @@ When this hits a hero, {u} an ally they control, then **steal** it until the end
       set: Release.ArmoryDeckOriginsJarl,
       tcgplayer: {
             productId: "587212",
-            url: "https://www.tcgplayer.com/product/587212?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/587212?Language=English&Printing=Normal"
           },
       
     },{
@@ -247794,7 +247794,7 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "225534",
-            url: "https://www.tcgplayer.com/product/225534?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/225534?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
       
     },],
@@ -247933,7 +247933,7 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "225527",
-            url: "https://www.tcgplayer.com/product/225527?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225527?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       
     },{
@@ -247960,7 +247960,7 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "225552",
-            url: "https://www.tcgplayer.com/product/225552?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/225552?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
       
     },],
@@ -248519,7 +248519,7 @@ At the beginning of your end phase, if you've attacked 2 or more times with weap
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225742",
-            url: "https://www.tcgplayer.com/product/225742?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225742?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -248564,7 +248564,7 @@ At the beginning of your end phase, if you've attacked 2 or more times with weap
       set: Release.Promos,
       tcgplayer: {
             productId: "225522",
-            url: "https://www.tcgplayer.com/product/225522?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/225522?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
       
     },],
@@ -248718,7 +248718,7 @@ At the beginning of your end phase, if you've attacked 2 or more times with weap
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225739",
-            url: "https://www.tcgplayer.com/product/225739?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225739?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -248733,7 +248733,7 @@ At the beginning of your end phase, if you've attacked 2 or more times with weap
       set: Release.Promos,
       tcgplayer: {
             productId: "225518",
-            url: "https://www.tcgplayer.com/product/225518?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225518?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       
     },{
@@ -248760,7 +248760,7 @@ At the beginning of your end phase, if you've attacked 2 or more times with weap
       set: Release.Promos,
       tcgplayer: {
             productId: "225575",
-            url: "https://www.tcgplayer.com/product/225575?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/225575?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
       
     },],
@@ -256337,7 +256337,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225770",
-            url: "https://www.tcgplayer.com/product/225770?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225770?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -256491,7 +256491,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225771",
-            url: "https://www.tcgplayer.com/product/225771?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225771?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -257137,7 +257137,7 @@ If this deals damage, you may search your deck for a Wizard card with cost less 
       set: Release.LeviaBlitzDeck,
       tcgplayer: {
             productId: "238457",
-            url: "https://www.tcgplayer.com/product/238457?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/238457?Language=English&Printing=Unlimited+Edition+Rainbow+Foil"
           },
       
     },{
@@ -257371,7 +257371,7 @@ Cards you own lose **blood debt**.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "242132",
-            url: "https://www.tcgplayer.com/product/242132?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/242132?Language=English&Printing=Unlimited+Edition+Rainbow+Foil"
           },
       
     },{
@@ -266221,7 +266221,7 @@ If there is a yellow card in your pitch zone, your Illusionist attacks get **go 
       set: Release.IraWelcomeDeck,
       tcgplayer: {
             productId: "224957",
-            url: "https://www.tcgplayer.com/product/224957?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/224957?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -266236,7 +266236,7 @@ If there is a yellow card in your pitch zone, your Illusionist attacks get **go 
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225773",
-            url: "https://www.tcgplayer.com/product/225773?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225773?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -273804,7 +273804,7 @@ When this is pitched, you may put a steam counter on an item you control with **
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692560",
-            url: "https://www.tcgplayer.com/product/692560?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692560?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
@@ -273945,7 +273945,7 @@ When this is pitched, you may put a steam counter on an item you control with **
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692561",
-            url: "https://www.tcgplayer.com/product/692561?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692561?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
@@ -274116,7 +274116,7 @@ When this is pitched, you may put a steam counter on an item you control with **
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692562",
-            url: "https://www.tcgplayer.com/product/692562?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692562?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
@@ -286135,7 +286135,7 @@ When Nasreth hits a hero, banish a card from their soul. If a Light card is bani
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225339",
-            url: "https://www.tcgplayer.com/product/225339?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225339?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -286402,7 +286402,7 @@ When Nasreth hits a hero, banish a card from their soul. If a Light card is bani
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225356",
-            url: "https://www.tcgplayer.com/product/225356?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225356?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -286558,7 +286558,7 @@ When Nasreth hits a hero, banish a card from their soul. If a Light card is bani
       set: Release.Promos,
       tcgplayer: {
             productId: "225612",
-            url: "https://www.tcgplayer.com/product/225612?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225612?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       
     },],
@@ -295603,7 +295603,7 @@ When this hits a hero, create a Toughness and a Vigor token.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "709156",
-            url: "https://www.tcgplayer.com/product/709156?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/709156?Language=English&Printing=Normal"
           },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },{
@@ -297214,7 +297214,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225774",
-            url: "https://www.tcgplayer.com/product/225774?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225774?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -301291,7 +301291,7 @@ The next time a weapon hits this turn, create a Copper token.
       set: Release.Promos,
       tcgplayer: {
             productId: "225617",
-            url: "https://www.tcgplayer.com/product/225617?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225617?Language=English&Printing=1st+Edition+Normal"
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },{
@@ -303648,7 +303648,7 @@ When this hits, it gets **go again**.`,
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225329",
-            url: "https://www.tcgplayer.com/product/225329?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225329?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -304935,7 +304935,7 @@ When this dies, create a Gold token.
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225334",
-            url: "https://www.tcgplayer.com/product/225334?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225334?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -321735,7 +321735,7 @@ Action cards get -1{d} while defending Mechanologist attack action cards you con
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225730",
-            url: "https://www.tcgplayer.com/product/225730?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225730?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -321750,7 +321750,7 @@ Action cards get -1{d} while defending Mechanologist attack action cards you con
       set: Release.Promos,
       tcgplayer: {
             productId: "225512",
-            url: "https://www.tcgplayer.com/product/225512?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225512?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       
     },],
@@ -326447,7 +326447,7 @@ Your next Brute attack this turn gets +4{p}.
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225370",
-            url: "https://www.tcgplayer.com/product/225370?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225370?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -326575,7 +326575,7 @@ Your next Brute attack this turn gets +3{p}.
       set: Release.PrismBlitzDeck,
       tcgplayer: {
             productId: "238499",
-            url: "https://www.tcgplayer.com/product/238499?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/238499?Language=English&Printing=Unlimited+Edition+Rainbow+Foil"
           },
       
     },{
@@ -326969,7 +326969,7 @@ Your next Brute attack this turn gets +3{p}.
       set: Release.Promos,
       tcgplayer: {
             productId: "242131",
-            url: "https://www.tcgplayer.com/product/242131?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/242131?Language=English&Printing=Unlimited+Edition+Rainbow+Foil"
           },
       
     },{
@@ -328326,7 +328326,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       set: Release.RoundTheTable,
       tcgplayer: {
             productId: "517456",
-            url: "https://www.tcgplayer.com/product/517456?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/517456?Language=English&Printing=Normal"
           },
       
     },{
@@ -333011,7 +333011,7 @@ When this hits a hero, their first attack during their next turn gets -4{p}.`,
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225728",
-            url: "https://www.tcgplayer.com/product/225728?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225728?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -337129,7 +337129,7 @@ At the beginning of the end phase, if this defended this turn, destroy it.`,
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225376",
-            url: "https://www.tcgplayer.com/product/225376?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225376?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -337144,7 +337144,7 @@ At the beginning of the end phase, if this defended this turn, destroy it.`,
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225365",
-            url: "https://www.tcgplayer.com/product/225365?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225365?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -338939,7 +338939,7 @@ During your turn, this has **ward 6**. Otherwise, this has **ward 1**.`,
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225359",
-            url: "https://www.tcgplayer.com/product/225359?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225359?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -339063,7 +339063,7 @@ During your turn, this has **ward 6**. Otherwise, this has **ward 1**.`,
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225722",
-            url: "https://www.tcgplayer.com/product/225722?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225722?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -343928,7 +343928,7 @@ If you've **charged** this turn, this gets +3{p}.`,
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225345",
-            url: "https://www.tcgplayer.com/product/225345?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225345?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -349147,7 +349147,7 @@ When this hits a hero, they can't play or activate more than 1 action during the
       set: Release.Promos,
       tcgplayer: {
             productId: "225622",
-            url: "https://www.tcgplayer.com/product/225622?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225622?Language=English&Printing=1st+Edition+Normal"
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },{
@@ -350014,7 +350014,7 @@ If an Earth card was pitched to attack with this, the attack gets +1{p}.`,
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225323",
-            url: "https://www.tcgplayer.com/product/225323?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225323?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -356165,7 +356165,7 @@ Whenever you protect another hero, create a Gold token.`,
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225321",
-            url: "https://www.tcgplayer.com/product/225321?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225321?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -356379,7 +356379,7 @@ Whenever you protect another hero, create a Gold token.`,
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225318",
-            url: "https://www.tcgplayer.com/product/225318?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225318?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -356394,7 +356394,7 @@ Whenever you protect another hero, create a Gold token.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "225516",
-            url: "https://www.tcgplayer.com/product/225516?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225516?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       
     },{
@@ -356421,7 +356421,7 @@ Whenever you protect another hero, create a Gold token.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "225572",
-            url: "https://www.tcgplayer.com/product/225572?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/225572?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
       
     },{
@@ -362178,7 +362178,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225775",
-            url: "https://www.tcgplayer.com/product/225775?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225775?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -362317,7 +362317,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225776",
-            url: "https://www.tcgplayer.com/product/225776?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225776?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -366676,7 +366676,7 @@ Damage that would be dealt by this can't be prevented.`,
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225324",
-            url: "https://www.tcgplayer.com/product/225324?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225324?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -366721,7 +366721,7 @@ Damage that would be dealt by this can't be prevented.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "225579",
-            url: "https://www.tcgplayer.com/product/225579?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225579?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       
     },{
@@ -376520,7 +376520,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
       set: Release.IraWelcomeDeck,
       tcgplayer: {
             productId: "224950",
-            url: "https://www.tcgplayer.com/product/224950?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/224950?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -379049,7 +379049,7 @@ If a card with 6 or more {p} was pitched to attack with this, the attack gets +1
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225335",
-            url: "https://www.tcgplayer.com/product/225335?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225335?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -379538,7 +379538,7 @@ When this attacks, if a card with 6 or more {p} was discarded as an additional c
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225336",
-            url: "https://www.tcgplayer.com/product/225336?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225336?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -379677,7 +379677,7 @@ When this attacks, if a card with 6 or more {p} was discarded as an additional c
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225346",
-            url: "https://www.tcgplayer.com/product/225346?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225346?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -381282,7 +381282,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
       set: Release.IraWelcomeDeck,
       tcgplayer: {
             productId: "224955",
-            url: "https://www.tcgplayer.com/product/224955?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/224955?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -381297,7 +381297,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225777",
-            url: "https://www.tcgplayer.com/product/225777?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225777?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -381327,7 +381327,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
       set: Release.Promos,
       tcgplayer: {
             productId: "225514",
-            url: "https://www.tcgplayer.com/product/225514?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/225514?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },{
@@ -382794,7 +382794,7 @@ If this was played from arsenal, it gets **go again**.`,
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225779",
-            url: "https://www.tcgplayer.com/product/225779?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225779?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -382809,7 +382809,7 @@ If this was played from arsenal, it gets **go again**.`,
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225372",
-            url: "https://www.tcgplayer.com/product/225372?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225372?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -382824,7 +382824,7 @@ If this was played from arsenal, it gets **go again**.`,
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225361",
-            url: "https://www.tcgplayer.com/product/225361?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225361?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -392495,7 +392495,7 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
       set: Release.Promos,
       tcgplayer: {
             productId: "242130",
-            url: "https://www.tcgplayer.com/product/242130?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/242130?Language=English&Printing=Unlimited+Edition+Rainbow+Foil"
           },
       
     },{
@@ -396591,7 +396591,7 @@ If it has 3 or more +1{p} counters, your next attack with it this turn costs {r}
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225340",
-            url: "https://www.tcgplayer.com/product/225340?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225340?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -401605,7 +401605,7 @@ At the beginning of your action phase, destroy this then draw a card.`,
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692563",
-            url: "https://www.tcgplayer.com/product/692563?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692563?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
@@ -401714,7 +401714,7 @@ At the beginning of your action phase, destroy this then draw a card.`,
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692564",
-            url: "https://www.tcgplayer.com/product/692564?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692564?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
@@ -401853,7 +401853,7 @@ At the beginning of your action phase, destroy this then draw a card.`,
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692565",
-            url: "https://www.tcgplayer.com/product/692565?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692565?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
@@ -402643,7 +402643,7 @@ At the beginning of your action phase, destroy this then draw a card.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "225620",
-            url: "https://www.tcgplayer.com/product/225620?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225620?Language=English&Printing=1st+Edition+Normal"
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },{
@@ -402658,7 +402658,7 @@ At the beginning of your action phase, destroy this then draw a card.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "229756",
-            url: "https://www.tcgplayer.com/product/229756?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/229756?Language=English&Printing=Normal"
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
@@ -405870,7 +405870,7 @@ At the beginning of your action phase, destroy this.`,
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225780",
-            url: "https://www.tcgplayer.com/product/225780?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225780?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -405885,7 +405885,7 @@ At the beginning of your action phase, destroy this.`,
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225374",
-            url: "https://www.tcgplayer.com/product/225374?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225374?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -405900,7 +405900,7 @@ At the beginning of your action phase, destroy this.`,
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225364",
-            url: "https://www.tcgplayer.com/product/225364?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225364?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -416032,7 +416032,7 @@ Target attack action card gets **go again**.`,
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225732",
-            url: "https://www.tcgplayer.com/product/225732?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225732?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -416679,7 +416679,7 @@ Target attack action card gets **go again**.`,
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225338",
-            url: "https://www.tcgplayer.com/product/225338?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225338?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -416833,7 +416833,7 @@ Target attack action card gets **go again**.`,
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225348",
-            url: "https://www.tcgplayer.com/product/225348?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225348?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -419775,7 +419775,7 @@ If you've played another Wizard non-attack action card this turn, you may play t
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225331",
-            url: "https://www.tcgplayer.com/product/225331?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225331?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -426295,7 +426295,7 @@ If you've **boosted** this turn, draw a card.`,
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692566",
-            url: "https://www.tcgplayer.com/product/692566?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692566?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
@@ -426421,7 +426421,7 @@ If you've **boosted** this turn, draw a card.`,
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692567",
-            url: "https://www.tcgplayer.com/product/692567?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692567?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
@@ -426577,7 +426577,7 @@ If you've **boosted** this turn, draw a card.`,
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692568",
-            url: "https://www.tcgplayer.com/product/692568?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692568?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
@@ -433734,7 +433734,7 @@ When this hits, draw a card for each other attack action card with 2 or less bas
       set: Release.IraWelcomeDeck,
       tcgplayer: {
             productId: "224958",
-            url: "https://www.tcgplayer.com/product/224958?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/224958?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -433749,7 +433749,7 @@ When this hits, draw a card for each other attack action card with 2 or less bas
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225704",
-            url: "https://www.tcgplayer.com/product/225704?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225704?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -433764,7 +433764,7 @@ When this hits, draw a card for each other attack action card with 2 or less bas
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225782",
-            url: "https://www.tcgplayer.com/product/225782?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225782?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -433779,7 +433779,7 @@ When this hits, draw a card for each other attack action card with 2 or less bas
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225366",
-            url: "https://www.tcgplayer.com/product/225366?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225366?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -433794,7 +433794,7 @@ When this hits, draw a card for each other attack action card with 2 or less bas
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225349",
-            url: "https://www.tcgplayer.com/product/225349?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225349?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -438055,7 +438055,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692569",
-            url: "https://www.tcgplayer.com/product/692569?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692569?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
@@ -438334,7 +438334,7 @@ If the additional cost is paid, this gets +3{d}.`,
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225712",
-            url: "https://www.tcgplayer.com/product/225712?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225712?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -439434,7 +439434,7 @@ If an item you control has been destroyed this turn, this gets +2{p}.
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225332",
-            url: "https://www.tcgplayer.com/product/225332?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225332?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -442591,7 +442591,7 @@ At the beginning of your action phase, destroy this.`,
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225715",
-            url: "https://www.tcgplayer.com/product/225715?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225715?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -443362,7 +443362,7 @@ At the beginning of your action phase, destroy this.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "225510",
-            url: "https://www.tcgplayer.com/product/225510?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225510?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       
     },],
@@ -445611,7 +445611,7 @@ If you've dealt arcane damage to an opposing hero this turn, you may play this a
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225327",
-            url: "https://www.tcgplayer.com/product/225327?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225327?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -445752,7 +445752,7 @@ If you've dealt arcane damage to an opposing hero this turn, you may play this a
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225347",
-            url: "https://www.tcgplayer.com/product/225347?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225347?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -450308,7 +450308,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225783",
-            url: "https://www.tcgplayer.com/product/225783?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225783?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -450489,7 +450489,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225784",
-            url: "https://www.tcgplayer.com/product/225784?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225784?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -461176,7 +461176,7 @@ At the beginning of your action phase, remove a steam counter from this and gain
       set: Release.Promos,
       tcgplayer: {
             productId: "225610",
-            url: "https://www.tcgplayer.com/product/225610?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225610?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       
     },],
@@ -471595,7 +471595,7 @@ If this was played during an opponent's turn, put it on the bottom of its owner'
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225373",
-            url: "https://www.tcgplayer.com/product/225373?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225373?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -471610,7 +471610,7 @@ If this was played during an opponent's turn, put it on the bottom of its owner'
       set: Release.Promos,
       tcgplayer: {
             productId: "225513",
-            url: "https://www.tcgplayer.com/product/225513?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225513?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       
     },{
@@ -475327,7 +475327,7 @@ Draw a card.
       set: Release.IraWelcomeDeck,
       tcgplayer: {
             productId: "224952",
-            url: "https://www.tcgplayer.com/product/224952?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/224952?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -497162,7 +497162,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
       set: Release.Promos,
       tcgplayer: {
             productId: "225532",
-            url: "https://www.tcgplayer.com/product/225532?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/225532?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
       
     },],
@@ -497407,7 +497407,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
       set: Release.Promos,
       tcgplayer: {
             productId: "225526",
-            url: "https://www.tcgplayer.com/product/225526?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225526?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       
     },{
@@ -497434,7 +497434,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
       set: Release.Promos,
       tcgplayer: {
             productId: "225549",
-            url: "https://www.tcgplayer.com/product/225549?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/225549?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
       
     },{
@@ -500055,7 +500055,7 @@ When this is pitched, create a Lightning Flow token.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "225623",
-            url: "https://www.tcgplayer.com/product/225623?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225623?Language=English&Printing=1st+Edition+Normal"
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },{
@@ -500209,7 +500209,7 @@ When this is pitched, create a Lightning Flow token.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "229768",
-            url: "https://www.tcgplayer.com/product/229768?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/229768?Language=English&Printing=Normal"
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
@@ -505072,7 +505072,7 @@ If they choose peace, the only actions they may play or activate during their ne
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692572",
-            url: "https://www.tcgplayer.com/product/692572?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692572?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
@@ -505228,7 +505228,7 @@ If they choose peace, the only actions they may play or activate during their ne
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225351",
-            url: "https://www.tcgplayer.com/product/225351?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225351?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -505243,7 +505243,7 @@ If they choose peace, the only actions they may play or activate during their ne
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692573",
-            url: "https://www.tcgplayer.com/product/692573?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692573?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
@@ -505399,7 +505399,7 @@ If they choose peace, the only actions they may play or activate during their ne
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225358",
-            url: "https://www.tcgplayer.com/product/225358?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225358?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -505414,7 +505414,7 @@ If they choose peace, the only actions they may play or activate during their ne
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692574",
-            url: "https://www.tcgplayer.com/product/692574?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692574?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
@@ -509554,7 +509554,7 @@ The first card with cost 1 or more you play each turn costs {r} less to play.`,
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225789",
-            url: "https://www.tcgplayer.com/product/225789?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225789?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -509569,7 +509569,7 @@ The first card with cost 1 or more you play each turn costs {r} less to play.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "225605",
-            url: "https://www.tcgplayer.com/product/225605?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225605?Language=English&Printing=1st+Edition+Normal"
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },{
@@ -509892,7 +509892,7 @@ The first card with cost 1 or more you play each turn costs {r} less to play.`,
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225786",
-            url: "https://www.tcgplayer.com/product/225786?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225786?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -510061,7 +510061,7 @@ The first card with cost 1 or more you play each turn costs {r} less to play.`,
       set: Release.IraWelcomeDeck,
       tcgplayer: {
             productId: "224949",
-            url: "https://www.tcgplayer.com/product/224949?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/224949?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -512564,7 +512564,7 @@ If this is defended by fewer than 2 cards, it gets +3{p}.`,
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692575",
-            url: "https://www.tcgplayer.com/product/692575?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692575?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
@@ -512703,7 +512703,7 @@ If this is defended by fewer than 2 cards, it gets +3{p}.`,
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692576",
-            url: "https://www.tcgplayer.com/product/692576?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692576?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
@@ -512812,7 +512812,7 @@ If this is defended by fewer than 2 cards, it gets +3{p}.`,
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692577",
-            url: "https://www.tcgplayer.com/product/692577?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692577?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
@@ -515579,7 +515579,7 @@ When this hits a hero, create a Frailty token under their control.`,
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225363",
-            url: "https://www.tcgplayer.com/product/225363?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225363?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -515703,7 +515703,7 @@ When this hits a hero, create a Frailty token under their control.`,
       set: Release.BravoHeroDeck,
       tcgplayer: {
             productId: "225726",
-            url: "https://www.tcgplayer.com/product/225726?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225726?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -515857,7 +515857,7 @@ When this hits a hero, create a Frailty token under their control.`,
       set: Release.DorintheaHeroDeck,
       tcgplayer: {
             productId: "225343",
-            url: "https://www.tcgplayer.com/product/225343?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225343?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -516132,7 +516132,7 @@ When this hits a hero, create a Frailty token under their control.`,
       set: Release.KatsuHeroDeck,
       tcgplayer: {
             productId: "225793",
-            url: "https://www.tcgplayer.com/product/225793?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225793?Language=English&Printing=1st+Edition+Normal"
           },
       
     },],
@@ -516659,7 +516659,7 @@ When this hits a hero, you may turn a card in their arsenal face-up, then destro
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225341",
-            url: "https://www.tcgplayer.com/product/225341?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225341?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -516997,7 +516997,7 @@ When this hits a hero, you may turn a card in their arsenal face-up, then destro
       set: Release.RhinarHeroDeck,
       tcgplayer: {
             productId: "225367",
-            url: "https://www.tcgplayer.com/product/225367?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225367?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -517012,7 +517012,7 @@ When this hits a hero, you may turn a card in their arsenal face-up, then destro
       set: Release.Promos,
       tcgplayer: {
             productId: "225602",
-            url: "https://www.tcgplayer.com/product/225602?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/225602?Language=English&Printing=1st+Edition+Normal"
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },{
@@ -519531,7 +519531,7 @@ The first time the crowd cheers you each turn, each hero draws a card.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "580620",
-            url: "https://www.tcgplayer.com/product/580620?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/580620?Language=English&Printing=Rainbow+Foil"
           },
       
     },{
@@ -520956,7 +520956,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692578",
-            url: "https://www.tcgplayer.com/product/692578?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692578?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
@@ -521140,7 +521140,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692579",
-            url: "https://www.tcgplayer.com/product/692579?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692579?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
@@ -521309,7 +521309,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
       set: Release.TournamentPack,
       tcgplayer: {
             productId: "692580",
-            url: "https://www.tcgplayer.com/product/692580?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/692580?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
