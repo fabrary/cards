@@ -265410,7 +265410,7 @@ If you've **charged** this turn, you may attack with each weapon you control an 
       set: Release.Promos,
       tcgplayer: {
             productId: "648066",
-            url: "https://www.tcgplayer.com/product/648066?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/648066?Language=English&Printing=Cold+Foil"
           },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },],
@@ -310894,7 +310894,7 @@ Whenever this banishes an action card, gain 1{h}.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "648067",
-            url: "https://www.tcgplayer.com/product/648067?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/648067?Language=English&Printing=Cold+Foil"
           },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },],
@@ -346916,7 +346916,7 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
       set: Release.Promos,
       tcgplayer: {
             productId: "648070",
-            url: "https://www.tcgplayer.com/product/648070?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/648070?Language=English&Printing=Cold+Foil"
           },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },],
