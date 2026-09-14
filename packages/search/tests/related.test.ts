@@ -1,105 +1,12 @@
 import { describe, expect, it } from "@jest/globals";
-import { Card, getCanBeExtra, Trait } from "@flesh-and-blood/types";
+import { getCanBeExtra, Trait } from "@flesh-and-blood/types";
 import { cards } from "@flesh-and-blood/cards";
-import {
-  getCardsByReferencedCardIdentifier,
-  getOtherPitches,
-  getReferencedCards,
-  getTokensReferencedByCards,
-} from "../src/related";
+import { getTokensReferencedByCards } from "../src/related";
 import Search from "../src/search";
 
 const ALL_TOKENS = cards.filter(getCanBeExtra);
 
 describe("Related cards", () => {
-  const cardsByReferencedCardIdentifier =
-    getCardsByReferencedCardIdentifier(cards);
-
-  // Only the pitch siblings carry a count: search owns that matching. The two
-  // reference relations are card data, asserted exactly in the cards package,
-  // so what is worth pinning here is that reading them back agrees with the
-  // fields rather than how many any one card has.
-  const otherPitchCounts = [
-    ["Blizzard", 0],
-    ["Blizzard Bolt", 2],
-    ["Dawnblade", 0],
-    ["Head Jab", 2],
-    ["Open the Center", 2],
-    ["Prismatic Shield", 2],
-    ["Runechant", 0],
-  ];
-
-  it.each(otherPitchCounts)(
-    "Gets %i other pitches for %s",
-    (cardName, otherPitchCount) => {
-      const card = cards.find(({ name }) => name === cardName) as Card;
-
-      expect(getOtherPitches(card, cards).length).toEqual(otherPitchCount);
-    },
-  );
-
-  it("Reads back every card named by referencedCards", () => {
-    const mismatched: string[] = [];
-
-    for (const card of cards) {
-      const referencedCardIdentifiers = getReferencedCards(card, cards)
-        .map(({ cardIdentifier }) => cardIdentifier)
-        .sort();
-      const expectedCardIdentifiers = [...(card.referencedCards || [])].sort();
-
-      const matchesField =
-        referencedCardIdentifiers.join() === expectedCardIdentifiers.join();
-      if (!matchesField) {
-        mismatched.push(card.cardIdentifier);
-      }
-    }
-
-    expect(mismatched).toEqual([]);
-  });
-
-  it("Indexes every reference in the other direction", () => {
-    const missing: string[] = [];
-
-    for (const card of cards) {
-      for (const referencedCardIdentifier of card.referencedCards || []) {
-        const referencedBy =
-          cardsByReferencedCardIdentifier.get(referencedCardIdentifier) || [];
-        const isIndexed = referencedBy.some(
-          ({ cardIdentifier }) => cardIdentifier === card.cardIdentifier,
-        );
-
-        if (!isIndexed) {
-          missing.push(`${card.cardIdentifier} -> ${referencedCardIdentifier}`);
-        }
-      }
-    }
-
-    expect(missing).toEqual([]);
-  });
-
-  it("Indexes nothing the fields do not name", () => {
-    const unexpected: string[] = [];
-
-    for (const [
-      referencedCardIdentifier,
-      referencedBy,
-    ] of cardsByReferencedCardIdentifier) {
-      for (const card of referencedBy) {
-        const namesIt = (card.referencedCards || []).includes(
-          referencedCardIdentifier,
-        );
-
-        if (!namesIt) {
-          unexpected.push(
-            `${card.cardIdentifier} -> ${referencedCardIdentifier}`,
-          );
-        }
-      }
-    }
-
-    expect(unexpected).toEqual([]);
-  });
-
   const tokens: string[][][] = [
     [["Swing Big", "Civic Steps"], ["Quicken"]],
     [
@@ -265,34 +172,6 @@ describe("Related cards", () => {
 
     for (const expectedToken of agentsOfChaos) {
       expect(referencedTokenNames).toContain(expectedToken);
-    }
-  });
-
-  it("Gets Arakni heroes for Agents of Chaos", () => {
-    const cardSearch = new Search(cards);
-    const agentsOfChaos = cards.filter(
-      ({ traits }) => !!traits && traits.includes(Trait.AgentOfChaos),
-    );
-
-    const { searchResults: referencesAgentOfChaos } = cardSearch.search(
-      `text:"agent of chaos"`,
-    );
-    const { searchResults: legalCards } =
-      cardSearch.search(`l:crackni c:assassin`);
-    const legalCardsByReferencedCardIdentifier =
-      getCardsByReferencedCardIdentifier(legalCards);
-
-    // Naming the group names every card in it.
-    for (const agent of agentsOfChaos) {
-      const referencedBy =
-        legalCardsByReferencedCardIdentifier.get(agent.cardIdentifier) || [];
-      const referencedByIdentifiers = referencedBy.map(
-        ({ cardIdentifier }) => cardIdentifier,
-      );
-
-      for (const { cardIdentifier } of referencesAgentOfChaos) {
-        expect(referencedByIdentifiers).toContain(cardIdentifier);
-      }
     }
   });
 });

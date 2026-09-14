@@ -438,6 +438,24 @@ describe("Set names expand only where a set filter expects one", () => {
 
     expect(appliedFilters[0].values).toEqual(["uprising"]);
   });
+
+  const setNamesInsideLongerValues = [
+    ["print:uprising", ["upr"]],
+    ["print:xuprising", ["xuprising"]],
+    ["print:uprisingx", ["uprisingx"]],
+    ["print:mst,xuprising", ["mst", "xuprising"]],
+  ];
+  it.each(setNamesInsideLongerValues)(
+    "%s expands a set name only when it is the whole value",
+    (search, values) => {
+      const { appliedFilters } = getKeywordsAndAppliedFiltersFromText(
+        search as string,
+        index,
+      );
+
+      expect(appliedFilters[0].values).toEqual(values);
+    },
+  );
 });
 
 describe("A set value names a set before it fragments one", () => {
