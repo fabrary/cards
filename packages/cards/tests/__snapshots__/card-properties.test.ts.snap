@@ -15457,7 +15457,7 @@ If there are 2 or more cards with cost 3 or more in your pitch zone, this gets +
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225636",
-        "url": "https://www.tcgplayer.com/product/225636?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225636?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -15501,7 +15501,7 @@ If there are 2 or more cards with cost 3 or more in your pitch zone, this gets +
       "set": "Promos",
       "tcgplayer": {
         "productId": "225585",
-        "url": "https://www.tcgplayer.com/product/225585?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225585?Language=English&Printing=1st+Edition+Cold+Foil",
       },
     },
   ],
@@ -28099,14 +28099,15 @@ exports[`Check for unintentional updates Aurora (aurora) vs snapshot 1`] = `
       "artists": [
         "Ramza Ardyputra",
       ],
+      "foiling": "Rainbow",
       "identifier": "AUR001",
       "image": "AUR001",
-      "print": "AUR001",
+      "print": "AUR001-Rainbow",
       "rarity": "Rare",
       "set": "1st Strike: Aurora",
       "tcgplayer": {
         "productId": "561886",
-        "url": "https://www.tcgplayer.com/product/561886?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/561886?Language=English&Printing=Rainbow+Foil",
       },
     },
   ],
@@ -30018,7 +30019,7 @@ The next Brute attack action card you play this turn gets +1{p}.
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225368",
-        "url": "https://www.tcgplayer.com/product/225368?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225368?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -30183,7 +30184,7 @@ The next Brute attack action card you play this turn gets +3{p}.
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225342",
-        "url": "https://www.tcgplayer.com/product/225342?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225342?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -30535,7 +30536,7 @@ exports[`Check for unintentional updates Azalea (azalea) vs snapshot 1`] = `
       "set": "Promos",
       "tcgplayer": {
         "productId": "225530",
-        "url": "https://www.tcgplayer.com/product/225530?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/225530?Language=English&Printing=1st+Edition+Rainbow+Foil",
       },
     },
   ],
@@ -30724,7 +30725,7 @@ exports[`Check for unintentional updates Azalea, Ace in the Hole (azalea-ace-in-
       "set": "Promos",
       "tcgplayer": {
         "productId": "225525",
-        "url": "https://www.tcgplayer.com/product/225525?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225525?Language=English&Printing=1st+Edition+Cold+Foil",
       },
     },
     {
@@ -30750,7 +30751,7 @@ exports[`Check for unintentional updates Azalea, Ace in the Hole (azalea-ace-in-
       "set": "Promos",
       "tcgplayer": {
         "productId": "225547",
-        "url": "https://www.tcgplayer.com/product/225547?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/225547?Language=English&Printing=1st+Edition+Rainbow+Foil",
       },
     },
   ],
@@ -36962,7 +36963,7 @@ exports[`Check for unintentional updates Barkbone Strapping (barkbone-strapping)
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225328",
-        "url": "https://www.tcgplayer.com/product/225328?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225328?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -37421,7 +37422,7 @@ exports[`Check for unintentional updates Barraging Beatdown (barraging-beatdown-
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225369",
-        "url": "https://www.tcgplayer.com/product/225369?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225369?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -37791,7 +37792,7 @@ exports[`Check for unintentional updates Barraging Beatdown (barraging-beatdown-
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225352",
-        "url": "https://www.tcgplayer.com/product/225352?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225352?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -38424,7 +38425,7 @@ exports[`Check for unintentional updates Barraging Brawnhide (barraging-brawnhid
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225717",
-        "url": "https://www.tcgplayer.com/product/225717?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225717?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -52485,7 +52486,7 @@ exports[`Check for unintentional updates Biting Blade (biting-blade-blue) vs sna
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225350",
-        "url": "https://www.tcgplayer.com/product/225350?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225350?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -52635,7 +52636,7 @@ exports[`Check for unintentional updates Biting Blade (biting-blade-red) vs snap
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225325",
-        "url": "https://www.tcgplayer.com/product/225325?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225325?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -53928,7 +53929,7 @@ exports[`Check for unintentional updates Bittering Thorns (bittering-thorns-yell
       "set": "Ira Welcome Deck",
       "tcgplayer": {
         "productId": "224951",
-        "url": "https://www.tcgplayer.com/product/224951?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/224951?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -54245,7 +54246,7 @@ exports[`Check for unintentional updates Blackout Kick (blackout-kick-red) vs sn
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225760",
-        "url": "https://www.tcgplayer.com/product/225760?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225760?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -59815,7 +59816,7 @@ At the beginning of your action phase, destroy this then reveal the top card of 
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225714",
-        "url": "https://www.tcgplayer.com/product/225714?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225714?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -59830,7 +59831,7 @@ At the beginning of your action phase, destroy this then reveal the top card of 
       "set": "Promos",
       "tcgplayer": {
         "productId": "229765",
-        "url": "https://www.tcgplayer.com/product/229765?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/229765?Language=English&Printing=Normal",
       },
       "treatment": "Extended Art",
       "treatments": [
@@ -60012,7 +60013,7 @@ At the beginning of your action phase, destroy this then reveal the top 3 cards 
       "set": "Promos",
       "tcgplayer": {
         "productId": "225603",
-        "url": "https://www.tcgplayer.com/product/225603?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225603?Language=English&Printing=1st+Edition+Normal",
       },
       "treatment": "Extended Art",
       "treatments": [
@@ -72640,7 +72641,7 @@ exports[`Check for unintentional updates Boltyn (boltyn) vs snapshot 1`] = `
       "set": "Boltyn Blitz Deck",
       "tcgplayer": {
         "productId": "238371",
-        "url": "https://www.tcgplayer.com/product/238371?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/238371?Language=English&Printing=Unlimited+Edition+Rainbow+Foil",
       },
     },
     {
@@ -80531,7 +80532,7 @@ exports[`Check for unintentional updates Bravo (bravo) vs snapshot 1`] = `
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225635",
-        "url": "https://www.tcgplayer.com/product/225635?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225635?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -80896,7 +80897,7 @@ exports[`Check for unintentional updates Bravo, Showstopper (bravo-showstopper) 
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225634",
-        "url": "https://www.tcgplayer.com/product/225634?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225634?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -80911,7 +80912,7 @@ exports[`Check for unintentional updates Bravo, Showstopper (bravo-showstopper) 
       "set": "Promos",
       "tcgplayer": {
         "productId": "225517",
-        "url": "https://www.tcgplayer.com/product/225517?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225517?Language=English&Printing=1st+Edition+Cold+Foil",
       },
     },
     {
@@ -80937,7 +80938,7 @@ exports[`Check for unintentional updates Bravo, Showstopper (bravo-showstopper) 
       "set": "Promos",
       "tcgplayer": {
         "productId": "225574",
-        "url": "https://www.tcgplayer.com/product/225574?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/225574?Language=English&Printing=1st+Edition+Rainbow+Foil",
       },
     },
   ],
@@ -82835,7 +82836,7 @@ exports[`Check for unintentional updates Breaking Scales (breaking-scales) vs sn
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225754",
-        "url": "https://www.tcgplayer.com/product/225754?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225754?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -83164,7 +83165,7 @@ If the discarded card has 6 or more {p}, this gets **go again**.",
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225333",
-        "url": "https://www.tcgplayer.com/product/225333?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225333?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -86559,7 +86560,7 @@ exports[`Check for unintentional updates Brutal Assault (brutal-assault-blue) vs
       "set": "Ira Welcome Deck",
       "tcgplayer": {
         "productId": "224956",
-        "url": "https://www.tcgplayer.com/product/224956?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/224956?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -87644,7 +87645,7 @@ exports[`Check for unintentional updates Buckling Blow (buckling-blow-blue) vs s
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225705",
-        "url": "https://www.tcgplayer.com/product/225705?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225705?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -87848,7 +87849,7 @@ exports[`Check for unintentional updates Buckling Blow (buckling-blow-red) vs sn
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225692",
-        "url": "https://www.tcgplayer.com/product/225692?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225692?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -95894,7 +95895,7 @@ exports[`Check for unintentional updates Cartilage Crush (cartilage-crush-blue) 
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225707",
-        "url": "https://www.tcgplayer.com/product/225707?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225707?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -96095,7 +96096,7 @@ exports[`Check for unintentional updates Cartilage Crush (cartilage-crush-red) v
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225694",
-        "url": "https://www.tcgplayer.com/product/225694?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225694?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -99098,7 +99099,7 @@ exports[`Check for unintentional updates Chane (chane) vs snapshot 1`] = `
       "set": "Chane Blitz Deck",
       "tcgplayer": {
         "productId": "238423",
-        "url": "https://www.tcgplayer.com/product/238423?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/238423?Language=English&Printing=Unlimited+Edition+Rainbow+Foil",
       },
     },
     {
@@ -99252,7 +99253,7 @@ exports[`Check for unintentional updates Chane, Bound by Shadow (chane-bound-by-
       "set": "Promos",
       "tcgplayer": {
         "productId": "242129",
-        "url": "https://www.tcgplayer.com/product/242129?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/242129?Language=English&Printing=Unlimited+Edition+Rainbow+Foil",
       },
     },
   ],
@@ -123236,7 +123237,7 @@ exports[`Check for unintentional updates Confidence (confidence) vs snapshot 1`]
       "set": "Promos",
       "tcgplayer": {
         "productId": "665039",
-        "url": "https://www.tcgplayer.com/product/665039?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/665039?Language=English&Printing=Normal",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -136374,7 +136375,7 @@ exports[`Check for unintentional updates Crazy Brew (crazy-brew-blue) vs snapsho
       "set": "Promos",
       "tcgplayer": {
         "productId": "229799",
-        "url": "https://www.tcgplayer.com/product/229799?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/229799?Language=English&Printing=Normal",
       },
     },
   ],
@@ -139828,7 +139829,7 @@ exports[`Check for unintentional updates Crucible of Aetherweave (crucible-of-ae
       "set": "Promos",
       "tcgplayer": {
         "productId": "225616",
-        "url": "https://www.tcgplayer.com/product/225616?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225616?Language=English&Printing=1st+Edition+Cold+Foil",
       },
     },
   ],
@@ -140277,7 +140278,7 @@ exports[`Check for unintentional updates Crush Confidence (crush-confidence-blue
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225708",
-        "url": "https://www.tcgplayer.com/product/225708?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225708?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -147831,7 +147832,7 @@ exports[`Check for unintentional updates Dash (dash) vs snapshot 1`] = `
       "set": "Promos",
       "tcgplayer": {
         "productId": "225529",
-        "url": "https://www.tcgplayer.com/product/225529?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/225529?Language=English&Printing=1st+Edition+Rainbow+Foil",
       },
     },
   ],
@@ -148318,7 +148319,7 @@ exports[`Check for unintentional updates Dash, Inventor Extraordinaire (dash-inv
       "set": "Promos",
       "tcgplayer": {
         "productId": "225524",
-        "url": "https://www.tcgplayer.com/product/225524?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225524?Language=English&Printing=1st+Edition+Cold+Foil",
       },
     },
     {
@@ -148344,7 +148345,7 @@ exports[`Check for unintentional updates Dash, Inventor Extraordinaire (dash-inv
       "set": "Promos",
       "tcgplayer": {
         "productId": "225545",
-        "url": "https://www.tcgplayer.com/product/225545?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/225545?Language=English&Printing=1st+Edition+Rainbow+Foil",
       },
     },
   ],
@@ -149560,7 +149561,7 @@ At the beginning of your end phase, if this hasn't hit this turn, remove all +1{
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225317",
-        "url": "https://www.tcgplayer.com/product/225317?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225317?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -149604,7 +149605,7 @@ At the beginning of your end phase, if this hasn't hit this turn, remove all +1{
       "set": "Promos",
       "tcgplayer": {
         "productId": "225594",
-        "url": "https://www.tcgplayer.com/product/225594?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225594?Language=English&Printing=1st+Edition+Cold+Foil",
       },
     },
   ],
@@ -152189,7 +152190,7 @@ exports[`Check for unintentional updates Death Dealer (death-dealer) vs snapshot
       "set": "Promos",
       "tcgplayer": {
         "productId": "225611",
-        "url": "https://www.tcgplayer.com/product/225611?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225611?Language=English&Printing=1st+Edition+Cold+Foil",
       },
     },
   ],
@@ -154053,7 +154054,7 @@ exports[`Check for unintentional updates Debilitate (debilitate-red) vs snapshot
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225695",
-        "url": "https://www.tcgplayer.com/product/225695?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225695?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -154247,7 +154248,7 @@ exports[`Check for unintentional updates Debilitate (debilitate-yellow) vs snaps
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225700",
-        "url": "https://www.tcgplayer.com/product/225700?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225700?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -161813,7 +161814,7 @@ exports[`Check for unintentional updates Disable (disable-blue) vs snapshot 1`] 
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225709",
-        "url": "https://www.tcgplayer.com/product/225709?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225709?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -162010,7 +162011,7 @@ exports[`Check for unintentional updates Disable (disable-red) vs snapshot 1`] =
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225697",
-        "url": "https://www.tcgplayer.com/product/225697?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225697?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -165792,7 +165793,7 @@ exports[`Check for unintentional updates Dorinthea (dorinthea) vs snapshot 1`] =
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225316",
-        "url": "https://www.tcgplayer.com/product/225316?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225316?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -165836,7 +165837,7 @@ exports[`Check for unintentional updates Dorinthea (dorinthea) vs snapshot 1`] =
       "set": "Promos",
       "tcgplayer": {
         "productId": "225523",
-        "url": "https://www.tcgplayer.com/product/225523?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/225523?Language=English&Printing=1st+Edition+Rainbow+Foil",
       },
     },
   ],
@@ -165993,7 +165994,7 @@ exports[`Check for unintentional updates Dorinthea Ironsong (dorinthea-ironsong)
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225315",
-        "url": "https://www.tcgplayer.com/product/225315?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225315?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -166008,7 +166009,7 @@ exports[`Check for unintentional updates Dorinthea Ironsong (dorinthea-ironsong)
       "set": "Promos",
       "tcgplayer": {
         "productId": "225519",
-        "url": "https://www.tcgplayer.com/product/225519?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225519?Language=English&Printing=1st+Edition+Cold+Foil",
       },
     },
     {
@@ -166034,7 +166035,7 @@ exports[`Check for unintentional updates Dorinthea Ironsong (dorinthea-ironsong)
       "set": "Promos",
       "tcgplayer": {
         "productId": "225577",
-        "url": "https://www.tcgplayer.com/product/225577?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/225577?Language=English&Printing=1st+Edition+Rainbow+Foil",
       },
     },
     {
@@ -172843,7 +172844,7 @@ exports[`Check for unintentional updates Driving Blade (driving-blade-blue) vs s
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225354",
-        "url": "https://www.tcgplayer.com/product/225354?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225354?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -173025,7 +173026,7 @@ exports[`Check for unintentional updates Driving Blade (driving-blade-red) vs sn
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225337",
-        "url": "https://www.tcgplayer.com/product/225337?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225337?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -173703,7 +173704,7 @@ exports[`Check for unintentional updates Drone of Brutality (drone-of-brutality-
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225724",
-        "url": "https://www.tcgplayer.com/product/225724?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225724?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -173930,7 +173931,7 @@ exports[`Check for unintentional updates Drone of Brutality (drone-of-brutality-
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225344",
-        "url": "https://www.tcgplayer.com/product/225344?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225344?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -181758,7 +181759,7 @@ exports[`Check for unintentional updates Edge of Autumn (edge-of-autumn) vs snap
       "set": "Ira Welcome Deck",
       "tcgplayer": {
         "productId": "224948",
-        "url": "https://www.tcgplayer.com/product/224948?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/224948?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -189453,7 +189454,7 @@ At the beginning of your action phase, destroy this then the next Guardian attac
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225699",
-        "url": "https://www.tcgplayer.com/product/225699?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225699?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -189629,7 +189630,7 @@ At the beginning of your action phase, destroy this then the next Guardian attac
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225703",
-        "url": "https://www.tcgplayer.com/product/225703?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225703?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -189773,7 +189774,7 @@ exports[`Check for unintentional updates Emeritus Scolding (emeritus-scolding-bl
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692553",
-        "url": "https://www.tcgplayer.com/product/692553?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692553?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -189928,7 +189929,7 @@ exports[`Check for unintentional updates Emeritus Scolding (emeritus-scolding-re
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692551",
-        "url": "https://www.tcgplayer.com/product/692551?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692551?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -190080,7 +190081,7 @@ exports[`Check for unintentional updates Emeritus Scolding (emeritus-scolding-ye
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692552",
-        "url": "https://www.tcgplayer.com/product/692552?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692552?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -193580,7 +193581,7 @@ exports[`Check for unintentional updates Energy Potion (energy-potion-blue) vs s
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225762",
-        "url": "https://www.tcgplayer.com/product/225762?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225762?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -193594,7 +193595,7 @@ exports[`Check for unintentional updates Energy Potion (energy-potion-blue) vs s
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225362",
-        "url": "https://www.tcgplayer.com/product/225362?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225362?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -193609,7 +193610,7 @@ exports[`Check for unintentional updates Energy Potion (energy-potion-blue) vs s
       "set": "Promos",
       "tcgplayer": {
         "productId": "225511",
-        "url": "https://www.tcgplayer.com/product/225511?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225511?Language=English&Printing=1st+Edition+Cold+Foil",
       },
     },
     {
@@ -228815,7 +228816,7 @@ exports[`Check for unintentional updates Flic Flak (flic-flak-blue) vs snapshot 
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225763",
-        "url": "https://www.tcgplayer.com/product/225763?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225763?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -228830,7 +228831,7 @@ exports[`Check for unintentional updates Flic Flak (flic-flak-blue) vs snapshot 
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692556",
-        "url": "https://www.tcgplayer.com/product/692556?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692556?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -229011,7 +229012,7 @@ exports[`Check for unintentional updates Flic Flak (flic-flak-red) vs snapshot 1
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692554",
-        "url": "https://www.tcgplayer.com/product/692554?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692554?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -229198,7 +229199,7 @@ exports[`Check for unintentional updates Flic Flak (flic-flak-yellow) vs snapsho
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692555",
-        "url": "https://www.tcgplayer.com/product/692555?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692555?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -231052,7 +231053,7 @@ When this attacks, create a Quicken token.",
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225371",
-        "url": "https://www.tcgplayer.com/product/225371?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225371?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -231066,7 +231067,7 @@ When this attacks, create a Quicken token.",
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225360",
-        "url": "https://www.tcgplayer.com/product/225360?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225360?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -233318,7 +233319,7 @@ exports[`Check for unintentional updates Fluster Fist (fluster-fist-blue) vs sna
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225764",
-        "url": "https://www.tcgplayer.com/product/225764?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225764?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -233482,7 +233483,7 @@ exports[`Check for unintentional updates Fluster Fist (fluster-fist-red) vs snap
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225765",
-        "url": "https://www.tcgplayer.com/product/225765?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225765?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -234671,7 +234672,7 @@ exports[`Check for unintentional updates Flying Kick (flying-kick-red) vs snapsh
       "set": "Ira Welcome Deck",
       "tcgplayer": {
         "productId": "224953",
-        "url": "https://www.tcgplayer.com/product/224953?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/224953?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -245644,7 +245645,7 @@ exports[`Check for unintentional updates Fyendal's Spring Tunic (fyendals-spring
       "set": "Promos",
       "tcgplayer": {
         "productId": "225501",
-        "url": "https://www.tcgplayer.com/product/225501?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225501?Language=English&Printing=1st+Edition+Cold+Foil",
       },
       "treatment": "Extended Art",
       "treatments": [
@@ -254837,7 +254838,7 @@ exports[`Check for unintentional updates Go Bananas (go-bananas-yellow) vs snaps
       "set": "Promos",
       "tcgplayer": {
         "productId": "225624",
-        "url": "https://www.tcgplayer.com/product/225624?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/225624?Language=English&Printing=1st+Edition+Rainbow+Foil",
       },
     },
   ],
@@ -258919,7 +258920,7 @@ exports[`Check for unintentional updates Goliath Gauntlet (goliath-gauntlet) vs 
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225639",
-        "url": "https://www.tcgplayer.com/product/225639?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225639?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -261487,7 +261488,7 @@ exports[`Check for unintentional updates Grasp of the Arknight (grasp-of-the-ark
       "set": "Promos",
       "tcgplayer": {
         "productId": "225509",
-        "url": "https://www.tcgplayer.com/product/225509?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225509?Language=English&Printing=1st+Edition+Cold+Foil",
       },
     },
   ],
@@ -269238,7 +269239,7 @@ If you have a card in your pitch zone with cost 0, this card's attacks get **go 
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225746",
-        "url": "https://www.tcgplayer.com/product/225746?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225746?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -269252,7 +269253,7 @@ If you have a card in your pitch zone with cost 0, this card's attacks get **go 
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225746",
-        "url": "https://www.tcgplayer.com/product/225746?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225746?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -269311,7 +269312,7 @@ If you have a card in your pitch zone with cost 0, this card's attacks get **go 
       "set": "Promos",
       "tcgplayer": {
         "productId": "225592",
-        "url": "https://www.tcgplayer.com/product/225592?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225592?Language=English&Printing=1st+Edition+Cold+Foil",
       },
     },
   ],
@@ -271937,7 +271938,7 @@ exports[`Check for unintentional updates Head Jab (head-jab-blue) vs snapshot 1`
       "set": "Ira Welcome Deck",
       "tcgplayer": {
         "productId": "224954",
-        "url": "https://www.tcgplayer.com/product/224954?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/224954?Language=English&Printing=1st+Edition+Normal",
       },
       "treatment": "Alternate Art",
       "treatments": [
@@ -271955,7 +271956,7 @@ exports[`Check for unintentional updates Head Jab (head-jab-blue) vs snapshot 1`
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225767",
-        "url": "https://www.tcgplayer.com/product/225767?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225767?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -272173,7 +272174,7 @@ exports[`Check for unintentional updates Head Jab (head-jab-red) vs snapshot 1`]
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225769",
-        "url": "https://www.tcgplayer.com/product/225769?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225769?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -275807,7 +275808,7 @@ exports[`Check for unintentional updates Heartened Cross Strap (heartened-cross-
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225751",
-        "url": "https://www.tcgplayer.com/product/225751?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225751?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -279675,7 +279676,7 @@ exports[`Check for unintentional updates Helm of Isen's Peak (helm-of-isens-peak
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225637",
-        "url": "https://www.tcgplayer.com/product/225637?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225637?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -292396,7 +292397,7 @@ exports[`Check for unintentional updates Hope Merchant's Hood (hope-merchants-ho
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225319",
-        "url": "https://www.tcgplayer.com/product/225319?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225319?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -306381,7 +306382,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.",
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692559",
-        "url": "https://www.tcgplayer.com/product/692559?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692559?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -306547,7 +306548,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.",
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692557",
-        "url": "https://www.tcgplayer.com/product/692557?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692557?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -306703,7 +306704,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.",
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692558",
-        "url": "https://www.tcgplayer.com/product/692558?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692558?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -313899,7 +313900,7 @@ exports[`Check for unintentional updates Ira, Crimson Haze (ira-crimson-haze) vs
       "set": "Ira Welcome Deck",
       "tcgplayer": {
         "productId": "224947",
-        "url": "https://www.tcgplayer.com/product/224947?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/224947?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -313914,7 +313915,7 @@ exports[`Check for unintentional updates Ira, Crimson Haze (ira-crimson-haze) vs
       "set": "Promos",
       "tcgplayer": {
         "productId": "225515",
-        "url": "https://www.tcgplayer.com/product/225515?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225515?Language=English&Printing=1st+Edition+Cold+Foil",
       },
     },
   ],
@@ -315688,7 +315689,7 @@ exports[`Check for unintentional updates Ironrot Gauntlet (ironrot-gauntlet) vs 
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225330",
-        "url": "https://www.tcgplayer.com/product/225330?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225330?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -315702,7 +315703,7 @@ exports[`Check for unintentional updates Ironrot Gauntlet (ironrot-gauntlet) vs 
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225322",
-        "url": "https://www.tcgplayer.com/product/225322?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225322?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -316029,7 +316030,7 @@ exports[`Check for unintentional updates Ironrot Helm (ironrot-helm) vs snapshot
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225749",
-        "url": "https://www.tcgplayer.com/product/225749?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225749?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -316053,7 +316054,7 @@ exports[`Check for unintentional updates Ironrot Helm (ironrot-helm) vs snapshot
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225326",
-        "url": "https://www.tcgplayer.com/product/225326?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225326?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -316420,7 +316421,7 @@ exports[`Check for unintentional updates Ironrot Legs (ironrot-legs) vs snapshot
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225640",
-        "url": "https://www.tcgplayer.com/product/225640?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225640?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -316434,7 +316435,7 @@ exports[`Check for unintentional updates Ironrot Legs (ironrot-legs) vs snapshot
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225756",
-        "url": "https://www.tcgplayer.com/product/225756?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225756?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -316716,7 +316717,7 @@ exports[`Check for unintentional updates Ironrot Plate (ironrot-plate) vs snapsh
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225638",
-        "url": "https://www.tcgplayer.com/product/225638?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225638?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -316740,7 +316741,7 @@ exports[`Check for unintentional updates Ironrot Plate (ironrot-plate) vs snapsh
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225320",
-        "url": "https://www.tcgplayer.com/product/225320?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225320?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -317168,7 +317169,7 @@ exports[`Check for unintentional updates Ironsong Response (ironsong-response-bl
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225353",
-        "url": "https://www.tcgplayer.com/product/225353?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225353?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -317412,7 +317413,7 @@ exports[`Check for unintentional updates Ironsong Response (ironsong-response-re
       "set": "Promos",
       "tcgplayer": {
         "productId": "225608",
-        "url": "https://www.tcgplayer.com/product/225608?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225608?Language=English&Printing=1st+Edition+Normal",
       },
       "treatment": "Extended Art",
       "treatments": [
@@ -319600,7 +319601,7 @@ exports[`Check for unintentional updates Jarl Vetreiði (jarl-vetreidi) vs snaps
       "set": "Armory Deck Origins: Jarl",
       "tcgplayer": {
         "productId": "587212",
-        "url": "https://www.tcgplayer.com/product/587212?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/587212?Language=English&Printing=Normal",
       },
     },
     {
@@ -321698,7 +321699,7 @@ exports[`Check for unintentional updates Kano (kano) vs snapshot 1`] = `
       "set": "Promos",
       "tcgplayer": {
         "productId": "225534",
-        "url": "https://www.tcgplayer.com/product/225534?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/225534?Language=English&Printing=1st+Edition+Rainbow+Foil",
       },
     },
   ],
@@ -321848,7 +321849,7 @@ exports[`Check for unintentional updates Kano, Dracai of Aether (kano-dracai-of-
       "set": "Promos",
       "tcgplayer": {
         "productId": "225527",
-        "url": "https://www.tcgplayer.com/product/225527?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225527?Language=English&Printing=1st+Edition+Cold+Foil",
       },
     },
     {
@@ -321874,7 +321875,7 @@ exports[`Check for unintentional updates Kano, Dracai of Aether (kano-dracai-of-
       "set": "Promos",
       "tcgplayer": {
         "productId": "225552",
-        "url": "https://www.tcgplayer.com/product/225552?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/225552?Language=English&Printing=1st+Edition+Rainbow+Foil",
       },
     },
   ],
@@ -322507,7 +322508,7 @@ exports[`Check for unintentional updates Katsu (katsu) vs snapshot 1`] = `
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225742",
-        "url": "https://www.tcgplayer.com/product/225742?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225742?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -322551,7 +322552,7 @@ exports[`Check for unintentional updates Katsu (katsu) vs snapshot 1`] = `
       "set": "Promos",
       "tcgplayer": {
         "productId": "225522",
-        "url": "https://www.tcgplayer.com/product/225522?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/225522?Language=English&Printing=1st+Edition+Rainbow+Foil",
       },
     },
   ],
@@ -322719,7 +322720,7 @@ exports[`Check for unintentional updates Katsu, the Wanderer (katsu-the-wanderer
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225739",
-        "url": "https://www.tcgplayer.com/product/225739?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225739?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -322734,7 +322735,7 @@ exports[`Check for unintentional updates Katsu, the Wanderer (katsu-the-wanderer
       "set": "Promos",
       "tcgplayer": {
         "productId": "225518",
-        "url": "https://www.tcgplayer.com/product/225518?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225518?Language=English&Printing=1st+Edition+Cold+Foil",
       },
     },
     {
@@ -322760,7 +322761,7 @@ exports[`Check for unintentional updates Katsu, the Wanderer (katsu-the-wanderer
       "set": "Promos",
       "tcgplayer": {
         "productId": "225575",
-        "url": "https://www.tcgplayer.com/product/225575?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/225575?Language=English&Printing=1st+Edition+Rainbow+Foil",
       },
     },
   ],
@@ -332854,7 +332855,7 @@ exports[`Check for unintentional updates Leg Tap (leg-tap-red) vs snapshot 1`] =
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225770",
-        "url": "https://www.tcgplayer.com/product/225770?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225770?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -333031,7 +333032,7 @@ exports[`Check for unintentional updates Leg Tap (leg-tap-yellow) vs snapshot 1`
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225771",
-        "url": "https://www.tcgplayer.com/product/225771?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225771?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -333631,7 +333632,7 @@ exports[`Check for unintentional updates Levia (levia) vs snapshot 1`] = `
       "set": "Levia Blitz Deck",
       "tcgplayer": {
         "productId": "238457",
-        "url": "https://www.tcgplayer.com/product/238457?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/238457?Language=English&Printing=Unlimited+Edition+Rainbow+Foil",
       },
     },
     {
@@ -333905,7 +333906,7 @@ exports[`Check for unintentional updates Levia, Shadowborn Abomination (levia-sh
       "set": "Promos",
       "tcgplayer": {
         "productId": "242132",
-        "url": "https://www.tcgplayer.com/product/242132?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/242132?Language=English&Printing=Unlimited+Edition+Rainbow+Foil",
       },
     },
     {
@@ -344469,7 +344470,7 @@ If there is a yellow card in your pitch zone, your Illusionist attacks get **go 
       "set": "Promos",
       "tcgplayer": {
         "productId": "648066",
-        "url": "https://www.tcgplayer.com/product/648066?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/648066?Language=English&Printing=Cold+Foil",
       },
       "treatment": "Alternate Art",
       "treatments": [
@@ -345489,7 +345490,7 @@ exports[`Check for unintentional updates Lunging Press (lunging-press-blue) vs s
       "set": "Ira Welcome Deck",
       "tcgplayer": {
         "productId": "224957",
-        "url": "https://www.tcgplayer.com/product/224957?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/224957?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -345503,7 +345504,7 @@ exports[`Check for unintentional updates Lunging Press (lunging-press-blue) vs s
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225773",
-        "url": "https://www.tcgplayer.com/product/225773?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225773?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -354851,7 +354852,7 @@ exports[`Check for unintentional updates Mauvrion Skies (mauvrion-skies-blue) vs
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692562",
-        "url": "https://www.tcgplayer.com/product/692562?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692562?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -355047,7 +355048,7 @@ exports[`Check for unintentional updates Mauvrion Skies (mauvrion-skies-red) vs 
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692560",
-        "url": "https://www.tcgplayer.com/product/692560?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692560?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -355227,7 +355228,7 @@ exports[`Check for unintentional updates Mauvrion Skies (mauvrion-skies-yellow) 
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692561",
-        "url": "https://www.tcgplayer.com/product/692561?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692561?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -370803,7 +370804,7 @@ exports[`Check for unintentional updates Nature's Path Pilgrimage (natures-path-
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225356",
-        "url": "https://www.tcgplayer.com/product/225356?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225356?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -370985,7 +370986,7 @@ exports[`Check for unintentional updates Nature's Path Pilgrimage (natures-path-
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225339",
-        "url": "https://www.tcgplayer.com/product/225339?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225339?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -371321,7 +371322,7 @@ If you've played a non-attack action card this turn, this gets +3{p}.",
       "set": "Promos",
       "tcgplayer": {
         "productId": "225612",
-        "url": "https://www.tcgplayer.com/product/225612?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225612?Language=English&Printing=1st+Edition+Cold+Foil",
       },
     },
   ],
@@ -383783,7 +383784,7 @@ exports[`Check for unintentional updates Olympia, Prized Fighter (olympia-prized
       "set": "Promos",
       "tcgplayer": {
         "productId": "709156",
-        "url": "https://www.tcgplayer.com/product/709156?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/709156?Language=English&Printing=Normal",
       },
       "treatment": "Alternate Art",
       "treatments": [
@@ -386670,7 +386671,7 @@ exports[`Check for unintentional updates Open the Center (open-the-center-red) v
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225774",
-        "url": "https://www.tcgplayer.com/product/225774?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225774?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -392064,7 +392065,7 @@ exports[`Check for unintentional updates Over Loop (over-loop-red) vs snapshot 1
       "set": "Promos",
       "tcgplayer": {
         "productId": "225617",
-        "url": "https://www.tcgplayer.com/product/225617?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225617?Language=English&Printing=1st+Edition+Normal",
       },
       "treatment": "Extended Art",
       "treatments": [
@@ -395358,7 +395359,7 @@ exports[`Check for unintentional updates Overpower (overpower-red) vs snapshot 1
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225329",
-        "url": "https://www.tcgplayer.com/product/225329?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225329?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -396936,7 +396937,7 @@ exports[`Check for unintentional updates Pack Hunt (pack-hunt-red) vs snapshot 1
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225334",
-        "url": "https://www.tcgplayer.com/product/225334?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225334?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -404634,7 +404635,7 @@ When this is defending a non-Illusionist attack with 6 or more {p}, destroy it w
       "set": "Promos",
       "tcgplayer": {
         "productId": "648067",
-        "url": "https://www.tcgplayer.com/product/648067?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/648067?Language=English&Printing=Cold+Foil",
       },
       "treatment": "Alternate Art",
       "treatments": [
@@ -419018,7 +419019,7 @@ exports[`Check for unintentional updates Potion of Strength (potion-of-strength-
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225730",
-        "url": "https://www.tcgplayer.com/product/225730?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225730?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -419033,7 +419034,7 @@ exports[`Check for unintentional updates Potion of Strength (potion-of-strength-
       "set": "Promos",
       "tcgplayer": {
         "productId": "225512",
-        "url": "https://www.tcgplayer.com/product/225512?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225512?Language=English&Printing=1st+Edition+Cold+Foil",
       },
     },
   ],
@@ -425043,7 +425044,7 @@ Your next Brute attack this turn gets +3{p}.
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225370",
-        "url": "https://www.tcgplayer.com/product/225370?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225370?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -425489,7 +425490,7 @@ exports[`Check for unintentional updates Prism (prism) vs snapshot 1`] = `
       "set": "Prism Blitz Deck",
       "tcgplayer": {
         "productId": "238499",
-        "url": "https://www.tcgplayer.com/product/238499?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/238499?Language=English&Printing=Unlimited+Edition+Rainbow+Foil",
       },
     },
     {
@@ -425929,7 +425930,7 @@ exports[`Check for unintentional updates Prism, Sculptor of Arc Light (prism-scu
       "set": "Promos",
       "tcgplayer": {
         "productId": "242131",
-        "url": "https://www.tcgplayer.com/product/242131?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/242131?Language=English&Printing=Unlimited+Edition+Rainbow+Foil",
       },
     },
     {
@@ -427631,7 +427632,7 @@ You may play Evos from your banished zone.",
       "set": "Round the Table: TCC x LSS",
       "tcgplayer": {
         "productId": "517456",
-        "url": "https://www.tcgplayer.com/product/517456?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/517456?Language=English&Printing=Normal",
       },
     },
     {
@@ -433445,7 +433446,7 @@ exports[`Check for unintentional updates Pummel (pummel-blue) vs snapshot 1`] = 
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225728",
-        "url": "https://www.tcgplayer.com/product/225728?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225728?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -440264,7 +440265,7 @@ exports[`Check for unintentional updates Quicken (quicken) vs snapshot 1`] = `
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225376",
-        "url": "https://www.tcgplayer.com/product/225376?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225376?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -440278,7 +440279,7 @@ exports[`Check for unintentional updates Quicken (quicken) vs snapshot 1`] = `
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225365",
-        "url": "https://www.tcgplayer.com/product/225365?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225365?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -442395,7 +442396,7 @@ exports[`Check for unintentional updates Raging Onslaught (raging-onslaught-blue
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225722",
-        "url": "https://www.tcgplayer.com/product/225722?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225722?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -442836,7 +442837,7 @@ exports[`Check for unintentional updates Raging Onslaught (raging-onslaught-yell
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225359",
-        "url": "https://www.tcgplayer.com/product/225359?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225359?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -449710,7 +449711,7 @@ exports[`Check for unintentional updates Razor Reflex (razor-reflex-red) vs snap
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225345",
-        "url": "https://www.tcgplayer.com/product/225345?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225345?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -453228,7 +453229,7 @@ If a hero has more {h} than each other hero, they can't gain {h}.",
       "set": "Promos",
       "tcgplayer": {
         "productId": "648070",
-        "url": "https://www.tcgplayer.com/product/648070?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/648070?Language=English&Printing=Cold+Foil",
       },
       "treatment": "Alternate Art",
       "treatments": [
@@ -456084,7 +456085,7 @@ Create a Runechant token.",
       "set": "Promos",
       "tcgplayer": {
         "productId": "225622",
-        "url": "https://www.tcgplayer.com/product/225622?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225622?Language=English&Printing=1st+Edition+Normal",
       },
       "treatment": "Extended Art",
       "treatments": [
@@ -456944,7 +456945,7 @@ exports[`Check for unintentional updates Refraction Bolters (refraction-bolters)
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225323",
-        "url": "https://www.tcgplayer.com/product/225323?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225323?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -465126,7 +465127,7 @@ exports[`Check for unintentional updates Rhinar (rhinar) vs snapshot 1`] = `
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225321",
-        "url": "https://www.tcgplayer.com/product/225321?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225321?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -465362,7 +465363,7 @@ exports[`Check for unintentional updates Rhinar, Reckless Rampage (rhinar-reckle
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225318",
-        "url": "https://www.tcgplayer.com/product/225318?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225318?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -465377,7 +465378,7 @@ exports[`Check for unintentional updates Rhinar, Reckless Rampage (rhinar-reckle
       "set": "Promos",
       "tcgplayer": {
         "productId": "225516",
-        "url": "https://www.tcgplayer.com/product/225516?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225516?Language=English&Printing=1st+Edition+Cold+Foil",
       },
     },
     {
@@ -465403,7 +465404,7 @@ exports[`Check for unintentional updates Rhinar, Reckless Rampage (rhinar-reckle
       "set": "Promos",
       "tcgplayer": {
         "productId": "225572",
-        "url": "https://www.tcgplayer.com/product/225572?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/225572?Language=English&Printing=1st+Edition+Rainbow+Foil",
       },
     },
     {
@@ -473302,7 +473303,7 @@ exports[`Check for unintentional updates Rising Knee Thrust (rising-knee-thrust-
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225775",
-        "url": "https://www.tcgplayer.com/product/225775?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225775?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -473469,7 +473470,7 @@ exports[`Check for unintentional updates Rising Knee Thrust (rising-knee-thrust-
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225776",
-        "url": "https://www.tcgplayer.com/product/225776?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225776?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -478798,7 +478799,7 @@ Once per turn, when you discard a card with 6 or more {p}, this gets +1{p} until
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225324",
-        "url": "https://www.tcgplayer.com/product/225324?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225324?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -478842,7 +478843,7 @@ Once per turn, when you discard a card with 6 or more {p}, this gets +1{p} until
       "set": "Promos",
       "tcgplayer": {
         "productId": "225579",
-        "url": "https://www.tcgplayer.com/product/225579?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225579?Language=English&Printing=1st+Edition+Cold+Foil",
       },
     },
     {
@@ -491417,7 +491418,7 @@ exports[`Check for unintentional updates Salt the Wound (salt-the-wound-yellow) 
       "set": "Ira Welcome Deck",
       "tcgplayer": {
         "productId": "224950",
-        "url": "https://www.tcgplayer.com/product/224950?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/224950?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -494676,7 +494677,7 @@ When this attacks, if a card with 6 or more {p} was discarded as an additional c
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225335",
-        "url": "https://www.tcgplayer.com/product/225335?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225335?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -495240,7 +495241,7 @@ exports[`Check for unintentional updates Savage Swing (savage-swing-red) vs snap
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225336",
-        "url": "https://www.tcgplayer.com/product/225336?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225336?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -495400,7 +495401,7 @@ exports[`Check for unintentional updates Savage Swing (savage-swing-yellow) vs s
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225346",
-        "url": "https://www.tcgplayer.com/product/225346?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225346?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -497854,7 +497855,7 @@ exports[`Check for unintentional updates Scar for a Scar (scar-for-a-scar-red) v
       "set": "Ira Welcome Deck",
       "tcgplayer": {
         "productId": "224955",
-        "url": "https://www.tcgplayer.com/product/224955?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/224955?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -497868,7 +497869,7 @@ exports[`Check for unintentional updates Scar for a Scar (scar-for-a-scar-red) v
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225777",
-        "url": "https://www.tcgplayer.com/product/225777?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225777?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -497901,7 +497902,7 @@ exports[`Check for unintentional updates Scar for a Scar (scar-for-a-scar-red) v
       "set": "Promos",
       "tcgplayer": {
         "productId": "225514",
-        "url": "https://www.tcgplayer.com/product/225514?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/225514?Language=English&Printing=1st+Edition+Rainbow+Foil",
       },
       "treatment": "Extended Art",
       "treatments": [
@@ -499215,7 +499216,7 @@ If this was played from arsenal, it gets **go again**.",
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225779",
-        "url": "https://www.tcgplayer.com/product/225779?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225779?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -499229,7 +499230,7 @@ If this was played from arsenal, it gets **go again**.",
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225372",
-        "url": "https://www.tcgplayer.com/product/225372?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225372?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -499243,7 +499244,7 @@ If this was played from arsenal, it gets **go again**.",
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225361",
-        "url": "https://www.tcgplayer.com/product/225361?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225361?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -512099,7 +512100,7 @@ exports[`Check for unintentional updates Ser Boltyn, Breaker of Dawn (ser-boltyn
       "set": "Promos",
       "tcgplayer": {
         "productId": "242130",
-        "url": "https://www.tcgplayer.com/product/242130?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/242130?Language=English&Printing=Unlimited+Edition+Rainbow+Foil",
       },
     },
     {
@@ -517227,7 +517228,7 @@ exports[`Check for unintentional updates Sharpen Steel (sharpen-steel-red) vs sn
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225340",
-        "url": "https://www.tcgplayer.com/product/225340?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225340?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -523546,7 +523547,7 @@ exports[`Check for unintentional updates Shred (shred-blue) vs snapshot 1`] = `
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692565",
-        "url": "https://www.tcgplayer.com/product/692565?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692565?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -523661,7 +523662,7 @@ exports[`Check for unintentional updates Shred (shred-red) vs snapshot 1`] = `
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692563",
-        "url": "https://www.tcgplayer.com/product/692563?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692563?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -523785,7 +523786,7 @@ exports[`Check for unintentional updates Shred (shred-yellow) vs snapshot 1`] = 
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692564",
-        "url": "https://www.tcgplayer.com/product/692564?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692564?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -524900,7 +524901,7 @@ exports[`Check for unintentional updates Sic 'Em Shot (sic-em-shot-red) vs snaps
       "set": "Promos",
       "tcgplayer": {
         "productId": "225620",
-        "url": "https://www.tcgplayer.com/product/225620?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225620?Language=English&Printing=1st+Edition+Normal",
       },
       "treatment": "Extended Art",
       "treatments": [
@@ -524919,7 +524920,7 @@ exports[`Check for unintentional updates Sic 'Em Shot (sic-em-shot-red) vs snaps
       "set": "Promos",
       "tcgplayer": {
         "productId": "229756",
-        "url": "https://www.tcgplayer.com/product/229756?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/229756?Language=English&Printing=Normal",
       },
       "treatment": "Extended Art",
       "treatments": [
@@ -529046,7 +529047,7 @@ exports[`Check for unintentional updates Sigil of Solace (sigil-of-solace-blue) 
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225780",
-        "url": "https://www.tcgplayer.com/product/225780?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225780?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -529060,7 +529061,7 @@ exports[`Check for unintentional updates Sigil of Solace (sigil-of-solace-blue) 
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225374",
-        "url": "https://www.tcgplayer.com/product/225374?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225374?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -529074,7 +529075,7 @@ exports[`Check for unintentional updates Sigil of Solace (sigil-of-solace-blue) 
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225364",
-        "url": "https://www.tcgplayer.com/product/225364?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225364?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -542178,7 +542179,7 @@ exports[`Check for unintentional updates Sloggism (sloggism-blue) vs snapshot 1`
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225732",
-        "url": "https://www.tcgplayer.com/product/225732?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225732?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -543524,7 +543525,7 @@ exports[`Check for unintentional updates Smash Instinct (smash-instinct-red) vs 
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225338",
-        "url": "https://www.tcgplayer.com/product/225338?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225338?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -543701,7 +543702,7 @@ exports[`Check for unintentional updates Smash Instinct (smash-instinct-yellow) 
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225348",
-        "url": "https://www.tcgplayer.com/product/225348?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225348?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -547550,7 +547551,7 @@ exports[`Check for unintentional updates Snapdragon Scalers (snapdragon-scalers)
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225331",
-        "url": "https://www.tcgplayer.com/product/225331?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225331?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -555618,7 +555619,7 @@ exports[`Check for unintentional updates Spears of Surreality (spears-of-surreal
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692568",
-        "url": "https://www.tcgplayer.com/product/692568?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692568?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -555788,7 +555789,7 @@ exports[`Check for unintentional updates Spears of Surreality (spears-of-surreal
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692566",
-        "url": "https://www.tcgplayer.com/product/692566?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692566?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -555941,7 +555942,7 @@ exports[`Check for unintentional updates Spears of Surreality (spears-of-surreal
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692567",
-        "url": "https://www.tcgplayer.com/product/692567?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692567?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -565223,7 +565224,7 @@ exports[`Check for unintentional updates Springboard Somersault (springboard-som
       "set": "Ira Welcome Deck",
       "tcgplayer": {
         "productId": "224958",
-        "url": "https://www.tcgplayer.com/product/224958?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/224958?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -565237,7 +565238,7 @@ exports[`Check for unintentional updates Springboard Somersault (springboard-som
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225704",
-        "url": "https://www.tcgplayer.com/product/225704?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225704?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -565251,7 +565252,7 @@ exports[`Check for unintentional updates Springboard Somersault (springboard-som
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225782",
-        "url": "https://www.tcgplayer.com/product/225782?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225782?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -565265,7 +565266,7 @@ exports[`Check for unintentional updates Springboard Somersault (springboard-som
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225366",
-        "url": "https://www.tcgplayer.com/product/225366?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225366?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -565279,7 +565280,7 @@ exports[`Check for unintentional updates Springboard Somersault (springboard-som
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225349",
-        "url": "https://www.tcgplayer.com/product/225349?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225349?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -570725,7 +570726,7 @@ If the additional cost is paid, this gets +3{d}.",
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225712",
-        "url": "https://www.tcgplayer.com/product/225712?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225712?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -570925,7 +570926,7 @@ If the additional cost is paid, this gets +3{d}.",
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692569",
-        "url": "https://www.tcgplayer.com/product/692569?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692569?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -572522,7 +572523,7 @@ exports[`Check for unintentional updates Steelblade Shunt (steelblade-shunt-red)
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225332",
-        "url": "https://www.tcgplayer.com/product/225332?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225332?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -575917,7 +575918,7 @@ At the beginning of your action phase, destroy this.",
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225715",
-        "url": "https://www.tcgplayer.com/product/225715?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225715?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -577393,7 +577394,7 @@ exports[`Check for unintentional updates Storm Striders (storm-striders) vs snap
       "set": "Promos",
       "tcgplayer": {
         "productId": "225510",
-        "url": "https://www.tcgplayer.com/product/225510?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225510?Language=English&Printing=1st+Edition+Cold+Foil",
       },
     },
   ],
@@ -580899,7 +580900,7 @@ exports[`Check for unintentional updates Stroke of Foresight (stroke-of-foresigh
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225327",
-        "url": "https://www.tcgplayer.com/product/225327?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225327?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -581066,7 +581067,7 @@ exports[`Check for unintentional updates Stroke of Foresight (stroke-of-foresigh
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225347",
-        "url": "https://www.tcgplayer.com/product/225347?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225347?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -587445,7 +587446,7 @@ exports[`Check for unintentional updates Surging Strike (surging-strike-red) vs 
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225783",
-        "url": "https://www.tcgplayer.com/product/225783?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225783?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -587656,7 +587657,7 @@ exports[`Check for unintentional updates Surging Strike (surging-strike-yellow) 
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225784",
-        "url": "https://www.tcgplayer.com/product/225784?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225784?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -601164,7 +601165,7 @@ exports[`Check for unintentional updates Teklo Plasma Pistol (teklo-plasma-pisto
       "set": "Promos",
       "tcgplayer": {
         "productId": "225610",
-        "url": "https://www.tcgplayer.com/product/225610?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225610?Language=English&Printing=1st+Edition+Cold+Foil",
       },
     },
   ],
@@ -614902,7 +614903,7 @@ exports[`Check for unintentional updates Timesnap Potion (timesnap-potion-blue) 
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225373",
-        "url": "https://www.tcgplayer.com/product/225373?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225373?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -614917,7 +614918,7 @@ exports[`Check for unintentional updates Timesnap Potion (timesnap-potion-blue) 
       "set": "Promos",
       "tcgplayer": {
         "productId": "225513",
-        "url": "https://www.tcgplayer.com/product/225513?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225513?Language=English&Printing=1st+Edition+Cold+Foil",
       },
     },
     {
@@ -620167,7 +620168,7 @@ exports[`Check for unintentional updates Torrent of Tempo (torrent-of-tempo-red)
       "set": "Ira Welcome Deck",
       "tcgplayer": {
         "productId": "224952",
-        "url": "https://www.tcgplayer.com/product/224952?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/224952?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -648346,7 +648347,7 @@ exports[`Check for unintentional updates Viserai (viserai) vs snapshot 1`] = `
       "set": "Promos",
       "tcgplayer": {
         "productId": "225532",
-        "url": "https://www.tcgplayer.com/product/225532?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/225532?Language=English&Printing=1st+Edition+Rainbow+Foil",
       },
     },
   ],
@@ -648637,7 +648638,7 @@ exports[`Check for unintentional updates Viserai, Rune Blood (viserai-rune-blood
       "set": "Promos",
       "tcgplayer": {
         "productId": "225526",
-        "url": "https://www.tcgplayer.com/product/225526?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225526?Language=English&Printing=1st+Edition+Cold+Foil",
       },
     },
     {
@@ -648663,7 +648664,7 @@ exports[`Check for unintentional updates Viserai, Rune Blood (viserai-rune-blood
       "set": "Promos",
       "tcgplayer": {
         "productId": "225549",
-        "url": "https://www.tcgplayer.com/product/225549?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/225549?Language=English&Printing=1st+Edition+Rainbow+Foil",
       },
     },
     {
@@ -652153,7 +652154,7 @@ exports[`Check for unintentional updates Voltic Bolt (voltic-bolt-red) vs snapsh
       "set": "Promos",
       "tcgplayer": {
         "productId": "225623",
-        "url": "https://www.tcgplayer.com/product/225623?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225623?Language=English&Printing=1st+Edition+Normal",
       },
       "treatment": "Extended Art",
       "treatments": [
@@ -652339,7 +652340,7 @@ exports[`Check for unintentional updates Voltic Bolt (voltic-bolt-yellow) vs sna
       "set": "Promos",
       "tcgplayer": {
         "productId": "229768",
-        "url": "https://www.tcgplayer.com/product/229768?Language=English&Printing=Rainbow+Foil",
+        "url": "https://www.tcgplayer.com/product/229768?Language=English&Printing=Normal",
       },
       "treatment": "Extended Art",
       "treatments": [
@@ -659032,7 +659033,7 @@ exports[`Check for unintentional updates Warrior's Valor (warriors-valor-blue) v
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225358",
-        "url": "https://www.tcgplayer.com/product/225358?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225358?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -659047,7 +659048,7 @@ exports[`Check for unintentional updates Warrior's Valor (warriors-valor-blue) v
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692574",
-        "url": "https://www.tcgplayer.com/product/692574?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692574?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -659277,7 +659278,7 @@ exports[`Check for unintentional updates Warrior's Valor (warriors-valor-red) vs
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692572",
-        "url": "https://www.tcgplayer.com/product/692572?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692572?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -659471,7 +659472,7 @@ exports[`Check for unintentional updates Warrior's Valor (warriors-valor-yellow)
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225351",
-        "url": "https://www.tcgplayer.com/product/225351?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225351?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -659486,7 +659487,7 @@ exports[`Check for unintentional updates Warrior's Valor (warriors-valor-yellow)
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692573",
-        "url": "https://www.tcgplayer.com/product/692573?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692573?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -664649,7 +664650,7 @@ exports[`Check for unintentional updates Whelming Gustwave (whelming-gustwave-bl
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225786",
-        "url": "https://www.tcgplayer.com/product/225786?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225786?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -664855,7 +664856,7 @@ exports[`Check for unintentional updates Whelming Gustwave (whelming-gustwave-re
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225789",
-        "url": "https://www.tcgplayer.com/product/225789?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225789?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -664869,7 +664870,7 @@ exports[`Check for unintentional updates Whelming Gustwave (whelming-gustwave-re
       "set": "Promos",
       "tcgplayer": {
         "productId": "225605",
-        "url": "https://www.tcgplayer.com/product/225605?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225605?Language=English&Printing=1st+Edition+Normal",
       },
       "treatment": "Extended Art",
       "treatments": [
@@ -665273,7 +665274,7 @@ When this hits, and it's the second or higher chain link in a row to hit, draw 2
       "set": "Ira Welcome Deck",
       "tcgplayer": {
         "productId": "224949",
-        "url": "https://www.tcgplayer.com/product/224949?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/224949?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -668678,7 +668679,7 @@ exports[`Check for unintentional updates Wild Ride (wild-ride-blue) vs snapshot 
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692577",
-        "url": "https://www.tcgplayer.com/product/692577?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692577?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -668868,7 +668869,7 @@ exports[`Check for unintentional updates Wild Ride (wild-ride-red) vs snapshot 1
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692575",
-        "url": "https://www.tcgplayer.com/product/692575?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692575?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -669038,7 +669039,7 @@ exports[`Check for unintentional updates Wild Ride (wild-ride-yellow) vs snapsho
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692576",
-        "url": "https://www.tcgplayer.com/product/692576?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692576?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -672238,7 +672239,7 @@ exports[`Check for unintentional updates Wounded Bull (wounded-bull-blue) vs sna
       "set": "Bravo Hero Deck",
       "tcgplayer": {
         "productId": "225726",
-        "url": "https://www.tcgplayer.com/product/225726?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225726?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -672732,7 +672733,7 @@ exports[`Check for unintentional updates Wounded Bull (wounded-bull-yellow) vs s
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225363",
-        "url": "https://www.tcgplayer.com/product/225363?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225363?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -672981,7 +672982,7 @@ exports[`Check for unintentional updates Wounding Blow (wounding-blow-blue) vs s
       "set": "Katsu Hero Deck",
       "tcgplayer": {
         "productId": "225793",
-        "url": "https://www.tcgplayer.com/product/225793?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225793?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -673234,7 +673235,7 @@ exports[`Check for unintentional updates Wounding Blow (wounding-blow-red) vs sn
       "set": "Dorinthea Hero Deck",
       "tcgplayer": {
         "productId": "225343",
-        "url": "https://www.tcgplayer.com/product/225343?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225343?Language=English&Printing=1st+Edition+Normal",
       },
     },
   ],
@@ -674351,7 +674352,7 @@ exports[`Check for unintentional updates Wrecker Romp (wrecker-romp-blue) vs sna
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225367",
-        "url": "https://www.tcgplayer.com/product/225367?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225367?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -674365,7 +674366,7 @@ exports[`Check for unintentional updates Wrecker Romp (wrecker-romp-blue) vs sna
       "set": "Promos",
       "tcgplayer": {
         "productId": "225602",
-        "url": "https://www.tcgplayer.com/product/225602?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225602?Language=English&Printing=1st+Edition+Normal",
       },
       "treatment": "Extended Art",
       "treatments": [
@@ -674578,7 +674579,7 @@ exports[`Check for unintentional updates Wrecker Romp (wrecker-romp-red) vs snap
       "set": "Rhinar Hero Deck",
       "tcgplayer": {
         "productId": "225341",
-        "url": "https://www.tcgplayer.com/product/225341?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/225341?Language=English&Printing=1st+Edition+Normal",
       },
     },
     {
@@ -678121,7 +678122,7 @@ If you would be dealt damage, prevent 1 of that damage.",
       "set": "Promos",
       "tcgplayer": {
         "productId": "580620",
-        "url": "https://www.tcgplayer.com/product/580620?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/580620?Language=English&Printing=Rainbow+Foil",
       },
     },
     {
@@ -679743,7 +679744,7 @@ exports[`Check for unintentional updates Zipper Hit (zipper-hit-blue) vs snapsho
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692580",
-        "url": "https://www.tcgplayer.com/product/692580?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692580?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -679973,7 +679974,7 @@ exports[`Check for unintentional updates Zipper Hit (zipper-hit-red) vs snapshot
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692578",
-        "url": "https://www.tcgplayer.com/product/692578?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692578?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -680193,7 +680194,7 @@ exports[`Check for unintentional updates Zipper Hit (zipper-hit-yellow) vs snaps
       "set": "Tournament Pack",
       "tcgplayer": {
         "productId": "692579",
-        "url": "https://www.tcgplayer.com/product/692579?Language=English&Printing=Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/692579?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Full Art",
       "treatments": [

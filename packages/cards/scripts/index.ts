@@ -36,7 +36,10 @@ import { getShorthands } from "./Shared/get-shorthands";
 import { getNicknames } from "./Shared/get-nicknames";
 import { getShortName } from "./Shared/get-short-names";
 import { getFirstReleaseDate } from "./Shared/get-first-release-date";
-import { getTCGplayerInfoForAddedPrinting } from "./Shared/tcgplayer";
+import {
+  getCardsWithTCGplayerPrintingOverrides,
+  getTCGplayerInfoForAddedPrinting,
+} from "./Shared/tcgplayer";
 
 const outputDirectory = "src";
 
@@ -220,15 +223,17 @@ const cardsWithAdditionalProperties = cardsWithRelations.map((card) => {
 
 // A card still missing a rarity here was never matched to a released
 // printing, and a generated file with a hole in it is worse than no file.
-const completedCards: Card[] = [];
+const cardsWithRarity: Card[] = [];
 for (const card of cardsWithAdditionalProperties) {
   const { rarity } = card;
   if (rarity) {
-    completedCards.push({ ...card, rarity });
+    cardsWithRarity.push({ ...card, rarity });
   } else {
     throw new Error(`No rarity for ${card.cardIdentifier}`);
   }
 }
+
+const completedCards = getCardsWithTCGplayerPrintingOverrides(cardsWithRarity);
 
 const latestStandaloneBooster = releases
   .reverse()

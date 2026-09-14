@@ -15,6 +15,19 @@ const tcgplayerOverrides = tcgplayerOverrideFile as {
   };
 };
 
+import tcgplayerPrintingOverrideFile from "./tcgplayer-printing-overrides.json";
+// cardIdentifier -> print -> the TCGplayer printing that print's listings sit under
+const tcgplayerPrintingsByPrintByCard = new Map(
+  Object.entries(
+    tcgplayerPrintingOverrideFile as {
+      [key: string]: { [key: string]: string };
+    },
+  ).map(([cardIdentifier, printingsByPrint]) => [
+    cardIdentifier,
+    new Map(Object.entries(printingsByPrint)),
+  ]),
+);
+
 const FOILING_OVERRIDES: { [key: string]: string } = {
   C: Foiling.Cold,
   G: Foiling.Gold,
@@ -151,4 +164,66 @@ export const getTCGPlayerInfoFromOverrides = (
       return printOverride;
     }
   }
+};
+
+const TCGPLAYER_PRINTING_PARAM = "Printing";
+
+// The api prices a printing from the TCGplayer printing its link names, and links name our edition
+// and finish. TCGplayer sometimes lists a print under another finish (the CON001 rainbow foil sells
+// as cold foil) or under an edition our data doesn't carry (hero deck cards sell as 1st Edition),
+// and the print goes unpriced until its link names TCGplayer's printing. An entry that changes no
+// link throws: a print key change or an upstream fix would otherwise retire it silently.
+export const getCardsWithTCGplayerPrintingOverrides = (
+  cards: Card[],
+): Card[] => {
+  const unappliedOverrides = new Set<string>();
+  for (const [
+    cardIdentifier,
+    printingsByPrint,
+  ] of tcgplayerPrintingsByPrintByCard) {
+    for (const print of printingsByPrint.keys()) {
+      unappliedOverrides.add(`${cardIdentifier} ${print}`);
+    }
+  }
+
+  const cardsWithOverrides = cards.map((card) => {
+    const printingsByPrint = tcgplayerPrintingsByPrintByCard.get(
+      card.cardIdentifier,
+    );
+    let cardWithOverrides = card;
+    if (printingsByPrint) {
+      const printings = card.printings.map((printing) => {
+        const tcgplayerPrinting = printingsByPrint.get(printing.print);
+        let printingWithOverride = printing;
+        const tcgplayerUrl = printing.tcgplayer?.url;
+        if (tcgplayerPrinting && tcgplayerUrl) {
+          const url = new URL(tcgplayerUrl);
+          const shouldOverride =
+            url.searchParams.get(TCGPLAYER_PRINTING_PARAM) !==
+            tcgplayerPrinting;
+          if (shouldOverride) {
+            url.searchParams.set(TCGPLAYER_PRINTING_PARAM, tcgplayerPrinting);
+            printingWithOverride = {
+              ...printing,
+              tcgplayer: { ...printing.tcgplayer, url: url.toString() },
+            };
+            unappliedOverrides.delete(
+              `${card.cardIdentifier} ${printing.print}`,
+            );
+          }
+        }
+        return printingWithOverride;
+      });
+      cardWithOverrides = { ...card, printings };
+    }
+    return cardWithOverrides;
+  });
+
+  if (unappliedOverrides.size > 0) {
+    throw new Error(
+      `TCGplayer printing overrides that change no link (no such print, no link, or the link already names that printing): ${[...unappliedOverrides].join(", ")}`,
+    );
+  }
+
+  return cardsWithOverrides;
 };
