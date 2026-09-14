@@ -1,5 +1,11 @@
 import { describe, expect, it } from "@jest/globals";
-import { CardRole, DoubleSidedCard, getCardRole } from "@flesh-and-blood/types";
+import {
+  CardRole,
+  DoubleSidedCard,
+  getCardRole,
+  Trait,
+} from "@flesh-and-blood/types";
+import Search from "../src/search";
 import {
   CatalogueIndex,
   getCardsByName,
@@ -101,22 +107,27 @@ describe("Catalogue index", () => {
       ]);
     });
 
-    it("Agrees with the cards the field names", () => {
-      for (const cardIdentifier of [
-        "big-bertha-red",
-        "mugenshi-release-yellow",
-        "supercell-blue",
-      ]) {
-        const { referencedCards } = getCard(cardIdentifier);
-
-        expect(
-          getIdentifiers(index.getReferences(cardIdentifier)).sort(),
-        ).toEqual([...(referencedCards || [])].sort());
-      }
-    });
-
     it("Returns nothing for a card naming no other card", () => {
       expect(index.getReferences("aether-dart-red")).toEqual([]);
+    });
+
+    it("Agrees with the field of every card in the corpus", () => {
+      const mismatched: string[] = [];
+
+      for (const { cardIdentifier, referencedCards } of doubleSidedCards) {
+        const referencedCardIdentifiers = getIdentifiers(
+          index.getReferences(cardIdentifier),
+        ).sort();
+        const expectedCardIdentifiers = [...(referencedCards || [])].sort();
+
+        const matchesField =
+          referencedCardIdentifiers.join() === expectedCardIdentifiers.join();
+        if (!matchesField) {
+          mismatched.push(cardIdentifier);
+        }
+      }
+
+      expect(mismatched).toEqual([]);
     });
   });
 
@@ -130,19 +141,71 @@ describe("Catalogue index", () => {
       ]);
     });
 
-    it("Agrees with the field of every card it answers with", () => {
-      const referencingCards = index.getReferencedBy("hyper-driver-red");
-      const cardsNamingAnotherPitch = referencingCards.filter(
-        ({ referencedCards }) =>
-          !(referencedCards || []).includes("hyper-driver-red"),
-      );
-
-      expect(referencingCards.length).toBeGreaterThan(0);
-      expect(cardsNamingAnotherPitch).toEqual([]);
-    });
-
     it("Returns nothing for a card no other card names", () => {
       expect(index.getReferencedBy("aether-dart-red")).toEqual([]);
+    });
+
+    it("Answers for every reference any card in the corpus makes", () => {
+      const missing: string[] = [];
+
+      for (const { cardIdentifier, referencedCards } of doubleSidedCards) {
+        for (const referencedCardIdentifier of referencedCards || []) {
+          const isIndexed = index
+            .getReferencedBy(referencedCardIdentifier)
+            .some((card) => card.cardIdentifier === cardIdentifier);
+
+          if (!isIndexed) {
+            missing.push(`${cardIdentifier} -> ${referencedCardIdentifier}`);
+          }
+        }
+      }
+
+      expect(missing).toEqual([]);
+    });
+
+    it("Answers with no card whose field leaves the identifier out", () => {
+      const unexpected: string[] = [];
+
+      for (const { cardIdentifier } of doubleSidedCards) {
+        for (const card of index.getReferencedBy(cardIdentifier)) {
+          const isNamedByField = (card.referencedCards || []).includes(
+            cardIdentifier,
+          );
+
+          if (!isNamedByField) {
+            unexpected.push(`${card.cardIdentifier} -> ${cardIdentifier}`);
+          }
+        }
+      }
+
+      expect(unexpected).toEqual([]);
+    });
+
+    it("Answers for every Agent of Chaos in an index over a hero's pool", () => {
+      const cardSearch = new Search(doubleSidedCards);
+      const agentsOfChaos = doubleSidedCards.filter(
+        ({ traits }) => !!traits && traits.includes(Trait.AgentOfChaos),
+      );
+      const { searchResults: referencesAgentOfChaos } = cardSearch.search(
+        `text:"agent of chaos"`,
+      );
+      const { searchResults: legalCards } =
+        cardSearch.search(`l:crackni c:assassin`);
+      const legalCardsIndex = getCatalogueIndex(legalCards);
+
+      expect(agentsOfChaos.length).toBeGreaterThanOrEqual(2);
+      expect(referencesAgentOfChaos.length).toBeGreaterThan(0);
+
+      // Naming the group names every card in it.
+      for (const agent of agentsOfChaos) {
+        const referencedByIdentifiers = getIdentifiers(
+          legalCardsIndex.getReferencedBy(agent.cardIdentifier),
+        );
+
+        for (const { cardIdentifier } of referencesAgentOfChaos) {
+          expect(referencedByIdentifiers).toContain(cardIdentifier);
+        }
+      }
     });
   });
 
