@@ -2121,10 +2121,10 @@ Whenever a card is put into your soul, create a Ponder token. At the start of yo
           },
       
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["IAR005"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["IAR005","LGS464"],
+    sets: [Release.Promos,Release.UsurpTheShadowThrone],
     specialImage: "IAR005",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -13045,7 +13045,7 @@ Create a Runechant token.
   
     
     pitch: 3,
-    power: 1,
+    power: 2,
     
     
     

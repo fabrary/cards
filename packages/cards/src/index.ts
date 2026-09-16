@@ -51498,12 +51498,24 @@ Target sword attack gets **go again** and "When this hits, create a Cintari Sell
             url: "https://www.tcgplayer.com/product/706650?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Khairul Sukmanudin"],
+      foiling: Foiling.Cold,
+      identifier: "LGS464",
+      image: "LGS464-CF",
+      
+      
+      print: "LGS464-Cold-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["IAR005"],
-    sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR005",
+    setIdentifiers: ["IAR005","LGS464"],
+    sets: [Release.Promos,Release.UsurpTheShadowThrone],
+    specialImage: "LGS464-CF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Brute Action - Attack",
@@ -310621,7 +310633,7 @@ You may {u} your hero.
   
     
     pitch: 3,
-    power: 1,
+    power: 2,
     
     
     
