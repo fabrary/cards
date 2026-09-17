@@ -610,7 +610,7 @@ If you've played another blue card this turn, **transcend**.`,
     typeText: "Wizard Defense Reaction",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 1,
     defense: 4,
     
@@ -719,7 +719,7 @@ If you've played another blue card this turn, **transcend**.`,
     typeText: "Wizard Defense Reaction",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 1,
     defense: 3,
     
@@ -828,7 +828,7 @@ If you've played another blue card this turn, **transcend**.`,
     typeText: "Wizard Defense Reaction",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 1,
     defense: 2,
     
@@ -35080,7 +35080,7 @@ If a yellow card is **charged** this way, this gets +1{p}.`,
     typeText: "Brute Equipment - Legs",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     
     defense: 1,
     
@@ -35477,7 +35477,7 @@ If you control a Vigor token, this gets +1{d}.
     typeText: "Runeblade Equipment - Arms",
 
     
-    bannedFormats: [Format.SilverAge],
+    
     
     defense: 2,
     
@@ -62164,7 +62164,7 @@ If this was **fused**, the next attack action card you play this turn gets +1{p}
     typeText: "Draconic Ninja Action - Attack",
 
     
-    bannedFormats: [Format.ClassicConstructed],
+    
     cost: 0,
     defense: 2,
     
@@ -62260,7 +62260,7 @@ If this was **fused**, the next attack action card you play this turn gets +1{p}
     typeText: "Draconic Ninja Action - Attack",
 
     
-    bannedFormats: [Format.ClassicConstructed],
+    
     cost: 0,
     defense: 2,
     
@@ -62356,7 +62356,7 @@ If this was **fused**, the next attack action card you play this turn gets +1{p}
     typeText: "Draconic Ninja Action - Attack",
 
     
-    bannedFormats: [Format.ClassicConstructed],
+    
     cost: 0,
     defense: 2,
     
@@ -66073,7 +66073,7 @@ Whenever you **protect** another hero, create a Might token.`,
     typeText: "Elemental Runeblade Hero - Young",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     createdExtras: ["embodiment-of-earth","embodiment-of-lightning"],
     
     
@@ -76835,7 +76835,7 @@ When this hits a Brute hero, they discard a card. If it has 6 or more {p}, you l
     typeText: "Shadow Runeblade Hero - Young",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     createdExtras: ["soul-shackle"],
     
     
@@ -118194,7 +118194,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     typeText: "Shadow Runeblade Action - Attack",
 
     
-    bannedFormats: [Format.SilverAge],
+    
     cost: 2,
     defense: 3,
     
@@ -118277,7 +118277,7 @@ When the combat chain closes, gain {h} equal to the number of heroes who have lo
     typeText: "Shadow Runeblade Action - Attack",
 
     
-    bannedFormats: [Format.SilverAge],
+    
     cost: 2,
     defense: 3,
     
@@ -118360,7 +118360,7 @@ When the combat chain closes, gain {h} equal to the number of heroes who have lo
     typeText: "Shadow Runeblade Action - Attack",
 
     
-    bannedFormats: [Format.SilverAge],
+    
     cost: 2,
     defense: 3,
     
@@ -147044,7 +147044,7 @@ At the beginning of your action phase, destroy this then the next Guardian attac
     typeText: "Wizard Action",
 
     arcane: 4,
-    
+    bannedFormats: [Format.SilverAge],
     cost: 2,
     defense: 3,
     
@@ -147168,7 +147168,7 @@ At the beginning of your action phase, destroy this then the next Guardian attac
     typeText: "Wizard Action",
 
     arcane: 3,
-    
+    bannedFormats: [Format.SilverAge],
     cost: 2,
     defense: 3,
     
@@ -147307,7 +147307,7 @@ At the beginning of your action phase, destroy this then the next Guardian attac
     typeText: "Wizard Action",
 
     arcane: 2,
-    
+    bannedFormats: [Format.SilverAge],
     cost: 2,
     defense: 3,
     
@@ -154109,7 +154109,7 @@ If this was **fused**, it gets **dominate**.`,
     typeText: "Elemental Action - Attack",
 
     
-    
+    bannedFormats: [Format.ClassicConstructed],
     cost: 0,
     defense: 2,
     
@@ -154220,7 +154220,7 @@ If this was **fused**, it gets **go again**.`,
     typeText: "Elemental Action - Attack",
 
     
-    
+    bannedFormats: [Format.ClassicConstructed],
     cost: 0,
     defense: 2,
     
@@ -154331,7 +154331,7 @@ If this was **fused**, it gets **go again**.`,
     typeText: "Elemental Action - Attack",
 
     
-    
+    bannedFormats: [Format.ClassicConstructed],
     cost: 0,
     defense: 2,
     
@@ -178853,7 +178853,7 @@ When this attacks, create a Quicken token.`,
     typeText: "Earth Action",
 
     
-    bannedFormats: [Format.SilverAge],
+    
     cost: 0,
     defense: 2,
     
@@ -178919,7 +178919,7 @@ When this attacks, create a Quicken token.`,
     typeText: "Earth Action",
 
     
-    bannedFormats: [Format.SilverAge],
+    
     cost: 0,
     defense: 2,
     
@@ -206548,7 +206548,7 @@ The third time you play a card with **boost** each turn, put a steam counter on 
     typeText: "Ninja Weapon - Dagger (1H)",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     
     
     
@@ -241907,7 +241907,7 @@ const cards4: Card[] = [{
     typeText: "Ninja Hero - Young",
 
     
-    bannedFormats: [Format.SilverAge],
+    
     
     
     
@@ -247820,7 +247820,7 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
     typeText: "Wizard Hero - Young",
 
     
-    bannedFormats: [Format.SilverAge],
+    
     
     
     
@@ -249049,7 +249049,7 @@ At the beginning of your end phase, if you've attacked 2 or more times with weap
     typeText: "Brute Hero - Young",
 
     
-    bannedFormats: [Format.SilverAge],
+    
     createdExtras: ["might"],
     
     
@@ -260430,7 +260430,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     typeText: "Lightning Instant",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 0,
     
     
@@ -260539,7 +260539,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     typeText: "Lightning Instant",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 0,
     
     
@@ -260663,7 +260663,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     typeText: "Lightning Instant",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 0,
     
     
@@ -295096,7 +295096,7 @@ When this hits a hero, create a Toughness and a Vigor token.`,
     typeText: "Elemental Guardian Hero - Young",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     
     
     
@@ -298656,7 +298656,7 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
     typeText: "Elemental Wizard Hero - Young",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     
     
     
@@ -331338,7 +331338,7 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
     typeText: "Brute Action - Attack",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 2,
     
     
@@ -331464,7 +331464,7 @@ If this is defended by fewer than 2 non-equipment cards, it gets **go again**.`,
     typeText: "Brute Action - Attack",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 2,
     
     
@@ -331590,7 +331590,7 @@ If this is defended by fewer than 2 non-equipment cards, it gets **go again**.`,
     typeText: "Brute Action - Attack",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 2,
     
     
@@ -406308,7 +406308,7 @@ At the beginning of your action phase, destroy this.`,
     typeText: "Runeblade Defense Reaction",
 
     arcane: 1,
-    
+    bannedFormats: [Format.SilverAge],
     cost: 0,
     defense: 3,
     
@@ -406419,7 +406419,7 @@ If you've dealt arcane damage this turn, this gets +1{d}.`,
     typeText: "Runeblade Defense Reaction",
 
     arcane: 1,
-    
+    bannedFormats: [Format.SilverAge],
     cost: 0,
     defense: 2,
     
@@ -406530,7 +406530,7 @@ If you've dealt arcane damage this turn, this gets +1{d}.`,
     typeText: "Runeblade Defense Reaction",
 
     arcane: 1,
-    
+    bannedFormats: [Format.SilverAge],
     cost: 0,
     defense: 1,
     
@@ -411097,7 +411097,7 @@ If this was played from your banished zone, it gets "When this attacks, you may 
     typeText: "Generic Action - Attack",
 
     
-    bannedFormats: [Format.SilverAge],
+    
     cost: 2,
     defense: 2,
     
@@ -411176,7 +411176,7 @@ If this was played from your banished zone, it gets "When this attacks, you may 
     typeText: "Generic Action - Attack",
 
     
-    bannedFormats: [Format.SilverAge],
+    
     cost: 2,
     defense: 2,
     
@@ -411255,7 +411255,7 @@ If this was played from your banished zone, it gets "When this attacks, you may 
     typeText: "Generic Action - Attack",
 
     
-    bannedFormats: [Format.SilverAge],
+    
     cost: 2,
     defense: 2,
     
@@ -419348,7 +419348,7 @@ When this attacks, if this was **fused**, you may activate abilities of bows you
     typeText: "Wizard Action",
 
     arcane: 3,
-    
+    bannedFormats: [Format.SilverAge],
     cost: 1,
     defense: 3,
     
@@ -419474,7 +419474,7 @@ If you've played another Wizard non-attack action card this turn, you may play t
     typeText: "Wizard Action",
 
     arcane: 2,
-    
+    bannedFormats: [Format.SilverAge],
     cost: 1,
     defense: 3,
     
@@ -419600,7 +419600,7 @@ If you've played another Wizard non-attack action card this turn, you may play t
     typeText: "Wizard Action",
 
     arcane: 1,
-    
+    bannedFormats: [Format.SilverAge],
     cost: 1,
     defense: 3,
     
@@ -491008,7 +491008,7 @@ When this defends, you may pay {r}. If you do, it gets +1{d} and **blade break**
     typeText: "Shadow Runeblade Action - Attack",
 
     
-    bannedFormats: [Format.SilverAge],
+    
     cost: 2,
     defense: 3,
     
@@ -491089,7 +491089,7 @@ When this defends, you may pay {r}. If you do, it gets +1{d} and **blade break**
     typeText: "Shadow Runeblade Action - Attack",
 
     
-    bannedFormats: [Format.SilverAge],
+    
     cost: 2,
     defense: 3,
     
@@ -491170,7 +491170,7 @@ When this defends, you may pay {r}. If you do, it gets +1{d} and **blade break**
     typeText: "Shadow Runeblade Action - Attack",
 
     
-    bannedFormats: [Format.SilverAge],
+    
     cost: 2,
     defense: 3,
     

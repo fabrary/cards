@@ -602,6 +602,9 @@ exports[`Check for unintentional updates Absorb in Aether (absorb-in-aether-blue
   "artists": [
     "Daria Cherkashina",
   ],
+  "bannedFormats": [
+    "Silver Age",
+  ],
   "cardIdentifier": "absorb-in-aether-blue",
   "classes": [
     "Wizard",
@@ -723,6 +726,9 @@ exports[`Check for unintentional updates Absorb in Aether (absorb-in-aether-red)
 {
   "artists": [
     "Daria Cherkashina",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "absorb-in-aether-red",
   "classes": [
@@ -879,6 +885,9 @@ exports[`Check for unintentional updates Absorb in Aether (absorb-in-aether-yell
 {
   "artists": [
     "Daria Cherkashina",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "absorb-in-aether-yellow",
   "classes": [
@@ -44878,6 +44887,9 @@ exports[`Check for unintentional updates Beaten Trackers (beaten-trackers) vs sn
   "artists": [
     "Kimberly Pantoni",
   ],
+  "bannedFormats": [
+    "Silver Age",
+  ],
   "cardIdentifier": "beaten-trackers",
   "classes": [
     "Brute",
@@ -45395,9 +45407,6 @@ exports[`Check for unintentional updates Beckoning Haunt (beckoning-haunt) vs sn
 {
   "artists": [
     "Alifka Hammam",
-  ],
-  "bannedFormats": [
-    "Silver Age",
   ],
   "cardIdentifier": "beckoning-haunt",
   "classes": [
@@ -79170,9 +79179,6 @@ exports[`Check for unintentional updates Brand with Cinderclaw (brand-with-cinde
   "artists": [
     "BWusagi",
   ],
-  "bannedFormats": [
-    "Classic Constructed",
-  ],
   "cardIdentifier": "brand-with-cinderclaw-blue",
   "classes": [
     "Ninja",
@@ -79285,9 +79291,6 @@ exports[`Check for unintentional updates Brand with Cinderclaw (brand-with-cinde
 {
   "artists": [
     "BWusagi",
-  ],
-  "bannedFormats": [
-    "Classic Constructed",
   ],
   "cardIdentifier": "brand-with-cinderclaw-red",
   "classes": [
@@ -79417,9 +79420,6 @@ exports[`Check for unintentional updates Brand with Cinderclaw (brand-with-cinde
 {
   "artists": [
     "BWusagi",
-  ],
-  "bannedFormats": [
-    "Classic Constructed",
   ],
   "cardIdentifier": "brand-with-cinderclaw-yellow",
   "classes": [
@@ -83996,6 +83996,9 @@ exports[`Check for unintentional updates Briar (briar) vs snapshot 1`] = `
 {
   "artists": [
     "Othon Nikolaidis",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "briar",
   "classes": [
@@ -99004,6 +99007,9 @@ exports[`Check for unintentional updates Chane (chane) vs snapshot 1`] = `
 {
   "artists": [
     "Federico Musetti",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "chane",
   "classes": [
@@ -152624,9 +152630,6 @@ exports[`Check for unintentional updates Deathly Delight (deathly-delight-blue) 
   "artists": [
     "Marco González",
   ],
-  "bannedFormats": [
-    "Silver Age",
-  ],
   "cardIdentifier": "deathly-delight-blue",
   "classes": [
     "Runeblade",
@@ -152725,9 +152728,6 @@ exports[`Check for unintentional updates Deathly Delight (deathly-delight-red) v
   "artists": [
     "Marco González",
   ],
-  "bannedFormats": [
-    "Silver Age",
-  ],
   "cardIdentifier": "deathly-delight-red",
   "classes": [
     "Runeblade",
@@ -152825,9 +152825,6 @@ exports[`Check for unintentional updates Deathly Delight (deathly-delight-yellow
 {
   "artists": [
     "Marco González",
-  ],
-  "bannedFormats": [
-    "Silver Age",
   ],
   "cardIdentifier": "deathly-delight-yellow",
   "classes": [
@@ -189687,6 +189684,9 @@ exports[`Check for unintentional updates Emeritus Scolding (emeritus-scolding-bl
   "artists": [
     "Mateusz Wiśniewski",
   ],
+  "bannedFormats": [
+    "Silver Age",
+  ],
   "cardIdentifier": "emeritus-scolding-blue",
   "classes": [
     "Wizard",
@@ -189855,6 +189855,9 @@ exports[`Check for unintentional updates Emeritus Scolding (emeritus-scolding-re
   "artists": [
     "Mateusz Wiśniewski",
   ],
+  "bannedFormats": [
+    "Silver Age",
+  ],
   "cardIdentifier": "emeritus-scolding-red",
   "classes": [
     "Wizard",
@@ -190007,6 +190010,9 @@ exports[`Check for unintentional updates Emeritus Scolding (emeritus-scolding-ye
   "arcane": 3,
   "artists": [
     "Mateusz Wiśniewski",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "emeritus-scolding-yellow",
   "classes": [
@@ -198770,6 +198776,9 @@ exports[`Check for unintentional updates Entwine Lightning (entwine-lightning-bl
   "artists": [
     "Immanuela Crovius",
   ],
+  "bannedFormats": [
+    "Classic Constructed",
+  ],
   "cardIdentifier": "entwine-lightning-blue",
   "classes": [
     "NotClassed",
@@ -198911,6 +198920,9 @@ exports[`Check for unintentional updates Entwine Lightning (entwine-lightning-re
 {
   "artists": [
     "Immanuela Crovius",
+  ],
+  "bannedFormats": [
+    "Classic Constructed",
   ],
   "cardIdentifier": "entwine-lightning-red",
   "classes": [
@@ -199118,6 +199130,9 @@ exports[`Check for unintentional updates Entwine Lightning (entwine-lightning-ye
 {
   "artists": [
     "Immanuela Crovius",
+  ],
+  "bannedFormats": [
+    "Classic Constructed",
   ],
   "cardIdentifier": "entwine-lightning-yellow",
   "classes": [
@@ -232031,9 +232046,6 @@ exports[`Check for unintentional updates Flourish (flourish-blue) vs snapshot 1`
   "artists": [
     "Marco González",
   ],
-  "bannedFormats": [
-    "Silver Age",
-  ],
   "cardIdentifier": "flourish-blue",
   "classes": [
     "NotClassed",
@@ -232115,9 +232127,6 @@ exports[`Check for unintentional updates Flourish (flourish-yellow) vs snapshot 
 {
   "artists": [
     "Marco González",
-  ],
-  "bannedFormats": [
-    "Silver Age",
   ],
   "cardIdentifier": "flourish-yellow",
   "classes": [
@@ -269014,6 +269023,9 @@ exports[`Check for unintentional updates Harmonized Kodachi (harmonized-kodachi)
 {
   "artists": [
     "Leo Avero",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "harmonized-kodachi",
   "classes": [
@@ -313789,9 +313801,6 @@ exports[`Check for unintentional updates Ira, Crimson Haze (ira-crimson-haze) vs
   "artists": [
     "Le Vuong",
   ],
-  "bannedFormats": [
-    "Silver Age",
-  ],
   "cardIdentifier": "ira-crimson-haze",
   "classes": [
     "Ninja",
@@ -321579,9 +321588,6 @@ exports[`Check for unintentional updates Kano (kano) vs snapshot 1`] = `
   "artists": [
     "Alexander Mokhov",
   ],
-  "bannedFormats": [
-    "Silver Age",
-  ],
   "cardIdentifier": "kano",
   "classes": [
     "Wizard",
@@ -322981,9 +322987,6 @@ exports[`Check for unintentional updates Kayo (kayo) vs snapshot 1`] = `
 {
   "artists": [
     "Jessada Sutthi",
-  ],
-  "bannedFormats": [
-    "Silver Age",
   ],
   "cardIdentifier": "kayo",
   "classes": [
@@ -338010,6 +338013,9 @@ exports[`Check for unintentional updates Lightning Press (lightning-press-blue) 
     "Ekaterina Revazashvili",
     "Revazashvili E.",
   ],
+  "bannedFormats": [
+    "Silver Age",
+  ],
   "cardIdentifier": "lightning-press-blue",
   "classes": [
     "NotClassed",
@@ -338157,6 +338163,9 @@ exports[`Check for unintentional updates Lightning Press (lightning-press-red) v
     "Ekaterina Revazashvili",
     "Orson CaptainSass",
     "Revazashvili E.",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "lightning-press-red",
   "classes": [
@@ -338358,6 +338367,9 @@ exports[`Check for unintentional updates Lightning Press (lightning-press-yellow
 {
   "artists": [
     "Ekaterina Revazashvili",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "lightning-press-yellow",
   "classes": [
@@ -383171,6 +383183,9 @@ exports[`Check for unintentional updates Oldhim (oldhim) vs snapshot 1`] = `
   "artists": [
     "Alexander Mokhov",
   ],
+  "bannedFormats": [
+    "Silver Age",
+  ],
   "cardIdentifier": "oldhim",
   "classes": [
     "Guardian",
@@ -388276,6 +388291,9 @@ exports[`Check for unintentional updates Oscilio (oscilio) vs snapshot 1`] = `
 {
   "artists": [
     "Federico Musetti",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "oscilio",
   "classes": [
@@ -431584,6 +431602,9 @@ exports[`Check for unintentional updates Pulping (pulping-blue) vs snapshot 1`] 
   "artists": [
     "Kevin Sidharta",
   ],
+  "bannedFormats": [
+    "Silver Age",
+  ],
   "cardIdentifier": "pulping-blue",
   "classes": [
     "Brute",
@@ -431734,6 +431755,9 @@ exports[`Check for unintentional updates Pulping (pulping-red) vs snapshot 1`] =
 {
   "artists": [
     "Kevin Sidharta",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "pulping-red",
   "classes": [
@@ -431918,6 +431942,9 @@ exports[`Check for unintentional updates Pulping (pulping-yellow) vs snapshot 1`
 {
   "artists": [
     "Kevin Sidharta",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "pulping-yellow",
   "classes": [
@@ -529970,6 +529997,9 @@ exports[`Check for unintentional updates Sigil of Suffering (sigil-of-suffering-
   "artists": [
     "Brian Adriel",
   ],
+  "bannedFormats": [
+    "Silver Age",
+  ],
   "cardIdentifier": "sigil-of-suffering-blue",
   "classes": [
     "Runeblade",
@@ -530096,6 +530126,9 @@ exports[`Check for unintentional updates Sigil of Suffering (sigil-of-suffering-
   "arcane": 1,
   "artists": [
     "Brian Adriel",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "sigil-of-suffering-red",
   "classes": [
@@ -530256,6 +530289,9 @@ exports[`Check for unintentional updates Sigil of Suffering (sigil-of-suffering-
   "arcane": 1,
   "artists": [
     "Brian Adriel",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "sigil-of-suffering-yellow",
   "classes": [
@@ -536121,9 +536157,6 @@ exports[`Check for unintentional updates Sirens of Safe Harbor (sirens-of-safe-h
   "artists": [
     "Yiian Kho",
   ],
-  "bannedFormats": [
-    "Silver Age",
-  ],
   "cardIdentifier": "sirens-of-safe-harbor-blue",
   "classes": [
     "Generic",
@@ -536294,9 +536327,6 @@ exports[`Check for unintentional updates Sirens of Safe Harbor (sirens-of-safe-h
 {
   "artists": [
     "Yiian Kho",
-  ],
-  "bannedFormats": [
-    "Silver Age",
   ],
   "cardIdentifier": "sirens-of-safe-harbor-red",
   "classes": [
@@ -536512,9 +536542,6 @@ exports[`Check for unintentional updates Sirens of Safe Harbor (sirens-of-safe-h
 {
   "artists": [
     "Yiian Kho",
-  ],
-  "bannedFormats": [
-    "Silver Age",
   ],
   "cardIdentifier": "sirens-of-safe-harbor-yellow",
   "classes": [
@@ -546865,6 +546892,9 @@ exports[`Check for unintentional updates Snapback (snapback-blue) vs snapshot 1`
   "artists": [
     "Alexandra Malygina",
   ],
+  "bannedFormats": [
+    "Silver Age",
+  ],
   "cardIdentifier": "snapback-blue",
   "classes": [
     "Wizard",
@@ -547006,6 +547036,9 @@ exports[`Check for unintentional updates Snapback (snapback-red) vs snapshot 1`]
   "arcane": 3,
   "artists": [
     "Alexandra Malygina",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "snapback-red",
   "classes": [
@@ -547165,6 +547198,9 @@ exports[`Check for unintentional updates Snapback (snapback-yellow) vs snapshot 
   "arcane": 2,
   "artists": [
     "Alexandra Malygina",
+  ],
+  "bannedFormats": [
+    "Silver Age",
   ],
   "cardIdentifier": "snapback-yellow",
   "classes": [
@@ -640071,9 +640107,6 @@ exports[`Check for unintentional updates Vantom Wraith (vantom-wraith-blue) vs s
   "artists": [
     "Muhammad Fajri",
   ],
-  "bannedFormats": [
-    "Silver Age",
-  ],
   "cardIdentifier": "vantom-wraith-blue",
   "classes": [
     "Runeblade",
@@ -640169,9 +640202,6 @@ exports[`Check for unintentional updates Vantom Wraith (vantom-wraith-red) vs sn
 {
   "artists": [
     "Muhammad Fajri",
-  ],
-  "bannedFormats": [
-    "Silver Age",
   ],
   "cardIdentifier": "vantom-wraith-red",
   "classes": [
@@ -640271,9 +640301,6 @@ exports[`Check for unintentional updates Vantom Wraith (vantom-wraith-yellow) vs
 {
   "artists": [
     "Muhammad Fajri",
-  ],
-  "bannedFormats": [
-    "Silver Age",
   ],
   "cardIdentifier": "vantom-wraith-yellow",
   "classes": [
