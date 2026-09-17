@@ -65882,7 +65882,7 @@ exports[`Check for unintentional updates Blood Harvest (blood-harvest) vs snapsh
   ],
   "cost": 3,
   "defaultImage": "IAR005",
-  "defense": 3,
+  "defense": 0,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "**Instant** - Banish this from your hand: Gain {r}{r}{r}
 

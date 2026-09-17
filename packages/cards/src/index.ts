@@ -51523,7 +51523,7 @@ Target sword attack gets **go again** and "When this hits, create a Cintari Sell
     
     
     cost: 3,
-    defense: 3,
+    defense: 0,
     
     functionalText: `**Instant** - Banish this from your hand: Gain {r}{r}{r}
 

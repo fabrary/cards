@@ -2133,7 +2133,7 @@ Whenever a card is put into your soul, create a Ponder token. At the start of yo
     
     
     cost: 3,
-    defense: 3,
+    defense: 0,
     
     functionalText: `**Instant** - Banish this from your hand: Gain {r}{r}{r}
 
