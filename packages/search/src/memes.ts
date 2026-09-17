@@ -39,7 +39,7 @@ const fangsALot: Card = {
       print: `FNG000-${Treatment.FA}`,
       rarity: Rarity.Marvel,
       set: Release.Promos,
-      treatment: Treatment.FA,
+      treatments: [Treatment.FA],
     },
   ],
   name: "Fangs A Lot",

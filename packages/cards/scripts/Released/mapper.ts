@@ -120,14 +120,9 @@ const getPrintings = (cardIdentifier: string, card: ParsedCard): Printing[] => {
 
     const rarity = getRarityFromRawString(rawRarity);
 
-    let treatment: Treatment | undefined = undefined;
     const treatments: Treatment[] = [];
     for (const artVariation of artVariations) {
-      const art = Treatment[artVariation as keyof typeof Treatment];
-      if (!treatment) {
-        treatment = art;
-      }
-      treatments.push(art);
+      treatments.push(Treatment[artVariation as keyof typeof Treatment]);
     }
     treatments.sort();
 
@@ -158,7 +153,6 @@ const getPrintings = (cardIdentifier: string, card: ParsedCard): Printing[] => {
       edition,
       foiling,
       set,
-      treatment,
       treatments,
     });
 
@@ -179,7 +173,6 @@ const getPrintings = (cardIdentifier: string, card: ParsedCard): Printing[] => {
         print,
         set,
         ...(tcgplayerData ? { tcgplayer: tcgplayerData } : {}),
-        ...(treatment ? { treatment } : {}),
         ...(treatments?.length ? { treatments } : {}),
       });
     }

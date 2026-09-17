@@ -285,14 +285,9 @@ const getPrinting = (
 
   const foiling = FOILING_KEY_TO_ENUM_MAPPING[foilingString || ""];
 
-  let treatment: Treatment | undefined = undefined;
   const treatments: Treatment[] = [];
   for (const treat of treatmentStrings || []) {
-    const art = Treatment[treat as keyof typeof Treatment];
-    if (!treatment) {
-      treatment = art;
-    }
-    treatments.push(art);
+    treatments.push(Treatment[treat as keyof typeof Treatment]);
   }
   treatments.sort();
 
@@ -323,7 +318,6 @@ const getPrinting = (
     print,
     rarity,
     set,
-    ...(treatment ? { treatment } : {}),
     ...(treatments?.length ? { treatments } : {}),
     ...(tcgplayer ? { tcgplayer } : {}),
   };
