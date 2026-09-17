@@ -15,6 +15,7 @@ import {
   ReleaseEdition,
   Subtype,
   Trait,
+  Treatment,
   Type,
   getIsArenaCard,
   getIsDeckCard,
@@ -28,6 +29,9 @@ export const FOILING_KEY_TO_ENUM_MAPPING: { [key: string]: Foiling } = {
   G: Foiling.Gold,
   R: Foiling.Rainbow,
 };
+
+const getSortedTreatmentsString = (treatments?: Treatment[]): string =>
+  [...(treatments || [])].sort().join("+");
 
 export const getNumberOrUndefined = (value?: string): number | undefined => {
   if (value) {
@@ -148,11 +152,13 @@ export const addOppositeSideCardIdentifiers = (cards: PreliminaryCard[]) => {
           for (const oppositeSideCard of oppositeSideCards) {
             if (!oppositeImageFullMatch) {
               oppositeImageFullMatch = oppositeSideCard.printings.find(
-                ({ edition, identifier, foiling, treatment }) => {
+                ({ edition, identifier, foiling, treatments }) => {
                   const editionsMatch = edition === printing.edition;
                   const identifiersMatch = identifier === printing.identifier;
                   const foilingsMatch = foiling === printing.foiling;
-                  const treatmentsMatch = treatment === printing.treatment;
+                  const treatmentsMatch =
+                    getSortedTreatmentsString(treatments) ===
+                    getSortedTreatmentsString(printing.treatments);
 
                   return (
                     editionsMatch &&
@@ -167,12 +173,12 @@ export const addOppositeSideCardIdentifiers = (cards: PreliminaryCard[]) => {
             if (!oppositeImagePartialMatchBothHaveTreatment) {
               oppositeImagePartialMatchBothHaveTreatment =
                 oppositeSideCard.printings.find(
-                  ({ edition, identifier, foiling, treatment }) => {
+                  ({ edition, identifier, foiling, treatments }) => {
                     const editionsMatch = edition === printing.edition;
                     const identifiersMatch = identifier === printing.identifier;
                     const foilingsMatch = foiling === printing.foiling;
                     const bothHaveTreatments =
-                      !!treatment && !!printing.treatment;
+                      !!treatments?.length && !!printing.treatments?.length;
 
                     return (
                       editionsMatch &&
@@ -264,7 +270,6 @@ export const getPrintingIdentity = ({
   oppositeImage,
   rarity,
   set,
-  treatment,
   treatments,
 }: Printing): string =>
   [
@@ -274,8 +279,7 @@ export const getPrintingIdentity = ({
     edition || "",
     foiling || "",
     rarity || "",
-    treatment || "",
-    [...(treatments || [])].sort().join("+"),
+    getSortedTreatmentsString(treatments),
     oppositeImage || "",
     isExpansionSlot ? "expansion-slot" : "",
     [...(artists || [])].sort().join("+"),

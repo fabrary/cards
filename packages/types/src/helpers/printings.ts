@@ -33,7 +33,6 @@ export const getPrint = (printing: {
   edition?: string;
   foiling?: string;
   set: string;
-  treatment?: string;
   treatments?: string[];
 }) => {
   const identifierExtension = identifierExtensionMapping[printing.set] || "";
@@ -43,10 +42,7 @@ export const getPrint = (printing: {
   const foiling = printing.foiling ? `-${printing.foiling}` : ``;
   const treatment = printing.treatments?.length
     ? `-${printing.treatments.sort().join("-")}`
-    : printing.treatment
-      ? `-${printing.treatment}`
-      : ``;
-  // const treatment = printing.treatment ? `-${printing.treatment}` : ``;
+    : ``;
 
   const back = printing.image?.toLowerCase().includes("back") ? `-Back` : ``;
 
@@ -365,7 +361,7 @@ export const getDefaultPrinting = (
     let nonPromoImage: Printing | undefined;
 
     for (const printing of printings) {
-      const { edition, image, treatment } = printing;
+      const { edition, image, treatments } = printing;
 
       const hasImage = !!image;
       const isWhiteBorder = image?.includes("HP");
@@ -383,7 +379,7 @@ export const getDefaultPrinting = (
         if (
           !nonPromoImage &&
           edition !== ReleaseEdition.Promo &&
-          treatment !== Treatment.FA
+          !treatments?.includes(Treatment.FA)
         ) {
           nonPromoImage = printing;
         }

@@ -79,8 +79,6 @@ export interface Printing {
     productId?: string;
     url?: string;
   };
-  // TODO deprecate
-  treatment?: Treatment;
   treatments?: Treatment[];
 }
 

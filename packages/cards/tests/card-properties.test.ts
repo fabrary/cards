@@ -8,7 +8,6 @@ import {
   getPrint,
   Printing,
   Trait,
-  Treatment,
 } from "@flesh-and-blood/types";
 
 interface UpdatedComparison {
@@ -182,24 +181,6 @@ describe("No duplicate identifiers", () => {
     }
 
     expect(duplicateImages).toEqual([]);
-  });
-});
-
-describe("Treatments are a superset of treatment", () => {
-  it.each(
-    cardsToPublish.map((card) => [
-      `${card.name} (${card.cardIdentifier}) ${card.setIdentifiers.join(",")}`,
-      card,
-    ]),
-  )("%s", (_, card) => {
-    const { printings } = card as unknown as Card;
-    for (const { treatment, treatments } of printings) {
-      if (!!treatment || (!!treatments && treatments.length > 0)) {
-        expect(treatment).toBeTruthy();
-        expect(treatments?.length).toBeGreaterThan(0);
-        expect(treatments?.includes(treatment as Treatment));
-      }
-    }
   });
 });
 

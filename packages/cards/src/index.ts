@@ -141,7 +141,7 @@
             productId: "695302",
             url: "https://www.tcgplayer.com/product/695302?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -237,7 +237,7 @@
             productId: "551522",
             url: "https://www.tcgplayer.com/product/551522?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["AOJI Maiko"],
       
@@ -267,7 +267,7 @@
             productId: "555732",
             url: "https://www.tcgplayer.com/product/555732?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
@@ -365,7 +365,7 @@ If you've played another blue card this turn, **transcend**.`,
             productId: "654169",
             url: "https://www.tcgplayer.com/product/654169?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Tomasz Jedruszek"],
       foiling: Foiling.Rainbow,
@@ -380,7 +380,7 @@ If you've played another blue card this turn, **transcend**.`,
             productId: "654169",
             url: "https://www.tcgplayer.com/product/654169?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.SuperRare],
     rarity: Rarity.SuperRare,
@@ -1427,7 +1427,7 @@ Your next Shadow attack this turn gets "When this hits, it gets **go again**." *
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Wirawan Pranoto"],
       foiling: Foiling.Rainbow,
@@ -1439,7 +1439,7 @@ Your next Shadow attack this turn gets "When this hits, it gets **go again**." *
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -1727,7 +1727,7 @@ Your next Shadow attack this turn gets "When this hits, it gets **go again**." *
             productId: "666545",
             url: "https://www.tcgplayer.com/product/666545?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -1985,7 +1985,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
             productId: "654071",
             url: "https://www.tcgplayer.com/product/654071?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -2623,7 +2623,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
             productId: "502733",
             url: "https://www.tcgplayer.com/product/502733?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -2802,7 +2802,7 @@ Create a Ponder token for each hero dealt damage this way.`,
             productId: "275749",
             url: "https://www.tcgplayer.com/product/275749?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.AB],
+      treatments: [Treatment.AA,Treatment.AB],
     },{
         artists: ["Athiwut B."],
       
@@ -4551,7 +4551,7 @@ Deal 3 arcane damage to any target. If this was **fused** and deals damage to a 
             productId: "476365",
             url: "https://www.tcgplayer.com/product/476365?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
@@ -4662,7 +4662,7 @@ Deal 3 arcane damage to any target. If this was **fused** and deals damage to a 
             productId: "476379",
             url: "https://www.tcgplayer.com/product/476379?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
@@ -4788,7 +4788,7 @@ Deal 3 arcane damage to any target. If this was **fused** and deals damage to a 
             productId: "476380",
             url: "https://www.tcgplayer.com/product/476380?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
@@ -5294,7 +5294,7 @@ Deal 3 arcane damage to any target. If this was **fused** and deals damage to a 
             productId: "225827",
             url: "https://www.tcgplayer.com/product/225827?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -5420,7 +5420,7 @@ Deal 3 arcane damage to any target. If this was **fused** and deals damage to a 
             productId: "225829",
             url: "https://www.tcgplayer.com/product/225829?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -5561,7 +5561,7 @@ Deal 3 arcane damage to any target. If this was **fused** and deals damage to a 
             productId: "225831",
             url: "https://www.tcgplayer.com/product/225831?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -5657,7 +5657,7 @@ Deal 3 arcane damage to any target. If this was **fused** and deals damage to a 
             productId: "261409",
             url: "https://www.tcgplayer.com/product/261409?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -5768,7 +5768,7 @@ If this was played during an opponent's turn, until end of turn, action card eff
             productId: "226094",
             url: "https://www.tcgplayer.com/product/226094?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -6067,7 +6067,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
             productId: "614967",
             url: "https://www.tcgplayer.com/product/614967?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Ramza Ardyputra"],
       foiling: Foiling.Rainbow,
@@ -6082,7 +6082,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
             productId: "614967",
             url: "https://www.tcgplayer.com/product/614967?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -6413,7 +6413,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
             productId: "680609",
             url: "https://www.tcgplayer.com/product/680609?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Surya Prasetya"],
       foiling: Foiling.Rainbow,
@@ -6428,7 +6428,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
             productId: "680609",
             url: "https://www.tcgplayer.com/product/680609?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -7007,7 +7007,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
             productId: "537225",
             url: "https://www.tcgplayer.com/product/537225?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -7116,7 +7116,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
             productId: "537234",
             url: "https://www.tcgplayer.com/product/537234?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -7240,7 +7240,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
             productId: "537240",
             url: "https://www.tcgplayer.com/product/537240?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -7557,7 +7557,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
             productId: "618307",
             url: "https://www.tcgplayer.com/product/618307?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -7900,7 +7900,7 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
             productId: "696202",
             url: "https://www.tcgplayer.com/product/696202?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -8205,7 +8205,7 @@ When this hits a hero, banish the top card of their deck and a defending card.`,
             productId: "633678",
             url: "https://www.tcgplayer.com/product/633678?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -8301,7 +8301,7 @@ When this hits a hero, banish the top card of their deck and a defending card.`,
             productId: "453329",
             url: "https://www.tcgplayer.com/product/453329?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -8397,7 +8397,7 @@ When this hits a hero, banish the top card of their deck and a defending card.`,
             productId: "678564",
             url: "https://www.tcgplayer.com/product/678564?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Riordan Delmiro"],
       foiling: Foiling.Cold,
@@ -8412,7 +8412,7 @@ When this hits a hero, banish the top card of their deck and a defending card.`,
             productId: "678564",
             url: "https://www.tcgplayer.com/product/678564?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -9926,7 +9926,7 @@ When this hits a hero, banish the top card of their deck and a defending card.`,
             productId: "614579",
             url: "https://www.tcgplayer.com/product/614579?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -10295,7 +10295,7 @@ Banish the top card of your deck. If it has **combo**, you may play it this turn
             productId: "703887",
             url: "https://www.tcgplayer.com/product/703887?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -10374,7 +10374,7 @@ Banish the top card of your deck. If it has **combo**, you may play it this turn
             productId: "654081",
             url: "https://www.tcgplayer.com/product/654081?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -10715,7 +10715,7 @@ Your next angel attack this turn gets +1{p}.`,
             productId: "514109",
             url: "https://www.tcgplayer.com/product/514109?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -10809,7 +10809,7 @@ Your next angel attack this turn gets +1{p}.`,
             productId: "514110",
             url: "https://www.tcgplayer.com/product/514110?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -10915,7 +10915,7 @@ Your next angel attack this turn gets +1{p}.`,
             productId: "514111",
             url: "https://www.tcgplayer.com/product/514111?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -11216,7 +11216,7 @@ Your next angel attack this turn gets +1{p}.`,
             productId: "633380",
             url: "https://www.tcgplayer.com/product/633380?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Isuardi Therianto"],
       
@@ -11408,7 +11408,7 @@ Your next angel attack this turn gets +1{p}.`,
             productId: "647337",
             url: "https://www.tcgplayer.com/product/647337?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -11487,7 +11487,7 @@ Your next angel attack this turn gets +1{p}.`,
             productId: "647338",
             url: "https://www.tcgplayer.com/product/647338?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -11566,7 +11566,7 @@ Your next angel attack this turn gets +1{p}.`,
             productId: "647440",
             url: "https://www.tcgplayer.com/product/647440?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -11933,7 +11933,7 @@ When this hits a hero, banish the top card of their deck.`,
             productId: "518255",
             url: "https://www.tcgplayer.com/product/518255?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -12620,7 +12620,7 @@ The next attack action card you play this turn gets +1{p}. **Go again**
             productId: "529187",
             url: "https://www.tcgplayer.com/product/529187?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -12701,7 +12701,7 @@ The next attack action card you play this turn gets +1{p}. **Go again**
             productId: "706669",
             url: "https://www.tcgplayer.com/product/706669?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Basic],
     rarity: Rarity.Basic,
@@ -13003,7 +13003,7 @@ At the start of your turn, destroy this.`,
             productId: "614359",
             url: "https://www.tcgplayer.com/product/614359?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Isuardi Therianto"],
       
@@ -13142,7 +13142,7 @@ At the start of your turn, destroy this.`,
             productId: "614302",
             url: "https://www.tcgplayer.com/product/614302?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Dominik Mayer"],
       foiling: Foiling.Cold,
@@ -13157,7 +13157,7 @@ At the start of your turn, destroy this.`,
             productId: "614302",
             url: "https://www.tcgplayer.com/product/614302?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Dominik Mayer"],
       foiling: Foiling.Cold,
@@ -13199,7 +13199,7 @@ At the start of your turn, destroy this.`,
             productId: "615757",
             url: "https://www.tcgplayer.com/product/615757?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -13290,7 +13290,7 @@ At the start of your turn, destroy this.`,
             productId: "606681",
             url: "https://www.tcgplayer.com/product/606681?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["soyameii"],
       foiling: Foiling.Cold,
@@ -13305,7 +13305,7 @@ At the start of your turn, destroy this.`,
             productId: "606681",
             url: "https://www.tcgplayer.com/product/606681?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["soyameii"],
       
@@ -13335,7 +13335,7 @@ At the start of your turn, destroy this.`,
             productId: "617833",
             url: "https://www.tcgplayer.com/product/617833?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Basic,
@@ -13428,7 +13428,7 @@ At the beginning of your end phase, **return to the brood**.`,
             productId: "606690",
             url: "https://www.tcgplayer.com/product/606690?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Federico Musetti"],
       foiling: Foiling.Cold,
@@ -13443,7 +13443,7 @@ At the beginning of your end phase, **return to the brood**.`,
             productId: "606690",
             url: "https://www.tcgplayer.com/product/606690?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Federico Musetti"],
       
@@ -13473,7 +13473,7 @@ At the beginning of your end phase, **return to the brood**.`,
             productId: "617834",
             url: "https://www.tcgplayer.com/product/617834?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Basic,
@@ -13554,7 +13554,7 @@ At the beginning of your end phase, **return to the brood**.`,
             productId: "614358",
             url: "https://www.tcgplayer.com/product/614358?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Isuardi Therianto"],
       
@@ -13690,7 +13690,7 @@ At the beginning of your end phase, **return to the brood**.`,
             productId: "606624",
             url: "https://www.tcgplayer.com/product/606624?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Isuardi Therianto"],
       foiling: Foiling.Cold,
@@ -13705,7 +13705,7 @@ At the beginning of your end phase, **return to the brood**.`,
             productId: "606624",
             url: "https://www.tcgplayer.com/product/606624?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Isuardi Therianto"],
       foiling: Foiling.Cold,
@@ -13825,7 +13825,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
             productId: "606692",
             url: "https://www.tcgplayer.com/product/606692?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Jessada Sutthi"],
       foiling: Foiling.Cold,
@@ -13840,7 +13840,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
             productId: "606692",
             url: "https://www.tcgplayer.com/product/606692?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Jessada Sutthi"],
       
@@ -13870,7 +13870,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
             productId: "617835",
             url: "https://www.tcgplayer.com/product/617835?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Basic,
@@ -13965,7 +13965,7 @@ At the beginning of your end phase, **return to the brood**.`,
             productId: "606700",
             url: "https://www.tcgplayer.com/product/606700?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Nathaniel Himawan"],
       foiling: Foiling.Cold,
@@ -13980,7 +13980,7 @@ At the beginning of your end phase, **return to the brood**.`,
             productId: "606700",
             url: "https://www.tcgplayer.com/product/606700?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Nathaniel Himawan"],
       
@@ -14010,7 +14010,7 @@ At the beginning of your end phase, **return to the brood**.`,
             productId: "617836",
             url: "https://www.tcgplayer.com/product/617836?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Basic,
@@ -14091,7 +14091,7 @@ At the beginning of your end phase, **return to the brood**.`,
             productId: "614357",
             url: "https://www.tcgplayer.com/product/614357?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Tomasz Jedruszek"],
       
@@ -14242,7 +14242,7 @@ At the beginning of your end phase, **return to the brood**.`,
             productId: "606702",
             url: "https://www.tcgplayer.com/product/606702?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Max Kostin"],
       foiling: Foiling.Cold,
@@ -14257,7 +14257,7 @@ At the beginning of your end phase, **return to the brood**.`,
             productId: "606702",
             url: "https://www.tcgplayer.com/product/606702?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Max Kostin"],
       
@@ -14287,7 +14287,7 @@ At the beginning of your end phase, **return to the brood**.`,
             productId: "617837",
             url: "https://www.tcgplayer.com/product/617837?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Basic,
@@ -14382,7 +14382,7 @@ At the beginning of your end phase, **return to the brood**.`,
             productId: "606720",
             url: "https://www.tcgplayer.com/product/606720?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Jessada Sutthi"],
       foiling: Foiling.Cold,
@@ -14397,7 +14397,7 @@ At the beginning of your end phase, **return to the brood**.`,
             productId: "606720",
             url: "https://www.tcgplayer.com/product/606720?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Jessada Sutthi"],
       
@@ -14427,7 +14427,7 @@ At the beginning of your end phase, **return to the brood**.`,
             productId: "617838",
             url: "https://www.tcgplayer.com/product/617838?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Basic,
@@ -14523,7 +14523,7 @@ At the beginning of your end phase, **return to the brood**.`,
             productId: "606673",
             url: "https://www.tcgplayer.com/product/606673?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Isuardi Therianto"],
       foiling: Foiling.Cold,
@@ -14538,7 +14538,7 @@ At the beginning of your end phase, **return to the brood**.`,
             productId: "606673",
             url: "https://www.tcgplayer.com/product/606673?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Isuardi Therianto"],
       foiling: Foiling.Rainbow,
@@ -14888,7 +14888,7 @@ If an opponent declares an attack, they must choose this as the target of that a
             productId: "584717",
             url: "https://www.tcgplayer.com/product/584717?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -15310,7 +15310,7 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
             productId: "577213",
             url: "https://www.tcgplayer.com/product/577213?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -15408,7 +15408,7 @@ When this leaves the arena during your turn, create 3 Runechant tokens.`,
             productId: "577219",
             url: "https://www.tcgplayer.com/product/577219?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -15506,7 +15506,7 @@ When this leaves the arena during your turn, create 2 Runechant tokens.`,
             productId: "577225",
             url: "https://www.tcgplayer.com/product/577225?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -15604,7 +15604,7 @@ When this leaves the arena during your turn, create a Runechant token.`,
             productId: "261483",
             url: "https://www.tcgplayer.com/product/261483?Language=English&Printing=1st+Edition+Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Faizal Fikri"],
       foiling: Foiling.Gold,
@@ -15770,7 +15770,7 @@ When this leaves the arena during your turn, create a Runechant token.`,
             productId: "705722",
             url: "https://www.tcgplayer.com/product/705722?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -17213,7 +17213,7 @@ At the start of your action phase, destroy an aura you control.`,
             productId: "278644",
             url: "https://www.tcgplayer.com/product/278644?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -17753,7 +17753,7 @@ When this attacks, if it was **fused**, deal 1 arcane damage to target hero.`,
             productId: "577762",
             url: "https://www.tcgplayer.com/product/577762?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Sariya Asavametha"],
       foiling: Foiling.Gold,
@@ -18453,7 +18453,7 @@ When this is equipped, create a Spellbane Aegis token.
             productId: "225693",
             url: "https://www.tcgplayer.com/product/225693?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -18608,7 +18608,7 @@ When this is banished from anywhere, you may pay up to 3{h}. Create that many Ru
             productId: "706638",
             url: "https://www.tcgplayer.com/product/706638?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Max Kostin"],
       edition: ReleaseEdition.Unlimited,foiling: Foiling.Rainbow,
@@ -19233,7 +19233,7 @@ Whenever this banishes a yellow card, draw a card and gain 1{h}.`,
             productId: "624996",
             url: "https://www.tcgplayer.com/product/624996?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -19327,7 +19327,7 @@ Whenever this banishes a yellow card, draw a card and gain 1{h}.`,
             productId: "624997",
             url: "https://www.tcgplayer.com/product/624997?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -19451,7 +19451,7 @@ Whenever this banishes a yellow card, draw a card and gain 1{h}.`,
             productId: "624998",
             url: "https://www.tcgplayer.com/product/624998?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -19545,7 +19545,7 @@ Whenever this banishes a yellow card, draw a card and gain 1{h}.`,
             productId: "625000",
             url: "https://www.tcgplayer.com/product/625000?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -19851,7 +19851,7 @@ Draw 2 cards.`,
             productId: "275748",
             url: "https://www.tcgplayer.com/product/275748?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Surya Prasteya"],
       foiling: Foiling.Cold,
@@ -19866,7 +19866,7 @@ Draw 2 cards.`,
             productId: "275749",
             url: "https://www.tcgplayer.com/product/275749?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.AT],
+      treatments: [Treatment.AB,Treatment.AT],
     },{
         artists: ["Surya Prasteya"],
       
@@ -21012,7 +21012,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
             productId: "694948",
             url: "https://www.tcgplayer.com/product/694948?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -21381,7 +21381,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
             productId: "701609",
             url: "https://www.tcgplayer.com/product/701609?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -21463,7 +21463,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
             productId: "677655",
             url: "https://www.tcgplayer.com/product/677655?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -21975,7 +21975,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
             productId: "565392",
             url: "https://www.tcgplayer.com/product/565392?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Ramza Ardyputra"],
       foiling: Foiling.Cold,
@@ -21990,7 +21990,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
             productId: "565391",
             url: "https://www.tcgplayer.com/product/565391?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Asur Misoa"],
       foiling: Foiling.Cold,
@@ -22005,7 +22005,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
             productId: "565392",
             url: "https://www.tcgplayer.com/product/565392?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Asur Misoa"],
       foiling: Foiling.Rainbow,
@@ -22116,7 +22116,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
             productId: "692539",
             url: "https://www.tcgplayer.com/product/692539?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Asur Misoa"],
       foiling: Foiling.Cold,
@@ -22131,7 +22131,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
             productId: "692539",
             url: "https://www.tcgplayer.com/product/692539?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel],
     rarity: Rarity.Basic,
@@ -22210,7 +22210,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
             productId: "682852",
             url: "https://www.tcgplayer.com/product/682852?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Asur Misoa"],
       foiling: Foiling.Cold,
@@ -22225,7 +22225,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
             productId: "682852",
             url: "https://www.tcgplayer.com/product/682852?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel],
     rarity: Rarity.Basic,
@@ -22334,7 +22334,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
             productId: "561296",
             url: "https://www.tcgplayer.com/product/561296?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Asur Misoa"],
       foiling: Foiling.Cold,
@@ -23196,7 +23196,7 @@ Mechanologist attack action cards you control get "When this hits, put it on the
             productId: "502737",
             url: "https://www.tcgplayer.com/product/502737?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -23324,7 +23324,7 @@ When Avalon attacks, you may banish a card from your hero's soul. If you do, put
             productId: "634066",
             url: "https://www.tcgplayer.com/product/634066?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Daniel Jiménez"],
       foiling: Foiling.Rainbow,
@@ -23339,7 +23339,7 @@ When Avalon attacks, you may banish a card from your hero's soul. If you do, put
             productId: "634066",
             url: "https://www.tcgplayer.com/product/634066?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -23917,7 +23917,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
             productId: "677676",
             url: "https://www.tcgplayer.com/product/677676?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Max Kostin"],
       foiling: Foiling.Cold,
@@ -23932,7 +23932,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
             productId: "677676",
             url: "https://www.tcgplayer.com/product/677676?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Max Kostin"],
       
@@ -24312,7 +24312,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
             productId: "274396",
             url: "https://www.tcgplayer.com/product/274396?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -24388,7 +24388,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
             productId: "696179",
             url: "https://www.tcgplayer.com/product/696179?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Lius Lasahido"],
       foiling: Foiling.Cold,
@@ -24403,7 +24403,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
             productId: "696179",
             url: "https://www.tcgplayer.com/product/696179?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -25536,7 +25536,7 @@ Defense reactions can't be played this chain link.`,
             productId: "654528",
             url: "https://www.tcgplayer.com/product/654528?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -26398,7 +26398,7 @@ The next time an attack you control hits this turn, create a Might token.
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Promo],
     rarity: Rarity.Basic,
@@ -26466,7 +26466,7 @@ The next time an attack you control hits this turn, create a Might token.
             productId: "664634",
             url: "https://www.tcgplayer.com/product/664634?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Sebastian Giacobino"],
       foiling: Foiling.Cold,
@@ -26511,7 +26511,7 @@ The next time an attack you control hits this turn, create a Might token.
             productId: "580613",
             url: "https://www.tcgplayer.com/product/580613?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Sariya Asavametha"],
       foiling: Foiling.Rainbow,
@@ -26526,7 +26526,7 @@ The next time an attack you control hits this turn, create a Might token.
             productId: "664635",
             url: "https://www.tcgplayer.com/product/664635?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
@@ -27211,7 +27211,7 @@ If you've discarded a card with 6 or more {p} this turn, this gets +1{p}.`,
             productId: "656464",
             url: "https://www.tcgplayer.com/product/656464?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -27405,7 +27405,7 @@ When this hits a hero, put a steam counter on an item you control with **crank**
             productId: "517121",
             url: "https://www.tcgplayer.com/product/517121?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -27499,7 +27499,7 @@ When this hits a hero, put a steam counter on an item you control with **crank**
             productId: "517122",
             url: "https://www.tcgplayer.com/product/517122?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -27593,7 +27593,7 @@ When this hits a hero, put a steam counter on an item you control with **crank**
             productId: "517123",
             url: "https://www.tcgplayer.com/product/517123?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -27702,7 +27702,7 @@ When this hits a hero, put a steam counter on an item you control with **crank**
             productId: "509205",
             url: "https://www.tcgplayer.com/product/509205?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -27811,7 +27811,7 @@ When this hits a hero, put a steam counter on an item you control with **crank**
             productId: "509206",
             url: "https://www.tcgplayer.com/product/509206?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -27890,7 +27890,7 @@ When this hits a hero, put a steam counter on an item you control with **crank**
             productId: "716617",
             url: "https://www.tcgplayer.com/product/716617?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -27999,7 +27999,7 @@ When this hits a hero, put a steam counter on an item you control with **crank**
             productId: "509208",
             url: "https://www.tcgplayer.com/product/509208?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -29184,7 +29184,7 @@ When this attacks, if you've beaten chest this turn and you don't control a ches
             productId: "577715",
             url: "https://www.tcgplayer.com/product/577715?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Alexander Mokhov"],
       foiling: Foiling.Gold,
@@ -29295,7 +29295,7 @@ When this attacks, if you've beaten chest this turn and you don't control a ches
             productId: "631983",
             url: "https://www.tcgplayer.com/product/631983?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Ausonia"],
       
@@ -29325,7 +29325,7 @@ When this attacks, if you've beaten chest this turn and you don't control a ches
             productId: "636250",
             url: "https://www.tcgplayer.com/product/636250?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
@@ -29463,7 +29463,7 @@ When this attacks, if you've beaten chest this turn and you don't control a ches
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -29633,7 +29633,7 @@ When this attacks, if you've beaten chest this turn and you don't control a ches
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -29803,7 +29803,7 @@ When this attacks, if you've beaten chest this turn and you don't control a ches
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -30944,7 +30944,7 @@ When this hits a Guardian hero, destroy an aura token they control.`,
             productId: "657471",
             url: "https://www.tcgplayer.com/product/657471?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -31038,7 +31038,7 @@ When this hits a Guardian hero, destroy an aura token they control.`,
             productId: "657474",
             url: "https://www.tcgplayer.com/product/657474?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -31132,7 +31132,7 @@ When this hits a Guardian hero, destroy an aura token they control.`,
             productId: "657475",
             url: "https://www.tcgplayer.com/product/657475?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -31403,7 +31403,7 @@ When this hits a Guardian hero, destroy an aura token they control.`,
             productId: "633643",
             url: "https://www.tcgplayer.com/product/633643?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },{
         artists: ["Arkoii"],
       
@@ -31512,7 +31512,7 @@ When this hits a Guardian hero, destroy an aura token they control.`,
             productId: "633644",
             url: "https://www.tcgplayer.com/product/633644?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -31606,7 +31606,7 @@ When this hits a Guardian hero, destroy an aura token they control.`,
             productId: "633645",
             url: "https://www.tcgplayer.com/product/633645?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -31685,7 +31685,7 @@ When this hits a Guardian hero, destroy an aura token they control.`,
             productId: "629871",
             url: "https://www.tcgplayer.com/product/629871?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
@@ -31781,7 +31781,7 @@ When this hits a Guardian hero, destroy an aura token they control.`,
             productId: "545413",
             url: "https://www.tcgplayer.com/product/545413?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -33062,7 +33062,7 @@ If this was played from arsenal, your next attack this turn gets +1{p}.
             productId: "555726",
             url: "https://www.tcgplayer.com/product/555726?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -33171,7 +33171,7 @@ If this was played from arsenal, your next attack this turn gets +1{p}.
             productId: "555728",
             url: "https://www.tcgplayer.com/product/555728?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -33280,7 +33280,7 @@ If this was played from arsenal, your next attack this turn gets +1{p}.
             productId: "555731",
             url: "https://www.tcgplayer.com/product/555731?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -35356,7 +35356,7 @@ If you control a Vigor token, this gets +1{d}.
             productId: "696211",
             url: "https://www.tcgplayer.com/product/696211?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["SanSan"],
       foiling: Foiling.Rainbow,
@@ -35371,7 +35371,7 @@ If you control a Vigor token, this gets +1{d}.
             productId: "696211",
             url: "https://www.tcgplayer.com/product/696211?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -36077,7 +36077,7 @@ When this hits, your next blue attack this turn gets +1{p} and **go again**.`,
             productId: "225706",
             url: "https://www.tcgplayer.com/product/225706?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
@@ -36644,7 +36644,7 @@ You may discard an action card. If you discard an attack action card this way, s
             productId: "706697",
             url: "https://www.tcgplayer.com/product/706697?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -37064,7 +37064,7 @@ When the additional cost is paid, search your deck for a Minnowism, reveal it, p
             productId: "502743",
             url: "https://www.tcgplayer.com/product/502743?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -37375,7 +37375,7 @@ When Bellona attacks, you may banish a card from your hero's soul. If you do, pu
             productId: "696208",
             url: "https://www.tcgplayer.com/product/696208?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Arkoii"],
       foiling: Foiling.Rainbow,
@@ -37390,7 +37390,7 @@ When Bellona attacks, you may banish a card from your hero's soul. If you do, pu
             productId: "696208",
             url: "https://www.tcgplayer.com/product/696208?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -37456,7 +37456,7 @@ While this is defending, when it's put into your graveyard from the arena, turn 
             productId: "677671",
             url: "https://www.tcgplayer.com/product/677671?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Sam Yang"],
       foiling: Foiling.Cold,
@@ -37471,7 +37471,7 @@ While this is defending, when it's put into your graveyard from the arena, turn 
             productId: "677671",
             url: "https://www.tcgplayer.com/product/677671?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Sam Yang"],
       
@@ -37576,7 +37576,7 @@ While this is defending, when it's put into your graveyard from the arena, turn 
             productId: "225947",
             url: "https://www.tcgplayer.com/product/225947?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Sam Yang"],
       foiling: Foiling.Cold,
@@ -38175,7 +38175,7 @@ When this attacks a hero, you may **wager** a Gold, Might, and Vigor token with 
             productId: "536741",
             url: "https://www.tcgplayer.com/product/536741?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Simon Dominic"],
       foiling: Foiling.Rainbow,
@@ -38284,7 +38284,7 @@ When this attacks a hero, you may **wager** a Gold, Might, and Vigor token with 
             productId: "536738",
             url: "https://www.tcgplayer.com/product/536738?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Simon Dominic"],
       foiling: Foiling.Cold,
@@ -38945,7 +38945,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
             productId: "555755",
             url: "https://www.tcgplayer.com/product/555755?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -39387,7 +39387,7 @@ If you've been booed this turn, this card's base {p} is doubled.`,
             productId: "637486",
             url: "https://www.tcgplayer.com/product/637486?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -41213,7 +41213,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
             productId: "550299",
             url: "https://www.tcgplayer.com/product/550299?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -41309,7 +41309,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
             productId: "550311",
             url: "https://www.tcgplayer.com/product/550311?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -41405,7 +41405,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
             productId: "550314",
             url: "https://www.tcgplayer.com/product/550314?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -41849,7 +41849,7 @@ If this was **fused**, the attacking hero discards a card unless they pay {r}{r}
             productId: "686343",
             url: "https://www.tcgplayer.com/product/686343?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -43558,7 +43558,7 @@ If this was **fused**, the attacking hero discards a card unless they pay {r}{r}
             productId: "708478",
             url: "https://www.tcgplayer.com/product/708478?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Sariya Asavametha"],
       foiling: Foiling.Cold,
@@ -43573,7 +43573,7 @@ If this was **fused**, the attacking hero discards a card unless they pay {r}{r}
             productId: "708478",
             url: "https://www.tcgplayer.com/product/708478?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Marvel],
     rarity: Rarity.Marvel,
@@ -43851,7 +43851,7 @@ Your next weapon attack this turn gets +2{p}.`,
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -43944,7 +43944,7 @@ Your next weapon attack this turn gets +3{p}.`,
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -44037,7 +44037,7 @@ Your next weapon attack this turn gets +2{p}.`,
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -44228,7 +44228,7 @@ Your second sword attack this turn gets +1{p}.
             productId: "683211",
             url: "https://www.tcgplayer.com/product/683211?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -44465,7 +44465,7 @@ Your second sword attack this turn gets +1{p}.
             productId: "504524",
             url: "https://www.tcgplayer.com/product/504524?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Legendary,Rarity.Marvel],
     rarity: Rarity.Legendary,
@@ -44546,7 +44546,7 @@ Once each turn, you may play a card with **blood debt** from your banished zone.
             productId: "706745",
             url: "https://www.tcgplayer.com/product/706745?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Lius Lasahido"],
       foiling: Foiling.Cold,
@@ -44561,7 +44561,7 @@ Once each turn, you may play a card with **blood debt** from your banished zone.
             productId: "706745",
             url: "https://www.tcgplayer.com/product/706745?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Lius Lasahido"],
       foiling: Foiling.Rainbow,
@@ -44573,7 +44573,7 @@ Once each turn, you may play a card with **blood debt** from your banished zone.
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
@@ -44671,7 +44671,7 @@ At the beginning of each end phase, you may banish a card from your hand. Then i
             productId: "239230",
             url: "https://www.tcgplayer.com/product/239230?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Wisnu Tan"],
       foiling: Foiling.Rainbow,
@@ -44686,7 +44686,7 @@ At the beginning of each end phase, you may banish a card from your hand. Then i
             productId: "245409",
             url: "https://www.tcgplayer.com/product/245409?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
@@ -44863,7 +44863,7 @@ When Blasmophet attacks, you may banish a Shadow card from your hand. If you do,
             productId: "680621",
             url: "https://www.tcgplayer.com/product/680621?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Mariusz Gandzel"],
       foiling: Foiling.Rainbow,
@@ -44878,7 +44878,7 @@ When Blasmophet attacks, you may banish a Shadow card from your hand. If you do,
             productId: "680621",
             url: "https://www.tcgplayer.com/product/680621?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -45301,7 +45301,7 @@ When Blasmophet attacks, you may banish a Shadow card from your hand. If you do,
             productId: "278957",
             url: "https://www.tcgplayer.com/product/278957?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -45491,7 +45491,7 @@ When Blasmophet attacks, you may banish a Shadow card from your hand. If you do,
             productId: "453368",
             url: "https://www.tcgplayer.com/product/453368?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -45617,7 +45617,7 @@ When Blasmophet attacks, you may banish a Shadow card from your hand. If you do,
             productId: "225806",
             url: "https://www.tcgplayer.com/product/225806?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -45956,7 +45956,7 @@ Deal X arcane damage to target hero, where X is the total arcane damage you've d
             productId: "695303",
             url: "https://www.tcgplayer.com/product/695303?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -46054,7 +46054,7 @@ At the start of your turn, put this into your soul.`,
             productId: "457320",
             url: "https://www.tcgplayer.com/product/457320?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -46148,7 +46148,7 @@ At the start of your turn, put this into your soul.`,
             productId: "457321",
             url: "https://www.tcgplayer.com/product/457321?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -46242,7 +46242,7 @@ At the start of your turn, put this into your soul.`,
             productId: "457322",
             url: "https://www.tcgplayer.com/product/457322?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -46321,7 +46321,7 @@ At the start of your turn, put this into your soul.`,
             productId: "677645",
             url: "https://www.tcgplayer.com/product/677645?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -46464,7 +46464,7 @@ At the start of your turn, put this into your soul.`,
             productId: "225603",
             url: "https://www.tcgplayer.com/product/225603?Language=English&Printing=1st+Edition+Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Asep Ariyanto"],
       foiling: Foiling.Rainbow,
@@ -46479,7 +46479,7 @@ At the start of your turn, put this into your soul.`,
             productId: "238381",
             url: "https://www.tcgplayer.com/product/238381?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -46622,7 +46622,7 @@ At the beginning of your action phase, destroy this then reveal the top 3 cards 
             productId: "238384",
             url: "https://www.tcgplayer.com/product/238384?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -46780,7 +46780,7 @@ At the beginning of your action phase, destroy this then reveal the top 2 cards 
             productId: "229765",
             url: "https://www.tcgplayer.com/product/229765?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -49410,7 +49410,7 @@ Gain 1{h}`,
             productId: "715686",
             url: "https://www.tcgplayer.com/product/715686?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -49986,7 +49986,7 @@ Target attacking or defending attack action card gets -1{p}.`,
             productId: "646557",
             url: "https://www.tcgplayer.com/product/646557?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Federico Musetti"],
       foiling: Foiling.Rainbow,
@@ -50001,7 +50001,7 @@ Target attacking or defending attack action card gets -1{p}.`,
             productId: "650368",
             url: "https://www.tcgplayer.com/product/650368?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -51509,7 +51509,7 @@ Target sword attack gets **go again** and "When this hits, create a Cintari Sell
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -51935,7 +51935,7 @@ As an additional cost to play this, destroy any number of Copper you control. Fo
             productId: "625006",
             url: "https://www.tcgplayer.com/product/625006?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -52114,7 +52114,7 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
             productId: "614549",
             url: "https://www.tcgplayer.com/product/614549?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Jessada Sutthi"],
       foiling: Foiling.Gold,
@@ -53044,7 +53044,7 @@ If you've dealt damage to the defending hero this turn, this gets **go again**.
             productId: "495530",
             url: "https://www.tcgplayer.com/product/495530?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Basic,
@@ -53513,7 +53513,7 @@ If the discarded card has 6 or more {p}, draw 2 cards and this gets **go again**
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Maerel Hibadita"],
       foiling: Foiling.Rainbow,
@@ -53525,7 +53525,7 @@ If the discarded card has 6 or more {p}, draw 2 cards and this gets **go again**
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -53655,7 +53655,7 @@ When this hits a hero, you may banish target aura permanent they control.
             productId: "225790",
             url: "https://www.tcgplayer.com/product/225790?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -53783,7 +53783,7 @@ When you are dealt damage, destroy this.`,
             productId: "225791",
             url: "https://www.tcgplayer.com/product/225791?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -53911,7 +53911,7 @@ When you are dealt damage, destroy this.`,
             productId: "225792",
             url: "https://www.tcgplayer.com/product/225792?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -54361,7 +54361,7 @@ When you are dealt damage, destroy this.`,
             productId: "274356",
             url: "https://www.tcgplayer.com/product/274356?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Andy Aslamov"],
       
@@ -54470,7 +54470,7 @@ When you are dealt damage, destroy this.`,
             productId: "577266",
             url: "https://www.tcgplayer.com/product/577266?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -54564,7 +54564,7 @@ When you are dealt damage, destroy this.`,
             productId: "577275",
             url: "https://www.tcgplayer.com/product/577275?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -54658,7 +54658,7 @@ When you are dealt damage, destroy this.`,
             productId: "577277",
             url: "https://www.tcgplayer.com/product/577277?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -54946,7 +54946,7 @@ When this hits, deal 1 damage to any target.`,
             productId: "634071",
             url: "https://www.tcgplayer.com/product/634071?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Joseph Qiu"],
       foiling: Foiling.Rainbow,
@@ -54961,7 +54961,7 @@ When this hits, deal 1 damage to any target.`,
             productId: "634071",
             url: "https://www.tcgplayer.com/product/634071?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -55300,7 +55300,7 @@ Your next sword attack this turn gets +3{p} and "When this attacks, **wager** wi
             productId: "677614",
             url: "https://www.tcgplayer.com/product/677614?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -55455,7 +55455,7 @@ Your next sword attack this turn gets +3{p} and "When this attacks, **wager** wi
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -55549,7 +55549,7 @@ Your next sword attack this turn gets +3{p} and "When this attacks, **wager** wi
             productId: "637481",
             url: "https://www.tcgplayer.com/product/637481?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -55643,7 +55643,7 @@ Your next sword attack this turn gets +3{p} and "When this attacks, **wager** wi
             productId: "580618",
             url: "https://www.tcgplayer.com/product/580618?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -56409,7 +56409,7 @@ If you've **charged** this turn, this gets "When this hits, draw a card."`,
             productId: "634078",
             url: "https://www.tcgplayer.com/product/634078?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -56890,7 +56890,7 @@ If you've **charged** this turn, this gets "When this hits, draw a card."`,
             productId: "693414",
             url: "https://www.tcgplayer.com/product/693414?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Nikolay Moskvin"],
       foiling: Foiling.Cold,
@@ -56905,7 +56905,7 @@ If you've **charged** this turn, this gets "When this hits, draw a card."`,
             productId: "693414",
             url: "https://www.tcgplayer.com/product/693414?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
@@ -58363,7 +58363,7 @@ Whenever this banishes a card and this has banished another card with the same n
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Amirul HHF"],
       foiling: Foiling.Rainbow,
@@ -58375,7 +58375,7 @@ Whenever this banishes a card and this has banished another card with the same n
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -58810,7 +58810,7 @@ Whenever this banishes a card and this has banished another card with the same n
             productId: "537263",
             url: "https://www.tcgplayer.com/product/537263?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -58908,7 +58908,7 @@ Your next Brute attack this turn gets +3{p}. If you've **beaten chest** this tur
             productId: "537267",
             url: "https://www.tcgplayer.com/product/537267?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -59021,7 +59021,7 @@ Your next Brute attack this turn gets +2{p}. If you've **beaten chest** this tur
             productId: "537271",
             url: "https://www.tcgplayer.com/product/537271?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -59245,7 +59245,7 @@ Your next Brute attack this turn gets +1{p}. If you've **beaten chest** this tur
             productId: "241334",
             url: "https://www.tcgplayer.com/product/241334?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -59563,7 +59563,7 @@ Your next Brute attack this turn gets +1{p}. If you've **beaten chest** this tur
             productId: "677638",
             url: "https://www.tcgplayer.com/product/677638?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -60228,7 +60228,7 @@ When a Mechanologist attack action card you control hits a hero, destroy this an
             productId: "666543",
             url: "https://www.tcgplayer.com/product/666543?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -60353,7 +60353,7 @@ At the start of your turn, destroy this.`,
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -60429,7 +60429,7 @@ At the start of your turn, destroy this.`,
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -60535,7 +60535,7 @@ At the start of your turn, destroy this.`,
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -60644,7 +60644,7 @@ At the start of your turn, destroy this.`,
             productId: "500679",
             url: "https://www.tcgplayer.com/product/500679?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -61137,7 +61137,7 @@ When this is played from your banished zone, it gets +1{p}.
             productId: "225893",
             url: "https://www.tcgplayer.com/product/225893?Language=English&Printing=1st+Edition+Cold+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -62743,7 +62743,7 @@ If this was **fused**, the next attack action card you play this turn gets +1{p}
             productId: "708885",
             url: "https://www.tcgplayer.com/product/708885?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Adolfo Navarro"],
       
@@ -62965,7 +62965,7 @@ If you've charged this turn, this gets **go again** and "When this hits, create 
             productId: "647406",
             url: "https://www.tcgplayer.com/product/647406?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Adolfo Navarro"],
       
@@ -63194,7 +63194,7 @@ If you've charged this turn, this gets **go again** and "When this hits, create 
             productId: "668502",
             url: "https://www.tcgplayer.com/product/668502?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Wisnu Tan"],
       foiling: Foiling.Cold,
@@ -63209,7 +63209,7 @@ If you've charged this turn, this gets **go again** and "When this hits, create 
             productId: "668502",
             url: "https://www.tcgplayer.com/product/668502?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -63484,7 +63484,7 @@ If you've charged this turn, this gets **go again** and "When this hits, create 
             productId: "261327",
             url: "https://www.tcgplayer.com/product/261327?Language=English&Printing=1st+Edition+Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Marco Wulfr"],
       foiling: Foiling.Cold,
@@ -63589,7 +63589,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Brian Madya Narendra"],
       foiling: Foiling.Rainbow,
@@ -63601,7 +63601,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -64201,7 +64201,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
             productId: "518462",
             url: "https://www.tcgplayer.com/product/518462?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -64295,7 +64295,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
             productId: "518463",
             url: "https://www.tcgplayer.com/product/518463?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -64389,7 +64389,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
             productId: "518465",
             url: "https://www.tcgplayer.com/product/518465?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -64803,7 +64803,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
             productId: "275757",
             url: "https://www.tcgplayer.com/product/275757?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -65971,7 +65971,7 @@ Whenever you **protect** another hero, create a Might token.`,
             productId: "577789",
             url: "https://www.tcgplayer.com/product/577789?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Othon Nikolaidis"],
       edition: ReleaseEdition.Unlimited,
@@ -66144,7 +66144,7 @@ The second time you play a non-attack action card each turn, create an Embodimen
             productId: "577788",
             url: "https://www.tcgplayer.com/product/577788?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Othon Nikolaidis"],
       edition: ReleaseEdition.Unlimited,
@@ -66410,7 +66410,7 @@ At the start of each turn, destroy this unless you put a zombie from your banish
             productId: "696205",
             url: "https://www.tcgplayer.com/product/696205?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -66739,7 +66739,7 @@ At the start of each turn, destroy this unless you put a zombie from your banish
             productId: "281400",
             url: "https://www.tcgplayer.com/product/281400?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -66899,7 +66899,7 @@ Target dagger attack gets +4{p}.`,
             productId: "695301",
             url: "https://www.tcgplayer.com/product/695301?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -67901,7 +67901,7 @@ If all heroes in a **clash** would fail to win, instead choose which hero wins t
             productId: "677640",
             url: "https://www.tcgplayer.com/product/677640?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -68001,7 +68001,7 @@ If all heroes in a **clash** would fail to win, instead choose which hero wins t
             productId: "614551",
             url: "https://www.tcgplayer.com/product/614551?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -68736,7 +68736,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
             productId: "654196",
             url: "https://www.tcgplayer.com/product/654196?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Faizal Fikri"],
       foiling: Foiling.Rainbow,
@@ -68751,7 +68751,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
             productId: "654196",
             url: "https://www.tcgplayer.com/product/654196?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -69432,7 +69432,7 @@ If you control a Hyper Driver, this gets **overpower**.`,
             productId: "657476",
             url: "https://www.tcgplayer.com/product/657476?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -69760,7 +69760,7 @@ If there are 10 or more defense reaction cards in their graveyard, draw a card.
             productId: "255975",
             url: "https://www.tcgplayer.com/product/255975?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -69884,7 +69884,7 @@ If there are 10 or more defense reaction cards in their graveyard, draw a card.
             productId: "255976",
             url: "https://www.tcgplayer.com/product/255976?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -70023,7 +70023,7 @@ If there are 10 or more defense reaction cards in their graveyard, draw a card.
             productId: "255977",
             url: "https://www.tcgplayer.com/product/255977?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -72656,7 +72656,7 @@ You may put an arrow from your hand face-up into your arsenal.
             productId: "577769",
             url: "https://www.tcgplayer.com/product/577769?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Sebastian Giacobino"],
       
@@ -72671,7 +72671,7 @@ You may put an arrow from your hand face-up into your arsenal.
             productId: "678572",
             url: "https://www.tcgplayer.com/product/678572?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Sebastian Giacobino"],
       foiling: Foiling.Cold,
@@ -72686,7 +72686,7 @@ You may put an arrow from your hand face-up into your arsenal.
             productId: "678572",
             url: "https://www.tcgplayer.com/product/678572?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -72782,7 +72782,7 @@ You may put an arrow from your hand face-up into your arsenal.
             productId: "616364",
             url: "https://www.tcgplayer.com/product/616364?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Thomas Ressuge"],
       foiling: Foiling.Rainbow,
@@ -72797,7 +72797,7 @@ You may put an arrow from your hand face-up into your arsenal.
             productId: "616364",
             url: "https://www.tcgplayer.com/product/616364?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -73787,7 +73787,7 @@ You may put an arrow from your hand face-up into your arsenal.
             productId: "637610",
             url: "https://www.tcgplayer.com/product/637610?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -73951,7 +73951,7 @@ You may put an arrow from your hand face-up into your arsenal.
             productId: "694944",
             url: "https://www.tcgplayer.com/product/694944?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -75344,7 +75344,7 @@ If you've been cheered this turn, this card's attacks get **go again**.`,
             productId: "454376",
             url: "https://www.tcgplayer.com/product/454376?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -75914,7 +75914,7 @@ If you've been cheered this turn, this card's attacks get **go again**.`,
             productId: "678565",
             url: "https://www.tcgplayer.com/product/678565?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Cold,
@@ -75929,7 +75929,7 @@ If you've been cheered this turn, this card's attacks get **go again**.`,
             productId: "678565",
             url: "https://www.tcgplayer.com/product/678565?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -76748,7 +76748,7 @@ When this hits a Brute hero, they discard a card. If it has 6 or more {p}, you l
             productId: "677680",
             url: "https://www.tcgplayer.com/product/677680?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Federico Musetti"],
       foiling: Foiling.Cold,
@@ -76763,7 +76763,7 @@ When this hits a Brute hero, they discard a card. If it has 6 or more {p}, you l
             productId: "677680",
             url: "https://www.tcgplayer.com/product/677680?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Federico Musetti"],
       edition: ReleaseEdition.Unlimited,
@@ -77104,7 +77104,7 @@ When this hits a Brute hero, they discard a card. If it has 6 or more {p}, you l
             productId: "677653",
             url: "https://www.tcgplayer.com/product/677653?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -77232,7 +77232,7 @@ Cards in opponents' arsenals are **frozen** while they control a Frostbite or a 
             productId: "247879",
             url: "https://www.tcgplayer.com/product/247879?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Cold,
@@ -77315,7 +77315,7 @@ Cards and abilities cost opponents an additional {r} to play or activate.
             productId: "561286",
             url: "https://www.tcgplayer.com/product/561286?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Tomasz Jedruszek"],
       foiling: Foiling.Rainbow,
@@ -77330,7 +77330,7 @@ Cards and abilities cost opponents an additional {r} to play or activate.
             productId: "561286",
             url: "https://www.tcgplayer.com/product/561286?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Tomasz Jedruszek"],
       foiling: Foiling.Cold,
@@ -77345,7 +77345,7 @@ Cards and abilities cost opponents an additional {r} to play or activate.
             productId: "578092",
             url: "https://www.tcgplayer.com/product/578092?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -77637,7 +77637,7 @@ At the start of each hero's turn, they lose {h} equal to the number of Frostbite
             productId: "715692",
             url: "https://www.tcgplayer.com/product/715692?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -77788,7 +77788,7 @@ Heroes can't search decks, reveal cards, or draw cards from effects.
             productId: "561282",
             url: "https://www.tcgplayer.com/product/561282?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Milivoj Ćeran"],
       foiling: Foiling.Rainbow,
@@ -77803,7 +77803,7 @@ Heroes can't search decks, reveal cards, or draw cards from effects.
             productId: "561282",
             url: "https://www.tcgplayer.com/product/561282?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Milivoj Ćeran"],
       foiling: Foiling.Cold,
@@ -77818,7 +77818,7 @@ Heroes can't search decks, reveal cards, or draw cards from effects.
             productId: "578091",
             url: "https://www.tcgplayer.com/product/578091?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -77901,7 +77901,7 @@ When this enters the arena and at the beginning of your action phase, **amp 3**.
             productId: "677650",
             url: "https://www.tcgplayer.com/product/677650?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -77984,7 +77984,7 @@ When this enters the arena and at the beginning of your action phase, create 2 M
             productId: "654079",
             url: "https://www.tcgplayer.com/product/654079?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -78453,7 +78453,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gets **go again
             productId: "633664",
             url: "https://www.tcgplayer.com/product/633664?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -78551,7 +78551,7 @@ You may put a gold counter on Treasure Island.
             productId: "633665",
             url: "https://www.tcgplayer.com/product/633665?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -78649,7 +78649,7 @@ You may put a gold counter on Treasure Island.
             productId: "633666",
             url: "https://www.tcgplayer.com/product/633666?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -78747,7 +78747,7 @@ You may put a gold counter on Treasure Island.
             productId: "637484",
             url: "https://www.tcgplayer.com/product/637484?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -78990,7 +78990,7 @@ Deal 2 damage to target hero unless they discard a card.`,
             productId: "661913",
             url: "https://www.tcgplayer.com/product/661913?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Grégory Nunkovics"],
       foiling: Foiling.Rainbow,
@@ -79005,7 +79005,7 @@ Deal 2 damage to target hero unless they discard a card.`,
             productId: "655921",
             url: "https://www.tcgplayer.com/product/655921?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.SuperRare],
     rarity: Rarity.SuperRare,
@@ -79087,7 +79087,7 @@ Deal 2 damage to target hero unless they discard a card.`,
             productId: "677643",
             url: "https://www.tcgplayer.com/product/677643?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -79473,7 +79473,7 @@ The next time you would lose a wager this turn, instead you may discard a card. 
             productId: "666544",
             url: "https://www.tcgplayer.com/product/666544?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -79568,7 +79568,7 @@ At the start of your turn, destroy this.`,
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -80424,7 +80424,7 @@ When this attacks, if this was **fused**, whenever an attack deals damage to a h
             productId: "584680",
             url: "https://www.tcgplayer.com/product/584680?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Bastien Jez"],
       foiling: Foiling.Rainbow,
@@ -81418,7 +81418,7 @@ Create 3 Runechant tokens.`,
             productId: "631888",
             url: "https://www.tcgplayer.com/product/631888?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Simon Dominic"],
       foiling: Foiling.Rainbow,
@@ -81433,7 +81433,7 @@ Create 3 Runechant tokens.`,
             productId: "636251",
             url: "https://www.tcgplayer.com/product/636251?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
@@ -81753,7 +81753,7 @@ Create 3 Runechant tokens.`,
             productId: "636351",
             url: "https://www.tcgplayer.com/product/636351?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Lius Lasahido"],
       foiling: Foiling.Rainbow,
@@ -81768,7 +81768,7 @@ Create 3 Runechant tokens.`,
             productId: "634063",
             url: "https://www.tcgplayer.com/product/634063?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -81923,7 +81923,7 @@ Create 3 Runechant tokens.`,
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -82078,7 +82078,7 @@ The next card you play this turn with an arcane damage effect, instead deals tha
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -82233,7 +82233,7 @@ The next card you play this turn with an arcane damage effect, instead deals tha
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -82613,7 +82613,7 @@ The next card you play this turn with an arcane damage effect, instead deals tha
             productId: "606729",
             url: "https://www.tcgplayer.com/product/606729?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Livia Prima"],
       foiling: Foiling.Cold,
@@ -82628,7 +82628,7 @@ The next card you play this turn with an arcane damage effect, instead deals tha
             productId: "606729",
             url: "https://www.tcgplayer.com/product/606729?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Livia Prima"],
       foiling: Foiling.Rainbow,
@@ -82724,7 +82724,7 @@ The next card you play this turn with an arcane damage effect, instead deals tha
             productId: "606727",
             url: "https://www.tcgplayer.com/product/606727?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Livia Prima"],
       foiling: Foiling.Cold,
@@ -82739,7 +82739,7 @@ The next card you play this turn with an arcane damage effect, instead deals tha
             productId: "606727",
             url: "https://www.tcgplayer.com/product/606727?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Livia Prima"],
       foiling: Foiling.Cold,
@@ -83138,7 +83138,7 @@ When this is defended by 1 or more attack action cards, this gets +1{p} until en
             productId: "537813",
             url: "https://www.tcgplayer.com/product/537813?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Jessada Sutthi"],
       foiling: Foiling.Rainbow,
@@ -83153,7 +83153,7 @@ When this is defended by 1 or more attack action cards, this gets +1{p} until en
             productId: "538441",
             url: "https://www.tcgplayer.com/product/538441?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
@@ -83246,7 +83246,7 @@ Cintari Sellsword can only attack if you've attacked with a weapon this turn.`,
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Cold,
@@ -83258,7 +83258,7 @@ Cintari Sellsword can only attack if you've attacked with a weapon this turn.`,
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
@@ -83354,7 +83354,7 @@ Cintari Sellsword can only attack if you've attacked with a weapon this turn.`,
             productId: "692534",
             url: "https://www.tcgplayer.com/product/692534?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -86170,7 +86170,7 @@ Destroy target blue aura.`,
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Nailsen Ivanderlie"],
       foiling: Foiling.Rainbow,
@@ -86182,7 +86182,7 @@ Destroy target blue aura.`,
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -86469,7 +86469,7 @@ You may destroy a Bloodrot Pox token you control. If you do gain 1{h}.
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Alief Rusdiatama"],
       foiling: Foiling.Rainbow,
@@ -86481,7 +86481,7 @@ You may destroy a Bloodrot Pox token you control. If you do gain 1{h}.
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -87727,7 +87727,7 @@ You may destroy a Bloodrot Pox token you control. If you do gain 1{h}.
             productId: "634058",
             url: "https://www.tcgplayer.com/product/634058?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Nikko Wahyudi"],
       foiling: Foiling.Rainbow,
@@ -87742,7 +87742,7 @@ You may destroy a Bloodrot Pox token you control. If you do gain 1{h}.
             productId: "634058",
             url: "https://www.tcgplayer.com/product/634058?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -88613,7 +88613,7 @@ When this is destroyed, you may put an Illusionist aura with cost 0 from your ha
             productId: "488393",
             url: "https://www.tcgplayer.com/product/488393?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -88681,7 +88681,7 @@ Create a Ponder token under your control and a Bloodrot Pox token under each opp
             productId: "633369",
             url: "https://www.tcgplayer.com/product/633369?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Rainbow,
@@ -88696,7 +88696,7 @@ Create a Ponder token under your control and a Bloodrot Pox token under each opp
             productId: "633369",
             url: "https://www.tcgplayer.com/product/633369?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Carlos Cruchaga"],
       
@@ -88741,7 +88741,7 @@ Create a Ponder token under your control and a Bloodrot Pox token under each opp
             productId: "488398",
             url: "https://www.tcgplayer.com/product/488398?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Legendary,Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -88839,7 +88839,7 @@ Create a Ponder token under your control and a Frailty token under each opponent
             productId: "488399",
             url: "https://www.tcgplayer.com/product/488399?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -89950,7 +89950,7 @@ You may {t} a cog you control. If you do, put this on the bottom of its owner's 
             productId: "716615",
             url: "https://www.tcgplayer.com/product/716615?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -90031,7 +90031,7 @@ You may {t} a cog you control. If you do, put this on the bottom of its owner's 
             productId: "633613",
             url: "https://www.tcgplayer.com/product/633613?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Ramza Ardyputra"],
       foiling: Foiling.Gold,
@@ -90046,7 +90046,7 @@ You may {t} a cog you control. If you do, put this on the bottom of its owner's 
             productId: "662249",
             url: "https://www.tcgplayer.com/product/662249?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
@@ -91144,7 +91144,7 @@ When this defends an attack with **go again**, the attacking hero discards their
             productId: "683212",
             url: "https://www.tcgplayer.com/product/683212?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -91362,7 +91362,7 @@ When this defends an attack with **go again**, the attacking hero discards their
             productId: "226010",
             url: "https://www.tcgplayer.com/product/226010?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -91488,7 +91488,7 @@ When this defends an attack with **go again**, the attacking hero discards their
             productId: "226011",
             url: "https://www.tcgplayer.com/product/226011?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -91614,7 +91614,7 @@ When this defends an attack with **go again**, the attacking hero discards their
             productId: "226012",
             url: "https://www.tcgplayer.com/product/226012?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -91836,7 +91836,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
             productId: "225846",
             url: "https://www.tcgplayer.com/product/225846?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -91977,7 +91977,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
             productId: "225847",
             url: "https://www.tcgplayer.com/product/225847?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -92133,7 +92133,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
             productId: "225849",
             url: "https://www.tcgplayer.com/product/225849?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -92310,7 +92310,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
             productId: "657469",
             url: "https://www.tcgplayer.com/product/657469?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -92406,7 +92406,7 @@ If you've been cheered this turn, this gets +1{p}.`,
             productId: "657470",
             url: "https://www.tcgplayer.com/product/657470?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -92517,7 +92517,7 @@ If you've been cheered this turn, this gets +1{p}.`,
             productId: "657473",
             url: "https://www.tcgplayer.com/product/657473?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -92941,7 +92941,7 @@ Deal 1 arcane damage to any target.`,
             productId: "675375",
             url: "https://www.tcgplayer.com/product/675375?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Federico Musetti"],
       
@@ -92956,7 +92956,7 @@ Deal 1 arcane damage to any target.`,
             productId: "612718",
             url: "https://www.tcgplayer.com/product/612718?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Federico Musetti"],
       foiling: Foiling.Rainbow,
@@ -92971,7 +92971,7 @@ Deal 1 arcane damage to any target.`,
             productId: "614533",
             url: "https://www.tcgplayer.com/product/614533?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },{
         artists: ["Othon Nikolaidis"],
       foiling: Foiling.Cold,
@@ -92986,7 +92986,7 @@ Deal 1 arcane damage to any target.`,
             productId: "454212",
             url: "https://www.tcgplayer.com/product/454212?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },{
         artists: ["Fajareka Setiawan"],
       
@@ -93076,7 +93076,7 @@ Deal 1 arcane damage to any target.`,
             productId: "584721",
             url: "https://www.tcgplayer.com/product/584721?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Jessada Sutthi"],
       foiling: Foiling.Rainbow,
@@ -93091,7 +93091,7 @@ Deal 1 arcane damage to any target.`,
             productId: "675355",
             url: "https://www.tcgplayer.com/product/675355?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Fabled,Rarity.Legendary,Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -94219,7 +94219,7 @@ The first card with watery grave you play from your graveyard each turn gets **g
             productId: "690706",
             url: "https://www.tcgplayer.com/product/690706?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -95732,7 +95732,7 @@ You may destroy an aura you control. If you do, each opponent destroys an aura p
             productId: "665039",
             url: "https://www.tcgplayer.com/product/665039?Language=English&Printing=Normal"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Basic,
@@ -95826,7 +95826,7 @@ You may destroy an aura you control. If you do, each opponent destroys an aura p
             productId: "696216",
             url: "https://www.tcgplayer.com/product/696216?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Pavel Rtishchev (Klaher)"],
       foiling: Foiling.Rainbow,
@@ -95841,7 +95841,7 @@ You may destroy an aura you control. If you do, each opponent destroys an aura p
             productId: "696216",
             url: "https://www.tcgplayer.com/product/696216?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -96174,7 +96174,7 @@ You may destroy an aura you control. If you do, each opponent destroys an aura p
             productId: "678630",
             url: "https://www.tcgplayer.com/product/678630?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Esty Swandana"],
       foiling: Foiling.Rainbow,
@@ -96189,7 +96189,7 @@ You may destroy an aura you control. If you do, each opponent destroys an aura p
             productId: "678630",
             url: "https://www.tcgplayer.com/product/678630?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -96441,7 +96441,7 @@ You may destroy an aura you control. If you do, each opponent destroys an aura p
             productId: "633610",
             url: "https://www.tcgplayer.com/product/633610?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },{
         artists: ["Max Kostin"],
       foiling: Foiling.Rainbow,
@@ -96456,7 +96456,7 @@ You may destroy an aura you control. If you do, each opponent destroys an aura p
             productId: "637490",
             url: "https://www.tcgplayer.com/product/637490?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -96652,7 +96652,7 @@ Deal 1 arcane damage to any target.`,
             productId: "696197",
             url: "https://www.tcgplayer.com/product/696197?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Olga Tereshenko"],
       foiling: Foiling.Rainbow,
@@ -96667,7 +96667,7 @@ Deal 1 arcane damage to any target.`,
             productId: "696197",
             url: "https://www.tcgplayer.com/product/696197?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -96763,7 +96763,7 @@ Deal 1 arcane damage to any target.`,
             productId: "696198",
             url: "https://www.tcgplayer.com/product/696198?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Rainbow,
@@ -96778,7 +96778,7 @@ Deal 1 arcane damage to any target.`,
             productId: "696198",
             url: "https://www.tcgplayer.com/product/696198?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -96953,7 +96953,7 @@ Deal 1 arcane damage to any target.`,
             productId: "696199",
             url: "https://www.tcgplayer.com/product/696199?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Muhammad Fajri"],
       foiling: Foiling.Rainbow,
@@ -96968,7 +96968,7 @@ Deal 1 arcane damage to any target.`,
             productId: "696199",
             url: "https://www.tcgplayer.com/product/696199?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -97128,7 +97128,7 @@ Deal 1 arcane damage to any target.`,
             productId: "656464",
             url: "https://www.tcgplayer.com/product/656464?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -97224,7 +97224,7 @@ Deal 1 arcane damage to any target.`,
             productId: "453256",
             url: "https://www.tcgplayer.com/product/453256?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Isuardi Therianto"],
       
@@ -97239,7 +97239,7 @@ Deal 1 arcane damage to any target.`,
             productId: "680618",
             url: "https://www.tcgplayer.com/product/680618?Language=English&Printing=Normal"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -97677,7 +97677,7 @@ Deal 1 arcane damage to any target.`,
             productId: "714490",
             url: "https://www.tcgplayer.com/product/714490?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Satriasa"],
       foiling: Foiling.Rainbow,
@@ -97692,7 +97692,7 @@ Deal 1 arcane damage to any target.`,
             productId: "714490",
             url: "https://www.tcgplayer.com/product/714490?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -97868,7 +97868,7 @@ Deal 1 arcane damage to any target.`,
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["SanSan"],
       foiling: Foiling.Rainbow,
@@ -97880,7 +97880,7 @@ Deal 1 arcane damage to any target.`,
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -97975,7 +97975,7 @@ Deal 1 arcane damage to any target.`,
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Kevin Sidharta"],
       foiling: Foiling.Rainbow,
@@ -97987,7 +97987,7 @@ Deal 1 arcane damage to any target.`,
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -98598,7 +98598,7 @@ At the start of your turn, destroy this.`,
             productId: "225589",
             url: "https://www.tcgplayer.com/product/225589?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -99660,7 +99660,7 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Yosi Saputra"],
       foiling: Foiling.Rainbow,
@@ -99672,7 +99672,7 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -100422,7 +100422,7 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -100520,7 +100520,7 @@ When this hits a hero, banish all cards in their arsenal.
             productId: "707170",
             url: "https://www.tcgplayer.com/product/707170?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Sebastian Giacobino"],
       foiling: Foiling.Cold,
@@ -100532,7 +100532,7 @@ When this hits a hero, banish all cards in their arsenal.
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Sebastian Giacobino"],
       foiling: Foiling.Cold,
@@ -100544,7 +100544,7 @@ When this hits a hero, banish all cards in their arsenal.
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Sebastian Giacobino"],
       foiling: Foiling.Cold,
@@ -100556,7 +100556,7 @@ When this hits a hero, banish all cards in their arsenal.
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Sebastian Giacobino"],
       foiling: Foiling.Cold,
@@ -100568,7 +100568,7 @@ When this hits a hero, banish all cards in their arsenal.
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Sebastian Giacobino"],
       foiling: Foiling.Cold,
@@ -100580,7 +100580,7 @@ When this hits a hero, banish all cards in their arsenal.
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Sebastian Giacobino"],
       foiling: Foiling.Cold,
@@ -100592,7 +100592,7 @@ When this hits a hero, banish all cards in their arsenal.
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Sebastian Giacobino"],
       foiling: Foiling.Cold,
@@ -100604,7 +100604,7 @@ When this hits a hero, banish all cards in their arsenal.
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Sebastian Giacobino"],
       foiling: Foiling.Cold,
@@ -100616,7 +100616,7 @@ When this hits a hero, banish all cards in their arsenal.
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Sebastian Giacobino"],
       foiling: Foiling.Cold,
@@ -100628,7 +100628,7 @@ When this hits a hero, banish all cards in their arsenal.
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Sebastian Giacobino"],
       foiling: Foiling.Cold,
@@ -100640,7 +100640,7 @@ When this hits a hero, banish all cards in their arsenal.
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Ramza Ardyputra"],
       foiling: Foiling.Rainbow,
@@ -100655,7 +100655,7 @@ When this hits a hero, banish all cards in their arsenal.
             productId: "707341",
             url: "https://www.tcgplayer.com/product/707341?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Jefrey Yonathan"],
       foiling: Foiling.Rainbow,
@@ -100670,7 +100670,7 @@ When this hits a hero, banish all cards in their arsenal.
             productId: "707342",
             url: "https://www.tcgplayer.com/product/707342?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Jefrey Yonathan"],
       foiling: Foiling.Rainbow,
@@ -100685,7 +100685,7 @@ When this hits a hero, banish all cards in their arsenal.
             productId: "707343",
             url: "https://www.tcgplayer.com/product/707343?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Promo],
     rarity: Rarity.Basic,
@@ -100971,7 +100971,7 @@ If 3 or more Chi were pitched to play this, Cosmic Awakening's {p} is 20.`,
             productId: "705057",
             url: "https://www.tcgplayer.com/product/705057?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -101692,7 +101692,7 @@ Your aura attacks with one or more +1{p} counters get **go again**.`,
             productId: "604715",
             url: "https://www.tcgplayer.com/product/604715?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -101786,7 +101786,7 @@ Your aura attacks with one or more +1{p} counters get **go again**.`,
             productId: "604716",
             url: "https://www.tcgplayer.com/product/604716?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -101880,7 +101880,7 @@ Your aura attacks with one or more +1{p} counters get **go again**.`,
             productId: "604735",
             url: "https://www.tcgplayer.com/product/604735?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -102253,7 +102253,7 @@ When this hits, you may search your deck for a Darkest Hour, banish it, then shu
             productId: "526130",
             url: "https://www.tcgplayer.com/product/526130?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
@@ -102928,7 +102928,7 @@ When this defends an attack with {p} greater than its base, remove a +1{p} count
             productId: "716613",
             url: "https://www.tcgplayer.com/product/716613?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Sam Yang"],
       
@@ -103519,7 +103519,7 @@ When this defends an attack with {p} greater than its base, remove a +1{p} count
             productId: "694925",
             url: "https://www.tcgplayer.com/product/694925?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -105240,7 +105240,7 @@ When this hits a hero, destroy the top card of their deck.`,
             productId: "693440",
             url: "https://www.tcgplayer.com/product/693440?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -105703,7 +105703,7 @@ When this attacks, if it scrapped a card, this gets **go again**. If a cog was s
             productId: "696201",
             url: "https://www.tcgplayer.com/product/696201?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Henrique Lindner"],
       foiling: Foiling.Rainbow,
@@ -105718,7 +105718,7 @@ When this attacks, if it scrapped a card, this gets **go again**. If a cog was s
             productId: "696201",
             url: "https://www.tcgplayer.com/product/696201?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -105799,7 +105799,7 @@ When this attacks, the next attack with stealth you play this combat chain gets 
             productId: "653406",
             url: "https://www.tcgplayer.com/product/653406?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -106341,7 +106341,7 @@ The next time you attack with a sword this turn, draw a card, then put a card fr
             productId: "274746",
             url: "https://www.tcgplayer.com/product/274746?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -106849,7 +106849,7 @@ The next time you attack with a sword this turn, draw a card, then put a card fr
             productId: "453187",
             url: "https://www.tcgplayer.com/product/453187?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Basic,Rarity.Common,Rarity.Marvel,Rarity.Token],
     rarity: Rarity.Basic,
@@ -107263,7 +107263,7 @@ Whenever an arrow is put face-up into your arsenal from your deck, you may pay {
             productId: "657465",
             url: "https://www.tcgplayer.com/product/657465?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -107525,7 +107525,7 @@ Whenever an arrow is put face-up into your arsenal from your deck, you may pay {
             productId: "453301",
             url: "https://www.tcgplayer.com/product/453301?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },{
         artists: ["Andy Aslamov"],
       foiling: Foiling.Gold,
@@ -107555,7 +107555,7 @@ Whenever an arrow is put face-up into your arsenal from your deck, you may pay {
             productId: "680607",
             url: "https://www.tcgplayer.com/product/680607?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Legendary,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Legendary,
@@ -107783,7 +107783,7 @@ When this is equipped, create a Gold token.`,
             productId: "675371",
             url: "https://www.tcgplayer.com/product/675371?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Andy Aslamov"],
       
@@ -107843,7 +107843,7 @@ When this is equipped, create a Gold token.`,
             productId: "278955",
             url: "https://www.tcgplayer.com/product/278955?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Dominik Mayer"],
       foiling: Foiling.Rainbow,
@@ -107858,7 +107858,7 @@ When this is equipped, create a Gold token.`,
             productId: "675351",
             url: "https://www.tcgplayer.com/product/675351?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.AB,Treatment.EA],
     },{
         artists: ["Andy Aslamov"],
       
@@ -108328,7 +108328,7 @@ When this is equipped, create a Gold token.`,
             productId: "654191",
             url: "https://www.tcgplayer.com/product/654191?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Orson CaptainSass"],
       foiling: Foiling.Rainbow,
@@ -108343,7 +108343,7 @@ When this is equipped, create a Gold token.`,
             productId: "654191",
             url: "https://www.tcgplayer.com/product/654191?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -109338,7 +109338,7 @@ At the beginning of your action phase, destroy this, then your next attack this 
             productId: "714334",
             url: "https://www.tcgplayer.com/product/714334?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -109605,7 +109605,7 @@ Each hero banishes a card from their hand.
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["YDZ"],
       foiling: Foiling.Rainbow,
@@ -109617,7 +109617,7 @@ Each hero banishes a card from their hand.
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -110651,7 +110651,7 @@ Your next dagger attack this turn gets +2{p}.
             productId: "690686",
             url: "https://www.tcgplayer.com/product/690686?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -111344,7 +111344,7 @@ If it has 3 or more +1{p} counters, its next attack this turn gets **dominate**.
             productId: "678566",
             url: "https://www.tcgplayer.com/product/678566?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Narendra B Adi"],
       foiling: Foiling.Cold,
@@ -111359,7 +111359,7 @@ If it has 3 or more +1{p} counters, its next attack this turn gets **dominate**.
             productId: "678566",
             url: "https://www.tcgplayer.com/product/678566?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -111455,7 +111455,7 @@ When this hits a hero, you may destroy an aura they control.`,
             productId: "616360",
             url: "https://www.tcgplayer.com/product/616360?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Faizal Fikri"],
       foiling: Foiling.Rainbow,
@@ -111470,7 +111470,7 @@ When this hits a hero, you may destroy an aura they control.`,
             productId: "616360",
             url: "https://www.tcgplayer.com/product/616360?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -111692,7 +111692,7 @@ When this hits a hero, you may destroy an aura they control.`,
             productId: "617937",
             url: "https://www.tcgplayer.com/product/617937?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Narendra B Adi"],
       
@@ -111734,7 +111734,7 @@ When this hits a hero, you may destroy an aura they control.`,
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Narendra B Adi"],
       foiling: Foiling.Rainbow,
@@ -111749,7 +111749,7 @@ When this hits a hero, you may destroy an aura they control.`,
             productId: "481568",
             url: "https://www.tcgplayer.com/product/481568?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -111815,7 +111815,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
             productId: "617943",
             url: "https://www.tcgplayer.com/product/617943?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Narendra B Adi"],
       
@@ -111857,7 +111857,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Narendra B Adi"],
       foiling: Foiling.Rainbow,
@@ -111872,7 +111872,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
             productId: "481569",
             url: "https://www.tcgplayer.com/product/481569?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -111938,7 +111938,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
             productId: "617952",
             url: "https://www.tcgplayer.com/product/617952?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Narendra B Adi"],
       
@@ -111980,7 +111980,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Narendra B Adi"],
       foiling: Foiling.Rainbow,
@@ -111995,7 +111995,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
             productId: "481570",
             url: "https://www.tcgplayer.com/product/481570?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -112294,7 +112294,7 @@ When this hits a hero, **steal** a Gold token they control.`,
             productId: "632090",
             url: "https://www.tcgplayer.com/product/632090?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Narendra B Adi"],
       foiling: Foiling.Rainbow,
@@ -112309,7 +112309,7 @@ When this hits a hero, **steal** a Gold token they control.`,
             productId: "636252",
             url: "https://www.tcgplayer.com/product/636252?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
@@ -114073,7 +114073,7 @@ Your next Shadow attack this turn gets +1{p}. **Go again**
             productId: "677674",
             url: "https://www.tcgplayer.com/product/677674?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Sam Yang"],
       foiling: Foiling.Cold,
@@ -114088,7 +114088,7 @@ Your next Shadow attack this turn gets +1{p}. **Go again**
             productId: "677674",
             url: "https://www.tcgplayer.com/product/677674?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Sam Yang"],
       
@@ -114299,7 +114299,7 @@ Your next Shadow attack this turn gets +1{p}. **Go again**
             productId: "696182",
             url: "https://www.tcgplayer.com/product/696182?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Sam Yang"],
       foiling: Foiling.Rainbow,
@@ -114314,7 +114314,7 @@ Your next Shadow attack this turn gets +1{p}. **Go again**
             productId: "664534",
             url: "https://www.tcgplayer.com/product/664534?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Sam Yang"],
       foiling: Foiling.Cold,
@@ -114329,7 +114329,7 @@ Your next Shadow attack this turn gets +1{p}. **Go again**
             productId: "696182",
             url: "https://www.tcgplayer.com/product/696182?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -114395,7 +114395,7 @@ Once per turn, you may play a Mechanologist item with cost 1 or less from the to
             productId: "677673",
             url: "https://www.tcgplayer.com/product/677673?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Sam Yang"],
       foiling: Foiling.Cold,
@@ -114410,7 +114410,7 @@ Once per turn, you may play a Mechanologist item with cost 1 or less from the to
             productId: "677673",
             url: "https://www.tcgplayer.com/product/677673?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Sam Yang"],
       
@@ -115534,7 +115534,7 @@ The next defense reaction card the defending hero plays this turn costs an addit
             productId: "690461",
             url: "https://www.tcgplayer.com/product/690461?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Adolfo Navarro","Carlos Cruchaga"],
       foiling: Foiling.Cold,
@@ -115549,7 +115549,7 @@ The next defense reaction card the defending hero plays this turn costs an addit
             productId: "690461",
             url: "https://www.tcgplayer.com/product/690461?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Adolfo Navarro"],
       
@@ -116306,7 +116306,7 @@ If it has an aim counter, it gets "When this hits a hero, look at their hand and
             productId: "633617",
             url: "https://www.tcgplayer.com/product/633617?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Mario Wibisono"],
       foiling: Foiling.Gold,
@@ -116321,7 +116321,7 @@ If it has an aim counter, it gets "When this hits a hero, look at their hand and
             productId: "662250",
             url: "https://www.tcgplayer.com/product/662250?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
@@ -116912,7 +116912,7 @@ If it has an aim counter, it gets "When this hits a hero, look at their hand and
             productId: "714480",
             url: "https://www.tcgplayer.com/product/714480?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -117038,7 +117038,7 @@ If it has an aim counter, it gets "When this hits a hero, look at their hand and
             productId: "584696",
             url: "https://www.tcgplayer.com/product/584696?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -117939,7 +117939,7 @@ If it has an aim counter, it gets "When this hits a hero, look at their hand and
             productId: "495529",
             url: "https://www.tcgplayer.com/product/495529?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -119744,7 +119744,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
             productId: "555757",
             url: "https://www.tcgplayer.com/product/555757?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -120002,7 +120002,7 @@ When the combat chain closes, you may banish this face-down. If you do, for each
             productId: "609125",
             url: "https://www.tcgplayer.com/product/609125?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Rainbow,
@@ -120017,7 +120017,7 @@ When the combat chain closes, you may banish this face-down. If you do, for each
             productId: "609125",
             url: "https://www.tcgplayer.com/product/609125?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -120698,7 +120698,7 @@ When the combat chain closes, you may banish this face-down. If you do, for each
             productId: "532015",
             url: "https://www.tcgplayer.com/product/532015?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -121065,7 +121065,7 @@ When the combat chain closes, you may banish this face-down. If you do, for each
             productId: "616348",
             url: "https://www.tcgplayer.com/product/616348?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Maerel Hibadita"],
       foiling: Foiling.Rainbow,
@@ -121080,7 +121080,7 @@ When the combat chain closes, you may banish this face-down. If you do, for each
             productId: "616348",
             url: "https://www.tcgplayer.com/product/616348?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -121204,7 +121204,7 @@ When the combat chain closes, you may banish this face-down. If you do, for each
             productId: "618309",
             url: "https://www.tcgplayer.com/product/618309?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -123154,7 +123154,7 @@ When this hits a hero, destroy an aura token they control.`,
             productId: "580605",
             url: "https://www.tcgplayer.com/product/580605?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -123316,7 +123316,7 @@ If a non-attack action card was pitched to play this, each hero chooses and dest
             productId: "502765",
             url: "https://www.tcgplayer.com/product/502765?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Asur Misoa"],
       foiling: Foiling.Gold,
@@ -123476,7 +123476,7 @@ If a non-attack action card was pitched to play this, each hero chooses and dest
             productId: "633611",
             url: "https://www.tcgplayer.com/product/633611?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -124030,7 +124030,7 @@ Your next zombie attack this turn gets +4{p} and "When this hits, destroy this z
             productId: "657466",
             url: "https://www.tcgplayer.com/product/657466?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -124124,7 +124124,7 @@ Your next zombie attack this turn gets +4{p} and "When this hits, destroy this z
             productId: "657467",
             url: "https://www.tcgplayer.com/product/657467?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -124218,7 +124218,7 @@ Your next zombie attack this turn gets +4{p} and "When this hits, destroy this z
             productId: "657468",
             url: "https://www.tcgplayer.com/product/657468?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -124503,7 +124503,7 @@ When you lose {h} during your turn, destroy this.`,
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Tomasz Jedruszek"],
       foiling: Foiling.Rainbow,
@@ -124515,7 +124515,7 @@ When you lose {h} during your turn, destroy this.`,
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -125768,7 +125768,7 @@ When this defends, if it has 6 or more {d}, the attacking hero puts an aura they
             productId: "646560",
             url: "https://www.tcgplayer.com/product/646560?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Narendra B Adi"],
       foiling: Foiling.Rainbow,
@@ -125783,7 +125783,7 @@ When this defends, if it has 6 or more {d}, the attacking hero puts an aura they
             productId: "650369",
             url: "https://www.tcgplayer.com/product/650369?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -126071,7 +126071,7 @@ When this defends, if it has 6 or more {d}, the attacking hero puts a card from 
             productId: "616347",
             url: "https://www.tcgplayer.com/product/616347?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Wisnu Tan"],
       foiling: Foiling.Rainbow,
@@ -126086,7 +126086,7 @@ When this defends, if it has 6 or more {d}, the attacking hero puts a card from 
             productId: "616347",
             url: "https://www.tcgplayer.com/product/616347?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -127790,7 +127790,7 @@ When this hits, **opt 1**`,
             productId: "633635",
             url: "https://www.tcgplayer.com/product/633635?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -127935,7 +127935,7 @@ Create Gold tokens equal to the number of gold counters removed this way.`,
             productId: "274331",
             url: "https://www.tcgplayer.com/product/274331?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -128044,7 +128044,7 @@ Create Gold tokens equal to the number of gold counters removed this way.`,
             productId: "705415",
             url: "https://www.tcgplayer.com/product/705415?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -128272,7 +128272,7 @@ Create a Blasmophet, the Soul Harvester token.`,
             productId: "708999",
             url: "https://www.tcgplayer.com/product/708999?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Lius Lasahido"],
       foiling: Foiling.Cold,
@@ -128287,7 +128287,7 @@ Create a Blasmophet, the Soul Harvester token.`,
             productId: "708999",
             url: "https://www.tcgplayer.com/product/708999?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Lius Lasahido"],
       
@@ -128603,7 +128603,7 @@ Create a Blasmophet, the Soul Harvester token.`,
             productId: "585031",
             url: "https://www.tcgplayer.com/product/585031?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
@@ -128709,7 +128709,7 @@ Create a Blasmophet, the Soul Harvester token.`,
             productId: "705724",
             url: "https://www.tcgplayer.com/product/705724?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Lius Lasahido"],
       foiling: Foiling.Cold,
@@ -128724,7 +128724,7 @@ Create a Blasmophet, the Soul Harvester token.`,
             productId: "705724",
             url: "https://www.tcgplayer.com/product/705724?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Majestic,Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Basic,
@@ -128914,7 +128914,7 @@ Create a Blasmophet, the Soul Harvester token.`,
             productId: "537816",
             url: "https://www.tcgplayer.com/product/537816?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -129353,7 +129353,7 @@ If you've played or activated 2 or more attack reactions this chain link, this g
             productId: "678628",
             url: "https://www.tcgplayer.com/product/678628?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Rio Sabda"],
       foiling: Foiling.Rainbow,
@@ -129368,7 +129368,7 @@ If you've played or activated 2 or more attack reactions this chain link, this g
             productId: "678628",
             url: "https://www.tcgplayer.com/product/678628?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -129872,7 +129872,7 @@ If you've played or activated 2 or more attack reactions this chain link, this g
             productId: "705416",
             url: "https://www.tcgplayer.com/product/705416?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -129945,7 +129945,7 @@ If you've played or activated 2 or more attack reactions this chain link, this g
       rarity: Rarity.Marvel,
       set: Release.MasteryPackAssassin,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Pavel Rtishchev (Klaher)"],
       foiling: Foiling.Cold,
@@ -129957,7 +129957,7 @@ If you've played or activated 2 or more attack reactions this chain link, this g
       rarity: Rarity.Marvel,
       set: Release.MasteryPackAssassin,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel],
     rarity: Rarity.Basic,
@@ -130032,7 +130032,7 @@ If you've played or activated 2 or more attack reactions this chain link, this g
       rarity: Rarity.Marvel,
       set: Release.MasteryPackAssassin,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Othon Nikolaidis"],
       foiling: Foiling.Cold,
@@ -130044,7 +130044,7 @@ If you've played or activated 2 or more attack reactions this chain link, this g
       rarity: Rarity.Marvel,
       set: Release.MasteryPackAssassin,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -130206,7 +130206,7 @@ While this is in your graveyard, at the start of your turn, you may banish 2 car
             productId: "274437",
             url: "https://www.tcgplayer.com/product/274437?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -130315,7 +130315,7 @@ While this is in your graveyard, at the start of your turn, you may banish 2 car
             productId: "681241",
             url: "https://www.tcgplayer.com/product/681241?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -130930,7 +130930,7 @@ While this is in your graveyard, at the start of your turn, you may banish 2 car
             productId: "666546",
             url: "https://www.tcgplayer.com/product/666546?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -131188,7 +131188,7 @@ When this enters the arena, target defending action card gets +1{d} this chain l
             productId: "629872",
             url: "https://www.tcgplayer.com/product/629872?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -131369,7 +131369,7 @@ You may {u} a gun you control.
             productId: "537321",
             url: "https://www.tcgplayer.com/product/537321?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -131467,7 +131467,7 @@ Draw a card.
             productId: "537326",
             url: "https://www.tcgplayer.com/product/537326?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -131565,7 +131565,7 @@ Draw a card.
             productId: "537331",
             url: "https://www.tcgplayer.com/product/537331?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -131678,7 +131678,7 @@ Draw a card.
             productId: "705417",
             url: "https://www.tcgplayer.com/product/705417?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -133464,7 +133464,7 @@ When this attacks a hero, you may **wager** with them. The winner draws a card, 
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Ismatulloh"],
       foiling: Foiling.Rainbow,
@@ -133476,7 +133476,7 @@ When this attacks a hero, you may **wager** with them. The winner draws a card, 
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
@@ -134059,7 +134059,7 @@ When this attacks a hero, you may **wager** with them. The winner draws a card, 
             productId: "677683",
             url: "https://www.tcgplayer.com/product/677683?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Kate Fox"],
       foiling: Foiling.Cold,
@@ -134074,7 +134074,7 @@ When this attacks a hero, you may **wager** with them. The winner draws a card, 
             productId: "677683",
             url: "https://www.tcgplayer.com/product/677683?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Kate Fox"],
       
@@ -134773,7 +134773,7 @@ If you've played a red card this turn, your dragon attacks get **go again**.`,
             productId: "614550",
             url: "https://www.tcgplayer.com/product/614550?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -135304,7 +135304,7 @@ When this hits, you may put a non-attack action card from your graveyard on the 
             productId: "634075",
             url: "https://www.tcgplayer.com/product/634075?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["M Fakhrur Rozzi"],
       foiling: Foiling.Rainbow,
@@ -135319,7 +135319,7 @@ When this hits, you may put a non-attack action card from your graveyard on the 
             productId: "634075",
             url: "https://www.tcgplayer.com/product/634075?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -136069,7 +136069,7 @@ When this is destroyed, create an Ash token.
             productId: "703885",
             url: "https://www.tcgplayer.com/product/703885?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Nathaniel Himawan"],
       foiling: Foiling.Cold,
@@ -136084,7 +136084,7 @@ When this is destroyed, create an Ash token.
             productId: "703885",
             url: "https://www.tcgplayer.com/product/703885?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -136240,7 +136240,7 @@ If this has a +1{p} counter, reaction cards get -1{d} while defending it.`,
             productId: "251172",
             url: "https://www.tcgplayer.com/product/251172?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -136366,7 +136366,7 @@ If this has a +1{p} counter, reaction cards get -1{d} while defending it.`,
             productId: "251173",
             url: "https://www.tcgplayer.com/product/251173?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -136492,7 +136492,7 @@ If this has a +1{p} counter, reaction cards get -1{d} while defending it.`,
             productId: "251174",
             url: "https://www.tcgplayer.com/product/251174?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -137739,7 +137739,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
             productId: "678634",
             url: "https://www.tcgplayer.com/product/678634?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Maerel Hibadita"],
       foiling: Foiling.Rainbow,
@@ -137754,7 +137754,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
             productId: "678634",
             url: "https://www.tcgplayer.com/product/678634?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -138012,7 +138012,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
             productId: "503310",
             url: "https://www.tcgplayer.com/product/503310?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Ramza Ardyputra"],
       foiling: Foiling.Gold,
@@ -138042,7 +138042,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
             productId: "696190",
             url: "https://www.tcgplayer.com/product/696190?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
@@ -138312,7 +138312,7 @@ Target dagger attack gets +3{p}.`,
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -138425,7 +138425,7 @@ If you control 3 or more Fealty tokens, this gets +1{d}.
             productId: "585024",
             url: "https://www.tcgplayer.com/product/585024?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -138758,7 +138758,7 @@ At the beginning of your end phase, create an Embodiment of Earth token. Then, i
             productId: "262966",
             url: "https://www.tcgplayer.com/product/262966?Language=English&Printing=1st+Edition+Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Alexander Mokhov"],
       foiling: Foiling.Gold,
@@ -139390,7 +139390,7 @@ At the beginning of your end phase, create an Embodiment of Earth token. Then, i
             productId: "696191",
             url: "https://www.tcgplayer.com/product/696191?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Rainbow,
@@ -139405,7 +139405,7 @@ At the beginning of your end phase, create an Embodiment of Earth token. Then, i
             productId: "696191",
             url: "https://www.tcgplayer.com/product/696191?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -140350,7 +140350,7 @@ Create an Ursur, the Soul Reaper token.`,
             productId: "537351",
             url: "https://www.tcgplayer.com/product/537351?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -140446,7 +140446,7 @@ Create an Ursur, the Soul Reaper token.`,
             productId: "537355",
             url: "https://www.tcgplayer.com/product/537355?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -140542,7 +140542,7 @@ Create an Ursur, the Soul Reaper token.`,
             productId: "537361",
             url: "https://www.tcgplayer.com/product/537361?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -140933,7 +140933,7 @@ Create an Ursur, the Soul Reaper token.`,
             productId: "666547",
             url: "https://www.tcgplayer.com/product/666547?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -141575,7 +141575,7 @@ If it has 3 or more +1{p} counters, create a Flurry token.
             productId: "225871",
             url: "https://www.tcgplayer.com/product/225871?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -141699,7 +141699,7 @@ If it has 3 or more +1{p} counters, create a Flurry token.
             productId: "225872",
             url: "https://www.tcgplayer.com/product/225872?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -141823,7 +141823,7 @@ If it has 3 or more +1{p} counters, create a Flurry token.
             productId: "225873",
             url: "https://www.tcgplayer.com/product/225873?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -142218,7 +142218,7 @@ If this was played from arsenal, draw a card.
             productId: "250511",
             url: "https://www.tcgplayer.com/product/250511?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -142316,7 +142316,7 @@ If this was played from arsenal, draw a card.
             productId: "696212",
             url: "https://www.tcgplayer.com/product/696212?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Rio Sabda"],
       foiling: Foiling.Rainbow,
@@ -142331,7 +142331,7 @@ If this was played from arsenal, draw a card.
             productId: "696212",
             url: "https://www.tcgplayer.com/product/696212?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -142880,7 +142880,7 @@ If this was played from arsenal, draw a card.
             productId: "584683",
             url: "https://www.tcgplayer.com/product/584683?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -142974,7 +142974,7 @@ If this was played from arsenal, draw a card.
             productId: "584684",
             url: "https://www.tcgplayer.com/product/584684?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -143083,7 +143083,7 @@ If this was played from arsenal, draw a card.
             productId: "584685",
             url: "https://www.tcgplayer.com/product/584685?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -143177,7 +143177,7 @@ If this was played from arsenal, draw a card.
             productId: "696195",
             url: "https://www.tcgplayer.com/product/696195?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Jefrey Yonathan"],
       foiling: Foiling.Rainbow,
@@ -143192,7 +143192,7 @@ If this was played from arsenal, draw a card.
             productId: "696195",
             url: "https://www.tcgplayer.com/product/696195?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -143537,7 +143537,7 @@ The first time this deals damage to a hero, you may put an instant card from you
             productId: "664623",
             url: "https://www.tcgplayer.com/product/664623?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -143631,7 +143631,7 @@ The first time this deals damage to a hero, you may put an instant card from you
             productId: "694924",
             url: "https://www.tcgplayer.com/product/694924?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -145488,7 +145488,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
             productId: "714492",
             url: "https://www.tcgplayer.com/product/714492?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Alif Zahrah"],
       foiling: Foiling.Rainbow,
@@ -145503,7 +145503,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
             productId: "714492",
             url: "https://www.tcgplayer.com/product/714492?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -146252,7 +146252,7 @@ At the beginning of your action phase, destroy this then the next attack action 
             productId: "225938",
             url: "https://www.tcgplayer.com/product/225938?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -146376,7 +146376,7 @@ At the beginning of your action phase, destroy this then the next attack action 
             productId: "225939",
             url: "https://www.tcgplayer.com/product/225939?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -146500,7 +146500,7 @@ At the beginning of your action phase, destroy this then the next attack action 
             productId: "225940",
             url: "https://www.tcgplayer.com/product/225940?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -147017,7 +147017,7 @@ At the beginning of your action phase, destroy this then the next Guardian attac
             productId: "692551",
             url: "https://www.tcgplayer.com/product/692551?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Mateusz Wiśniewski"],
       foiling: Foiling.Rainbow,
@@ -147032,7 +147032,7 @@ At the beginning of your action phase, destroy this then the next Guardian attac
             productId: "265450",
             url: "https://www.tcgplayer.com/product/265450?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -147141,7 +147141,7 @@ At the beginning of your action phase, destroy this then the next Guardian attac
             productId: "692552",
             url: "https://www.tcgplayer.com/product/692552?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Mateusz Wiśniewski"],
       foiling: Foiling.Rainbow,
@@ -147156,7 +147156,7 @@ At the beginning of your action phase, destroy this then the next Guardian attac
             productId: "265451",
             url: "https://www.tcgplayer.com/product/265451?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -147280,7 +147280,7 @@ At the beginning of your action phase, destroy this then the next Guardian attac
             productId: "692553",
             url: "https://www.tcgplayer.com/product/692553?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Mateusz Wiśniewski"],
       foiling: Foiling.Rainbow,
@@ -147295,7 +147295,7 @@ At the beginning of your action phase, destroy this then the next Guardian attac
             productId: "265452",
             url: "https://www.tcgplayer.com/product/265452?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -147389,7 +147389,7 @@ At the beginning of your action phase, destroy this then the next Guardian attac
             productId: "555759",
             url: "https://www.tcgplayer.com/product/555759?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -147483,7 +147483,7 @@ At the beginning of your action phase, destroy this then the next Guardian attac
             productId: "563310",
             url: "https://www.tcgplayer.com/product/563310?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -147577,7 +147577,7 @@ At the beginning of your action phase, destroy this then the next Guardian attac
             productId: "563311",
             url: "https://www.tcgplayer.com/product/563311?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -147671,7 +147671,7 @@ At the beginning of your action phase, destroy this then the next Guardian attac
             productId: "453176",
             url: "https://www.tcgplayer.com/product/453176?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Federico Musetti"],
       foiling: Foiling.Cold,
@@ -147686,7 +147686,7 @@ At the beginning of your action phase, destroy this then the next Guardian attac
             productId: "453176",
             url: "https://www.tcgplayer.com/product/453176?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Legendary,Rarity.Marvel],
     rarity: Rarity.Legendary,
@@ -147846,7 +147846,7 @@ At the beginning of your action phase, destroy this then the next Guardian attac
             productId: "504520",
             url: "https://www.tcgplayer.com/product/504520?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["soyameii"],
       foiling: Foiling.Gold,
@@ -148023,7 +148023,7 @@ At the beginning of your action phase, destroy this then the next Guardian attac
             productId: "680612",
             url: "https://www.tcgplayer.com/product/680612?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -148836,7 +148836,7 @@ At the beginning of your end phase, destroy this unless you have played a non-at
             productId: "614969",
             url: "https://www.tcgplayer.com/product/614969?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Federico Musetti"],
       foiling: Foiling.Rainbow,
@@ -148851,7 +148851,7 @@ At the beginning of your end phase, destroy this unless you have played a non-at
             productId: "614969",
             url: "https://www.tcgplayer.com/product/614969?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -149538,7 +149538,7 @@ When this hits a hero, until the end of their next turn, whenever they activate 
             productId: "654193",
             url: "https://www.tcgplayer.com/product/654193?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Narendra B Adi"],
       foiling: Foiling.Rainbow,
@@ -149553,7 +149553,7 @@ When this hits a hero, until the end of their next turn, whenever they activate 
             productId: "654193",
             url: "https://www.tcgplayer.com/product/654193?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.SuperRare],
     rarity: Rarity.SuperRare,
@@ -149647,7 +149647,7 @@ When this hits a hero, until the end of their next turn, whenever they activate 
             productId: "696200",
             url: "https://www.tcgplayer.com/product/696200?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Brian Adriel"],
       foiling: Foiling.Rainbow,
@@ -149662,7 +149662,7 @@ When this hits a hero, until the end of their next turn, whenever they activate 
             productId: "696200",
             url: "https://www.tcgplayer.com/product/696200?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -149921,7 +149921,7 @@ When this hits a hero, until the end of their next turn, whenever they activate 
             productId: "544173",
             url: "https://www.tcgplayer.com/product/544173?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -151306,7 +151306,7 @@ If you've **charged** this turn, this gets "When this hits, put it into your her
             productId: "678637",
             url: "https://www.tcgplayer.com/product/678637?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Kimberly Pantoni"],
       foiling: Foiling.Rainbow,
@@ -151321,7 +151321,7 @@ If you've **charged** this turn, this gets "When this hits, put it into your her
             productId: "678637",
             url: "https://www.tcgplayer.com/product/678637?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -151432,7 +151432,7 @@ If you've **charged** this turn, this gets "When this hits, put it into your her
             productId: "551473",
             url: "https://www.tcgplayer.com/product/551473?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Asur Misoa"],
       foiling: Foiling.Rainbow,
@@ -151600,7 +151600,7 @@ If you've **charged** this turn, this gets "When this hits, put it into your her
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -151736,7 +151736,7 @@ If you've **charged** this turn, this gets "When this hits, put it into your her
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -151887,7 +151887,7 @@ If you've **charged** this turn, this gets "When this hits, put it into your her
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -151981,7 +151981,7 @@ If you've **charged** this turn, this gets "When this hits, put it into your her
             productId: "543929",
             url: "https://www.tcgplayer.com/product/543929?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Asur Misoa"],
       foiling: Foiling.Cold,
@@ -152023,7 +152023,7 @@ If you've **charged** this turn, this gets "When this hits, put it into your her
             productId: "556973",
             url: "https://www.tcgplayer.com/product/556973?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -152119,7 +152119,7 @@ If you've **charged** this turn, this gets "When this hits, put it into your her
             productId: "552791",
             url: "https://www.tcgplayer.com/product/552791?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Legendary,Rarity.Marvel],
     rarity: Rarity.Legendary,
@@ -152428,7 +152428,7 @@ If this deals damage, you may {t} your hero. If you do, create a Lightning Flow 
             productId: "675376",
             url: "https://www.tcgplayer.com/product/675376?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Adolfo Navarro"],
       
@@ -152518,7 +152518,7 @@ If this deals damage, you may {t} your hero. If you do, create a Lightning Flow 
             productId: "678563",
             url: "https://www.tcgplayer.com/product/678563?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Legendary,Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -153232,7 +153232,7 @@ If this was **fused**, it gets "When this hits a hero, their first attack during
             productId: "634076",
             url: "https://www.tcgplayer.com/product/634076?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Firaz M. Rasyid"],
       foiling: Foiling.Rainbow,
@@ -153247,7 +153247,7 @@ If this was **fused**, it gets "When this hits a hero, their first attack during
             productId: "634076",
             url: "https://www.tcgplayer.com/product/634076?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -155581,7 +155581,7 @@ At the beginning of each hero's end phase, if a weapon did not attack this turn,
             productId: "577243",
             url: "https://www.tcgplayer.com/product/577243?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -155677,7 +155677,7 @@ At the beginning of each hero's end phase, if a weapon did not attack this turn,
             productId: "577250",
             url: "https://www.tcgplayer.com/product/577250?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -155773,7 +155773,7 @@ At the beginning of each hero's end phase, if a weapon did not attack this turn,
             productId: "577252",
             url: "https://www.tcgplayer.com/product/577252?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -155869,7 +155869,7 @@ At the beginning of each hero's end phase, if a weapon did not attack this turn,
             productId: "577750",
             url: "https://www.tcgplayer.com/product/577750?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -156285,7 +156285,7 @@ This can't be defended by equipment or reaction cards.`,
             productId: "268388",
             url: "https://www.tcgplayer.com/product/268388?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -156381,7 +156381,7 @@ This can't be defended by equipment or reaction cards.`,
             productId: "268387",
             url: "https://www.tcgplayer.com/product/268387?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -156477,7 +156477,7 @@ This can't be defended by equipment or reaction cards.`,
             productId: "268386",
             url: "https://www.tcgplayer.com/product/268386?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -157017,7 +157017,7 @@ Gain 1{h}`,
             productId: "518240",
             url: "https://www.tcgplayer.com/product/518240?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -157193,7 +157193,7 @@ Whenever you **boost**, you may destroy a card under this. If you do, gain {r}{r
             productId: "677617",
             url: "https://www.tcgplayer.com/product/677617?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -157276,7 +157276,7 @@ Evo arms cost you {r} less to play.
             productId: "677616",
             url: "https://www.tcgplayer.com/product/677616?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -157359,7 +157359,7 @@ Evo chests cost you {r} less to play.
             productId: "677615",
             url: "https://www.tcgplayer.com/product/677615?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -157442,7 +157442,7 @@ Evo heads cost you {r} less to play.
             productId: "677618",
             url: "https://www.tcgplayer.com/product/677618?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -157716,7 +157716,7 @@ When this is equipped, gain {r}.`,
             productId: "518239",
             url: "https://www.tcgplayer.com/product/518239?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -158266,7 +158266,7 @@ Your Teklo Blaster costs {r} less to activate for each opponent.
             productId: "518242",
             url: "https://www.tcgplayer.com/product/518242?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -158430,7 +158430,7 @@ When this is equipped, the next attack action card you play this turn costs {r} 
             productId: "518243",
             url: "https://www.tcgplayer.com/product/518243?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -159479,7 +159479,7 @@ When this is equipped, the next attack action card you play this turn gets **boo
             productId: "517812",
             url: "https://www.tcgplayer.com/product/517812?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -159562,7 +159562,7 @@ When this **transforms** from or into an Evo with a different name, you may put 
             productId: "517804",
             url: "https://www.tcgplayer.com/product/517804?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -159645,7 +159645,7 @@ When this **transforms** from or into an Evo with a different name, your hero ge
             productId: "517808",
             url: "https://www.tcgplayer.com/product/517808?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -159728,7 +159728,7 @@ When this **transforms** from or into an Evo with a different name, gain {r}{r}{
             productId: "517816",
             url: "https://www.tcgplayer.com/product/517816?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -160893,7 +160893,7 @@ When this hits, you may put an item with cost 1 or less from your hand into the 
             productId: "633646",
             url: "https://www.tcgplayer.com/product/633646?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -160987,7 +160987,7 @@ When this hits, you may put an item with cost 1 or less from your hand into the 
             productId: "633647",
             url: "https://www.tcgplayer.com/product/633647?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -161081,7 +161081,7 @@ When this hits, you may put an item with cost 1 or less from your hand into the 
             productId: "633648",
             url: "https://www.tcgplayer.com/product/633648?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -161175,7 +161175,7 @@ When this hits, you may put an item with cost 1 or less from your hand into the 
             productId: "633649",
             url: "https://www.tcgplayer.com/product/633649?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -162515,7 +162515,7 @@ Target attack gets +1{p}.
             productId: "609128",
             url: "https://www.tcgplayer.com/product/609128?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Rainbow,
@@ -162530,7 +162530,7 @@ Target attack gets +1{p}.
             productId: "609128",
             url: "https://www.tcgplayer.com/product/609128?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -162737,7 +162737,7 @@ Target attack gets +1{p}.
             productId: "675349",
             url: "https://www.tcgplayer.com/product/675349?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Fabled],
     rarity: Rarity.Fabled,
@@ -163307,7 +163307,7 @@ Equip Fyendal's Spring Tunic. If you don't, **negate** this.`,
             productId: "577734",
             url: "https://www.tcgplayer.com/product/577734?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Tomasz Jedruszek"],
       foiling: Foiling.Gold,
@@ -163640,7 +163640,7 @@ Equip Fyendal's Spring Tunic. If you don't, **negate** this.`,
             productId: "677684",
             url: "https://www.tcgplayer.com/product/677684?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Sam Yang"],
       foiling: Foiling.Cold,
@@ -163655,7 +163655,7 @@ Equip Fyendal's Spring Tunic. If you don't, **negate** this.`,
             productId: "677684",
             url: "https://www.tcgplayer.com/product/677684?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Sam Yang"],
       
@@ -164431,7 +164431,7 @@ Equip Fyendal's Spring Tunic. If you don't, **negate** this.`,
             productId: "606732",
             url: "https://www.tcgplayer.com/product/606732?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Billy Christian"],
       foiling: Foiling.Cold,
@@ -164446,7 +164446,7 @@ Equip Fyendal's Spring Tunic. If you don't, **negate** this.`,
             productId: "606732",
             url: "https://www.tcgplayer.com/product/606732?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Billy Christian"],
       foiling: Foiling.Rainbow,
@@ -164557,7 +164557,7 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
             productId: "563858",
             url: "https://www.tcgplayer.com/product/563858?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Edward Chee"],
       foiling: Foiling.Rainbow,
@@ -164572,7 +164572,7 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
             productId: "553907",
             url: "https://www.tcgplayer.com/product/553907?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
@@ -164653,7 +164653,7 @@ Target attack action card gets +1{p}.`,
             productId: "606730",
             url: "https://www.tcgplayer.com/product/606730?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Billy Christian"],
       foiling: Foiling.Cold,
@@ -164668,7 +164668,7 @@ Target attack action card gets +1{p}.`,
             productId: "606730",
             url: "https://www.tcgplayer.com/product/606730?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Billy Christian"],
       foiling: Foiling.Cold,
@@ -164872,7 +164872,7 @@ Your arrow attacks may target any opposing hero or ally.`,
             productId: "654200",
             url: "https://www.tcgplayer.com/product/654200?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -165537,7 +165537,7 @@ Target attack gets +3{p}.`,
             productId: "678586",
             url: "https://www.tcgplayer.com/product/678586?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Anastasia Alexandrova"],
       foiling: Foiling.Cold,
@@ -165567,7 +165567,7 @@ Target attack gets +3{p}.`,
             productId: "709268",
             url: "https://www.tcgplayer.com/product/709268?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },{
         artists: ["Alexandra Malygina"],
       foiling: Foiling.Rainbow,
@@ -165582,7 +165582,7 @@ Target attack gets +3{p}.`,
             productId: "278915",
             url: "https://www.tcgplayer.com/product/278915?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -166188,7 +166188,7 @@ Target attack gets +3{p}.`,
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -166364,7 +166364,7 @@ Draw 2 cards.
             productId: "617584",
             url: "https://www.tcgplayer.com/product/617584?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Mario Wibisono"],
       foiling: Foiling.Cold,
@@ -166379,7 +166379,7 @@ Draw 2 cards.
             productId: "617584",
             url: "https://www.tcgplayer.com/product/617584?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Mario Wibisono"],
       
@@ -167208,7 +167208,7 @@ The next time you would be dealt damage this turn, prevent it.`,
             productId: "680614",
             url: "https://www.tcgplayer.com/product/680614?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Ramza Ardyputra"],
       foiling: Foiling.Rainbow,
@@ -167223,7 +167223,7 @@ The next time you would be dealt damage this turn, prevent it.`,
             productId: "680614",
             url: "https://www.tcgplayer.com/product/680614?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -168213,7 +168213,7 @@ This gets +1{p} for each equipment defending it.`,
             productId: "693423",
             url: "https://www.tcgplayer.com/product/693423?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -168580,7 +168580,7 @@ If there are 4 or more Earth cards in your banished zone, instead gain 3{h}.`,
             productId: "225805",
             url: "https://www.tcgplayer.com/product/225805?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -168691,7 +168691,7 @@ If this was played from arsenal, it gets **go again**.`,
             productId: "225807",
             url: "https://www.tcgplayer.com/product/225807?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -168802,7 +168802,7 @@ If this was played from arsenal, it gets **go again**.`,
             productId: "225809",
             url: "https://www.tcgplayer.com/product/225809?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -168992,7 +168992,7 @@ If this was played from arsenal, it gets **go again**.`,
             productId: "634079",
             url: "https://www.tcgplayer.com/product/634079?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Ramza Ardyputra"],
       
@@ -169007,7 +169007,7 @@ If this was played from arsenal, it gets **go again**.`,
             productId: "678590",
             url: "https://www.tcgplayer.com/product/678590?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Ramza Ardyputra"],
       foiling: Foiling.Rainbow,
@@ -169022,7 +169022,7 @@ If this was played from arsenal, it gets **go again**.`,
             productId: "634079",
             url: "https://www.tcgplayer.com/product/634079?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -169722,7 +169722,7 @@ When this hits a Reviled hero, put this on the bottom of its owner's deck.`,
             productId: "502728",
             url: "https://www.tcgplayer.com/product/502728?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -169797,7 +169797,7 @@ When this enters the arena, create a Ponder token.`,
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -169876,7 +169876,7 @@ When this enters the arena, create a Ponder token.`,
             productId: "502731",
             url: "https://www.tcgplayer.com/product/502731?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -169957,7 +169957,7 @@ When this enters the arena, you may turn a card in any banished zone face-down.`
             productId: "502733",
             url: "https://www.tcgplayer.com/product/502733?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -170038,7 +170038,7 @@ When this enters the arena, create a Spectral Shield token.`,
             productId: "502735",
             url: "https://www.tcgplayer.com/product/502735?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -170119,7 +170119,7 @@ When this enters the arena, deal 1 arcane damage to any target.`,
             productId: "502737",
             url: "https://www.tcgplayer.com/product/502737?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -170200,7 +170200,7 @@ When this enters the arena, you may put a yellow action card from your graveyard
             productId: "502739",
             url: "https://www.tcgplayer.com/product/502739?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -170281,7 +170281,7 @@ When this enters the arena, your next attack this turn gets **dominate**.`,
             productId: "502740",
             url: "https://www.tcgplayer.com/product/502740?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -170362,7 +170362,7 @@ When this enters the arena, attack action cards your opponents control get -1{p}
             productId: "502743",
             url: "https://www.tcgplayer.com/product/502743?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -170725,7 +170725,7 @@ When this enters the arena, create a Courage token.`,
             productId: "614575",
             url: "https://www.tcgplayer.com/product/614575?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Nathaniel Himawan"],
       
@@ -171209,7 +171209,7 @@ You may {u} a bow you control.
             productId: "678625",
             url: "https://www.tcgplayer.com/product/678625?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Tomasz Jedruszek"],
       foiling: Foiling.Rainbow,
@@ -171224,7 +171224,7 @@ You may {u} a bow you control.
             productId: "678625",
             url: "https://www.tcgplayer.com/product/678625?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -171696,7 +171696,7 @@ You may {u} a bow you control.
             productId: "555750",
             url: "https://www.tcgplayer.com/product/555750?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -171792,7 +171792,7 @@ You may {u} a bow you control.
             productId: "561161",
             url: "https://www.tcgplayer.com/product/561161?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -171888,7 +171888,7 @@ You may {u} a bow you control.
             productId: "563312",
             url: "https://www.tcgplayer.com/product/563312?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -172366,7 +172366,7 @@ Whenever a card defends this, **clash** with the defending hero. The winner crea
             productId: "706934",
             url: "https://www.tcgplayer.com/product/706934?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -172908,7 +172908,7 @@ If this was **fused**, it gets **dominate**.`,
             productId: "275719",
             url: "https://www.tcgplayer.com/product/275719?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Jessada Sutthi"],
       
@@ -173112,7 +173112,7 @@ If this was **fused**, it gets **dominate**.`,
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Surya Prasetya"],
       foiling: Foiling.Rainbow,
@@ -173124,7 +173124,7 @@ If this was **fused**, it gets **dominate**.`,
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -174706,7 +174706,7 @@ When this hits a hero, banish the top card of their deck.`,
             productId: "694926",
             url: "https://www.tcgplayer.com/product/694926?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -175918,7 +175918,7 @@ If it has an aim counter, it gets "Yellow cards get -1{d} while defending this."
             productId: "654194",
             url: "https://www.tcgplayer.com/product/654194?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Ambang Tegar Prakoso"],
       foiling: Foiling.Rainbow,
@@ -175933,7 +175933,7 @@ If it has an aim counter, it gets "Yellow cards get -1{d} while defending this."
             productId: "654194",
             url: "https://www.tcgplayer.com/product/654194?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -176339,7 +176339,7 @@ If it has an aim counter, it gets "Yellow cards get -1{d} while defending this."
             productId: "692554",
             url: "https://www.tcgplayer.com/product/692554?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Junaidi Lim"],
       foiling: Foiling.Rainbow,
@@ -176354,7 +176354,7 @@ If it has an aim counter, it gets "Yellow cards get -1{d} while defending this."
             productId: "556401",
             url: "https://www.tcgplayer.com/product/556401?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -176493,7 +176493,7 @@ If it has an aim counter, it gets "Yellow cards get -1{d} while defending this."
             productId: "692555",
             url: "https://www.tcgplayer.com/product/692555?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -176647,7 +176647,7 @@ If it has an aim counter, it gets "Yellow cards get -1{d} while defending this."
             productId: "692556",
             url: "https://www.tcgplayer.com/product/692556?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -176711,7 +176711,7 @@ If it has an aim counter, it gets "Yellow cards get -1{d} while defending this."
             productId: "654067",
             url: "https://www.tcgplayer.com/product/654067?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Isuardi Therianto"],
       foiling: Foiling.Rainbow,
@@ -176726,7 +176726,7 @@ If it has an aim counter, it gets "Yellow cards get -1{d} while defending this."
             productId: "654067",
             url: "https://www.tcgplayer.com/product/654067?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },{
         artists: ["Nathaniel Himawan"],
       foiling: Foiling.Cold,
@@ -177253,7 +177253,7 @@ Deal 1 arcane damage to target hero.
             productId: "587939",
             url: "https://www.tcgplayer.com/product/587939?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -177347,7 +177347,7 @@ Deal 1 arcane damage to target hero.
             productId: "587940",
             url: "https://www.tcgplayer.com/product/587940?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -177441,7 +177441,7 @@ Deal 1 arcane damage to target hero.
             productId: "587941",
             url: "https://www.tcgplayer.com/product/587941?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -177535,7 +177535,7 @@ Deal 1 arcane damage to target hero.
             productId: "696214",
             url: "https://www.tcgplayer.com/product/696214?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Marco González"],
       foiling: Foiling.Rainbow,
@@ -177550,7 +177550,7 @@ Deal 1 arcane damage to target hero.
             productId: "696214",
             url: "https://www.tcgplayer.com/product/696214?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -178592,7 +178592,7 @@ When this attacks, create a Quicken token.`,
             productId: "564555",
             url: "https://www.tcgplayer.com/product/564555?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Jessada Sutthi"],
       foiling: Foiling.Rainbow,
@@ -178703,7 +178703,7 @@ When this attacks, create a Quicken token.`,
             productId: "561247",
             url: "https://www.tcgplayer.com/product/561247?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Jessada Sutthi"],
       foiling: Foiling.Cold,
@@ -178745,7 +178745,7 @@ When this attacks, create a Quicken token.`,
             productId: "664536",
             url: "https://www.tcgplayer.com/product/664536?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -178826,7 +178826,7 @@ When this attacks, create a Quicken token.`,
             productId: "696210",
             url: "https://www.tcgplayer.com/product/696210?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Marco González"],
       foiling: Foiling.Rainbow,
@@ -178841,7 +178841,7 @@ When this attacks, create a Quicken token.`,
             productId: "696210",
             url: "https://www.tcgplayer.com/product/696210?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -179097,7 +179097,7 @@ When this attacks, create a Quicken token.`,
             productId: "701605",
             url: "https://www.tcgplayer.com/product/701605?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -179193,7 +179193,7 @@ When this hits, create a Lightning Flow token.`,
             productId: "696213",
             url: "https://www.tcgplayer.com/product/696213?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Tomasz Jedruszek"],
       foiling: Foiling.Rainbow,
@@ -179208,7 +179208,7 @@ When this hits, create a Lightning Flow token.`,
             productId: "696213",
             url: "https://www.tcgplayer.com/product/696213?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -179302,7 +179302,7 @@ When this hits, create a Lightning Flow token.`,
             productId: "684315",
             url: "https://www.tcgplayer.com/product/684315?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -179460,7 +179460,7 @@ When this hits, create a Lightning Flow token.`,
             productId: "708980",
             url: "https://www.tcgplayer.com/product/708980?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Faizal Fikri"],
       foiling: Foiling.Cold,
@@ -179475,7 +179475,7 @@ When this hits, create a Lightning Flow token.`,
             productId: "708980",
             url: "https://www.tcgplayer.com/product/708980?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Faizal Fikri"],
       
@@ -179581,7 +179581,7 @@ When this hits, create a Lightning Flow token.`,
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Wirawan Pranoto"],
       foiling: Foiling.Rainbow,
@@ -179593,7 +179593,7 @@ When this hits, create a Lightning Flow token.`,
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -179687,7 +179687,7 @@ When this hits, create a Lightning Flow token.`,
             productId: "618306",
             url: "https://www.tcgplayer.com/product/618306?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -180236,7 +180236,7 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
             productId: "649725",
             url: "https://www.tcgplayer.com/product/649725?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -180332,7 +180332,7 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
             productId: "649726",
             url: "https://www.tcgplayer.com/product/649726?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -180458,7 +180458,7 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
             productId: "649727",
             url: "https://www.tcgplayer.com/product/649727?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -181034,7 +181034,7 @@ At the beginning of your action phase, destroy this.`,
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -181143,7 +181143,7 @@ At the beginning of your action phase, destroy this.`,
             productId: "618303",
             url: "https://www.tcgplayer.com/product/618303?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -181237,7 +181237,7 @@ At the beginning of your action phase, destroy this.`,
             productId: "618302",
             url: "https://www.tcgplayer.com/product/618302?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -181331,7 +181331,7 @@ At the beginning of your action phase, destroy this.`,
             productId: "618262",
             url: "https://www.tcgplayer.com/product/618262?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -181638,7 +181638,7 @@ If this was **fused**, your next attack this turn gets +1{p}.
             productId: "225852",
             url: "https://www.tcgplayer.com/product/225852?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -181751,7 +181751,7 @@ If this was played from arsenal, **opt 2**.
             productId: "225853",
             url: "https://www.tcgplayer.com/product/225853?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -181864,7 +181864,7 @@ If this was played from arsenal, **opt 2**.
             productId: "225854",
             url: "https://www.tcgplayer.com/product/225854?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -182438,7 +182438,7 @@ At the beginning of your action phase, destroy this.`,
             productId: "225811",
             url: "https://www.tcgplayer.com/product/225811?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
@@ -182584,7 +182584,7 @@ At the beginning of your action phase, destroy this.`,
             productId: "695291",
             url: "https://www.tcgplayer.com/product/695291?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Vito Febrianno"],
       foiling: Foiling.Rainbow,
@@ -182599,7 +182599,7 @@ At the beginning of your action phase, destroy this.`,
             productId: "695291",
             url: "https://www.tcgplayer.com/product/695291?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Legendary],
     rarity: Rarity.Legendary,
@@ -182851,7 +182851,7 @@ At the beginning of your action phase, destroy this.`,
             productId: "696803",
             url: "https://www.tcgplayer.com/product/696803?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -183200,7 +183200,7 @@ When this defends an attack with {p} less than its base, its controller discards
             productId: "495531",
             url: "https://www.tcgplayer.com/product/495531?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Basic,
@@ -183372,7 +183372,7 @@ At the beginning of your end phase, destroy this.`,
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["soyameii"],
       foiling: Foiling.Cold,
@@ -183384,7 +183384,7 @@ At the beginning of your end phase, destroy this.`,
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
@@ -185403,7 +185403,7 @@ If this was played from arsenal, it gets **go again**.`,
             productId: "270490",
             url: "https://www.tcgplayer.com/product/270490?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -185627,7 +185627,7 @@ When this attacks, if this was **fused**, it gets +1{p} and "When this hits a he
             productId: "678623",
             url: "https://www.tcgplayer.com/product/678623?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Orson CaptainSass"],
       foiling: Foiling.Rainbow,
@@ -185642,7 +185642,7 @@ When this attacks, if this was **fused**, it gets +1{p} and "When this hits a he
             productId: "678623",
             url: "https://www.tcgplayer.com/product/678623?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -185933,7 +185933,7 @@ At the beginning of your end phase, destroy this.`,
             productId: "664628",
             url: "https://www.tcgplayer.com/product/664628?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -186392,7 +186392,7 @@ You may create a Frostbite token in an exposed head, chest, arms, or legs zone.`
             productId: "609603",
             url: "https://www.tcgplayer.com/product/609603?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -186486,7 +186486,7 @@ You may create a Frostbite token in an exposed head, chest, arms, or legs zone.`
             productId: "609606",
             url: "https://www.tcgplayer.com/product/609606?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -186610,7 +186610,7 @@ You may create a Frostbite token in an exposed head, chest, arms, or legs zone.`
             productId: "609610",
             url: "https://www.tcgplayer.com/product/609610?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -186764,7 +186764,7 @@ You may create a Frostbite token in an exposed head, chest, arms, or legs zone.`
             productId: "604833",
             url: "https://www.tcgplayer.com/product/604833?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -187799,7 +187799,7 @@ Create a Runechant token.
             productId: "678613",
             url: "https://www.tcgplayer.com/product/678613?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Faizal Fikri"],
       foiling: Foiling.Rainbow,
@@ -187814,7 +187814,7 @@ Create a Runechant token.
             productId: "678613",
             url: "https://www.tcgplayer.com/product/678613?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -188126,7 +188126,7 @@ Create a Runechant token.
             productId: "577569",
             url: "https://www.tcgplayer.com/product/577569?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
@@ -188393,7 +188393,7 @@ Create a Runechant token.
             productId: "675372",
             url: "https://www.tcgplayer.com/product/675372?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Sergey Gurskiy"],
       
@@ -188498,7 +188498,7 @@ Create a Runechant token.
             productId: "225501",
             url: "https://www.tcgplayer.com/product/225501?Language=English&Printing=1st+Edition+Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Sergey Gurskiy"],
       foiling: Foiling.Rainbow,
@@ -188513,7 +188513,7 @@ Create a Runechant token.
             productId: "246411",
             url: "https://www.tcgplayer.com/product/246411?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Lius Lasahido"],
       foiling: Foiling.Rainbow,
@@ -188528,7 +188528,7 @@ Create a Runechant token.
             productId: "675352",
             url: "https://www.tcgplayer.com/product/675352?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.AB,Treatment.EA],
     },{
         artists: ["Sergey Gurskiy"],
       
@@ -188653,7 +188653,7 @@ Create a Runechant token.
             productId: "238539",
             url: "https://www.tcgplayer.com/product/238539?Language=English&Printing=1st+Edition+Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Federico Musetti"],
       
@@ -188907,7 +188907,7 @@ When this hits a hero, deal 1 arcane damage to them.`,
             productId: "654084",
             url: "https://www.tcgplayer.com/product/654084?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -189336,7 +189336,7 @@ If you control 3 or more auras, this gets +3{p}.`,
             productId: "655924",
             url: "https://www.tcgplayer.com/product/655924?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -189667,7 +189667,7 @@ If you control 3 or more auras, this gets +3{p}.`,
             productId: "532022",
             url: "https://www.tcgplayer.com/product/532022?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -189765,7 +189765,7 @@ You may put a Hyper Driver from your banished zone into the arena.
             productId: "532023",
             url: "https://www.tcgplayer.com/product/532023?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -189863,7 +189863,7 @@ You may put a Hyper Driver from your banished zone into the arena.
             productId: "532024",
             url: "https://www.tcgplayer.com/product/532024?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -189946,7 +189946,7 @@ You may put a Hyper Driver from your banished zone into the arena.
             productId: "696180",
             url: "https://www.tcgplayer.com/product/696180?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Cold,
@@ -189961,7 +189961,7 @@ You may put a Hyper Driver from your banished zone into the arena.
             productId: "696180",
             url: "https://www.tcgplayer.com/product/696180?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Carlos Cruchaga"],
       
@@ -189985,7 +189985,7 @@ You may put a Hyper Driver from your banished zone into the arena.
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
@@ -190927,7 +190927,7 @@ If you've played another Wizard non-attack action card this turn, put this into 
             productId: "693438",
             url: "https://www.tcgplayer.com/product/693438?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -191241,7 +191241,7 @@ If you've played another Wizard non-attack action card this turn, put this into 
             productId: "677610",
             url: "https://www.tcgplayer.com/product/677610?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -191337,7 +191337,7 @@ If you've played another Wizard non-attack action card this turn, put this into 
             productId: "578148",
             url: "https://www.tcgplayer.com/product/578148?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -191405,7 +191405,7 @@ Gain X+1{h}.`,
             productId: "649574",
             url: "https://www.tcgplayer.com/product/649574?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
@@ -191750,7 +191750,7 @@ At the beginning of your end phase, remove an energy counter from this and creat
             productId: "701471",
             url: "https://www.tcgplayer.com/product/701471?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -191846,7 +191846,7 @@ At the beginning of your end phase, remove an energy counter from this and creat
             productId: "696804",
             url: "https://www.tcgplayer.com/product/696804?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -192098,7 +192098,7 @@ At the beginning of your end phase, remove an energy counter from this and creat
             productId: "278919",
             url: "https://www.tcgplayer.com/product/278919?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -192239,7 +192239,7 @@ At the beginning of your end phase, remove an energy counter from this and creat
             productId: "278920",
             url: "https://www.tcgplayer.com/product/278920?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -192380,7 +192380,7 @@ At the beginning of your end phase, remove an energy counter from this and creat
             productId: "278921",
             url: "https://www.tcgplayer.com/product/278921?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -193037,7 +193037,7 @@ At the beginning of your end phase, remove an energy counter from this and creat
             productId: "632070",
             url: "https://www.tcgplayer.com/product/632070?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -193944,7 +193944,7 @@ If a yellow card is **charged** this way, this gets **overpower**.`,
             productId: "696109",
             url: "https://www.tcgplayer.com/product/696109?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -194848,7 +194848,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -195358,7 +195358,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
             productId: "583714",
             url: "https://www.tcgplayer.com/product/583714?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -195789,7 +195789,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
             productId: "542292",
             url: "https://www.tcgplayer.com/product/542292?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -195924,7 +195924,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
             productId: "624373",
             url: "https://www.tcgplayer.com/product/624373?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Stormy Elia Fanggidae"],
       foiling: Foiling.Rainbow,
@@ -195939,7 +195939,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
             productId: "624373",
             url: "https://www.tcgplayer.com/product/624373?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Stormy Elia Fanggidae"],
       
@@ -196086,7 +196086,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
             productId: "618260",
             url: "https://www.tcgplayer.com/product/618260?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Stormy Elia Fanggidae"],
       foiling: Foiling.Cold,
@@ -196101,7 +196101,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
             productId: "637487",
             url: "https://www.tcgplayer.com/product/637487?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },{
         artists: ["Stormy Elia Fanggidae"],
       foiling: Foiling.Rainbow,
@@ -196210,7 +196210,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
             productId: "633656",
             url: "https://www.tcgplayer.com/product/633656?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -196304,7 +196304,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
             productId: "633653",
             url: "https://www.tcgplayer.com/product/633653?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -196398,7 +196398,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
             productId: "633654",
             url: "https://www.tcgplayer.com/product/633654?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -196492,7 +196492,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
             productId: "633655",
             url: "https://www.tcgplayer.com/product/633655?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -196750,7 +196750,7 @@ If there is a yellow arrow face-up in your arsenal, create a Gold token.
             productId: "624371",
             url: "https://www.tcgplayer.com/product/624371?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Rainbow,
@@ -196765,7 +196765,7 @@ If there is a yellow arrow face-up in your arsenal, create a Gold token.
             productId: "624371",
             url: "https://www.tcgplayer.com/product/624371?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Cold,
@@ -196780,7 +196780,7 @@ If there is a yellow arrow face-up in your arsenal, create a Gold token.
             productId: "653427",
             url: "https://www.tcgplayer.com/product/653427?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
@@ -196876,7 +196876,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
             productId: "710773",
             url: "https://www.tcgplayer.com/product/710773?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -196970,7 +196970,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
             productId: "710774",
             url: "https://www.tcgplayer.com/product/710774?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -197079,7 +197079,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
             productId: "710772",
             url: "https://www.tcgplayer.com/product/710772?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -197158,7 +197158,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
             productId: "651052",
             url: "https://www.tcgplayer.com/product/651052?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -197241,7 +197241,7 @@ This counts as a Gold.
             productId: "651045",
             url: "https://www.tcgplayer.com/product/651045?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -197324,7 +197324,7 @@ This counts as a Gold.
             productId: "651049",
             url: "https://www.tcgplayer.com/product/651049?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -197535,7 +197535,7 @@ When this defends together with 2 or more yellow cards, create a Gold token.
             productId: "690442",
             url: "https://www.tcgplayer.com/product/690442?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Tanapon Wachirakul"],
       foiling: Foiling.Cold,
@@ -197550,7 +197550,7 @@ When this defends together with 2 or more yellow cards, create a Gold token.
             productId: "690442",
             url: "https://www.tcgplayer.com/product/690442?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Basic,
@@ -197629,7 +197629,7 @@ When this defends together with 2 or more yellow cards, create a Gold token.
             productId: "651047",
             url: "https://www.tcgplayer.com/product/651047?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -197712,7 +197712,7 @@ This counts as a Gold.
             productId: "695289",
             url: "https://www.tcgplayer.com/product/695289?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -197810,7 +197810,7 @@ This counts as a Gold.
             productId: "637485",
             url: "https://www.tcgplayer.com/product/637485?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -197919,7 +197919,7 @@ This counts as a Gold.
             productId: "633650",
             url: "https://www.tcgplayer.com/product/633650?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -198030,7 +198030,7 @@ This counts as a Gold.
             productId: "633651",
             url: "https://www.tcgplayer.com/product/633651?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -198141,7 +198141,7 @@ This counts as a Gold.
             productId: "633652",
             url: "https://www.tcgplayer.com/product/633652?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Aluísio Cervelle"],
       
@@ -198237,7 +198237,7 @@ This counts as a Gold.
             productId: "624372",
             url: "https://www.tcgplayer.com/product/624372?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel],
     rarity: Rarity.Basic,
@@ -198316,7 +198316,7 @@ This counts as a Gold.
             productId: "633612",
             url: "https://www.tcgplayer.com/product/633612?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Mario Wibisono"],
       foiling: Foiling.Rainbow,
@@ -198331,7 +198331,7 @@ This counts as a Gold.
             productId: "633612",
             url: "https://www.tcgplayer.com/product/633612?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Mario Wibisono"],
       foiling: Foiling.Cold,
@@ -198346,7 +198346,7 @@ This counts as a Gold.
             productId: "659609",
             url: "https://www.tcgplayer.com/product/659609?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Basic,Rarity.Promo],
     rarity: Rarity.Basic,
@@ -198440,7 +198440,7 @@ This counts as a Gold.
             productId: "634060",
             url: "https://www.tcgplayer.com/product/634060?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Andrew Chou"],
       foiling: Foiling.Rainbow,
@@ -198455,7 +198455,7 @@ This counts as a Gold.
             productId: "634060",
             url: "https://www.tcgplayer.com/product/634060?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -198683,7 +198683,7 @@ Create a Golden Cog token.`,
             productId: "663018",
             url: "https://www.tcgplayer.com/product/663018?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Yulia Litvinova"],
       
@@ -198927,7 +198927,7 @@ Create a Golden Cog token.`,
             productId: "577727",
             url: "https://www.tcgplayer.com/product/577727?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -199072,7 +199072,7 @@ At the start of your turn, destroy this. If another hero drew a card from this, 
             productId: "653202",
             url: "https://www.tcgplayer.com/product/653202?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -199766,7 +199766,7 @@ At the start of your turn, destroy this. If another hero drew a card from this, 
             productId: "678573",
             url: "https://www.tcgplayer.com/product/678573?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Cold,
@@ -199781,7 +199781,7 @@ At the start of your turn, destroy this. If another hero drew a card from this, 
             productId: "678573",
             url: "https://www.tcgplayer.com/product/678573?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -200173,7 +200173,7 @@ Banish all defending attack action cards on the combat chain. If a Chi was pitch
             productId: "708884",
             url: "https://www.tcgplayer.com/product/708884?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Isuardi Therianto"],
       foiling: Foiling.Cold,
@@ -200763,7 +200763,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
             productId: "706691",
             url: "https://www.tcgplayer.com/product/706691?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Basic],
     rarity: Rarity.Basic,
@@ -200857,7 +200857,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
             productId: "637488",
             url: "https://www.tcgplayer.com/product/637488?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -201623,7 +201623,7 @@ When this is equipped from anywhere other than your graveyard, put a -1{d} count
             productId: "678635",
             url: "https://www.tcgplayer.com/product/678635?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -202034,7 +202034,7 @@ When this is equipped from anywhere other than your graveyard, put a -1{d} count
             productId: "634588",
             url: "https://www.tcgplayer.com/product/634588?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Nathaniel Himawan"],
       foiling: Foiling.Cold,
@@ -202049,7 +202049,7 @@ When this is equipped from anywhere other than your graveyard, put a -1{d} count
             productId: "634588",
             url: "https://www.tcgplayer.com/product/634588?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Nathaniel Himawan"],
       foiling: Foiling.Rainbow,
@@ -202145,7 +202145,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
             productId: "624358",
             url: "https://www.tcgplayer.com/product/624358?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Nathaniel Himawan"],
       foiling: Foiling.Cold,
@@ -202160,7 +202160,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
             productId: "624358",
             url: "https://www.tcgplayer.com/product/624358?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Nathaniel Himawan"],
       
@@ -202217,7 +202217,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
             productId: "690694",
             url: "https://www.tcgplayer.com/product/690694?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
@@ -202715,7 +202715,7 @@ Gain 1{h}
             productId: "680605",
             url: "https://www.tcgplayer.com/product/680605?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -203212,7 +203212,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
             productId: "666542",
             url: "https://www.tcgplayer.com/product/666542?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Nathaniel Himawan"],
       foiling: Foiling.Cold,
@@ -203227,7 +203227,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
             productId: "666542",
             url: "https://www.tcgplayer.com/product/666542?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -204798,7 +204798,7 @@ When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, wh
             productId: "690437",
             url: "https://www.tcgplayer.com/product/690437?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Federico Musetti"],
       foiling: Foiling.Cold,
@@ -204813,7 +204813,7 @@ When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, wh
             productId: "690437",
             url: "https://www.tcgplayer.com/product/690437?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel],
     rarity: Rarity.Basic,
@@ -204973,7 +204973,7 @@ While Hala is face-up in arsenal, whenever a sword attack you control hits, it g
             productId: "709106",
             url: "https://www.tcgplayer.com/product/709106?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Federico Musetti"],
       foiling: Foiling.Cold,
@@ -204988,7 +204988,7 @@ While Hala is face-up in arsenal, whenever a sword attack you control hits, it g
             productId: "709106",
             url: "https://www.tcgplayer.com/product/709106?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Federico Musetti"],
       foiling: Foiling.Rainbow,
@@ -205250,7 +205250,7 @@ While Hala is face-up in arsenal, whenever a sword attack you control hits, it g
             productId: "648207",
             url: "https://www.tcgplayer.com/product/648207?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Kanadekana"],
       foiling: Foiling.Rainbow,
@@ -205265,7 +205265,7 @@ While Hala is face-up in arsenal, whenever a sword attack you control hits, it g
             productId: "654125",
             url: "https://www.tcgplayer.com/product/654125?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -205863,7 +205863,7 @@ If you have a Chivalry in your pitch zone, this gets +1{p}.`,
             productId: "453248",
             url: "https://www.tcgplayer.com/product/453248?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -205961,7 +205961,7 @@ The third time you play a card with **boost** each turn, put a steam counter on 
             productId: "578813",
             url: "https://www.tcgplayer.com/product/578813?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -207048,7 +207048,7 @@ If you have a card in your pitch zone with cost 0, this card's attacks get **go 
             productId: "604834",
             url: "https://www.tcgplayer.com/product/604834?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -208539,7 +208539,7 @@ If this is tapped, cards cost {r} less to play, this doesn't untap during the en
             productId: "714336",
             url: "https://www.tcgplayer.com/product/714336?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -208725,7 +208725,7 @@ The first Guardian or Revered attack action card you play each turn gets "When t
             productId: "238374",
             url: "https://www.tcgplayer.com/product/238374?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -208894,7 +208894,7 @@ The first Guardian or Revered attack action card you play each turn gets "When t
             productId: "238376",
             url: "https://www.tcgplayer.com/product/238376?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -209063,7 +209063,7 @@ The first Guardian or Revered attack action card you play each turn gets "When t
             productId: "224954",
             url: "https://www.tcgplayer.com/product/224954?Language=English&Printing=1st+Edition+Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Max Kostin"],
       
@@ -209093,7 +209093,7 @@ The first Guardian or Revered attack action card you play each turn gets "When t
             productId: "238377",
             url: "https://www.tcgplayer.com/product/238377?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -209912,7 +209912,7 @@ If you have a head equipped and the defending hero doesn't, this gets +1{p}.
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Reinaldo Indrajaya"],
       foiling: Foiling.Rainbow,
@@ -209924,7 +209924,7 @@ If you have a head equipped and the defending hero doesn't, this gets +1{p}.
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -210017,7 +210017,7 @@ If you have a head equipped and the defending hero doesn't, this gets +1{p}.
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Audy Ravindra"],
       foiling: Foiling.Rainbow,
@@ -210029,7 +210029,7 @@ If you have a head equipped and the defending hero doesn't, this gets +1{p}.
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -210708,7 +210708,7 @@ If you have a head equipped and the defending hero doesn't, this gets +1{p}.
             productId: "675348",
             url: "https://www.tcgplayer.com/product/675348?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Fabled],
     rarity: Rarity.Fabled,
@@ -211299,7 +211299,7 @@ When this is pitched, if you have less {h} than an opposing hero, gain 1{h}.`,
             productId: "578147",
             url: "https://www.tcgplayer.com/product/578147?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -211382,7 +211382,7 @@ Gain 1{h}. Gain 1{h}. Gain 1{h}.
             productId: "648217",
             url: "https://www.tcgplayer.com/product/648217?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Nikolai Maslakov"],
       
@@ -211611,7 +211611,7 @@ Gain 1{h}. Gain 1{h}. Gain 1{h}.
             productId: "542300",
             url: "https://www.tcgplayer.com/product/542300?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -211895,7 +211895,7 @@ Gain 1{h}. Gain 1{h}. Gain 1{h}.
             productId: "634067",
             url: "https://www.tcgplayer.com/product/634067?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Rainbow,
@@ -211910,7 +211910,7 @@ Gain 1{h}. Gain 1{h}. Gain 1{h}.
             productId: "634067",
             url: "https://www.tcgplayer.com/product/634067?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -212528,7 +212528,7 @@ Gain 1{h}. Gain 1{h}. Gain 1{h}.
             productId: "521662",
             url: "https://www.tcgplayer.com/product/521662?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -212622,7 +212622,7 @@ Gain 1{h}. Gain 1{h}. Gain 1{h}.
             productId: "521661",
             url: "https://www.tcgplayer.com/product/521661?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -212716,7 +212716,7 @@ Gain 1{h}. Gain 1{h}. Gain 1{h}.
             productId: "521663",
             url: "https://www.tcgplayer.com/product/521663?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -213801,7 +213801,7 @@ When this hits a hero, you may put an item with cost 1 or less from any banished
             productId: "275231",
             url: "https://www.tcgplayer.com/product/275231?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Angelina Tyshchik"],
       foiling: Foiling.Rainbow,
@@ -214396,7 +214396,7 @@ When the combat chain closes, if you've attacked with this, banish it.
             productId: "655923",
             url: "https://www.tcgplayer.com/product/655923?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -215015,7 +215015,7 @@ When the combat chain closes, if you've attacked with this, banish it.
             productId: "653927",
             url: "https://www.tcgplayer.com/product/653927?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -215081,7 +215081,7 @@ When the combat chain closes, if you've attacked with this, banish it.
             productId: "648200",
             url: "https://www.tcgplayer.com/product/648200?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Orson CaptainSass"],
       foiling: Foiling.Rainbow,
@@ -215096,7 +215096,7 @@ When the combat chain closes, if you've attacked with this, banish it.
             productId: "654126",
             url: "https://www.tcgplayer.com/product/654126?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -215397,7 +215397,7 @@ When the combat chain closes, if you've attacked with this, banish it.
             productId: "483624",
             url: "https://www.tcgplayer.com/product/483624?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -215491,7 +215491,7 @@ When the combat chain closes, if you've attacked with this, banish it.
             productId: "483625",
             url: "https://www.tcgplayer.com/product/483625?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -215585,7 +215585,7 @@ When the combat chain closes, if you've attacked with this, banish it.
             productId: "483626",
             url: "https://www.tcgplayer.com/product/483626?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -215724,7 +215724,7 @@ When the combat chain closes, if you've attacked with this, banish it.
             productId: "238538",
             url: "https://www.tcgplayer.com/product/238538?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -215993,7 +215993,7 @@ When this hits, put it into your soul and draw 2 cards.
             productId: "502745",
             url: "https://www.tcgplayer.com/product/502745?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Alexander Mokhov"],
       edition: ReleaseEdition.Unlimited,
@@ -216083,7 +216083,7 @@ When this hits, put it into your soul and draw 2 cards.
             productId: "251878",
             url: "https://www.tcgplayer.com/product/251878?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -216178,7 +216178,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
             productId: "502747",
             url: "https://www.tcgplayer.com/product/502747?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Simon Wong"],
       edition: ReleaseEdition.Unlimited,
@@ -216268,7 +216268,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
             productId: "264817",
             url: "https://www.tcgplayer.com/product/264817?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
@@ -216361,7 +216361,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
             productId: "502748",
             url: "https://www.tcgplayer.com/product/502748?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Simon Wong"],
       edition: ReleaseEdition.Unlimited,
@@ -216436,7 +216436,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
             productId: "264819",
             url: "https://www.tcgplayer.com/product/264819?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
@@ -216529,7 +216529,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
             productId: "502749",
             url: "https://www.tcgplayer.com/product/502749?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Simon Wong"],
       edition: ReleaseEdition.Unlimited,
@@ -216619,7 +216619,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
             productId: "264818",
             url: "https://www.tcgplayer.com/product/264818?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
@@ -216697,7 +216697,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
             productId: "502750",
             url: "https://www.tcgplayer.com/product/502750?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Jessada Sutthi"],
       edition: ReleaseEdition.Unlimited,
@@ -216787,7 +216787,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
             productId: "501481",
             url: "https://www.tcgplayer.com/product/501481?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
@@ -216853,7 +216853,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
             productId: "502752",
             url: "https://www.tcgplayer.com/product/502752?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Jessada Sutthi"],
       edition: ReleaseEdition.Unlimited,
@@ -216928,7 +216928,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
             productId: "501482",
             url: "https://www.tcgplayer.com/product/501482?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
@@ -217006,7 +217006,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
             productId: "502754",
             url: "https://www.tcgplayer.com/product/502754?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Jessada Sutthi"],
       edition: ReleaseEdition.Unlimited,
@@ -217096,7 +217096,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
             productId: "501483",
             url: "https://www.tcgplayer.com/product/501483?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
@@ -217162,7 +217162,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
             productId: "502755",
             url: "https://www.tcgplayer.com/product/502755?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Daria Khlebnikova"],
       edition: ReleaseEdition.Unlimited,
@@ -217252,7 +217252,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
             productId: "278916",
             url: "https://www.tcgplayer.com/product/278916?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
@@ -217318,7 +217318,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
             productId: "502757",
             url: "https://www.tcgplayer.com/product/502757?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Daria Khlebnikova"],
       edition: ReleaseEdition.Unlimited,
@@ -217393,7 +217393,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
             productId: "278917",
             url: "https://www.tcgplayer.com/product/278917?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
@@ -217459,7 +217459,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
             productId: "502758",
             url: "https://www.tcgplayer.com/product/502758?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Daria Khlebnikova"],
       edition: ReleaseEdition.Unlimited,
@@ -217549,7 +217549,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
             productId: "278918",
             url: "https://www.tcgplayer.com/product/278918?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
@@ -217645,7 +217645,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
             productId: "670727",
             url: "https://www.tcgplayer.com/product/670727?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -217711,7 +217711,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
             productId: "502759",
             url: "https://www.tcgplayer.com/product/502759?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Nathaniel Himawan"],
       edition: ReleaseEdition.Unlimited,
@@ -217801,7 +217801,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
             productId: "514106",
             url: "https://www.tcgplayer.com/product/514106?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
@@ -217869,7 +217869,7 @@ When this hits, put it into your soul.
             productId: "502761",
             url: "https://www.tcgplayer.com/product/502761?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Nathaniel Himawan"],
       edition: ReleaseEdition.Unlimited,
@@ -217944,7 +217944,7 @@ When this hits, put it into your soul.
             productId: "514107",
             url: "https://www.tcgplayer.com/product/514107?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
@@ -218012,7 +218012,7 @@ When this hits, put it into your soul.
             productId: "502762",
             url: "https://www.tcgplayer.com/product/502762?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Nathaniel Himawan"],
       edition: ReleaseEdition.Unlimited,
@@ -218102,7 +218102,7 @@ When this hits, put it into your soul.
             productId: "514108",
             url: "https://www.tcgplayer.com/product/514108?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
@@ -218182,7 +218182,7 @@ When this hits, put it into your soul.
             productId: "502763",
             url: "https://www.tcgplayer.com/product/502763?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Sam Yang"],
       edition: ReleaseEdition.Unlimited,
@@ -218257,7 +218257,7 @@ When this hits, put it into your soul.
             productId: "514125",
             url: "https://www.tcgplayer.com/product/514125?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -218340,7 +218340,7 @@ When this hits, put it into your soul.
             productId: "502764",
             url: "https://www.tcgplayer.com/product/502764?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Sam Yang"],
       edition: ReleaseEdition.Unlimited,
@@ -218415,7 +218415,7 @@ When this hits, put it into your soul.
             productId: "514127",
             url: "https://www.tcgplayer.com/product/514127?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -218510,7 +218510,7 @@ When this hits, put it into your soul.
             productId: "502766",
             url: "https://www.tcgplayer.com/product/502766?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Sam Yang"],
       edition: ReleaseEdition.Unlimited,
@@ -218585,7 +218585,7 @@ When this hits, put it into your soul.
             productId: "514131",
             url: "https://www.tcgplayer.com/product/514131?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -218859,7 +218859,7 @@ Create a Toughness token.
             productId: "654173",
             url: "https://www.tcgplayer.com/product/654173?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Rainbow,
@@ -218874,7 +218874,7 @@ Create a Toughness token.
             productId: "654173",
             url: "https://www.tcgplayer.com/product/654173?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -219251,7 +219251,7 @@ Create a Toughness token.
             productId: "706647",
             url: "https://www.tcgplayer.com/product/706647?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Basic],
     rarity: Rarity.Basic,
@@ -219458,7 +219458,7 @@ Whenever this attacks, it deals damage to you equal to 6 minus the number of car
             productId: "565214",
             url: "https://www.tcgplayer.com/product/565214?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -219617,7 +219617,7 @@ Whenever this attacks, it deals damage to you equal to 6 minus the number of car
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -220496,7 +220496,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
             productId: "226007",
             url: "https://www.tcgplayer.com/product/226007?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -220622,7 +220622,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
             productId: "226008",
             url: "https://www.tcgplayer.com/product/226008?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -220748,7 +220748,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
             productId: "226009",
             url: "https://www.tcgplayer.com/product/226009?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -220844,7 +220844,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
             productId: "261502",
             url: "https://www.tcgplayer.com/product/261502?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -220940,7 +220940,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
             productId: "261503",
             url: "https://www.tcgplayer.com/product/261503?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -221036,7 +221036,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
             productId: "261504",
             url: "https://www.tcgplayer.com/product/261504?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -221211,7 +221211,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
             productId: "549747",
             url: "https://www.tcgplayer.com/product/549747?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -221307,7 +221307,7 @@ If you've pitched a blue card this turn, create a Slither in your hand.`,
             productId: "549748",
             url: "https://www.tcgplayer.com/product/549748?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -221403,7 +221403,7 @@ If you've pitched a blue card this turn, create a Slither in your hand.`,
             productId: "549758",
             url: "https://www.tcgplayer.com/product/549758?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -222054,7 +222054,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
             productId: "577184",
             url: "https://www.tcgplayer.com/product/577184?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -222148,7 +222148,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
             productId: "577192",
             url: "https://www.tcgplayer.com/product/577192?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -222242,7 +222242,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
             productId: "577194",
             url: "https://www.tcgplayer.com/product/577194?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -222336,7 +222336,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
             productId: "633625",
             url: "https://www.tcgplayer.com/product/633625?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -222432,7 +222432,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
             productId: "633626",
             url: "https://www.tcgplayer.com/product/633626?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -222528,7 +222528,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
             productId: "633627",
             url: "https://www.tcgplayer.com/product/633627?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -222972,7 +222972,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
             productId: "637483",
             url: "https://www.tcgplayer.com/product/637483?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -223574,7 +223574,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
             productId: "678570",
             url: "https://www.tcgplayer.com/product/678570?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Tomasz Jedruszek"],
       foiling: Foiling.Cold,
@@ -223589,7 +223589,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
             productId: "678570",
             url: "https://www.tcgplayer.com/product/678570?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -223920,7 +223920,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
             productId: "546705",
             url: "https://www.tcgplayer.com/product/546705?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["寿多浩 (Hiro Suda)"],
       
@@ -223950,7 +223950,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
             productId: "555733",
             url: "https://www.tcgplayer.com/product/555733?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
@@ -224459,7 +224459,7 @@ If it has 3 or more +1{p} counters, you may put an attack reaction card from you
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -225070,7 +225070,7 @@ If it has 3 or more +1{p} counters, you may put an attack reaction card from you
             productId: "653957",
             url: "https://www.tcgplayer.com/product/653957?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -225232,7 +225232,7 @@ When this attacks, it gets the base abilities of the last attack action card wit
             productId: "648076",
             url: "https://www.tcgplayer.com/product/648076?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -226147,7 +226147,7 @@ The next attack action card you play this turn gets +1{p}.
             productId: "678639",
             url: "https://www.tcgplayer.com/product/678639?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Tomasz Jedruszek"],
       foiling: Foiling.Rainbow,
@@ -226162,7 +226162,7 @@ The next attack action card you play this turn gets +1{p}.
             productId: "678639",
             url: "https://www.tcgplayer.com/product/678639?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -226256,7 +226256,7 @@ The next attack action card you play this turn gets +1{p}.
             productId: "654176",
             url: "https://www.tcgplayer.com/product/654176?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Jackson Tjota"],
       foiling: Foiling.Rainbow,
@@ -226271,7 +226271,7 @@ The next attack action card you play this turn gets +1{p}.
             productId: "654176",
             url: "https://www.tcgplayer.com/product/654176?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -226394,7 +226394,7 @@ The next attack action card you play this turn gets +1{p}.
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -226631,7 +226631,7 @@ The next attack action card you play this turn gets +1{p}.
             productId: "284987",
             url: "https://www.tcgplayer.com/product/284987?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
@@ -226793,7 +226793,7 @@ If this is attacking an infected hero, this gets +1{p}.
             productId: "261377",
             url: "https://www.tcgplayer.com/product/261377?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -226889,7 +226889,7 @@ If this is attacking an infected hero, this gets +1{p}.
             productId: "261376",
             url: "https://www.tcgplayer.com/product/261376?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -226985,7 +226985,7 @@ If this is attacking an infected hero, this gets +1{p}.
             productId: "261375",
             url: "https://www.tcgplayer.com/product/261375?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -227081,7 +227081,7 @@ If this is attacking an infected hero, this gets +1{p}.
             productId: "514112",
             url: "https://www.tcgplayer.com/product/514112?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -227179,7 +227179,7 @@ When this hits a hero, banish a card from their soul.
             productId: "514113",
             url: "https://www.tcgplayer.com/product/514113?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -227277,7 +227277,7 @@ When this hits a hero, banish a card from their soul.
             productId: "514114",
             url: "https://www.tcgplayer.com/product/514114?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -227738,7 +227738,7 @@ When this hits a hero, banish a card from their soul.
             productId: "666548",
             url: "https://www.tcgplayer.com/product/666548?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.SuperRare],
     rarity: Rarity.SuperRare,
@@ -228092,7 +228092,7 @@ When this leaves the arena, gain 3{h}.`,
             productId: "616349",
             url: "https://www.tcgplayer.com/product/616349?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Nathaniel Himawan"],
       foiling: Foiling.Rainbow,
@@ -228107,7 +228107,7 @@ When this leaves the arena, gain 3{h}.`,
             productId: "616349",
             url: "https://www.tcgplayer.com/product/616349?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -228231,7 +228231,7 @@ When this leaves the arena, gain 3{h}.`,
             productId: "616350",
             url: "https://www.tcgplayer.com/product/616350?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Sariya Asavametha"],
       foiling: Foiling.Rainbow,
@@ -228246,7 +228246,7 @@ When this leaves the arena, gain 3{h}.`,
             productId: "616350",
             url: "https://www.tcgplayer.com/product/616350?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -228344,7 +228344,7 @@ If this is attacking a **marked** hero, this gets +2{p}.
             productId: "614576",
             url: "https://www.tcgplayer.com/product/614576?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -229344,7 +229344,7 @@ When this attacks, if it **scrapped** a card, this gets **overpower**.`,
             productId: "648464",
             url: "https://www.tcgplayer.com/product/648464?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Alexander Mokhov"],
       foiling: Foiling.Cold,
@@ -229374,7 +229374,7 @@ When this attacks, if it **scrapped** a card, this gets **overpower**.`,
             productId: "648464",
             url: "https://www.tcgplayer.com/product/648464?Language=English&Printing=Normal"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
@@ -229908,7 +229908,7 @@ Once per turn, when you **boost** a card, remove a steam counter from this and g
             productId: "678624",
             url: "https://www.tcgplayer.com/product/678624?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Grégory Nunkovics"],
       foiling: Foiling.Rainbow,
@@ -229923,7 +229923,7 @@ Once per turn, when you **boost** a card, remove a steam counter from this and g
             productId: "678624",
             url: "https://www.tcgplayer.com/product/678624?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -230247,7 +230247,7 @@ When this attacks, it gets +X{p}. If 3 or more Hyper Drivers were banished to pl
             productId: "517774",
             url: "https://www.tcgplayer.com/product/517774?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["soyameii"],
       foiling: Foiling.Gold,
@@ -230804,7 +230804,7 @@ At the beginning of your end phase, destroy this.`,
             productId: "286938",
             url: "https://www.tcgplayer.com/product/286938?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -231941,7 +231941,7 @@ Deal 1 arcane damage to any target. If this was **fused** and deals damage to a 
             productId: "614578",
             url: "https://www.tcgplayer.com/product/614578?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -233652,7 +233652,7 @@ Whenever this banishes a reaction or instant card, gain 1{h}.`,
             productId: "678171",
             url: "https://www.tcgplayer.com/product/678171?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -234078,7 +234078,7 @@ Target weapon attack gets +1{p}.`,
             productId: "616362",
             url: "https://www.tcgplayer.com/product/616362?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Nailsen Ivanderlie"],
       foiling: Foiling.Rainbow,
@@ -234093,7 +234093,7 @@ Target weapon attack gets +1{p}.`,
             productId: "616362",
             url: "https://www.tcgplayer.com/product/616362?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -235393,7 +235393,7 @@ If it has 3 or more +1{p} counters, your next attack with it this turn gets "Whe
             productId: "495532",
             url: "https://www.tcgplayer.com/product/495532?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Basic,
@@ -236004,7 +236004,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
             productId: "692557",
             url: "https://www.tcgplayer.com/product/692557?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -236130,7 +236130,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
             productId: "692558",
             url: "https://www.tcgplayer.com/product/692558?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -236241,7 +236241,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
             productId: "692559",
             url: "https://www.tcgplayer.com/product/692559?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -236670,7 +236670,7 @@ When this hits a hero, banish the top card of their deck. You may play it until 
             productId: "275725",
             url: "https://www.tcgplayer.com/product/275725?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Henrique Lindner"],
       
@@ -237685,7 +237685,7 @@ When this hits a hero, banish the top card of their deck. You may play it until 
             productId: "552803",
             url: "https://www.tcgplayer.com/product/552803?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Cold,
@@ -237700,7 +237700,7 @@ When this hits a hero, banish the top card of their deck. You may play it until 
             productId: "551478",
             url: "https://www.tcgplayer.com/product/551478?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Cold,
@@ -237715,7 +237715,7 @@ When this hits a hero, banish the top card of their deck. You may play it until 
             productId: "546702",
             url: "https://www.tcgplayer.com/product/546702?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Cold,
@@ -237730,7 +237730,7 @@ When this hits a hero, banish the top card of their deck. You may play it until 
             productId: "551522",
             url: "https://www.tcgplayer.com/product/551522?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Cold,
@@ -237745,7 +237745,7 @@ When this hits a hero, banish the top card of their deck. You may play it until 
             productId: "546705",
             url: "https://www.tcgplayer.com/product/546705?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Cold,
@@ -237760,7 +237760,7 @@ When this hits a hero, banish the top card of their deck. You may play it until 
             productId: "551525",
             url: "https://www.tcgplayer.com/product/551525?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Cold,
@@ -237775,7 +237775,7 @@ When this hits a hero, banish the top card of their deck. You may play it until 
             productId: "551527",
             url: "https://www.tcgplayer.com/product/551527?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Cold,
@@ -237790,7 +237790,7 @@ When this hits a hero, banish the top card of their deck. You may play it until 
             productId: "551528",
             url: "https://www.tcgplayer.com/product/551528?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Cold,
@@ -237805,7 +237805,7 @@ When this hits a hero, banish the top card of their deck. You may play it until 
             productId: "546703",
             url: "https://www.tcgplayer.com/product/546703?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Cold,
@@ -237820,7 +237820,7 @@ When this hits a hero, banish the top card of their deck. You may play it until 
             productId: "551531",
             url: "https://www.tcgplayer.com/product/551531?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Cold,
@@ -237835,7 +237835,7 @@ When this hits a hero, banish the top card of their deck. You may play it until 
             productId: "546704",
             url: "https://www.tcgplayer.com/product/546704?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Carlos Cruchaga"],
       
@@ -239968,7 +239968,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
             productId: "257326",
             url: "https://www.tcgplayer.com/product/257326?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -240094,7 +240094,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
             productId: "257327",
             url: "https://www.tcgplayer.com/product/257327?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -240220,7 +240220,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
             productId: "257328",
             url: "https://www.tcgplayer.com/product/257328?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -240644,7 +240644,7 @@ const cards4: Card[] = [{
             productId: "274396",
             url: "https://www.tcgplayer.com/product/274396?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -240723,7 +240723,7 @@ const cards4: Card[] = [{
             productId: "274746",
             url: "https://www.tcgplayer.com/product/274746?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -240802,7 +240802,7 @@ const cards4: Card[] = [{
             productId: "274331",
             url: "https://www.tcgplayer.com/product/274331?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -240883,7 +240883,7 @@ const cards4: Card[] = [{
             productId: "274437",
             url: "https://www.tcgplayer.com/product/274437?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -240964,7 +240964,7 @@ const cards4: Card[] = [{
             productId: "274399",
             url: "https://www.tcgplayer.com/product/274399?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -241043,7 +241043,7 @@ const cards4: Card[] = [{
             productId: "278400",
             url: "https://www.tcgplayer.com/product/278400?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -241122,7 +241122,7 @@ const cards4: Card[] = [{
             productId: "274510",
             url: "https://www.tcgplayer.com/product/274510?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -241201,7 +241201,7 @@ const cards4: Card[] = [{
             productId: "274400",
             url: "https://www.tcgplayer.com/product/274400?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -241295,7 +241295,7 @@ const cards4: Card[] = [{
             productId: "453406",
             url: "https://www.tcgplayer.com/product/453406?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Legendary,Rarity.Marvel],
     rarity: Rarity.Legendary,
@@ -241378,7 +241378,7 @@ const cards4: Card[] = [{
             productId: "274733",
             url: "https://www.tcgplayer.com/product/274733?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -241457,7 +241457,7 @@ const cards4: Card[] = [{
             productId: "274395",
             url: "https://www.tcgplayer.com/product/274395?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -241538,7 +241538,7 @@ const cards4: Card[] = [{
             productId: "274517",
             url: "https://www.tcgplayer.com/product/274517?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -241617,7 +241617,7 @@ const cards4: Card[] = [{
             productId: "274788",
             url: "https://www.tcgplayer.com/product/274788?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -241711,7 +241711,7 @@ const cards4: Card[] = [{
             productId: "678632",
             url: "https://www.tcgplayer.com/product/678632?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["SanSan"],
       foiling: Foiling.Rainbow,
@@ -241726,7 +241726,7 @@ const cards4: Card[] = [{
             productId: "678632",
             url: "https://www.tcgplayer.com/product/678632?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -242001,7 +242001,7 @@ const cards4: Card[] = [{
             productId: "584709",
             url: "https://www.tcgplayer.com/product/584709?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Daken"],
       foiling: Foiling.Cold,
@@ -242016,7 +242016,7 @@ const cards4: Card[] = [{
             productId: "604263",
             url: "https://www.tcgplayer.com/product/604263?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Daken"],
       foiling: Foiling.Rainbow,
@@ -242031,7 +242031,7 @@ const cards4: Card[] = [{
             productId: "585030",
             url: "https://www.tcgplayer.com/product/585030?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Daken"],
       foiling: Foiling.Cold,
@@ -242046,7 +242046,7 @@ const cards4: Card[] = [{
             productId: "604263",
             url: "https://www.tcgplayer.com/product/604263?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -244045,7 +244045,7 @@ const cards4: Card[] = [{
             productId: "453214",
             url: "https://www.tcgplayer.com/product/453214?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -244248,7 +244248,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
             productId: "225608",
             url: "https://www.tcgplayer.com/product/225608?Language=English&Printing=1st+Edition+Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Anastasiya Grintsova"],
       foiling: Foiling.Rainbow,
@@ -244263,7 +244263,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
             productId: "238410",
             url: "https://www.tcgplayer.com/product/238410?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -244402,7 +244402,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
             productId: "229767",
             url: "https://www.tcgplayer.com/product/229767?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -244571,7 +244571,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
             productId: "238411",
             url: "https://www.tcgplayer.com/product/238411?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -245307,7 +245307,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
             productId: "275711",
             url: "https://www.tcgplayer.com/product/275711?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Steve Argyle"],
       foiling: Foiling.Cold,
@@ -245322,7 +245322,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
             productId: "275711",
             url: "https://www.tcgplayer.com/product/275711?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Steve Argyle"],
       edition: ReleaseEdition.First,
@@ -245722,7 +245722,7 @@ When this hits a hero, {u} an ally they control, then **steal** it until the end
             productId: "528301",
             url: "https://www.tcgplayer.com/product/528301?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
@@ -245788,7 +245788,7 @@ When this hits a hero, {u} an ally they control, then **steal** it until the end
             productId: "528302",
             url: "https://www.tcgplayer.com/product/528302?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
@@ -245854,7 +245854,7 @@ When this hits a hero, {u} an ally they control, then **steal** it until the end
             productId: "528303",
             url: "https://www.tcgplayer.com/product/528303?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
@@ -245950,7 +245950,7 @@ When this hits a hero, {u} an ally they control, then **steal** it until the end
             productId: "618305",
             url: "https://www.tcgplayer.com/product/618305?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -246029,7 +246029,7 @@ When this hits a hero, {u} an ally they control, then **steal** it until the end
             productId: "650308",
             url: "https://www.tcgplayer.com/product/650308?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Federico Musetti"],
       foiling: Foiling.Rainbow,
@@ -246344,7 +246344,7 @@ If you've been cheered this turn, this gets **go again**.`,
             productId: "634069",
             url: "https://www.tcgplayer.com/product/634069?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Tomasz Jedruszek"],
       foiling: Foiling.Rainbow,
@@ -246359,7 +246359,7 @@ If you've been cheered this turn, this gets **go again**.`,
             productId: "634069",
             url: "https://www.tcgplayer.com/product/634069?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -247637,7 +247637,7 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
             productId: "614574",
             url: "https://www.tcgplayer.com/product/614574?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Sariya Asavametha"],
       foiling: Foiling.Gold,
@@ -247718,7 +247718,7 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
             productId: "677678",
             url: "https://www.tcgplayer.com/product/677678?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Alexander Mokhov"],
       foiling: Foiling.Cold,
@@ -247733,7 +247733,7 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
             productId: "677678",
             url: "https://www.tcgplayer.com/product/677678?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Alexander Mokhov"],
       
@@ -248068,7 +248068,7 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
             productId: "536768",
             url: "https://www.tcgplayer.com/product/536768?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["soyameii"],
       foiling: Foiling.Rainbow,
@@ -248179,7 +248179,7 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
             productId: "536760",
             url: "https://www.tcgplayer.com/product/536760?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Alexander Mokhov"],
       foiling: Foiling.Cold,
@@ -248287,7 +248287,7 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
             productId: "677672",
             url: "https://www.tcgplayer.com/product/677672?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Alexander Mokhov"],
       foiling: Foiling.Cold,
@@ -248302,7 +248302,7 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
             productId: "677672",
             url: "https://www.tcgplayer.com/product/677672?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Alexander Mokhov"],
       
@@ -248377,7 +248377,7 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
             productId: "225977",
             url: "https://www.tcgplayer.com/product/225977?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Alexander Mokhov"],
       foiling: Foiling.Cold,
@@ -248898,7 +248898,7 @@ At the beginning of your end phase, if you've attacked 2 or more times with weap
             productId: "226019",
             url: "https://www.tcgplayer.com/product/226019?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Nikolay Moskvin"],
       foiling: Foiling.Cold,
@@ -249022,7 +249022,7 @@ At the beginning of your end phase, if you've attacked 2 or more times with weap
             productId: "536714",
             url: "https://www.tcgplayer.com/product/536714?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Jessada Sutthi"],
       foiling: Foiling.Rainbow,
@@ -249150,7 +249150,7 @@ The first time you discard a card with 6 or more {p} during each of your action 
             productId: "536713",
             url: "https://www.tcgplayer.com/product/536713?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Jessada Sutthi"],
       foiling: Foiling.Cold,
@@ -249403,7 +249403,7 @@ The first time you discard a card with 6 or more {p} during each of your action 
             productId: "653952",
             url: "https://www.tcgplayer.com/product/653952?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Jessada Sutthi"],
       foiling: Foiling.Cold,
@@ -249418,7 +249418,7 @@ The first time you discard a card with 6 or more {p} during each of your action 
             productId: "653952",
             url: "https://www.tcgplayer.com/product/653952?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Jessada Sutthi"],
       foiling: Foiling.Rainbow,
@@ -249513,7 +249513,7 @@ Whenever the crowd boos you, create a Vigor token.`,
             productId: "641660",
             url: "https://www.tcgplayer.com/product/641660?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Jessada Sutthi"],
       foiling: Foiling.Cold,
@@ -249528,7 +249528,7 @@ Whenever the crowd boos you, create a Vigor token.`,
             productId: "641660",
             url: "https://www.tcgplayer.com/product/641660?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Jessada Sutthi"],
       foiling: Foiling.Cold,
@@ -249638,7 +249638,7 @@ Whenever the crowd boos you, create a Vigor token.`,
             productId: "631979",
             url: "https://www.tcgplayer.com/product/631979?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["soyameii"],
       foiling: Foiling.Rainbow,
@@ -249653,7 +249653,7 @@ Whenever the crowd boos you, create a Vigor token.`,
             productId: "636253",
             url: "https://www.tcgplayer.com/product/636253?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Marvel,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -250044,7 +250044,7 @@ If you have no cards in hand, draw a card.`,
             productId: "630334",
             url: "https://www.tcgplayer.com/product/630334?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -250123,7 +250123,7 @@ If you have no cards in hand, draw a card.`,
             productId: "624369",
             url: "https://www.tcgplayer.com/product/624369?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -250217,7 +250217,7 @@ If you have no cards in hand, draw a card.`,
             productId: "614580",
             url: "https://www.tcgplayer.com/product/614580?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -250313,7 +250313,7 @@ When this hits a hero, they lose 1{h}.`,
             productId: "262959",
             url: "https://www.tcgplayer.com/product/262959?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -250658,7 +250658,7 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
             productId: "680608",
             url: "https://www.tcgplayer.com/product/680608?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Tomasz Jedruszek"],
       foiling: Foiling.Rainbow,
@@ -250673,7 +250673,7 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
             productId: "680608",
             url: "https://www.tcgplayer.com/product/680608?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -251202,7 +251202,7 @@ If you've hit with a dagger this combat chain, this gets **go again**.`,
             productId: "551509",
             url: "https://www.tcgplayer.com/product/551509?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Asur Misoa"],
       
@@ -251627,7 +251627,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from an effe
             productId: "274399",
             url: "https://www.tcgplayer.com/product/274399?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -251751,7 +251751,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from an effe
             productId: "492728",
             url: "https://www.tcgplayer.com/product/492728?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -251877,7 +251877,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from an effe
             productId: "492729",
             url: "https://www.tcgplayer.com/product/492729?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -252003,7 +252003,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from an effe
             productId: "492730",
             url: "https://www.tcgplayer.com/product/492730?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -252538,7 +252538,7 @@ While Barthimont is face-up in arsenal, whenever you play an attack action card,
             productId: "618308",
             url: "https://www.tcgplayer.com/product/618308?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -253228,7 +253228,7 @@ While Barthimont is face-up in arsenal, whenever you play an attack action card,
             productId: "677604",
             url: "https://www.tcgplayer.com/product/677604?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -253430,7 +253430,7 @@ While Barthimont is face-up in arsenal, whenever you play an attack action card,
             productId: "706924",
             url: "https://www.tcgplayer.com/product/706924?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
@@ -255856,7 +255856,7 @@ When this hits a hero, banish the top card of their deck and up to 1 card in the
             productId: "653238",
             url: "https://www.tcgplayer.com/product/653238?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -255954,7 +255954,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
             productId: "664630",
             url: "https://www.tcgplayer.com/product/664630?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -256817,7 +256817,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
             productId: "225814",
             url: "https://www.tcgplayer.com/product/225814?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
@@ -256994,7 +256994,7 @@ If this deals damage, you may search your deck for a Wizard card with cost less 
             productId: "551660",
             url: "https://www.tcgplayer.com/product/551660?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -257076,7 +257076,7 @@ If this deals damage, you may search your deck for a Wizard card with cost less 
             productId: "706643",
             url: "https://www.tcgplayer.com/product/706643?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["SanSan"],
       foiling: Foiling.Cold,
@@ -257091,7 +257091,7 @@ If this deals damage, you may search your deck for a Wizard card with cost less 
             productId: "706643",
             url: "https://www.tcgplayer.com/product/706643?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Wisnu Tan"],
       
@@ -257245,7 +257245,7 @@ If this deals damage, you may search your deck for a Wizard card with cost less 
             productId: "504524",
             url: "https://www.tcgplayer.com/product/504524?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Legendary,Rarity.Marvel],
     rarity: Rarity.Legendary,
@@ -257397,7 +257397,7 @@ Cards you own lose **blood debt**.`,
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Wisnu Tan"],
       foiling: Foiling.Cold,
@@ -257409,7 +257409,7 @@ Cards you own lose **blood debt**.`,
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
@@ -257473,7 +257473,7 @@ Cards you own lose **blood debt**.`,
             productId: "677682",
             url: "https://www.tcgplayer.com/product/677682?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Federico Musetti"],
       foiling: Foiling.Cold,
@@ -257488,7 +257488,7 @@ Cards you own lose **blood debt**.`,
             productId: "677682",
             url: "https://www.tcgplayer.com/product/677682?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Federico Musetti"],
       edition: ReleaseEdition.Unlimited,
@@ -257752,7 +257752,7 @@ Cards you own lose **blood debt**.`,
             productId: "646856",
             url: "https://www.tcgplayer.com/product/646856?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Legendary,Rarity.Marvel],
     rarity: Rarity.Legendary,
@@ -257833,7 +257833,7 @@ When this enters the arena and whenever you deal damage, create a Seismic Surge 
             productId: "661915",
             url: "https://www.tcgplayer.com/product/661915?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Grégory Nunkovics"],
       foiling: Foiling.Rainbow,
@@ -257848,7 +257848,7 @@ When this enters the arena and whenever you deal damage, create a Seismic Surge 
             productId: "657795",
             url: "https://www.tcgplayer.com/product/657795?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.SuperRare],
     rarity: Rarity.SuperRare,
@@ -258353,7 +258353,7 @@ When this is played, if you have less {h} than an opposing hero, it gets **go ag
             productId: "260136",
             url: "https://www.tcgplayer.com/product/260136?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -258453,7 +258453,7 @@ When this is played, if you have less {h} than an opposing hero, it gets **go ag
             productId: "260137",
             url: "https://www.tcgplayer.com/product/260137?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -258553,7 +258553,7 @@ When this is played, if you have less {h} than an opposing hero, it gets **go ag
             productId: "260138",
             url: "https://www.tcgplayer.com/product/260138?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -259299,7 +259299,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
             productId: "696209",
             url: "https://www.tcgplayer.com/product/696209?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Jefrey Yonathan"],
       foiling: Foiling.Rainbow,
@@ -259314,7 +259314,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
             productId: "696209",
             url: "https://www.tcgplayer.com/product/696209?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -259536,7 +259536,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
             productId: "682889",
             url: "https://www.tcgplayer.com/product/682889?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Alifka Hammam"],
       foiling: Foiling.Cold,
@@ -259551,7 +259551,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
             productId: "682883",
             url: "https://www.tcgplayer.com/product/682883?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Alifka Hammam"],
       foiling: Foiling.Cold,
@@ -259566,7 +259566,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
             productId: "682884",
             url: "https://www.tcgplayer.com/product/682884?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Alifka Hammam"],
       foiling: Foiling.Cold,
@@ -259581,7 +259581,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
             productId: "682858",
             url: "https://www.tcgplayer.com/product/682858?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Alifka Hammam"],
       foiling: Foiling.Rainbow,
@@ -259596,7 +259596,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
             productId: "701608",
             url: "https://www.tcgplayer.com/product/701608?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },{
         artists: ["Alifka Hammam"],
       foiling: Foiling.Rainbow,
@@ -259611,7 +259611,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
             productId: "701606",
             url: "https://www.tcgplayer.com/product/701606?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.AB,Treatment.EA],
     },{
         artists: ["Alifka Hammam"],
       foiling: Foiling.Rainbow,
@@ -259626,7 +259626,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
             productId: "701607",
             url: "https://www.tcgplayer.com/product/701607?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
@@ -259750,7 +259750,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
             productId: "585025",
             url: "https://www.tcgplayer.com/product/585025?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -260418,7 +260418,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
             productId: "584723",
             url: "https://www.tcgplayer.com/product/584723?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -261303,7 +261303,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
             productId: "631981",
             url: "https://www.tcgplayer.com/product/631981?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Tomasz Jedruszek"],
       
@@ -261333,7 +261333,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
             productId: "636254",
             url: "https://www.tcgplayer.com/product/636254?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Marvel,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -261866,7 +261866,7 @@ When this hits a hero, **the crowd boos** you.`,
             productId: "529318",
             url: "https://www.tcgplayer.com/product/529318?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -261960,7 +261960,7 @@ When this hits a hero, **the crowd boos** you.`,
             productId: "529319",
             url: "https://www.tcgplayer.com/product/529319?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -262069,7 +262069,7 @@ When this hits a hero, **the crowd boos** you.`,
             productId: "532017",
             url: "https://www.tcgplayer.com/product/532017?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -262479,7 +262479,7 @@ When this hits a hero, **the crowd boos** you.`,
             productId: "631984",
             url: "https://www.tcgplayer.com/product/631984?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -262675,7 +262675,7 @@ When this hits a hero, if you control an Orbitoclast, they lose all hero card ab
             productId: "225625",
             url: "https://www.tcgplayer.com/product/225625?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -262788,7 +262788,7 @@ If you've **boosted** this turn, **opt 1**.
             productId: "225626",
             url: "https://www.tcgplayer.com/product/225626?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -262901,7 +262901,7 @@ If you've **boosted** this turn, **opt 1**.
             productId: "225627",
             url: "https://www.tcgplayer.com/product/225627?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -263364,7 +263364,7 @@ If you've **boosted** this turn, **opt 1**.
             productId: "618304",
             url: "https://www.tcgplayer.com/product/618304?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -263666,7 +263666,7 @@ If you've **boosted** this turn, **opt 1**.
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -263853,7 +263853,7 @@ If you've **boosted** this turn, **opt 1**.
             productId: "678581",
             url: "https://www.tcgplayer.com/product/678581?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Kevin Sidharta"],
       foiling: Foiling.Rainbow,
@@ -263868,7 +263868,7 @@ If you've **boosted** this turn, **opt 1**.
             productId: "637489",
             url: "https://www.tcgplayer.com/product/637489?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -264120,7 +264120,7 @@ If you've **boosted** this turn, **opt 1**.
             productId: "454268",
             url: "https://www.tcgplayer.com/product/454268?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -264216,7 +264216,7 @@ At the beginning of your end phase, remove a doom counter from this. If you do, 
             productId: "654163",
             url: "https://www.tcgplayer.com/product/654163?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Faizal Fikri"],
       foiling: Foiling.Rainbow,
@@ -264231,7 +264231,7 @@ At the beginning of your end phase, remove a doom counter from this. If you do, 
             productId: "654163",
             url: "https://www.tcgplayer.com/product/654163?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -264327,7 +264327,7 @@ At the beginning of your end phase, remove a doom counter from this. If you do, 
             productId: "654165",
             url: "https://www.tcgplayer.com/product/654165?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Nikolay Moskvin"],
       foiling: Foiling.Rainbow,
@@ -264342,7 +264342,7 @@ At the beginning of your end phase, remove a doom counter from this. If you do, 
             productId: "654165",
             url: "https://www.tcgplayer.com/product/654165?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -264730,7 +264730,7 @@ While Sutcliffe is face-up in arsenal, whenever you play a non-attack action car
             productId: "633642",
             url: "https://www.tcgplayer.com/product/633642?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -264824,7 +264824,7 @@ While Sutcliffe is face-up in arsenal, whenever you play a non-attack action car
             productId: "654178",
             url: "https://www.tcgplayer.com/product/654178?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Tomasz Jedruszek"],
       foiling: Foiling.Rainbow,
@@ -264839,7 +264839,7 @@ While Sutcliffe is face-up in arsenal, whenever you play a non-attack action car
             productId: "654178",
             url: "https://www.tcgplayer.com/product/654178?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -264933,7 +264933,7 @@ While Sutcliffe is face-up in arsenal, whenever you play a non-attack action car
             productId: "614552",
             url: "https://www.tcgplayer.com/product/614552?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -265027,7 +265027,7 @@ While Sutcliffe is face-up in arsenal, whenever you play a non-attack action car
             productId: "634061",
             url: "https://www.tcgplayer.com/product/634061?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Nailsen Ivanderlie"],
       foiling: Foiling.Rainbow,
@@ -265042,7 +265042,7 @@ While Sutcliffe is face-up in arsenal, whenever you play a non-attack action car
             productId: "634061",
             url: "https://www.tcgplayer.com/product/634061?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -265181,7 +265181,7 @@ While Sutcliffe is face-up in arsenal, whenever you play a non-attack action car
             productId: "238540",
             url: "https://www.tcgplayer.com/product/238540?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -265424,7 +265424,7 @@ If you've **charged** this turn, you may attack with each weapon you control an 
             productId: "648066",
             url: "https://www.tcgplayer.com/product/648066?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -266344,7 +266344,7 @@ If there is a yellow card in your pitch zone, your Illusionist attacks get **go 
             productId: "653954",
             url: "https://www.tcgplayer.com/product/653954?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Nathaniel Himawan"],
       foiling: Foiling.Cold,
@@ -266359,7 +266359,7 @@ If there is a yellow card in your pitch zone, your Illusionist attacks get **go 
             productId: "653954",
             url: "https://www.tcgplayer.com/product/653954?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Nathaniel Himawan"],
       foiling: Foiling.Rainbow,
@@ -266454,7 +266454,7 @@ Whenever the crowd boos you, create a Might token.`,
             productId: "641661",
             url: "https://www.tcgplayer.com/product/641661?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Nathaniel Himawan"],
       foiling: Foiling.Cold,
@@ -266469,7 +266469,7 @@ Whenever the crowd boos you, create a Might token.`,
             productId: "641661",
             url: "https://www.tcgplayer.com/product/641661?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Nathaniel Himawan"],
       foiling: Foiling.Cold,
@@ -266705,7 +266705,7 @@ Whenever the crowd boos you, create a Might token.`,
             productId: "262961",
             url: "https://www.tcgplayer.com/product/262961?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
@@ -266829,7 +266829,7 @@ Whenever the crowd boos you, create a Might token.`,
             productId: "262962",
             url: "https://www.tcgplayer.com/product/262962?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
@@ -266893,7 +266893,7 @@ Whenever the crowd boos you, create a Might token.`,
             productId: "676760",
             url: "https://www.tcgplayer.com/product/676760?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Marco Wulfr"],
       
@@ -266998,7 +266998,7 @@ Whenever the crowd boos you, create a Might token.`,
             productId: "262963",
             url: "https://www.tcgplayer.com/product/262963?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
@@ -267629,7 +267629,7 @@ When this hits a Runeblade or Wizard hero, you may destroy an aura they control.
             productId: "706914",
             url: "https://www.tcgplayer.com/product/706914?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Alexandra Malygina"],
       
@@ -268353,7 +268353,7 @@ Once per turn, when you play an attack action card, remove a verse counter from 
             productId: "706661",
             url: "https://www.tcgplayer.com/product/706661?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["João G. Santos"],
       foiling: Foiling.Cold,
@@ -268368,7 +268368,7 @@ Once per turn, when you play an attack action card, remove a verse counter from 
             productId: "706661",
             url: "https://www.tcgplayer.com/product/706661?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel],
     rarity: Rarity.Basic,
@@ -268464,7 +268464,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
             productId: "706940",
             url: "https://www.tcgplayer.com/product/706940?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Ramza Ardyputra"],
       foiling: Foiling.Rainbow,
@@ -268479,7 +268479,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
             productId: "707350",
             url: "https://www.tcgplayer.com/product/707350?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Ramza Ardyputra"],
       foiling: Foiling.Cold,
@@ -268494,7 +268494,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
             productId: "707353",
             url: "https://www.tcgplayer.com/product/707353?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["João G. Santos"],
       foiling: Foiling.Cold,
@@ -268509,7 +268509,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
             productId: "706940",
             url: "https://www.tcgplayer.com/product/706940?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Ramza Ardyputra"],
       foiling: Foiling.Cold,
@@ -268524,7 +268524,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
             productId: "707353",
             url: "https://www.tcgplayer.com/product/707353?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
@@ -268875,7 +268875,7 @@ Damage that would be dealt by this can't be prevented.`,
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Stefano Moroni"],
       foiling: Foiling.Rainbow,
@@ -268887,7 +268887,7 @@ Damage that would be dealt by this can't be prevented.`,
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -269145,7 +269145,7 @@ Damage that would be dealt by this can't be prevented.`,
             productId: "678616",
             url: "https://www.tcgplayer.com/product/678616?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Yunior Susanto"],
       foiling: Foiling.Rainbow,
@@ -269160,7 +269160,7 @@ Damage that would be dealt by this can't be prevented.`,
             productId: "678616",
             url: "https://www.tcgplayer.com/product/678616?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -269906,7 +269906,7 @@ If you've discarded a card with 6 or more {p} this turn, this card's attacks get
             productId: "551645",
             url: "https://www.tcgplayer.com/product/551645?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -270002,7 +270002,7 @@ If you've discarded a card with 6 or more {p} this turn, this card's attacks get
             productId: "616351",
             url: "https://www.tcgplayer.com/product/616351?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Nathaniel Himawan"],
       foiling: Foiling.Rainbow,
@@ -270017,7 +270017,7 @@ If you've discarded a card with 6 or more {p} this turn, this card's attacks get
             productId: "616351",
             url: "https://www.tcgplayer.com/product/616351?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -270427,7 +270427,7 @@ The bound ally gets +1{p} and "Whenever this hits a hero or dies, gain 1{h}."`,
             productId: "238541",
             url: "https://www.tcgplayer.com/product/238541?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -270568,7 +270568,7 @@ The bound ally gets +1{p} and "Whenever this hits a hero or dies, gain 1{h}."`,
             productId: "614975",
             url: "https://www.tcgplayer.com/product/614975?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Rio Sabda"],
       foiling: Foiling.Rainbow,
@@ -270583,7 +270583,7 @@ The bound ally gets +1{p} and "Whenever this hits a hero or dies, gain 1{h}."`,
             productId: "614975",
             url: "https://www.tcgplayer.com/product/614975?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -270931,7 +270931,7 @@ When this hits a **marked** hero, they banish a card from their hand.`,
             productId: "616355",
             url: "https://www.tcgplayer.com/product/616355?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Saad Irfan"],
       foiling: Foiling.Rainbow,
@@ -270946,7 +270946,7 @@ When this hits a **marked** hero, they banish a card from their hand.`,
             productId: "616355",
             url: "https://www.tcgplayer.com/product/616355?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -271488,7 +271488,7 @@ The bound ally gets +1{p} and "Whenever this hits a hero or dies, create a Gate 
             productId: "616356",
             url: "https://www.tcgplayer.com/product/616356?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Kimberly Pantoni"],
       foiling: Foiling.Rainbow,
@@ -271503,7 +271503,7 @@ The bound ally gets +1{p} and "Whenever this hits a hero or dies, create a Gate 
             productId: "616356",
             url: "https://www.tcgplayer.com/product/616356?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -271979,7 +271979,7 @@ When this hits a hero, **mark** them.`,
             productId: "634589",
             url: "https://www.tcgplayer.com/product/634589?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Sam Yang"],
       foiling: Foiling.Cold,
@@ -271994,7 +271994,7 @@ When this hits a hero, **mark** them.`,
             productId: "634589",
             url: "https://www.tcgplayer.com/product/634589?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Sam Yang"],
       foiling: Foiling.Rainbow,
@@ -272090,7 +272090,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
             productId: "624359",
             url: "https://www.tcgplayer.com/product/624359?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Sam Yang"],
       foiling: Foiling.Cold,
@@ -272105,7 +272105,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
             productId: "624359",
             url: "https://www.tcgplayer.com/product/624359?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Sam Yang"],
       foiling: Foiling.Cold,
@@ -272213,7 +272213,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
             productId: "614581",
             url: "https://www.tcgplayer.com/product/614581?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Mark Poole"],
       foiling: Foiling.Gold,
@@ -272772,7 +272772,7 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
             productId: "551607",
             url: "https://www.tcgplayer.com/product/551607?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Isuardi Therianto"],
       foiling: Foiling.Gold,
@@ -273803,7 +273803,7 @@ When this is pitched, you may put a steam counter on an item you control with **
             productId: "226053",
             url: "https://www.tcgplayer.com/product/226053?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Daria Khlebnikova"],
       foiling: Foiling.Cold,
@@ -273818,7 +273818,7 @@ When this is pitched, you may put a steam counter on an item you control with **
             productId: "692560",
             url: "https://www.tcgplayer.com/product/692560?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -273944,7 +273944,7 @@ When this is pitched, you may put a steam counter on an item you control with **
             productId: "226055",
             url: "https://www.tcgplayer.com/product/226055?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Daria Khlebnikova"],
       foiling: Foiling.Cold,
@@ -273959,7 +273959,7 @@ When this is pitched, you may put a steam counter on an item you control with **
             productId: "692561",
             url: "https://www.tcgplayer.com/product/692561?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -274115,7 +274115,7 @@ When this is pitched, you may put a steam counter on an item you control with **
             productId: "226056",
             url: "https://www.tcgplayer.com/product/226056?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Daria Khlebnikova"],
       foiling: Foiling.Cold,
@@ -274130,7 +274130,7 @@ When this is pitched, you may put a steam counter on an item you control with **
             productId: "692562",
             url: "https://www.tcgplayer.com/product/692562?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -274407,7 +274407,7 @@ When this is pitched, you may put a steam counter on an item you control with **
             productId: "678631",
             url: "https://www.tcgplayer.com/product/678631?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Jessada Sutthi"],
       foiling: Foiling.Cold,
@@ -274422,7 +274422,7 @@ When this is pitched, you may put a steam counter on an item you control with **
             productId: "678631",
             url: "https://www.tcgplayer.com/product/678631?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -274996,7 +274996,7 @@ Hyper Drivers you control get **crank**.`,
             productId: "226063",
             url: "https://www.tcgplayer.com/product/226063?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -275137,7 +275137,7 @@ If you've dealt arcane damage to an opposing hero this turn, this gets **go agai
             productId: "226066",
             url: "https://www.tcgplayer.com/product/226066?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -275278,7 +275278,7 @@ If you've dealt arcane damage to an opposing hero this turn, this gets **go agai
             productId: "226068",
             url: "https://www.tcgplayer.com/product/226068?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -275389,7 +275389,7 @@ If you've dealt arcane damage to an opposing hero this turn, this gets **go agai
             productId: "528298",
             url: "https://www.tcgplayer.com/product/528298?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -275483,7 +275483,7 @@ If you've dealt arcane damage to an opposing hero this turn, this gets **go agai
             productId: "528299",
             url: "https://www.tcgplayer.com/product/528299?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -275592,7 +275592,7 @@ If you've dealt arcane damage to an opposing hero this turn, this gets **go agai
             productId: "528300",
             url: "https://www.tcgplayer.com/product/528300?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -275915,7 +275915,7 @@ When this hits a hero, choose 1 at random;
             productId: "532013",
             url: "https://www.tcgplayer.com/product/532013?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -276887,7 +276887,7 @@ If it has an aim counter, it gets "When this hits a hero, destroy a 1H weapon th
             productId: "453200",
             url: "https://www.tcgplayer.com/product/453200?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -277706,7 +277706,7 @@ Whenever you pitch a Chi, you may have this get **ward 3** until end of turn.`,
             productId: "701604",
             url: "https://www.tcgplayer.com/product/701604?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -278030,7 +278030,7 @@ When this hits, you may put an item with cost 1 or less from your hand into the 
             productId: "502739",
             url: "https://www.tcgplayer.com/product/502739?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -278298,7 +278298,7 @@ The first time you activate this each turn, gain 1 action point.`,
             productId: "678574",
             url: "https://www.tcgplayer.com/product/678574?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Sebastian Giacobino"],
       foiling: Foiling.Cold,
@@ -278313,7 +278313,7 @@ The first time you activate this each turn, gain 1 action point.`,
             productId: "678574",
             url: "https://www.tcgplayer.com/product/678574?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -278436,7 +278436,7 @@ The first time you activate this each turn, gain 1 action point.`,
             productId: "561942",
             url: "https://www.tcgplayer.com/product/561942?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Henrique Lindner"],
       
@@ -278586,7 +278586,7 @@ The first time you activate this each turn, gain 1 action point.`,
             productId: "618264",
             url: "https://www.tcgplayer.com/product/618264?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },],
     rarities: [Rarity.Basic,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Basic,
@@ -279184,7 +279184,7 @@ When this hits a hero, **clash** with them. If you win, destroy the top card of 
             productId: "677632",
             url: "https://www.tcgplayer.com/product/677632?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -279716,7 +279716,7 @@ Whenever this banishes a non-attack action card, gain 1{h}.`,
       rarity: Rarity.Rare,
       set: Release.GEM,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -280490,7 +280490,7 @@ When this attacks, draw a card then discard a random card.`,
             productId: "278400",
             url: "https://www.tcgplayer.com/product/278400?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -281115,7 +281115,7 @@ At the beginning of each end phase, destroy this unless you've pitched, played, 
             productId: "657477",
             url: "https://www.tcgplayer.com/product/657477?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -281226,7 +281226,7 @@ If you've been booed this turn, this gets +4{p}.`,
             productId: "657478",
             url: "https://www.tcgplayer.com/product/657478?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -281337,7 +281337,7 @@ If you've been booed this turn, this gets +3{p}.`,
             productId: "657479",
             url: "https://www.tcgplayer.com/product/657479?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -281796,7 +281796,7 @@ If you control 3 or more auras of suspense, this gets +2{p} and "When this hits 
             productId: "537204",
             url: "https://www.tcgplayer.com/product/537204?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -281892,7 +281892,7 @@ If you control 3 or more auras of suspense, this gets +2{p} and "When this hits 
             productId: "537205",
             url: "https://www.tcgplayer.com/product/537205?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -281988,7 +281988,7 @@ If you control 3 or more auras of suspense, this gets +2{p} and "When this hits 
             productId: "537212",
             url: "https://www.tcgplayer.com/product/537212?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -283032,7 +283032,7 @@ If this has 10 or more {p}, it gets **overpower**.`,
             productId: "631977",
             url: "https://www.tcgplayer.com/product/631977?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Sebastian Giacobino"],
       foiling: Foiling.Rainbow,
@@ -283047,7 +283047,7 @@ If this has 10 or more {p}, it gets **overpower**.`,
             productId: "634064",
             url: "https://www.tcgplayer.com/product/634064?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -284208,7 +284208,7 @@ If this was **fused**, it gets "When this hits a hero, put a card from their ars
             productId: "633628",
             url: "https://www.tcgplayer.com/product/633628?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Pavel Rtishchev (Klaher)"],
       
@@ -285240,7 +285240,7 @@ This card's {p} and {d} are equal to twice the number of cards in your pitch zon
             productId: "633667",
             url: "https://www.tcgplayer.com/product/633667?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -285338,7 +285338,7 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
             productId: "633668",
             url: "https://www.tcgplayer.com/product/633668?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -285436,7 +285436,7 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
             productId: "633669",
             url: "https://www.tcgplayer.com/product/633669?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -285914,7 +285914,7 @@ The first time each hero plays a reaction card this chain link, create a Bloodro
             productId: "502936",
             url: "https://www.tcgplayer.com/product/502936?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Common,
@@ -286670,7 +286670,7 @@ If you've played a non-attack action card this turn, this gets +3{p}.`,
             productId: "705053",
             url: "https://www.tcgplayer.com/product/705053?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -286913,7 +286913,7 @@ If you've played a non-attack action card this turn, this gets +3{p}.`,
             productId: "695299",
             url: "https://www.tcgplayer.com/product/695299?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -286994,7 +286994,7 @@ If you've played a non-attack action card this turn, this gets +3{p}.`,
             productId: "274510",
             url: "https://www.tcgplayer.com/product/274510?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -287536,7 +287536,7 @@ When your hero is dealt damage, destroy this.`,
             productId: "654073",
             url: "https://www.tcgplayer.com/product/654073?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["SanSan"],
       foiling: Foiling.Rainbow,
@@ -287551,7 +287551,7 @@ When your hero is dealt damage, destroy this.`,
             productId: "654073",
             url: "https://www.tcgplayer.com/product/654073?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },{
         artists: ["Mihail Spil-Haufter"],
       edition: ReleaseEdition.Unlimited,foiling: Foiling.Rainbow,
@@ -287691,7 +287691,7 @@ When this is destroyed, destroy all cards in your arsenal.
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Muhammad Fajri"],
       foiling: Foiling.Rainbow,
@@ -287703,7 +287703,7 @@ When this is destroyed, destroy all cards in your arsenal.
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -288274,7 +288274,7 @@ When this is destroyed, destroy all cards in your arsenal.
             productId: "634083",
             url: "https://www.tcgplayer.com/product/634083?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },{
         artists: ["Reza Afshar"],
       foiling: Foiling.Rainbow,
@@ -288289,7 +288289,7 @@ When this is destroyed, destroy all cards in your arsenal.
             productId: "634083",
             url: "https://www.tcgplayer.com/product/634083?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -288712,7 +288712,7 @@ When this is destroyed, destroy all cards in your arsenal.
             productId: "634080",
             url: "https://www.tcgplayer.com/product/634080?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Yiian Kho"],
       foiling: Foiling.Rainbow,
@@ -288727,7 +288727,7 @@ When this is destroyed, destroy all cards in your arsenal.
             productId: "634080",
             url: "https://www.tcgplayer.com/product/634080?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -289148,7 +289148,7 @@ When this is destroyed, destroy all cards in your arsenal.
             productId: "638141",
             url: "https://www.tcgplayer.com/product/638141?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -289242,7 +289242,7 @@ When this is destroyed, destroy all cards in your arsenal.
             productId: "453256",
             url: "https://www.tcgplayer.com/product/453256?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Isuardi Therianto"],
       
@@ -289257,7 +289257,7 @@ When this is destroyed, destroy all cards in your arsenal.
             productId: "680618",
             url: "https://www.tcgplayer.com/product/680618?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -289916,7 +289916,7 @@ When this defends, **clash** with the attacking hero. The winner may choose an a
             productId: "225644",
             url: "https://www.tcgplayer.com/product/225644?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
@@ -290178,7 +290178,7 @@ For each hero, **freeze** up to 1 equipment, item, and ally they control until t
             productId: "633640",
             url: "https://www.tcgplayer.com/product/633640?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -290541,7 +290541,7 @@ The next time an opponent would draw a card from the effect of a Gold token this
             productId: "695300",
             url: "https://www.tcgplayer.com/product/695300?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -291018,7 +291018,7 @@ When this enters the arena, name a card. The named card can't be pitched or play
             productId: "580646",
             url: "https://www.tcgplayer.com/product/580646?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Tatiana Trubnikova"],
       foiling: Foiling.Rainbow,
@@ -291292,7 +291292,7 @@ When this enters the arena, name a card. The named card can't be pitched or play
             productId: "580623",
             url: "https://www.tcgplayer.com/product/580623?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Pavel Chuvin"],
       foiling: Foiling.Rainbow,
@@ -291551,7 +291551,7 @@ When this enters the arena, name a card. The named card can't be pitched or play
             productId: "580621",
             url: "https://www.tcgplayer.com/product/580621?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Alena Marchenko"],
       foiling: Foiling.Rainbow,
@@ -291840,7 +291840,7 @@ When this enters the arena, name a card. The named card can't be pitched or play
             productId: "580622",
             url: "https://www.tcgplayer.com/product/580622?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Alena Marchenko"],
       foiling: Foiling.Rainbow,
@@ -291934,7 +291934,7 @@ When this enters the arena, name a card. The named card can't be pitched or play
             productId: "661912",
             url: "https://www.tcgplayer.com/product/661912?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Grégory Nunkovics"],
       foiling: Foiling.Rainbow,
@@ -291949,7 +291949,7 @@ When this enters the arena, name a card. The named card can't be pitched or play
             productId: "657793",
             url: "https://www.tcgplayer.com/product/657793?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.SuperRare],
     rarity: Rarity.SuperRare,
@@ -292125,7 +292125,7 @@ When this enters the arena, name a card. The named card can't be pitched or play
             productId: "551459",
             url: "https://www.tcgplayer.com/product/551459?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Jessada Sutthi"],
       foiling: Foiling.Rainbow,
@@ -292236,7 +292236,7 @@ When this enters the arena, name a card. The named card can't be pitched or play
             productId: "543928",
             url: "https://www.tcgplayer.com/product/543928?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Jessada Sutthi"],
       foiling: Foiling.Cold,
@@ -292278,7 +292278,7 @@ When this enters the arena, name a card. The named card can't be pitched or play
             productId: "585033",
             url: "https://www.tcgplayer.com/product/585033?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -292560,7 +292560,7 @@ If this was **fused**, it gets +2{p}, **dominate**, and "When this hits a hero, 
             productId: "678588",
             url: "https://www.tcgplayer.com/product/678588?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Mariusz Gandzel"],
       foiling: Foiling.Rainbow,
@@ -292575,7 +292575,7 @@ If this was **fused**, it gets +2{p}, **dominate**, and "When this hits a hero, 
             productId: "555753",
             url: "https://www.tcgplayer.com/product/555753?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -292827,7 +292827,7 @@ If this was **fused**, it gets +2{p}, **dominate**, and "When this hits a hero, 
             productId: "614554",
             url: "https://www.tcgplayer.com/product/614554?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -293305,7 +293305,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
             productId: "225736",
             url: "https://www.tcgplayer.com/product/225736?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common,Rarity.Rare],
     rarity: Rarity.Common,
@@ -293448,7 +293448,7 @@ Create a Runechant token.
             productId: "225737",
             url: "https://www.tcgplayer.com/product/225737?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common,Rarity.Rare],
     rarity: Rarity.Common,
@@ -293591,7 +293591,7 @@ Create a Runechant token.
             productId: "225738",
             url: "https://www.tcgplayer.com/product/225738?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common,Rarity.Rare],
     rarity: Rarity.Common,
@@ -294168,7 +294168,7 @@ Illusionist attack action cards you control get **go again**.
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
@@ -294266,7 +294266,7 @@ Each hero destroys an equipment they control.
             productId: "655922",
             url: "https://www.tcgplayer.com/product/655922?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -294607,7 +294607,7 @@ When this defends, if it has 6 or more {d}, put it on the bottom of its owner's 
             productId: "655919",
             url: "https://www.tcgplayer.com/product/655919?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -295009,7 +295009,7 @@ When this hits a hero, create a Toughness and a Vigor token.`,
             productId: "677681",
             url: "https://www.tcgplayer.com/product/677681?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Alexander Mokhov"],
       foiling: Foiling.Cold,
@@ -295024,7 +295024,7 @@ When this hits a hero, create a Toughness and a Vigor token.`,
             productId: "677681",
             url: "https://www.tcgplayer.com/product/677681?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Alexander Mokhov"],
       edition: ReleaseEdition.Unlimited,
@@ -295478,7 +295478,7 @@ When this hits a hero, create a Toughness and a Vigor token.`,
             productId: "536795",
             url: "https://www.tcgplayer.com/product/536795?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Joseph Qiu"],
       foiling: Foiling.Rainbow,
@@ -295602,7 +295602,7 @@ When this hits a hero, create a Toughness and a Vigor token.`,
             productId: "536790",
             url: "https://www.tcgplayer.com/product/536790?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["João G. Santos"],
       foiling: Foiling.Rainbow,
@@ -295617,7 +295617,7 @@ When this hits a hero, create a Toughness and a Vigor token.`,
             productId: "709156",
             url: "https://www.tcgplayer.com/product/709156?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Joseph Qiu"],
       foiling: Foiling.Cold,
@@ -295723,7 +295723,7 @@ When this hits a hero, create a Toughness and a Vigor token.`,
             productId: "705056",
             url: "https://www.tcgplayer.com/product/705056?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Jessada Sutthi"],
       foiling: Foiling.Cold,
@@ -295738,7 +295738,7 @@ When this hits a hero, create a Toughness and a Vigor token.`,
             productId: "705056",
             url: "https://www.tcgplayer.com/product/705056?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
@@ -296088,7 +296088,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
             productId: "714491",
             url: "https://www.tcgplayer.com/product/714491?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Jefrey Yonathan"],
       foiling: Foiling.Rainbow,
@@ -296103,7 +296103,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
             productId: "714491",
             url: "https://www.tcgplayer.com/product/714491?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -296457,7 +296457,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
             productId: "634084",
             url: "https://www.tcgplayer.com/product/634084?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Thomas Ressuge"],
       foiling: Foiling.Rainbow,
@@ -296472,7 +296472,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
             productId: "634084",
             url: "https://www.tcgplayer.com/product/634084?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -297006,7 +297006,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
             productId: "633679",
             url: "https://www.tcgplayer.com/product/633679?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -297087,7 +297087,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
             productId: "633680",
             url: "https://www.tcgplayer.com/product/633680?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -297795,7 +297795,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -297921,7 +297921,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
             productId: "225630",
             url: "https://www.tcgplayer.com/product/225630?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -298047,7 +298047,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
             productId: "638954",
             url: "https://www.tcgplayer.com/product/638954?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -298629,7 +298629,7 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
             productId: "565398",
             url: "https://www.tcgplayer.com/product/565398?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Federico Musetti"],
       foiling: Foiling.Rainbow,
@@ -298740,7 +298740,7 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
             productId: "561295",
             url: "https://www.tcgplayer.com/product/561295?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Federico Musetti"],
       foiling: Foiling.Cold,
@@ -298848,7 +298848,7 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
             productId: "682861",
             url: "https://www.tcgplayer.com/product/682861?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Nathaniel Himawan"],
       foiling: Foiling.Cold,
@@ -298863,7 +298863,7 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
             productId: "682861",
             url: "https://www.tcgplayer.com/product/682861?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel],
     rarity: Rarity.Basic,
@@ -298942,7 +298942,7 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
             productId: "695178",
             url: "https://www.tcgplayer.com/product/695178?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Nathaniel Himawan"],
       foiling: Foiling.Cold,
@@ -298957,7 +298957,7 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
             productId: "695178",
             url: "https://www.tcgplayer.com/product/695178?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel],
     rarity: Rarity.Basic,
@@ -300703,7 +300703,7 @@ The next time a weapon hits this turn, create a Copper token.
             productId: "645188",
             url: "https://www.tcgplayer.com/product/645188?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -300782,7 +300782,7 @@ The next time a weapon hits this turn, create a Copper token.
             productId: "274400",
             url: "https://www.tcgplayer.com/product/274400?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -301290,7 +301290,7 @@ The next time a weapon hits this turn, create a Copper token.
             productId: "225593",
             url: "https://www.tcgplayer.com/product/225593?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Mikhail Babkin"],
       
@@ -301305,7 +301305,7 @@ The next time a weapon hits this turn, create a Copper token.
             productId: "225617",
             url: "https://www.tcgplayer.com/product/225617?Language=English&Printing=1st+Edition+Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Mikhail Babkin"],
       foiling: Foiling.Rainbow,
@@ -301320,7 +301320,7 @@ The next time a weapon hits this turn, create a Copper token.
             productId: "238413",
             url: "https://www.tcgplayer.com/product/238413?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -301461,7 +301461,7 @@ The next time a weapon hits this turn, create a Copper token.
             productId: "225595",
             url: "https://www.tcgplayer.com/product/225595?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Mikhail Babkin"],
       foiling: Foiling.Rainbow,
@@ -301476,7 +301476,7 @@ The next time a weapon hits this turn, create a Copper token.
             productId: "229749",
             url: "https://www.tcgplayer.com/product/229749?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -301617,7 +301617,7 @@ The next time a weapon hits this turn, create a Copper token.
             productId: "225597",
             url: "https://www.tcgplayer.com/product/225597?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Mikhail Babkin"],
       foiling: Foiling.Rainbow,
@@ -301632,7 +301632,7 @@ The next time a weapon hits this turn, create a Copper token.
             productId: "238414",
             url: "https://www.tcgplayer.com/product/238414?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -301992,7 +301992,7 @@ The next time a weapon hits this turn, create a Copper token.
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Tomasz Jedruszek"],
       foiling: Foiling.Rainbow,
@@ -302004,7 +302004,7 @@ The next time a weapon hits this turn, create a Copper token.
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -302847,7 +302847,7 @@ The next time a weapon hits this turn, create a Copper token.
             productId: "665030",
             url: "https://www.tcgplayer.com/product/665030?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -304274,7 +304274,7 @@ When this hits, it gets **go again**.`,
             productId: "654182",
             url: "https://www.tcgplayer.com/product/654182?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["János Brumár"],
       foiling: Foiling.Rainbow,
@@ -304289,7 +304289,7 @@ When this hits, it gets **go again**.`,
             productId: "654182",
             url: "https://www.tcgplayer.com/product/654182?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -304449,7 +304449,7 @@ Target weapon attack gets +X{p}, where X is twice the number of cards defending 
             productId: "633381",
             url: "https://www.tcgplayer.com/product/633381?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Sebastian Giacobino"],
       
@@ -305351,7 +305351,7 @@ When this dies, create a Gold token.
             productId: "637482",
             url: "https://www.tcgplayer.com/product/637482?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -305835,7 +305835,7 @@ If this deals damage, create a Sigil of Fate token.`,
             productId: "630335",
             url: "https://www.tcgplayer.com/product/630335?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -306590,7 +306590,7 @@ This gets +2{d} while defending a weapon attack.
             productId: "551525",
             url: "https://www.tcgplayer.com/product/551525?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Hatori Kyoka"],
       
@@ -306620,7 +306620,7 @@ This gets +2{d} while defending a weapon attack.
             productId: "555738",
             url: "https://www.tcgplayer.com/product/555738?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
@@ -307014,7 +307014,7 @@ If you've played another blue card this turn, **transcend**.`,
             productId: "696196",
             url: "https://www.tcgplayer.com/product/696196?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Saad Irfan"],
       foiling: Foiling.Rainbow,
@@ -307029,7 +307029,7 @@ If you've played another blue card this turn, **transcend**.`,
             productId: "696196",
             url: "https://www.tcgplayer.com/product/696196?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -307353,7 +307353,7 @@ If you've played another blue card this turn, **transcend**.`,
             productId: "551527",
             url: "https://www.tcgplayer.com/product/551527?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Shiro Yayoi"],
       
@@ -307383,7 +307383,7 @@ If you've played another blue card this turn, **transcend**.`,
             productId: "555740",
             url: "https://www.tcgplayer.com/product/555740?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
@@ -308220,7 +308220,7 @@ When this hits a hero, gain control of a Gold token they control. If you don't, 
             productId: "493522",
             url: "https://www.tcgplayer.com/product/493522?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -308781,7 +308781,7 @@ At the start of your action phase, destroy this.`,
             productId: "633681",
             url: "https://www.tcgplayer.com/product/633681?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -308986,7 +308986,7 @@ At the start of your action phase, destroy this.`,
             productId: "225566",
             url: "https://www.tcgplayer.com/product/225566?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -309112,7 +309112,7 @@ At the start of your action phase, destroy this.`,
             productId: "225567",
             url: "https://www.tcgplayer.com/product/225567?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -309238,7 +309238,7 @@ At the start of your action phase, destroy this.`,
             productId: "225568",
             url: "https://www.tcgplayer.com/product/225568?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -309430,7 +309430,7 @@ At the start of your action phase, destroy this.`,
             productId: "500680",
             url: "https://www.tcgplayer.com/product/500680?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -310087,7 +310087,7 @@ Draw a card.`,
             productId: "580619",
             url: "https://www.tcgplayer.com/product/580619?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -310908,7 +310908,7 @@ Whenever this banishes an action card, gain 1{h}.`,
             productId: "648067",
             url: "https://www.tcgplayer.com/product/648067?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Legendary,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Legendary,
@@ -311402,7 +311402,7 @@ When this is destroyed, create a Spectral Shield token.`,
             productId: "238471",
             url: "https://www.tcgplayer.com/product/238471?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -311528,7 +311528,7 @@ When this is destroyed, create a Spectral Shield token.`,
             productId: "238472",
             url: "https://www.tcgplayer.com/product/238472?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -311654,7 +311654,7 @@ When this is destroyed, create a Spectral Shield token.`,
             productId: "238473",
             url: "https://www.tcgplayer.com/product/238473?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -311833,7 +311833,7 @@ When this is destroyed, create a Spectral Shield token.`,
             productId: "710770",
             url: "https://www.tcgplayer.com/product/710770?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -311933,7 +311933,7 @@ Create a Might token.
             productId: "710769",
             url: "https://www.tcgplayer.com/product/710769?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -312033,7 +312033,7 @@ Create a Vigor token.
             productId: "710768",
             url: "https://www.tcgplayer.com/product/710768?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -312133,7 +312133,7 @@ Create a Ponder token.
             productId: "710771",
             url: "https://www.tcgplayer.com/product/710771?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -312248,7 +312248,7 @@ Create an Agility token.
             productId: "275759",
             url: "https://www.tcgplayer.com/product/275759?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Carlos Cruchaga"],
       
@@ -312278,7 +312278,7 @@ Create an Agility token.
             productId: "280873",
             url: "https://www.tcgplayer.com/product/280873?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
@@ -312374,7 +312374,7 @@ Create an Agility token.
             productId: "275752",
             url: "https://www.tcgplayer.com/product/275752?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -312899,7 +312899,7 @@ Create an Agility token.
             productId: "261511",
             url: "https://www.tcgplayer.com/product/261511?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -312997,7 +312997,7 @@ Choose a random card from their hand and reveal it. If it's the named card, crea
             productId: "261510",
             url: "https://www.tcgplayer.com/product/261510?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -313095,7 +313095,7 @@ Choose a random card from their hand and reveal it. If it's the named card, crea
             productId: "261509",
             url: "https://www.tcgplayer.com/product/261509?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -313466,7 +313466,7 @@ If you've played or activated an attack reaction this chain link, this gets +1{p
             productId: "616361",
             url: "https://www.tcgplayer.com/product/616361?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Nikko Wahyudi"],
       foiling: Foiling.Rainbow,
@@ -313481,7 +313481,7 @@ If you've played or activated an attack reaction this chain link, this gets +1{p
             productId: "616361",
             url: "https://www.tcgplayer.com/product/616361?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -314411,7 +314411,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
             productId: "633629",
             url: "https://www.tcgplayer.com/product/633629?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -314505,7 +314505,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
             productId: "633630",
             url: "https://www.tcgplayer.com/product/633630?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -314599,7 +314599,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
             productId: "633631",
             url: "https://www.tcgplayer.com/product/633631?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -314774,7 +314774,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
             productId: "634062",
             url: "https://www.tcgplayer.com/product/634062?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Mariusz Gandzel"],
       foiling: Foiling.Rainbow,
@@ -314789,7 +314789,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
             productId: "634062",
             url: "https://www.tcgplayer.com/product/634062?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -314964,7 +314964,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
             productId: "542285",
             url: "https://www.tcgplayer.com/product/542285?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -315958,7 +315958,7 @@ Whenever a Mechanologist item with cost 2 or less enters the arena under your co
             productId: "633682",
             url: "https://www.tcgplayer.com/product/633682?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -316069,7 +316069,7 @@ Whenever a Mechanologist item with cost 2 or less enters the arena under your co
             productId: "624620",
             url: "https://www.tcgplayer.com/product/624620?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -316163,7 +316163,7 @@ Whenever a Mechanologist item with cost 2 or less enters the arena under your co
             productId: "653923",
             url: "https://www.tcgplayer.com/product/653923?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Livia Prima"],
       foiling: Foiling.Cold,
@@ -316178,7 +316178,7 @@ Whenever a Mechanologist item with cost 2 or less enters the arena under your co
             productId: "653923",
             url: "https://www.tcgplayer.com/product/653923?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Basic,
@@ -316274,7 +316274,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
             productId: "641659",
             url: "https://www.tcgplayer.com/product/641659?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["MJ Fetesio"],
       foiling: Foiling.Cold,
@@ -316289,7 +316289,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
             productId: "641659",
             url: "https://www.tcgplayer.com/product/641659?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Livia Prima"],
       foiling: Foiling.Cold,
@@ -316304,7 +316304,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
             productId: "641659",
             url: "https://www.tcgplayer.com/product/641659?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["MJ Fetesio"],
       foiling: Foiling.Cold,
@@ -316319,7 +316319,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
             productId: "641659",
             url: "https://www.tcgplayer.com/product/641659?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Livia Prima"],
       foiling: Foiling.Cold,
@@ -316358,7 +316358,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.AB,Treatment.AT],
+      treatments: [Treatment.AA,Treatment.AB,Treatment.AT],
     },],
     rarities: [Rarity.Basic,Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
@@ -317688,7 +317688,7 @@ When this hits a hero, banish the top card of their deck.`,
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Bastien Jez"],
       foiling: Foiling.Rainbow,
@@ -317700,7 +317700,7 @@ When this hits a hero, banish the top card of their deck.`,
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -317800,7 +317800,7 @@ When this hits a hero, they banish a card in their arsenal.
             productId: "616357",
             url: "https://www.tcgplayer.com/product/616357?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Nikolay Moskvin"],
       foiling: Foiling.Rainbow,
@@ -317815,7 +317815,7 @@ When this hits a hero, they banish a card in their arsenal.
             productId: "616357",
             url: "https://www.tcgplayer.com/product/616357?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -318661,7 +318661,7 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
             productId: "708465",
             url: "https://www.tcgplayer.com/product/708465?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -319508,7 +319508,7 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
             productId: "253019",
             url: "https://www.tcgplayer.com/product/253019?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -319651,7 +319651,7 @@ If this was played from arsenal, draw a card.
             productId: "253020",
             url: "https://www.tcgplayer.com/product/253020?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -319794,7 +319794,7 @@ If this was played from arsenal, draw a card.
             productId: "253021",
             url: "https://www.tcgplayer.com/product/253021?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -320544,7 +320544,7 @@ Action cards get -1{d} while defending Mechanologist attack action cards you con
             productId: "633686",
             url: "https://www.tcgplayer.com/product/633686?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Legendary,Rarity.Marvel],
     rarity: Rarity.Legendary,
@@ -320759,7 +320759,7 @@ Action cards get -1{d} while defending Mechanologist attack action cards you con
       rarity: Rarity.Marvel,
       set: Release.Promos,
       
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Tomi Ong"],
       foiling: Foiling.Cold,
@@ -320771,7 +320771,7 @@ Action cards get -1{d} while defending Mechanologist attack action cards you con
       rarity: Rarity.Marvel,
       set: Release.Promos,
       
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Common,Rarity.Marvel,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Basic,
@@ -321138,7 +321138,7 @@ Action cards get -1{d} while defending Mechanologist attack action cards you con
             productId: "664537",
             url: "https://www.tcgplayer.com/product/664537?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Jessketchin"],
       foiling: Foiling.Cold,
@@ -321153,7 +321153,7 @@ Action cards get -1{d} while defending Mechanologist attack action cards you con
             productId: "664538",
             url: "https://www.tcgplayer.com/product/664538?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },],
     rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
@@ -321262,7 +321262,7 @@ Action cards get -1{d} while defending Mechanologist attack action cards you con
             productId: "633636",
             url: "https://www.tcgplayer.com/product/633636?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },{
         artists: ["Nikko Wahyudi"],
       
@@ -321843,7 +321843,7 @@ Action cards get -1{d} while defending Mechanologist attack action cards you con
             productId: "633683",
             url: "https://www.tcgplayer.com/product/633683?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -324044,7 +324044,7 @@ If you've **boosted** this turn, put a steam counter on it.
             productId: "654199",
             url: "https://www.tcgplayer.com/product/654199?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Shen Fei"],
       foiling: Foiling.Rainbow,
@@ -324059,7 +324059,7 @@ If you've **boosted** this turn, put a steam counter on it.
             productId: "654199",
             url: "https://www.tcgplayer.com/product/654199?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -324153,7 +324153,7 @@ If you've **boosted** this turn, put a steam counter on it.
             productId: "618269",
             url: "https://www.tcgplayer.com/product/618269?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -324671,7 +324671,7 @@ Hero abilities can't create cards.`,
             productId: "225913",
             url: "https://www.tcgplayer.com/product/225913?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -324780,7 +324780,7 @@ Hero abilities can't create cards.`,
             productId: "225914",
             url: "https://www.tcgplayer.com/product/225914?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -324889,7 +324889,7 @@ Hero abilities can't create cards.`,
             productId: "225915",
             url: "https://www.tcgplayer.com/product/225915?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -325079,7 +325079,7 @@ Hero abilities can't create cards.`,
             productId: "476163",
             url: "https://www.tcgplayer.com/product/476163?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -325190,7 +325190,7 @@ Hero abilities can't create cards.`,
             productId: "476165",
             url: "https://www.tcgplayer.com/product/476165?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -325301,7 +325301,7 @@ Hero abilities can't create cards.`,
             productId: "476166",
             url: "https://www.tcgplayer.com/product/476166?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -325397,7 +325397,7 @@ Hero abilities can't create cards.`,
             productId: "678575",
             url: "https://www.tcgplayer.com/product/678575?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Isuardi Therianto"],
       foiling: Foiling.Cold,
@@ -325412,7 +325412,7 @@ Hero abilities can't create cards.`,
             productId: "678575",
             url: "https://www.tcgplayer.com/product/678575?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -325510,7 +325510,7 @@ The next attack action card you play from arsenal this turn gets +3{p}.
             productId: "551528",
             url: "https://www.tcgplayer.com/product/551528?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Murilo Amgarten"],
       
@@ -325555,7 +325555,7 @@ The next attack action card you play from arsenal this turn gets +3{p}.
             productId: "555742",
             url: "https://www.tcgplayer.com/product/555742?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
@@ -326529,7 +326529,7 @@ Your next Brute attack this turn gets +3{p}.
             productId: "677679",
             url: "https://www.tcgplayer.com/product/677679?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Livia Prima"],
       foiling: Foiling.Cold,
@@ -326544,7 +326544,7 @@ Your next Brute attack this turn gets +3{p}.
             productId: "677679",
             url: "https://www.tcgplayer.com/product/677679?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Livia Prima"],
       edition: ReleaseEdition.Unlimited,
@@ -326818,7 +326818,7 @@ Your next Brute attack this turn gets +3{p}.
             productId: "654114",
             url: "https://www.tcgplayer.com/product/654114?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Livia Prima"],
       foiling: Foiling.Cold,
@@ -326833,7 +326833,7 @@ Your next Brute attack this turn gets +3{p}.
             productId: "654114",
             url: "https://www.tcgplayer.com/product/654114?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -326998,7 +326998,7 @@ Your next Brute attack this turn gets +3{p}.
             productId: "664535",
             url: "https://www.tcgplayer.com/product/664535?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Livia Prima"],
       foiling: Foiling.Cold,
@@ -327010,7 +327010,7 @@ Your next Brute attack this turn gets +3{p}.
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
@@ -327580,7 +327580,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
             productId: "709331",
             url: "https://www.tcgplayer.com/product/709331?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Mariusz Gandzel"],
       foiling: Foiling.Rainbow,
@@ -327595,7 +327595,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
             productId: "709332",
             url: "https://www.tcgplayer.com/product/709332?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },{
         artists: ["Carlos Cruchaga"],
       
@@ -327975,7 +327975,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
             productId: "614971",
             url: "https://www.tcgplayer.com/product/614971?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Thomas Ressuge"],
       foiling: Foiling.Rainbow,
@@ -327990,7 +327990,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
             productId: "614971",
             url: "https://www.tcgplayer.com/product/614971?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -329108,7 +329108,7 @@ If this was played from arsenal, it gets **go again**.`,
             productId: "629873",
             url: "https://www.tcgplayer.com/product/629873?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -329663,7 +329663,7 @@ The first time this deals damage to a hero, create a Ponder token.`,
             productId: "614556",
             url: "https://www.tcgplayer.com/product/614556?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -330699,7 +330699,7 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
             productId: "634586",
             url: "https://www.tcgplayer.com/product/634586?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Arif Wijaya"],
       foiling: Foiling.Cold,
@@ -330714,7 +330714,7 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
             productId: "634586",
             url: "https://www.tcgplayer.com/product/634586?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Arif Wijaya"],
       foiling: Foiling.Rainbow,
@@ -330810,7 +330810,7 @@ The second time you crank each turn, draw a card.`,
             productId: "624356",
             url: "https://www.tcgplayer.com/product/624356?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Arif Wijaya"],
       foiling: Foiling.Cold,
@@ -330825,7 +330825,7 @@ The second time you crank each turn, draw a card.`,
             productId: "624356",
             url: "https://www.tcgplayer.com/product/624356?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Arif Wijaya"],
       foiling: Foiling.Cold,
@@ -330957,7 +330957,7 @@ The second time you crank each turn, draw a card.`,
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -331050,7 +331050,7 @@ Banish the top card of your deck. If it's red, create a Gate to i'Arathael token
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -331170,7 +331170,7 @@ Banish the top card of your deck. If it's yellow, create a Gate to i'Arathael to
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -331326,7 +331326,7 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
             productId: "252656",
             url: "https://www.tcgplayer.com/product/252656?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -331452,7 +331452,7 @@ If this is defended by fewer than 2 non-equipment cards, it gets **go again**.`,
             productId: "252657",
             url: "https://www.tcgplayer.com/product/252657?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -331578,7 +331578,7 @@ If this is defended by fewer than 2 non-equipment cards, it gets **go again**.`,
             productId: "252658",
             url: "https://www.tcgplayer.com/product/252658?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -332090,7 +332090,7 @@ Your next Lightning, Ice or Elemental attack this turn gains +4{p}.`,
             productId: "532014",
             url: "https://www.tcgplayer.com/product/532014?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -332299,7 +332299,7 @@ Gain 1{h}`,
             productId: "696192",
             url: "https://www.tcgplayer.com/product/696192?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Esty Swandana"],
       foiling: Foiling.Rainbow,
@@ -332314,7 +332314,7 @@ Gain 1{h}`,
             productId: "696192",
             url: "https://www.tcgplayer.com/product/696192?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -332572,7 +332572,7 @@ Gain 1{h}`,
             productId: "261332",
             url: "https://www.tcgplayer.com/product/261332?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -332728,7 +332728,7 @@ When this hits a hero, their first attack during their next turn gets -4{p}.`,
             productId: "678585",
             url: "https://www.tcgplayer.com/product/678585?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Ksenia Belova"],
       foiling: Foiling.Cold,
@@ -332758,7 +332758,7 @@ When this hits a hero, their first attack during their next turn gets -4{p}.`,
             productId: "665095",
             url: "https://www.tcgplayer.com/product/665095?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -333118,7 +333118,7 @@ When this hits a hero, their first attack during their next turn gets -4{p}.`,
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -333355,7 +333355,7 @@ When this hits a hero, their first attack during their next turn gets -4{p}.`,
             productId: "655926",
             url: "https://www.tcgplayer.com/product/655926?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -333904,7 +333904,7 @@ When this hits a hero, their first attack during their next turn gets -4{p}.`,
             productId: "678765",
             url: "https://www.tcgplayer.com/product/678765?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.SuperRare],
     rarity: Rarity.SuperRare,
@@ -334043,7 +334043,7 @@ When this hits a hero, their first attack during their next turn gets -4{p}.`,
             productId: "225995",
             url: "https://www.tcgplayer.com/product/225995?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -334156,7 +334156,7 @@ If you've attacked with a weapon this turn, your next attack this turn gets **do
             productId: "225996",
             url: "https://www.tcgplayer.com/product/225996?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -334269,7 +334269,7 @@ If you've attacked with a weapon this turn, your next attack this turn gets **do
             productId: "225997",
             url: "https://www.tcgplayer.com/product/225997?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -334694,7 +334694,7 @@ If you've attacked with a weapon this turn, your next attack this turn gets **do
             productId: "646543",
             url: "https://www.tcgplayer.com/product/646543?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -334850,7 +334850,7 @@ If you've attacked with a weapon this turn, your next attack this turn gets **do
             productId: "638140",
             url: "https://www.tcgplayer.com/product/638140?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -336837,7 +336837,7 @@ Your next attack this turn gets +1{p} while it has go again.
             productId: "675374",
             url: "https://www.tcgplayer.com/product/675374?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Tanapon Wachirakul"],
       foiling: Foiling.Cold,
@@ -336882,7 +336882,7 @@ Your next attack this turn gets +1{p} while it has go again.
             productId: "696181",
             url: "https://www.tcgplayer.com/product/696181?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Fajareka Setiawan"],
       foiling: Foiling.Rainbow,
@@ -336897,7 +336897,7 @@ Your next attack this turn gets +1{p} while it has go again.
             productId: "675354",
             url: "https://www.tcgplayer.com/product/675354?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.AB,Treatment.EA],
     },{
         artists: ["Tanapon Wachirakul"],
       foiling: Foiling.Gold,
@@ -336912,7 +336912,7 @@ Your next attack this turn gets +1{p} while it has go again.
             productId: "696181",
             url: "https://www.tcgplayer.com/product/696181?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
@@ -337203,7 +337203,7 @@ At the beginning of the end phase, if this defended this turn, destroy it.`,
             productId: "618261",
             url: "https://www.tcgplayer.com/product/618261?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
@@ -339250,7 +339250,7 @@ During your turn, this has **ward 6**. Otherwise, this has **ward 1**.`,
             productId: "680623",
             url: "https://www.tcgplayer.com/product/680623?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Marco Wulfr"],
       foiling: Foiling.Rainbow,
@@ -339265,7 +339265,7 @@ During your turn, this has **ward 6**. Otherwise, this has **ward 1**.`,
             productId: "680623",
             url: "https://www.tcgplayer.com/product/680623?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -339359,7 +339359,7 @@ During your turn, this has **ward 6**. Otherwise, this has **ward 1**.`,
             productId: "537812",
             url: "https://www.tcgplayer.com/product/537812?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -339640,7 +339640,7 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
             productId: "616353",
             url: "https://www.tcgplayer.com/product/616353?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Kevin Sidharta"],
       foiling: Foiling.Rainbow,
@@ -339655,7 +339655,7 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
             productId: "616353",
             url: "https://www.tcgplayer.com/product/616353?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -341352,7 +341352,7 @@ Gain 1{h}`,
             productId: "654124",
             url: "https://www.tcgplayer.com/product/654124?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
@@ -341956,7 +341956,7 @@ Gain 1{h}`,
             productId: "654171",
             url: "https://www.tcgplayer.com/product/654171?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Nailsen Ivanderlie"],
       foiling: Foiling.Rainbow,
@@ -341971,7 +341971,7 @@ Gain 1{h}`,
             productId: "654171",
             url: "https://www.tcgplayer.com/product/654171?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -342761,7 +342761,7 @@ When this attacks, draw a card then discard a random card. If a card with 6 or m
             productId: "225819",
             url: "https://www.tcgplayer.com/product/225819?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Max Kostin"],
       
@@ -342776,7 +342776,7 @@ When this attacks, draw a card then discard a random card. If a card with 6 or m
             productId: "678582",
             url: "https://www.tcgplayer.com/product/678582?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Isuardi Therianto"],
       foiling: Foiling.Rainbow,
@@ -342791,7 +342791,7 @@ When this attacks, draw a card then discard a random card. If a card with 6 or m
             productId: "537814",
             url: "https://www.tcgplayer.com/product/537814?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -342932,7 +342932,7 @@ When this attacks, draw a card then discard a random card. If a card with 6 or m
             productId: "225820",
             url: "https://www.tcgplayer.com/product/225820?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -343073,7 +343073,7 @@ When this attacks, draw a card then discard a random card. If a card with 6 or m
             productId: "225821",
             url: "https://www.tcgplayer.com/product/225821?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -343756,7 +343756,7 @@ If you have less {h} than an opposing Shadow hero, put this into your soul.`,
             productId: "706932",
             url: "https://www.tcgplayer.com/product/706932?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -343927,7 +343927,7 @@ If you've **charged** this turn, this gets +3{p}.`,
             productId: "225299",
             url: "https://www.tcgplayer.com/product/225299?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Adolfo Navarro"],
       
@@ -343957,7 +343957,7 @@ If you've **charged** this turn, this gets +3{p}.`,
             productId: "616365",
             url: "https://www.tcgplayer.com/product/616365?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Isuardi Therianto"],
       foiling: Foiling.Rainbow,
@@ -343972,7 +343972,7 @@ If you've **charged** this turn, this gets +3{p}.`,
             productId: "701602",
             url: "https://www.tcgplayer.com/product/701602?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
@@ -345858,7 +345858,7 @@ The next attack you **boost** this turn gets +2{p}.
             productId: "501427",
             url: "https://www.tcgplayer.com/product/501427?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -346012,7 +346012,7 @@ The next attack you **boost** this turn gets +2{p}.
             productId: "225796",
             url: "https://www.tcgplayer.com/product/225796?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Max Kostin"],
       foiling: Foiling.Cold,
@@ -346024,7 +346024,7 @@ The next attack you **boost** this turn gets +2{p}.
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -346148,7 +346148,7 @@ The next attack you **boost** this turn gets +2{p}.
             productId: "225797",
             url: "https://www.tcgplayer.com/product/225797?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Max Kostin"],
       foiling: Foiling.Cold,
@@ -346160,7 +346160,7 @@ The next attack you **boost** this turn gets +2{p}.
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -346284,7 +346284,7 @@ The next attack you **boost** this turn gets +2{p}.
             productId: "225799",
             url: "https://www.tcgplayer.com/product/225799?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Max Kostin"],
       foiling: Foiling.Cold,
@@ -346296,7 +346296,7 @@ The next attack you **boost** this turn gets +2{p}.
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -346552,7 +346552,7 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
             productId: "618036",
             url: "https://www.tcgplayer.com/product/618036?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -346648,7 +346648,7 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
             productId: "618077",
             url: "https://www.tcgplayer.com/product/618077?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -346774,7 +346774,7 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
             productId: "618080",
             url: "https://www.tcgplayer.com/product/618080?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -346930,7 +346930,7 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
             productId: "648070",
             url: "https://www.tcgplayer.com/product/648070?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -348330,7 +348330,7 @@ If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.`,
             productId: "634072",
             url: "https://www.tcgplayer.com/product/634072?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Ismatulloh"],
       foiling: Foiling.Rainbow,
@@ -348345,7 +348345,7 @@ If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.`,
             productId: "634072",
             url: "https://www.tcgplayer.com/product/634072?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -348454,7 +348454,7 @@ If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.`,
             productId: "286937",
             url: "https://www.tcgplayer.com/product/286937?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -348595,7 +348595,7 @@ If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.`,
             productId: "225633",
             url: "https://www.tcgplayer.com/product/225633?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -348894,7 +348894,7 @@ When this hits a hero, they can't play or activate more than 1 action during the
             productId: "488431",
             url: "https://www.tcgplayer.com/product/488431?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["soyameii"],
       foiling: Foiling.Gold,
@@ -349146,7 +349146,7 @@ When this hits a hero, they can't play or activate more than 1 action during the
             productId: "225733",
             url: "https://www.tcgplayer.com/product/225733?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Yen Lee"],
       
@@ -349161,7 +349161,7 @@ When this hits a hero, they can't play or activate more than 1 action during the
             productId: "225622",
             url: "https://www.tcgplayer.com/product/225622?Language=English&Printing=1st+Edition+Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Yen Lee"],
       foiling: Foiling.Rainbow,
@@ -349176,7 +349176,7 @@ When this hits a hero, they can't play or activate more than 1 action during the
             productId: "238417",
             url: "https://www.tcgplayer.com/product/238417?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -349302,7 +349302,7 @@ Create a Runechant token.`,
             productId: "225734",
             url: "https://www.tcgplayer.com/product/225734?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Yen Lee"],
       foiling: Foiling.Rainbow,
@@ -349317,7 +349317,7 @@ Create a Runechant token.`,
             productId: "238418",
             url: "https://www.tcgplayer.com/product/238418?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -349443,7 +349443,7 @@ Create a Runechant token.`,
             productId: "225735",
             url: "https://www.tcgplayer.com/product/225735?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Yen Lee"],
       foiling: Foiling.Rainbow,
@@ -349458,7 +349458,7 @@ Create a Runechant token.`,
             productId: "229478",
             url: "https://www.tcgplayer.com/product/229478?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -350217,7 +350217,7 @@ If an Earth card was pitched to attack with this, the attack gets +1{p}.`,
             productId: "454375",
             url: "https://www.tcgplayer.com/product/454375?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Sam Yang"],
       foiling: Foiling.Rainbow,
@@ -350232,7 +350232,7 @@ If an Earth card was pitched to attack with this, the attack gets +1{p}.`,
             productId: "454380",
             url: "https://www.tcgplayer.com/product/454380?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -351314,7 +351314,7 @@ If the additional cost was paid, this gets **dominate**.`,
             productId: "678642",
             url: "https://www.tcgplayer.com/product/678642?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Shen Fei"],
       foiling: Foiling.Rainbow,
@@ -351329,7 +351329,7 @@ If the additional cost was paid, this gets **dominate**.`,
             productId: "678642",
             url: "https://www.tcgplayer.com/product/678642?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -352034,7 +352034,7 @@ If you've **fused** this turn, you may play this as though it were an instant.`,
             productId: "273923",
             url: "https://www.tcgplayer.com/product/273923?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -352130,7 +352130,7 @@ If you've **fused** this turn, you may play this as though it were an instant.`,
             productId: "273924",
             url: "https://www.tcgplayer.com/product/273924?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -352226,7 +352226,7 @@ If you've **fused** this turn, you may play this as though it were an instant.`,
             productId: "273925",
             url: "https://www.tcgplayer.com/product/273925?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -352322,7 +352322,7 @@ If you've **fused** this turn, you may play this as though it were an instant.`,
             productId: "624618",
             url: "https://www.tcgplayer.com/product/624618?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -352525,7 +352525,7 @@ If this wasn't played from hand or arsenal, it gets +2{p}.`,
             productId: "678579",
             url: "https://www.tcgplayer.com/product/678579?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Vlad Varlamov"],
       foiling: Foiling.Cold,
@@ -352540,7 +352540,7 @@ If this wasn't played from hand or arsenal, it gets +2{p}.`,
             productId: "678579",
             url: "https://www.tcgplayer.com/product/678579?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
@@ -352843,7 +352843,7 @@ When this hits a hero, until the end of their next turn, whenever they play an a
             productId: "648077",
             url: "https://www.tcgplayer.com/product/648077?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -353630,7 +353630,7 @@ At the start of your turn, destroy this and draw a card.`,
             productId: "634070",
             url: "https://www.tcgplayer.com/product/634070?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Max Kostin"],
       foiling: Foiling.Rainbow,
@@ -353645,7 +353645,7 @@ At the start of your turn, destroy this and draw a card.`,
             productId: "634070",
             url: "https://www.tcgplayer.com/product/634070?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -353724,7 +353724,7 @@ At the start of your turn, destroy this and draw a card.`,
             productId: "711441",
             url: "https://www.tcgplayer.com/product/711441?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Common,
@@ -353888,7 +353888,7 @@ At the start of your turn, destroy this and draw a card.`,
             productId: "710778",
             url: "https://www.tcgplayer.com/product/710778?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -353969,7 +353969,7 @@ At the start of your turn, destroy this and draw a card.`,
             productId: "713271",
             url: "https://www.tcgplayer.com/product/713271?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Common,
@@ -354065,7 +354065,7 @@ At the start of your turn, destroy this and draw a card.`,
             productId: "715783",
             url: "https://www.tcgplayer.com/product/715783?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -354161,7 +354161,7 @@ At the start of your turn, destroy this and draw a card.`,
             productId: "706675",
             url: "https://www.tcgplayer.com/product/706675?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -354257,7 +354257,7 @@ At the start of your turn, destroy this and draw a card.`,
             productId: "713247",
             url: "https://www.tcgplayer.com/product/713247?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Common,
@@ -354338,7 +354338,7 @@ At the start of your turn, destroy this and draw a card.`,
             productId: "716555",
             url: "https://www.tcgplayer.com/product/716555?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Common,
@@ -354434,7 +354434,7 @@ At the start of your turn, destroy this and draw a card.`,
             productId: "711439",
             url: "https://www.tcgplayer.com/product/711439?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -354515,7 +354515,7 @@ At the start of your turn, destroy this and draw a card.`,
             productId: "716165",
             url: "https://www.tcgplayer.com/product/716165?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Common,
@@ -354611,7 +354611,7 @@ At the start of your turn, destroy this and draw a card.`,
             productId: "716557",
             url: "https://www.tcgplayer.com/product/716557?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Common,
@@ -354692,7 +354692,7 @@ At the start of your turn, destroy this and draw a card.`,
             productId: "715780",
             url: "https://www.tcgplayer.com/product/715780?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -355929,7 +355929,7 @@ Create a Might token.
             productId: "275606",
             url: "https://www.tcgplayer.com/product/275606?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.AT],
+      treatments: [Treatment.AA,Treatment.AT],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -356059,7 +356059,7 @@ Whenever you protect another hero, create a Gold token.`,
             productId: "677670",
             url: "https://www.tcgplayer.com/product/677670?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Wisnu Tan"],
       foiling: Foiling.Cold,
@@ -356074,7 +356074,7 @@ Whenever you protect another hero, create a Gold token.`,
             productId: "677670",
             url: "https://www.tcgplayer.com/product/677670?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Wisnu Tan"],
       
@@ -356465,7 +356465,7 @@ Whenever you protect another hero, create a Gold token.`,
             productId: "664539",
             url: "https://www.tcgplayer.com/product/664539?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Majestic,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
@@ -356544,7 +356544,7 @@ Whenever you protect another hero, create a Gold token.`,
             productId: "675350",
             url: "https://www.tcgplayer.com/product/675350?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Fabled],
     rarity: Rarity.Fabled,
@@ -357090,7 +357090,7 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
             productId: "225670",
             url: "https://www.tcgplayer.com/product/225670?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -357214,7 +357214,7 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
             productId: "225672",
             url: "https://www.tcgplayer.com/product/225672?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -357338,7 +357338,7 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
             productId: "225673",
             url: "https://www.tcgplayer.com/product/225673?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -358983,7 +358983,7 @@ When this is played from your banished zone, deal 1 arcane damage to target hero
             productId: "636352",
             url: "https://www.tcgplayer.com/product/636352?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Max Kostin"],
       
@@ -359013,7 +359013,7 @@ When this is played from your banished zone, deal 1 arcane damage to target hero
             productId: "636255",
             url: "https://www.tcgplayer.com/product/636255?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
@@ -360452,7 +360452,7 @@ If you've dealt arcane damage to an opponent this turn, this gets **go again**.
             productId: "678567",
             url: "https://www.tcgplayer.com/product/678567?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Cold,
@@ -360467,7 +360467,7 @@ If you've dealt arcane damage to an opponent this turn, this gets **go again**.
             productId: "678567",
             url: "https://www.tcgplayer.com/product/678567?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -360558,7 +360558,7 @@ If you've dealt arcane damage to an opponent this turn, this gets **go again**.
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -360626,7 +360626,7 @@ If you've dealt arcane damage to an opponent this turn, this gets **go again**.
             productId: "677677",
             url: "https://www.tcgplayer.com/product/677677?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Joseph Qiu"],
       foiling: Foiling.Cold,
@@ -360641,7 +360641,7 @@ If you've dealt arcane damage to an opponent this turn, this gets **go again**.
             productId: "677677",
             url: "https://www.tcgplayer.com/product/677677?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Joseph Qiu"],
       
@@ -360824,7 +360824,7 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
             productId: "634085",
             url: "https://www.tcgplayer.com/product/634085?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
@@ -361784,7 +361784,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
             productId: "279255",
             url: "https://www.tcgplayer.com/product/279255?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -363713,7 +363713,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
             productId: "546703",
             url: "https://www.tcgplayer.com/product/546703?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Daken"],
       
@@ -363758,7 +363758,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
             productId: "555744",
             url: "https://www.tcgplayer.com/product/555744?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
@@ -365110,7 +365110,7 @@ Crouching Tigers you control get +1{p} this turn.
             productId: "678621",
             url: "https://www.tcgplayer.com/product/678621?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Marcellino Tan"],
       foiling: Foiling.Rainbow,
@@ -365125,7 +365125,7 @@ Crouching Tigers you control get +1{p} this turn.
             productId: "678621",
             url: "https://www.tcgplayer.com/product/678621?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -365910,7 +365910,7 @@ When this hits a hero, banish the top card of their deck.`,
             productId: "226029",
             url: "https://www.tcgplayer.com/product/226029?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Tatiana Trubnikova"],
       foiling: Foiling.Rainbow,
@@ -366261,7 +366261,7 @@ Your next attack this turn gets +2{p}. **Go again**`,
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -366436,7 +366436,7 @@ Your next attack this turn gets +2{p}. **Go again**`,
             productId: "453188",
             url: "https://www.tcgplayer.com/product/453188?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Henrique Lindner"],
       
@@ -366451,7 +366451,7 @@ Your next attack this turn gets +2{p}. **Go again**`,
             productId: "654123",
             url: "https://www.tcgplayer.com/product/654123?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -366750,7 +366750,7 @@ Damage that would be dealt by this can't be prevented.`,
             productId: "664540",
             url: "https://www.tcgplayer.com/product/664540?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
@@ -367254,7 +367254,7 @@ Once per turn, when you discard a card with 6 or more {p}, this gets +1{p} until
             productId: "584688",
             url: "https://www.tcgplayer.com/product/584688?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -367348,7 +367348,7 @@ Once per turn, when you discard a card with 6 or more {p}, this gets +1{p} until
             productId: "584689",
             url: "https://www.tcgplayer.com/product/584689?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -367442,7 +367442,7 @@ Once per turn, when you discard a card with 6 or more {p}, this gets +1{p} until
             productId: "584690",
             url: "https://www.tcgplayer.com/product/584690?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -367521,7 +367521,7 @@ Once per turn, when you discard a card with 6 or more {p}, this gets +1{p} until
             productId: "577790",
             url: "https://www.tcgplayer.com/product/577790?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Stanislav Sherbakov"],
       edition: ReleaseEdition.Unlimited,
@@ -369425,7 +369425,7 @@ When this hits a hero, discard a card. If you do, they discard a card.`,
             productId: "633684",
             url: "https://www.tcgplayer.com/product/633684?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -370188,7 +370188,7 @@ Your next Brute attack this turn gets +2{p}.
             productId: "542297",
             url: "https://www.tcgplayer.com/product/542297?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -370297,7 +370297,7 @@ Your next Brute attack this turn gets +2{p}.
             productId: "696203",
             url: "https://www.tcgplayer.com/product/696203?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Edward Chee"],
       foiling: Foiling.Rainbow,
@@ -370312,7 +370312,7 @@ Your next Brute attack this turn gets +2{p}.
             productId: "696203",
             url: "https://www.tcgplayer.com/product/696203?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -371560,7 +371560,7 @@ At the beginning of your action phase, destroy this.`,
             productId: "261394",
             url: "https://www.tcgplayer.com/product/261394?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -371658,7 +371658,7 @@ At the beginning of your action phase, remove a verse counter from this. If you 
             productId: "261393",
             url: "https://www.tcgplayer.com/product/261393?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -371756,7 +371756,7 @@ At the beginning of your action phase, remove a verse counter from this. If you 
             productId: "261392",
             url: "https://www.tcgplayer.com/product/261392?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -371878,7 +371878,7 @@ At the beginning of your action phase, remove a verse counter from this. If you 
             productId: "578823",
             url: "https://www.tcgplayer.com/product/578823?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Jessketchin"],
       
@@ -371893,7 +371893,7 @@ At the beginning of your action phase, remove a verse counter from this. If you 
             productId: "578824",
             url: "https://www.tcgplayer.com/product/578824?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Jessketchin"],
       
@@ -371908,7 +371908,7 @@ At the beginning of your action phase, remove a verse counter from this. If you 
             productId: "577229",
             url: "https://www.tcgplayer.com/product/577229?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Jessketchin"],
       
@@ -371923,7 +371923,7 @@ At the beginning of your action phase, remove a verse counter from this. If you 
             productId: "577201",
             url: "https://www.tcgplayer.com/product/577201?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Daniel Jiménez"],
       
@@ -372028,7 +372028,7 @@ At the beginning of your action phase, remove a verse counter from this. If you 
             productId: "226077",
             url: "https://www.tcgplayer.com/product/226077?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Daniel Jiménez"],
       edition: ReleaseEdition.Unlimited,
@@ -372088,7 +372088,7 @@ At the beginning of your action phase, remove a verse counter from this. If you 
             productId: "581073",
             url: "https://www.tcgplayer.com/product/581073?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Jessketchin"],
       foiling: Foiling.Cold,
@@ -372103,7 +372103,7 @@ At the beginning of your action phase, remove a verse counter from this. If you 
             productId: "584727",
             url: "https://www.tcgplayer.com/product/584727?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Jessketchin"],
       foiling: Foiling.Rainbow,
@@ -372118,7 +372118,7 @@ At the beginning of your action phase, remove a verse counter from this. If you 
             productId: "578826",
             url: "https://www.tcgplayer.com/product/578826?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Jessketchin"],
       foiling: Foiling.Rainbow,
@@ -372133,7 +372133,7 @@ At the beginning of your action phase, remove a verse counter from this. If you 
             productId: "578827",
             url: "https://www.tcgplayer.com/product/578827?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },],
     rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Basic,
@@ -372212,7 +372212,7 @@ At the beginning of your action phase, remove a verse counter from this. If you 
             productId: "696173",
             url: "https://www.tcgplayer.com/product/696173?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["MJ Fetesio"],
       foiling: Foiling.Rainbow,
@@ -372227,7 +372227,7 @@ At the beginning of your action phase, remove a verse counter from this. If you 
             productId: "696219",
             url: "https://www.tcgplayer.com/product/696219?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
@@ -372310,7 +372310,7 @@ At the beginning of your action phase or when you play an attack action card, de
             productId: "696174",
             url: "https://www.tcgplayer.com/product/696174?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["MJ Fetesio"],
       foiling: Foiling.Rainbow,
@@ -372325,7 +372325,7 @@ At the beginning of your action phase or when you play an attack action card, de
             productId: "696220",
             url: "https://www.tcgplayer.com/product/696220?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
@@ -372408,7 +372408,7 @@ At the beginning of your action phase or when you play an attack action card, de
             productId: "696172",
             url: "https://www.tcgplayer.com/product/696172?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["MJ Fetesio"],
       foiling: Foiling.Rainbow,
@@ -372423,7 +372423,7 @@ At the beginning of your action phase or when you play an attack action card, de
             productId: "696218",
             url: "https://www.tcgplayer.com/product/696218?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -372506,7 +372506,7 @@ At the beginning of your action phase or when you play an attack action card, de
             productId: "696175",
             url: "https://www.tcgplayer.com/product/696175?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["MJ Fetesio"],
       
@@ -372533,7 +372533,7 @@ At the beginning of your action phase or when you play an attack action card, de
             productId: "696221",
             url: "https://www.tcgplayer.com/product/696221?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
@@ -372616,7 +372616,7 @@ At the beginning of your action phase or when you play an attack action card, de
             productId: "696176",
             url: "https://www.tcgplayer.com/product/696176?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["MJ Fetesio"],
       foiling: Foiling.Rainbow,
@@ -372631,7 +372631,7 @@ At the beginning of your action phase or when you play an attack action card, de
             productId: "696222",
             url: "https://www.tcgplayer.com/product/696222?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
@@ -372714,7 +372714,7 @@ At the beginning of your action phase or when you play an attack action card, de
             productId: "696177",
             url: "https://www.tcgplayer.com/product/696177?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["MJ Fetesio"],
       
@@ -372741,7 +372741,7 @@ At the beginning of your action phase or when you play an attack action card, de
             productId: "696223",
             url: "https://www.tcgplayer.com/product/696223?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
@@ -372824,7 +372824,7 @@ At the beginning of your action phase or when you play an attack action card, de
             productId: "696178",
             url: "https://www.tcgplayer.com/product/696178?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["MJ Fetesio"],
       foiling: Foiling.Rainbow,
@@ -372839,7 +372839,7 @@ At the beginning of your action phase or when you play an attack action card, de
             productId: "696224",
             url: "https://www.tcgplayer.com/product/696224?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
@@ -373133,7 +373133,7 @@ At the beginning of your action phase or when you play an attack action card, de
             productId: "584695",
             url: "https://www.tcgplayer.com/product/584695?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -374171,7 +374171,7 @@ If an attack action card was pitched to play this, the next Runeblade attack act
             productId: "701601",
             url: "https://www.tcgplayer.com/product/701601?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -374591,7 +374591,7 @@ The next Runeblade attack action card you play this turn gets +3{p}.
             productId: "537815",
             url: "https://www.tcgplayer.com/product/537815?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -374670,7 +374670,7 @@ The next Runeblade attack action card you play this turn gets +3{p}.
             productId: "714484",
             url: "https://www.tcgplayer.com/product/714484?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -375507,7 +375507,7 @@ When this hits a hero, deal 1 arcane damage to them.`,
             productId: "678576",
             url: "https://www.tcgplayer.com/product/678576?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Cristián Huerta"],
       foiling: Foiling.Cold,
@@ -375522,7 +375522,7 @@ When this hits a hero, deal 1 arcane damage to them.`,
             productId: "678576",
             url: "https://www.tcgplayer.com/product/678576?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
@@ -375616,7 +375616,7 @@ When this hits a hero, deal 1 arcane damage to them.`,
             productId: "634074",
             url: "https://www.tcgplayer.com/product/634074?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Eryk Szczygieł"],
       foiling: Foiling.Rainbow,
@@ -375631,7 +375631,7 @@ When this hits a hero, deal 1 arcane damage to them.`,
             productId: "634074",
             url: "https://www.tcgplayer.com/product/634074?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -376034,7 +376034,7 @@ When this hits a hero, banish the top card of their deck.`,
             productId: "551478",
             url: "https://www.tcgplayer.com/product/551478?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Ina Wong"],
       foiling: Foiling.Rainbow,
@@ -376049,7 +376049,7 @@ When this hits a hero, banish the top card of their deck.`,
             productId: "554172",
             url: "https://www.tcgplayer.com/product/554172?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -376133,7 +376133,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
             productId: "546702",
             url: "https://www.tcgplayer.com/product/546702?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Wisnu Tan"],
       foiling: Foiling.Rainbow,
@@ -376148,7 +376148,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
             productId: "554171",
             url: "https://www.tcgplayer.com/product/554171?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -376232,7 +376232,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
             productId: "552803",
             url: "https://www.tcgplayer.com/product/552803?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Mario Wibisono"],
       foiling: Foiling.Rainbow,
@@ -376247,7 +376247,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
             productId: "554170",
             url: "https://www.tcgplayer.com/product/554170?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -376643,7 +376643,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
             productId: "633632",
             url: "https://www.tcgplayer.com/product/633632?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -376739,7 +376739,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
             productId: "633634",
             url: "https://www.tcgplayer.com/product/633634?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -376850,7 +376850,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
             productId: "633633",
             url: "https://www.tcgplayer.com/product/633633?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -377529,7 +377529,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
             productId: "477333",
             url: "https://www.tcgplayer.com/product/477333?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -377909,7 +377909,7 @@ If the discarded card has 6 or more {p}, gain 2 action points.`,
             productId: "453271",
             url: "https://www.tcgplayer.com/product/453271?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -378278,7 +378278,7 @@ Whenever an arrow is put face-up in arsenal from your deck, put an aim counter o
             productId: "633685",
             url: "https://www.tcgplayer.com/product/633685?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -379411,7 +379411,7 @@ When this attacks, if a card with 6 or more {p} was discarded as an additional c
             productId: "654127",
             url: "https://www.tcgplayer.com/product/654127?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -380230,7 +380230,7 @@ If you've **charged** this turn, target attack gets -2{p}.`,
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -380298,7 +380298,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
             productId: "633382",
             url: "https://www.tcgplayer.com/product/633382?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Isuardi Therianto"],
       
@@ -381326,7 +381326,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
             productId: "678583",
             url: "https://www.tcgplayer.com/product/678583?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Agri Karuniawan"],
       foiling: Foiling.Rainbow,
@@ -381341,7 +381341,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
             productId: "225514",
             url: "https://www.tcgplayer.com/product/225514?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Kanadekana"],
       foiling: Foiling.Rainbow,
@@ -381356,7 +381356,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
             productId: "690685",
             url: "https://www.tcgplayer.com/product/690685?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -381773,7 +381773,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
             productId: "616363",
             url: "https://www.tcgplayer.com/product/616363?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["SanSan"],
       foiling: Foiling.Rainbow,
@@ -381788,7 +381788,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
             productId: "616363",
             url: "https://www.tcgplayer.com/product/616363?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
@@ -382010,7 +382010,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
             productId: "617599",
             url: "https://www.tcgplayer.com/product/617599?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
@@ -382347,7 +382347,7 @@ When this is pitched, each hero shuffles, then puts the top card of their deck f
             productId: "632088",
             url: "https://www.tcgplayer.com/product/632088?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Narendra B Adi"],
       foiling: Foiling.Rainbow,
@@ -382362,7 +382362,7 @@ When this is pitched, each hero shuffles, then puts the top card of their deck f
             productId: "636256",
             url: "https://www.tcgplayer.com/product/636256?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Marvel,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -384825,7 +384825,7 @@ Gain {r}{r} for each card this **scrapped**.`,
             productId: "633638",
             url: "https://www.tcgplayer.com/product/633638?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -384921,7 +384921,7 @@ Gain {r}{r} for each card this **scrapped**.`,
             productId: "665040",
             url: "https://www.tcgplayer.com/product/665040?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Sam Yang"],
       foiling: Foiling.Cold,
@@ -384936,7 +384936,7 @@ Gain {r}{r} for each card this **scrapped**.`,
             productId: "665040",
             url: "https://www.tcgplayer.com/product/665040?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -385047,7 +385047,7 @@ Whenever you activate a Goldkiss Rum, gain {r}.`,
             productId: "616358",
             url: "https://www.tcgplayer.com/product/616358?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Tomasz Jedruszek"],
       foiling: Foiling.Rainbow,
@@ -385062,7 +385062,7 @@ Whenever you activate a Goldkiss Rum, gain {r}.`,
             productId: "616358",
             url: "https://www.tcgplayer.com/product/616358?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -385416,7 +385416,7 @@ When this attacks a **marked** hero, this gets **go again**.`,
             productId: "633637",
             url: "https://www.tcgplayer.com/product/633637?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -385588,7 +385588,7 @@ When this attacks a **marked** hero, this gets **go again**.`,
             productId: "633619",
             url: "https://www.tcgplayer.com/product/633619?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["SanSan"],
       foiling: Foiling.Gold,
@@ -385603,7 +385603,7 @@ When this attacks a **marked** hero, this gets **go again**.`,
             productId: "662251",
             url: "https://www.tcgplayer.com/product/662251?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
@@ -386637,7 +386637,7 @@ If you control 2 or more Draconic chain links, this card's attacks get **go agai
             productId: "453286",
             url: "https://www.tcgplayer.com/product/453286?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -387363,7 +387363,7 @@ If you control 2 or more Draconic chain links, this card's attacks get **go agai
             productId: "555751",
             url: "https://www.tcgplayer.com/product/555751?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -387472,7 +387472,7 @@ If you control 2 or more Draconic chain links, this card's attacks get **go agai
             productId: "561163",
             url: "https://www.tcgplayer.com/product/561163?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -387581,7 +387581,7 @@ If you control 2 or more Draconic chain links, this card's attacks get **go agai
             productId: "563313",
             url: "https://www.tcgplayer.com/product/563313?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -388394,7 +388394,7 @@ When this hits a hero, create an Inertia token under their control.`,
             productId: "678580",
             url: "https://www.tcgplayer.com/product/678580?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Sam Yang"],
       foiling: Foiling.Cold,
@@ -388409,7 +388409,7 @@ When this hits a hero, create an Inertia token under their control.`,
             productId: "678580",
             url: "https://www.tcgplayer.com/product/678580?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -390065,7 +390065,7 @@ Prevent the next 5 damage that would be dealt to you this turn.`,
             productId: "696204",
             url: "https://www.tcgplayer.com/product/696204?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Ramza Ardyputra"],
       foiling: Foiling.Rainbow,
@@ -390080,7 +390080,7 @@ Prevent the next 5 damage that would be dealt to you this turn.`,
             productId: "696204",
             url: "https://www.tcgplayer.com/product/696204?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -390156,7 +390156,7 @@ Prevent the next 5 damage that would be dealt to you this turn.`,
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Ramza Ardyputra"],
       foiling: Foiling.Rainbow,
@@ -390168,7 +390168,7 @@ Prevent the next 5 damage that would be dealt to you this turn.`,
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -391263,7 +391263,7 @@ The next attack action card with cost 0 you play this turn gets +1{p} and **go a
             productId: "646554",
             url: "https://www.tcgplayer.com/product/646554?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -391829,7 +391829,7 @@ Destroy X target aura tokens.
             productId: "647746",
             url: "https://www.tcgplayer.com/product/647746?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Asur Misoa"],
       foiling: Foiling.Cold,
@@ -391844,7 +391844,7 @@ Destroy X target aura tokens.
             productId: "647743",
             url: "https://www.tcgplayer.com/product/647743?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Asur Misoa"],
       foiling: Foiling.Cold,
@@ -391859,7 +391859,7 @@ Destroy X target aura tokens.
             productId: "647747",
             url: "https://www.tcgplayer.com/product/647747?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Anastasiya Grintsova"],
       
@@ -392115,7 +392115,7 @@ Destroy X target aura tokens.
             productId: "502735",
             url: "https://www.tcgplayer.com/product/502735?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -392356,7 +392356,7 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
             productId: "677608",
             url: "https://www.tcgplayer.com/product/677608?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -392524,7 +392524,7 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
             productId: "707174",
             url: "https://www.tcgplayer.com/product/707174?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Dominik Mayer"],
       foiling: Foiling.Cold,
@@ -392539,7 +392539,7 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
             productId: "707174",
             url: "https://www.tcgplayer.com/product/707174?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
@@ -394054,7 +394054,7 @@ When this hits, create a Gate to i'Arathael token.
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Mariusz Gandzel"],
       foiling: Foiling.Rainbow,
@@ -394066,7 +394066,7 @@ When this hits, create a Gate to i'Arathael token.
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -394321,7 +394321,7 @@ When this hits, create a Gate to i'Arathael token.
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -394414,7 +394414,7 @@ When this hits, create a Gate to i'Arathael token.
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -394590,7 +394590,7 @@ If 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -394683,7 +394683,7 @@ If 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Tomi Ong"],
       foiling: Foiling.Rainbow,
@@ -394695,7 +394695,7 @@ If 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -395301,7 +395301,7 @@ If 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Wirawan Pranoto"],
       foiling: Foiling.Rainbow,
@@ -395313,7 +395313,7 @@ If 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -395652,7 +395652,7 @@ If you've played or activated an attack reaction this chain link, this gets "Whe
             productId: "678617",
             url: "https://www.tcgplayer.com/product/678617?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Andi Cahyo W"],
       foiling: Foiling.Rainbow,
@@ -395667,7 +395667,7 @@ If you've played or activated an attack reaction this chain link, this gets "Whe
             productId: "678617",
             url: "https://www.tcgplayer.com/product/678617?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -397006,7 +397006,7 @@ At the beginning of your end phase, destroy this.`,
             productId: "690444",
             url: "https://www.tcgplayer.com/product/690444?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -397357,7 +397357,7 @@ At the beginning of your end phase, destroy this.`,
             productId: "696193",
             url: "https://www.tcgplayer.com/product/696193?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Rio Sabda"],
       foiling: Foiling.Rainbow,
@@ -397372,7 +397372,7 @@ At the beginning of your end phase, destroy this.`,
             productId: "696193",
             url: "https://www.tcgplayer.com/product/696193?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -397779,7 +397779,7 @@ When this hits a hero, you may banish a Lightning aura permanent you control wit
             productId: "632092",
             url: "https://www.tcgplayer.com/product/632092?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Henrique Lindner"],
       foiling: Foiling.Rainbow,
@@ -397794,7 +397794,7 @@ When this hits a hero, you may banish a Lightning aura permanent you control wit
             productId: "636257",
             url: "https://www.tcgplayer.com/product/636257?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
@@ -397862,7 +397862,7 @@ When this hits a hero, you may banish a Lightning aura permanent you control wit
             productId: "664637",
             url: "https://www.tcgplayer.com/product/664637?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Rio Sabda"],
       
@@ -397907,7 +397907,7 @@ When this hits a hero, you may banish a Lightning aura permanent you control wit
             productId: "614547",
             url: "https://www.tcgplayer.com/product/614547?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Nathaniel Himawan"],
       foiling: Foiling.Rainbow,
@@ -397922,7 +397922,7 @@ When this hits a hero, you may banish a Lightning aura permanent you control wit
             productId: "664638",
             url: "https://www.tcgplayer.com/product/664638?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Legendary,Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -398731,7 +398731,7 @@ The next time an opponent is dealt damage this turn, create an Agility token.`,
             productId: "633639",
             url: "https://www.tcgplayer.com/product/633639?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -398991,7 +398991,7 @@ If a Chi was pitched to play this, create 2 Crouching Tigers in your hand.
             productId: "678614",
             url: "https://www.tcgplayer.com/product/678614?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Nailsen Ivanderlie"],
       foiling: Foiling.Rainbow,
@@ -399006,7 +399006,7 @@ If a Chi was pitched to play this, create 2 Crouching Tigers in your hand.
             productId: "678614",
             url: "https://www.tcgplayer.com/product/678614?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -399456,7 +399456,7 @@ If a Chi was pitched to play this, create 2 Crouching Tigers in your hand.
             productId: "654172",
             url: "https://www.tcgplayer.com/product/654172?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Bastien Jez"],
       foiling: Foiling.Rainbow,
@@ -399471,7 +399471,7 @@ If a Chi was pitched to play this, create 2 Crouching Tigers in your hand.
             productId: "654172",
             url: "https://www.tcgplayer.com/product/654172?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -400977,7 +400977,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
             productId: "705723",
             url: "https://www.tcgplayer.com/product/705723?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -401154,7 +401154,7 @@ If the defending hero has no cards in hand, this gets +3{p}.`,
             productId: "653235",
             url: "https://www.tcgplayer.com/product/653235?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -401619,7 +401619,7 @@ At the beginning of your action phase, destroy this then draw a card.`,
             productId: "692563",
             url: "https://www.tcgplayer.com/product/692563?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -401728,7 +401728,7 @@ At the beginning of your action phase, destroy this then draw a card.`,
             productId: "692564",
             url: "https://www.tcgplayer.com/product/692564?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -401867,7 +401867,7 @@ At the beginning of your action phase, destroy this then draw a card.`,
             productId: "692565",
             url: "https://www.tcgplayer.com/product/692565?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -402657,7 +402657,7 @@ At the beginning of your action phase, destroy this then draw a card.`,
             productId: "225620",
             url: "https://www.tcgplayer.com/product/225620?Language=English&Printing=1st+Edition+Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Alexandra Malygina"],
       foiling: Foiling.Rainbow,
@@ -402672,7 +402672,7 @@ At the beginning of your action phase, destroy this then draw a card.`,
             productId: "229756",
             url: "https://www.tcgplayer.com/product/229756?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -402826,7 +402826,7 @@ At the beginning of your action phase, destroy this then draw a card.`,
             productId: "238415",
             url: "https://www.tcgplayer.com/product/238415?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -402980,7 +402980,7 @@ At the beginning of your action phase, destroy this then draw a card.`,
             productId: "238416",
             url: "https://www.tcgplayer.com/product/238416?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -403317,7 +403317,7 @@ At the beginning of your action phase, destroy this then draw a card.`,
             productId: "577752",
             url: "https://www.tcgplayer.com/product/577752?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Daniel Jiménez"],
       foiling: Foiling.Rainbow,
@@ -403332,7 +403332,7 @@ At the beginning of your action phase, destroy this then draw a card.`,
             productId: "604784",
             url: "https://www.tcgplayer.com/product/604784?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -403428,7 +403428,7 @@ When this leaves the arena, deal 1 arcane damage to any target. If damage is dea
             productId: "695254",
             url: "https://www.tcgplayer.com/product/695254?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Common,
@@ -403509,7 +403509,7 @@ When this leaves the arena, create a Lightning Flow token.`,
             productId: "565400",
             url: "https://www.tcgplayer.com/product/565400?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Daniel Jiménez"],
       foiling: Foiling.Rainbow,
@@ -403524,7 +403524,7 @@ When this leaves the arena, create a Lightning Flow token.`,
             productId: "584719",
             url: "https://www.tcgplayer.com/product/584719?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -403607,7 +403607,7 @@ When this leaves the arena, draw a card.`,
             productId: "563797",
             url: "https://www.tcgplayer.com/product/563797?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Simon Wong"],
       
@@ -403637,7 +403637,7 @@ When this leaves the arena, draw a card.`,
             productId: "584702",
             url: "https://www.tcgplayer.com/product/584702?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Marvel,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -403718,7 +403718,7 @@ When this leaves the arena, create an Embodiment of Lightning token.`,
             productId: "563803",
             url: "https://www.tcgplayer.com/product/563803?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Daniel Jiménez"],
       foiling: Foiling.Rainbow,
@@ -403733,7 +403733,7 @@ When this leaves the arena, create an Embodiment of Lightning token.`,
             productId: "584707",
             url: "https://www.tcgplayer.com/product/584707?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Marvel,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -403817,7 +403817,7 @@ const cards6: Card[] = [{
             productId: "577746",
             url: "https://www.tcgplayer.com/product/577746?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Daniel Jiménez"],
       
@@ -403847,7 +403847,7 @@ const cards6: Card[] = [{
             productId: "584704",
             url: "https://www.tcgplayer.com/product/584704?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
@@ -403945,7 +403945,7 @@ When this leaves the arena, create a Runechant token.`,
             productId: "575192",
             url: "https://www.tcgplayer.com/product/575192?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Daniel Jiménez"],
       foiling: Foiling.Rainbow,
@@ -403960,7 +403960,7 @@ When this leaves the arena, create a Runechant token.`,
             productId: "578828",
             url: "https://www.tcgplayer.com/product/578828?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
@@ -404040,7 +404040,7 @@ When this leaves the arena, create an Embodiment of Earth token.`,
       rarity: Rarity.Marvel,
       set: Release.Promos,
       
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Common,
@@ -404121,7 +404121,7 @@ At the beginning of your action phase, destroy this.`,
             productId: "577761",
             url: "https://www.tcgplayer.com/product/577761?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Mario Wibisono"],
       
@@ -404151,7 +404151,7 @@ At the beginning of your action phase, destroy this.`,
             productId: "584705",
             url: "https://www.tcgplayer.com/product/584705?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
@@ -404232,7 +404232,7 @@ When this leaves the arena, create a Ponder token.`,
             productId: "577773",
             url: "https://www.tcgplayer.com/product/577773?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Daniel Jiménez"],
       
@@ -404262,7 +404262,7 @@ When this leaves the arena, create a Ponder token.`,
             productId: "584708",
             url: "https://www.tcgplayer.com/product/584708?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
@@ -404345,7 +404345,7 @@ When this leaves the arena, gain 1{h}.`,
             productId: "677624",
             url: "https://www.tcgplayer.com/product/677624?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -404443,7 +404443,7 @@ At the beginning of your action phase, destroy this.`,
             productId: "565419",
             url: "https://www.tcgplayer.com/product/565419?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Simon Wong"],
       
@@ -404488,7 +404488,7 @@ At the beginning of your action phase, destroy this.`,
             productId: "578829",
             url: "https://www.tcgplayer.com/product/578829?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
@@ -405134,7 +405134,7 @@ At the beginning of your action phase, destroy this.`,
             productId: "565403",
             url: "https://www.tcgplayer.com/product/565403?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Daniel Jiménez"],
       
@@ -405164,7 +405164,7 @@ At the beginning of your action phase, destroy this.`,
             productId: "584701",
             url: "https://www.tcgplayer.com/product/584701?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Marvel,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -405388,7 +405388,7 @@ When this leaves the arena, create an Embodiment of Earth token.`,
             productId: "677625",
             url: "https://www.tcgplayer.com/product/677625?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -405576,7 +405576,7 @@ At the beginning of your action phase, destroy this.`,
             productId: "678589",
             url: "https://www.tcgplayer.com/product/678589?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Asur Misoa"],
       foiling: Foiling.Rainbow,
@@ -405591,7 +405591,7 @@ At the beginning of your action phase, destroy this.`,
             productId: "512824",
             url: "https://www.tcgplayer.com/product/512824?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },{
         artists: ["Asur Misoa"],
       foiling: Foiling.Rainbow,
@@ -405606,7 +405606,7 @@ At the beginning of your action phase, destroy this.`,
             productId: "528478",
             url: "https://www.tcgplayer.com/product/528478?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -406599,7 +406599,7 @@ If you've dealt arcane damage this turn, this gets +1{d}.`,
             productId: "563801",
             url: "https://www.tcgplayer.com/product/563801?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Daniel Jiménez"],
       foiling: Foiling.Rainbow,
@@ -406614,7 +406614,7 @@ If you've dealt arcane damage this turn, this gets +1{d}.`,
             productId: "584706",
             url: "https://www.tcgplayer.com/product/584706?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Marvel,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -406710,7 +406710,7 @@ When this leaves the arena, banish the top card of your deck. If it's a non-atta
             productId: "563798",
             url: "https://www.tcgplayer.com/product/563798?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Daniel Jiménez"],
       foiling: Foiling.Rainbow,
@@ -406725,7 +406725,7 @@ When this leaves the arena, banish the top card of your deck. If it's a non-atta
             productId: "584703",
             url: "https://www.tcgplayer.com/product/584703?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Marvel,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -407189,7 +407189,7 @@ At the beginning of your action phase, destroy this unless you remove a steam co
             productId: "274334",
             url: "https://www.tcgplayer.com/product/274334?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Felicia Liang"],
       
@@ -407715,7 +407715,7 @@ At the beginning of your action phase, destroy this unless you remove a steam co
       rarity: Rarity.Basic,
       set: Release.ArmoryDeckDrMortimer,
       
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Anastasiya Grintsova"],
       
@@ -410225,7 +410225,7 @@ Target weapon attack gets +1{p}.
             productId: "518652",
             url: "https://www.tcgplayer.com/product/518652?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Legendary,Rarity.Marvel],
     rarity: Rarity.Legendary,
@@ -410426,7 +410426,7 @@ Target weapon attack gets +1{p}.
             productId: "678587",
             url: "https://www.tcgplayer.com/product/678587?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Vlad Varlamov"],
       foiling: Foiling.Cold,
@@ -410453,7 +410453,7 @@ Target weapon attack gets +1{p}.
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.FA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Kimberly Pantoni"],
       foiling: Foiling.Rainbow,
@@ -410468,7 +410468,7 @@ Target weapon attack gets +1{p}.
             productId: "630088",
             url: "https://www.tcgplayer.com/product/630088?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },{
         artists: ["Simon Dominic"],
       foiling: Foiling.Rainbow,
@@ -410483,7 +410483,7 @@ Target weapon attack gets +1{p}.
             productId: "672195",
             url: "https://www.tcgplayer.com/product/672195?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
@@ -411070,7 +411070,7 @@ If this was played from your banished zone, it gets "When this attacks, you may 
             productId: "634081",
             url: "https://www.tcgplayer.com/product/634081?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Yiian Kho"],
       foiling: Foiling.Rainbow,
@@ -411085,7 +411085,7 @@ If this was played from your banished zone, it gets "When this attacks, you may 
             productId: "634081",
             url: "https://www.tcgplayer.com/product/634081?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -413025,7 +413025,7 @@ Whenever you roll a 1 on a die, destroy this.
             productId: "634059",
             url: "https://www.tcgplayer.com/product/634059?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Mariusz Gandzel"],
       foiling: Foiling.Rainbow,
@@ -413040,7 +413040,7 @@ Whenever you roll a 1 on a die, destroy this.
             productId: "634059",
             url: "https://www.tcgplayer.com/product/634059?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -414185,7 +414185,7 @@ Whenever you roll a 1 on a die, destroy this.
             productId: "545419",
             url: "https://www.tcgplayer.com/product/545419?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -414812,7 +414812,7 @@ When this hits a hero, banish the top card of their deck.`,
             productId: "226033",
             url: "https://www.tcgplayer.com/product/226033?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -414936,7 +414936,7 @@ When this hits a hero, banish the top card of their deck.`,
             productId: "226034",
             url: "https://www.tcgplayer.com/product/226034?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -415060,7 +415060,7 @@ When this hits a hero, banish the top card of their deck.`,
             productId: "226035",
             url: "https://www.tcgplayer.com/product/226035?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -415169,7 +415169,7 @@ When this hits a hero, banish the top card of their deck.`,
             productId: "261364",
             url: "https://www.tcgplayer.com/product/261364?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -415282,7 +415282,7 @@ Your second sword or dagger attack this turn gets +3{p}.
             productId: "261366",
             url: "https://www.tcgplayer.com/product/261366?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -415380,7 +415380,7 @@ Your second sword or dagger attack this turn gets +2{p}.
             productId: "261373",
             url: "https://www.tcgplayer.com/product/261373?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -415557,7 +415557,7 @@ Your second sword or dagger attack this turn gets +1{p}.
             productId: "554845",
             url: "https://www.tcgplayer.com/product/554845?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Mario Wibisono"],
       foiling: Foiling.Rainbow,
@@ -415572,7 +415572,7 @@ Your second sword or dagger attack this turn gets +1{p}.
             productId: "553908",
             url: "https://www.tcgplayer.com/product/553908?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
@@ -417095,7 +417095,7 @@ Target attack action card gets **go again**.`,
             productId: "578814",
             url: "https://www.tcgplayer.com/product/578814?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -417670,7 +417670,7 @@ Target attack action card gets **go again**.`,
             productId: "542284",
             url: "https://www.tcgplayer.com/product/542284?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -418030,7 +418030,7 @@ If this was played from arsenal, the next attack action card you play this turn 
             productId: "654195",
             url: "https://www.tcgplayer.com/product/654195?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Vadim Kalabukh"],
       foiling: Foiling.Rainbow,
@@ -418045,7 +418045,7 @@ If this was played from arsenal, the next attack action card you play this turn 
             productId: "654195",
             url: "https://www.tcgplayer.com/product/654195?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.SuperRare],
     rarity: Rarity.SuperRare,
@@ -418343,7 +418343,7 @@ Your next Brute attack this turn gets "If you've intimidated 2 or more times thi
             productId: "646561",
             url: "https://www.tcgplayer.com/product/646561?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Simon Dominic"],
       foiling: Foiling.Rainbow,
@@ -418358,7 +418358,7 @@ Your next Brute attack this turn gets "If you've intimidated 2 or more times thi
             productId: "650367",
             url: "https://www.tcgplayer.com/product/650367?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -418469,7 +418469,7 @@ Your next Brute attack this turn gets "If you've intimidated 2 or more times thi
             productId: "616352",
             url: "https://www.tcgplayer.com/product/616352?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Rainbow,
@@ -418484,7 +418484,7 @@ Your next Brute attack this turn gets "If you've intimidated 2 or more times thi
             productId: "616352",
             url: "https://www.tcgplayer.com/product/616352?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -418770,7 +418770,7 @@ While this is in your graveyard, if 1 or more Frostbite tokens would be created 
             productId: "226069",
             url: "https://www.tcgplayer.com/product/226069?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -419913,7 +419913,7 @@ If you've played another Wizard non-attack action card this turn, you may play t
             productId: "678641",
             url: "https://www.tcgplayer.com/product/678641?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Nathaniel Himawan"],
       foiling: Foiling.Rainbow,
@@ -419928,7 +419928,7 @@ If you've played another Wizard non-attack action card this turn, you may play t
             productId: "678641",
             url: "https://www.tcgplayer.com/product/678641?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -420157,7 +420157,7 @@ If you've played another Wizard non-attack action card this turn, you may play t
             productId: "678584",
             url: "https://www.tcgplayer.com/product/678584?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Bramasta Aji"],
       foiling: Foiling.Rainbow,
@@ -420172,7 +420172,7 @@ If you've played another Wizard non-attack action card this turn, you may play t
             productId: "645203",
             url: "https://www.tcgplayer.com/product/645203?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -421626,7 +421626,7 @@ If this was **fused**, it gets "When this hits a hero, create a Frostbite token 
             productId: "646547",
             url: "https://www.tcgplayer.com/product/646547?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -424068,7 +424068,7 @@ If this deals damage, look at the top card of your deck. If it's a Wizard non-at
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -424153,7 +424153,7 @@ When this hits a hero, banish all cards in their soul. They lose {h} equal to th
             productId: "706749",
             url: "https://www.tcgplayer.com/product/706749?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Fabled,Rarity.Marvel],
     rarity: Rarity.Fabled,
@@ -425206,7 +425206,7 @@ The first time you would be dealt damage each turn, if you've **charged** this t
             productId: "529737",
             url: "https://www.tcgplayer.com/product/529737?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -425302,7 +425302,7 @@ The first time you would be dealt damage each turn, if you've **charged** this t
             productId: "529738",
             url: "https://www.tcgplayer.com/product/529738?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -425398,7 +425398,7 @@ The first time you would be dealt damage each turn, if you've **charged** this t
             productId: "529739",
             url: "https://www.tcgplayer.com/product/529739?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -425974,7 +425974,7 @@ If this was played from arsenal, draw a card.
             productId: "225559",
             url: "https://www.tcgplayer.com/product/225559?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
@@ -426309,7 +426309,7 @@ If you've **boosted** this turn, draw a card.`,
             productId: "692566",
             url: "https://www.tcgplayer.com/product/692566?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -426435,7 +426435,7 @@ If you've **boosted** this turn, draw a card.`,
             productId: "692567",
             url: "https://www.tcgplayer.com/product/692567?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -426591,7 +426591,7 @@ If you've **boosted** this turn, draw a card.`,
             productId: "692568",
             url: "https://www.tcgplayer.com/product/692568?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -427575,7 +427575,7 @@ If you've **boosted** this turn, draw a card.`,
             productId: "552844",
             url: "https://www.tcgplayer.com/product/552844?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Asur Misoa"],
       
@@ -427590,7 +427590,7 @@ If you've **boosted** this turn, draw a card.`,
             productId: "552843",
             url: "https://www.tcgplayer.com/product/552843?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Asur Misoa"],
       
@@ -427740,7 +427740,7 @@ If you've **boosted** this turn, draw a card.`,
             productId: "619713",
             url: "https://www.tcgplayer.com/product/619713?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Asur Misoa"],
       foiling: Foiling.Cold,
@@ -427755,7 +427755,7 @@ If you've **boosted** this turn, draw a card.`,
             productId: "619714",
             url: "https://www.tcgplayer.com/product/619714?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Asur Misoa"],
       foiling: Foiling.Cold,
@@ -427770,7 +427770,7 @@ If you've **boosted** this turn, draw a card.`,
             productId: "619716",
             url: "https://www.tcgplayer.com/product/619716?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },],
     rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Basic,
@@ -427864,7 +427864,7 @@ If you've **boosted** this turn, draw a card.`,
             productId: "696207",
             url: "https://www.tcgplayer.com/product/696207?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Narendra B Adi"],
       foiling: Foiling.Rainbow,
@@ -427879,7 +427879,7 @@ If you've **boosted** this turn, draw a card.`,
             productId: "696207",
             url: "https://www.tcgplayer.com/product/696207?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -428567,7 +428567,7 @@ When this attacks, if it scrapped a Hyper Driver, create a Hyper Driver token wi
             productId: "695257",
             url: "https://www.tcgplayer.com/product/695257?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Common,
@@ -428957,7 +428957,7 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
             productId: "225716",
             url: "https://www.tcgplayer.com/product/225716?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -429081,7 +429081,7 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
             productId: "225718",
             url: "https://www.tcgplayer.com/product/225718?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -429220,7 +429220,7 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
             productId: "225720",
             url: "https://www.tcgplayer.com/product/225720?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -429329,7 +429329,7 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
             productId: "225785",
             url: "https://www.tcgplayer.com/product/225785?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -429438,7 +429438,7 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
             productId: "225787",
             url: "https://www.tcgplayer.com/product/225787?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -429547,7 +429547,7 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
             productId: "225788",
             url: "https://www.tcgplayer.com/product/225788?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -429656,7 +429656,7 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
             productId: "648069",
             url: "https://www.tcgplayer.com/product/648069?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Legendary,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Legendary,
@@ -429880,7 +429880,7 @@ At the beginning of your end phase, destroy this unless you've dealt arcane dama
             productId: "655920",
             url: "https://www.tcgplayer.com/product/655920?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -430698,7 +430698,7 @@ When this defends and the attacking hero has played or activated a reaction this
             productId: "487799",
             url: "https://www.tcgplayer.com/product/487799?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Mateusz Wiśniewski"],
       foiling: Foiling.Rainbow,
@@ -430713,7 +430713,7 @@ When this defends and the attacking hero has played or activated a reaction this
             productId: "621150",
             url: "https://www.tcgplayer.com/product/621150?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -430807,7 +430807,7 @@ When this defends and the attacking hero has played or activated a reaction this
             productId: "487801",
             url: "https://www.tcgplayer.com/product/487801?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -430901,7 +430901,7 @@ When this defends and the attacking hero has played or activated a reaction this
             productId: "487800",
             url: "https://www.tcgplayer.com/product/487800?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -431339,7 +431339,7 @@ When this defends and the attacking hero has played or activated a reaction this
             productId: "500685",
             url: "https://www.tcgplayer.com/product/500685?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -431435,7 +431435,7 @@ When this defends and the attacking hero has played or activated a reaction this
             productId: "500688",
             url: "https://www.tcgplayer.com/product/500688?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -431531,7 +431531,7 @@ When this defends and the attacking hero has played or activated a reaction this
             productId: "500691",
             url: "https://www.tcgplayer.com/product/500691?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -431924,7 +431924,7 @@ When this defends and the attacking hero has played or activated a reaction this
             productId: "604713",
             url: "https://www.tcgplayer.com/product/604713?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
@@ -432596,7 +432596,7 @@ When this attacks, you may {t} a cog you control. If you do, the attack gets +1{
             productId: "504521",
             url: "https://www.tcgplayer.com/product/504521?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -435541,7 +435541,7 @@ When one or more Earth cards are pitched this way, the next time you deal arcane
             productId: "629669",
             url: "https://www.tcgplayer.com/product/629669?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -436283,7 +436283,7 @@ If you control a Vigor token, this gets +1{d}.
             productId: "710573",
             url: "https://www.tcgplayer.com/product/710573?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -436441,7 +436441,7 @@ If you control a Vigor token, this gets +1{d}.
             productId: "654117",
             url: "https://www.tcgplayer.com/product/654117?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Sebastian Giacobino"],
       foiling: Foiling.Rainbow,
@@ -436456,7 +436456,7 @@ If you control a Vigor token, this gets +1{d}.
             productId: "654117",
             url: "https://www.tcgplayer.com/product/654117?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -436789,7 +436789,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
             productId: "696189",
             url: "https://www.tcgplayer.com/product/696189?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -437207,7 +437207,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
             productId: "696215",
             url: "https://www.tcgplayer.com/product/696215?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Rainbow,
@@ -437222,7 +437222,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
             productId: "696215",
             url: "https://www.tcgplayer.com/product/696215?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -437597,7 +437597,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -437757,7 +437757,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
             productId: "692519",
             url: "https://www.tcgplayer.com/product/692519?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -438069,7 +438069,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
             productId: "692569",
             url: "https://www.tcgplayer.com/product/692569?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -438207,7 +438207,7 @@ If the additional cost is paid, this gets +3{d}.`,
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -438360,7 +438360,7 @@ If the additional cost is paid, this gets +3{d}.`,
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -438693,7 +438693,7 @@ If the additional cost is paid, this gets +3{d}.`,
             productId: "654168",
             url: "https://www.tcgplayer.com/product/654168?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Ausonia"],
       foiling: Foiling.Rainbow,
@@ -438708,7 +438708,7 @@ If the additional cost is paid, this gets +3{d}.`,
             productId: "654168",
             url: "https://www.tcgplayer.com/product/654168?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.SuperRare],
     rarity: Rarity.SuperRare,
@@ -440630,7 +440630,7 @@ Until end of turn, target weapon you control gets +2{p} and "Whenever this hits,
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Promo],
     rarity: Rarity.Basic,
@@ -440841,7 +440841,7 @@ At the beginning of your end phase, destroy this.`,
             productId: "696194",
             url: "https://www.tcgplayer.com/product/696194?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Faizal Fikri"],
       foiling: Foiling.Rainbow,
@@ -440856,7 +440856,7 @@ At the beginning of your end phase, destroy this.`,
             productId: "696194",
             url: "https://www.tcgplayer.com/product/696194?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -441480,7 +441480,7 @@ At the beginning of your end phase, destroy this.`,
             productId: "551531",
             url: "https://www.tcgplayer.com/product/551531?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["寿多浩 (Hiro Suda)"],
       
@@ -441510,7 +441510,7 @@ At the beginning of your end phase, destroy this.`,
             productId: "555745",
             url: "https://www.tcgplayer.com/product/555745?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
@@ -441992,7 +441992,7 @@ If this was **fused**, it gets +2{p}.`,
             productId: "275730",
             url: "https://www.tcgplayer.com/product/275730?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Shen Fei"],
       
@@ -442673,7 +442673,7 @@ At the beginning of your action phase, destroy this.`,
             productId: "675373",
             url: "https://www.tcgplayer.com/product/675373?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Andy Aslamov"],
       foiling: Foiling.Cold,
@@ -442718,7 +442718,7 @@ At the beginning of your action phase, destroy this.`,
             productId: "662124",
             url: "https://www.tcgplayer.com/product/662124?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Rainbow,
@@ -442733,7 +442733,7 @@ At the beginning of your action phase, destroy this.`,
             productId: "675353",
             url: "https://www.tcgplayer.com/product/675353?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
@@ -443472,7 +443472,7 @@ At the beginning of your action phase, destroy this.`,
             productId: "715710",
             url: "https://www.tcgplayer.com/product/715710?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -443811,7 +443811,7 @@ Target Lightning attack gets **go again**.`,
             productId: "664632",
             url: "https://www.tcgplayer.com/product/664632?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -444667,7 +444667,7 @@ Target Lightning attack gets **go again**.`,
             productId: "257645",
             url: "https://www.tcgplayer.com/product/257645?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -445217,7 +445217,7 @@ At the beginning of your action phase, destroy this then the next attack action 
             productId: "634082",
             url: "https://www.tcgplayer.com/product/634082?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Saad Irfan"],
       foiling: Foiling.Rainbow,
@@ -445232,7 +445232,7 @@ At the beginning of your action phase, destroy this then the next attack action 
             productId: "634082",
             url: "https://www.tcgplayer.com/product/634082?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -447202,7 +447202,7 @@ The first time this deals damage to a Lightning hero, {t} them or a weapon they 
             productId: "678619",
             url: "https://www.tcgplayer.com/product/678619?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Stormy Elia Fanggidae"],
       foiling: Foiling.Rainbow,
@@ -447217,7 +447217,7 @@ The first time this deals damage to a Lightning hero, {t} them or a weapon they 
             productId: "678619",
             url: "https://www.tcgplayer.com/product/678619?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -448820,7 +448820,7 @@ If you've played a card named Moon Wish this turn, draw a card and this gets **g
             productId: "633624",
             url: "https://www.tcgplayer.com/product/633624?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -449306,7 +449306,7 @@ If X is 3 or greater, you may shuffle a Construct Nitro Mechanoid from your bani
             productId: "666549",
             url: "https://www.tcgplayer.com/product/666549?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -449381,7 +449381,7 @@ When this enters or leaves the arena, **the crowd cheers** you.`,
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -449464,7 +449464,7 @@ When this enters or leaves the arena, **the crowd cheers** you.`,
             productId: "502728",
             url: "https://www.tcgplayer.com/product/502728?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -449562,7 +449562,7 @@ When Suraya attacks, you may banish a card from your hero's soul. If you do, dra
             productId: "453406",
             url: "https://www.tcgplayer.com/product/453406?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Legendary,Rarity.Marvel],
     rarity: Rarity.Legendary,
@@ -449743,7 +449743,7 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
             productId: "453393",
             url: "https://www.tcgplayer.com/product/453393?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -450334,7 +450334,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -450515,7 +450515,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -450681,7 +450681,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -450805,7 +450805,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
             productId: "226073",
             url: "https://www.tcgplayer.com/product/226073?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -450931,7 +450931,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
             productId: "226074",
             url: "https://www.tcgplayer.com/product/226074?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -451057,7 +451057,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
             productId: "226075",
             url: "https://www.tcgplayer.com/product/226075?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -451292,7 +451292,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
             productId: "632072",
             url: "https://www.tcgplayer.com/product/632072?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Faizal Fikri"],
       foiling: Foiling.Rainbow,
@@ -451307,7 +451307,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
             productId: "636258",
             url: "https://www.tcgplayer.com/product/636258?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
@@ -451932,7 +451932,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
             productId: "634077",
             url: "https://www.tcgplayer.com/product/634077?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Soffani Soffa"],
       foiling: Foiling.Rainbow,
@@ -451947,7 +451947,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
             productId: "634077",
             url: "https://www.tcgplayer.com/product/634077?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -452150,7 +452150,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
             productId: "633657",
             url: "https://www.tcgplayer.com/product/633657?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -452244,7 +452244,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
             productId: "633658",
             url: "https://www.tcgplayer.com/product/633658?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -452353,7 +452353,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
             productId: "633659",
             url: "https://www.tcgplayer.com/product/633659?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -452447,7 +452447,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
             productId: "633660",
             url: "https://www.tcgplayer.com/product/633660?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -452541,7 +452541,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
             productId: "633661",
             url: "https://www.tcgplayer.com/product/633661?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -452635,7 +452635,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
             productId: "633662",
             url: "https://www.tcgplayer.com/product/633662?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -452729,7 +452729,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
             productId: "661997",
             url: "https://www.tcgplayer.com/product/661997?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -453435,7 +453435,7 @@ The next time you would sharpen a sword this turn, instead **sharpen** it an add
             productId: "690687",
             url: "https://www.tcgplayer.com/product/690687?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -453531,7 +453531,7 @@ Target weapon attack gets +5{p}.`,
             productId: "617925",
             url: "https://www.tcgplayer.com/product/617925?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -453627,7 +453627,7 @@ Target weapon attack gets +5{p}.`,
             productId: "617922",
             url: "https://www.tcgplayer.com/product/617922?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -453723,7 +453723,7 @@ Target weapon attack gets +5{p}.`,
             productId: "617929",
             url: "https://www.tcgplayer.com/product/617929?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -453917,7 +453917,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
             productId: "713236",
             url: "https://www.tcgplayer.com/product/713236?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -454183,7 +454183,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -454276,7 +454276,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -454369,7 +454369,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -454465,7 +454465,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
             productId: "618028",
             url: "https://www.tcgplayer.com/product/618028?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -454561,7 +454561,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
             productId: "618038",
             url: "https://www.tcgplayer.com/product/618038?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -454657,7 +454657,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
             productId: "618047",
             url: "https://www.tcgplayer.com/product/618047?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -454753,7 +454753,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
             productId: "449743",
             url: "https://www.tcgplayer.com/product/449743?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
@@ -455171,7 +455171,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -455311,7 +455311,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -455451,7 +455451,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -456359,7 +456359,7 @@ If you've **charged** this turn, this gets **go again**.`,
             productId: "545418",
             url: "https://www.tcgplayer.com/product/545418?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -456453,7 +456453,7 @@ If you've **charged** this turn, this gets **go again**.`,
             productId: "654190",
             url: "https://www.tcgplayer.com/product/654190?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Widya Wang"],
       foiling: Foiling.Rainbow,
@@ -456468,7 +456468,7 @@ If you've **charged** this turn, this gets **go again**.`,
             productId: "654190",
             url: "https://www.tcgplayer.com/product/654190?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -457345,7 +457345,7 @@ Target attack gets +1{p}.`,
             productId: "454858",
             url: "https://www.tcgplayer.com/product/454858?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
@@ -458241,7 +458241,7 @@ When a source you control deals exactly 2 damage to an opponent, destroy this an
             productId: "225889",
             url: "https://www.tcgplayer.com/product/225889?Language=English&Printing=1st+Edition+Cold+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["J. Sebastián S.C."],
       foiling: Foiling.Gold,
@@ -458350,7 +458350,7 @@ When a source you control deals exactly 2 damage to an opponent, destroy this an
             productId: "537817",
             url: "https://www.tcgplayer.com/product/537817?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -458770,7 +458770,7 @@ If this deals damage, you may {t} your hero. If you do, put an instant card from
             productId: "625005",
             url: "https://www.tcgplayer.com/product/625005?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -458961,7 +458961,7 @@ If this deals damage, you may {t} your hero. If you do, put an instant card from
             productId: "500681",
             url: "https://www.tcgplayer.com/product/500681?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -459037,7 +459037,7 @@ If this deals damage, you may {t} your hero. If you do, put an instant card from
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
@@ -460808,7 +460808,7 @@ Create Seismic Surge tokens equal to the number of cards drawn this way.
             productId: "225551",
             url: "https://www.tcgplayer.com/product/225551?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Nathaniel Himawan"],
       foiling: Foiling.Cold,
@@ -461397,7 +461397,7 @@ Once per turn, when you boost an attack action card, remove a steam counter from
             productId: "680622",
             url: "https://www.tcgplayer.com/product/680622?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Reinaldo Indrajaya"],
       foiling: Foiling.Rainbow,
@@ -461412,7 +461412,7 @@ Once per turn, when you boost an attack action card, remove a steam counter from
             productId: "680622",
             url: "https://www.tcgplayer.com/product/680622?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -461715,7 +461715,7 @@ Once per turn, when you boost an attack action card, remove a steam counter from
             productId: "677675",
             url: "https://www.tcgplayer.com/product/677675?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Simon Dominic"],
       foiling: Foiling.Cold,
@@ -461730,7 +461730,7 @@ Once per turn, when you boost an attack action card, remove a steam counter from
             productId: "677675",
             url: "https://www.tcgplayer.com/product/677675?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Simon Dominic"],
       
@@ -461964,7 +461964,7 @@ Once per turn, when you boost an attack action card, remove a steam counter from
             productId: "518652",
             url: "https://www.tcgplayer.com/product/518652?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Legendary,Rarity.Marvel],
     rarity: Rarity.Legendary,
@@ -462081,7 +462081,7 @@ This counts as having 4 Evos equipped.
             productId: "226016",
             url: "https://www.tcgplayer.com/product/226016?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -462192,7 +462192,7 @@ Reveal the top card of your deck. If it's a Mechanologist item card with cost 2 
             productId: "226017",
             url: "https://www.tcgplayer.com/product/226017?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -462303,7 +462303,7 @@ Reveal the top card of your deck. If it's a Mechanologist item card with cost 1 
             productId: "226018",
             url: "https://www.tcgplayer.com/product/226018?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -462789,7 +462789,7 @@ If this is played at chain link 3 or higher, this gets **go again**.`,
             productId: "696464",
             url: "https://www.tcgplayer.com/product/696464?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -463124,7 +463124,7 @@ The first time this deals damage to a hero, they discard a card.`,
             productId: "577767",
             url: "https://www.tcgplayer.com/product/577767?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -463218,7 +463218,7 @@ The first time this deals damage to a hero, they discard a card.`,
             productId: "678568",
             url: "https://www.tcgplayer.com/product/678568?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Joseph Qiu"],
       foiling: Foiling.Cold,
@@ -463233,7 +463233,7 @@ The first time this deals damage to a hero, they discard a card.`,
             productId: "678568",
             url: "https://www.tcgplayer.com/product/678568?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -463357,7 +463357,7 @@ The first time this deals damage to a hero, they discard a card.`,
             productId: "666550",
             url: "https://www.tcgplayer.com/product/666550?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -463873,7 +463873,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
             productId: "518258",
             url: "https://www.tcgplayer.com/product/518258?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -464212,7 +464212,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
             productId: "559709",
             url: "https://www.tcgplayer.com/product/559709?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -464306,7 +464306,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
             productId: "646556",
             url: "https://www.tcgplayer.com/product/646556?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -464430,7 +464430,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
             productId: "563309",
             url: "https://www.tcgplayer.com/product/563309?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -464554,7 +464554,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
             productId: "531872",
             url: "https://www.tcgplayer.com/product/531872?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -464663,7 +464663,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
             productId: "559708",
             url: "https://www.tcgplayer.com/product/559708?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -464742,7 +464742,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
             productId: "646281",
             url: "https://www.tcgplayer.com/product/646281?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Jessada Sutthi","Carlos Cruchaga"],
       foiling: Foiling.Cold,
@@ -464757,7 +464757,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
             productId: "646281",
             url: "https://www.tcgplayer.com/product/646281?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Jessada Sutthi"],
       foiling: Foiling.Gold,
@@ -464769,7 +464769,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Legendary,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Legendary,
@@ -464865,7 +464865,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
             productId: "678571",
             url: "https://www.tcgplayer.com/product/678571?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Ramza Ardyputra"],
       foiling: Foiling.Cold,
@@ -464880,7 +464880,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
             productId: "678571",
             url: "https://www.tcgplayer.com/product/678571?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -465125,7 +465125,7 @@ When you win a **clash** revealing this, create a Gold token.`,
             productId: "546704",
             url: "https://www.tcgplayer.com/product/546704?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["romiy"],
       
@@ -465155,7 +465155,7 @@ When you win a **clash** revealing this, create a Gold token.`,
             productId: "555747",
             url: "https://www.tcgplayer.com/product/555747?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
@@ -465223,7 +465223,7 @@ If you've played another blue card this turn, **transcend**.`,
             productId: "617907",
             url: "https://www.tcgplayer.com/product/617907?Language=English&Printing=Normal"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Pavel Rtishchev (Klaher)"],
       foiling: Foiling.Cold,
@@ -465235,7 +465235,7 @@ If you've played another blue card this turn, **transcend**.`,
       rarity: Rarity.Rare,
       set: Release.GEM,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Pavel Rtishchev (Klaher)"],
       foiling: Foiling.Cold,
@@ -465250,7 +465250,7 @@ If you've played another blue card this turn, **transcend**.`,
             productId: "618317",
             url: "https://www.tcgplayer.com/product/618317?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -465396,7 +465396,7 @@ While The Librarian is face-up in arsenal, once per turn when you create a Spect
       rarity: Rarity.Marvel,
       set: Release.Promos,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Marvel],
     rarity: Rarity.Marvel,
@@ -465601,7 +465601,7 @@ While The Librarian is face-up in arsenal, once per turn when you create a Spect
             productId: "654036",
             url: "https://www.tcgplayer.com/product/654036?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -465697,7 +465697,7 @@ Your first attack each turn gets +1{p}.`,
             productId: "678569",
             url: "https://www.tcgplayer.com/product/678569?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Federico Musetti"],
       foiling: Foiling.Cold,
@@ -465712,7 +465712,7 @@ Your first attack each turn gets +1{p}.`,
             productId: "678569",
             url: "https://www.tcgplayer.com/product/678569?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -465791,7 +465791,7 @@ Your first attack each turn gets +1{p}.`,
             productId: "274733",
             url: "https://www.tcgplayer.com/product/274733?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -465870,7 +465870,7 @@ Your first attack each turn gets +1{p}.`,
             productId: "502731",
             url: "https://www.tcgplayer.com/product/502731?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -466047,7 +466047,7 @@ When Themis attacks, you may banish a card from your hero's soul. If you do, tur
             productId: "661914",
             url: "https://www.tcgplayer.com/product/661914?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Grégory Nunkovics"],
       foiling: Foiling.Rainbow,
@@ -466062,7 +466062,7 @@ When Themis attacks, you may banish a card from your hero's soul. If you do, tur
             productId: "657794",
             url: "https://www.tcgplayer.com/product/657794?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.SuperRare],
     rarity: Rarity.SuperRare,
@@ -466159,7 +466159,7 @@ When Themis attacks, you may banish a card from your hero's soul. If you do, tur
             productId: "614546",
             url: "https://www.tcgplayer.com/product/614546?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -466253,7 +466253,7 @@ When Themis attacks, you may banish a card from your hero's soul. If you do, tur
             productId: "633663",
             url: "https://www.tcgplayer.com/product/633663?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -466430,7 +466430,7 @@ When Themis attacks, you may banish a card from your hero's soul. If you do, tur
             productId: "678577",
             url: "https://www.tcgplayer.com/product/678577?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Alexander Mokhov"],
       foiling: Foiling.Cold,
@@ -466445,7 +466445,7 @@ When Themis attacks, you may banish a card from your hero's soul. If you do, tur
             productId: "678577",
             url: "https://www.tcgplayer.com/product/678577?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -467143,7 +467143,7 @@ Gain 1{h}`,
             productId: "225600",
             url: "https://www.tcgplayer.com/product/225600?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -467282,7 +467282,7 @@ Gain 1{h}`,
             productId: "225607",
             url: "https://www.tcgplayer.com/product/225607?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -467436,7 +467436,7 @@ Gain 1{h}`,
             productId: "225609",
             url: "https://www.tcgplayer.com/product/225609?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -467545,7 +467545,7 @@ Gain 1{h}`,
             productId: "633641",
             url: "https://www.tcgplayer.com/product/633641?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -468469,7 +468469,7 @@ Gain 1{h}`,
             productId: "261338",
             url: "https://www.tcgplayer.com/product/261338?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Rare],
     rarity: Rarity.Common,
@@ -468578,7 +468578,7 @@ Gain 1{h}`,
             productId: "261339",
             url: "https://www.tcgplayer.com/product/261339?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Rare],
     rarity: Rarity.Common,
@@ -468702,7 +468702,7 @@ Gain 1{h}`,
             productId: "261340",
             url: "https://www.tcgplayer.com/product/261340?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Rare],
     rarity: Rarity.Common,
@@ -469039,7 +469039,7 @@ Gain 1{h}`,
             productId: "537287",
             url: "https://www.tcgplayer.com/product/537287?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -469133,7 +469133,7 @@ Gain 1{h}`,
             productId: "537294",
             url: "https://www.tcgplayer.com/product/537294?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -469227,7 +469227,7 @@ Gain 1{h}`,
             productId: "537301",
             url: "https://www.tcgplayer.com/product/537301?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -471639,7 +471639,7 @@ If this was played during an opponent's turn, put it on the bottom of its owner'
             productId: "556974",
             url: "https://www.tcgplayer.com/product/556974?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -471970,7 +471970,7 @@ If this was played during an opponent's turn, put it on the bottom of its owner'
             productId: "633623",
             url: "https://www.tcgplayer.com/product/633623?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
+      treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -472633,7 +472633,7 @@ If there is a card with cost 3 or more in your pitch zone, this gets +1{p}.`,
             productId: "654038",
             url: "https://www.tcgplayer.com/product/654038?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -472951,7 +472951,7 @@ The first time you would be dealt damage each turn, prevent 1 of that damage.`,
             productId: "655925",
             url: "https://www.tcgplayer.com/product/655925?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -473077,7 +473077,7 @@ The first time you would be dealt damage each turn, prevent 1 of that damage.`,
             productId: "696206",
             url: "https://www.tcgplayer.com/product/696206?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Mario Wibisono"],
       foiling: Foiling.Rainbow,
@@ -473092,7 +473092,7 @@ The first time you would be dealt damage each turn, prevent 1 of that damage.`,
             productId: "696206",
             url: "https://www.tcgplayer.com/product/696206?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -474071,7 +474071,7 @@ Draw a card and {u} your hero.
             productId: "677662",
             url: "https://www.tcgplayer.com/product/677662?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -474152,7 +474152,7 @@ Draw a card and {u} your hero.
             productId: "693428",
             url: "https://www.tcgplayer.com/product/693428?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -474470,7 +474470,7 @@ Draw a card.
             productId: "274395",
             url: "https://www.tcgplayer.com/product/274395?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -474564,7 +474564,7 @@ Draw a card.
             productId: "578815",
             url: "https://www.tcgplayer.com/product/578815?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -474752,7 +474752,7 @@ Draw a card.
             productId: "616354",
             url: "https://www.tcgplayer.com/product/616354?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["YDZ"],
       foiling: Foiling.Rainbow,
@@ -474767,7 +474767,7 @@ Draw a card.
             productId: "616354",
             url: "https://www.tcgplayer.com/product/616354?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -476396,7 +476396,7 @@ Draw a card.
             productId: "696217",
             url: "https://www.tcgplayer.com/product/696217?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Federico Musetti"],
       foiling: Foiling.Rainbow,
@@ -476411,7 +476411,7 @@ Draw a card.
             productId: "696217",
             url: "https://www.tcgplayer.com/product/696217?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -476505,7 +476505,7 @@ Draw a card.
             productId: "693236",
             url: "https://www.tcgplayer.com/product/693236?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Basic,
@@ -477097,7 +477097,7 @@ Draw a card.
             productId: "495669",
             url: "https://www.tcgplayer.com/product/495669?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -477193,7 +477193,7 @@ Draw a card.
             productId: "495670",
             url: "https://www.tcgplayer.com/product/495670?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -477304,7 +477304,7 @@ Draw a card.
             productId: "495671",
             url: "https://www.tcgplayer.com/product/495671?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -478816,7 +478816,7 @@ If this was played from arsenal, it gets **go again**.`,
             productId: "551931",
             url: "https://www.tcgplayer.com/product/551931?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Olga Tereshenko"],
       foiling: Foiling.Gold,
@@ -478912,7 +478912,7 @@ If this was played from arsenal, it gets **go again**.`,
             productId: "648471",
             url: "https://www.tcgplayer.com/product/648471?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Jessada Sutthi"],
       foiling: Foiling.Cold,
@@ -478927,7 +478927,7 @@ If this was played from arsenal, it gets **go again**.`,
             productId: "648471",
             url: "https://www.tcgplayer.com/product/648471?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Promo],
     rarity: Rarity.Basic,
@@ -479527,7 +479527,7 @@ Whenever you or an ally you control deals damage to an opposing hero, you remove
             productId: "488468",
             url: "https://www.tcgplayer.com/product/488468?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Federico Musetti"],
       foiling: Foiling.Gold,
@@ -480462,7 +480462,7 @@ If a card with 6 or more {p} is banished this way, this gets +2{p}.
             productId: "584725",
             url: "https://www.tcgplayer.com/product/584725?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -480744,7 +480744,7 @@ If a card with 6 or more {p} is banished this way, this gets +2{p}.
             productId: "226027",
             url: "https://www.tcgplayer.com/product/226027?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Faizal Fikri"],
       foiling: Foiling.Rainbow,
@@ -480912,7 +480912,7 @@ When this defends, hit effects don't trigger this chain link unless the attackin
             productId: "629651",
             url: "https://www.tcgplayer.com/product/629651?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -481089,7 +481089,7 @@ If a hero wins both **clashes**, they create a Gold, Might, and Vigor token.`,
             productId: "577771",
             url: "https://www.tcgplayer.com/product/577771?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Wisnu Tan"],
       
@@ -481104,7 +481104,7 @@ If a hero wins both **clashes**, they create a Gold, Might, and Vigor token.`,
             productId: "678578",
             url: "https://www.tcgplayer.com/product/678578?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },{
         artists: ["Wisnu Tan"],
       foiling: Foiling.Cold,
@@ -481119,7 +481119,7 @@ If a hero wins both **clashes**, they create a Gold, Might, and Vigor token.`,
             productId: "678578",
             url: "https://www.tcgplayer.com/product/678578?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AB,treatments: [Treatment.AB],
+      treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -481394,7 +481394,7 @@ When you or a card you control is the target of an attack they control, destroy 
             productId: "653920",
             url: "https://www.tcgplayer.com/product/653920?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Wisnu Tan"],
       foiling: Foiling.Cold,
@@ -481409,7 +481409,7 @@ When you or a card you control is the target of an attack they control, destroy 
             productId: "653920",
             url: "https://www.tcgplayer.com/product/653920?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Wisnu Tan"],
       foiling: Foiling.Rainbow,
@@ -481502,7 +481502,7 @@ Whenever the crowd cheers you, create a Toughness token.`,
             productId: "641658",
             url: "https://www.tcgplayer.com/product/641658?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Wisnu Tan"],
       foiling: Foiling.Cold,
@@ -481517,7 +481517,7 @@ Whenever the crowd cheers you, create a Toughness token.`,
             productId: "641658",
             url: "https://www.tcgplayer.com/product/641658?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Wisnu Tan"],
       foiling: Foiling.Cold,
@@ -482666,7 +482666,7 @@ If this deals damage, you may {t} your hero. If you do, create a Ponder token.`,
             productId: "654167",
             url: "https://www.tcgplayer.com/product/654167?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["FeiKang"],
       foiling: Foiling.Rainbow,
@@ -482681,7 +482681,7 @@ If this deals damage, you may {t} your hero. If you do, create a Ponder token.`,
             productId: "654167",
             url: "https://www.tcgplayer.com/product/654167?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.SuperRare],
     rarity: Rarity.SuperRare,
@@ -482763,7 +482763,7 @@ const cards7: Card[] = [{
             productId: "551647",
             url: "https://www.tcgplayer.com/product/551647?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Billy Christian"],
       foiling: Foiling.Gold,
@@ -482876,7 +482876,7 @@ const cards7: Card[] = [{
             productId: "678170",
             url: "https://www.tcgplayer.com/product/678170?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
+      treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -483441,7 +483441,7 @@ const cards7: Card[] = [{
             productId: "225983",
             url: "https://www.tcgplayer.com/product/225983?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Marco Wulfr"],
       edition: ReleaseEdition.First,foiling: Foiling.Rainbow,
@@ -483456,7 +483456,7 @@ const cards7: Card[] = [{
             productId: "225982",
             url: "https://www.tcgplayer.com/product/225982?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -484159,7 +484159,7 @@ You may shuffle a Hyper Driver from your graveyard into your deck. If you do, ga
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -484252,7 +484252,7 @@ You may shuffle a Hyper Driver from your graveyard into your deck. If you do, ga
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -486169,7 +486169,7 @@ When this hits an ally, destroy that ally.`,
             productId: "618267",
             url: "https://www.tcgplayer.com/product/618267?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -487055,7 +487055,7 @@ If this is defended by 3 or more cards, it gets **go again**.`,
             productId: "693430",
             url: "https://www.tcgplayer.com/product/693430?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -487618,7 +487618,7 @@ The next Brute or Shadow attack action card you play this turn gets +2{p}.
             productId: "666551",
             url: "https://www.tcgplayer.com/product/666551?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.SuperRare],
     rarity: Rarity.SuperRare,
@@ -488236,7 +488236,7 @@ Choose X+1;
             productId: "656571",
             url: "https://www.tcgplayer.com/product/656571?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -488650,7 +488650,7 @@ When this hits a hero, create a Confidence and a Toughness token.`,
             productId: "239231",
             url: "https://www.tcgplayer.com/product/239231?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Federico Musetti"],
       foiling: Foiling.Rainbow,
@@ -488665,7 +488665,7 @@ When this hits a hero, create a Confidence and a Toughness token.`,
             productId: "244349",
             url: "https://www.tcgplayer.com/product/244349?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
@@ -488746,7 +488746,7 @@ If Ursur is attacking a hero with 1 or more cards in their soul, the attack gets
             productId: "711436",
             url: "https://www.tcgplayer.com/product/711436?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Legendary,Rarity.Marvel],
     rarity: Rarity.Legendary,
@@ -488825,7 +488825,7 @@ When this hits a hero, turn all cards in their banished zone face-down. They los
       rarity: Rarity.Marvel,
       set: Release.MasteryPackAssassin,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["soyameii"],
       foiling: Foiling.Cold,
@@ -488837,7 +488837,7 @@ When this hits a hero, turn all cards in their banished zone face-down. They los
       rarity: Rarity.Marvel,
       set: Release.MasteryPackAssassin,
       
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["soyameii"],
       
@@ -489018,7 +489018,7 @@ When this hits a hero, turn all cards in their banished zone face-down. They los
             productId: "616346",
             url: "https://www.tcgplayer.com/product/616346?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
@@ -489421,7 +489421,7 @@ When this hits a hero, turn all cards in their banished zone face-down. They los
       rarity: Rarity.Promo,
       set: Release.GEM,
       
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -489519,7 +489519,7 @@ Your attacks this combat chain get +1{p} for each Light card charged this way.`,
             productId: "680610",
             url: "https://www.tcgplayer.com/product/680610?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Rainbow,
@@ -489534,7 +489534,7 @@ Your attacks this combat chain get +1{p} for each Light card charged this way.`,
             productId: "680610",
             url: "https://www.tcgplayer.com/product/680610?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -489628,7 +489628,7 @@ Your attacks this combat chain get +1{p} for each Light card charged this way.`,
             productId: "649139",
             url: "https://www.tcgplayer.com/product/649139?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Wisnu Tan"],
       edition: ReleaseEdition.First,
@@ -489769,7 +489769,7 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
             productId: "646267",
             url: "https://www.tcgplayer.com/product/646267?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Wisnu Tan"],
       foiling: Foiling.Cold,
@@ -489862,7 +489862,7 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
             productId: "690443",
             url: "https://www.tcgplayer.com/product/690443?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Pavel Chuvin"],
       edition: ReleaseEdition.Unlimited,foiling: Foiling.Rainbow,
@@ -490723,7 +490723,7 @@ When this defends, you may pay {r}. If you do, it gets +1{d} and **blade break**
             productId: "500844",
             url: "https://www.tcgplayer.com/product/500844?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -490819,7 +490819,7 @@ When this defends, you may pay {r}. If you do, it gets +1{d} and **blade break**
             productId: "500845",
             url: "https://www.tcgplayer.com/product/500845?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -490915,7 +490915,7 @@ When this defends, you may pay {r}. If you do, it gets +1{d} and **blade break**
             productId: "500846",
             url: "https://www.tcgplayer.com/product/500846?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -492576,7 +492576,7 @@ If you've pitched a blue card this turn, create a Fang Strike in your hand.`,
             productId: "565396",
             url: "https://www.tcgplayer.com/product/565396?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Lius Lasahido"],
       foiling: Foiling.Rainbow,
@@ -492687,7 +492687,7 @@ If you've pitched a blue card this turn, create a Fang Strike in your hand.`,
             productId: "561297",
             url: "https://www.tcgplayer.com/product/561297?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Lius Lasahido"],
       foiling: Foiling.Cold,
@@ -493521,7 +493521,7 @@ When this hits a hero, deal 2 arcane damage to any target.
             productId: "250025",
             url: "https://www.tcgplayer.com/product/250025?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -493645,7 +493645,7 @@ When this hits a hero, deal 2 arcane damage to any target.
             productId: "250026",
             url: "https://www.tcgplayer.com/product/250026?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -493796,7 +493796,7 @@ When this hits a hero, deal 2 arcane damage to any target.
             productId: "250027",
             url: "https://www.tcgplayer.com/product/250027?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -494001,7 +494001,7 @@ When this hits a hero, deal 2 arcane damage to any target.
             productId: "536749",
             url: "https://www.tcgplayer.com/product/536749?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Billy Christian"],
       foiling: Foiling.Rainbow,
@@ -494112,7 +494112,7 @@ The first time each turn you would fail to win a **clash**, instead you may dest
             productId: "536746",
             url: "https://www.tcgplayer.com/product/536746?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Billy Christian"],
       foiling: Foiling.Cold,
@@ -494301,7 +494301,7 @@ Whenever you attack, you may destroy 3 Gold you control. If you do, the attack g
             productId: "502740",
             url: "https://www.tcgplayer.com/product/502740?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -494589,7 +494589,7 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
             productId: "517576",
             url: "https://www.tcgplayer.com/product/517576?Language=English&Printing=Normal"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Rio Sabda"],
       foiling: Foiling.Cold,
@@ -494619,7 +494619,7 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
             productId: "619719",
             url: "https://www.tcgplayer.com/product/619719?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Rio Sabda"],
       foiling: Foiling.Rainbow,
@@ -496290,7 +496290,7 @@ Target hero banishes the top card of their deck. If it's blue, they lose 1{h}.
             productId: "654192",
             url: "https://www.tcgplayer.com/product/654192?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Rainbow,
@@ -496305,7 +496305,7 @@ Target hero banishes the top card of their deck. If it's blue, they lose 1{h}.
             productId: "654192",
             url: "https://www.tcgplayer.com/product/654192?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -497255,7 +497255,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
             productId: "706685",
             url: "https://www.tcgplayer.com/product/706685?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Nathaniel Himawan"],
       
@@ -497463,7 +497463,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
             productId: "585032",
             url: "https://www.tcgplayer.com/product/585032?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },],
     rarities: [Rarity.Common,Rarity.Majestic,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
@@ -497542,7 +497542,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
             productId: "706681",
             url: "https://www.tcgplayer.com/product/706681?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel],
     rarity: Rarity.Basic,
@@ -497636,7 +497636,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
             productId: "706681",
             url: "https://www.tcgplayer.com/product/706681?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Nathaniel Himawan"],
       foiling: Foiling.Cold,
@@ -497651,7 +497651,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
             productId: "706685",
             url: "https://www.tcgplayer.com/product/706685?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Nathaniel Himawan"],
       
@@ -499757,7 +499757,7 @@ When this is pitched, create a Lightning Flow token.`,
             productId: "705058",
             url: "https://www.tcgplayer.com/product/705058?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -500069,7 +500069,7 @@ When this is pitched, create a Lightning Flow token.`,
             productId: "225623",
             url: "https://www.tcgplayer.com/product/225623?Language=English&Printing=1st+Edition+Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Nathaniel Himawan"],
       foiling: Foiling.Rainbow,
@@ -500084,7 +500084,7 @@ When this is pitched, create a Lightning Flow token.`,
             productId: "238419",
             url: "https://www.tcgplayer.com/product/238419?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -500223,7 +500223,7 @@ When this is pitched, create a Lightning Flow token.`,
             productId: "229768",
             url: "https://www.tcgplayer.com/product/229768?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -500392,7 +500392,7 @@ When this is pitched, create a Lightning Flow token.`,
             productId: "238420",
             url: "https://www.tcgplayer.com/product/238420?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -500486,7 +500486,7 @@ When this is pitched, create a Lightning Flow token.`,
             productId: "701603",
             url: "https://www.tcgplayer.com/product/701603?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -501139,7 +501139,7 @@ Zombies you control get "**Action** - {r}, {t}: **Attack**"`,
             productId: "710777",
             url: "https://www.tcgplayer.com/product/710777?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Federico Musetti"],
       foiling: Foiling.Cold,
@@ -501154,7 +501154,7 @@ Zombies you control get "**Action** - {r}, {t}: **Attack**"`,
             productId: "710777",
             url: "https://www.tcgplayer.com/product/710777?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -501277,7 +501277,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
             productId: "706933",
             url: "https://www.tcgplayer.com/product/706933?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Dominik Mayer"],
       foiling: Foiling.Cold,
@@ -501292,7 +501292,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
             productId: "706933",
             url: "https://www.tcgplayer.com/product/706933?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -501373,7 +501373,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
             productId: "274517",
             url: "https://www.tcgplayer.com/product/274517?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -501749,7 +501749,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
             productId: "538436",
             url: "https://www.tcgplayer.com/product/538436?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -501845,7 +501845,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
             productId: "538437",
             url: "https://www.tcgplayer.com/product/538437?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -501941,7 +501941,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
             productId: "538438",
             url: "https://www.tcgplayer.com/product/538438?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -502556,7 +502556,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
             productId: "631886",
             url: "https://www.tcgplayer.com/product/631886?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Joseph Qiu"],
       foiling: Foiling.Rainbow,
@@ -502571,7 +502571,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
             productId: "634065",
             url: "https://www.tcgplayer.com/product/634065?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -503243,7 +503243,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
             productId: "542296",
             url: "https://www.tcgplayer.com/product/542296?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -503781,7 +503781,7 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
             productId: "549689",
             url: "https://www.tcgplayer.com/product/549689?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -503877,7 +503877,7 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
             productId: "549691",
             url: "https://www.tcgplayer.com/product/549691?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -503973,7 +503973,7 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
             productId: "549705",
             url: "https://www.tcgplayer.com/product/549705?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -504233,7 +504233,7 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
             productId: "517299",
             url: "https://www.tcgplayer.com/product/517299?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -504316,7 +504316,7 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
             productId: "516550",
             url: "https://www.tcgplayer.com/product/516550?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["soyameii"],
       foiling: Foiling.Gold,
@@ -504397,7 +504397,7 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
             productId: "654087",
             url: "https://www.tcgplayer.com/product/654087?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Arif Wijaya"],
       foiling: Foiling.Rainbow,
@@ -504412,7 +504412,7 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
             productId: "654087",
             url: "https://www.tcgplayer.com/product/654087?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },{
         artists: ["Carlos Cruchaga"],
       
@@ -505086,7 +505086,7 @@ If they choose peace, the only actions they may play or activate during their ne
             productId: "692572",
             url: "https://www.tcgplayer.com/product/692572?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -505257,7 +505257,7 @@ If they choose peace, the only actions they may play or activate during their ne
             productId: "692573",
             url: "https://www.tcgplayer.com/product/692573?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -505428,7 +505428,7 @@ If they choose peace, the only actions they may play or activate during their ne
             productId: "692574",
             url: "https://www.tcgplayer.com/product/692574?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -505521,7 +505521,7 @@ If they choose peace, the only actions they may play or activate during their ne
             productId: "502767",
             url: "https://www.tcgplayer.com/product/502767?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Narendra B Adi"],
       edition: ReleaseEdition.Unlimited,
@@ -505611,7 +505611,7 @@ If they choose peace, the only actions they may play or activate during their ne
             productId: "265436",
             url: "https://www.tcgplayer.com/product/265436?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
@@ -505704,7 +505704,7 @@ If they choose peace, the only actions they may play or activate during their ne
             productId: "502769",
             url: "https://www.tcgplayer.com/product/502769?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Narendra B Adi"],
       edition: ReleaseEdition.Unlimited,
@@ -505779,7 +505779,7 @@ If they choose peace, the only actions they may play or activate during their ne
             productId: "265438",
             url: "https://www.tcgplayer.com/product/265438?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
@@ -505872,7 +505872,7 @@ If they choose peace, the only actions they may play or activate during their ne
             productId: "502770",
             url: "https://www.tcgplayer.com/product/502770?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Narendra B Adi"],
       edition: ReleaseEdition.Unlimited,
@@ -505962,7 +505962,7 @@ If they choose peace, the only actions they may play or activate during their ne
             productId: "265437",
             url: "https://www.tcgplayer.com/product/265437?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
@@ -508553,7 +508553,7 @@ If it's **fused**, it gets **dominate**.
             productId: "251176",
             url: "https://www.tcgplayer.com/product/251176?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -508679,7 +508679,7 @@ If it's **fused**, it gets **dominate**.
             productId: "251177",
             url: "https://www.tcgplayer.com/product/251177?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -508805,7 +508805,7 @@ If it's **fused**, it gets **dominate**.
             productId: "251178",
             url: "https://www.tcgplayer.com/product/251178?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -509009,7 +509009,7 @@ If it's **fused**, it gets **dominate**.
             productId: "678612",
             url: "https://www.tcgplayer.com/product/678612?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Orson CaptainSass"],
       foiling: Foiling.Rainbow,
@@ -509024,7 +509024,7 @@ If it's **fused**, it gets **dominate**.
             productId: "678612",
             url: "https://www.tcgplayer.com/product/678612?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -509412,7 +509412,7 @@ If it's **fused**, it gets **dominate**.
             productId: "654040",
             url: "https://www.tcgplayer.com/product/654040?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -509583,7 +509583,7 @@ The first card with cost 1 or more you play each turn costs {r} less to play.`,
             productId: "225605",
             url: "https://www.tcgplayer.com/product/225605?Language=English&Printing=1st+Edition+Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Sonia Sandoval"],
       foiling: Foiling.Rainbow,
@@ -509598,7 +509598,7 @@ The first card with cost 1 or more you play each turn costs {r} less to play.`,
             productId: "229763",
             url: "https://www.tcgplayer.com/product/229763?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Le Vuong"],
       foiling: Foiling.Rainbow,
@@ -509613,7 +509613,7 @@ The first card with cost 1 or more you play each turn costs {r} less to play.`,
             productId: "557713",
             url: "https://www.tcgplayer.com/product/557713?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -509752,7 +509752,7 @@ The first card with cost 1 or more you play each turn costs {r} less to play.`,
             productId: "238395",
             url: "https://www.tcgplayer.com/product/238395?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -509921,7 +509921,7 @@ The first card with cost 1 or more you play each turn costs {r} less to play.`,
             productId: "238396",
             url: "https://www.tcgplayer.com/product/238396?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -510060,7 +510060,7 @@ The first card with cost 1 or more you play each turn costs {r} less to play.`,
             productId: "225974",
             url: "https://www.tcgplayer.com/product/225974?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Agri Karuniawan"],
       
@@ -510581,7 +510581,7 @@ When this hits, and it's the second or higher chain link in a row to hit, draw 2
             productId: "677660",
             url: "https://www.tcgplayer.com/product/677660?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -510912,7 +510912,7 @@ When this hits, and it's the second or higher chain link in a row to hit, draw 2
             productId: "616359",
             url: "https://www.tcgplayer.com/product/616359?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Max Kostin"],
       foiling: Foiling.Rainbow,
@@ -510927,7 +510927,7 @@ When this hits, and it's the second or higher chain link in a row to hit, draw 2
             productId: "616359",
             url: "https://www.tcgplayer.com/product/616359?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -511518,7 +511518,7 @@ When this leaves the arena, you may destroy an aura permanent that a Guardian he
             productId: "555756",
             url: "https://www.tcgplayer.com/product/555756?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -511612,7 +511612,7 @@ When this leaves the arena, you may destroy an aura permanent that a Guardian he
             productId: "271312",
             url: "https://www.tcgplayer.com/product/271312?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -511710,7 +511710,7 @@ When the combat chain closes, each hero who has lost {h} this turn banishes a ca
             productId: "502817",
             url: "https://www.tcgplayer.com/product/502817?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -511808,7 +511808,7 @@ When the combat chain closes, each hero who has lost {h} this turn banishes a ca
             productId: "502821",
             url: "https://www.tcgplayer.com/product/502821?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -512578,7 +512578,7 @@ If this is defended by fewer than 2 cards, it gets +3{p}.`,
             productId: "692575",
             url: "https://www.tcgplayer.com/product/692575?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -512717,7 +512717,7 @@ If this is defended by fewer than 2 cards, it gets +3{p}.`,
             productId: "692576",
             url: "https://www.tcgplayer.com/product/692576?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -512826,7 +512826,7 @@ If this is defended by fewer than 2 cards, it gets +3{p}.`,
             productId: "692577",
             url: "https://www.tcgplayer.com/product/692577?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -513517,7 +513517,7 @@ When this hits a hero, they lose all hero card abilities during their next actio
             productId: "654166",
             url: "https://www.tcgplayer.com/product/654166?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Faizal Fikri"],
       foiling: Foiling.Rainbow,
@@ -513532,7 +513532,7 @@ When this hits a hero, they lose all hero card abilities during their next actio
             productId: "654166",
             url: "https://www.tcgplayer.com/product/654166?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.SuperRare],
     rarity: Rarity.SuperRare,
@@ -513626,7 +513626,7 @@ When this hits a hero, they lose all hero card abilities during their next actio
             productId: "261368",
             url: "https://www.tcgplayer.com/product/261368?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -516240,7 +516240,7 @@ When this hits a hero, create a Frailty token under their control.`,
             productId: "614577",
             url: "https://www.tcgplayer.com/product/614577?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Mario Wibisono"],
       
@@ -516688,7 +516688,7 @@ When this hits a hero, you may turn a card in their arsenal face-up, then destro
             productId: "229750",
             url: "https://www.tcgplayer.com/product/229750?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -516827,7 +516827,7 @@ When this hits a hero, you may turn a card in their arsenal face-up, then destro
             productId: "238379",
             url: "https://www.tcgplayer.com/product/238379?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -517026,7 +517026,7 @@ When this hits a hero, you may turn a card in their arsenal face-up, then destro
             productId: "225602",
             url: "https://www.tcgplayer.com/product/225602?Language=English&Printing=1st+Edition+Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Arif Wijaya"],
       foiling: Foiling.Rainbow,
@@ -517041,7 +517041,7 @@ When this hits a hero, you may turn a card in their arsenal face-up, then destro
             productId: "238380",
             url: "https://www.tcgplayer.com/product/238380?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["BWusagi"],
       foiling: Foiling.Rainbow,
@@ -517056,7 +517056,7 @@ When this hits a hero, you may turn a card in their arsenal face-up, then destro
             productId: "538440",
             url: "https://www.tcgplayer.com/product/538440?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -517664,7 +517664,7 @@ If you've dealt arcane damage this turn, draw a card.`,
             productId: "634073",
             url: "https://www.tcgplayer.com/product/634073?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["M Fakhrur Rozzi"],
       foiling: Foiling.Rainbow,
@@ -517679,7 +517679,7 @@ If you've dealt arcane damage this turn, draw a card.`,
             productId: "634073",
             url: "https://www.tcgplayer.com/product/634073?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -517758,7 +517758,7 @@ If you've dealt arcane damage this turn, draw a card.`,
             productId: "274788",
             url: "https://www.tcgplayer.com/product/274788?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -518202,7 +518202,7 @@ While this is defending and you control an aura, this gets +1{d}.`,
             productId: "634068",
             url: "https://www.tcgplayer.com/product/634068?Language=English&Printing=Normal"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },{
         artists: ["Rio Sabda"],
       foiling: Foiling.Rainbow,
@@ -518217,7 +518217,7 @@ While this is defending and you control an aura, this gets +1{d}.`,
             productId: "634068",
             url: "https://www.tcgplayer.com/product/634068?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -518392,7 +518392,7 @@ While this is defending and you control an aura, this gets +1{d}.`,
             productId: "272386",
             url: "https://www.tcgplayer.com/product/272386?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
@@ -519361,7 +519361,7 @@ The first time the crowd cheers you each turn, each hero draws a card.`,
             productId: "551492",
             url: "https://www.tcgplayer.com/product/551492?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Lius Lasahido"],
       foiling: Foiling.Rainbow,
@@ -519560,7 +519560,7 @@ The first time the crowd cheers you each turn, each hero draws a card.`,
             productId: "617820",
             url: "https://www.tcgplayer.com/product/617820?Language=English&Printing=Normal"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
@@ -519656,7 +519656,7 @@ If you would be dealt damage, prevent 1 of that damage.`,
             productId: "543930",
             url: "https://www.tcgplayer.com/product/543930?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Lius Lasahido"],
       foiling: Foiling.Cold,
@@ -519762,7 +519762,7 @@ If you would be dealt damage, prevent 1 of that damage.`,
             productId: "690439",
             url: "https://www.tcgplayer.com/product/690439?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Thomas Ressuge"],
       foiling: Foiling.Cold,
@@ -519777,7 +519777,7 @@ If you would be dealt damage, prevent 1 of that damage.`,
             productId: "690439",
             url: "https://www.tcgplayer.com/product/690439?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Thomas Ressuge"],
       foiling: Foiling.Rainbow,
@@ -520433,7 +520433,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
             productId: "225613",
             url: "https://www.tcgplayer.com/product/225613?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Fedor Barkhatov"],
       foiling: Foiling.Rainbow,
@@ -520448,7 +520448,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
             productId: "532815",
             url: "https://www.tcgplayer.com/product/532815?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
+      treatments: [Treatment.AA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -520617,7 +520617,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
             productId: "225614",
             url: "https://www.tcgplayer.com/product/225614?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -520771,7 +520771,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
             productId: "225615",
             url: "https://www.tcgplayer.com/product/225615?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -520955,7 +520955,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
             productId: "225618",
             url: "https://www.tcgplayer.com/product/225618?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Sergey Gurskiy"],
       foiling: Foiling.Cold,
@@ -520970,7 +520970,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
             productId: "692578",
             url: "https://www.tcgplayer.com/product/692578?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -521139,7 +521139,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
             productId: "225619",
             url: "https://www.tcgplayer.com/product/225619?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Sergey Gurskiy"],
       foiling: Foiling.Cold,
@@ -521154,7 +521154,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
             productId: "692579",
             url: "https://www.tcgplayer.com/product/692579?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -521308,7 +521308,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
             productId: "225621",
             url: "https://www.tcgplayer.com/product/225621?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
-      treatment: Treatment.AT,treatments: [Treatment.AT],
+      treatments: [Treatment.AT],
     },{
         artists: ["Sergey Gurskiy"],
       foiling: Foiling.Cold,
@@ -521323,7 +521323,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
             productId: "692580",
             url: "https://www.tcgplayer.com/product/692580?Language=English&Printing=Rainbow+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -521645,7 +521645,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
             productId: "694909",
             url: "https://www.tcgplayer.com/product/694909?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Jessada Sutthi"],
       foiling: Foiling.Cold,
@@ -521660,7 +521660,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
             productId: "694909",
             url: "https://www.tcgplayer.com/product/694909?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel],
     rarity: Rarity.Basic,
@@ -521754,7 +521754,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
             productId: "682839",
             url: "https://www.tcgplayer.com/product/682839?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },{
         artists: ["Jessada Sutthi"],
       foiling: Foiling.Cold,
@@ -521769,7 +521769,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
             productId: "682839",
             url: "https://www.tcgplayer.com/product/682839?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
+      treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Basic,

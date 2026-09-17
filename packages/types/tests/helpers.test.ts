@@ -265,7 +265,7 @@ describe("Printings", () => {
         rarity: Rarity.Token,
         set: Release.TheHunted,
 
-        treatment: Treatment.FA,
+        treatments: [Treatment.FA],
       },
       {
         artists: ["Mario Wibisono"],
@@ -304,7 +304,6 @@ describe("Printings", () => {
         print: "HNT260",
         rarity: Rarity.Legendary,
         set: Release.TheHunted,
-        treatment: Treatment.AA,
         treatments: [Treatment.AA],
       },
       {
@@ -316,7 +315,6 @@ describe("Printings", () => {
         print: "HNT260-Rainbow-Extended Art",
         rarity: Rarity.Legendary,
         set: Release.TheHunted,
-        treatment: Treatment.EA,
         treatments: [Treatment.EA, Treatment.AA],
       },
     ];
@@ -351,7 +349,6 @@ describe("Printings", () => {
           productId: "675375",
           url: "https://www.tcgplayer.com/product/675375?Language=English&Printing=Normal",
         },
-        treatment: Treatment.AA,
         treatments: [Treatment.AA],
       },
       {
@@ -368,7 +365,6 @@ describe("Printings", () => {
           productId: "612718",
           url: "https://www.tcgplayer.com/product/612718?Language=English&Printing=Normal",
         },
-        treatment: Treatment.AA,
         treatments: [Treatment.AA],
       },
       {
@@ -385,7 +381,6 @@ describe("Printings", () => {
           productId: "614533",
           url: "https://www.tcgplayer.com/product/614533?Language=English&Printing=Rainbow+Foil",
         },
-        treatment: Treatment.AA,
         treatments: [Treatment.AA, Treatment.EA],
       },
       {
@@ -401,7 +396,6 @@ describe("Printings", () => {
           productId: "454212",
           url: "https://www.tcgplayer.com/product/454212?Language=English&Printing=Cold+Foil",
         },
-        treatment: Treatment.AA,
         treatments: [Treatment.AA, Treatment.EA],
       },
       {
@@ -489,7 +483,6 @@ describe("Printings", () => {
           productId: "675355",
           url: "https://www.tcgplayer.com/product/675355?Language=English&Printing=Rainbow+Foil",
         },
-        treatment: Treatment.AA,
         treatments: [Treatment.AA, Treatment.AB, Treatment.EA],
       },
       {
@@ -502,7 +495,6 @@ describe("Printings", () => {
         rarity: Rarity.Promo,
         set: Release.Promos,
 
-        treatment: Treatment.AA,
         treatments: [Treatment.AA],
       },
     ];
