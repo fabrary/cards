@@ -242,10 +242,15 @@ describe("Card search", () => {
     }
   });
 
+  // A classless hero scopes to the cards printing no class, which is what the
+  // first-class filter asks for on every other hero.
   const heroAndFirstClassFilters: string[] = cards
     .filter(({ types }) => types.includes(Type.Hero))
     .filter(({ hero }) => hero !== Hero.Taylor)
-    .map(({ classes, hero }) => `l:"${hero}" c:"${classes[0]}"`);
+    .map(({ classes, hero }) => {
+      const classFilter = classes.length > 0 ? `c:"${classes[0]}"` : "-c";
+      return `l:"${hero}" ${classFilter}`;
+    });
   it.each(heroAndFirstClassFilters)("Gets cards for %s", (searchTerm) => {
     const { searchResults } = cardSearch.search(
       randomizeCapitalization(searchTerm as string),

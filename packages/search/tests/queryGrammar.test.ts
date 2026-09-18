@@ -275,6 +275,27 @@ describe("A bare excluded key", () => {
   it("reads a pitch alias as the pitch filter", () => {
     expect(getResultCount("!color")).toEqual(getResultCount("!pitch"));
   });
+
+  it("reads every alias of the class filter", () => {
+    expect(getResultCount("-class")).toEqual(getResultCount("-c"));
+    expect(getResultCount("!class")).toEqual(getResultCount("-class"));
+    expect(getResultCount("-class")).toBeGreaterThan(0);
+    expect(getResultCount("-class")).toBeLessThan(CORPUS_SIZE);
+  });
+
+  it("answers the class filter with every classless card", () => {
+    const classlessIdentifiers = doubleSidedCards
+      .filter(({ classes }) => classes.length === 0)
+      .map(({ cardIdentifier }) => cardIdentifier)
+      .sort();
+    const answeredIdentifiers = cardSearch
+      .search("-c")
+      .searchResults.map(({ cardIdentifier }) => cardIdentifier)
+      .sort();
+
+    expect(classlessIdentifiers.length).toBeGreaterThan(0);
+    expect(answeredIdentifiers).toEqual(classlessIdentifiers);
+  });
 });
 
 describe("A relation filter joining its values with a plus", () => {

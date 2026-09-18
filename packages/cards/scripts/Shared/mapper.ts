@@ -1,6 +1,7 @@
 import { PreliminaryCard } from "./preliminary-card";
 import {
   Bond,
+  Class,
   Flow,
   Foiling,
   Format,
@@ -576,6 +577,24 @@ export const getBonds = (card: { cardKeywords: string[] }): Bond[] => {
   arr.sort();
 
   return arr;
+};
+
+const CLASSES = Object.values(Class);
+
+// The classes a card's `types` list names, and nothing beyond them: a list
+// naming none leaves the card classless, which is a state of its own rather
+// than a class. Cardvault models the same state as an empty list.
+export const getClasses = (card: { types: string[] }): Class[] => {
+  const { types } = card;
+  const classes: Class[] = [];
+  for (const cardClass of CLASSES) {
+    if (types.includes(cardClass)) {
+      classes.push(cardClass);
+    }
+  }
+  classes.sort();
+
+  return classes;
 };
 
 export const getFlows = (card: { cardKeywords: string[] }): Flow[] => {

@@ -1,4 +1,4 @@
-import { Format, Hero, Talent } from "@flesh-and-blood/types";
+import { Class, Format, Hero, Talent } from "@flesh-and-blood/types";
 import { PUNCTUATION } from "./constants.js";
 import {
   aliasesByFilterCategory,
@@ -426,12 +426,29 @@ const noTalents: AppliedFilter[] = [
   },
 ];
 
+// No card type is ruled out the way the numeric exclusions rule one out: a
+// token, an equipment and a weapon each print a class on some card, so every
+// type has a classless answer worth reading.
+const noClasses: AppliedFilter[] = [
+  {
+    filterToPropertyMapping: {
+      property: "classes",
+      isArray: true,
+    },
+    isExcluded: true,
+    values: Object.values(Class).map((cardClass: string) =>
+      cardClass.toLowerCase(),
+    ),
+  },
+];
+
 // The filters a bare excluded key applies, against the filter that key names,
 // so every spelling of that filter reaches them.
 const filtersByExcludedCategory: {
   category: FilterCategory;
   filters: AppliedFilter[];
 }[] = [
+  { category: FilterCategory.Class, filters: noClasses },
   { category: FilterCategory.Cost, filters: noCost },
   { category: FilterCategory.Defense, filters: noDefense },
   { category: FilterCategory.Pitch, filters: noPitch },
