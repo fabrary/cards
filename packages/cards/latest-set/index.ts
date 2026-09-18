@@ -25,7 +25,7 @@
   const cards1: Card[] = [{
     artists: ["Widya Wang"],
     cardIdentifier: "abyssal-bite-blue",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR206",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -108,7 +108,7 @@ Your next Shadow attack this turn gets +1{p}. **Go again**
   },{
     artists: ["Reza Aswadananta"],
     cardIdentifier: "abyssal-force-blue",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR207",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -193,7 +193,7 @@ Your next Shadow attack this turn gets **overpower**.
   },{
     artists: ["Bramasta Aji"],
     cardIdentifier: "abyssal-rush-blue",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR208",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -519,7 +519,7 @@ Your next Shadow attack this turn gets "When this hits, it gets **go again**." *
   },{
     artists: ["Rio Sabda"],
     cardIdentifier: "ancient-earth-oak-red",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR261",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
@@ -992,7 +992,7 @@ When this is pitched, create a Runechant token.`,
   },{
     artists: ["Lius Lasahido"],
     cardIdentifier: "baalghor-omen-of-the-end",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR159-RF",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.Open,Format.SilverAge,Format.UltimatePitFight],
@@ -1824,7 +1824,7 @@ When this hits, create a Blasmophet, the Insatiable Hunger token.
   },{
     artists: ["Lius Lasahido"],
     cardIdentifier: "blasmophet-the-insatiable-hunger",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR221",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -2003,7 +2003,7 @@ At the beginning of each end phase, you may banish a card from your hand. Then i
   },{
     artists: ["soyameii"],
     cardIdentifier: "blessing-of-suraya-yellow",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR258",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
@@ -3226,7 +3226,7 @@ If you've charged this turn, this gets **go again** and "When this hits, create 
   },{
     artists: ["Brian Madya Narendra"],
     cardIdentifier: "breach-flesh-red",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR182",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -3307,7 +3307,7 @@ If you've charged this turn, this gets **go again** and "When this hits, create 
   },{
     artists: ["Brian Madya Narendra"],
     cardIdentifier: "breach-flesh-yellow",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR183",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -3388,7 +3388,7 @@ If you've charged this turn, this gets **go again** and "When this hits, create 
   },{
     artists: ["Brian Madya Narendra"],
     cardIdentifier: "breach-flesh-blue",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR184",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -3550,7 +3550,7 @@ At the start of each turn, destroy this unless you put a zombie from your banish
   },{
     artists: ["Vincent Taslim"],
     cardIdentifier: "chains-of-consecration-yellow",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR259",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
@@ -3629,7 +3629,7 @@ At the start of each turn, destroy this unless you put a zombie from your banish
   },{
     artists: ["Ismatulloh"],
     cardIdentifier: "channel-stormgarden-yellow",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR257",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
@@ -4690,7 +4690,7 @@ The first time you destroy a Lightning Flow each turn, **amp 1**.
   },{
     artists: ["Yosi Saputra"],
     cardIdentifier: "corporeal-chasm-red",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR185",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -4771,7 +4771,7 @@ The first time you destroy a Lightning Flow each turn, **amp 1**.
   },{
     artists: ["Yosi Saputra"],
     cardIdentifier: "corporeal-chasm-yellow",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR186",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -4852,7 +4852,7 @@ The first time you destroy a Lightning Flow each turn, **amp 1**.
   },{
     artists: ["Yosi Saputra"],
     cardIdentifier: "corporeal-chasm-blue",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR187",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -5170,7 +5170,7 @@ The first time you destroy a Lightning Flow each turn, **amp 1**.
   },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "corrupt-and-conquer-red",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR164",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
@@ -5336,7 +5336,7 @@ This card's attacks get **go again**.
   },{
     artists: ["Nailsen Ivanderlie"],
     cardIdentifier: "countdown-to-extinction-red",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR167",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -5419,7 +5419,7 @@ When this hits, you may search your deck for a Darkest Hour, banish it, then shu
   },{
     artists: ["Nailsen Ivanderlie"],
     cardIdentifier: "countdown-to-extinction-yellow",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR168",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -5502,7 +5502,7 @@ When this hits, you may search your deck for a Darkest Hour, banish it, then shu
   },{
     artists: ["Nailsen Ivanderlie"],
     cardIdentifier: "countdown-to-extinction-blue",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR169",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -5813,7 +5813,7 @@ When this hits a hero, they banish a card from their hand.
   },{
     artists: ["Petrinda Wiyugo"],
     cardIdentifier: "dam-the-shadowake-red",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR218",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -5892,7 +5892,7 @@ When this hits a hero, they banish a card from their hand.
   },{
     artists: ["Petrinda Wiyugo"],
     cardIdentifier: "dam-the-shadowake-yellow",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR219",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -5971,7 +5971,7 @@ When this hits a hero, they banish a card from their hand.
   },{
     artists: ["Petrinda Wiyugo"],
     cardIdentifier: "dam-the-shadowake-blue",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR220",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -6447,7 +6447,7 @@ When this hits a hero, they banish a card from their hand.
   },{
     artists: ["Nailsen Ivanderlie"],
     cardIdentifier: "darkest-hour-red",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR209",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -6530,7 +6530,7 @@ Your next Shadow attack this turn gets +4{p}. **Go again**
   },{
     artists: ["Nailsen Ivanderlie"],
     cardIdentifier: "darkest-hour-yellow",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR210",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -6613,7 +6613,7 @@ Your next Shadow attack this turn gets +3{p}. **Go again**
   },{
     artists: ["Nailsen Ivanderlie"],
     cardIdentifier: "darkest-hour-blue",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR211",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -7107,7 +7107,7 @@ Your next Shadow attack this turn gets +1{p}. **Go again**
   },{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "dimenxxional-ferryman-blue",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR179",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -7919,7 +7919,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
   },{
     artists: ["Livia Prima"],
     cardIdentifier: "fallen-herald-yellow",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR165",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
@@ -8825,7 +8825,7 @@ The next time a dagger you control hits a hero this turn, you may remove a +1{p}
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "gate-to-iarathael",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR222-MV",
     firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -8904,7 +8904,7 @@ The next time a dagger you control hits a hero this turn, you may remove a +1{p}
   },{
     artists: ["Alexandra Malygina"],
     cardIdentifier: "ghostly-visit-red",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR188",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -8970,7 +8970,7 @@ The next time a dagger you control hits a hero this turn, you may remove a +1{p}
   },{
     artists: ["Alexandra Malygina"],
     cardIdentifier: "ghostly-visit-yellow",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR189",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -9036,7 +9036,7 @@ The next time a dagger you control hits a hero this turn, you may remove a +1{p}
   },{
     artists: ["Alexandra Malygina"],
     cardIdentifier: "ghostly-visit-blue",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR190",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -9505,7 +9505,7 @@ The next time a dagger you control hits a hero this turn, you may remove a +1{p}
   },{
     artists: ["Thomas Ressuge"],
     cardIdentifier: "grille-of-repentance",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR161",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -9584,7 +9584,7 @@ The next time a dagger you control hits a hero this turn, you may remove a +1{p}
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "harbinger-of-destruction-red",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR170",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -10375,7 +10375,7 @@ When the combat chain closes, if you've attacked with this, banish it.
   },{
     artists: ["Widya Wang"],
     cardIdentifier: "hoodwink-blue",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR262",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
@@ -10454,7 +10454,7 @@ When the combat chain closes, if you've attacked with this, banish it.
   },{
     artists: ["Kevin Sidharta"],
     cardIdentifier: "ice-aged-oak-blue",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR260",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
@@ -12172,7 +12172,7 @@ When this attacks or hits, create a Runechant token.
   },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "open-the-gate-to-iarathael-red",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR166",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
@@ -12502,7 +12502,7 @@ Create a Runechant token.
   },{
     artists: ["Thomas Ressuge"],
     cardIdentifier: "path-of-repentance",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR163",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -12818,7 +12818,7 @@ Create a Runechant token.
   },{
     artists: ["Erick Sambora"],
     cardIdentifier: "permanent-interment-red",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR191",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -12899,7 +12899,7 @@ Create a Runechant token.
   },{
     artists: ["Erick Sambora"],
     cardIdentifier: "permanent-interment-yellow",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR192",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -12980,7 +12980,7 @@ Create a Runechant token.
   },{
     artists: ["Erick Sambora"],
     cardIdentifier: "permanent-interment-blue",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR193",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -13061,7 +13061,7 @@ Create a Runechant token.
   },{
     artists: ["Muhammad Fajri"],
     cardIdentifier: "planar-chaos-red",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR180",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -13310,7 +13310,7 @@ When this hits a hero, they banish a card in their arsenal.
   },{
     artists: ["Marco González"],
     cardIdentifier: "pull-from-beyond-red",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR212",
     firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -13391,7 +13391,7 @@ Banish the top card of your deck. If it's red, create a Gate to i'Arathael token
   },{
     artists: ["Marco González"],
     cardIdentifier: "pull-from-beyond-yellow",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR213",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -13472,7 +13472,7 @@ Banish the top card of your deck. If it's yellow, create a Gate to i'Arathael to
   },{
     artists: ["Marco González"],
     cardIdentifier: "pull-from-beyond-blue",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR214",
     firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -13553,7 +13553,7 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
   },{
     artists: ["Marco González"],
     cardIdentifier: "rally-the-shadow-horde-red",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR171",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -13634,7 +13634,7 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
   },{
     artists: ["Marco González"],
     cardIdentifier: "rally-the-shadow-horde-yellow",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR172",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -13715,7 +13715,7 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
   },{
     artists: ["Marco González"],
     cardIdentifier: "rally-the-shadow-horde-blue",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR173",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -13796,7 +13796,7 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
   },{
     artists: ["Saad Irfan"],
     cardIdentifier: "reach-of-the-abyss",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR160-CF",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
@@ -14928,7 +14928,7 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
   },{
     artists: ["Esty Swandana"],
     cardIdentifier: "rites-of-nightfall-blue",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR181",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -15009,7 +15009,7 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
   },{
     artists: ["Thomas Ressuge"],
     cardIdentifier: "robe-of-repentance",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR162",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -17557,7 +17557,7 @@ When this hits, create a Gate to i'Arathael token.
   },{
     artists: ["Mariusz Gandzel"],
     cardIdentifier: "shadowrealm-bloodhound-red",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR194",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -17638,7 +17638,7 @@ When this hits, create a Gate to i'Arathael token.
   },{
     artists: ["Mariusz Gandzel"],
     cardIdentifier: "shadowrealm-bloodhound-yellow",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR195",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -17719,7 +17719,7 @@ When this hits, create a Gate to i'Arathael token.
   },{
     artists: ["Mariusz Gandzel"],
     cardIdentifier: "shadowrealm-bloodhound-blue",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR196",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -17800,7 +17800,7 @@ When this hits, create a Gate to i'Arathael token.
   },{
     artists: ["Stefano Moroni"],
     cardIdentifier: "shadowrealm-harrower-blue",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR174",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -17881,7 +17881,7 @@ When this hits, create a Gate to i'Arathael token.
   },{
     artists: ["Firaz M. Rasyid"],
     cardIdentifier: "shadowrealm-harvester-red",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR175",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -17962,7 +17962,7 @@ When this hits, create a Gate to i'Arathael token.
   },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "shadowrealm-reaper-yellow",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR176",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -18043,7 +18043,7 @@ When this hits, create a Gate to i'Arathael token.
   },{
     artists: ["Tomi Ong"],
     cardIdentifier: "shadowrealm-ripper-red",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR197",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -18124,7 +18124,7 @@ When this hits, create a Gate to i'Arathael token.
   },{
     artists: ["Tomi Ong"],
     cardIdentifier: "shadowrealm-ripper-yellow",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR198",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -18205,7 +18205,7 @@ When this hits, create a Gate to i'Arathael token.
   },{
     artists: ["Tomi Ong"],
     cardIdentifier: "shadowrealm-ripper-blue",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR199",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -18529,7 +18529,7 @@ When this hits, create a Gate to i'Arathael token.
   },{
     artists: ["Wirawan Pranoto"],
     cardIdentifier: "shadowrealm-walker-red",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR200",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -18610,7 +18610,7 @@ When this hits, create a Gate to i'Arathael token.
   },{
     artists: ["Wirawan Pranoto"],
     cardIdentifier: "shadowrealm-walker-yellow",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR201",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -18691,7 +18691,7 @@ When this hits, create a Gate to i'Arathael token.
   },{
     artists: ["Wirawan Pranoto"],
     cardIdentifier: "shadowrealm-walker-blue",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR202",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -19268,7 +19268,7 @@ The next attack action card you play this turn costs {x} less to play and gets +
   },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "soul-of-existence-purple",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR000-RF",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
@@ -19349,7 +19349,7 @@ When this is pitched, lose 1{h}.`,
   },{
     artists: ["Stormy Elia Fanggidae"],
     cardIdentifier: "step-through-realms-red",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR215",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -19430,7 +19430,7 @@ When this is pitched, lose 1{h}.`,
   },{
     artists: ["Stormy Elia Fanggidae"],
     cardIdentifier: "step-through-realms-yellow",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR216",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -19511,7 +19511,7 @@ When this is pitched, lose 1{h}.`,
   },{
     artists: ["Stormy Elia Fanggidae"],
     cardIdentifier: "step-through-realms-blue",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR217",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -19818,7 +19818,7 @@ Draw a card and {u} your hero.
   },{
     artists: ["Galih M"],
     cardIdentifier: "tribute-to-greater-power-red",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR177",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -19899,7 +19899,7 @@ Draw a card and {u} your hero.
   },{
     artists: ["Amtepra"],
     cardIdentifier: "unbound-by-shadow-red",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR178",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -20670,7 +20670,7 @@ At the beginning of each end phase, if you've created or activated a Gate to i'A
   },{
     artists: ["Peyeyo"],
     cardIdentifier: "void-wraith-red",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR203",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -20736,7 +20736,7 @@ At the beginning of each end phase, if you've created or activated a Gate to i'A
   },{
     artists: ["Peyeyo"],
     cardIdentifier: "void-wraith-yellow",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR204",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
@@ -20802,7 +20802,7 @@ At the beginning of each end phase, if you've created or activated a Gate to i'A
   },{
     artists: ["Peyeyo"],
     cardIdentifier: "void-wraith-blue",
-    classes: [Class.NotClassed],
+    classes: [],
     defaultImage: "IAR205",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],

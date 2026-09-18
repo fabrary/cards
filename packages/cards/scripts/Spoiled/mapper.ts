@@ -4,6 +4,7 @@ import {
   addOppositeSideCardIdentifiers,
   FOILING_KEY_TO_ENUM_MAPPING,
   getBonds,
+  getClasses,
   getFlows,
   getFusions,
   getHeroFromCard,
@@ -20,7 +21,6 @@ import {
   sortPrintingsByReleaseOrder,
 } from "../Shared";
 import {
-  Class,
   Format,
   Hero,
   Keyword,
@@ -91,27 +91,6 @@ const getArtists = (card: ParsedCard): string[] => {
 
   const namedArtists = allArtists.filter((artist) => !!artist).sort();
   return Array.from(new Set(namedArtists)).map((artist) => artist.trim());
-};
-
-const getClasses = (card: ParsedCard): Class[] => {
-  const classes: Class[] = [];
-  const { types } = card;
-  for (const [klass, value] of Object.entries(Class)) {
-    if (types.includes(value as string)) {
-      classes.push(Class[klass as Class]);
-    }
-  }
-  if (classes.length === 0 && getTalents(card)?.length) {
-    classes.push(Class.NotClassed);
-  }
-  if (classes.length === 0 && card.types.includes(Type.Macro)) {
-    classes.push(Class.NotClassed);
-  }
-  // if (classes.length === 0) {
-  //   classes.push(Class.Generic);
-  // }
-  classes.sort();
-  return classes;
 };
 
 // const getHero = (card: ParsedCard): Hero | null => {

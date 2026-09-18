@@ -107,7 +107,6 @@ export enum Treatment {
 }
 
 export enum Class {
-  NotClassed = "NotClassed",
   Generic = "Generic",
   Adjudicator = "Adjudicator",
   Assassin = "Assassin",

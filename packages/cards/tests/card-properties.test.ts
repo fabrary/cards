@@ -118,6 +118,57 @@ describe("Every card has a positively identified role", () => {
   });
 });
 
+describe("No card carries a class its type line does not name", () => {
+  // The type line these cards print misspells their class, so the class they
+  // carry is right and the line it is checked against is not. Fixing the
+  // spelling belongs in the fork's CSVs, not here.
+  const MISSPELLED_TYPE_LINES = [
+    "double-strike-red",
+    "parry-blade",
+    "sharpened-senses-yellow",
+    "volcanic-vice",
+  ];
+
+  // A class a card does not print is a class the transform invented. Spelling
+  // out the whole classless state as an absence is what lets this hold: a
+  // fallback handing every unclassed card a class trips it on the first one.
+  it("no card gains a class", () => {
+    const inventedClasses: string[] = [];
+    for (const { cardIdentifier, classes, name, typeText } of cardsToPublish) {
+      const isMisspelled = MISSPELLED_TYPE_LINES.includes(cardIdentifier);
+      if (!isMisspelled) {
+        for (const cardClass of classes) {
+          if (!typeText.includes(cardClass)) {
+            inventedClasses.push(
+              `${name} (${cardIdentifier}) carries ${cardClass}, type line reads "${typeText}"`,
+            );
+          }
+        }
+      }
+    }
+    expect(inventedClasses).toEqual([]);
+  });
+
+  // An exemption outlives the misspelling it was written for: once the fork
+  // spells the class right, the card belongs back under the invariant. This
+  // turns red on the entry to delete rather than leaving it exempt forever.
+  it("every exemption is still earned", () => {
+    const stillMisspelled = MISSPELLED_TYPE_LINES.filter((cardIdentifier) => {
+      const card = cardsToPublish.find(
+        (published) => published.cardIdentifier === cardIdentifier,
+      );
+      let carriesAnUnnamedClass = false;
+      if (card) {
+        carriesAnUnnamedClass = card.classes.some(
+          (cardClass) => !card.typeText.includes(cardClass),
+        );
+      }
+      return carriesAnUnnamedClass;
+    });
+    expect(stillMisspelled).toEqual(MISSPELLED_TYPE_LINES);
+  });
+});
+
 describe("No cards should be removed", () => {
   xit("Removed cards", () => {
     expect(removed).toHaveLength(0);

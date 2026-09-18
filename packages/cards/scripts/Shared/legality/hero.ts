@@ -65,17 +65,10 @@ interface HeroPool {
   talents: Talent[];
 }
 
-const getClassesAndTalents = (classes: Class[], talents: Talent[] = []) => {
-  const poolClasses = [...classes, Class.Generic];
-  if (talents.length > 0) {
-    poolClasses.push(Class.NotClassed);
-  }
-
-  return {
-    classes: poolClasses,
-    talents,
-  };
-};
+const getClassesAndTalents = (classes: Class[], talents: Talent[] = []) => ({
+  classes: [...classes, Class.Generic],
+  talents,
+});
 
 const DRACONIC = [Talent.Draconic];
 const ROYAL_DRACONIC = [Talent.Royal, Talent.Draconic];

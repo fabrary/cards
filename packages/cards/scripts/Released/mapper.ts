@@ -1,6 +1,5 @@
 import { PreliminaryCard } from "../Shared/preliminary-card";
 import {
-  Class,
   Hero,
   Keyword,
   Printing,
@@ -15,6 +14,7 @@ import {
   addOppositeSideCardIdentifiers,
   FOILING_KEY_TO_ENUM_MAPPING,
   getBonds,
+  getClasses,
   getFlows,
   getFusions,
   getHeroFromCard,
@@ -37,27 +37,6 @@ import {
 } from "@flesh-and-blood/types";
 import { getBannedAndLegalFormats } from "../Shared/legality";
 import { getTCGPlayerInfoFromOverrides } from "../Shared/tcgplayer";
-
-const getClasses = (card: ParsedCard): Class[] => {
-  const classes: Class[] = [];
-  const { types } = card;
-  for (const [klass, value] of Object.entries(Class)) {
-    if (types.includes(value as string)) {
-      classes.push(Class[klass as keyof typeof Class]);
-    }
-  }
-  if (classes.length === 0 && getTalents(card)?.length) {
-    classes.push(Class.NotClassed);
-  }
-  if (classes.length === 0 && card.types.includes("Macro")) {
-    classes.push(Class.NotClassed);
-  }
-  if (classes.length === 0) {
-    classes.push(Class.Generic);
-  }
-  classes.sort();
-  return classes;
-};
 
 // const getHero = (card: ParsedCard): Hero | null => {
 //   let heroOnCard: Hero | null = null;
