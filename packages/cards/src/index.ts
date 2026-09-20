@@ -488712,24 +488712,24 @@ If Ursur is attacking a hero with 1 or more cards in their soul, the attack gets
     artists: ["Esty Swandana"],
     cardIdentifier: "usurp-the-shadow-throne-blue",
     classes: [Class.Runeblade],
-    defaultImage: "IAR110",
+    defaultImage: "IAR110-RF",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Shiyana,Hero.Viserai2],
     name: "Usurp the Shadow Throne",
     printings: [{
         artists: ["Esty Swandana"],
-      
+      foiling: Foiling.Rainbow,
       identifier: "IAR110",
-      image: "IAR110",
+      image: "IAR110-RF",
       
       
-      print: "IAR110",
+      print: "IAR110-Rainbow",
       rarity: Rarity.Legendary,
       set: Release.UsurpTheShadowThrone,
       tcgplayer: {
             productId: "711437",
-            url: "https://www.tcgplayer.com/product/711437?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/711437?Language=English&Printing=Rainbow+Foil"
           },
       
     },{

@@ -634151,7 +634151,7 @@ exports[`Check for unintentional updates Usurp the Shadow Throne (usurp-the-shad
     "Runeblade",
   ],
   "cost": 13,
-  "defaultImage": "IAR110",
+  "defaultImage": "IAR110-RF",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "**Viserai Specialization**
@@ -634188,14 +634188,15 @@ When this hits a hero, turn all cards in their banished zone face-down. They los
       "artists": [
         "Esty Swandana",
       ],
+      "foiling": "Rainbow",
       "identifier": "IAR110",
-      "image": "IAR110",
-      "print": "IAR110",
+      "image": "IAR110-RF",
+      "print": "IAR110-Rainbow",
       "rarity": "Legendary",
       "set": "Usurp the Shadow Throne",
       "tcgplayer": {
         "productId": "711437",
-        "url": "https://www.tcgplayer.com/product/711437?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/711437?Language=English&Printing=Rainbow+Foil",
       },
     },
     {
