@@ -10869,7 +10869,10 @@ Your next angel attack this turn gets +1{p}.`,
       print: "SAT032",
       rarity: Rarity.Common,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712801",
+            url: "https://www.tcgplayer.com/product/712801?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Lius Lasahido"],
@@ -12972,7 +12975,10 @@ At the start of your turn, destroy this.`,
       print: "MPA001",
       rarity: Rarity.Basic,
       set: Release.MasteryPackAssassin,
-      
+      tcgplayer: {
+            productId: "711349",
+            url: "https://www.tcgplayer.com/product/711349?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Isuardi Therianto"],
@@ -15679,7 +15685,10 @@ When this leaves the arena during your turn, create a Runechant token.`,
       print: "SBW023",
       rarity: Rarity.Common,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715757",
+            url: "https://www.tcgplayer.com/product/715757?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Rodrigo Rizo"],
@@ -42699,7 +42708,10 @@ If this was **fused**, the attacking hero discards a card unless they pay {r}{r}
       print: "SAT009",
       rarity: Rarity.Rare,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712779",
+            url: "https://www.tcgplayer.com/product/712779?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Daniel Jiménez"],
@@ -52563,7 +52575,10 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
       print: "SBW010",
       rarity: Rarity.Common,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715744",
+            url: "https://www.tcgplayer.com/product/715744?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -52745,7 +52760,10 @@ If you've dealt damage to the defending hero this turn, this gets **go again**.
       print: "SBW028",
       rarity: Rarity.Common,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715762",
+            url: "https://www.tcgplayer.com/product/715762?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -75121,7 +75139,10 @@ If a go fish effect would trigger this turn, instead it triggers twice.
       print: "SPW004",
       rarity: Rarity.Rare,
       set: Release.SmashPalaceChorusOfSteel,
-      
+      tcgplayer: {
+            productId: "710196",
+            url: "https://www.tcgplayer.com/product/710196?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -81922,7 +81943,10 @@ Create 3 Runechant tokens.`,
       print: "TNP055-Cold-Full Art",
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
-      
+      tcgplayer: {
+            productId: "714362",
+            url: "https://www.tcgplayer.com/product/714362?Language=English&Printing=Cold+Foil"
+          },
       treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -82077,7 +82101,10 @@ The next card you play this turn with an arcane damage effect, instead deals tha
       print: "TNP056-Cold-Full Art",
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
-      
+      tcgplayer: {
+            productId: "714363",
+            url: "https://www.tcgplayer.com/product/714363?Language=English&Printing=Cold+Foil"
+          },
       treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -82232,7 +82259,10 @@ The next card you play this turn with an arcane damage effect, instead deals tha
       print: "TNP057-Cold-Full Art",
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
-      
+      tcgplayer: {
+            productId: "714364",
+            url: "https://www.tcgplayer.com/product/714364?Language=English&Printing=Cold+Foil"
+          },
       treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -100764,7 +100794,10 @@ This card's attacks get **go again**.
       print: "SBW004",
       rarity: Rarity.Rare,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715738",
+            url: "https://www.tcgplayer.com/product/715738?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Dzulfikar Aliy"],
@@ -107323,7 +107356,10 @@ Whenever an arrow is put face-up into your arsenal from your deck, you may pay {
       print: "SBW005",
       rarity: Rarity.Common,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715739",
+            url: "https://www.tcgplayer.com/product/715739?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Alexander Nikolaev"],
@@ -109592,7 +109628,10 @@ Each hero banishes a card from their hand.
       print: "SBW011",
       rarity: Rarity.Rare,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715745",
+            url: "https://www.tcgplayer.com/product/715745?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["YDZ"],
@@ -112057,7 +112096,10 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
       print: "SPW002",
       rarity: Rarity.Rare,
       set: Release.SmashPalaceChorusOfSteel,
-      
+      tcgplayer: {
+            productId: "710195",
+            url: "https://www.tcgplayer.com/product/710195?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -120788,7 +120830,10 @@ When the combat chain closes, you may banish this face-down. If you do, for each
       print: "SBW012",
       rarity: Rarity.Common,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715746",
+            url: "https://www.tcgplayer.com/product/715746?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -120966,7 +121011,10 @@ When the combat chain closes, you may banish this face-down. If you do, for each
       print: "SBW029",
       rarity: Rarity.Common,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715763",
+            url: "https://www.tcgplayer.com/product/715763?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -129932,7 +129980,10 @@ If you've played or activated 2 or more attack reactions this chain link, this g
       print: "MPA003",
       rarity: Rarity.Basic,
       set: Release.MasteryPackAssassin,
-      
+      tcgplayer: {
+            productId: "711352",
+            url: "https://www.tcgplayer.com/product/711352?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Pavel Rtishchev (Klaher)"],
@@ -129944,7 +129995,10 @@ If you've played or activated 2 or more attack reactions this chain link, this g
       print: "MPA003-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.MasteryPackAssassin,
-      
+      tcgplayer: {
+            productId: "711374",
+            url: "https://www.tcgplayer.com/product/711374?Language=English&Printing=Cold+Foil"
+          },
       treatments: [Treatment.FA],
     },{
         artists: ["Pavel Rtishchev (Klaher)"],
@@ -129956,7 +130010,10 @@ If you've played or activated 2 or more attack reactions this chain link, this g
       print: "MPA003-Cold-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.MasteryPackAssassin,
-      
+      tcgplayer: {
+            productId: "711374",
+            url: "https://www.tcgplayer.com/product/711374?Language=English&Printing=Cold+Foil"
+          },
       treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel],
@@ -130019,7 +130076,10 @@ If you've played or activated 2 or more attack reactions this chain link, this g
       print: "AMO001-Rainbow",
       rarity: Rarity.Majestic,
       set: Release.ArmoryDeckDrMortimer,
-      
+      tcgplayer: {
+            productId: "711020",
+            url: "https://www.tcgplayer.com/product/711020?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Othon Nikolaidis"],
@@ -130031,7 +130091,10 @@ If you've played or activated 2 or more attack reactions this chain link, this g
       print: "MPA002-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.MasteryPackAssassin,
-      
+      tcgplayer: {
+            productId: "711350",
+            url: "https://www.tcgplayer.com/product/711350?Language=English&Printing=Cold+Foil"
+          },
       treatments: [Treatment.FA],
     },{
         artists: ["Othon Nikolaidis"],
@@ -130043,7 +130106,10 @@ If you've played or activated 2 or more attack reactions this chain link, this g
       print: "MPA002-Cold-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.MasteryPackAssassin,
-      
+      tcgplayer: {
+            productId: "711350",
+            url: "https://www.tcgplayer.com/product/711350?Language=English&Printing=Cold+Foil"
+          },
       treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
@@ -132875,7 +132941,10 @@ Arrows you control get "Defense reactions can't be played from hand this chain l
       print: "SAT006",
       rarity: Rarity.Common,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712776",
+            url: "https://www.tcgplayer.com/product/712776?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Pavel Chuvin"],
@@ -145472,7 +145541,10 @@ You may play an aura with Runechant in its name from your banished zone this tur
       print: "SBW013",
       rarity: Rarity.Common,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715747",
+            url: "https://www.tcgplayer.com/product/715747?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Alif Zahrah"],
@@ -145593,7 +145665,10 @@ You may play an aura with Runechant in its name from your banished zone this tur
       print: "SBW024",
       rarity: Rarity.Common,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715758",
+            url: "https://www.tcgplayer.com/product/715758?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -145684,7 +145759,10 @@ You may play an aura with Runechant in its name from your banished zone this tur
       print: "SBW030",
       rarity: Rarity.Common,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715764",
+            url: "https://www.tcgplayer.com/product/715764?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -151599,7 +151677,10 @@ If you've **charged** this turn, this gets "When this hits, put it into your her
       print: "TNP058-Cold-Full Art",
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
-      
+      tcgplayer: {
+            productId: "714365",
+            url: "https://www.tcgplayer.com/product/714365?Language=English&Printing=Cold+Foil"
+          },
       treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -151735,7 +151816,10 @@ If you've **charged** this turn, this gets "When this hits, put it into your her
       print: "TNP059-Cold-Full Art",
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
-      
+      tcgplayer: {
+            productId: "714366",
+            url: "https://www.tcgplayer.com/product/714366?Language=English&Printing=Cold+Foil"
+          },
       treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -151886,7 +151970,10 @@ If you've **charged** this turn, this gets "When this hits, put it into your her
       print: "TNP060-Cold-Full Art",
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
-      
+      tcgplayer: {
+            productId: "714367",
+            url: "https://www.tcgplayer.com/product/714367?Language=English&Printing=Cold+Foil"
+          },
       treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -169784,7 +169871,10 @@ When this enters the arena, create a Ponder token.`,
       print: "SAT023",
       rarity: Rarity.Rare,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "707032",
+            url: "https://www.tcgplayer.com/product/707032?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["MJ Fetesio"],
@@ -188607,7 +188697,10 @@ Create a Runechant token.
       print: "SBW002",
       rarity: Rarity.Common,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715736",
+            url: "https://www.tcgplayer.com/product/715736?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Federico Musetti"],
@@ -189972,7 +190065,10 @@ You may put a Hyper Driver from your banished zone into the arena.
       print: "SBW034",
       rarity: Rarity.Basic,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715768",
+            url: "https://www.tcgplayer.com/product/715768?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -205063,7 +205159,10 @@ While Hala is face-up in arsenal, whenever a sword attack you control hits, it g
       print: "SAT004",
       rarity: Rarity.Common,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712774",
+            url: "https://www.tcgplayer.com/product/712774?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Sam Yang"],
@@ -215788,7 +215887,10 @@ When this hits, put it into your soul and draw 2 cards.
       print: "SAT011",
       rarity: Rarity.Rare,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712781",
+            url: "https://www.tcgplayer.com/product/712781?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -215851,7 +215953,10 @@ When this hits, put it into your soul and draw 2 cards.
       print: "SAT017",
       rarity: Rarity.Rare,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712787",
+            url: "https://www.tcgplayer.com/product/712787?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -215914,7 +216019,10 @@ When this hits, put it into your soul and draw 2 cards.
       print: "SAT024",
       rarity: Rarity.Rare,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712793",
+            url: "https://www.tcgplayer.com/product/712793?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -215977,7 +216085,10 @@ When this hits, put it into your soul and draw 2 cards.
       print: "SAT018",
       rarity: Rarity.Rare,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712788",
+            url: "https://www.tcgplayer.com/product/712788?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Alexander Mokhov"],
@@ -216147,7 +216258,10 @@ When this hits, put it into your soul and the defending hero can't play cards fr
       print: "SAT012",
       rarity: Rarity.Rare,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712782",
+            url: "https://www.tcgplayer.com/product/712782?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Simon Wong"],
@@ -216330,7 +216444,10 @@ When this hits, put it into your soul and the defending hero can't play cards fr
       print: "SAT019",
       rarity: Rarity.Rare,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712789",
+            url: "https://www.tcgplayer.com/product/712789?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Simon Wong"],
@@ -216498,7 +216615,10 @@ When this hits, put it into your soul and the defending hero can't play cards fr
       print: "SAT025",
       rarity: Rarity.Rare,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712794",
+            url: "https://www.tcgplayer.com/product/712794?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Simon Wong"],
@@ -216681,7 +216801,10 @@ When this hits, put it into your soul and the defending hero can't play cards fr
       print: "SAT013",
       rarity: Rarity.Rare,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712783",
+            url: "https://www.tcgplayer.com/product/712783?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Jessada Sutthi"],
@@ -216990,7 +217113,10 @@ When this hits, put it into your soul and the defending hero can't play cards fr
       print: "SAT026",
       rarity: Rarity.Rare,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712795",
+            url: "https://www.tcgplayer.com/product/712795?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Jessada Sutthi"],
@@ -218166,7 +218292,10 @@ When this hits, put it into your soul.
       print: "SAT014",
       rarity: Rarity.Rare,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712784",
+            url: "https://www.tcgplayer.com/product/712784?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Sam Yang"],
@@ -218479,7 +218608,10 @@ When this hits, put it into your soul.
       print: "SAT027",
       rarity: Rarity.Rare,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712796",
+            url: "https://www.tcgplayer.com/product/712796?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Sam Yang"],
@@ -218649,7 +218781,10 @@ When this hits, put it into your soul.
       print: "SAT020",
       rarity: Rarity.Rare,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712790",
+            url: "https://www.tcgplayer.com/product/712790?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Yiian Kho"],
@@ -226694,7 +226829,10 @@ The next attack action card you play this turn gets +1{p}.
       print: "AMO002-Rainbow",
       rarity: Rarity.Rare,
       set: Release.ArmoryDeckDrMortimer,
-      
+      tcgplayer: {
+            productId: "711021",
+            url: "https://www.tcgplayer.com/product/711021?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -242106,7 +242244,10 @@ const cards4: Card[] = [{
       print: "SAT002",
       rarity: Rarity.Token,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712772",
+            url: "https://www.tcgplayer.com/product/712772?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Jessada Sutthi"],
@@ -242431,7 +242572,10 @@ const cards4: Card[] = [{
       print: "SAT007",
       rarity: Rarity.Common,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712777",
+            url: "https://www.tcgplayer.com/product/712777?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Daniil Goncharov"],
@@ -249796,7 +249940,10 @@ Whenever the crowd boos you, create a Vigor token.`,
       print: "SPW001-Rainbow",
       rarity: Rarity.Rare,
       set: Release.SmashPalaceChorusOfSteel,
-      
+      tcgplayer: {
+            productId: "706905",
+            url: "https://www.tcgplayer.com/product/706905?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -253384,7 +253531,10 @@ While Barthimont is face-up in arsenal, whenever you play an attack action card,
       print: "SAT022",
       rarity: Rarity.Rare,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712792",
+            url: "https://www.tcgplayer.com/product/712792?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Widya Wang"],
@@ -263807,7 +263957,10 @@ If you've **boosted** this turn, **opt 1**.
       print: "SBW014",
       rarity: Rarity.Rare,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715748",
+            url: "https://www.tcgplayer.com/product/715748?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Shen Fei"],
@@ -265565,7 +265718,10 @@ If there is a yellow card in your pitch zone, your Illusionist attacks get **go 
       print: "SAT003",
       rarity: Rarity.Rare,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712773",
+            url: "https://www.tcgplayer.com/product/712773?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Jessketchin"],
@@ -267971,7 +268127,10 @@ When this hits a Runeblade or Wizard hero, you may destroy an aura they control.
       print: "SBW020",
       rarity: Rarity.Rare,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715754",
+            url: "https://www.tcgplayer.com/product/715754?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Max Kostin"],
@@ -268126,7 +268285,10 @@ Once per turn, when you play an attack action card, remove a verse counter from 
       print: "SBW025",
       rarity: Rarity.Rare,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715759",
+            url: "https://www.tcgplayer.com/product/715759?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Max Kostin"],
@@ -284780,7 +284942,10 @@ When this hits, you may banish 3 traps with cost 0 or more from your graveyard f
       print: "SBW015",
       rarity: Rarity.Common,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715749",
+            url: "https://www.tcgplayer.com/product/715749?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -284962,7 +285127,10 @@ When this attacks or hits, create a Runechant token.
       print: "SBW031",
       rarity: Rarity.Common,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715765",
+            url: "https://www.tcgplayer.com/product/715765?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -285737,7 +285905,10 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
       print: "MPA022",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackAssassin,
-      
+      tcgplayer: {
+            productId: "711377",
+            url: "https://www.tcgplayer.com/product/711377?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Henrique Lindner"],
@@ -285749,7 +285920,10 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
       print: "MPA022-Rainbow",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackAssassin,
-      
+      tcgplayer: {
+            productId: "711377",
+            url: "https://www.tcgplayer.com/product/711377?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -290867,7 +291041,10 @@ When this enters the arena, name a card. The named card can't be pitched or play
       print: "SBW008",
       rarity: Rarity.Common,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715742",
+            url: "https://www.tcgplayer.com/product/715742?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Tatiana Trubnikova"],
@@ -294669,7 +294846,10 @@ When this hits a hero, create a Toughness and a Vigor token.`,
       print: "SBW009",
       rarity: Rarity.Common,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715743",
+            url: "https://www.tcgplayer.com/product/715743?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mariusz Gandzel"],
@@ -299113,7 +299293,10 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
       print: "SBW021",
       rarity: Rarity.Common,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715755",
+            url: "https://www.tcgplayer.com/product/715755?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Tommy Suhartono"],
@@ -306684,7 +306867,10 @@ If you've played another blue card this turn, **transcend**.`,
       print: "SAT030",
       rarity: Rarity.Rare,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712799",
+            url: "https://www.tcgplayer.com/product/712799?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Saad Irfan"],
@@ -311134,7 +311320,10 @@ When this is destroyed, create a Spectral Shield token.`,
       print: "SAT028",
       rarity: Rarity.Common,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712797",
+            url: "https://www.tcgplayer.com/product/712797?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Marco González"],
@@ -313705,7 +313894,10 @@ If you've played or activated an attack reaction this chain link, this gets +1{p
       print: "SAT031",
       rarity: Rarity.Rare,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712800",
+            url: "https://www.tcgplayer.com/product/712800?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Saad Irfan"],
@@ -317675,7 +317867,10 @@ When this hits a hero, banish the top card of their deck.`,
       print: "SBW016",
       rarity: Rarity.Rare,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715750",
+            url: "https://www.tcgplayer.com/product/715750?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Bastien Jez"],
@@ -325619,7 +325814,10 @@ If you've played another blue card this turn, **transcend**.`,
       print: "MPA024",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackAssassin,
-      
+      tcgplayer: {
+            productId: "711378",
+            url: "https://www.tcgplayer.com/product/711378?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Surya Prasetya"],
@@ -325631,7 +325829,10 @@ If you've played another blue card this turn, **transcend**.`,
       print: "MPA024-Rainbow",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackAssassin,
-      
+      tcgplayer: {
+            productId: "711378",
+            url: "https://www.tcgplayer.com/product/711378?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -326664,7 +326865,10 @@ Your next Brute attack this turn gets +3{p}.
       print: "SAT001",
       rarity: Rarity.Rare,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "706942",
+            url: "https://www.tcgplayer.com/product/706942?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Livia Prima"],
@@ -330944,7 +331148,10 @@ The second time you crank each turn, draw a card.`,
       print: "SBW022",
       rarity: Rarity.Common,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715756",
+            url: "https://www.tcgplayer.com/product/715756?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Marco González"],
@@ -331157,7 +331364,10 @@ Banish the top card of your deck. If it's yellow, create a Gate to i'Arathael to
       print: "SBW033",
       rarity: Rarity.Common,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715767",
+            url: "https://www.tcgplayer.com/product/715767?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Marco González"],
@@ -352386,7 +352596,10 @@ If you've attacked them this turn, put this on the bottom of its owner's deck.
       print: "MPA026",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackAssassin,
-      
+      tcgplayer: {
+            productId: "711379",
+            url: "https://www.tcgplayer.com/product/711379?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Olga Tereshenko"],
@@ -352398,7 +352611,10 @@ If you've attacked them this turn, put this on the bottom of its owner's deck.
       print: "MPA026-Rainbow",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackAssassin,
-      
+      tcgplayer: {
+            productId: "711379",
+            url: "https://www.tcgplayer.com/product/711379?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -371820,7 +372036,10 @@ At the beginning of your action phase, remove a verse counter from this. If you 
       print: "SBW035",
       rarity: Rarity.Basic,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715769",
+            url: "https://www.tcgplayer.com/product/715769?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Jessketchin"],
@@ -372517,7 +372736,10 @@ At the beginning of your action phase or when you play an attack action card, de
       print: "SBW026",
       rarity: Rarity.Common,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715760",
+            url: "https://www.tcgplayer.com/product/715760?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["MJ Fetesio"],
@@ -372725,7 +372947,10 @@ At the beginning of your action phase or when you play an attack action card, de
       print: "SBW027",
       rarity: Rarity.Common,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715761",
+            url: "https://www.tcgplayer.com/product/715761?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["MJ Fetesio"],
@@ -372903,7 +373128,10 @@ At the beginning of your action phase or when you play an attack action card, de
       print: "SBW007",
       rarity: Rarity.Common,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715741",
+            url: "https://www.tcgplayer.com/product/715741?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Firaz M. Rasyid"],
@@ -373411,7 +373639,10 @@ At the beginning of your action phase or when you play an attack action card, de
       print: "SBW017",
       rarity: Rarity.Rare,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715751",
+            url: "https://www.tcgplayer.com/product/715751?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -392780,7 +393011,10 @@ When this hits a hero, look at the top 2 cards of their deck. Banish 1 of them.`
       print: "SBW003",
       rarity: Rarity.Common,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715737",
+            url: "https://www.tcgplayer.com/product/715737?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Ismatulloh"],
@@ -407032,7 +407266,10 @@ At the beginning of your action phase, destroy this unless you remove a steam co
       print: "SAT010",
       rarity: Rarity.Common,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712780",
+            url: "https://www.tcgplayer.com/product/712780?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Andrey Savchuk"],
@@ -407714,7 +407951,10 @@ At the beginning of your action phase, destroy this unless you remove a steam co
       print: "AMO033-Alternate Art",
       rarity: Rarity.Basic,
       set: Release.ArmoryDeckDrMortimer,
-      
+      tcgplayer: {
+            productId: "711023",
+            url: "https://www.tcgplayer.com/product/711023?Language=English&Printing=Normal"
+          },
       treatments: [Treatment.AA],
     },{
         artists: ["Anastasiya Grintsova"],
@@ -426653,7 +426893,10 @@ If you've **boosted** this turn, draw a card.`,
       print: "SAT016",
       rarity: Rarity.Common,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712786",
+            url: "https://www.tcgplayer.com/product/712786?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -427520,7 +427763,10 @@ If you've **boosted** this turn, draw a card.`,
       print: "SAT033",
       rarity: Rarity.Basic,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712802",
+            url: "https://www.tcgplayer.com/product/712802?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Asur Misoa"],
@@ -438206,7 +438452,10 @@ If the additional cost is paid, this gets +3{d}.`,
       print: "TNP020-Cold-Full Art",
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
-      
+      tcgplayer: {
+            productId: "692570",
+            url: "https://www.tcgplayer.com/product/692570?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -438359,7 +438608,10 @@ If the additional cost is paid, this gets +3{d}.`,
       print: "TNP021-Cold-Full Art",
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
-      
+      tcgplayer: {
+            productId: "692571",
+            url: "https://www.tcgplayer.com/product/692571?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -449368,7 +449620,10 @@ When this enters or leaves the arena, **the crowd cheers** you.`,
       print: "SAT023-Back",
       rarity: Rarity.Rare,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "707032",
+            url: "https://www.tcgplayer.com/product/707032?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Edward Chee"],
@@ -454182,7 +454437,10 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
       print: "TNP046-Cold-Full Art",
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
-      
+      tcgplayer: {
+            productId: "712588",
+            url: "https://www.tcgplayer.com/product/712588?Language=English&Printing=Cold+Foil"
+          },
       treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -454275,7 +454533,10 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
       print: "TNP047-Cold-Full Art",
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
-      
+      tcgplayer: {
+            productId: "712587",
+            url: "https://www.tcgplayer.com/product/712587?Language=English&Printing=Cold+Foil"
+          },
       treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -454368,7 +454629,10 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
       print: "TNP048-Cold-Full Art",
       rarity: Rarity.Promo,
       set: Release.TournamentPack,
-      
+      tcgplayer: {
+            productId: "712589",
+            url: "https://www.tcgplayer.com/product/712589?Language=English&Printing=Cold+Foil"
+          },
       treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -488812,7 +489076,10 @@ When this hits a hero, turn all cards in their banished zone face-down. They los
       print: "MPA004",
       rarity: Rarity.Basic,
       set: Release.MasteryPackAssassin,
-      
+      tcgplayer: {
+            productId: "711375",
+            url: "https://www.tcgplayer.com/product/711375?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["soyameii"],
@@ -488824,7 +489091,10 @@ When this hits a hero, turn all cards in their banished zone face-down. They los
       print: "MPA004-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.MasteryPackAssassin,
-      
+      tcgplayer: {
+            productId: "711376",
+            url: "https://www.tcgplayer.com/product/711376?Language=English&Printing=Cold+Foil"
+          },
       treatments: [Treatment.FA],
     },{
         artists: ["soyameii"],
@@ -488836,7 +489106,10 @@ When this hits a hero, turn all cards in their banished zone face-down. They los
       print: "MPA004-Cold-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.MasteryPackAssassin,
-      
+      tcgplayer: {
+            productId: "711376",
+            url: "https://www.tcgplayer.com/product/711376?Language=English&Printing=Cold+Foil"
+          },
       treatments: [Treatment.FA],
     },{
         artists: ["soyameii"],
@@ -493205,7 +493478,10 @@ If you've pitched a blue card this turn, create a Fang Strike in your hand.`,
       print: "SBW018",
       rarity: Rarity.Rare,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715752",
+            url: "https://www.tcgplayer.com/product/715752?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -493705,7 +493981,10 @@ When this hits a hero, deal 2 arcane damage to any target.
       print: "SBW032",
       rarity: Rarity.Rare,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715766",
+            url: "https://www.tcgplayer.com/product/715766?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Henrique Lindner"],
@@ -496695,7 +496974,10 @@ When this hits a hero, return all aura permanents they control with that name to
       print: "AMO019",
       rarity: Rarity.Majestic,
       set: Release.ArmoryDeckDrMortimer,
-      
+      tcgplayer: {
+            productId: "711022",
+            url: "https://www.tcgplayer.com/product/711022?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -497266,7 +497548,10 @@ When this chain link resolves, if this is defended by a card from hand, create a
       print: "SBW001",
       rarity: Rarity.Rare,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "706945",
+            url: "https://www.tcgplayer.com/product/706945?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Rare],
@@ -497662,7 +497947,10 @@ When this chain link resolves, if this is defended by a card from hand, create a
       print: "SBW001-Back",
       rarity: Rarity.Rare,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "706945",
+            url: "https://www.tcgplayer.com/product/706945?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Rare],
@@ -505490,7 +505778,10 @@ If they choose peace, the only actions they may play or activate during their ne
       print: "SAT015",
       rarity: Rarity.Rare,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712785",
+            url: "https://www.tcgplayer.com/product/712785?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Narendra B Adi"],
@@ -505673,7 +505964,10 @@ If they choose peace, the only actions they may play or activate during their ne
       print: "SAT021",
       rarity: Rarity.Rare,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712791",
+            url: "https://www.tcgplayer.com/product/712791?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Narendra B Adi"],
@@ -505841,7 +506135,10 @@ If they choose peace, the only actions they may play or activate during their ne
       print: "SAT029",
       rarity: Rarity.Rare,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712798",
+            url: "https://www.tcgplayer.com/product/712798?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Narendra B Adi"],
@@ -506715,7 +507012,10 @@ If they choose peace, the only actions they may play or activate during their ne
       print: "SAT008",
       rarity: Rarity.Rare,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712778",
+            url: "https://www.tcgplayer.com/product/712778?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -508963,7 +509263,10 @@ If it's **fused**, it gets **dominate**.
       print: "SBW019",
       rarity: Rarity.Common,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715753",
+            url: "https://www.tcgplayer.com/product/715753?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Orson CaptainSass"],
@@ -518452,7 +518755,10 @@ While this is defending and you control an aura, this gets +1{d}.`,
       print: "SPW003-Rainbow",
       rarity: Rarity.Rare,
       set: Release.SmashPalaceChorusOfSteel,
-      
+      tcgplayer: {
+            productId: "706906",
+            url: "https://www.tcgplayer.com/product/706906?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],

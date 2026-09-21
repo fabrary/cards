@@ -13710,6 +13710,10 @@ exports[`Check for unintentional updates Angelic Wrath (angelic-wrath-blue) vs s
       "print": "SAT032",
       "rarity": "Common",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712801",
+        "url": "https://www.tcgplayer.com/product/712801?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -16461,6 +16465,10 @@ exports[`Check for unintentional updates Arakni (arakni) vs snapshot 1`] = `
       "print": "MPA001",
       "rarity": "Basic",
       "set": "Mastery Pack: Assassin",
+      "tcgplayer": {
+        "productId": "711349",
+        "url": "https://www.tcgplayer.com/product/711349?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -20154,6 +20162,10 @@ If you've been dealt arcane damage this turn, instead gain 4{h}.",
       "print": "SBW023",
       "rarity": "Common",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715757",
+        "url": "https://www.tcgplayer.com/product/715757?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -54531,6 +54543,10 @@ exports[`Check for unintentional updates Blade Beckoner Boots (blade-beckoner-bo
       "print": "SAT009",
       "rarity": "Rare",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712779",
+        "url": "https://www.tcgplayer.com/product/712779?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -66870,6 +66886,10 @@ If you've dealt damage to the defending hero this turn, this gets **go again**.
       "print": "SBW028",
       "rarity": "Common",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715762",
+        "url": "https://www.tcgplayer.com/product/715762?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
@@ -66986,6 +67006,10 @@ If you've dealt damage to the defending hero this turn, this gets **go again**.
       "print": "SBW010",
       "rarity": "Common",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715744",
+        "url": "https://www.tcgplayer.com/product/715744?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
@@ -96604,6 +96628,10 @@ If you've been cheered this turn, this card's attacks get **go again**.",
       "print": "SPW004",
       "rarity": "Rare",
       "set": "Smash Palace: Chorus of Steel",
+      "tcgplayer": {
+        "productId": "710196",
+        "url": "https://www.tcgplayer.com/product/710196?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
@@ -104907,6 +104935,10 @@ The next card you play this turn with an arcane damage effect, instead deals tha
       "print": "TNP057-Cold-Full Art",
       "rarity": "Promo",
       "set": "Tournament Pack",
+      "tcgplayer": {
+        "productId": "714364",
+        "url": "https://www.tcgplayer.com/product/714364?Language=English&Printing=Cold+Foil",
+      },
       "treatments": [
         "Full Art",
       ],
@@ -105087,6 +105119,10 @@ The next card you play this turn with an arcane damage effect, instead deals tha
       "print": "TNP055-Cold-Full Art",
       "rarity": "Promo",
       "set": "Tournament Pack",
+      "tcgplayer": {
+        "productId": "714362",
+        "url": "https://www.tcgplayer.com/product/714362?Language=English&Printing=Cold+Foil",
+      },
       "treatments": [
         "Full Art",
       ],
@@ -105266,6 +105302,10 @@ The next card you play this turn with an arcane damage effect, instead deals tha
       "print": "TNP056-Cold-Full Art",
       "rarity": "Promo",
       "set": "Tournament Pack",
+      "tcgplayer": {
+        "productId": "714363",
+        "url": "https://www.tcgplayer.com/product/714363?Language=English&Printing=Cold+Foil",
+      },
       "treatments": [
         "Full Art",
       ],
@@ -129068,6 +129108,10 @@ exports[`Check for unintentional updates Corrupted Crown (corrupted-crown) vs sn
       "print": "SBW004",
       "rarity": "Rare",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715738",
+        "url": "https://www.tcgplayer.com/product/715738?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -137910,6 +137954,10 @@ exports[`Check for unintentional updates Crown of Dichotomy (crown-of-dichotomy)
       "print": "SBW005",
       "rarity": "Common",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715739",
+        "url": "https://www.tcgplayer.com/product/715739?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -140808,6 +140856,10 @@ When this hits a hero, they banish a card from their hand.
       "print": "SBW011",
       "rarity": "Rare",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715745",
+        "url": "https://www.tcgplayer.com/product/715745?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -144195,6 +144247,10 @@ When this hits a hero, **steal** a Gold token they control.",
       "print": "SPW002",
       "rarity": "Rare",
       "set": "Smash Palace: Chorus of Steel",
+      "tcgplayer": {
+        "productId": "710195",
+        "url": "https://www.tcgplayer.com/product/710195?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
@@ -155419,6 +155475,10 @@ exports[`Check for unintentional updates Demonbound Gloomblade (demonbound-gloom
       "print": "SBW029",
       "rarity": "Common",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715763",
+        "url": "https://www.tcgplayer.com/product/715763?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
@@ -155532,6 +155592,10 @@ exports[`Check for unintentional updates Demonbound Gloomblade (demonbound-gloom
       "print": "SBW012",
       "rarity": "Common",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715746",
+        "url": "https://www.tcgplayer.com/product/715746?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
@@ -167176,6 +167240,10 @@ exports[`Check for unintentional updates Dr. Mortimer (dr-mortimer) vs snapshot 
       "print": "MPA003",
       "rarity": "Basic",
       "set": "Mastery Pack: Assassin",
+      "tcgplayer": {
+        "productId": "711352",
+        "url": "https://www.tcgplayer.com/product/711352?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -167187,6 +167255,10 @@ exports[`Check for unintentional updates Dr. Mortimer (dr-mortimer) vs snapshot 
       "print": "MPA003-Cold-Full Art",
       "rarity": "Marvel",
       "set": "Mastery Pack: Assassin",
+      "tcgplayer": {
+        "productId": "711374",
+        "url": "https://www.tcgplayer.com/product/711374?Language=English&Printing=Cold+Foil",
+      },
       "treatments": [
         "Full Art",
       ],
@@ -167201,6 +167273,10 @@ exports[`Check for unintentional updates Dr. Mortimer (dr-mortimer) vs snapshot 
       "print": "MPA003-Cold-Full Art-Back",
       "rarity": "Marvel",
       "set": "Mastery Pack: Assassin",
+      "tcgplayer": {
+        "productId": "711374",
+        "url": "https://www.tcgplayer.com/product/711374?Language=English&Printing=Cold+Foil",
+      },
       "treatments": [
         "Full Art",
       ],
@@ -167286,6 +167362,10 @@ exports[`Check for unintentional updates Dr. Mortimer, Blight of the Pits (dr-mo
       "print": "AMO001-Rainbow",
       "rarity": "Majestic",
       "set": "Armory Deck: Dr. Mortimer",
+      "tcgplayer": {
+        "productId": "711020",
+        "url": "https://www.tcgplayer.com/product/711020?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -167297,6 +167377,10 @@ exports[`Check for unintentional updates Dr. Mortimer, Blight of the Pits (dr-mo
       "print": "MPA002-Cold-Full Art",
       "rarity": "Marvel",
       "set": "Mastery Pack: Assassin",
+      "tcgplayer": {
+        "productId": "711350",
+        "url": "https://www.tcgplayer.com/product/711350?Language=English&Printing=Cold+Foil",
+      },
       "treatments": [
         "Full Art",
       ],
@@ -167311,6 +167395,10 @@ exports[`Check for unintentional updates Dr. Mortimer, Blight of the Pits (dr-mo
       "print": "MPA002-Cold-Full Art-Back",
       "rarity": "Marvel",
       "set": "Mastery Pack: Assassin",
+      "tcgplayer": {
+        "productId": "711350",
+        "url": "https://www.tcgplayer.com/product/711350?Language=English&Printing=Cold+Foil",
+      },
       "treatments": [
         "Full Art",
       ],
@@ -170938,6 +171026,10 @@ exports[`Check for unintentional updates Dream Weavers (dream-weavers) vs snapsh
       "print": "SAT006",
       "rarity": "Common",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712776",
+        "url": "https://www.tcgplayer.com/product/712776?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -186837,6 +186929,10 @@ exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-blue) vs s
       "print": "SBW030",
       "rarity": "Common",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715764",
+        "url": "https://www.tcgplayer.com/product/715764?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
@@ -186951,6 +187047,10 @@ exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-red) vs sn
       "print": "SBW013",
       "rarity": "Common",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715747",
+        "url": "https://www.tcgplayer.com/product/715747?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -187103,6 +187203,10 @@ exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-yellow) vs
       "print": "SBW024",
       "rarity": "Common",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715758",
+        "url": "https://www.tcgplayer.com/product/715758?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
@@ -194762,6 +194866,10 @@ exports[`Check for unintentional updates Enigma Chimera (enigma-chimera-blue) vs
       "print": "TNP060-Cold-Full Art",
       "rarity": "Promo",
       "set": "Tournament Pack",
+      "tcgplayer": {
+        "productId": "714367",
+        "url": "https://www.tcgplayer.com/product/714367?Language=English&Printing=Cold+Foil",
+      },
       "treatments": [
         "Full Art",
       ],
@@ -194938,6 +195046,10 @@ exports[`Check for unintentional updates Enigma Chimera (enigma-chimera-red) vs 
       "print": "TNP058-Cold-Full Art",
       "rarity": "Promo",
       "set": "Tournament Pack",
+      "tcgplayer": {
+        "productId": "714365",
+        "url": "https://www.tcgplayer.com/product/714365?Language=English&Printing=Cold+Foil",
+      },
       "treatments": [
         "Full Art",
       ],
@@ -195100,6 +195212,10 @@ exports[`Check for unintentional updates Enigma Chimera (enigma-chimera-yellow) 
       "print": "TNP059-Cold-Full Art",
       "rarity": "Promo",
       "set": "Tournament Pack",
+      "tcgplayer": {
+        "productId": "714366",
+        "url": "https://www.tcgplayer.com/product/714366?Language=English&Printing=Cold+Foil",
+      },
       "treatments": [
         "Full Art",
       ],
@@ -219352,6 +219468,10 @@ exports[`Check for unintentional updates Figment of Hope (figment-of-hope-yellow
       "print": "SAT023",
       "rarity": "Rare",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "707032",
+        "url": "https://www.tcgplayer.com/product/707032?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -244507,6 +244627,10 @@ When this hits a hero, deal 1 arcane damage to them.",
       "print": "SBW002",
       "rarity": "Common",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715736",
+        "url": "https://www.tcgplayer.com/product/715736?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -246289,6 +246413,10 @@ exports[`Check for unintentional updates Gate to i'Arathael (gate-to-iarathael) 
       "print": "SBW034",
       "rarity": "Basic",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715768",
+        "url": "https://www.tcgplayer.com/product/715768?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -266029,6 +266157,10 @@ exports[`Check for unintentional updates Halo of Illumination (halo-of-illuminat
       "print": "SAT004",
       "rarity": "Common",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712774",
+        "url": "https://www.tcgplayer.com/product/712774?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -279819,6 +279951,10 @@ exports[`Check for unintentional updates Herald of Hope (herald-of-hope-blue) vs
       "print": "SAT024",
       "rarity": "Rare",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712793",
+        "url": "https://www.tcgplayer.com/product/712793?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
@@ -279893,6 +280029,10 @@ exports[`Check for unintentional updates Herald of Hope (herald-of-hope-red) vs 
       "print": "SAT011",
       "rarity": "Rare",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712781",
+        "url": "https://www.tcgplayer.com/product/712781?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
@@ -279967,6 +280107,10 @@ exports[`Check for unintentional updates Herald of Hope (herald-of-hope-yellow) 
       "print": "SAT017",
       "rarity": "Rare",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712787",
+        "url": "https://www.tcgplayer.com/product/712787?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
@@ -280047,6 +280191,10 @@ When this hits, put it into your soul and the defending hero can't play cards fr
       "print": "SAT018",
       "rarity": "Rare",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712788",
+        "url": "https://www.tcgplayer.com/product/712788?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -280250,6 +280398,10 @@ exports[`Check for unintentional updates Herald of Protection (herald-of-protect
       "print": "SAT025",
       "rarity": "Rare",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712794",
+        "url": "https://www.tcgplayer.com/product/712794?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -280470,6 +280622,10 @@ exports[`Check for unintentional updates Herald of Protection (herald-of-protect
       "print": "SAT012",
       "rarity": "Rare",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712782",
+        "url": "https://www.tcgplayer.com/product/712782?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -280690,6 +280846,10 @@ exports[`Check for unintentional updates Herald of Protection (herald-of-protect
       "print": "SAT019",
       "rarity": "Rare",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712789",
+        "url": "https://www.tcgplayer.com/product/712789?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -280892,6 +281052,10 @@ exports[`Check for unintentional updates Herald of Ravages (herald-of-ravages-bl
       "print": "SAT026",
       "rarity": "Rare",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712795",
+        "url": "https://www.tcgplayer.com/product/712795?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -281091,6 +281255,10 @@ exports[`Check for unintentional updates Herald of Ravages (herald-of-ravages-re
       "print": "SAT013",
       "rarity": "Rare",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712783",
+        "url": "https://www.tcgplayer.com/product/712783?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -282670,6 +282838,10 @@ When this hits, put it into your soul.
       "print": "SAT027",
       "rarity": "Rare",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712796",
+        "url": "https://www.tcgplayer.com/product/712796?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -282869,6 +283041,10 @@ When this hits, put it into your soul.
       "print": "SAT014",
       "rarity": "Rare",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712784",
+        "url": "https://www.tcgplayer.com/product/712784?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -283234,6 +283410,10 @@ exports[`Check for unintentional updates Herald of Victoria (herald-of-victoria-
       "print": "SAT020",
       "rarity": "Rare",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712790",
+        "url": "https://www.tcgplayer.com/product/712790?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -293269,6 +293449,10 @@ If this is attacking an infected hero, this gets +1{p}.
       "print": "AMO002-Rainbow",
       "rarity": "Rare",
       "set": "Armory Deck: Dr. Mortimer",
+      "tcgplayer": {
+        "productId": "711021",
+        "url": "https://www.tcgplayer.com/product/711021?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -312460,6 +312644,10 @@ exports[`Check for unintentional updates Iris of Reality (iris-of-reality) vs sn
       "print": "SAT002",
       "rarity": "Token",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712772",
+        "url": "https://www.tcgplayer.com/product/712772?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -312927,6 +313115,10 @@ exports[`Check for unintentional updates Ironhide Gauntlet (ironhide-gauntlet) v
       "print": "SAT007",
       "rarity": "Common",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712777",
+        "url": "https://www.tcgplayer.com/product/712777?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -322299,6 +322491,10 @@ The first time the crowd boos you each turn, each hero with more {h} than you lo
       "print": "SPW001-Rainbow",
       "rarity": "Rare",
       "set": "Smash Palace: Chorus of Steel",
+      "tcgplayer": {
+        "productId": "706905",
+        "url": "https://www.tcgplayer.com/product/706905?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -326949,6 +327145,10 @@ If the attacking hero is **marked**, their next attack this turn gets -1{p}.",
       "print": "SAT022",
       "rarity": "Rare",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712792",
+        "url": "https://www.tcgplayer.com/product/712792?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -340715,6 +340915,10 @@ exports[`Check for unintentional updates Looking for a Scrap (looking-for-a-scra
       "print": "SBW014",
       "rarity": "Rare",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715748",
+        "url": "https://www.tcgplayer.com/product/715748?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -342768,6 +342972,10 @@ exports[`Check for unintentional updates Luminaris, Celestial Fury (luminaris-ce
       "print": "SAT003",
       "rarity": "Rare",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712773",
+        "url": "https://www.tcgplayer.com/product/712773?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -346010,6 +346218,10 @@ Once per turn, when you play an attack action card, remove a verse counter from 
       "print": "SBW020",
       "rarity": "Rare",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715754",
+        "url": "https://www.tcgplayer.com/product/715754?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -346196,6 +346408,10 @@ Once per turn, when you play an attack action card, remove a verse counter from 
       "print": "SBW025",
       "rarity": "Rare",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715759",
+        "url": "https://www.tcgplayer.com/product/715759?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -366973,6 +367189,10 @@ When this attacks or hits, create a Runechant token.
       "print": "SBW031",
       "rarity": "Common",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715765",
+        "url": "https://www.tcgplayer.com/product/715765?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
@@ -367094,6 +367314,10 @@ When this attacks or hits, create a Runechant token.
       "print": "SBW015",
       "rarity": "Common",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715749",
+        "url": "https://www.tcgplayer.com/product/715749?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
@@ -368196,6 +368420,10 @@ The first time each hero plays a reaction card this chain link, create a Bloodro
       "print": "MPA022",
       "rarity": "Majestic",
       "set": "Mastery Pack: Assassin",
+      "tcgplayer": {
+        "productId": "711377",
+        "url": "https://www.tcgplayer.com/product/711377?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -368207,6 +368435,10 @@ The first time each hero plays a reaction card this chain link, create a Bloodro
       "print": "MPA022-Rainbow",
       "rarity": "Majestic",
       "set": "Mastery Pack: Assassin",
+      "tcgplayer": {
+        "productId": "711377",
+        "url": "https://www.tcgplayer.com/product/711377?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -375429,6 +375661,10 @@ exports[`Check for unintentional updates Nullrune Boots (nullrune-boots) vs snap
       "print": "SBW008",
       "rarity": "Common",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715742",
+        "url": "https://www.tcgplayer.com/product/715742?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -380538,6 +380774,10 @@ exports[`Check for unintentional updates Olde Leather Boots (olde-leather-boots)
       "print": "SBW009",
       "rarity": "Common",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715743",
+        "url": "https://www.tcgplayer.com/product/715743?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -386957,6 +387197,10 @@ Create a Runechant token.
       "print": "SBW021",
       "rarity": "Common",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715755",
+        "url": "https://www.tcgplayer.com/product/715755?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -396761,6 +397005,10 @@ exports[`Check for unintentional updates Passing Mirage (passing-mirage-blue) vs
       "print": "SAT030",
       "rarity": "Rare",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712799",
+        "url": "https://www.tcgplayer.com/product/712799?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -402605,6 +402853,10 @@ When this is destroyed, create a Spectral Shield token.",
       "print": "SAT028",
       "rarity": "Common",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712797",
+        "url": "https://www.tcgplayer.com/product/712797?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -406195,6 +406447,10 @@ exports[`Check for unintentional updates Pierce Reality (pierce-reality-blue) vs
       "print": "SAT031",
       "rarity": "Rare",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712800",
+        "url": "https://www.tcgplayer.com/product/712800?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -411327,6 +411583,10 @@ When this hits a hero, they banish a card in their arsenal.
       "print": "SBW016",
       "rarity": "Rare",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715750",
+        "url": "https://www.tcgplayer.com/product/715750?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -421986,6 +422246,10 @@ exports[`Check for unintentional updates Prey on Insecurity (prey-on-insecurity-
       "print": "MPA024",
       "rarity": "Majestic",
       "set": "Mastery Pack: Assassin",
+      "tcgplayer": {
+        "productId": "711378",
+        "url": "https://www.tcgplayer.com/product/711378?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -421997,6 +422261,10 @@ exports[`Check for unintentional updates Prey on Insecurity (prey-on-insecurity-
       "print": "MPA024-Rainbow",
       "rarity": "Majestic",
       "set": "Mastery Pack: Assassin",
+      "tcgplayer": {
+        "productId": "711378",
+        "url": "https://www.tcgplayer.com/product/711378?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -423379,6 +423647,10 @@ exports[`Check for unintentional updates Prism, Advent of Thrones (prism-advent-
       "print": "SAT001",
       "rarity": "Rare",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "706942",
+        "url": "https://www.tcgplayer.com/product/706942?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -429021,6 +429293,10 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
       "print": "SBW033",
       "rarity": "Common",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715767",
+        "url": "https://www.tcgplayer.com/product/715767?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -429157,6 +429433,10 @@ Banish the top card of your deck. If it's red, create a Gate to i'Arathael token
       "print": "SBW022",
       "rarity": "Common",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715756",
+        "url": "https://www.tcgplayer.com/product/715756?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -458076,6 +458356,10 @@ If this wasn't played from hand or arsenal, it gets +2{p}.",
       "print": "MPA026",
       "rarity": "Majestic",
       "set": "Mastery Pack: Assassin",
+      "tcgplayer": {
+        "productId": "711379",
+        "url": "https://www.tcgplayer.com/product/711379?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -458087,6 +458371,10 @@ If this wasn't played from hand or arsenal, it gets +2{p}.",
       "print": "MPA026-Rainbow",
       "rarity": "Majestic",
       "set": "Mastery Pack: Assassin",
+      "tcgplayer": {
+        "productId": "711379",
+        "url": "https://www.tcgplayer.com/product/711379?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -483032,6 +483320,10 @@ exports[`Check for unintentional updates Runechant (runechant) vs snapshot 1`] =
       "print": "SBW035",
       "rarity": "Basic",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715769",
+        "url": "https://www.tcgplayer.com/product/715769?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -483893,6 +484185,10 @@ At the beginning of your action phase or when you play an attack action card, de
       "print": "SBW026",
       "rarity": "Common",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715760",
+        "url": "https://www.tcgplayer.com/product/715760?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -484167,6 +484463,10 @@ At the beginning of your action phase or when you play an attack action card, de
       "print": "SBW027",
       "rarity": "Common",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715761",
+        "url": "https://www.tcgplayer.com/product/715761?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -484408,6 +484708,10 @@ exports[`Check for unintentional updates Runehold Release (runehold-release) vs 
       "print": "SBW007",
       "rarity": "Common",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715741",
+        "url": "https://www.tcgplayer.com/product/715741?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -485121,6 +485425,10 @@ exports[`Check for unintentional updates Runic Disposition (runic-disposition-re
       "print": "SBW017",
       "rarity": "Rare",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715751",
+        "url": "https://www.tcgplayer.com/product/715751?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
@@ -509881,6 +510189,10 @@ When this hits a hero, create a Runechant token.",
       "print": "SBW003",
       "rarity": "Common",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715737",
+        "url": "https://www.tcgplayer.com/product/715737?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -528295,6 +528607,10 @@ exports[`Check for unintentional updates Silent Stilettos (silent-stilettos) vs 
       "print": "SAT010",
       "rarity": "Common",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712780",
+        "url": "https://www.tcgplayer.com/product/712780?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -529245,6 +529561,10 @@ exports[`Check for unintentional updates Silver (silver) vs snapshot 1`] = `
       "print": "AMO033-Alternate Art",
       "rarity": "Basic",
       "set": "Armory Deck: Dr. Mortimer",
+      "tcgplayer": {
+        "productId": "711023",
+        "url": "https://www.tcgplayer.com/product/711023?Language=English&Printing=Normal",
+      },
       "treatments": [
         "Alternate Art",
       ],
@@ -553357,6 +553677,10 @@ exports[`Check for unintentional updates Spectral Manifestations (spectral-manif
       "print": "SAT016",
       "rarity": "Common",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712786",
+        "url": "https://www.tcgplayer.com/product/712786?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -554291,6 +554615,10 @@ exports[`Check for unintentional updates Spectral Shield (spectral-shield) vs sn
       "print": "SAT033",
       "rarity": "Basic",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712802",
+        "url": "https://www.tcgplayer.com/product/712802?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -567898,6 +568226,10 @@ If the additional cost is paid, this gets +3{d}.",
       "print": "TNP021-Cold-Full Art",
       "rarity": "Promo",
       "set": "Tournament Pack",
+      "tcgplayer": {
+        "productId": "692571",
+        "url": "https://www.tcgplayer.com/product/692571?Language=English&Printing=Rainbow+Foil",
+      },
       "treatments": [
         "Full Art",
       ],
@@ -568256,6 +568588,10 @@ If the additional cost is paid, this gets +3{d}.",
       "print": "TNP020-Cold-Full Art",
       "rarity": "Promo",
       "set": "Tournament Pack",
+      "tcgplayer": {
+        "productId": "692570",
+        "url": "https://www.tcgplayer.com/product/692570?Language=English&Printing=Rainbow+Foil",
+      },
       "treatments": [
         "Full Art",
       ],
@@ -582973,6 +583309,10 @@ exports[`Check for unintentional updates Suraya, Archangel of Endless Hope (sura
       "print": "SAT023-Back",
       "rarity": "Rare",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "707032",
+        "url": "https://www.tcgplayer.com/product/707032?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -589074,6 +589414,10 @@ exports[`Check for unintentional updates T-Bone (t-bone-blue) vs snapshot 1`] = 
       "print": "TNP048-Cold-Full Art",
       "rarity": "Promo",
       "set": "Tournament Pack",
+      "tcgplayer": {
+        "productId": "712589",
+        "url": "https://www.tcgplayer.com/product/712589?Language=English&Printing=Cold+Foil",
+      },
       "treatments": [
         "Full Art",
       ],
@@ -589202,6 +589546,10 @@ exports[`Check for unintentional updates T-Bone (t-bone-red) vs snapshot 1`] = `
       "print": "TNP046-Cold-Full Art",
       "rarity": "Promo",
       "set": "Tournament Pack",
+      "tcgplayer": {
+        "productId": "712588",
+        "url": "https://www.tcgplayer.com/product/712588?Language=English&Printing=Cold+Foil",
+      },
       "treatments": [
         "Full Art",
       ],
@@ -589317,6 +589665,10 @@ exports[`Check for unintentional updates T-Bone (t-bone-yellow) vs snapshot 1`] 
       "print": "TNP047-Cold-Full Art",
       "rarity": "Promo",
       "set": "Tournament Pack",
+      "tcgplayer": {
+        "productId": "712587",
+        "url": "https://www.tcgplayer.com/product/712587?Language=English&Printing=Cold+Foil",
+      },
       "treatments": [
         "Full Art",
       ],
@@ -634289,6 +634641,10 @@ exports[`Check for unintentional updates Uzuri (uzuri) vs snapshot 1`] = `
       "print": "MPA004",
       "rarity": "Basic",
       "set": "Mastery Pack: Assassin",
+      "tcgplayer": {
+        "productId": "711375",
+        "url": "https://www.tcgplayer.com/product/711375?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -634300,6 +634656,10 @@ exports[`Check for unintentional updates Uzuri (uzuri) vs snapshot 1`] = `
       "print": "MPA004-Cold-Full Art",
       "rarity": "Marvel",
       "set": "Mastery Pack: Assassin",
+      "tcgplayer": {
+        "productId": "711376",
+        "url": "https://www.tcgplayer.com/product/711376?Language=English&Printing=Cold+Foil",
+      },
       "treatments": [
         "Full Art",
       ],
@@ -634314,6 +634674,10 @@ exports[`Check for unintentional updates Uzuri (uzuri) vs snapshot 1`] = `
       "print": "MPA004-Cold-Full Art-Back",
       "rarity": "Marvel",
       "set": "Mastery Pack: Assassin",
+      "tcgplayer": {
+        "productId": "711376",
+        "url": "https://www.tcgplayer.com/product/711376?Language=English&Printing=Cold+Foil",
+      },
       "treatments": [
         "Full Art",
       ],
@@ -639839,6 +640203,10 @@ When this hits a hero, deal 2 arcane damage to any target.
       "print": "SBW018",
       "rarity": "Rare",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715752",
+        "url": "https://www.tcgplayer.com/product/715752?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
@@ -640023,6 +640391,10 @@ exports[`Check for unintentional updates Vexing Malice (vexing-malice-blue) vs s
       "print": "SBW032",
       "rarity": "Rare",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715766",
+        "url": "https://www.tcgplayer.com/product/715766?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -644545,6 +644917,10 @@ When this defends, create a Frailty, Inertia, and Bloodrot Pox token under the a
       "print": "AMO019",
       "rarity": "Majestic",
       "set": "Armory Deck: Dr. Mortimer",
+      "tcgplayer": {
+        "productId": "711022",
+        "url": "https://www.tcgplayer.com/product/711022?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
@@ -645261,6 +645637,10 @@ exports[`Check for unintentional updates Viserai, Between Worlds (viserai-betwee
       "print": "SBW001",
       "rarity": "Rare",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "706945",
+        "url": "https://www.tcgplayer.com/product/706945?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
@@ -645634,6 +646014,10 @@ At the beginning of each end phase, if you've created or activated a Gate to i'A
       "print": "SBW001-Back",
       "rarity": "Rare",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "706945",
+        "url": "https://www.tcgplayer.com/product/706945?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
@@ -656315,6 +656699,10 @@ exports[`Check for unintentional updates Wartune Herald (wartune-herald-blue) vs
       "print": "SAT029",
       "rarity": "Rare",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712798",
+        "url": "https://www.tcgplayer.com/product/712798?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -656529,6 +656917,10 @@ exports[`Check for unintentional updates Wartune Herald (wartune-herald-red) vs 
       "print": "SAT015",
       "rarity": "Rare",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712785",
+        "url": "https://www.tcgplayer.com/product/712785?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -656743,6 +657135,10 @@ exports[`Check for unintentional updates Wartune Herald (wartune-herald-yellow) 
       "print": "SAT021",
       "rarity": "Rare",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712791",
+        "url": "https://www.tcgplayer.com/product/712791?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -658001,6 +658397,10 @@ exports[`Check for unintentional updates Wave of Reality (wave-of-reality) vs sn
       "print": "SAT008",
       "rarity": "Rare",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712778",
+        "url": "https://www.tcgplayer.com/product/712778?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -660744,6 +661144,10 @@ exports[`Check for unintentional updates Weeping Battleground (weeping-battlegro
       "print": "SBW019",
       "rarity": "Common",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715753",
+        "url": "https://www.tcgplayer.com/product/715753?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -673273,6 +673677,10 @@ The first time the crowd cheers you each turn, each hero draws a card.",
       "print": "SPW003-Rainbow",
       "rarity": "Rare",
       "set": "Smash Palace: Chorus of Steel",
+      "tcgplayer": {
+        "productId": "706906",
+        "url": "https://www.tcgplayer.com/product/706906?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [

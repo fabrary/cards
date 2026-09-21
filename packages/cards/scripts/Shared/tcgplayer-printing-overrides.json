@@ -466,10 +466,14 @@
     "TEA019": "1st Edition Normal"
   },
   "staunch-response-blue": {
-    "BVO020": "1st Edition Normal"
+    "BVO020": "1st Edition Normal",
+    "TNP021-Cold-Full Art": "Rainbow Foil"
   },
   "staunch-response-red": {
     "TNP019-Cold-Full Art": "Rainbow Foil"
+  },
+  "staunch-response-yellow": {
+    "TNP020-Cold-Full Art": "Rainbow Foil"
   },
   "steelblade-shunt-red": {
     "TEA011": "1st Edition Normal"
