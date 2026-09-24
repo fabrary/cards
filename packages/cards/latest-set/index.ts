@@ -1008,7 +1008,10 @@ When this is pitched, create a Runechant token.`,
       print: "IAR159-Rainbow",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "706948",
+            url: "https://www.tcgplayer.com/product/706948?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Lius Lasahido"],

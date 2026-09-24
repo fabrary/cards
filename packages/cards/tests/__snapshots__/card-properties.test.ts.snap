@@ -30779,6 +30779,10 @@ Attack action cards played from your banished zone get +3{p}.",
       "print": "IAR159-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
+      "tcgplayer": {
+        "productId": "706948",
+        "url": "https://www.tcgplayer.com/product/706948?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -57389,6 +57393,10 @@ At the beginning of each end phase, you may banish a card from your hand. Then i
       "print": "JDG092-Rainbow-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "719651",
+        "url": "https://www.tcgplayer.com/product/719651?Language=English&Printing=Rainbow+Foil",
+      },
       "treatments": [
         "Extended Art",
       ],
@@ -68961,6 +68969,10 @@ exports[`Check for unintentional updates Blossom of Spring (blossom-of-spring) v
       "print": "SBW006",
       "rarity": "Common",
       "set": "Viserai Between Worlds Silver Age Deck",
+      "tcgplayer": {
+        "productId": "715740",
+        "url": "https://www.tcgplayer.com/product/715740?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -68971,6 +68983,10 @@ exports[`Check for unintentional updates Blossom of Spring (blossom-of-spring) v
       "print": "SAT005",
       "rarity": "Common",
       "set": "Prism Silver Age Deck",
+      "tcgplayer": {
+        "productId": "712775",
+        "url": "https://www.tcgplayer.com/product/712775?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -173459,6 +173475,10 @@ exports[`Check for unintentional updates Drop Dead Bodice (drop-dead-bodice) vs 
       "print": "JDG087-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "719648",
+        "url": "https://www.tcgplayer.com/product/719648?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -214422,6 +214442,10 @@ exports[`Check for unintentional updates Fault Line (fault-line-red) vs snapshot
       "print": "FAB328-Rainbow-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "648074",
+        "url": "https://www.tcgplayer.com/product/648074?Language=English&Printing=Rainbow+Foil",
+      },
       "treatments": [
         "Extended Art",
       ],
@@ -290476,6 +290500,10 @@ exports[`Check for unintentional updates Hoodwink (hoodwink-blue) vs snapshot 1`
       "print": "JDG091-Cold-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "719652",
+        "url": "https://www.tcgplayer.com/product/719652?Language=English&Printing=Cold+Foil",
+      },
       "treatments": [
         "Extended Art",
       ],
@@ -510172,10 +510200,6 @@ When this hits a hero, create a Runechant token.",
       "print": "GEM185-Cold",
       "rarity": "Promo",
       "set": "GEM",
-      "tcgplayer": {
-        "productId": "706941",
-        "url": "https://www.tcgplayer.com/product/706941?Language=English&Printing=Cold+Foil",
-      },
     },
   ],
   "rarities": [
@@ -512981,6 +513005,10 @@ exports[`Check for unintentional updates Shadowrealm Strength (shadowrealm-stren
       "print": "JDG089-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "719649",
+        "url": "https://www.tcgplayer.com/product/719649?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -650245,10 +650273,6 @@ Zombies you control get "**Action** - {r}, {t}: **Attack**"",
       "print": "GEM186-Cold",
       "rarity": "Promo",
       "set": "GEM",
-      "tcgplayer": {
-        "productId": "714489",
-        "url": "https://www.tcgplayer.com/product/714489?Language=English&Printing=Cold+Foil",
-      },
     },
   ],
   "rarities": [

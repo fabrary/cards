@@ -24381,7 +24381,10 @@ Search your deck for a Guardian attack action card with cost less than or equal 
       print: "IAR159-Rainbow",
       rarity: Rarity.Rare,
       set: Release.UsurpTheShadowThrone,
-      
+      tcgplayer: {
+            productId: "706948",
+            url: "https://www.tcgplayer.com/product/706948?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Lius Lasahido"],
@@ -44584,7 +44587,10 @@ Once each turn, you may play a card with **blood debt** from your banished zone.
       print: "JDG092-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "719651",
+            url: "https://www.tcgplayer.com/product/719651?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
@@ -54117,7 +54123,10 @@ When you are dealt damage, destroy this.`,
       print: "SBW006",
       rarity: Rarity.Common,
       set: Release.ViseraiBetweenWorldsSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "715740",
+            url: "https://www.tcgplayer.com/product/715740?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Andy Aslamov"],
@@ -54129,7 +54138,10 @@ When you are dealt damage, destroy this.`,
       print: "SAT005",
       rarity: Rarity.Common,
       set: Release.PrismSilverAgeDeck,
-      
+      tcgplayer: {
+            productId: "712775",
+            url: "https://www.tcgplayer.com/product/712775?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Andy Aslamov"],
@@ -134739,7 +134751,10 @@ If you've played a red card this turn, your dragon attacks get **go again**.`,
       print: "JDG087-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "719648",
+            url: "https://www.tcgplayer.com/product/719648?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -166262,7 +166277,10 @@ Target attack gets +3{p}.`,
       print: "FAB328-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "648074",
+            url: "https://www.tcgplayer.com/product/648074?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -224581,7 +224599,10 @@ If it has 3 or more +1{p} counters, you may put an attack reaction card from you
       print: "JDG091-Cold-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "719652",
+            url: "https://www.tcgplayer.com/product/719652?Language=English&Printing=Cold+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -393002,10 +393023,7 @@ When this hits a hero, look at the top 2 cards of their deck. Banish 1 of them.`
       print: "GEM185-Cold",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      tcgplayer: {
-            productId: "706941",
-            url: "https://www.tcgplayer.com/product/706941?Language=English&Printing=Cold+Foil"
-          },
+      
       
     },],
     rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo],
@@ -395270,7 +395288,10 @@ If 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 
       print: "JDG089-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "719649",
+            url: "https://www.tcgplayer.com/product/719649?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -501303,10 +501324,7 @@ When this hits, create a Lightning Flow token.`,
       print: "GEM186-Cold",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      tcgplayer: {
-            productId: "714489",
-            url: "https://www.tcgplayer.com/product/714489?Language=English&Printing=Cold+Foil"
-          },
+      
       
     },],
     rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo],
