@@ -37,7 +37,7 @@ import { getNicknames } from "./Shared/get-nicknames";
 import { getShortName } from "./Shared/get-short-names";
 import { getFirstReleaseDate } from "./Shared/get-first-release-date";
 import {
-  getCardsWithTCGplayerPrintingOverrides,
+  getCardsWithTCGplayerUrlOverrides,
   getTCGplayerInfoForAddedPrinting,
 } from "./Shared/tcgplayer";
 
@@ -233,7 +233,7 @@ for (const card of cardsWithAdditionalProperties) {
   }
 }
 
-const completedCards = getCardsWithTCGplayerPrintingOverrides(cardsWithRarity);
+const completedCards = getCardsWithTCGplayerUrlOverrides(cardsWithRarity);
 
 const latestStandaloneBooster = releases
   .reverse()
