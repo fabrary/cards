@@ -97703,10 +97703,7 @@ Deal 1 arcane damage to any target.`,
       print: "GEM193-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      tcgplayer: {
-            productId: "714490",
-            url: "https://www.tcgplayer.com/product/714490?Language=English&Printing=Normal"
-          },
+      
       treatments: [Treatment.EA],
     },{
         artists: ["Satriasa"],
@@ -97718,10 +97715,7 @@ Deal 1 arcane damage to any target.`,
       print: "GEM193-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      tcgplayer: {
-            productId: "714490",
-            url: "https://www.tcgplayer.com/product/714490?Language=English&Printing=Rainbow+Foil"
-          },
+      
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -145556,10 +145550,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
       print: "GEM203-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      tcgplayer: {
-            productId: "714492",
-            url: "https://www.tcgplayer.com/product/714492?Language=English&Printing=Normal"
-          },
+      
       treatments: [Treatment.EA],
     },{
         artists: ["Alif Zahrah"],
@@ -145571,10 +145562,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
       print: "GEM203-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      tcgplayer: {
-            productId: "714492",
-            url: "https://www.tcgplayer.com/product/714492?Language=English&Printing=Rainbow+Foil"
-          },
+      
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -268622,10 +268610,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
       print: "GEM184-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.GEM,
-      tcgplayer: {
-            productId: "706940",
-            url: "https://www.tcgplayer.com/product/706940?Language=English&Printing=Cold+Foil"
-          },
+      
       treatments: [Treatment.FA],
     },{
         artists: ["Ramza Ardyputra"],
@@ -268667,10 +268652,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
       print: "GEM184-Cold-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.GEM,
-      tcgplayer: {
-            productId: "706940",
-            url: "https://www.tcgplayer.com/product/706940?Language=English&Printing=Cold+Foil"
-          },
+      
       treatments: [Treatment.FA],
     },{
         artists: ["Ramza Ardyputra"],
@@ -296264,10 +296246,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
       print: "GEM198-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      tcgplayer: {
-            productId: "714491",
-            url: "https://www.tcgplayer.com/product/714491?Language=English&Printing=Normal"
-          },
+      
       treatments: [Treatment.EA],
     },{
         artists: ["Jefrey Yonathan"],
@@ -296279,10 +296258,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
       print: "GEM198-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      tcgplayer: {
-            productId: "714491",
-            url: "https://www.tcgplayer.com/product/714491?Language=English&Printing=Rainbow+Foil"
-          },
+      
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],

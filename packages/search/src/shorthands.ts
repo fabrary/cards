@@ -12,7 +12,6 @@ export const shorthands: {
     subtypes?: Subtype[];
     types?: Type[];
   };
-  helper?: string;
   isCardProperty: boolean;
   shorthands: string[];
 }[] = [

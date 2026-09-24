@@ -125357,10 +125357,6 @@ exports[`Check for unintentional updates Consuming Appetite (consuming-appetite-
       "print": "GEM193-Extended Art",
       "rarity": "Promo",
       "set": "GEM",
-      "tcgplayer": {
-        "productId": "714490",
-        "url": "https://www.tcgplayer.com/product/714490?Language=English&Printing=Normal",
-      },
       "treatments": [
         "Extended Art",
       ],
@@ -125375,10 +125371,6 @@ exports[`Check for unintentional updates Consuming Appetite (consuming-appetite-
       "print": "GEM193-Rainbow-Extended Art",
       "rarity": "Promo",
       "set": "GEM",
-      "tcgplayer": {
-        "productId": "714490",
-        "url": "https://www.tcgplayer.com/product/714490?Language=English&Printing=Rainbow+Foil",
-      },
       "treatments": [
         "Extended Art",
       ],
@@ -187061,10 +187053,6 @@ exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-red) vs sn
       "print": "GEM203-Extended Art",
       "rarity": "Promo",
       "set": "GEM",
-      "tcgplayer": {
-        "productId": "714492",
-        "url": "https://www.tcgplayer.com/product/714492?Language=English&Printing=Normal",
-      },
       "treatments": [
         "Extended Art",
       ],
@@ -187079,10 +187067,6 @@ exports[`Check for unintentional updates Embrace Ursur (embrace-ursur-red) vs sn
       "print": "GEM203-Rainbow-Extended Art",
       "rarity": "Promo",
       "set": "GEM",
-      "tcgplayer": {
-        "productId": "714492",
-        "url": "https://www.tcgplayer.com/product/714492?Language=English&Printing=Rainbow+Foil",
-      },
       "treatments": [
         "Extended Art",
       ],
@@ -346698,10 +346682,6 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
       "print": "GEM184-Cold-Full Art",
       "rarity": "Marvel",
       "set": "GEM",
-      "tcgplayer": {
-        "productId": "706940",
-        "url": "https://www.tcgplayer.com/product/706940?Language=English&Printing=Cold+Foil",
-      },
       "treatments": [
         "Full Art",
       ],
@@ -346753,10 +346733,6 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
       "print": "GEM184-Cold-Full Art-Back",
       "rarity": "Marvel",
       "set": "GEM",
-      "tcgplayer": {
-        "productId": "706940",
-        "url": "https://www.tcgplayer.com/product/706940?Language=English&Printing=Cold+Foil",
-      },
       "treatments": [
         "Full Art",
       ],
@@ -382970,10 +382946,6 @@ exports[`Check for unintentional updates Ominous Toll (ominous-toll-red) vs snap
       "print": "GEM198-Extended Art",
       "rarity": "Promo",
       "set": "GEM",
-      "tcgplayer": {
-        "productId": "714491",
-        "url": "https://www.tcgplayer.com/product/714491?Language=English&Printing=Normal",
-      },
       "treatments": [
         "Extended Art",
       ],
@@ -382988,10 +382960,6 @@ exports[`Check for unintentional updates Ominous Toll (ominous-toll-red) vs snap
       "print": "GEM198-Rainbow-Extended Art",
       "rarity": "Promo",
       "set": "GEM",
-      "tcgplayer": {
-        "productId": "714491",
-        "url": "https://www.tcgplayer.com/product/714491?Language=English&Printing=Rainbow+Foil",
-      },
       "treatments": [
         "Extended Art",
       ],
