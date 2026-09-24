@@ -27899,8 +27899,8 @@ When this hits a hero, put a steam counter on an item you control with **crank**
       rarity: Rarity.Majestic,
       set: Release.UsurpTheShadowThrone,
       tcgplayer: {
-            productId: "716617",
-            url: "https://www.tcgplayer.com/product/716617?Language=English&Printing=Rainbow+Foil"
+            productId: "718689",
+            url: "https://www.tcgplayer.com/product/718689?Language=English&Printing=Rainbow+Foil"
           },
       treatments: [Treatment.EA],
     },],
@@ -54404,7 +54404,7 @@ When you are dealt damage, destroy this.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "562483",
-            url: "https://www.tcgplayer.com/product/562483?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/562483?Language=English&Printing=Cold+Foil"
           },
       
     },],
@@ -76823,8 +76823,8 @@ When this hits a Brute hero, they discard a card. If it has 6 or more {p}, you l
       rarity: Rarity.Token,
       set: Release.Monarch,
       tcgplayer: {
-            productId: "251046",
-            url: "https://www.tcgplayer.com/product/251046?Language=English&Printing=1st+Edition+Normal"
+            productId: "238665",
+            url: "https://www.tcgplayer.com/product/238665?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -100689,7 +100689,7 @@ When this hits a hero, banish all cards in their arsenal.
       set: Release.Promos,
       tcgplayer: {
             productId: "707341",
-            url: "https://www.tcgplayer.com/product/707341?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/707341?Language=Korean&Printing=Rainbow+Foil"
           },
       treatments: [Treatment.AA,Treatment.FA],
     },{
@@ -100704,7 +100704,7 @@ When this hits a hero, banish all cards in their arsenal.
       set: Release.Promos,
       tcgplayer: {
             productId: "707342",
-            url: "https://www.tcgplayer.com/product/707342?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/707342?Language=Korean&Printing=Rainbow+Foil"
           },
       treatments: [Treatment.AA,Treatment.FA],
     },{
@@ -100719,7 +100719,7 @@ When this hits a hero, banish all cards in their arsenal.
       set: Release.Promos,
       tcgplayer: {
             productId: "707343",
-            url: "https://www.tcgplayer.com/product/707343?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/707343?Language=Korean&Printing=Rainbow+Foil"
           },
       treatments: [Treatment.AA,Treatment.FA],
     },],
@@ -103555,8 +103555,8 @@ When this defends an attack with {p} greater than its base, remove a +1{p} count
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
       tcgplayer: {
-            productId: "694925",
-            url: "https://www.tcgplayer.com/product/694925?Language=English&Printing=Cold+Foil"
+            productId: "701592",
+            url: "https://www.tcgplayer.com/product/701592?Language=English&Printing=Cold+Foil"
           },
       treatments: [Treatment.EA],
     },],
@@ -114626,8 +114626,8 @@ Once per turn, you may play a Mechanologist item with cost 1 or less from the to
       rarity: Rarity.Token,
       set: Release.ArcaneRising,
       tcgplayer: {
-            productId: "225652",
-            url: "https://www.tcgplayer.com/product/225652?Language=English&Printing=1st+Edition+Normal"
+            productId: "225596",
+            url: "https://www.tcgplayer.com/product/225596?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -128655,7 +128655,7 @@ Create a Blasmophet, the Soul Harvester token.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "585031",
-            url: "https://www.tcgplayer.com/product/585031?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/585031?Language=Japanese&Printing=Rainbow+Foil"
           },
       treatments: [Treatment.AA],
     },],
@@ -152111,7 +152111,7 @@ If you've **charged** this turn, this gets "When this hits, put it into your her
       set: Release.Promos,
       tcgplayer: {
             productId: "556973",
-            url: "https://www.tcgplayer.com/product/556973?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/556973?Language=Japanese&Printing=Rainbow+Foil"
           },
       treatments: [Treatment.AA],
     },],
@@ -193136,8 +193136,8 @@ At the beginning of your end phase, remove an energy counter from this and creat
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "632070",
-            url: "https://www.tcgplayer.com/product/632070?Language=English&Printing=Rainbow+Foil"
+            productId: "638537",
+            url: "https://www.tcgplayer.com/product/638537?Language=English&Printing=Rainbow+Foil"
           },
       treatments: [Treatment.EA],
     },],
@@ -196007,10 +196007,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
       print: "SEA244",
       rarity: Rarity.Basic,
       set: Release.HighSeas,
-      tcgplayer: {
-            productId: "624373",
-            url: "https://www.tcgplayer.com/product/624373?Language=English&Printing=Normal"
-          },
+      
       
     },{
         artists: ["Stormy Elia Fanggidae"],
@@ -242176,7 +242173,7 @@ const cards4: Card[] = [{
       set: Release.Promos,
       tcgplayer: {
             productId: "585030",
-            url: "https://www.tcgplayer.com/product/585030?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/585030?Language=Japanese&Printing=Rainbow+Foil"
           },
       treatments: [Treatment.AA],
     },{
@@ -249538,8 +249535,8 @@ The first time you discard a card with 6 or more {p} during each of your action 
       rarity: Rarity.Basic,
       set: Release.SuperSlam,
       tcgplayer: {
-            productId: "653952",
-            url: "https://www.tcgplayer.com/product/653952?Language=English&Printing=Normal"
+            productId: "656935",
+            url: "https://www.tcgplayer.com/product/656935?Language=English&Printing=Normal"
           },
       
     },{
@@ -249648,8 +249645,8 @@ Whenever the crowd boos you, create a Vigor token.`,
       rarity: Rarity.Basic,
       set: Release.SuperSlam,
       tcgplayer: {
-            productId: "641660",
-            url: "https://www.tcgplayer.com/product/641660?Language=English&Printing=Normal"
+            productId: "656935",
+            url: "https://www.tcgplayer.com/product/656935?Language=English&Printing=Normal"
           },
       
     },{
@@ -250197,8 +250194,8 @@ If you have no cards in hand, draw a card.`,
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "630334",
-            url: "https://www.tcgplayer.com/product/630334?Language=English&Printing=Rainbow+Foil"
+            productId: "639883",
+            url: "https://www.tcgplayer.com/product/639883?Language=English&Printing=Rainbow+Foil"
           },
       treatments: [Treatment.EA],
     },],
@@ -250276,8 +250273,8 @@ If you have no cards in hand, draw a card.`,
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "624369",
-            url: "https://www.tcgplayer.com/product/624369?Language=English&Printing=Rainbow+Foil"
+            productId: "639886",
+            url: "https://www.tcgplayer.com/product/639886?Language=English&Printing=Rainbow+Foil"
           },
       treatments: [Treatment.EA],
     },],
@@ -262635,8 +262632,8 @@ When this hits a hero, **the crowd boos** you.`,
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "631984",
-            url: "https://www.tcgplayer.com/product/631984?Language=English&Printing=Cold+Foil"
+            productId: "633622",
+            url: "https://www.tcgplayer.com/product/633622?Language=English&Printing=Cold+Foil"
           },
       treatments: [Treatment.AB,Treatment.EA],
     },],
@@ -266491,8 +266488,8 @@ If there is a yellow card in your pitch zone, your Illusionist attacks get **go 
       rarity: Rarity.Basic,
       set: Release.SuperSlam,
       tcgplayer: {
-            productId: "653954",
-            url: "https://www.tcgplayer.com/product/653954?Language=English&Printing=Normal"
+            productId: "656936",
+            url: "https://www.tcgplayer.com/product/656936?Language=English&Printing=Normal"
           },
       
     },{
@@ -266601,8 +266598,8 @@ Whenever the crowd boos you, create a Might token.`,
       rarity: Rarity.Basic,
       set: Release.SuperSlam,
       tcgplayer: {
-            productId: "641661",
-            url: "https://www.tcgplayer.com/product/641661?Language=English&Printing=Normal"
+            productId: "656936",
+            url: "https://www.tcgplayer.com/product/656936?Language=English&Printing=Normal"
           },
       
     },{
@@ -268645,7 +268642,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
       set: Release.Promos,
       tcgplayer: {
             productId: "707350",
-            url: "https://www.tcgplayer.com/product/707350?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/707350?Language=Korean&Printing=Rainbow+Foil"
           },
       treatments: [Treatment.AA],
     },{
@@ -268660,7 +268657,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
       set: Release.Promos,
       tcgplayer: {
             productId: "707353",
-            url: "https://www.tcgplayer.com/product/707353?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/707353?Language=Korean&Printing=Rainbow+Foil"
           },
       treatments: [Treatment.AA,Treatment.FA],
     },{
@@ -268687,7 +268684,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
       set: Release.Promos,
       tcgplayer: {
             productId: "707353",
-            url: "https://www.tcgplayer.com/product/707353?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/707353?Language=Korean&Printing=Rainbow+Foil"
           },
       treatments: [Treatment.AA,Treatment.FA],
     },],
@@ -291211,7 +291208,7 @@ When this enters the arena, name a card. The named card can't be pitched or play
       set: Release.Promos,
       tcgplayer: {
             productId: "604853",
-            url: "https://www.tcgplayer.com/product/604853?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/604853?Language=Japanese&Printing=Rainbow+Foil"
           },
       
     },],
@@ -291485,7 +291482,7 @@ When this enters the arena, name a card. The named card can't be pitched or play
       set: Release.Promos,
       tcgplayer: {
             productId: "604852",
-            url: "https://www.tcgplayer.com/product/604852?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/604852?Language=Japanese&Printing=Rainbow+Foil"
           },
       
     },],
@@ -291744,7 +291741,7 @@ When this enters the arena, name a card. The named card can't be pitched or play
       set: Release.Promos,
       tcgplayer: {
             productId: "604848",
-            url: "https://www.tcgplayer.com/product/604848?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/604848?Language=Japanese&Printing=Rainbow+Foil"
           },
       
     },],
@@ -292033,7 +292030,7 @@ When this enters the arena, name a card. The named card can't be pitched or play
       set: Release.Promos,
       tcgplayer: {
             productId: "604849",
-            url: "https://www.tcgplayer.com/product/604849?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/604849?Language=Japanese&Printing=Rainbow+Foil"
           },
       
     },],
@@ -292456,7 +292453,7 @@ When this enters the arena, name a card. The named card can't be pitched or play
       set: Release.Promos,
       tcgplayer: {
             productId: "585033",
-            url: "https://www.tcgplayer.com/product/585033?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/585033?Language=Japanese&Printing=Rainbow+Foil"
           },
       treatments: [Treatment.AA],
     },],
@@ -306012,8 +306009,8 @@ If this deals damage, create a Sigil of Fate token.`,
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "630335",
-            url: "https://www.tcgplayer.com/product/630335?Language=English&Printing=Rainbow+Foil"
+            productId: "639879",
+            url: "https://www.tcgplayer.com/product/639879?Language=English&Printing=Rainbow+Foil"
           },
       treatments: [Treatment.EA],
     },],
@@ -316334,8 +316331,8 @@ Whenever a Mechanologist item with cost 2 or less enters the arena under your co
       rarity: Rarity.Basic,
       set: Release.SuperSlam,
       tcgplayer: {
-            productId: "653923",
-            url: "https://www.tcgplayer.com/product/653923?Language=English&Printing=Normal"
+            productId: "656934",
+            url: "https://www.tcgplayer.com/product/656934?Language=English&Printing=Normal"
           },
       
     },{
@@ -316445,8 +316442,8 @@ Whenever the crowd cheers you, create a Confidence token.`,
       rarity: Rarity.Basic,
       set: Release.SuperSlam,
       tcgplayer: {
-            productId: "641659",
-            url: "https://www.tcgplayer.com/product/641659?Language=English&Printing=Normal"
+            productId: "656934",
+            url: "https://www.tcgplayer.com/product/656934?Language=English&Printing=Normal"
           },
       
     },{
@@ -316475,8 +316472,8 @@ Whenever the crowd cheers you, create a Confidence token.`,
       rarity: Rarity.Marvel,
       set: Release.SuperSlam,
       tcgplayer: {
-            productId: "641659",
-            url: "https://www.tcgplayer.com/product/641659?Language=English&Printing=Cold+Foil"
+            productId: "653922",
+            url: "https://www.tcgplayer.com/product/653922?Language=English&Printing=Cold+Foil"
           },
       treatments: [Treatment.AA,Treatment.FA],
     },{
@@ -316505,8 +316502,8 @@ Whenever the crowd cheers you, create a Confidence token.`,
       rarity: Rarity.Marvel,
       set: Release.SuperSlam,
       tcgplayer: {
-            productId: "641659",
-            url: "https://www.tcgplayer.com/product/641659?Language=English&Printing=Cold+Foil"
+            productId: "653922",
+            url: "https://www.tcgplayer.com/product/653922?Language=English&Printing=Cold+Foil"
           },
       treatments: [Treatment.AA,Treatment.FA],
     },{
@@ -326769,8 +326766,8 @@ Your next Brute attack this turn gets +3{p}.
       rarity: Rarity.Token,
       set: Release.Monarch,
       tcgplayer: {
-            productId: "251042",
-            url: "https://www.tcgplayer.com/product/251042?Language=English&Printing=1st+Edition+Normal"
+            productId: "238656",
+            url: "https://www.tcgplayer.com/product/238656?Language=English&Printing=1st+Edition+Normal"
           },
       
     },{
@@ -368369,8 +368366,8 @@ If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.
       rarity: Rarity.Token,
       set: Release.Rosetta,
       tcgplayer: {
-            productId: "565554",
-            url: "https://www.tcgplayer.com/product/565554?Language=English&Printing=Cold+Foil"
+            productId: "584509",
+            url: "https://www.tcgplayer.com/product/584509?Language=English&Printing=Cold+Foil"
           },
       
     },{
@@ -401382,8 +401379,8 @@ If the defending hero has no cards in hand, this gets +3{p}.`,
       rarity: Rarity.Majestic,
       set: Release.SuperSlam,
       tcgplayer: {
-            productId: "653235",
-            url: "https://www.tcgplayer.com/product/653235?Language=English&Printing=Cold+Foil"
+            productId: "656917",
+            url: "https://www.tcgplayer.com/product/656917?Language=English&Printing=Cold+Foil"
           },
       treatments: [Treatment.EA],
     },],
@@ -403737,8 +403734,8 @@ When this leaves the arena, create a Lightning Flow token.`,
       rarity: Rarity.Marvel,
       set: Release.Rosetta,
       tcgplayer: {
-            productId: "565400",
-            url: "https://www.tcgplayer.com/product/565400?Language=English&Printing=Cold+Foil"
+            productId: "577714",
+            url: "https://www.tcgplayer.com/product/577714?Language=English&Printing=Cold+Foil"
           },
       treatments: [Treatment.AA,Treatment.FA],
     },{
@@ -403835,8 +403832,8 @@ When this leaves the arena, draw a card.`,
       rarity: Rarity.Marvel,
       set: Release.Rosetta,
       tcgplayer: {
-            productId: "563797",
-            url: "https://www.tcgplayer.com/product/563797?Language=English&Printing=Cold+Foil"
+            productId: "577732",
+            url: "https://www.tcgplayer.com/product/577732?Language=English&Printing=Cold+Foil"
           },
       treatments: [Treatment.FA],
     },{
@@ -403946,8 +403943,8 @@ When this leaves the arena, create an Embodiment of Lightning token.`,
       rarity: Rarity.Marvel,
       set: Release.Rosetta,
       tcgplayer: {
-            productId: "563803",
-            url: "https://www.tcgplayer.com/product/563803?Language=English&Printing=Cold+Foil"
+            productId: "577772",
+            url: "https://www.tcgplayer.com/product/577772?Language=English&Printing=Cold+Foil"
           },
       treatments: [Treatment.FA],
     },{
@@ -404173,8 +404170,8 @@ When this leaves the arena, create a Runechant token.`,
       rarity: Rarity.Marvel,
       set: Release.Rosetta,
       tcgplayer: {
-            productId: "575192",
-            url: "https://www.tcgplayer.com/product/575192?Language=English&Printing=Cold+Foil"
+            productId: "577722",
+            url: "https://www.tcgplayer.com/product/577722?Language=English&Printing=Cold+Foil"
           },
       treatments: [Treatment.FA],
     },{
@@ -404671,8 +404668,8 @@ At the beginning of your action phase, destroy this.`,
       rarity: Rarity.Marvel,
       set: Release.Rosetta,
       tcgplayer: {
-            productId: "565419",
-            url: "https://www.tcgplayer.com/product/565419?Language=English&Printing=Cold+Foil"
+            productId: "577733",
+            url: "https://www.tcgplayer.com/product/577733?Language=English&Printing=Cold+Foil"
           },
       treatments: [Treatment.FA],
     },{
@@ -405362,8 +405359,8 @@ At the beginning of your action phase, destroy this.`,
       rarity: Rarity.Marvel,
       set: Release.Rosetta,
       tcgplayer: {
-            productId: "565403",
-            url: "https://www.tcgplayer.com/product/565403?Language=English&Printing=Cold+Foil"
+            productId: "577718",
+            url: "https://www.tcgplayer.com/product/577718?Language=English&Printing=Cold+Foil"
           },
       treatments: [Treatment.FA],
     },{
@@ -406827,8 +406824,8 @@ If you've dealt arcane damage this turn, this gets +1{d}.`,
       rarity: Rarity.Marvel,
       set: Release.Rosetta,
       tcgplayer: {
-            productId: "563801",
-            url: "https://www.tcgplayer.com/product/563801?Language=English&Printing=Cold+Foil"
+            productId: "577757",
+            url: "https://www.tcgplayer.com/product/577757?Language=English&Printing=Cold+Foil"
           },
       treatments: [Treatment.FA],
     },{
@@ -406938,8 +406935,8 @@ When this leaves the arena, banish the top card of your deck. If it's a non-atta
       rarity: Rarity.Marvel,
       set: Release.Rosetta,
       tcgplayer: {
-            productId: "563798",
-            url: "https://www.tcgplayer.com/product/563798?Language=English&Printing=Cold+Foil"
+            productId: "577739",
+            url: "https://www.tcgplayer.com/product/577739?Language=English&Printing=Cold+Foil"
           },
       treatments: [Treatment.FA],
     },{
@@ -411637,8 +411634,8 @@ Target dagger attack gets +3{p}.`,
       rarity: Rarity.Common,
       set: Release.SuperSlam,
       tcgplayer: {
-            productId: "654042",
-            url: "https://www.tcgplayer.com/product/654042?Language=English&Printing=Rainbow+Foil"
+            productId: "654041",
+            url: "https://www.tcgplayer.com/product/654041?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -420054,7 +420051,7 @@ If you've played another Wizard non-attack action card this turn, you may play t
       set: Release.Promos,
       tcgplayer: {
             productId: "562509",
-            url: "https://www.tcgplayer.com/product/562509?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/562509?Language=English&Printing=Cold+Foil"
           },
       
     },],
@@ -465509,7 +465506,7 @@ If you've played another blue card this turn, **transcend**.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "618317",
-            url: "https://www.tcgplayer.com/product/618317?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/618317?Language=Japanese&Printing=Cold+Foil"
           },
       treatments: [Treatment.FA],
     },],
@@ -479074,8 +479071,8 @@ If this was played from arsenal, it gets **go again**.`,
       rarity: Rarity.Legendary,
       set: Release.PartTheMistveil,
       tcgplayer: {
-            productId: "551931",
-            url: "https://www.tcgplayer.com/product/551931?Language=English&Printing=Cold+Foil"
+            productId: "553905",
+            url: "https://www.tcgplayer.com/product/553905?Language=English&Printing=Cold+Foil"
           },
       treatments: [Treatment.EA],
     },{
@@ -481637,8 +481634,8 @@ When you or a card you control is the target of an attack they control, destroy 
       rarity: Rarity.Basic,
       set: Release.SuperSlam,
       tcgplayer: {
-            productId: "653920",
-            url: "https://www.tcgplayer.com/product/653920?Language=English&Printing=Normal"
+            productId: "656933",
+            url: "https://www.tcgplayer.com/product/656933?Language=English&Printing=Normal"
           },
       
     },{
@@ -481745,8 +481742,8 @@ Whenever the crowd cheers you, create a Toughness token.`,
       rarity: Rarity.Basic,
       set: Release.SuperSlam,
       tcgplayer: {
-            productId: "641658",
-            url: "https://www.tcgplayer.com/product/641658?Language=English&Printing=Normal"
+            productId: "656933",
+            url: "https://www.tcgplayer.com/product/656933?Language=English&Printing=Normal"
           },
       
     },{
@@ -497743,7 +497740,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
       set: Release.Promos,
       tcgplayer: {
             productId: "585032",
-            url: "https://www.tcgplayer.com/product/585032?Language=English&Printing=Rainbow+Foil"
+            url: "https://www.tcgplayer.com/product/585032?Language=Japanese&Printing=Rainbow+Foil"
           },
       treatments: [Treatment.AA],
     },],
@@ -511906,8 +511903,8 @@ When this leaves the arena, you may destroy an aura permanent that a Guardian he
       rarity: Rarity.Majestic,
       set: Release.DuskTillDawn,
       tcgplayer: {
-            productId: "271312",
-            url: "https://www.tcgplayer.com/product/271312?Language=English&Printing=Rainbow+Foil"
+            productId: "502815",
+            url: "https://www.tcgplayer.com/product/502815?Language=English&Printing=Rainbow+Foil"
           },
       treatments: [Treatment.EA],
     },],

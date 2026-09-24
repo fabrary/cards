@@ -1120,8 +1120,8 @@ Attack action cards played from your banished zone get +3{p}.`,
       rarity: Rarity.Majestic,
       set: Release.UsurpTheShadowThrone,
       tcgplayer: {
-            productId: "716617",
-            url: "https://www.tcgplayer.com/product/716617?Language=English&Printing=Rainbow+Foil"
+            productId: "718689",
+            url: "https://www.tcgplayer.com/product/718689?Language=English&Printing=Rainbow+Foil"
           },
       treatments: [Treatment.EA],
     },],

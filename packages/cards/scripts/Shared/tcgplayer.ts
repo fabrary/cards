@@ -15,16 +15,16 @@ const tcgplayerOverrides = tcgplayerOverrideFile as {
   };
 };
 
-import tcgplayerPrintingOverrideFile from "./tcgplayer-printing-overrides.json";
-// cardIdentifier -> print -> the TCGplayer printing that print's listings sit under
-const tcgplayerPrintingsByPrintByCard = new Map(
+import tcgplayerUrlOverrideFile from "./tcgplayer-url-overrides.json";
+// cardIdentifier -> print -> URL query parameter -> the value TCGplayer's listings for that print sit under
+const tcgplayerUrlParamsByPrintByCard = new Map(
   Object.entries(
-    tcgplayerPrintingOverrideFile as {
-      [key: string]: { [key: string]: string };
+    tcgplayerUrlOverrideFile as {
+      [key: string]: { [key: string]: { [key: string]: string } };
     },
-  ).map(([cardIdentifier, printingsByPrint]) => [
+  ).map(([cardIdentifier, urlParamsByPrint]) => [
     cardIdentifier,
-    new Map(Object.entries(printingsByPrint)),
+    new Map(Object.entries(urlParamsByPrint)),
   ]),
 );
 
@@ -166,50 +166,52 @@ export const getTCGPlayerInfoFromOverrides = (
   }
 };
 
-const TCGPLAYER_PRINTING_PARAM = "Printing";
-
-// The api prices a printing from the TCGplayer printing its link names, and links name our edition
-// and finish. TCGplayer sometimes lists a print under another finish (the CON001 rainbow foil sells
-// as cold foil) or under an edition our data doesn't carry (hero deck cards sell as 1st Edition),
-// and the print goes unpriced until its link names TCGplayer's printing. An entry that changes no
-// link throws: a print key change or an upstream fix would otherwise retire it silently.
-export const getCardsWithTCGplayerPrintingOverrides = (
-  cards: Card[],
-): Card[] => {
+// The api prices a printing from the TCGplayer printing and language its link names, and links name
+// our edition and finish in English. TCGplayer sometimes lists a print under another finish (the
+// CON001 rainbow foil sells as cold foil), under an edition our data doesn't carry (hero deck cards
+// sell as 1st Edition), or only in the language of a region-exclusive print, and the print goes
+// unpriced until its link names TCGplayer's value. Each parameter that changes no link throws: a
+// print key change or an upstream fix would otherwise retire it silently.
+export const getCardsWithTCGplayerUrlOverrides = (cards: Card[]): Card[] => {
   const unappliedOverrides = new Set<string>();
   for (const [
     cardIdentifier,
-    printingsByPrint,
-  ] of tcgplayerPrintingsByPrintByCard) {
-    for (const print of printingsByPrint.keys()) {
-      unappliedOverrides.add(`${cardIdentifier} ${print}`);
+    urlParamsByPrint,
+  ] of tcgplayerUrlParamsByPrintByCard) {
+    for (const [print, urlParams] of urlParamsByPrint) {
+      for (const param of Object.keys(urlParams)) {
+        unappliedOverrides.add(`${cardIdentifier} ${print} ${param}`);
+      }
     }
   }
 
   const cardsWithOverrides = cards.map((card) => {
-    const printingsByPrint = tcgplayerPrintingsByPrintByCard.get(
+    const urlParamsByPrint = tcgplayerUrlParamsByPrintByCard.get(
       card.cardIdentifier,
     );
     let cardWithOverrides = card;
-    if (printingsByPrint) {
+    if (urlParamsByPrint) {
       const printings = card.printings.map((printing) => {
-        const tcgplayerPrinting = printingsByPrint.get(printing.print);
+        const urlParams = urlParamsByPrint.get(printing.print);
         let printingWithOverride = printing;
         const tcgplayerUrl = printing.tcgplayer?.url;
-        if (tcgplayerPrinting && tcgplayerUrl) {
+        if (urlParams && tcgplayerUrl) {
           const url = new URL(tcgplayerUrl);
-          const shouldOverride =
-            url.searchParams.get(TCGPLAYER_PRINTING_PARAM) !==
-            tcgplayerPrinting;
-          if (shouldOverride) {
-            url.searchParams.set(TCGPLAYER_PRINTING_PARAM, tcgplayerPrinting);
+          let hasOverride = false;
+          for (const [param, value] of Object.entries(urlParams)) {
+            if (url.searchParams.get(param) !== value) {
+              url.searchParams.set(param, value);
+              hasOverride = true;
+              unappliedOverrides.delete(
+                `${card.cardIdentifier} ${printing.print} ${param}`,
+              );
+            }
+          }
+          if (hasOverride) {
             printingWithOverride = {
               ...printing,
               tcgplayer: { ...printing.tcgplayer, url: url.toString() },
             };
-            unappliedOverrides.delete(
-              `${card.cardIdentifier} ${printing.print}`,
-            );
           }
         }
         return printingWithOverride;
@@ -221,7 +223,7 @@ export const getCardsWithTCGplayerPrintingOverrides = (
 
   if (unappliedOverrides.size > 0) {
     throw new Error(
-      `TCGplayer printing overrides that change no link (no such print, no link, or the link already names that printing): ${[...unappliedOverrides].join(", ")}`,
+      `TCGplayer URL overrides that change no link (no such print, no link, or the link already names that value): ${[...unappliedOverrides].join(", ")}`,
     );
   }
 
