@@ -86,7 +86,11 @@ export interface ReleaseInfo {
   classes: Class[];
   deckLinks: DeckLink[];
   draft?: DraftInfo;
+  // The heroes the release's own hero cards carry, so a later version of a
+  // character is listed as itself: consumers scope card searches by these.
   heroes: Hero[];
+  // The name to show for a listed hero that is a later version of a
+  // character: keyed by the listed hero, holding the character's first hero.
   heroOverrides?: {
     [key: string]: Hero;
   };
