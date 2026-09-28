@@ -2027,7 +2027,7 @@ export const releases: ReleaseInfo[] = [
   },
   {
     cards: 107,
-    classes: [Class.Warrior],
+    classes: [Class.Thief, Class.Warrior],
     deckLinks: [],
     heroes: [Hero.Killjoy, Hero.Zane],
     languages: [Language.English],
@@ -2035,7 +2035,7 @@ export const releases: ReleaseInfo[] = [
     relatedReleases: [],
     releaseDate: "2026-10-30 12:00",
     releaseType: ReleaseType.BoxSet,
-    talents: [],
+    talents: [Talent.Revered, Talent.Reviled],
     setIdentifiers: ["spw"],
   },
   {
