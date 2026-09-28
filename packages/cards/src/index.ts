@@ -1426,7 +1426,10 @@ Your next Shadow attack this turn gets "When this hits, it gets **go again**." *
       print: "GEM196-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719284",
+            url: "https://www.tcgplayer.com/product/719284?Language=English&Printing=Normal"
+          },
       treatments: [Treatment.EA],
     },{
         artists: ["Wirawan Pranoto"],
@@ -1438,7 +1441,10 @@ Your next Shadow attack this turn gets "When this hits, it gets **go again**." *
       print: "GEM196-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719284",
+            url: "https://www.tcgplayer.com/product/719284?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -53536,7 +53542,10 @@ If the discarded card has 6 or more {p}, draw 2 cards and this gets **go again**
       print: "GEM200-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719287",
+            url: "https://www.tcgplayer.com/product/719287?Language=English&Printing=Normal"
+          },
       treatments: [Treatment.EA],
     },{
         artists: ["Maerel Hibadita"],
@@ -53548,7 +53557,10 @@ If the discarded card has 6 or more {p}, draw 2 cards and this gets **go again**
       print: "GEM200-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719287",
+            url: "https://www.tcgplayer.com/product/719287?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -58392,7 +58404,10 @@ Whenever this banishes a card and this has banished another card with the same n
       print: "GEM197-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719285",
+            url: "https://www.tcgplayer.com/product/719285?Language=English&Printing=Normal"
+          },
       treatments: [Treatment.EA],
     },{
         artists: ["Amirul HHF"],
@@ -58404,7 +58419,10 @@ Whenever this banishes a card and this has banished another card with the same n
       print: "GEM197-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719285",
+            url: "https://www.tcgplayer.com/product/719285?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -63618,7 +63636,10 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
       print: "GEM204-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719465",
+            url: "https://www.tcgplayer.com/product/719465?Language=English&Printing=Normal"
+          },
       treatments: [Treatment.EA],
     },{
         artists: ["Brian Madya Narendra"],
@@ -63630,7 +63651,10 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
       print: "GEM204-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719465",
+            url: "https://www.tcgplayer.com/product/719465?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -86211,7 +86235,10 @@ Destroy target blue aura.`,
       print: "GEM216-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719533",
+            url: "https://www.tcgplayer.com/product/719533?Language=English&Printing=Normal"
+          },
       treatments: [Treatment.EA],
     },{
         artists: ["Nailsen Ivanderlie"],
@@ -86223,7 +86250,10 @@ Destroy target blue aura.`,
       print: "GEM216-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719533",
+            url: "https://www.tcgplayer.com/product/719533?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -86510,7 +86540,10 @@ You may destroy a Bloodrot Pox token you control. If you do gain 1{h}.
       print: "GEM192-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719281",
+            url: "https://www.tcgplayer.com/product/719281?Language=English&Printing=Normal"
+          },
       treatments: [Treatment.EA],
     },{
         artists: ["Alief Rusdiatama"],
@@ -86522,7 +86555,10 @@ You may destroy a Bloodrot Pox token you control. If you do gain 1{h}.
       print: "GEM192-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719281",
+            url: "https://www.tcgplayer.com/product/719281?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -97715,7 +97751,10 @@ Deal 1 arcane damage to any target.`,
       print: "GEM193-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "714490",
+            url: "https://www.tcgplayer.com/product/714490?Language=English&Printing=Normal"
+          },
       treatments: [Treatment.EA],
     },{
         artists: ["Satriasa"],
@@ -97727,7 +97766,10 @@ Deal 1 arcane damage to any target.`,
       print: "GEM193-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "714490",
+            url: "https://www.tcgplayer.com/product/714490?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -97903,7 +97945,10 @@ Deal 1 arcane damage to any target.`,
       print: "GEM194-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719282",
+            url: "https://www.tcgplayer.com/product/719282?Language=English&Printing=Normal"
+          },
       treatments: [Treatment.EA],
     },{
         artists: ["SanSan"],
@@ -97915,7 +97960,10 @@ Deal 1 arcane damage to any target.`,
       print: "GEM194-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719282",
+            url: "https://www.tcgplayer.com/product/719282?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -98010,7 +98058,10 @@ Deal 1 arcane damage to any target.`,
       print: "GEM195-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719283",
+            url: "https://www.tcgplayer.com/product/719283?Language=English&Printing=Normal"
+          },
       treatments: [Treatment.EA],
     },{
         artists: ["Kevin Sidharta"],
@@ -98022,7 +98073,10 @@ Deal 1 arcane damage to any target.`,
       print: "GEM195-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719283",
+            url: "https://www.tcgplayer.com/product/719283?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -99695,7 +99749,10 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
       print: "GEM205-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719522",
+            url: "https://www.tcgplayer.com/product/719522?Language=English&Printing=Normal"
+          },
       treatments: [Treatment.EA],
     },{
         artists: ["Yosi Saputra"],
@@ -99707,7 +99764,10 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
       print: "GEM205-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719522",
+            url: "https://www.tcgplayer.com/product/719522?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -100815,7 +100875,10 @@ This card's attacks get **go again**.
       print: "GEM188-Cold",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719277",
+            url: "https://www.tcgplayer.com/product/719277?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -108477,7 +108540,10 @@ When this is equipped, create a Gold token.`,
       print: "GEM191-Cold",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719280",
+            url: "https://www.tcgplayer.com/product/719280?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -109649,7 +109715,10 @@ Each hero banishes a card from their hand.
       print: "GEM201-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719288",
+            url: "https://www.tcgplayer.com/product/719288?Language=English&Printing=Normal"
+          },
       treatments: [Treatment.EA],
     },{
         artists: ["YDZ"],
@@ -109661,7 +109730,10 @@ Each hero banishes a card from their hand.
       print: "GEM201-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719288",
+            url: "https://www.tcgplayer.com/product/719288?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -124556,7 +124628,10 @@ When you lose {h} during your turn, destroy this.`,
       print: "GEM209-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719526",
+            url: "https://www.tcgplayer.com/product/719526?Language=English&Printing=Normal"
+          },
       treatments: [Treatment.EA],
     },{
         artists: ["Tomasz Jedruszek"],
@@ -124568,7 +124643,10 @@ When you lose {h} during your turn, destroy this.`,
       print: "GEM209-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719526",
+            url: "https://www.tcgplayer.com/product/719526?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -145565,7 +145643,10 @@ You may play an aura with Runechant in its name from your banished zone this tur
       print: "GEM203-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "714492",
+            url: "https://www.tcgplayer.com/product/714492?Language=English&Printing=Normal"
+          },
       treatments: [Treatment.EA],
     },{
         artists: ["Alif Zahrah"],
@@ -145577,7 +145658,10 @@ You may play an aura with Runechant in its name from your banished zone this tur
       print: "GEM203-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "714492",
+            url: "https://www.tcgplayer.com/product/714492?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -173207,7 +173291,10 @@ If this was **fused**, it gets **dominate**.`,
       print: "GEM215-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719532",
+            url: "https://www.tcgplayer.com/product/719532?Language=English&Printing=Normal"
+          },
       treatments: [Treatment.EA],
     },{
         artists: ["Surya Prasetya"],
@@ -173219,7 +173306,10 @@ If this was **fused**, it gets **dominate**.`,
       print: "GEM215-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719532",
+            url: "https://www.tcgplayer.com/product/719532?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -179676,7 +179766,10 @@ When this hits, create a Lightning Flow token.`,
       print: "GEM214-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719531",
+            url: "https://www.tcgplayer.com/product/719531?Language=English&Printing=Normal"
+          },
       treatments: [Treatment.EA],
     },{
         artists: ["Wirawan Pranoto"],
@@ -179688,7 +179781,10 @@ When this hits, create a Lightning Flow token.`,
       print: "GEM214-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719531",
+            url: "https://www.tcgplayer.com/product/719531?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -210013,7 +210109,10 @@ If you have a head equipped and the defending hero doesn't, this gets +1{p}.
       print: "GEM213-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719530",
+            url: "https://www.tcgplayer.com/product/719530?Language=English&Printing=Normal"
+          },
       treatments: [Treatment.EA],
     },{
         artists: ["Reinaldo Indrajaya"],
@@ -210025,7 +210124,10 @@ If you have a head equipped and the defending hero doesn't, this gets +1{p}.
       print: "GEM213-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719530",
+            url: "https://www.tcgplayer.com/product/719530?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -210118,7 +210220,10 @@ If you have a head equipped and the defending hero doesn't, this gets +1{p}.
       print: "GEM211-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719528",
+            url: "https://www.tcgplayer.com/product/719528?Language=English&Printing=Normal"
+          },
       treatments: [Treatment.EA],
     },{
         artists: ["Audy Ravindra"],
@@ -210130,7 +210235,10 @@ If you have a head equipped and the defending hero doesn't, this gets +1{p}.
       print: "GEM211-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719528",
+            url: "https://www.tcgplayer.com/product/719528?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -268628,7 +268736,10 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
       print: "GEM184-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "706940",
+            url: "https://www.tcgplayer.com/product/706940?Language=English&Printing=Cold+Foil"
+          },
       treatments: [Treatment.FA],
     },{
         artists: ["Ramza Ardyputra"],
@@ -268670,7 +268781,10 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
       print: "GEM184-Cold-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "706940",
+            url: "https://www.tcgplayer.com/product/706940?Language=English&Printing=Cold+Foil"
+          },
       treatments: [Treatment.FA],
     },{
         artists: ["Ramza Ardyputra"],
@@ -269036,7 +269150,10 @@ Damage that would be dealt by this can't be prevented.`,
       print: "GEM199-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719286",
+            url: "https://www.tcgplayer.com/product/719286?Language=English&Printing=Normal"
+          },
       treatments: [Treatment.EA],
     },{
         artists: ["Stefano Moroni"],
@@ -269048,7 +269165,10 @@ Damage that would be dealt by this can't be prevented.`,
       print: "GEM199-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719286",
+            url: "https://www.tcgplayer.com/product/719286?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -287864,7 +287984,10 @@ When this is destroyed, destroy all cards in your arsenal.
       print: "GEM210-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719527",
+            url: "https://www.tcgplayer.com/product/719527?Language=English&Printing=Normal"
+          },
       treatments: [Treatment.EA],
     },{
         artists: ["Muhammad Fajri"],
@@ -287876,7 +287999,10 @@ When this is destroyed, destroy all cards in your arsenal.
       print: "GEM210-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719527",
+            url: "https://www.tcgplayer.com/product/719527?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -296264,7 +296390,10 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
       print: "GEM198-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "714491",
+            url: "https://www.tcgplayer.com/product/714491?Language=English&Printing=Normal"
+          },
       treatments: [Treatment.EA],
     },{
         artists: ["Jefrey Yonathan"],
@@ -296276,7 +296405,10 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
       print: "GEM198-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "714491",
+            url: "https://www.tcgplayer.com/product/714491?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -302168,7 +302300,10 @@ The next time a weapon hits this turn, create a Copper token.
       print: "GEM217-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719534",
+            url: "https://www.tcgplayer.com/product/719534?Language=English&Printing=Normal"
+          },
       treatments: [Treatment.EA],
     },{
         artists: ["Tomasz Jedruszek"],
@@ -302180,7 +302315,10 @@ The next time a weapon hits this turn, create a Copper token.
       print: "GEM217-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719534",
+            url: "https://www.tcgplayer.com/product/719534?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -317876,7 +318014,10 @@ When this hits a hero, banish the top card of their deck.`,
       print: "GEM202-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719289",
+            url: "https://www.tcgplayer.com/product/719289?Language=English&Printing=Normal"
+          },
       treatments: [Treatment.EA],
     },{
         artists: ["Bastien Jez"],
@@ -317888,7 +318029,10 @@ When this hits a hero, banish the top card of their deck.`,
       print: "GEM202-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719289",
+            url: "https://www.tcgplayer.com/product/719289?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -328010,7 +328154,10 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       print: "GEM187-Cold",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719276",
+            url: "https://www.tcgplayer.com/product/719276?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -390380,7 +390527,10 @@ Prevent the next 5 damage that would be dealt to you this turn.`,
       print: "GEM212-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719529",
+            url: "https://www.tcgplayer.com/product/719529?Language=English&Printing=Normal"
+          },
       treatments: [Treatment.EA],
     },{
         artists: ["Ramza Ardyputra"],
@@ -390392,7 +390542,10 @@ Prevent the next 5 damage that would be dealt to you this turn.`,
       print: "GEM212-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719529",
+            url: "https://www.tcgplayer.com/product/719529?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -393020,7 +393173,10 @@ When this hits a hero, look at the top 2 cards of their deck. Banish 1 of them.`
       print: "GEM185-Cold",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "706941",
+            url: "https://www.tcgplayer.com/product/706941?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo],
@@ -394278,7 +394434,10 @@ When this hits, create a Gate to i'Arathael token.
       print: "GEM206-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719523",
+            url: "https://www.tcgplayer.com/product/719523?Language=English&Printing=Normal"
+          },
       treatments: [Treatment.EA],
     },{
         artists: ["Mariusz Gandzel"],
@@ -394290,7 +394449,10 @@ When this hits, create a Gate to i'Arathael token.
       print: "GEM206-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719523",
+            url: "https://www.tcgplayer.com/product/719523?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -394907,7 +395069,10 @@ If 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 
       print: "GEM207-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719525",
+            url: "https://www.tcgplayer.com/product/719525?Language=English&Printing=Normal"
+          },
       treatments: [Treatment.EA],
     },{
         artists: ["Tomi Ong"],
@@ -394919,7 +395084,10 @@ If 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 
       print: "GEM207-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719525",
+            url: "https://www.tcgplayer.com/product/719525?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -395528,7 +395696,10 @@ If 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 
       print: "GEM208-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719524",
+            url: "https://www.tcgplayer.com/product/719524?Language=English&Printing=Normal"
+          },
       treatments: [Treatment.EA],
     },{
         artists: ["Wirawan Pranoto"],
@@ -395540,7 +395711,10 @@ If 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 
       print: "GEM208-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719524",
+            url: "https://www.tcgplayer.com/product/719524?Language=English&Printing=Rainbow+Foil"
+          },
       treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -424301,7 +424475,10 @@ If this deals damage, look at the top card of your deck. If it's a Wizard non-at
       print: "GEM190-Cold-Alternate Art-Full Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719279",
+            url: "https://www.tcgplayer.com/product/719279?Language=English&Printing=Cold+Foil"
+          },
       treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -465492,7 +465669,10 @@ If you've played another blue card this turn, **transcend**.`,
       print: "GEM218-Cold-Full Art",
       rarity: Rarity.Rare,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719535",
+            url: "https://www.tcgplayer.com/product/719535?Language=English&Printing=Cold+Foil"
+          },
       treatments: [Treatment.FA],
     },{
         artists: ["Pavel Rtishchev (Klaher)"],
@@ -489687,7 +489867,10 @@ When this hits a hero, turn all cards in their banished zone face-down. They los
       print: "GEM189-Cold-Alternate Art-Full Art",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "719278",
+            url: "https://www.tcgplayer.com/product/719278?Language=English&Printing=Cold+Foil"
+          },
       treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -501321,7 +501504,10 @@ When this hits, create a Lightning Flow token.`,
       print: "GEM186-Cold",
       rarity: Rarity.Promo,
       set: Release.GEM,
-      
+      tcgplayer: {
+            productId: "714489",
+            url: "https://www.tcgplayer.com/product/714489?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo],
