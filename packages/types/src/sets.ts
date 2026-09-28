@@ -1342,9 +1342,9 @@ export const releases: ReleaseInfo[] = [
       heroIdentifiers: ["arakni-web-of-deceit", "cindra", "fang"],
       picksPerPack: 14,
     },
-    heroes: [Hero.Arakni, Hero.Cindra, Hero.Fang],
+    heroes: [Hero.Crackni, Hero.Cindra, Hero.Fang],
     heroOverrides: {
-      [Hero.Arakni]: Hero.Crackni,
+      [Hero.Crackni]: Hero.Arakni,
     },
     languages: ALL_LANGUAGES_OLD,
     raritiesExcludedInLimited: [Rarity.Legendary, Rarity.Fabled],
@@ -1535,9 +1535,9 @@ export const releases: ReleaseInfo[] = [
       ],
       picksPerPack: 14,
     },
-    heroes: [Hero.Kayo, Hero.Lyath, Hero.Pleiades, Hero.Tuffnut],
+    heroes: [Hero.RKO, Hero.Lyath, Hero.Pleiades, Hero.Tuffnut],
     heroOverrides: {
-      [Hero.Kayo]: Hero.RKO,
+      [Hero.RKO]: Hero.Kayo,
     },
     languages: ALL_LANGUAGES,
     raritiesExcludedInLimited: [Rarity.Fabled, Rarity.Legendary],
