@@ -1,0 +1,28 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 5
+    ignore:
+      # Cross-package versions are set by `lerna version`, and latest-cards is
+      # the previously published build that `npm run new` diffs against, bumped
+      # by the update:dependencies script ahead of each regeneration.
+      - dependency-name: "@flesh-and-blood/*"
+      - dependency-name: latest-cards
+    groups:
+      dev-minor-patch:
+        dependency-type: development
+        update-types: [minor, patch]
+      dev-major:
+        dependency-type: development
+        update-types: [major]
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      actions:
+        patterns: ["*"]
