@@ -4,7 +4,7 @@ updates:
     directory: /
     schedule:
       interval: monthly
-    open-pull-requests-limit: 5
+    open-pull-requests-limit: 10
     ignore:
       # Cross-package versions are set by `lerna version`.
       - dependency-name: "@flesh-and-blood/*"
@@ -14,9 +14,6 @@ updates:
         update-types: [minor, patch]
         # Pre-1.0: a minor bump can break, so these get their own PRs.
         exclude-patterns: ["esbuild", "esbuild-jest"]
-      dev-major:
-        dependency-type: development
-        update-types: [major]
 
   - package-ecosystem: github-actions
     directory: /
