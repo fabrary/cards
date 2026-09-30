@@ -1013,8 +1013,8 @@ describe("Shared catalogue index", () => {
     ).toEqual([]);
   });
 
-  it("Takes the heroes, the sets and the debug flag positionally", () => {
-    const positionalSearch = new Search(heroPool, [Hero.Maxx], [], false);
+  it("Takes the heroes and the sets positionally", () => {
+    const positionalSearch = new Search(heroPool, [Hero.Maxx], []);
 
     const { appliedFilters } = positionalSearch.search('l:"Maxx"');
     expect(appliedFilters[0].values).toEqual(["maxx"]);

@@ -32,7 +32,6 @@ export interface SearchCard extends DoubleSidedCard {
 export interface SearchOptions {
   additionalHeroes?: Hero[];
   additionalSets?: Release[];
-  debug?: boolean;
   /**
    * The catalogue the parser resolves names and relations against. A pool
    * searched out of a larger catalogue shares the catalogue's index, so a
@@ -93,7 +92,6 @@ class Search {
   private additionalHeroes: Hero[];
   private additionalSets: Release[];
   private cards: DoubleSidedCard[];
-  private debug: boolean;
   private fuse: Fuse<Card> | undefined;
   private index: CatalogueIndex;
 
@@ -102,22 +100,19 @@ class Search {
     cards: DoubleSidedCard[],
     additionalHeroes?: Hero[],
     additionalSets?: Release[],
-    debug?: boolean,
   );
   constructor(
     cards: DoubleSidedCard[],
     additionalHeroesOrOptions: Hero[] | SearchOptions = [],
     additionalSets: Release[] = [],
-    debug: boolean = false,
   ) {
     const options: SearchOptions = Array.isArray(additionalHeroesOrOptions)
-      ? { additionalHeroes: additionalHeroesOrOptions, additionalSets, debug }
+      ? { additionalHeroes: additionalHeroesOrOptions, additionalSets }
       : additionalHeroesOrOptions;
 
     this.additionalHeroes = options.additionalHeroes || [];
     this.additionalSets = options.additionalSets || [];
     this.cards = [...cards];
-    this.debug = options.debug || false;
     // Keyed on the caller's array rather than the private copy, so a consumer
     // holding that array shares this index instead of building a second one.
     this.index = options.index || getCatalogueIndex(cards);
@@ -131,12 +126,6 @@ class Search {
     }
 
     return this.fuse;
-  };
-
-  log = (message?: unknown, ...optionalParams: unknown[]) => {
-    if (this.debug) {
-      console.log(message, ...optionalParams);
-    }
   };
 
   search = (text: string, includeMemes?: boolean): SearchResults => {
