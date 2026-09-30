@@ -166,7 +166,6 @@ export const getSpecialPrinting = (
     let firstFullArt: Printing | undefined;
     let nonFoilExtendedArt: Printing | undefined;
     let promoExtendedArt: Printing | undefined;
-    let fullArtAlternateArt: Printing | undefined;
 
     let marvel: Printing | undefined;
 
@@ -268,11 +267,7 @@ export const getSpecialPrinting = (
     }
 
     const finalFullArt =
-      fullArtAlternateArt ||
-      frontFullArt ||
-      backFullArt ||
-      coldFullArt ||
-      firstFullArt;
+      frontFullArt || backFullArt || coldFullArt || firstFullArt;
 
     return (
       finalFullArt ||
@@ -481,7 +476,6 @@ export const getMaxRarityPrinting = (
     let firstFullArt: Printing | undefined;
     let nonFoilExtendedArt: Printing | undefined;
     let promoExtendedArt: Printing | undefined;
-    let fullArtAlternateArt: Printing | undefined;
 
     let marvel: Printing | undefined;
 
@@ -577,11 +571,7 @@ export const getMaxRarityPrinting = (
     }
 
     const finalFullArt =
-      fullArtAlternateArt ||
-      frontFullArt ||
-      backFullArt ||
-      coldFullArt ||
-      firstFullArt;
+      frontFullArt || backFullArt || coldFullArt || firstFullArt;
 
     return (
       goldFoil ||

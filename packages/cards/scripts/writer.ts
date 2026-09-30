@@ -95,7 +95,8 @@ const getPrintings = (printings: Printing[]) => {
         oppositeImage,
       },
     ) =>
-      (printings += `{
+      printings +
+      `{
         artists: [${artists.map((artist) => `"${artist}"`)}],
       ${
         edition
@@ -132,7 +133,7 @@ const getPrintings = (printings: Printing[]) => {
             )}],`
           : ``
       }
-    },`),
+    },`,
     ``,
   );
 };
@@ -140,10 +141,11 @@ const getPrintings = (printings: Printing[]) => {
 const getLegalOverrides = (legalOverrides: LegalOverride[]): string => {
   return legalOverrides.reduce(
     (overrides, { format, heroes }) =>
-      (overrides += `{
+      overrides +
+      `{
     format: ${getEnumValue(format, "Format", Format)},
     heroes: [${getEnumValues(heroes, "Hero", Hero)}],
-    }`),
+    }`,
     ``,
   );
 };
