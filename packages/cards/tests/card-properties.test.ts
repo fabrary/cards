@@ -1,6 +1,5 @@
-import { describe, expect, it, xit } from "@jest/globals";
+import { describe, expect, it } from "@jest/globals";
 import { cards as cardsToPublish } from "../dist/index";
-import { cards as publishedCards } from "latest-cards";
 import {
   Card,
   CardRole,
@@ -10,33 +9,14 @@ import {
   Trait,
 } from "@flesh-and-blood/types";
 
-interface UpdatedComparison {
-  toPublish: Card;
-  published: Card;
-}
-const updated: (string | UpdatedComparison)[][] = [];
-const removed: string[] = [];
-for (const published of publishedCards) {
-  const match = cardsToPublish.find(
-    ({ cardIdentifier }) => published.cardIdentifier === cardIdentifier,
-  );
-  if (match) {
-    const identifier = `${published.name} (${published.cardIdentifier})`;
-    updated.push([identifier, { toPublish: match, published }]);
-  } else {
-    removed.push(`${published.name} (${published.cardIdentifier})`);
-  }
-}
-
 describe("Check for unintentional updates", () => {
-  xit.each(updated)("%s vs published", (_, comparison) => {
-    const { toPublish, published } = comparison as UpdatedComparison;
-    expect(toPublish).toEqual(published);
-  });
-
-  it.each(updated)("%s vs snapshot", (_, comparison) => {
-    const { toPublish } = comparison as UpdatedComparison;
-    expect(toPublish).toMatchSnapshot();
+  it.each(
+    cardsToPublish.map((card) => [
+      `${card.name} (${card.cardIdentifier})`,
+      card,
+    ]),
+  )("%s vs snapshot", (_, card) => {
+    expect(card).toMatchSnapshot();
   });
 });
 
@@ -166,12 +146,6 @@ describe("No card carries a class its type line does not name", () => {
       return carriesAnUnnamedClass;
     });
     expect(stillMisspelled).toEqual(MISSPELLED_TYPE_LINES);
-  });
-});
-
-describe("No cards should be removed", () => {
-  xit("Removed cards", () => {
-    expect(removed).toHaveLength(0);
   });
 });
 
