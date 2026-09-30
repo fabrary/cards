@@ -1,10 +1,10 @@
-import { mapJSON } from "./mapper";
-import { parseJSON } from "./parser";
-import { filterOutUnwantedCards } from "../Shared";
+import { mapJSON } from "./mapper.ts";
+import { parseJSON } from "./parser.ts";
+import { filterOutUnwantedCards } from "../Shared/index.ts";
 import { Release } from "@flesh-and-blood/types";
 
-const releasedCardsFile = `${__dirname}/card.json`;
-const releasedSetsFile = `${__dirname}/set.json`;
+const releasedCardsFile = `${import.meta.dirname}/card.json`;
+const releasedSetsFile = `${import.meta.dirname}/set.json`;
 
 const releasesToSkip: Release[] = [];
 

@@ -1,9 +1,9 @@
 import { Hero } from "@flesh-and-blood/types";
 import { readFileSync } from "fs";
-import { parse } from "papaparse";
-import { getHeroFromString } from "../mapper";
+import Papa from "papaparse";
+import { getHeroFromString } from "../mapper.ts";
 
-const goldenAgeLegalityOverridesFile = `${__dirname}/Golden Age legality - Overrides.csv`;
+const goldenAgeLegalityOverridesFile = `${import.meta.dirname}/Golden Age legality - Overrides.csv`;
 
 const booleanFields: string[] = ["banned"];
 const arrayFields: string[] = ["bans", "specializations"];
@@ -17,7 +17,7 @@ interface GoldenAgeLegalityOverride {
 }
 const getOverrides = (): GoldenAgeLegalityOverride[] => {
   const csv = readFileSync(goldenAgeLegalityOverridesFile, "utf-8");
-  const overrides = parse<GoldenAgeLegalityOverride>(csv, {
+  const overrides = Papa.parse<GoldenAgeLegalityOverride>(csv, {
     header: true,
     skipEmptyLines: true,
     transform: (value: string, field: string) => {

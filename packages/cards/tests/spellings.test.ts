@@ -2,8 +2,8 @@ import { existsSync } from "fs";
 import { createRequire } from "module";
 import { join } from "path";
 import { describe, expect, it } from "vitest";
-import { cards } from "../dist/index";
-import * as committedSpellings from "./spelling-additions";
+import { cards } from "../dist/index.js";
+import * as committedSpellings from "./spelling-additions.ts";
 
 const require = createRequire(import.meta.url);
 

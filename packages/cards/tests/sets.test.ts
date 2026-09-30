@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { Release, releases, Type } from "@flesh-and-blood/types";
-import { cards } from "../dist/index";
+import { cards } from "../dist/index.js";
 
 const heroes = cards.filter(({ types }) => types.includes(Type.Hero));
 

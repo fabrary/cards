@@ -1,6 +1,6 @@
-import { Card, Foiling, Printing } from "@flesh-and-blood/types";
-import tcgplayerProductFile from "../Released/card.json";
-import { SourceJSONCard } from "../Released/parser";
+import { type Card, Foiling, type Printing } from "@flesh-and-blood/types";
+import tcgplayerProductFile from "../Released/card.json" with { type: "json" };
+import type { SourceJSONCard } from "../Released/parser.ts";
 const tcgplayerProductInfo = tcgplayerProductFile as SourceJSONCard[];
 
 interface TCGplayer {
@@ -8,14 +8,14 @@ interface TCGplayer {
   url: string;
 }
 
-import tcgplayerOverrideFile from "./printings-with-tcgplayer.json";
+import tcgplayerOverrideFile from "./printings-with-tcgplayer.json" with { type: "json" };
 const tcgplayerOverrides = tcgplayerOverrideFile as {
   [key: string]: {
     [key: string]: TCGplayer;
   };
 };
 
-import tcgplayerUrlOverrideFile from "./tcgplayer-url-overrides.json";
+import tcgplayerUrlOverrideFile from "./tcgplayer-url-overrides.json" with { type: "json" };
 // cardIdentifier -> print -> URL query parameter -> the value TCGplayer's listings for that print sit under
 const tcgplayerUrlParamsByPrintByCard = new Map(
   Object.entries(

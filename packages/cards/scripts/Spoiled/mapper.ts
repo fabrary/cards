@@ -1,5 +1,5 @@
-import { PreliminaryCard } from "../Shared/preliminary-card";
-import { releasedCards } from "../Released";
+import type { PreliminaryCard } from "../Shared/preliminary-card.ts";
+import { releasedCards } from "../Released/index.ts";
 import {
   addOppositeSideCardIdentifiers,
   FOILING_KEY_TO_ENUM_MAPPING,
@@ -19,12 +19,12 @@ import {
   getTraits,
   getTypeSubtypeAndMetatype,
   sortPrintingsByReleaseOrder,
-} from "../Shared";
+} from "../Shared/index.ts";
 import {
   Format,
   Hero,
   Keyword,
-  Printing,
+  type Printing,
   Rarity,
   Release,
   Talent,
@@ -32,19 +32,19 @@ import {
   Type,
   getCardIdentifier,
 } from "@flesh-and-blood/types";
-import { ParsedCard } from "./parser";
+import type { ParsedCard } from "./parser.ts";
 import {
   getDefaultPrinting,
   getPrint,
   getSpecialPrinting,
 } from "@flesh-and-blood/types";
-import { additionalPrintingsByCardIdentifier } from "./additional-printings";
+import { additionalPrintingsByCardIdentifier } from "./additional-printings.ts";
 
-import { getBannedAndLegalFormats } from "../Shared/legality";
+import { getBannedAndLegalFormats } from "../Shared/legality/index.ts";
 import {
   getTCGPlayerInfoForRawSpoilerPrinting,
   getTCGPlayerInfoFromOverrides,
-} from "../Shared/tcgplayer";
+} from "../Shared/tcgplayer.ts";
 
 // Each spoiler sheet row carries one column block per printing, its fields suffixed
 // with the printing's position. Reading the blocks by position keeps them all on one

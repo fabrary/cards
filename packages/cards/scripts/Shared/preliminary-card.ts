@@ -1,4 +1,4 @@
-import { Card, Rarity } from "@flesh-and-blood/types";
+import { type Card, Rarity } from "@flesh-and-blood/types";
 
 // The card shape the mappers and dedup pipeline produce, before the completion
 // pass in scripts/index.ts derives the remaining fields. These are omitted from

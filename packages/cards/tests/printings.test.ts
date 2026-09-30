@@ -1,14 +1,14 @@
 import { describe, expect, it } from "vitest";
 import {
-  Card,
-  Printing,
+  type Card,
+  type Printing,
   getDefaultPrinting,
   getSpecialPrinting,
 } from "@flesh-and-blood/types";
-import { cards } from "../dist/index";
-import { getPrintCollisions } from "../scripts/Shared";
-import { releasedCards } from "../scripts/Released";
-import { spoiledCards } from "../scripts/Spoiled";
+import { cards } from "../dist/index.js";
+import { getPrintCollisions } from "../scripts/Shared/index.ts";
+import { releasedCards } from "../scripts/Released/index.ts";
+import { spoiledCards } from "../scripts/Spoiled/index.ts";
 
 const riptide = cards.find(
   ({ cardIdentifier }) => cardIdentifier === "riptide-lurker-of-the-deep",

@@ -1,7 +1,7 @@
 
   import {
     Bond,
-    Card,
+    type Card,
     Class,
     Flow,
     Foiling,

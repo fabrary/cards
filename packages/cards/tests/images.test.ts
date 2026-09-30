@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { cards } from "../dist/index";
+import { cards } from "../dist/index.js";
 
 const imagesAndSets: { [key: string]: Set<string> } = {};
 for (const { cardIdentifier, printings } of cards) {

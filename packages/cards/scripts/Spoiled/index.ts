@@ -1,27 +1,27 @@
-import { PreliminaryCard } from "../Shared/preliminary-card";
-import { additionalPrintingsByCardIdentifier } from "./additional-printings";
-import { mapCSV } from "./mapper";
-import { parseCSV, ParsedCard } from "./parser";
+import type { PreliminaryCard } from "../Shared/preliminary-card.ts";
+import { additionalPrintingsByCardIdentifier } from "./additional-printings.ts";
+import { mapCSV } from "./mapper.ts";
+import { parseCSV, type ParsedCard } from "./parser.ts";
 import {
   filterOutUnwantedCards,
   getPrintingIdentity,
   sortPrintingsByReleaseOrder,
-} from "../Shared";
+} from "../Shared/index.ts";
 import { Rarity } from "@flesh-and-blood/types";
-import { combineAndAddMissingFields } from "../Shared/combined-and-missing-fields";
+import { combineAndAddMissingFields } from "../Shared/combined-and-missing-fields.ts";
 import { getDefaultPrinting } from "@flesh-and-blood/types";
 import { getSpecialPrinting } from "@flesh-and-blood/types";
 
-const spoiledSetCardsFileAMA = `${__dirname}/Flesh and Blood Spoiler Card Data - AMA.csv`;
-const spoiledSetCardsFileIAR = `${__dirname}/Flesh and Blood Spoiler Card Data - IAR.csv`;
-const spoiledSetCardsFileSPW = `${__dirname}/Flesh and Blood Spoiler Card Data - SPW.csv`;
-const spoiledSetCardsFileAMO = `${__dirname}/Flesh and Blood Spoiler Card Data - AMO.csv`;
-const spoiledSetCardsFileMPA = `${__dirname}/Flesh and Blood Spoiler Card Data - MPA.csv`;
-const spoiledPromoCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - Promos.csv`;
-const spoiledSAGECardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - SAGE.csv`;
+const spoiledSetCardsFileAMA = `${import.meta.dirname}/Flesh and Blood Spoiler Card Data - AMA.csv`;
+const spoiledSetCardsFileIAR = `${import.meta.dirname}/Flesh and Blood Spoiler Card Data - IAR.csv`;
+const spoiledSetCardsFileSPW = `${import.meta.dirname}/Flesh and Blood Spoiler Card Data - SPW.csv`;
+const spoiledSetCardsFileAMO = `${import.meta.dirname}/Flesh and Blood Spoiler Card Data - AMO.csv`;
+const spoiledSetCardsFileMPA = `${import.meta.dirname}/Flesh and Blood Spoiler Card Data - MPA.csv`;
+const spoiledPromoCardsFile = `${import.meta.dirname}/Flesh and Blood Spoiler Card Data - Promos.csv`;
+const spoiledSAGECardsFile = `${import.meta.dirname}/Flesh and Blood Spoiler Card Data - SAGE.csv`;
 
-const spoiledGEMCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - GEM.csv`;
-const spoiledTournamentPackCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - TNP.csv`;
+const spoiledGEMCardsFile = `${import.meta.dirname}/Flesh and Blood Spoiler Card Data - GEM.csv`;
+const spoiledTournamentPackCardsFile = `${import.meta.dirname}/Flesh and Blood Spoiler Card Data - TNP.csv`;
 
 const parsedSpoiledSetCards: ParsedCard[] = (
   [
