@@ -37,7 +37,7 @@
     "@flesh-and-blood/types": "^5.2.1"
   },
   "devDependencies": {
-    "@types/node": "^24.19.0",
+    "@types/node": "^26.6.3",
     "@types/papaparse": "5.5.2",
     "esbuild": "^0.19.10",
     "fast-xml-parser": "4.3.2",

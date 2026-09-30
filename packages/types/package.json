@@ -40,7 +40,7 @@
     "prepublishOnly": "npm run typecheck"
   },
   "devDependencies": {
-    "@types/node": "^24.19.0",
+    "@types/node": "^26.6.3",
     "esbuild": "^0.19.10",
     "typescript": "^7.0.2",
     "vitest": "^5.0.3"
