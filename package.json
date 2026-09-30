@@ -1,6 +1,7 @@
 {
   "name": "@flesh-and-blood/root",
   "private": true,
+  "type": "module",
   "workspaces": [
     "packages/*"
   ],
