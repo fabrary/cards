@@ -11,11 +11,10 @@ const PUNCTUATION = /[!"#$%&'’()*+,-./:;<=>?@[\]^_`|~]/g;
 const LOCAL_SPELLINGS_PATH = join(__dirname, "spelling-additions-local.ts");
 const { ADDITIONS, IGNORES, SUGGESTIONS }: typeof committedSpellings =
   existsSync(LOCAL_SPELLINGS_PATH)
-    ? // eslint-disable-next-line @typescript-eslint/no-require-imports -- optional file, resolved at runtime
-      require("./spelling-additions-local")
+    ? require("./spelling-additions-local")
     : committedSpellings;
 
-// eslint-disable-next-line @typescript-eslint/no-require-imports -- typo-js ships no type declarations
+// typo-js ships no type declarations.
 const Typo = require("typo-js");
 
 const dictionary = new Typo("en_US");
