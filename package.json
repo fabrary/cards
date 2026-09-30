@@ -21,7 +21,7 @@
     "*.{ts,js,mjs,cjs,json,md,yml,yaml}": "prettier --write"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.4",
+    "@eslint/js": "^10.0.1",
     "@types/jest": "^30.0.0",
     "eslint": "^9.39.4",
     "husky": "^9.1.7",
