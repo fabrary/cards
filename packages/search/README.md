@@ -20,7 +20,7 @@ const searcher = new Searcher(cards);
 const { searchResults } = searcher.search("rhinar go again");
 ```
 
-- `new Searcher(cards, additionalHeroes?, additionalSets?, debug?)`
+- `new Searcher(cards, additionalHeroes?, additionalSets?)`
 - `.search(text)` → `SearchResults`: `{ searchResults: SearchCard[], appliedFilters, keywords, attributes }`
 
 Data-only modules are available as subpath imports (handy for lazy-loaded UI like a search-bar dropdown):
