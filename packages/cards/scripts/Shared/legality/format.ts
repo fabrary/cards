@@ -322,9 +322,6 @@ const getConfirmedBannedAndLegalFormats = ({
       const coreSetsCardIsIn = releaseInfoForLimitedFormat.filter(
         ({ release }) => sets.includes(release),
       );
-      const isInAtLeastOneLimitedSet = coreSetsCardIsIn.length > 0;
-      isConfirmedLegal = isInAtLeastOneLimitedSet;
-
       // Make sure card isn't an expansion card in every core set it's in
       const cardIsAnExpansionCardInEveryLimitedSet = printings.every(
         ({ isExpansionSlot, set }) => {

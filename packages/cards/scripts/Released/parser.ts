@@ -204,7 +204,7 @@ export const parseJSON = (cardJSON: string, setJSON: string): ParsedCard[] => {
                 ({ unique_id }) => unique_id === set_printing_unique_id,
               ),
             );
-            let set: Release = Release.Promos;
+            let set: Release;
 
             if (!matchingSet) {
               throw new Error(
