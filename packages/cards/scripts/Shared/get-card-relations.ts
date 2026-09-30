@@ -5,9 +5,9 @@ import {
   Trait,
   Type,
 } from "@flesh-and-blood/types";
-import { PreliminaryCard } from "./preliminary-card";
-import createdExtraExceptionsFile from "./created-extra-exceptions.json";
-import referencedNamePatternsFile from "./referenced-name-patterns.json";
+import type { PreliminaryCard } from "./preliminary-card.ts";
+import createdExtraExceptionsFile from "./created-extra-exceptions.json" with { type: "json" };
+import referencedNamePatternsFile from "./referenced-name-patterns.json" with { type: "json" };
 
 // cardIdentifier -> extra cardIdentifier -> whether the naming card creates it.
 // Forces an edge on where the verbs miss a creation, or off where they read one

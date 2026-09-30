@@ -1,4 +1,4 @@
-import { PreliminaryCard } from "./preliminary-card";
+import type { PreliminaryCard } from "./preliminary-card.ts";
 import {
   Bond,
   Class,
@@ -10,7 +10,7 @@ import {
   Keyword,
   Meta,
   Metatype,
-  Printing,
+  type Printing,
   Rarity,
   Release,
   ReleaseEdition,

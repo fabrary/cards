@@ -1,10 +1,10 @@
-import { PreliminaryCard } from "./Shared/preliminary-card";
+import type { PreliminaryCard } from "./Shared/preliminary-card.ts";
 import {
-  Card,
+  type Card,
   Foiling,
   getIsDeckCard,
   Hero,
-  Printing,
+  type Printing,
   Rarity,
   Release,
   releases,
@@ -12,34 +12,37 @@ import {
   setToSetIdentifierMappings,
   Treatment,
 } from "@flesh-and-blood/types";
-import { writeFiles } from "./writer";
-import { spoiledCards } from "./Spoiled";
-import { releasedCards } from "./Released";
+import { writeFiles } from "./writer.ts";
+import { spoiledCards } from "./Spoiled/index.ts";
+import { releasedCards } from "./Released/index.ts";
 import {
   getDefaultPrinting,
   getPrint,
   getSpecialPrinting,
 } from "@flesh-and-blood/types";
-import { combineAndAddMissingFields } from "./Shared/combined-and-missing-fields";
+import { combineAndAddMissingFields } from "./Shared/combined-and-missing-fields.ts";
 import {
   assertPrintsAreUnique,
   getMeta,
   sortPrintingsByReleaseOrder,
-} from "./Shared";
+} from "./Shared/index.ts";
 import {
-  ConfirmedFormats,
+  type ConfirmedFormats,
   getConfirmedBannedAndLegalFormatsByCardIdentifier,
   getLegalHeroesByCard,
-} from "./Shared/legality";
-import { CardRelations, getCardRelations } from "./Shared/get-card-relations";
-import { getShorthands } from "./Shared/get-shorthands";
-import { getNicknames } from "./Shared/get-nicknames";
-import { getShortName } from "./Shared/get-short-names";
-import { getFirstReleaseDate } from "./Shared/get-first-release-date";
+} from "./Shared/legality/index.ts";
+import {
+  type CardRelations,
+  getCardRelations,
+} from "./Shared/get-card-relations.ts";
+import { getShorthands } from "./Shared/get-shorthands.ts";
+import { getNicknames } from "./Shared/get-nicknames.ts";
+import { getShortName } from "./Shared/get-short-names.ts";
+import { getFirstReleaseDate } from "./Shared/get-first-release-date.ts";
 import {
   getCardsWithTCGplayerUrlOverrides,
   getTCGplayerInfoForAddedPrinting,
-} from "./Shared/tcgplayer";
+} from "./Shared/tcgplayer.ts";
 
 const outputDirectory = "src";
 

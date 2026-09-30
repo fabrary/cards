@@ -4,7 +4,7 @@ import {
   Type,
 } from "@flesh-and-blood/types";
 import { readFileSync } from "fs";
-import { getSetFromIdentifier } from "../Shared";
+import { getSetFromIdentifier } from "../Shared/index.ts";
 
 const IMAGES_TO_EXCLUDE = [
   "ROS257",

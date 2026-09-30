@@ -2,13 +2,14 @@ import { execFileSync } from "node:child_process";
 import { mkdtempSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
+import { pathToFileURL } from "node:url";
 import { styleText } from "node:util";
-import { Card } from "@flesh-and-blood/types";
-import { cards as cardsToPublish } from "../dist/index";
+import type { Card } from "@flesh-and-blood/types";
+import { cards as cardsToPublish } from "../dist/index.js";
 
 // The published cards are whatever npm serves under the latest tag, fetched
 // fresh on every run so nothing in the repo has to track the last publish.
-const getPublishedCards = (): Card[] => {
+const getPublishedCards = async (): Promise<Card[]> => {
   const packDir = mkdtempSync(join(tmpdir(), "published-cards-"));
   const [{ filename }] = JSON.parse(
     execFileSync(
@@ -25,10 +26,13 @@ const getPublishedCards = (): Card[] => {
     ),
   );
   execFileSync("tar", ["-xzf", join(packDir, filename), "-C", packDir]);
-  return require(join(packDir, "package", "dist", "index.js")).cards;
+  const { cards } = await import(
+    pathToFileURL(join(packDir, "package", "dist", "index.js")).href
+  );
+  return cards;
 };
 
-const publishedCards = getPublishedCards();
+const publishedCards = await getPublishedCards();
 
 const added: string[] = [];
 for (const toPublish of cardsToPublish) {

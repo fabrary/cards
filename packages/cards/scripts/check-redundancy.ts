@@ -1,5 +1,5 @@
 /**
- * For every CSV in packages/cards/scripts/Spoiled, report only what can be
+ * For every CSV in scripts/Spoiled, report only what can be
  * removed because it's already in Released/card.json.
  *
  * A card row is REDUNDANT when a card with the same name+pitch identifier
@@ -9,14 +9,14 @@
  * Usage (from repo root):  npm run clean:csvs
  */
 import { readdirSync } from "fs";
-import { parseCSV } from "../packages/cards/scripts/Spoiled/parser";
-import { mapCSV } from "../packages/cards/scripts/Spoiled/mapper";
-import { releasedCards } from "../packages/cards/scripts/Released";
-import { Card } from "@flesh-and-blood/types";
+import { parseCSV } from "./Spoiled/parser.ts";
+import { mapCSV } from "./Spoiled/mapper.ts";
+import { releasedCards } from "./Released/index.ts";
+import type { PreliminaryCard } from "./Shared/preliminary-card.ts";
 
-const spoiledDir = `${__dirname}/../packages/cards/scripts/Spoiled`;
+const spoiledDir = `${import.meta.dirname}/Spoiled`;
 
-const releasedByIdentifier = new Map<string, Card>();
+const releasedByIdentifier = new Map<string, PreliminaryCard>();
 for (const c of releasedCards) {
   if (!releasedByIdentifier.has(c.cardIdentifier)) {
     releasedByIdentifier.set(c.cardIdentifier, c);

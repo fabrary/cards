@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from "fs";
 import { XMLParser } from "fast-xml-parser";
-import { cards } from "../dist/index";
+import { cards } from "../dist/index.js";
 
 const parser = new XMLParser();
 const CARD_URL = "https://fabrary.net/cards/";

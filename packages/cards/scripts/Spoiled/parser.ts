@@ -1,5 +1,5 @@
 import { readFileSync } from "fs";
-import { parse } from "papaparse";
+import Papa from "papaparse";
 
 export interface ParsedCard {
   abilitiesAndEffects: string[];
@@ -244,7 +244,7 @@ const transformHeader = (original: string, _index: number) =>
 
 export const parseCSV = (file: string): ParsedCard[] => {
   const csv = readFileSync(file, "utf8");
-  const cards = parse<ParsedCard>(csv, {
+  const cards = Papa.parse<ParsedCard>(csv, {
     header: true,
     // dynamicTyping: true,
     skipEmptyLines: true,

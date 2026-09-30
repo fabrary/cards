@@ -1,8 +1,8 @@
-import { PreliminaryCard } from "../Shared/preliminary-card";
+import type { PreliminaryCard } from "../Shared/preliminary-card.ts";
 import {
   Hero,
   Keyword,
-  Printing,
+  type Printing,
   Release,
   ReleaseEdition,
   Talent,
@@ -28,15 +28,15 @@ import {
   getTypeSubtypeAndMetatype,
   IGNORE_OPPOSITE_SIDES,
   sortPrintingsByReleaseOrder,
-} from "../Shared";
-import { ParsedCard } from "./parser";
+} from "../Shared/index.ts";
+import type { ParsedCard } from "./parser.ts";
 import {
   getDefaultPrinting,
   getPrint,
   getSpecialPrinting,
 } from "@flesh-and-blood/types";
-import { getBannedAndLegalFormats } from "../Shared/legality";
-import { getTCGPlayerInfoFromOverrides } from "../Shared/tcgplayer";
+import { getBannedAndLegalFormats } from "../Shared/legality/index.ts";
+import { getTCGPlayerInfoFromOverrides } from "../Shared/tcgplayer.ts";
 
 // const getHero = (card: ParsedCard): Hero | null => {
 //   let heroOnCard: Hero | null = null;
@@ -68,15 +68,10 @@ const setsToUseIdentifierAsBackup = [
   Release.ArmoryDeckAzalea,
   Release.Promos,
 ];
-enum SetEdition {
-  A = "A",
-  F = "F",
-  U = "U",
-}
 const setEditionMapping = {
-  [SetEdition.A]: ReleaseEdition.Alpha,
-  [SetEdition.F]: ReleaseEdition.First,
-  [SetEdition.U]: ReleaseEdition.Unlimited,
+  A: ReleaseEdition.Alpha,
+  F: ReleaseEdition.First,
+  U: ReleaseEdition.Unlimited,
 };
 const getPrintings = (cardIdentifier: string, card: ParsedCard): Printing[] => {
   const images: Printing[] = [];
@@ -95,7 +90,8 @@ const getPrintings = (cardIdentifier: string, card: ParsedCard): Printing[] => {
     tcgplayer,
   } of printings) {
     // const set = setIdentifierToSetMappings[rawSet.toLowerCase()];
-    const edition = setEditionMapping[rawEdition as keyof typeof SetEdition];
+    const edition =
+      setEditionMapping[rawEdition as keyof typeof setEditionMapping];
 
     const rarity = getRarityFromRawString(rawRarity);
 

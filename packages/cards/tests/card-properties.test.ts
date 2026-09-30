@@ -1,11 +1,11 @@
 import { describe, expect, it } from "vitest";
-import { cards as cardsToPublish } from "../dist/index";
+import { cards as cardsToPublish } from "../dist/index.js";
 import {
-  Card,
+  type Card,
   CardRole,
   getCardRole,
   getPrint,
-  Printing,
+  type Printing,
   Trait,
 } from "@flesh-and-blood/types";
 

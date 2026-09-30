@@ -1,4 +1,4 @@
-import { PreliminaryCard } from "./preliminary-card";
+import type { PreliminaryCard } from "./preliminary-card.ts";
 
 const CARD_IDENTIFIER_TO_LOG = "";
 // const CARD_IDENTIFIER_TO_LOG = "zoom-in-blue";

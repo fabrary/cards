@@ -1,6 +1,6 @@
-import { PreliminaryCard } from "./preliminary-card";
+import type { PreliminaryCard } from "./preliminary-card.ts";
 import { Shorthand } from "@flesh-and-blood/types";
-import { shorthands as availableShorthands } from "./shorthands";
+import { shorthands as availableShorthands } from "./shorthands.ts";
 
 const CARD_IDENTIFIER_TO_LOG = "";
 // const CARD_IDENTIFIER_TO_LOG = "zoom-in-blue";

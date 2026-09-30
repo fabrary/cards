@@ -1,4 +1,4 @@
-import { PreliminaryCard } from "../preliminary-card";
+import type { PreliminaryCard } from "../preliminary-card.ts";
 import {
   Class,
   Format,
@@ -10,8 +10,8 @@ import {
   Subtype,
   Type,
 } from "@flesh-and-blood/types";
-import { goldenAgeBannedCards } from "./golden-age";
-import { getIsASpecialUsePromo } from "./special-use-promos";
+import { goldenAgeBannedCards } from "./golden-age.ts";
+import { getIsASpecialUsePromo } from "./special-use-promos.ts";
 
 // Logic doesn't work well for duplicate cards from spreadsheets that might be missing some info or only have P rarity for e.g.
 const limitedLegalOverrideCards = [

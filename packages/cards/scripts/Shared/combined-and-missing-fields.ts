@@ -1,5 +1,5 @@
-import { PreliminaryCard } from "./preliminary-card";
-import { getRarity } from "./mapper";
+import type { PreliminaryCard } from "./preliminary-card.ts";
+import { getRarity } from "./mapper.ts";
 
 type PreliminaryCardField = keyof PreliminaryCard;
 

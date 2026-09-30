@@ -1,2 +1,2 @@
-export * from "./excludes";
-export * from "./mapper";
+export * from "./excludes.ts";
+export * from "./mapper.ts";

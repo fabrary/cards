@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { Card, Keyword } from "@flesh-and-blood/types";
-import { cards } from "../dist/index";
+import { type Card, Keyword } from "@flesh-and-blood/types";
+import { cards } from "../dist/index.js";
 
 describe("Meld keyword seem reasonable", () => {
   it.each(cards.map(({ cardIdentifier }) => cardIdentifier))(

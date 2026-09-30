@@ -1,5 +1,5 @@
 import { writeFileSync } from "fs";
-import { cards } from "../dist/index";
+import { cards } from "../dist/index.js";
 
 const generateTTSCardNameAndDescriptions = () => {
   const ttsCards = cards

@@ -49,7 +49,7 @@ TCGplayer data, cardvault image maps).
 
 | Step    | Command           | What it does                                                                        |
 | ------- | ----------------- | ----------------------------------------------------------------------------------- |
-| build   | `npm run build`   | `build:cjs` (`dist/index.js`) + `build:esm` (`dist/index.mjs`) + `tsc` declarations |
+| build   | `npm run build`   | `build:cjs` (`dist/index.cjs`) + `build:esm` (`dist/index.js`) + `tsc` declarations |
 | new     | `npm run new`     | Report new/removed cards vs the last published version                              |
 | tts     | `npm run tts`     | Generate Tabletop Simulator card data (`tts/tts.txt`)                               |
 | sitemap | `npm run sitemap` | Generate `sitemap/sitemap-cards.xml`                                                |

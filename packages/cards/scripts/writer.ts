@@ -1,7 +1,7 @@
 import { existsSync, mkdirSync, writeFileSync } from "fs";
 import {
   Bond,
-  Card,
+  type Card,
   Class,
   Flow,
   Foiling,
@@ -9,10 +9,10 @@ import {
   Fusion,
   Hero,
   Keyword,
-  LegalOverride,
+  type LegalOverride,
   Meta,
   Metatype,
-  Printing,
+  type Printing,
   Rarity,
   Release,
   ReleaseEdition,
@@ -336,7 +336,7 @@ const generateTS = (cards: Card[]): string => {
   const ts = `
   import {
     Bond,
-    Card,
+    type Card,
     Class,
     Flow,
     Foiling,

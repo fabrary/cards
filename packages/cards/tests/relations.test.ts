@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { Card } from "@flesh-and-blood/types";
-import { cards } from "../dist/index";
+import type { Card } from "@flesh-and-blood/types";
+import { cards } from "../dist/index.js";
 
 const getCard = (cardIdentifier: string) =>
   cards.find((card) => card.cardIdentifier === cardIdentifier) as Card;

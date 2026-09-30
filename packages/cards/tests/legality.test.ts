@@ -1,10 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { Card, getCanBeCreated, Hero } from "@flesh-and-blood/types";
-import { cards } from "../dist/index";
+import { type Card, getCanBeCreated, Hero } from "@flesh-and-blood/types";
+import { cards } from "../dist/index.js";
 import {
   getLegalHeroesByCard,
   getCardCreationChain,
-} from "../scripts/Shared/legality";
+} from "../scripts/Shared/legality/index.ts";
 
 const legalHeroesByCardIdentifier = getLegalHeroesByCard(cards);
 

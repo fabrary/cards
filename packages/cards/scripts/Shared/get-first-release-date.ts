@@ -1,6 +1,6 @@
-import { PreliminaryCard } from "./preliminary-card";
+import type { PreliminaryCard } from "./preliminary-card.ts";
 import { releases } from "@flesh-and-blood/types";
-import firstReleaseDateOverridesFile from "./first-release-date-overrides.json";
+import firstReleaseDateOverridesFile from "./first-release-date-overrides.json" with { type: "json" };
 
 // cardIdentifier -> "YYYY-MM-DD". Fills (or corrects) the first release date for
 // cards the set data can't date on its own, chiefly promo-only cards, whose

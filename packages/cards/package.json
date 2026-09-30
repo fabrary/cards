@@ -2,31 +2,33 @@
   "name": "@flesh-and-blood/cards",
   "description": "TypeScript representations of Flesh and Blood cards",
   "version": "5.2.8",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "sideEffects": false,
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js"
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     },
     "./package.json": "./package.json"
   },
   "scripts": {
-    "transform": "ts-node scripts/index.ts",
+    "transform": "node scripts/index.ts",
     "prebuild": "rm -rf dist",
     "build": "npm run build:cjs && npm run build:esm",
-    "build:cjs": "esbuild ./src/index.ts --outdir=dist --bundle --minify --platform=node --target=es6",
-    "build:esm": "esbuild ./src/index.ts --outfile=dist/index.mjs --bundle --minify --format=esm --platform=neutral --target=es2020 --external:@flesh-and-blood/types",
+    "build:cjs": "esbuild ./src/index.ts --outfile=dist/index.cjs --bundle --minify --format=cjs --platform=node --target=es6",
+    "build:esm": "esbuild ./src/index.ts --outfile=dist/index.js --bundle --minify --format=esm --platform=neutral --target=es2020 --external:@flesh-and-blood/types",
     "postbuild": "tsc --declaration --noCheck",
     "test": "vitest run",
     "typecheck": "tsc -p tsconfig.typecheck.json",
     "update:snapshots": "vitest run -u",
-    "new": "ts-node tests/new-and-removed-cards.ts",
-    "tts": "ts-node tts/index.ts",
-    "sitemap": "ts-node sitemap/index.ts",
+    "new": "node tests/new-and-removed-cards.ts",
+    "tts": "node tts/index.ts",
+    "sitemap": "node sitemap/index.ts",
+    "clean:csvs": "node scripts/check-redundancy.ts",
     "full": "npm run transform && npm run build && npm test && npm run new && npm run tts && npm run sitemap",
     "prepublish": "npm run full",
     "prepublishOnly": "npm run typecheck"
@@ -40,7 +42,6 @@
     "esbuild": "^0.19.10",
     "fast-xml-parser": "4.3.2",
     "papaparse": "^5.3.2",
-    "ts-node": "^10.9.2",
     "typescript": "^5.7.3",
     "typo-js": "^1.3.2",
     "vitest": "^5.0.3"
