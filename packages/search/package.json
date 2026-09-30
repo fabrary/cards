@@ -50,7 +50,7 @@
     "@flesh-and-blood/cards": "^5.2.8",
     "@flesh-and-blood/types": "^5.2.1",
     "@types/node": "^26.6.3",
-    "esbuild": "^0.19.10",
+    "esbuild": "^0.28.2",
     "typescript": "^7.0.2",
     "vitest": "^5.0.3"
   },
