@@ -40,7 +40,7 @@
     "prepublishOnly": "npm run typecheck"
   },
   "dependencies": {
-    "fuse.js": "^6.6.2"
+    "fuse.js": "^7.5.0"
   },
   "peerDependencies": {
     "@flesh-and-blood/types": "^5.0.0"
