@@ -40,8 +40,8 @@ import { shorthands } from "@flesh-and-blood/search/shorthands";
 ## Working with this project
 
 ```bash
-npm run build   # build:esm (per-file ESM) + build:cjs (bundled) + tsc declarations + jest
-npm test        # jest
+npm run build   # build:esm (per-file ESM) + build:cjs (bundled) + tsc declarations
+npm test        # vitest
 ```
 
 Uses `@flesh-and-blood/cards` (`file:../cards`) as a dev dependency for tests.

@@ -1,4 +1,4 @@
-import { describe, expect, it } from "@jest/globals";
+import { describe, expect, it } from "vitest";
 import { cards } from "@flesh-and-blood/cards";
 import { shorthands } from "../src/shorthands";
 import Search from "../src/search";

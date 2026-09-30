@@ -1,4 +1,4 @@
-import { describe, expect, it } from "@jest/globals";
+import { describe, expect, it } from "vitest";
 import { FilterCategory } from "../src/filterMappings";
 import { filterAliases, filterMappingsByAlias } from "./_filterMappings";
 import {

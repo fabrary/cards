@@ -1,10 +1,10 @@
-import { describe, expect, it } from "@jest/globals";
+import { describe, expect, it } from "vitest";
 import { cards } from "@flesh-and-blood/cards";
 import { abbreviations } from "../src/abbreviations";
 import Search from "../src/search";
 
 // The abbreviation checks are split across SHARD_COUNT sibling `*.test.ts` files
-// so jest's worker pool runs them in parallel. Each check is a CPU-bound
+// so vitest's worker pool runs them in parallel. Each check is a CPU-bound
 // fuse.js search and the ~117 sequential searches were the long pole of the
 // suite (~13s). Sharding cuts that to ~3s with no behaviour change. See
 // ../../../plans/cards/SEARCH_SPEED_PLAN.md for why fuse.search is the cost.

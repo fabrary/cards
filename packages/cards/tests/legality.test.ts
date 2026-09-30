@@ -1,4 +1,4 @@
-import { describe, expect, it } from "@jest/globals";
+import { describe, expect, it } from "vitest";
 import { Card, getCanBeCreated, Hero } from "@flesh-and-blood/types";
 import { cards } from "../dist/index";
 import {

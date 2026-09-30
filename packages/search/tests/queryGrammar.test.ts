@@ -3,7 +3,7 @@
 // what a query means through. What the parse could not place is pinned in
 // unresolvedFilters.test.ts.
 
-import { describe, expect, it } from "@jest/globals";
+import { describe, expect, it } from "vitest";
 import { Release } from "@flesh-and-blood/types";
 import { FilterCategory } from "../src/filterMappings";
 import { getParsedQuery } from "../src/queryParse";

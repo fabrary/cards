@@ -1,17 +1,23 @@
 import { existsSync } from "fs";
+import { createRequire } from "module";
 import { join } from "path";
-import { describe, expect, it } from "@jest/globals";
+import { describe, expect, it } from "vitest";
 import { cards } from "../dist/index";
 import * as committedSpellings from "./spelling-additions";
+
+const require = createRequire(import.meta.url);
 
 const PUNCTUATION = /[!"#$%&'’()*+,-./:;<=>?@[\]^_`|~]/g;
 
 // The gitignored local list is a superset of the committed one, carrying words
 // that can't be published yet. Clean checkouts (CI) fall back to the committed list.
-const LOCAL_SPELLINGS_PATH = join(__dirname, "spelling-additions-local.ts");
+const LOCAL_SPELLINGS_PATH = join(
+  import.meta.dirname,
+  "spelling-additions-local.ts",
+);
 const { ADDITIONS, IGNORES, SUGGESTIONS }: typeof committedSpellings =
   existsSync(LOCAL_SPELLINGS_PATH)
-    ? require("./spelling-additions-local")
+    ? require(LOCAL_SPELLINGS_PATH)
     : committedSpellings;
 
 // typo-js ships no type declarations.

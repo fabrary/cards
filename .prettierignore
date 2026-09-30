@@ -12,7 +12,7 @@ packages/cards/sitemap/sitemap-cards.xml
 packages/cards/scripts/**/*.json
 packages/cards/scripts/**/*.csv
 
-# Jest snapshots (owned by jest -u, not prettier)
+# Test snapshots (owned by vitest -u, not prettier)
 **/__snapshots__/
 
 # Dependency lockfile

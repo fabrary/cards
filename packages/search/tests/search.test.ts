@@ -1,4 +1,4 @@
-import { describe, expect, it, xit } from "@jest/globals";
+import { describe, expect, it } from "vitest";
 import {
   Foiling,
   getIsArenaCard,
@@ -287,7 +287,7 @@ describe("Card search", () => {
     expect(cardsWithCommonRarity).toEqual([]);
   });
 
-  xit("Specific test", () => {
+  it.skip("Specific test", () => {
     const { searchResults } = cardSearch.search(
       randomizeCapitalization("s:ros l:draft"),
     );
@@ -431,13 +431,15 @@ describe("Every set has results", () => {
 describe("Dorinthea demo deck", () => {
   const cardSearch = new Search(doubleSidedCards);
 
-  const { searchResults } = cardSearch.search("s:ddd");
-  expect(searchResults.length).toEqual(16);
+  it("Finds the deck by identifier and by name", () => {
+    const { searchResults } = cardSearch.search("s:ddd");
+    expect(searchResults.length).toEqual(16);
 
-  const { searchResults: results2 } = cardSearch.search(
-    's:"dorinthea demo deck"',
-  );
-  expect(results2.length).toEqual(16);
+    const { searchResults: results2 } = cardSearch.search(
+      's:"dorinthea demo deck"',
+    );
+    expect(results2.length).toEqual(16);
+  });
 });
 
 describe("Armory decks are distinct", () => {
