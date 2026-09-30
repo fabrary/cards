@@ -25,7 +25,6 @@ const getPublishedCards = (): Card[] => {
     ),
   );
   execFileSync("tar", ["-xzf", join(packDir, filename), "-C", packDir]);
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
   return require(join(packDir, "package", "dist", "index.js")).cards;
 };
 

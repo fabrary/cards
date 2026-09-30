@@ -1,0 +1,28 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  // Non-type-aware on purpose: the hand-written code (the transform pipeline,
+  // tts/sitemap generators, tests) is entirely synchronous, so type-aware
+  // promise rules would need tsconfig plumbing without catching anything.
+  "rules": {
+    // Only push `const` when every var in a destructuring can be const; don't
+    // fight mixed `let { a, b } =` where one member is reassigned.
+    "prefer-const": ["error", { "destructuring": "all" }],
+    // Surface dead code as a warning, not a build-blocker; allow the
+    // conventional `_` prefix escape.
+    "no-unused-vars": [
+      "warn",
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_",
+        "ignoreRestSiblings": true
+      }
+    ],
+    "no-useless-assignment": "error"
+  },
+  // Machine output: the generated card data would trip no-unused-vars.
+  "ignorePatterns": [
+    "**/dist/**",
+    "packages/cards/src/**",
+    "packages/cards/latest-set/**"
+  ]
+}
