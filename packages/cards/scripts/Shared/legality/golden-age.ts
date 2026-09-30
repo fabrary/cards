@@ -54,12 +54,3 @@ const overrides = getOverrides();
 export const goldenAgeBannedCards = overrides
   .filter(({ banned }) => banned)
   .map(({ card }) => card);
-
-export const goldenAgeLegalOverrides = overrides.filter(
-  ({ bans, specializations }) => {
-    const hasBans = !!bans && bans.length > 0;
-    const hasSpecializations = !!specializations && specializations.length > 0;
-
-    return hasBans || hasSpecializations;
-  },
-);

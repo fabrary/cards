@@ -42,6 +42,9 @@ jobs:
       - name: Lint 🧹
         run: npm run lint
 
+      - name: Unused code 🧽
+        run: npm run knip
+
       # Locally lint-staged formats on commit; this catches bypassed hooks.
       - name: Format check 🪞
         run: npx prettier --check .

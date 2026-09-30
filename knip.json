@@ -1,0 +1,12 @@
+{
+  "$schema": "https://unpkg.com/knip@latest/schema.json",
+  // latest-set is read by the api repo's secret-cards scripts; the example is
+  // its own package, outside the workspaces.
+  "ignore": ["packages/cards/latest-set/**", "examples/**"],
+  // The per-file ESM build of types and search passes a glob to esbuild, which
+  // knip reads as an import.
+  "workspaces": {
+    "packages/types": { "ignoreUnresolved": ["src/\\*.ts"] },
+    "packages/search": { "ignoreUnresolved": ["src/\\*.ts"] }
+  }
+}

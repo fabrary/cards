@@ -2,6 +2,9 @@
   "name": "@flesh-and-blood/root",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
   "workspaces": [
     "packages/*"
   ],
@@ -9,23 +12,25 @@
     "build": "lerna run build",
     "clean:csvs": "npm run clean:csvs -w @flesh-and-blood/cards",
     "full": "lerna run full",
-    "lint": "oxlint",
+    "lint": "oxlint --type-aware --deny-warnings",
     "publish": "npm login && lerna publish",
     "publish:legacy": "npm login --auth-type=legacy && lerna publish",
     "test": "lerna run test",
     "typecheck": "lerna run typecheck",
     "update:snapshots": "lerna run update:snapshots",
-    "prepare": "husky"
+    "prepare": "husky",
+    "knip": "knip"
   },
   "lint-staged": {
     "*.{ts,js,mjs,cjs,json,md,yml,yaml}": "prettier --write"
   },
   "devDependencies": {
     "husky": "^9.1.7",
+    "knip": "^6.39.0",
     "lerna": "^10.0.1",
     "lint-staged": "^17.0.8",
     "oxlint": "^1.86.0",
-    "prettier": "^3.9.5",
-    "typescript": "^7.0.2"
+    "oxlint-tsgolint": "^7.0.2003",
+    "prettier": "^3.9.5"
   }
 }

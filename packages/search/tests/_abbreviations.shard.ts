@@ -8,7 +8,7 @@ import Search from "../src/search";
 // fuse.js search and the ~117 sequential searches were the long pole of the
 // suite (~13s). Sharding cuts that to ~3s with no behaviour change. See
 // ../../../plans/cards/SEARCH_SPEED_PLAN.md for why fuse.search is the cost.
-export const SHARD_COUNT = 6;
+const SHARD_COUNT = 6;
 
 export const runAbbreviationShard = (shard: number): void => {
   const cardSearch = new Search(cards);

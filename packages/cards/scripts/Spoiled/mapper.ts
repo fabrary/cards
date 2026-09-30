@@ -659,14 +659,14 @@ const getKeywords = (card: ParsedCard): Keyword[] => {
   return keywords;
 };
 
-export const getParsedRarities = (
+const getParsedRarities = (
   card: ParsedCard,
 ): { rarities: Rarity[]; rarity: Rarity | undefined } => {
   const { rarity, rarity2, rarity3, rarity4 } = card;
 
   const rarities = [rarity, rarity2, rarity3, rarity4]
-    .filter((rarity) => !!rarity)
-    .sort() as string[];
+    .filter((rarity): rarity is string => !!rarity)
+    .sort();
   return getRarities({ rarities });
 };
 
@@ -723,7 +723,7 @@ const getYoung = (card: ParsedCard): boolean | null => {
   return types.includes("Hero") && types.includes("Young") ? true : null;
 };
 
-const getSortedUnique = <T>(...lists: T[][]): T[] => {
+const getSortedUnique = <T extends string>(...lists: T[][]): T[] => {
   const unique = new Set<T>();
   for (const list of lists) {
     for (const entry of list) {

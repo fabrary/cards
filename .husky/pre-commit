@@ -1,2 +1,5 @@
 npx lint-staged
-npm run lint
+# Type-aware rules resolve the packages through their built dist, which a fresh
+# clone lacks; CI runs the full `npm run lint` after its build.
+npx oxlint --deny-warnings
+npm run knip

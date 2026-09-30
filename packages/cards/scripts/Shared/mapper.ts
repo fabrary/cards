@@ -67,7 +67,7 @@ const TRANSCEND_CARD_NAMES = [
 
 const CARD_FRONTS_OVERRIDES = [...TRANSCEND_CARD_NAMES];
 
-export const CARD_BACKS_OVERRIDES = ["Inner Chi"];
+const CARD_BACKS_OVERRIDES = ["Inner Chi"];
 
 export const addOppositeSideCardIdentifiers = (cards: PreliminaryCard[]) => {
   // Index cards by printing identifier so opposite-side candidates can be
@@ -688,7 +688,7 @@ export const getMeta = (
   return meta;
 };
 
-export const rarityStringMapping: { [key: string]: Rarity } = {
+const rarityStringMapping: { [key: string]: Rarity } = {
   B: Rarity.Basic,
   T: Rarity.Token,
   F: Rarity.Fabled,

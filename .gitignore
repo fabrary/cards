@@ -105,6 +105,7 @@ dist
 
 # nx/lerna
 .nx/cache
+.nx/workspace-data
 
 # spelling
 spelling-additions-local.ts
