@@ -1,5 +1,5 @@
 import { execFileSync } from "node:child_process";
-import { mkdtempSync } from "node:fs";
+import { mkdtempSync, readFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { pathToFileURL } from "node:url";
@@ -26,9 +26,13 @@ const getPublishedCards = async (): Promise<Card[]> => {
     ),
   );
   execFileSync("tar", ["-xzf", join(packDir, filename), "-C", packDir]);
-  const { cards } = await import(
-    pathToFileURL(join(packDir, "package", "dist", "index.js")).href
+  // The extracted package has no node_modules, so only a build that bundles
+  // its dependencies loads: `main` is the bundled CommonJS one.
+  const packageDir = join(packDir, "package");
+  const { main } = JSON.parse(
+    readFileSync(join(packageDir, "package.json"), "utf8"),
   );
+  const { cards } = await import(pathToFileURL(join(packageDir, main)).href);
   return cards;
 };
 
