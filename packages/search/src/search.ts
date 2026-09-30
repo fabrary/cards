@@ -7,7 +7,7 @@ import {
   setIdentifierToSetMappings,
   setToSetIdentifierMappings,
 } from "@flesh-and-blood/types";
-import Fuse from "fuse.js";
+import Fuse, { type IFuseOptions } from "fuse.js";
 import { PUNCTUATION } from "./constants.js";
 import {
   AppliedFilter,
@@ -56,14 +56,17 @@ export interface SearchResults {
   unresolvedFilters: UnresolvedFilter[];
 }
 
-const searchOptions: Fuse.IFuseOptions<DoubleSidedCard> = {
+const searchOptions: IFuseOptions<DoubleSidedCard> = {
   getFn: (obj, path) => {
     const value = Fuse.config.getFn(obj, path);
     let normalizedValue: string | readonly string[] | undefined = value;
     if (Array.isArray(value)) {
-      normalizedValue = value.map((val) =>
-        getNormalizedText(val.replace(PUNCTUATION, "")),
-      );
+      // The default getFn wraps array items as { v, i } records, which its
+      // declared string[] return type omits.
+      normalizedValue = value.map((item: string | { v: string }) => {
+        const text = typeof item === "string" ? item : item.v;
+        return getNormalizedText(text.replace(PUNCTUATION, ""));
+      });
     } else if (value) {
       const text = getNormalizedText(value as string).replace(PUNCTUATION, "");
       normalizedValue = path.includes("functionalText")
