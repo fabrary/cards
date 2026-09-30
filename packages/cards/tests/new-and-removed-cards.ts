@@ -1,6 +1,35 @@
+import { execFileSync } from "node:child_process";
+import { mkdtempSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
 import { styleText } from "node:util";
-import { cards as publishedCards } from "latest-cards";
+import { Card } from "@flesh-and-blood/types";
 import { cards as cardsToPublish } from "../dist/index";
+
+// The published cards are whatever npm serves under the latest tag, fetched
+// fresh on every run so nothing in the repo has to track the last publish.
+const getPublishedCards = (): Card[] => {
+  const packDir = mkdtempSync(join(tmpdir(), "published-cards-"));
+  const [{ filename }] = JSON.parse(
+    execFileSync(
+      "npm",
+      [
+        "pack",
+        "@flesh-and-blood/cards@latest",
+        "--pack-destination",
+        packDir,
+        "--workspaces=false",
+        "--json",
+      ],
+      { encoding: "utf8", stdio: ["ignore", "pipe", "inherit"] },
+    ),
+  );
+  execFileSync("tar", ["-xzf", join(packDir, filename), "-C", packDir]);
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  return require(join(packDir, "package", "dist", "index.js")).cards;
+};
+
+const publishedCards = getPublishedCards();
 
 const added: string[] = [];
 for (const toPublish of cardsToPublish) {
