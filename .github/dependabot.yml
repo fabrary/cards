@@ -12,6 +12,8 @@ updates:
       dev-minor-patch:
         dependency-type: development
         update-types: [minor, patch]
+        # Pre-1.0: a minor bump can break, so these get their own PRs.
+        exclude-patterns: ["esbuild", "esbuild-jest"]
       dev-major:
         dependency-type: development
         update-types: [major]
