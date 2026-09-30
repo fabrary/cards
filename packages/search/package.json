@@ -51,7 +51,7 @@
     "@flesh-and-blood/types": "^5.2.1",
     "@types/node": "^24.19.0",
     "esbuild": "^0.19.10",
-    "typescript": "^5.7.3",
+    "typescript": "^7.0.2",
     "vitest": "^5.0.3"
   },
   "files": [
