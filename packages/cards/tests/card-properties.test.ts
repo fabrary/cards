@@ -9,13 +9,13 @@ import {
   Trait,
 } from "@flesh-and-blood/types";
 
-describe("Check for unintentional updates", () => {
+describe("Every card matches its snapshot", () => {
   it.each(
     cardsToPublish.map((card) => [
       `${card.name} (${card.cardIdentifier})`,
       card,
     ]),
-  )("%s vs snapshot", (_, card) => {
+  )("%s", (_, card) => {
     expect(card).toMatchSnapshot();
   });
 });
