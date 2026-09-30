@@ -20,7 +20,6 @@
     "*.{ts,js,mjs,cjs,json,md,yml,yaml}": "prettier --write"
   },
   "devDependencies": {
-    "@types/jest": "^30.0.0",
     "husky": "^9.1.7",
     "lerna": "^8.0.1",
     "lint-staged": "^17.0.8",

@@ -3,7 +3,7 @@
 // value instead. A report is read with `toStrictEqual` so that a suggestion
 // left off reads differently from one made.
 
-import { describe, expect, it } from "@jest/globals";
+import { describe, expect, it } from "vitest";
 import { FilterCategory } from "../src/filterMappings";
 import { getParsedQuery } from "../src/queryParse";
 import type { UnresolvedFilter } from "../src/queryParse";

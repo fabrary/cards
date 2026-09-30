@@ -61,5 +61,5 @@ Source lives in `src/` (`interfaces.ts`, `sets.ts`, `helpers/`).
 
 ```bash
 npm run build   # build:esm (per-file ESM, tree-shakeable) + build:cjs (bundled) + tsc declarations
-npm test        # jest
+npm test        # vitest
 ```

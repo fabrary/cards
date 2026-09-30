@@ -1,4 +1,4 @@
-import { describe, it } from "@jest/globals";
+import { describe, it } from "vitest";
 import { cards } from "../dist/index";
 
 describe("Restrictions seem reasonable", () => {
