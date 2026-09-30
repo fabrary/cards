@@ -45,7 +45,7 @@ for (const toPublish of cardsToPublish) {
   );
   if (!match) {
     added.push(
-      `${toPublish.name} - ${toPublish.cardIdentifier} - ${toPublish.setIdentifiers}`,
+      `${toPublish.name} - ${toPublish.cardIdentifier} - ${toPublish.setIdentifiers.join(",")}`,
     );
   }
 }
@@ -57,7 +57,7 @@ for (const alreadyPublished of publishedCards) {
   );
   if (!match) {
     removed.push(
-      `${alreadyPublished.name} - ${alreadyPublished.cardIdentifier} - ${alreadyPublished.setIdentifiers}`,
+      `${alreadyPublished.name} - ${alreadyPublished.cardIdentifier} - ${alreadyPublished.setIdentifiers.join(",")}`,
     );
   }
 }

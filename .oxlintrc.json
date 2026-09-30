@@ -1,31 +1,54 @@
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
-  // Non-type-aware on purpose: the hand-written code (the transform pipeline,
-  // tts/sitemap generators, tests) is entirely synchronous, so type-aware
-  // promise rules would need tsconfig plumbing without catching anything.
-  // oxlint runs its correctness category as warnings; eslint's recommended set
-  // blocked on them.
+  "plugins": ["eslint", "typescript", "oxc"],
+  // oxlint runs its correctness category as warnings; lint fails on them here.
   "categories": { "correctness": "error" },
-  "rules": {
-    // Only push `const` when every var in a destructuring can be const; don't
-    // fight mixed `let { a, b } =` where one member is reassigned.
-    "prefer-const": ["error", { "destructuring": "all" }],
-    // Surface dead code as a warning, not a build-blocker; allow the
-    // conventional `_` prefix escape.
-    "no-unused-vars": [
-      "warn",
-      {
-        "argsIgnorePattern": "^_",
-        "varsIgnorePattern": "^_",
-        "ignoreRestSiblings": true
-      }
-    ],
-    "no-useless-assignment": "error"
-  },
+  "env": { "builtin": true, "node": true },
   // Machine output: the generated card data would trip no-unused-vars.
   "ignorePatterns": [
     "**/dist/**",
     "packages/cards/src/**",
     "packages/cards/latest-set/**"
-  ]
+  ],
+  "overrides": [
+    {
+      // The example shows the package loaded from CommonJS.
+      "files": ["examples/**"],
+      "rules": { "typescript/no-require-imports": "off" }
+    }
+  ],
+  "rules": {
+    "no-array-constructor": "error",
+    "no-case-declarations": "error",
+    "no-empty": "error",
+    "no-fallthrough": "error",
+    "no-prototype-builtins": "error",
+    "no-regex-spaces": "error",
+    "no-unexpected-multiline": "error",
+    "no-useless-assignment": "error",
+    "no-var": "error",
+    // Only push `const` when every var in a destructuring can be const; don't
+    // fight mixed `let { a, b } =` where one member is reassigned.
+    "prefer-const": ["error", { "destructuring": "all" }],
+    "prefer-rest-params": "error",
+    "prefer-spread": "error",
+    "preserve-caught-error": "error",
+    "no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_",
+        "caughtErrorsIgnorePattern": "^_",
+        "ignoreRestSiblings": true
+      }
+    ],
+    "typescript/no-empty-object-type": "error",
+    "typescript/no-namespace": "error",
+    "typescript/no-require-imports": "error",
+    "typescript/no-unnecessary-type-constraint": "error",
+    "typescript/no-unsafe-function-type": "error",
+    "typescript/no-floating-promises": ["error", { "ignoreIIFE": true }],
+    "typescript/no-misused-promises": "error",
+    "typescript/require-await": "error"
+  }
 }

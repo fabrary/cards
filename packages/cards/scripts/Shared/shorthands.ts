@@ -162,27 +162,3 @@ export const shorthands: {
     shorthands: [Shorthand.Untap],
   },
 ];
-
-export const multiWordShorthands = shorthands
-  .filter(({ shorthands }) =>
-    shorthands.some((shorthand) => shorthand.includes(" ")),
-  )
-  .map((shorthand) => ({
-    ...shorthand,
-    shorthands: shorthand.shorthands
-      .filter((shorthand) => shorthand.includes(" "))
-      .map((shorthand) => shorthand.toLowerCase())
-      .sort((s1, s2) => s2.length - s1.length),
-  }));
-
-export const singleWordShorthands = shorthands
-  .filter(({ shorthands }) =>
-    shorthands.some((shorthand) => !shorthand.includes(" ")),
-  )
-  .map((shorthand) => ({
-    ...shorthand,
-    shorthands: shorthand.shorthands
-      .filter((shorthand) => !shorthand.includes(" "))
-      .map((shorthand) => shorthand.toLowerCase())
-      .sort((s1, s2) => s2.length - s1.length),
-  }));

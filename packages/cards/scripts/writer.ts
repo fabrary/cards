@@ -32,7 +32,7 @@ const getEnumValues = (
   values: readonly string[] | undefined,
   enumName: string,
   enumObject: EnumObject,
-): string[] => {
+): string => {
   let enumValues: string[] = [];
 
   const hasValues = !!values && !(values.length === 1 && !values[0]);
@@ -42,10 +42,10 @@ const getEnumValues = (
     );
   }
 
-  return enumValues;
+  return enumValues.join(",");
 };
 
-const getStringValues = (values: readonly string[] | undefined): string[] => {
+const getStringValues = (values: readonly string[] | undefined): string => {
   let stringValues: string[] = [];
 
   const hasValues = !!values && !(values.length === 1 && !values[0]);
@@ -53,7 +53,7 @@ const getStringValues = (values: readonly string[] | undefined): string[] => {
     stringValues = values.map((value) => `"${value}"`);
   }
 
-  return stringValues;
+  return stringValues.join(",");
 };
 
 // Cache a value -> key reverse lookup per enum object. Built by iterating
@@ -97,7 +97,7 @@ const getPrintings = (printings: Printing[]) => {
     ) =>
       printings +
       `{
-        artists: [${artists.map((artist) => `"${artist}"`)}],
+        artists: [${artists.map((artist) => `"${artist}"`).join(",")}],
       ${
         edition
           ? `edition: ${getEnumValue(
@@ -152,7 +152,7 @@ const getLegalOverrides = (legalOverrides: LegalOverride[]): string => {
 
 const generateCardTypeScript = (card: Card): string => {
   return `{
-    artists: [${card.artists.map((artist) => `"${artist}"`)}],
+    artists: [${card.artists.map((artist) => `"${artist}"`).join(",")}],
     cardIdentifier: "${card.cardIdentifier}",
     classes: [${getEnumValues(card.classes, "Class", Class)}],
     defaultImage: "${card.defaultImage}",
@@ -163,7 +163,7 @@ const generateCardTypeScript = (card: Card): string => {
     printings: [${getPrintings(card.printings)}],
     rarities: [${getEnumValues(card.rarities, "Rarity", Rarity)}],
     rarity: ${getEnumValue(card.rarity, "Rarity", Rarity)},
-    setIdentifiers: [${card.setIdentifiers.map((id) => `"${id}"`)}],
+    setIdentifiers: [${card.setIdentifiers.map((id) => `"${id}"`).join(",")}],
     sets: [${getEnumValues(card.sets, "Release", Release)}],
     specialImage: "${card.specialImage}",
     subtypes: [${getEnumValues(card.subtypes, "Subtype", Subtype)}],
@@ -235,9 +235,9 @@ const generateCardTypeScript = (card: Card): string => {
         : ``
     }${
       card.oppositeSideCardIdentifiers?.length
-        ? `oppositeSideCardIdentifiers: [${card.oppositeSideCardIdentifiers.map(
-            (id) => `"${id}"`,
-          )}],`
+        ? `oppositeSideCardIdentifiers: [${card.oppositeSideCardIdentifiers
+            .map((id) => `"${id}"`)
+            .join(",")}],`
         : ``
     }
     ${card.pitch || card.pitch === 0 ? `pitch: ${card.pitch},` : ``}
@@ -359,9 +359,9 @@ const generateTS = (cards: Card[]): string => {
 
   ${cardChunks
     .map((cards, chunk) => {
-      return `const cards${chunk + 1}: Card[] = [${cards.map(
-        generateCardTypeScript,
-      )}];`;
+      return `const cards${chunk + 1}: Card[] = [${cards
+        .map(generateCardTypeScript)
+        .join(",")}];`;
     })
     .join("\n")}
 

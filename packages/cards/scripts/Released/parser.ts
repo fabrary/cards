@@ -16,7 +16,7 @@ const IMAGES_TO_EXCLUDE = [
 const filterOutUnwantedPrintings = ({ imageUrl }: Printing) =>
   !IMAGES_TO_EXCLUDE.some((image) => imageUrl?.includes(image));
 
-export interface Printing {
+interface Printing {
   setIdentifier: string;
   set: Release;
   edition: string;
@@ -72,7 +72,7 @@ export interface ParsedCard {
   silverAgeLegal: boolean;
 }
 
-export interface SourcePrinting {
+interface SourcePrinting {
   unique_id: string;
   id: string;
   set_id: string;
