@@ -1,96 +1,96 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Gets the right attribute filters Gets matching foilings for foil:cf,g 1`] = `
+exports[`Gets the right attribute filters > Gets matching foilings for foil:cf,g 1`] = `
 [
   "Cold",
   "Gold",
 ]
 `;
 
-exports[`Gets the right attribute filters Gets matching foilings for foil:cf,g 2`] = `
+exports[`Gets the right attribute filters > Gets matching foilings for foil:cf,g 2`] = `
 [
   "Cold",
   "Gold",
 ]
 `;
 
-exports[`Gets the right attribute filters Gets matching foilings for foiling:r 1`] = `
+exports[`Gets the right attribute filters > Gets matching foilings for foiling:r 1`] = `
 [
   "Rainbow",
 ]
 `;
 
-exports[`Gets the right attribute filters Gets matching foilings for foiling:r 2`] = `
+exports[`Gets the right attribute filters > Gets matching foilings for foiling:r 2`] = `
 [
   "Rainbow",
 ]
 `;
 
-exports[`Gets the right attribute filters Gets matching foilings for treat:"alt art",fa 1`] = `
+exports[`Gets the right attribute filters > Gets matching foilings for treat:"alt art",fa 1`] = `
 [
   "Alternate Art",
   "Full Art",
 ]
 `;
 
-exports[`Gets the right attribute filters Gets matching foilings for treatment:ea 1`] = `
+exports[`Gets the right attribute filters > Gets matching foilings for treatment:ea 1`] = `
 [
   "Extended Art",
 ]
 `;
 
-exports[`Gets the right attribute filters Gets matching sets for s:"Dorinthea Demo Deck" 1`] = `
+exports[`Gets the right attribute filters > Gets matching sets for s:"Dorinthea Demo Deck" 1`] = `
 [
   "Dorinthea Demo Deck",
 ]
 `;
 
-exports[`Gets the right attribute filters Gets matching sets for s:"bravo demo deck" 1`] = `
+exports[`Gets the right attribute filters > Gets matching sets for s:"bravo demo deck" 1`] = `
 [
   "Bravo Demo Deck",
 ]
 `;
 
-exports[`Gets the right attribute filters Gets matching sets for s:ara 1`] = `
+exports[`Gets the right attribute filters > Gets matching sets for s:ara 1`] = `
 [
   "Arakni Blitz Deck",
 ]
 `;
 
-exports[`Gets the right attribute filters Gets matching sets for s:ara 2`] = `
+exports[`Gets the right attribute filters > Gets matching sets for s:ara 2`] = `
 [
   "Arakni Blitz Deck",
 ]
 `;
 
-exports[`Gets the right attribute filters Gets matching sets for s:ddd 1`] = `
+exports[`Gets the right attribute filters > Gets matching sets for s:ddd 1`] = `
 [
   "Dorinthea Demo Deck",
 ]
 `;
 
-exports[`Gets the right attribute filters Gets matching sets for s:welcome 1`] = `
+exports[`Gets the right attribute filters > Gets matching sets for s:welcome 1`] = `
 [
   "Welcome to Rathe",
   "Ira Welcome Deck",
 ]
 `;
 
-exports[`Gets the right attribute filters Gets matching sets for s:welcome 2`] = `
+exports[`Gets the right attribute filters > Gets matching sets for s:welcome 2`] = `
 [
   "Welcome to Rathe",
   "Ira Welcome Deck",
 ]
 `;
 
-exports[`Gets the right attribute filters Gets matching treatments for treat:"alt art",fa 1`] = `
+exports[`Gets the right attribute filters > Gets matching treatments for treat:"alt art",fa 1`] = `
 [
   "Alternate Art",
   "Full Art",
 ]
 `;
 
-exports[`Gets the right attribute filters Gets matching treatments for treatment:ea 1`] = `
+exports[`Gets the right attribute filters > Gets matching treatments for treatment:ea 1`] = `
 [
   "Extended Art",
 ]
