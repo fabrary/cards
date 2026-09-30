@@ -1,4 +1,4 @@
-import chalk from "chalk";
+import { styleText } from "node:util";
 import { cards as publishedCards } from "latest-cards";
 import { cards as cardsToPublish } from "../dist/index";
 
@@ -27,12 +27,15 @@ for (const alreadyPublished of publishedCards) {
 }
 
 console.log(
-  chalk.underline(`${chalk.bold(cardsToPublish.length)} cards to publish`),
+  styleText(
+    "underline",
+    `${styleText("bold", String(cardsToPublish.length))} cards to publish`,
+  ),
 );
 if (added.length > 0) {
   console.log(
     `⚠️ New cards being added:
-${chalk.yellow(added.join("\n"))}
+${styleText("yellow", added.join("\n"))}
 `,
   );
 } else {
@@ -42,7 +45,7 @@ ${chalk.yellow(added.join("\n"))}
 if (removed.length > 0) {
   console.log(
     `⚠️ Cards being removed:
-${chalk.yellow(removed.join("\n"))}
+${styleText("yellow", removed.join("\n"))}
 `,
   );
 } else {
