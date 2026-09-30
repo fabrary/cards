@@ -3,6 +3,9 @@
   // Non-type-aware on purpose: the hand-written code (the transform pipeline,
   // tts/sitemap generators, tests) is entirely synchronous, so type-aware
   // promise rules would need tsconfig plumbing without catching anything.
+  // oxlint runs its correctness category as warnings; eslint's recommended set
+  // blocked on them.
+  "categories": { "correctness": "error" },
   "rules": {
     // Only push `const` when every var in a destructuring can be const; don't
     // fight mixed `let { a, b } =` where one member is reassigned.
