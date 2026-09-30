@@ -28,7 +28,7 @@ import {
 // generated source names the member, so these helpers look one up by value.
 type EnumObject = Record<string, string>;
 
-const getEnumValues = (
+const getEnumListSource = (
   values: readonly string[] | undefined,
   enumName: string,
   enumObject: EnumObject,
@@ -45,7 +45,7 @@ const getEnumValues = (
   return enumValues.join(",");
 };
 
-const getStringValues = (values: readonly string[] | undefined): string => {
+const getStringListSource = (values: readonly string[] | undefined): string => {
   let stringValues: string[] = [];
 
   const hasValues = !!values && !(values.length === 1 && !values[0]);
@@ -126,7 +126,7 @@ const getPrintings = (printings: Printing[]) => {
       }
       ${
         treatments && treatments.length > 0
-          ? `treatments: [${getEnumValues(
+          ? `treatments: [${getEnumListSource(
               treatments,
               "Treatment",
               Treatment,
@@ -144,7 +144,7 @@ const getLegalOverrides = (legalOverrides: LegalOverride[]): string => {
       overrides +
       `{
     format: ${getEnumValue(format, "Format", Format)},
-    heroes: [${getEnumValues(heroes, "Hero", Hero)}],
+    heroes: [${getEnumListSource(heroes, "Hero", Hero)}],
     }`,
     ``,
   );
@@ -154,26 +154,26 @@ const generateCardTypeScript = (card: Card): string => {
   return `{
     artists: [${card.artists.map((artist) => `"${artist}"`).join(",")}],
     cardIdentifier: "${card.cardIdentifier}",
-    classes: [${getEnumValues(card.classes, "Class", Class)}],
+    classes: [${getEnumListSource(card.classes, "Class", Class)}],
     defaultImage: "${card.defaultImage}",
     firstReleaseDate: "${card.firstReleaseDate}",
-    legalFormats: [${getEnumValues(card.legalFormats, "Format", Format)}],
-    legalHeroes: [${getEnumValues(card.legalHeroes, "Hero", Hero)}],
+    legalFormats: [${getEnumListSource(card.legalFormats, "Format", Format)}],
+    legalHeroes: [${getEnumListSource(card.legalHeroes, "Hero", Hero)}],
     name: "${card.name}",
     printings: [${getPrintings(card.printings)}],
-    rarities: [${getEnumValues(card.rarities, "Rarity", Rarity)}],
+    rarities: [${getEnumListSource(card.rarities, "Rarity", Rarity)}],
     rarity: ${getEnumValue(card.rarity, "Rarity", Rarity)},
     setIdentifiers: [${card.setIdentifiers.map((id) => `"${id}"`).join(",")}],
-    sets: [${getEnumValues(card.sets, "Release", Release)}],
+    sets: [${getEnumListSource(card.sets, "Release", Release)}],
     specialImage: "${card.specialImage}",
-    subtypes: [${getEnumValues(card.subtypes, "Subtype", Subtype)}],
-    types: [${getEnumValues(card.types, "Type", Type)}],
+    subtypes: [${getEnumListSource(card.subtypes, "Subtype", Subtype)}],
+    types: [${getEnumListSource(card.types, "Type", Type)}],
     typeText: "${card.typeText}",
 
     ${card.arcane || card.arcane === 0 ? `arcane: ${card.arcane},` : ``}
     ${
       card.bannedFormats && card.bannedFormats.length > 0
-        ? `bannedFormats: [${getEnumValues(
+        ? `bannedFormats: [${getEnumListSource(
             card.bannedFormats,
             "Format",
             Format,
@@ -181,24 +181,24 @@ const generateCardTypeScript = (card: Card): string => {
         : ``
     }${
       card.bonds && card.bonds.length > 0
-        ? `bonds: [${getEnumValues(card.bonds, "Bond", Bond)}],`
+        ? `bonds: [${getEnumListSource(card.bonds, "Bond", Bond)}],`
         : ``
     }
     ${card.cost || card.cost === 0 ? `cost: ${card.cost},` : ``}${
       card.createdExtras && card.createdExtras.length > 0
-        ? `createdExtras: [${getStringValues(card.createdExtras)}],`
+        ? `createdExtras: [${getStringListSource(card.createdExtras)}],`
         : ``
     }
     ${card.defense || card.defense === 0 ? `defense: ${card.defense},` : ``}
     ${
       card.flows && card.flows.length > 0
-        ? `flows: [${getEnumValues(card.flows, "Flow", Flow)}],`
+        ? `flows: [${getEnumListSource(card.flows, "Flow", Flow)}],`
         : ``
     }
     ${card.functionalText ? `functionalText: \`${card.functionalText}\`,` : ``}
     ${
       card.fusions && card.fusions.length > 0
-        ? `fusions: [${getEnumValues(card.fusions, "Fusion", Fusion)}],`
+        ? `fusions: [${getEnumListSource(card.fusions, "Fusion", Fusion)}],`
         : ``
     }
     ${card.hero ? `hero: ${getEnumValue(card.hero, "Hero", Hero)},` : ``}
@@ -206,7 +206,7 @@ const generateCardTypeScript = (card: Card): string => {
     ${card.isCardBack ? `isCardBack: ${card.isCardBack},` : ``}
     ${
       card.keywords && card.keywords.length > 0
-        ? `keywords: [${getEnumValues(card.keywords, "Keyword", Keyword)}],`
+        ? `keywords: [${getEnumListSource(card.keywords, "Keyword", Keyword)}],`
         : ``
     }
     ${
@@ -217,16 +217,16 @@ const generateCardTypeScript = (card: Card): string => {
     ${card.life ? `life: ${card.life},` : ``}
     ${
       card.meta && card.meta.length > 0
-        ? `meta: [${getEnumValues(card.meta, "Meta", Meta)}],`
+        ? `meta: [${getEnumListSource(card.meta, "Meta", Meta)}],`
         : ``
     }${
       card.metatypes && card.metatypes.length > 0
-        ? `metatypes: [${getEnumValues(card.metatypes, "Metatype", Metatype)}],`
+        ? `metatypes: [${getEnumListSource(card.metatypes, "Metatype", Metatype)}],`
         : ``
     }
   ${
     card.nicknames && card.nicknames.length > 0
-      ? `nicknames: [${getStringValues(card.nicknames)}],`
+      ? `nicknames: [${getStringListSource(card.nicknames)}],`
       : ``
   }
     ${
@@ -243,12 +243,12 @@ const generateCardTypeScript = (card: Card): string => {
     ${card.pitch || card.pitch === 0 ? `pitch: ${card.pitch},` : ``}
     ${card.power || card.power === 0 ? `power: ${card.power},` : ``}${
       card.referencedCards && card.referencedCards.length > 0
-        ? `referencedCards: [${getStringValues(card.referencedCards)}],`
+        ? `referencedCards: [${getStringListSource(card.referencedCards)}],`
         : ``
     }
     ${
       card.restrictedFormats && card.restrictedFormats.length > 0
-        ? `restrictedFormats: [${getEnumValues(
+        ? `restrictedFormats: [${getEnumListSource(
             card.restrictedFormats,
             "Format",
             Format,
@@ -257,7 +257,7 @@ const generateCardTypeScript = (card: Card): string => {
     }
     ${
       card.shorthands && card.shorthands.length > 0
-        ? `shorthands: [${getEnumValues(
+        ? `shorthands: [${getEnumListSource(
             card.shorthands,
             "Shorthand",
             Shorthand,
@@ -272,7 +272,7 @@ const generateCardTypeScript = (card: Card): string => {
     ${card.specialPower ? `specialPower: "${card.specialPower}",` : ``}
     ${
       card.specializations && card.specializations.length > 0
-        ? `specializations: [${getEnumValues(
+        ? `specializations: [${getEnumListSource(
             card.specializations,
             "Hero",
             Hero,
@@ -281,12 +281,12 @@ const generateCardTypeScript = (card: Card): string => {
     }
     ${
       card.talents && card.talents.length > 0
-        ? `talents: [${getEnumValues(card.talents, "Talent", Talent)}],`
+        ? `talents: [${getEnumListSource(card.talents, "Talent", Talent)}],`
         : ``
     }
   ${
     card.traits && card.traits.length > 0
-      ? `traits: [${getEnumValues(card.traits, "Trait", Trait)}],`
+      ? `traits: [${getEnumListSource(card.traits, "Trait", Trait)}],`
       : ``
   }
   ${card.young ? `young: ${card.young}` : ``}
