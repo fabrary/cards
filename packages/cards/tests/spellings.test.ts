@@ -20,7 +20,7 @@ const Typo = require("typo-js");
 
 const dictionary = new Typo("en_US");
 for (const word of ADDITIONS) {
-  dictionary.dictionaryTable[word] = null;
+  dictionary.dictionaryTable.set(word, null);
 }
 
 describe("Card names are spelled correctly", () => {
@@ -32,7 +32,11 @@ describe("Card names are spelled correctly", () => {
 
       const part = dirtyPart.replaceAll("'s", "").replaceAll(PUNCTUATION, "");
 
-      parts.push({ name: fullName, part });
+      // A token that is all punctuation (the "//" in double-faced names) leaves
+      // no word to check.
+      if (part !== "") {
+        parts.push({ name: fullName, part });
+      }
     }
   }
 
