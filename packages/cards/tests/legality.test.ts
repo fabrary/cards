@@ -199,7 +199,7 @@ describe("Extras follow what a hero's pool creates", () => {
 // macro is the one extra class, talent and draft set still answer for.
 describe("Macros follow class and talent", () => {
   it.each([
-    ["omens-of-arcana", [Hero.Aurora, Hero.Oscilio, Hero.Zyggy]],
+    ["omens-of-arcana", [Hero.Aurora2, Hero.Broscilio, Hero.Zyggy]],
     [
       "sanctuary-of-aria",
       [Hero.Aurora, Hero.Florian, Hero.Oscilio, Hero.Verdance],
