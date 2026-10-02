@@ -1,6 +1,5 @@
 export { default } from "./search.js";
 
-export * from "./abbreviations.js";
 export * from "./constants.js";
 export * from "./filterMappings.js";
 export * from "./filters.js";

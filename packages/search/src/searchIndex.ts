@@ -5,7 +5,7 @@ import {
   getCardRole,
   Type,
 } from "@flesh-and-blood/types";
-import { getCleanText } from "./helpers.js";
+import { getCleanText, getNormalizedText } from "./helpers.js";
 
 /**
  * Everything a corpus can be asked about its cards: lookups, the relations the
@@ -36,6 +36,13 @@ export interface CatalogueIndex<
    * a fragment of a name the corpus carries finds nothing.
    */
   getCardsByExactName: (name: string) => readonly CardType[];
+  /** Every card carrying the nickname, matched whole. */
+  getCardsByNickname: (nickname: string) => readonly CardType[];
+  /**
+   * Every card whose name has the initials, in corpus order. A hyphenated word
+   * answers both as one word and as the words the hyphens join.
+   */
+  getCardsByInitials: (initials: string) => readonly CardType[];
   /**
    * Every artist the corpus credits, each once, ordered by the `en` locale
    * ignoring case and diacritics so a browser and a server agree on the list.
@@ -77,6 +84,49 @@ interface CardLookups<CardType extends DoubleSidedCard> {
   cleanedNames: string[];
   pitchCycleByCleanedName: Map<string, CardType[]>;
 }
+
+/** Initials shorter than this are shared by too many names to point at one. */
+const MINIMUM_INITIALS_LENGTH = 3;
+
+/**
+ * The initials a name answers to: the first letter of each word, with digits
+ * and punctuation dropped, once reading a hyphen as a word break and once
+ * reading the hyphenated word as one.
+ */
+const getInitialsOfName = (name: string): string[] => {
+  const letters = getNormalizedText(name.toLowerCase()).replace(
+    /[^a-z\s-]/g,
+    "",
+  );
+  const initialsOfName = new Set<string>();
+
+  for (const wordBreak of [/[\s-]+/, /\s+/]) {
+    const initials = letters
+      .split(wordBreak)
+      .filter((word) => word.replaceAll("-", "").length > 0)
+      .map((word) => word.replaceAll("-", "")[0])
+      .join("");
+    if (initials.length >= MINIMUM_INITIALS_LENGTH) {
+      initialsOfName.add(initials);
+    }
+  }
+
+  return [...initialsOfName];
+};
+
+/** Appends the card to the key's list, starting the list on first sight. */
+const addToCardList = <CardType>(
+  cardsByKey: Map<string, CardType[]>,
+  key: string,
+  card: CardType,
+): void => {
+  const cardsForKey = cardsByKey.get(key);
+  if (cardsForKey) {
+    cardsForKey.push(card);
+  } else {
+    cardsByKey.set(key, [card]);
+  }
+};
 
 const catalogueIndexByCards = new WeakMap<
   readonly DoubleSidedCard[],
@@ -153,6 +203,8 @@ const getNewCatalogueIndex = <CardType extends DoubleSidedCard>(
   let creatingCardsByCardIdentifier: Map<string, CardType[]> | undefined;
   let cardsByRole: Map<CardRole, CardType[]> | undefined;
   let artists: string[] | undefined;
+  let cardsByCleanedNickname: Map<string, CardType[]> | undefined;
+  let cardsByInitials: Map<string, CardType[]> | undefined;
 
   /**
    * Identifier, position and name come out of one pass: a corpus asked to find
@@ -284,6 +336,36 @@ const getNewCatalogueIndex = <CardType extends DoubleSidedCard>(
     return pitchCycleByCleanedName.get(getCleanText(name)) ?? noCards;
   };
 
+  const getCardsByNickname = (nickname: string): readonly CardType[] => {
+    if (!cardsByCleanedNickname) {
+      cardsByCleanedNickname = new Map();
+      for (const card of cards) {
+        for (const cardNickname of card.nicknames ?? []) {
+          addToCardList(
+            cardsByCleanedNickname,
+            getCleanText(cardNickname),
+            card,
+          );
+        }
+      }
+    }
+
+    return cardsByCleanedNickname.get(getCleanText(nickname)) ?? noCards;
+  };
+
+  const getCardsByInitials = (initials: string): readonly CardType[] => {
+    if (!cardsByInitials) {
+      cardsByInitials = new Map();
+      for (const card of cards) {
+        for (const initialsOfName of getInitialsOfName(card.name)) {
+          addToCardList(cardsByInitials, initialsOfName, card);
+        }
+      }
+    }
+
+    return cardsByInitials.get(initials) ?? noCards;
+  };
+
   const getArtists = (): readonly string[] => {
     if (!artists) {
       const creditedArtists = new Set<string>();
@@ -374,6 +456,8 @@ const getNewCatalogueIndex = <CardType extends DoubleSidedCard>(
     getPitchCycle,
     getCardsByName,
     getCardsByExactName,
+    getCardsByNickname,
+    getCardsByInitials,
     getArtists,
     getOppositeSide,
     getReferences,

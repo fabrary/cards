@@ -77,41 +77,36 @@ const formatMappings: { format: string; nicknames?: string[] }[] =
       : { format: cleanFormat };
   });
 
-const nicknameHeroMappings: { hero: Hero; nicknames: string[] }[] = [
-  {
-    hero: Hero.DataDoll,
-    nicknames: ["data", "datadoll"],
-  },
-  {
-    hero: Hero.Dorinthea,
-    nicknames: ["dori"],
-  },
-  {
-    hero: Hero.Genis,
-    nicknames: ["genis"],
-  },
-  {
-    hero: Hero.GravyBones,
-    nicknames: ["gravy"],
-  },
-  {
-    hero: Hero.Iyslander,
-    nicknames: ["islander"],
-  },
-];
+const cleanHeroes = Object.values(Hero).map((hero) =>
+  hero.toLowerCase().replaceAll(PUNCTUATION, ""),
+);
 
-const heroMappings: { hero: string; nicknames?: string[] }[] = Object.values(
-  Hero,
-).map((hero) => {
-  const withNicknames = nicknameHeroMappings.find(
-    ({ hero: nicknameHero }) => nicknameHero === hero,
+const getWithoutSpaces = (text: string): string => text.replaceAll(" ", "");
+
+/**
+ * The hero a legality value names: its whole name, spaces optional, or else the
+ * start of exactly one hero's name. A start several names share names none.
+ */
+const getMatchingHero = (
+  value: string,
+  heroes: string[],
+): string | undefined => {
+  const valueWithoutSpaces = getWithoutSpaces(value);
+  let matchingHero = heroes.find(
+    (hero) => getWithoutSpaces(hero) === valueWithoutSpaces,
   );
-  const cleanHero = hero.toLowerCase().replaceAll(PUNCTUATION, "");
 
-  return withNicknames
-    ? { ...withNicknames, hero: cleanHero }
-    : { hero: cleanHero };
-});
+  if (!matchingHero) {
+    const heroesStartingWithValue = heroes.filter((hero) =>
+      getWithoutSpaces(hero).startsWith(valueWithoutSpaces),
+    );
+    if (heroesStartingWithValue.length === 1) {
+      matchingHero = heroesStartingWithValue[0];
+    }
+  }
+
+  return matchingHero;
+};
 
 const rankedRarity = [
   "common",
@@ -184,9 +179,9 @@ const getLegalityFilters = (
   additionalHeroes: Hero[],
   formatProperty: CardPropertyName,
 ): MetaFilterResolution => {
-  const cleanAdditionalHeroes = additionalHeroes.map((hero) => ({
-    hero: hero.toLowerCase().replaceAll(PUNCTUATION, ""),
-  }));
+  const cleanAdditionalHeroes = additionalHeroes.map((hero) =>
+    hero.toLowerCase().replaceAll(PUNCTUATION, ""),
+  );
 
   const appliedFilters: AppliedFilter[] = [];
 
@@ -204,16 +199,12 @@ const getLegalityFilters = (
     if (matchingFormat) {
       formats.push(matchingFormat.format);
     } else {
-      const matchingHero =
-        heroMappings.find(({ hero, nicknames }) => {
-          const isAMatch =
-            hero === value || (!!nicknames && nicknames.includes(value));
-
-          return isAMatch;
-        }) || cleanAdditionalHeroes.find(({ hero }) => hero === value);
+      const matchingHero = getMatchingHero(value, [
+        ...new Set([...cleanHeroes, ...cleanAdditionalHeroes]),
+      ]);
 
       if (matchingHero) {
-        heroes.push(matchingHero.hero);
+        heroes.push(matchingHero);
       } else {
         unresolvedValues.push(value);
       }
