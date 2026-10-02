@@ -295998,7 +295998,7 @@ When this hits a hero, create a Toughness and a Vigor token.`,
     defaultImage: "OMN227",
     firstReleaseDate: "2026-06-05",
     legalFormats: [Format.Draft,Format.Open,Format.Sealed],
-    legalHeroes: [Hero.Aurora,Hero.Oscilio,Hero.Zyggy],
+    legalHeroes: [Hero.Aurora2,Hero.Broscilio,Hero.Zyggy],
     name: "Omens of Arcana",
     printings: [{
         artists: ["Jessada Sutthi"],
