@@ -142,8 +142,8 @@ class Search {
   };
 
   /**
-   * The pool's own cards among those the index answered with, so a pool searched
-   * out of a larger catalogue answers with its cards alone.
+   * The pool's own copies of index cards, dropping any the pool lacks, so a pool
+   * searched out of a larger catalogue returns its cards alone.
    */
   private getPoolCards = (
     indexCards: readonly DoubleSidedCard[],
@@ -180,8 +180,17 @@ class Search {
       ? memes.filter((meme) => meme.keyword === keyword)
       : [];
 
+    const getFilteredCards = (
+      cardsToFilter: DoubleSidedCard[],
+    ): DoubleSidedCard[] =>
+      appliedFilters.length > 0
+        ? cardsToFilter.filter(
+            (card) => card && filterCard(card, appliedFilters),
+          )
+        : cardsToFilter;
+
     if (matchingMemes.length > 0) {
-      results = matchingMemes.map(({ card }) => card);
+      results = getFilteredCards(matchingMemes.map(({ card }) => card));
     } else if (keywords.length) {
       // The cards the free text names whole lead, and the text's own matches
       // follow, so a nickname that is also a word still finds that word.
@@ -204,30 +213,34 @@ class Search {
           ({ cardIdentifier }) =>
             !namedCardByCardIdentifier.has(cardIdentifier),
         );
-      results = [...namedCardByCardIdentifier.values(), ...textMatches];
+      results = getFilteredCards([
+        ...namedCardByCardIdentifier.values(),
+        ...textMatches,
+      ]);
 
-      if (nicknamedCards.length > 0) {
+      const hasNicknamedResult = results.some((card) =>
+        nicknamedCards.includes(card),
+      );
+      if (hasNicknamedResult) {
         alias = { kind: "nickname", text: freeText };
       }
 
+      // Read after filters, so a page the filters emptied still tries them.
       const canFallBackToInitials =
         results.length === 0 && keywords.length === 1;
       if (canFallBackToInitials) {
-        results = this.getPoolCards(this.index.getCardsByInitials(freeText));
+        results = getFilteredCards(
+          this.getPoolCards(this.index.getCardsByInitials(freeText)),
+        );
         if (results.length > 0) {
           alias = { kind: "initials", text: freeText };
         }
       }
     } else {
-      results = [...this.cards];
-    }
-    if (appliedFilters.length) {
-      results = results.filter(
-        (card) => card && filterCard(card, appliedFilters),
-      );
+      results = getFilteredCards([...this.cards]);
     }
 
-    // Cards the initials answer share no ranking, so they sort as an unranked
+    // Initials give no relevance score, so their cards sort as an unranked
     // listing does.
     const isRankedByText = keywords.length > 0 && alias?.kind !== "initials";
     if (!isRankedByText) {

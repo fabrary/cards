@@ -14,10 +14,24 @@ const getDistinctNames = (text: string): string[] => [
 
 describe("Nicknames", () => {
   it("lead with the nicknamed card, then the literal text matches", () => {
-    const names = getNames("mom");
+    expect(getDistinctNames("mom")).toEqual([
+      "Mask of Momentum",
+      "Moment Maker",
+      "A Moment's Peace",
+    ]);
+  });
 
-    expect(names[0]).toEqual("Mask of Momentum");
-    expect(names.length).toBeGreaterThan(1);
+  it("match whatever the free text's hyphens", () => {
+    expect(getDistinctNames("cnc")).toEqual(["Command and Conquer"]);
+    expect(getDistinctNames("p-bone")).toEqual(["Performance Bonus"]);
+    expect(getNames("e-strike")[0]).toEqual("Enlightened Strike");
+  });
+
+  it("report no nickname when filters leave the nicknamed card out", () => {
+    const { alias, searchResults } = cardSearch.search("aow p:1");
+
+    expect(searchResults).toEqual([]);
+    expect(alias).toBeUndefined();
   });
 
   it("report the nickname the free text was", () => {
@@ -72,6 +86,24 @@ describe("Initials", () => {
     expect(alias).toBeUndefined();
   });
 
+  it("answer when filters leave none of the text's matches", () => {
+    expect(cardSearch.search("bom c:assassin").alias).toEqual({
+      kind: "initials",
+      text: "bom",
+    });
+    expect(getDistinctNames("bom c:assassin")).toEqual(["Bonds of Memory"]);
+    expect(getDistinctNames("cab c:guardian")).toEqual(["Crash and Bash"]);
+    expect(getDistinctNames("dac p:3")).toEqual(["Draw a Crowd"]);
+  });
+
+  it("sort by set under a set filter", () => {
+    const { searchResults } = cardSearch.search("ptw s:sea");
+
+    expect(
+      searchResults.map(({ setIdentifiers }) => setIdentifiers[0]),
+    ).toEqual(["SEA138", "SEA139", "SEA140"]);
+  });
+
   it("are narrowed by filters", () => {
     expect(getNames("cttg p:3")).toEqual(["Call to the Grave"]);
     expect(getNames("cttg p:1")).toEqual([]);
@@ -86,8 +118,12 @@ describe("Initials", () => {
 });
 
 describe("Hero filter values", () => {
-  const getLegalCount = (text: string): number =>
-    cardSearch.search(text).searchResults.length;
+  const getLegalCount = (text: string): number => {
+    const { searchResults, unresolvedFilters } = cardSearch.search(text);
+    expect(unresolvedFilters).toEqual([]);
+
+    return searchResults.length;
+  };
 
   it("match a hero by the start of its name", () => {
     expect(getLegalCount("l:gravy")).toEqual(getLegalCount('l:"gravy bones"'));

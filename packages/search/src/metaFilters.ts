@@ -1,5 +1,6 @@
 import { Class, Format, Hero, Talent } from "@flesh-and-blood/types";
 import { PUNCTUATION } from "./constants.js";
+import { getCleanText } from "./helpers.js";
 import {
   aliasesByFilterCategory,
   availableExclusions,
@@ -77,11 +78,9 @@ const formatMappings: { format: string; nicknames?: string[] }[] =
       : { format: cleanFormat };
   });
 
-const cleanHeroes = Object.values(Hero).map((hero) =>
-  hero.toLowerCase().replaceAll(PUNCTUATION, ""),
-);
+const cleanHeroes = Object.values(Hero).map(getCleanText);
 
-const getWithoutSpaces = (text: string): string => text.replaceAll(" ", "");
+const getTextWithoutSpaces = (text: string): string => text.replaceAll(" ", "");
 
 /**
  * The hero a legality value names: its whole name, spaces optional, or else the
@@ -89,23 +88,27 @@ const getWithoutSpaces = (text: string): string => text.replaceAll(" ", "");
  */
 const getMatchingHero = (
   value: string,
-  heroes: string[],
+  heroes: Set<string>,
 ): string | undefined => {
-  const valueWithoutSpaces = getWithoutSpaces(value);
-  let matchingHero = heroes.find(
-    (hero) => getWithoutSpaces(hero) === valueWithoutSpaces,
-  );
+  const valueWithoutSpaces = getTextWithoutSpaces(value);
+  let wholeNameMatch: string | undefined;
+  const heroesStartingWithValue: string[] = [];
 
-  if (!matchingHero) {
-    const heroesStartingWithValue = heroes.filter((hero) =>
-      getWithoutSpaces(hero).startsWith(valueWithoutSpaces),
-    );
-    if (heroesStartingWithValue.length === 1) {
-      matchingHero = heroesStartingWithValue[0];
+  for (const hero of heroes) {
+    const heroWithoutSpaces = getTextWithoutSpaces(hero);
+    if (heroWithoutSpaces === valueWithoutSpaces) {
+      wholeNameMatch = hero;
+    } else if (heroWithoutSpaces.startsWith(valueWithoutSpaces)) {
+      heroesStartingWithValue.push(hero);
     }
   }
 
-  return matchingHero;
+  const hasOneHeroStartingWithValue = heroesStartingWithValue.length === 1;
+
+  return (
+    wholeNameMatch ??
+    (hasOneHeroStartingWithValue ? heroesStartingWithValue[0] : undefined)
+  );
 };
 
 const rankedRarity = [
@@ -179,9 +182,10 @@ const getLegalityFilters = (
   additionalHeroes: Hero[],
   formatProperty: CardPropertyName,
 ): MetaFilterResolution => {
-  const cleanAdditionalHeroes = additionalHeroes.map((hero) =>
-    hero.toLowerCase().replaceAll(PUNCTUATION, ""),
-  );
+  const knownHeroes = new Set([
+    ...cleanHeroes,
+    ...additionalHeroes.map(getCleanText),
+  ]);
 
   const appliedFilters: AppliedFilter[] = [];
 
@@ -199,9 +203,7 @@ const getLegalityFilters = (
     if (matchingFormat) {
       formats.push(matchingFormat.format);
     } else {
-      const matchingHero = getMatchingHero(value, [
-        ...new Set([...cleanHeroes, ...cleanAdditionalHeroes]),
-      ]);
+      const matchingHero = getMatchingHero(value, knownHeroes);
 
       if (matchingHero) {
         heroes.push(matchingHero);

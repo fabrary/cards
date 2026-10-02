@@ -36,11 +36,11 @@ export interface CatalogueIndex<
    * a fragment of a name the corpus carries finds nothing.
    */
   getCardsByExactName: (name: string) => readonly CardType[];
-  /** Every card carrying the nickname, matched whole. */
+  /** Every card carrying the nickname, matched whole, hyphens ignored. */
   getCardsByNickname: (nickname: string) => readonly CardType[];
   /**
-   * Every card whose name has the initials, in corpus order. A hyphenated word
-   * answers both as one word and as the words the hyphens join.
+   * Every card whose name has the initials, in corpus order, counting a
+   * hyphenated word both as one word and as the words the hyphens join.
    */
   getCardsByInitials: (initials: string) => readonly CardType[];
   /**
@@ -89,9 +89,8 @@ interface CardLookups<CardType extends DoubleSidedCard> {
 const MINIMUM_INITIALS_LENGTH = 3;
 
 /**
- * The initials a name answers to: the first letter of each word, with digits
- * and punctuation dropped, once reading a hyphen as a word break and once
- * reading the hyphenated word as one.
+ * Players write a hyphenated word's initials either way (`kkb` and `kkbab` for
+ * Knick Knack Bric-a-brac), so a name gets both readings.
  */
 const getInitialsOfName = (name: string): string[] => {
   const letters = getNormalizedText(name.toLowerCase()).replace(
@@ -101,11 +100,13 @@ const getInitialsOfName = (name: string): string[] => {
   const initialsOfName = new Set<string>();
 
   for (const wordBreak of [/[\s-]+/, /\s+/]) {
-    const initials = letters
-      .split(wordBreak)
-      .filter((word) => word.replaceAll("-", "").length > 0)
-      .map((word) => word.replaceAll("-", "")[0])
-      .join("");
+    let initials = "";
+    for (const word of letters.split(wordBreak)) {
+      const wordLetters = word.replaceAll("-", "");
+      if (wordLetters) {
+        initials += wordLetters[0];
+      }
+    }
     if (initials.length >= MINIMUM_INITIALS_LENGTH) {
       initialsOfName.add(initials);
     }
@@ -114,7 +115,13 @@ const getInitialsOfName = (name: string): string[] => {
   return [...initialsOfName];
 };
 
-/** Appends the card to the key's list, starting the list on first sight. */
+/**
+ * Nicknames compare cleaned and without hyphens, so `p-bone` finds `PBone`
+ * and `e-strike` finds `EStrike`.
+ */
+const getNicknameKey = (nickname: string): string =>
+  getCleanText(nickname).replaceAll("-", "");
+
 const addToCardList = <CardType>(
   cardsByKey: Map<string, CardType[]>,
   key: string,
@@ -203,7 +210,7 @@ const getNewCatalogueIndex = <CardType extends DoubleSidedCard>(
   let creatingCardsByCardIdentifier: Map<string, CardType[]> | undefined;
   let cardsByRole: Map<CardRole, CardType[]> | undefined;
   let artists: string[] | undefined;
-  let cardsByCleanedNickname: Map<string, CardType[]> | undefined;
+  let cardsByNicknameKey: Map<string, CardType[]> | undefined;
   let cardsByInitials: Map<string, CardType[]> | undefined;
 
   /**
@@ -337,20 +344,16 @@ const getNewCatalogueIndex = <CardType extends DoubleSidedCard>(
   };
 
   const getCardsByNickname = (nickname: string): readonly CardType[] => {
-    if (!cardsByCleanedNickname) {
-      cardsByCleanedNickname = new Map();
+    if (!cardsByNicknameKey) {
+      cardsByNicknameKey = new Map();
       for (const card of cards) {
         for (const cardNickname of card.nicknames ?? []) {
-          addToCardList(
-            cardsByCleanedNickname,
-            getCleanText(cardNickname),
-            card,
-          );
+          addToCardList(cardsByNicknameKey, getNicknameKey(cardNickname), card);
         }
       }
     }
 
-    return cardsByCleanedNickname.get(getCleanText(nickname)) ?? noCards;
+    return cardsByNicknameKey.get(getNicknameKey(nickname)) ?? noCards;
   };
 
   const getCardsByInitials = (initials: string): readonly CardType[] => {
