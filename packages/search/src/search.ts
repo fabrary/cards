@@ -21,7 +21,11 @@ import {
   UnresolvedFilter,
 } from "./queryParse.js";
 import { memes } from "./memes.js";
-import { getNormalizedText, getTextWithoutMarkup } from "./helpers.js";
+import {
+  getCleanText,
+  getNormalizedText,
+  getTextWithoutMarkup,
+} from "./helpers.js";
 import { FilterProperty } from "./metaFilters.js";
 import { CatalogueIndex, getCatalogueIndex } from "./searchIndex.js";
 
@@ -43,7 +47,15 @@ export interface SearchOptions {
   index?: CatalogueIndex;
 }
 
+/** How the free text named cards other than by their names. */
+export interface SearchAlias {
+  kind: "nickname" | "initials";
+  text: string;
+}
+
 export interface SearchResults {
+  /** Set when the free text was a nickname or the initials of the cards found. */
+  alias?: SearchAlias;
   appliedFilters: AppliedFilter[];
   keywords: string[];
   attributes: QueryAttributes;
@@ -94,6 +106,7 @@ class Search {
   private cards: DoubleSidedCard[];
   private fuse: Fuse<Card> | undefined;
   private index: CatalogueIndex;
+  private poolCardByCardIdentifier: Map<string, DoubleSidedCard> | undefined;
 
   constructor(cards: DoubleSidedCard[], options?: SearchOptions);
   constructor(
@@ -128,8 +141,33 @@ class Search {
     return this.fuse;
   };
 
+  /**
+   * The pool's own copies of index cards, dropping any the pool lacks, so a pool
+   * searched out of a larger catalogue returns its cards alone.
+   */
+  private getPoolCards = (
+    indexCards: readonly DoubleSidedCard[],
+  ): DoubleSidedCard[] => {
+    if (!this.poolCardByCardIdentifier) {
+      this.poolCardByCardIdentifier = new Map(
+        this.cards.map((card) => [card.cardIdentifier, card]),
+      );
+    }
+
+    const poolCards: DoubleSidedCard[] = [];
+    for (const { cardIdentifier } of indexCards) {
+      const poolCard = this.poolCardByCardIdentifier.get(cardIdentifier);
+      if (poolCard) {
+        poolCards.push(poolCard);
+      }
+    }
+
+    return poolCards;
+  };
+
   search = (text: string, includeMemes?: boolean): SearchResults => {
     let results: DoubleSidedCard[];
+    let alias: SearchAlias | undefined;
 
     const { appliedFilters, attributes, keywords, unresolvedFilters } =
       getParsedQuery(text, this.index, {
@@ -142,22 +180,70 @@ class Search {
       ? memes.filter((meme) => meme.keyword === keyword)
       : [];
 
+    const getFilteredCards = (
+      cardsToFilter: DoubleSidedCard[],
+    ): DoubleSidedCard[] =>
+      appliedFilters.length > 0
+        ? cardsToFilter.filter(
+            (card) => card && filterCard(card, appliedFilters),
+          )
+        : cardsToFilter;
+
     if (matchingMemes.length > 0) {
-      results = matchingMemes.map(({ card }) => card);
+      results = getFilteredCards(matchingMemes.map(({ card }) => card));
     } else if (keywords.length) {
-      results = this.getFuse()
-        .search(keyword)
-        .map((result) => result.item);
-    } else {
-      results = [...this.cards];
-    }
-    if (appliedFilters.length) {
-      results = results.filter(
-        (card) => card && filterCard(card, appliedFilters),
+      // The cards the free text names whole lead, and the text's own matches
+      // follow, so a nickname that is also a word still finds that word.
+      const freeText = getCleanText(keyword);
+      const nicknamedCards = this.getPoolCards(
+        this.index.getCardsByNickname(freeText),
       );
+      const namedCardByCardIdentifier = new Map<string, DoubleSidedCard>();
+      for (const card of [
+        ...this.getPoolCards(this.index.getCardsByExactName(freeText)),
+        ...nicknamedCards,
+      ]) {
+        namedCardByCardIdentifier.set(card.cardIdentifier, card);
+      }
+
+      const textMatches = this.getFuse()
+        .search(keyword)
+        .map((result) => result.item)
+        .filter(
+          ({ cardIdentifier }) =>
+            !namedCardByCardIdentifier.has(cardIdentifier),
+        );
+      results = getFilteredCards([
+        ...namedCardByCardIdentifier.values(),
+        ...textMatches,
+      ]);
+
+      const hasNicknamedResult = results.some((card) =>
+        nicknamedCards.includes(card),
+      );
+      if (hasNicknamedResult) {
+        alias = { kind: "nickname", text: freeText };
+      }
+
+      // Read after filters, so a page the filters emptied still tries them.
+      const canFallBackToInitials =
+        results.length === 0 && keywords.length === 1;
+      if (canFallBackToInitials) {
+        results = getFilteredCards(
+          this.getPoolCards(this.index.getCardsByInitials(freeText)),
+        );
+        if (results.length > 0) {
+          alias = { kind: "initials", text: freeText };
+        }
+      }
+    } else {
+      results = getFilteredCards([...this.cards]);
     }
 
-    if (keywords.length === 0) {
+    // Initials give no relevance score, so their cards sort as an unranked
+    // listing does.
+    const isRankedByText = keywords.length > 0 && alias?.kind !== "initials";
+    if (!isRankedByText) {
       // If filtering on set without any keywords then sort by set by default
       // If there's also no set filter then sort alphabetically
       let setIdentifierToSortBy = "";
@@ -200,23 +286,6 @@ class Search {
             : c1.name.localeCompare(c2.name),
         );
       }
-    } else {
-      const nameMatches: DoubleSidedCard[] = [];
-      const nonMatches: DoubleSidedCard[] = [];
-
-      const potentialCardName = keywords
-        .map((keyword) => keyword.toLowerCase().replace(PUNCTUATION, ""))
-        .join(" ");
-      for (const card of results) {
-        if (
-          card.name.toLowerCase().replace(PUNCTUATION, "") === potentialCardName
-        ) {
-          nameMatches.push(card);
-        } else {
-          nonMatches.push(card);
-        }
-      }
-      results = [...nameMatches, ...nonMatches];
     }
 
     let searchResultsWithMatchingPrinting: SearchCard[] = [];
@@ -306,6 +375,7 @@ class Search {
         : results;
 
     return {
+      alias,
       appliedFilters,
       attributes,
       keywords,

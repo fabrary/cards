@@ -36,7 +36,10 @@ import {
   getCardRelations,
 } from "./Shared/get-card-relations.ts";
 import { getShorthands } from "./Shared/get-shorthands.ts";
-import { getNicknames } from "./Shared/get-nicknames.ts";
+import {
+  assertEveryNicknameNamesACard,
+  getNicknames,
+} from "./Shared/get-nicknames.ts";
 import { getShortName } from "./Shared/get-short-names.ts";
 import { getFirstReleaseDate } from "./Shared/get-first-release-date.ts";
 import {
@@ -198,6 +201,8 @@ const legalHeroesByCardIdentifier = getLegalHeroesByCard(cardsWithRelations);
 // reads the whole card list at once as well.
 const confirmedFormatsByCardIdentifier =
   getConfirmedBannedAndLegalFormatsByCardIdentifier(cardsWithRelations);
+
+assertEveryNicknameNamesACard(cardsWithRelations);
 
 const cardsWithAdditionalProperties = cardsWithRelations.map((card) => {
   const { bannedFormats, legalFormats } = confirmedFormatsByCardIdentifier.get(

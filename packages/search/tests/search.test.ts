@@ -16,12 +16,9 @@ import { setToSetIdentifierMappings } from "@flesh-and-blood/types";
 import { doubleSidedCards } from "./_doubleSidedCards";
 
 const exactSearches = [
-  // Abbreviations & shorthands
-  [3, "bbd"],
-  [2, "cnc"],
+  // Nicknames & shorthands
   // [174, "poppers"],
   [1, "newminaris"],
-  [1, "twominaris"],
 
   // Sets
   [237, "set:uprising", "set:upr", "s:uprising", "s:upr"],

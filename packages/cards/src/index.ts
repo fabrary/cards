@@ -87,7 +87,7 @@
     
     
     meta: [Meta.Deck],
-  
+  nicknames: ["10k"],
     
     pitch: 1,
     
@@ -13236,7 +13236,7 @@ At the start of your turn, destroy this.`,
     
     life: 38,
     meta: [Meta.Expansion,Meta.Reprint],
-  
+  nicknames: ["Slippy","Arakni Slipped Through the Cracks"],
     
     
     
@@ -14816,7 +14816,7 @@ If an opponent declares an attack, they must choose this as the target of that a
     
     
     meta: [Meta.Deck,Meta.Reprint],
-  
+  nicknames: ["ALS"],
     
     pitch: 2,
     
@@ -19812,7 +19812,7 @@ Draw 2 cards.`,
     
     
     meta: [Meta.Deck,Meta.Reprint],
-  
+  nicknames: ["AoW"],
     
     pitch: 2,
     
@@ -53336,7 +53336,7 @@ If the discarded card has 6 or more {p}, draw 2 cards and this gets **go again**
     
     
     meta: [Meta.Deck,Meta.Reprint],
-  
+  nicknames: ["BRB"],
     
     pitch: 2,
     
@@ -63571,7 +63571,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     
     life: 40,
     
-  
+  nicknames: ["Starvo"],
     
     
     
@@ -65875,7 +65875,7 @@ If the discarded card has 6 or more {p}, this gets **go again**.`,
     
     
     meta: [Meta.Arena,Meta.Reprint],
-  
+  nicknames: ["Breezies"],
     
     
     
@@ -75332,7 +75332,7 @@ If you've been cheered this turn, this card's attacks get **go again**.`,
     
     
     meta: [Meta.Deck,Meta.Reprint],
-  
+  nicknames: ["CStrike"],
     
     pitch: 2,
     power: 7,
@@ -77904,7 +77904,7 @@ When this enters the arena and at the beginning of your action phase, **amp 3**.
     
     
     meta: [Meta.Deck],
-  
+  nicknames: ["CMT"],
     
     pitch: 1,
     
@@ -93194,7 +93194,7 @@ Deal 1 arcane damage to any target.`,
     
     
     meta: [Meta.Deck,Meta.Expansion,Meta.Reprint],
-  
+  nicknames: ["CnC"],
     
     pitch: 1,
     power: 6,
@@ -96561,7 +96561,7 @@ You may destroy an aura you control. If you do, each opponent destroys an aura p
     
     
     meta: [Meta.Deck],
-  
+  nicknames: ["Sea and Sea"],
     
     pitch: 1,
     power: 7,referencedCards: ["gold"],
@@ -107687,7 +107687,7 @@ When this is equipped, create a Gold token.`,
     
     
     meta: [Meta.Arena],
-  
+  nicknames: ["CoD"],
     
     
     referencedCards: ["gold"],
@@ -108005,7 +108005,7 @@ When this is equipped, create a Gold token.`,
     
     
     meta: [Meta.Arena,Meta.Reprint],
-  
+  nicknames: ["CoP"],
     
     
     
@@ -114476,7 +114476,7 @@ Once per turn, you may play a Mechanologist item with cost 1 or less from the to
     
     life: 36,
     meta: [Meta.Reprint],
-  
+  nicknames: ["DIO"],
     
     
     
@@ -117975,7 +117975,7 @@ If it has an aim counter, it gets "When this hits a hero, look at their hand and
     
     
     meta: [Meta.Arena,Meta.Reprint],
-  
+  nicknames: ["DD"],
     
     
     
@@ -150111,7 +150111,7 @@ When this hits a hero, until the end of their next turn, whenever they activate 
     
     
     meta: [Meta.Deck,Meta.Reprint],
-  
+  nicknames: ["EPot"],
     
     pitch: 3,
     
@@ -152725,7 +152725,7 @@ Choose 1;
     
     
     meta: [Meta.Deck,Meta.Reprint],
-  
+  nicknames: ["EStrike","E Strike"],
     
     pitch: 1,
     power: 5,
@@ -186609,7 +186609,7 @@ You may create a Frostbite token in an exposed head, chest, arms, or legs zone.`
     
     
     meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
-  
+  nicknames: ["Yum yum"],
     
     pitch: 1,
     power: 7,
@@ -186703,7 +186703,7 @@ You may create a Frostbite token in an exposed head, chest, arms, or legs zone.`
     
     
     meta: [Meta.Deck,Meta.Rainbow],
-  
+  nicknames: ["Yum yum"],
     
     pitch: 2,
     power: 6,
@@ -186827,7 +186827,7 @@ You may create a Frostbite token in an exposed head, chest, arms, or legs zone.`
     
     
     meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
-  
+  nicknames: ["Yum yum"],
     
     pitch: 3,
     power: 5,
@@ -188343,7 +188343,7 @@ Create a Runechant token.
     
     
     meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
-  
+  nicknames: ["FFS"],
     
     pitch: 1,
     power: 7,
@@ -188437,7 +188437,7 @@ Create a Runechant token.
     
     
     meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
-  
+  nicknames: ["FFS"],
     
     pitch: 2,
     power: 6,
@@ -188546,7 +188546,7 @@ Create a Runechant token.
     
     
     meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
-  
+  nicknames: ["FFS"],
     
     pitch: 3,
     power: 5,
@@ -193181,7 +193181,7 @@ At the beginning of your end phase, remove an energy counter from this and creat
     
     
     meta: [Meta.Deck,Meta.Reprint],
-  
+  nicknames: ["GnT"],
     
     pitch: 1,
     power: 3,
@@ -211043,7 +211043,7 @@ When this is pitched, if you have less {h} than an opposing hero, gain 1{h}.`,
     
     
     meta: [Meta.Arena],
-  
+  nicknames: ["HoI"],
     
     
     
@@ -246007,7 +246007,7 @@ When this hits a hero, {u} an ally they control, then **steal** it until the end
     
     
     meta: [Meta.Deck,Meta.Rainbow],
-  
+  nicknames: ["Pumpkin"],
     
     pitch: 1,
     referencedCards: ["runechant"],
@@ -246073,7 +246073,7 @@ When this hits a hero, {u} an ally they control, then **steal** it until the end
     
     
     meta: [Meta.Deck,Meta.Rainbow],
-  
+  nicknames: ["Pumpkin"],
     
     pitch: 2,
     referencedCards: ["runechant"],
@@ -246139,7 +246139,7 @@ When this hits a hero, {u} an ally they control, then **steal** it until the end
     
     
     meta: [Meta.Deck,Meta.Rainbow],
-  
+  nicknames: ["Pumpkin"],
     
     pitch: 3,
     referencedCards: ["runechant"],
@@ -249842,7 +249842,7 @@ Whenever the crowd boos you, create a Vigor token.`,
     
     life: 40,
     
-  
+  nicknames: ["RKO"],
     
     
     referencedCards: ["vigor"],
@@ -252963,7 +252963,7 @@ While Barthimont is face-up in arsenal, whenever you play an attack action card,
     
     
     meta: [Meta.Deck,Meta.Reprint],
-  
+  nicknames: ["LDE"],
     
     pitch: 3,
     power: 4,
@@ -257286,7 +257286,7 @@ If this deals damage, you may search your deck for a Wizard card with cost less 
     
     
     meta: [Meta.Deck],
-  
+  nicknames: ["BStrike"],
     
     pitch: 3,
     power: 3,
@@ -264928,7 +264928,7 @@ While Sutcliffe is face-up in arsenal, whenever you play a non-attack action car
     
     
     meta: [Meta.Deck],
-  
+  nicknames: ["LiT"],
     
     pitch: 1,
     referencedCards: ["ponder"],
@@ -265797,7 +265797,7 @@ If there is a yellow card in your pitch zone, your Illusionist attacks get **go 
     
     
     meta: [Meta.Arena,Meta.Expansion],
-  
+  nicknames: ["LAG"],
     
     
     
@@ -265906,7 +265906,7 @@ If there is a yellow card in your pitch zone, your Illusionist attacks get **go 
     
     
     meta: [Meta.Arena,Meta.Reprint],
-  
+  nicknames: ["Newminaris"],
     
     
     
@@ -272887,7 +272887,7 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
     
     
     meta: [Meta.Arena,Meta.Reprint],
-  
+  nicknames: ["MoM"],
     
     
     
@@ -273318,7 +273318,7 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
     
     
     meta: [Meta.Arena],
-  
+  nicknames: ["MoPL"],
     
     
     
@@ -274578,7 +274578,7 @@ When this is pitched, you may put a steam counter on an item you control with **
     
     
     meta: [Meta.Deck,Meta.Reprint],
-  
+  nicknames: ["MaxV"],
     
     pitch: 1,
     power: 10,
@@ -275305,7 +275305,7 @@ If you've dealt arcane damage to an opposing hero this turn, this gets **go agai
     
     
     meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
-  
+  nicknames: ["MnG"],
     
     pitch: 1,
     power: 4,referencedCards: ["runechant"],
@@ -275446,7 +275446,7 @@ If you've dealt arcane damage to an opposing hero this turn, this gets **go agai
     
     
     meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
-  
+  nicknames: ["MnG"],
     
     pitch: 2,
     power: 3,referencedCards: ["runechant"],
@@ -275587,7 +275587,7 @@ If you've dealt arcane damage to an opposing hero this turn, this gets **go agai
     
     
     meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
-  
+  nicknames: ["MnG"],
     
     pitch: 3,
     power: 2,referencedCards: ["runechant"],
@@ -289334,7 +289334,7 @@ When this is destroyed, destroy all cards in your arsenal.
     
     
     meta: [Meta.Deck,Meta.Reprint],
-  
+  nicknames: ["Cake"],
     
     pitch: 2,
     power: 9,referencedCards: ["runechant"],
@@ -310431,7 +310431,7 @@ If this was played from arsenal, it gets **go again**.`,
     
     
     meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
-  
+  nicknames: ["PBone"],
     
     pitch: 1,
     power: 3,referencedCards: ["gold"],
@@ -310527,7 +310527,7 @@ If this was played from arsenal, it gets **go again**.`,
     
     
     meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
-  
+  nicknames: ["PBone"],
     
     pitch: 2,
     power: 2,referencedCards: ["gold"],
@@ -310622,7 +310622,7 @@ If this was played from arsenal, it gets **go again**.`,
     
     
     meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
-  
+  nicknames: ["PBone"],
     
     pitch: 3,
     power: 1,referencedCards: ["gold"],
@@ -312626,7 +312626,7 @@ Create an Agility token.
     
     
     meta: [Meta.Deck,Meta.Reprint],
-  
+  nicknames: ["PF"],
     
     pitch: 1,
     power: 0,
@@ -320497,7 +320497,7 @@ Action cards get -1{d} while defending Mechanologist attack action cards you con
     
     
     meta: [Meta.Deck],
-  
+  nicknames: ["Thanos"],
     
     pitch: 1,
     
@@ -321716,7 +321716,7 @@ Action cards get -1{d} while defending Mechanologist attack action cards you con
     
     
     meta: [Meta.Deck],
-  
+  nicknames: ["DPot"],
     
     pitch: 3,
     
@@ -336112,7 +336112,7 @@ At the beginning of your action phase, destroy this.`,
     
     
     meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
-  
+  nicknames: ["Qi Unbound"],
     
     pitch: 1,
     power: 3,referencedCards: ["crouching-tiger"],
@@ -336206,7 +336206,7 @@ At the beginning of your action phase, destroy this.`,
     
     
     meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
-  
+  nicknames: ["Qi Unbound"],
     
     pitch: 2,
     power: 2,referencedCards: ["crouching-tiger"],
@@ -336300,7 +336300,7 @@ At the beginning of your action phase, destroy this.`,
     
     
     meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
-  
+  nicknames: ["Qi Unbound"],
     
     pitch: 3,
     power: 1,referencedCards: ["crouching-tiger"],
@@ -354191,7 +354191,7 @@ At the start of your turn, destroy this and draw a card.`,
     
     
     meta: [Meta.Deck],
-  
+  nicknames: ["Cats"],
     
     pitch: 2,
     referencedCards: ["spectral-shield"],
@@ -356847,7 +356847,7 @@ Whenever you protect another hero, create a Gold token.`,
     
     life: 40,
     meta: [Meta.Reprint],
-  
+  nicknames: ["Eugene"],
     
     
     
@@ -378308,7 +378308,7 @@ Whenever an arrow is put face-up in arsenal from your deck, put an aim counter o
     
     
     meta: [Meta.Arena],
-  
+  nicknames: ["SSGB"],
     
     
     
@@ -399243,7 +399243,7 @@ If a Chi was pitched to play this, create 2 Crouching Tigers in your hand.
     
     
     meta: [Meta.Deck],
-  
+  nicknames: ["SWOMB"],
     
     pitch: 3,
     referencedCards: ["crouching-tiger","inner-chi-blue"],
@@ -420252,7 +420252,7 @@ If you've played another Wizard non-attack action card this turn, you may play t
     
     
     meta: [Meta.Arena,Meta.Reprint],
-  
+  nicknames: ["Snaps"],
     
     
     
@@ -457329,7 +457329,7 @@ Create a Bait token under an opponent's control.
     
     
     meta: [Meta.Deck],
-  
+  nicknames: ["TTT"],
     
     pitch: 1,
     power: 5,
@@ -462432,7 +462432,7 @@ This counts as having 4 Evos equipped.
     
     
     meta: [Meta.Arena],
-  
+  nicknames: ["Ultron"],
     oppositeSideCardIdentifier: `singularity-red`,oppositeSideCardIdentifiers: ["singularity-red"],
     
     power: 6,
@@ -465014,7 +465014,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
     
     
     meta: [Meta.Deck,Meta.Reprint],
-  
+  nicknames: ["ToS"],
     
     pitch: 1,
     referencedCards: ["gold"],
@@ -466912,7 +466912,7 @@ Until the start of your next turn, attacks that target you get -1{p}.
     
     
     meta: [Meta.Deck],
-  
+  nicknames: ["TROM"],
     
     pitch: 3,
     
@@ -467277,7 +467277,7 @@ Gain 1{h}`,
     
     
     meta: [Meta.Deck,Meta.Reprint],
-  
+  nicknames: ["3oak"],
     
     pitch: 1,
     
@@ -498396,7 +498396,7 @@ Create a Gold token. Then if you control 3 or more Gold, create that many Might 
     
     
     meta: [Meta.Deck,Meta.Expansion],
-  
+  nicknames: ["Cast Homes"],
     
     pitch: 3,
     referencedCards: ["gold","might"],
@@ -514992,7 +514992,7 @@ If an Ice card is pitched this way, this gets "When this hits a hero, create a F
     
     
     meta: [Meta.Arena],
-  
+  nicknames: ["Frosty Hammer"],
     
     
     power: 4,referencedCards: ["frostbite"],

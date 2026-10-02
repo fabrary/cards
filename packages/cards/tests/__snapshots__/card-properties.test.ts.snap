@@ -39,6 +39,9 @@ exports[`Every card matches its snapshot > 10,000 Year Reunion (10000-year-reuni
     "Deck",
   ],
   "name": "10,000 Year Reunion",
+  "nicknames": [
+    "10k",
+  ],
   "pitch": 1,
   "printings": [
     {
@@ -16637,6 +16640,10 @@ exports[`Every card matches its snapshot > Arakni, 5L!p3d 7hRu 7h3 cR4X (arakni-
     "Reprint",
   ],
   "name": "Arakni, 5L!p3d 7hRu 7h3 cR4X",
+  "nicknames": [
+    "Slippy",
+    "Arakni Slipped Through the Cracks",
+  ],
   "printings": [
     {
       "artists": [
@@ -18550,6 +18557,9 @@ If an opponent declares an attack, they must choose this as the target of that a
     "Reprint",
   ],
   "name": "Arc Light Sentinel",
+  "nicknames": [
+    "ALS",
+  ],
   "pitch": 2,
   "printings": [
     {
@@ -24578,6 +24588,9 @@ exports[`Every card matches its snapshot > Art of War (art-of-war-yellow) 1`] = 
     "Reprint",
   ],
   "name": "Art of War",
+  "nicknames": [
+    "AoW",
+  ],
   "pitch": 2,
   "printings": [
     {
@@ -67825,6 +67838,9 @@ If the discarded card has 6 or more {p}, draw 2 cards and this gets **go again**
     "Reprint",
   ],
   "name": "Bloodrush Bellow",
+  "nicknames": [
+    "BRB",
+  ],
   "pitch": 2,
   "printings": [
     {
@@ -80701,6 +80717,9 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
   ],
   "life": 40,
   "name": "Bravo, Star of the Show",
+  "nicknames": [
+    "Starvo",
+  ],
   "printings": [
     {
       "artists": [
@@ -83462,6 +83481,9 @@ exports[`Every card matches its snapshot > Breeze Rider Boots (breeze-rider-boot
     "Reprint",
   ],
   "name": "Breeze Rider Boots",
+  "nicknames": [
+    "Breezies",
+  ],
   "printings": [
     {
       "artists": [
@@ -96745,6 +96767,9 @@ exports[`Every card matches its snapshot > Celestial Cataclysm (celestial-catacl
     "Reprint",
   ],
   "name": "Celestial Cataclysm",
+  "nicknames": [
+    "CStrike",
+  ],
   "pitch": 2,
   "power": 7,
   "printings": [
@@ -100058,6 +100083,9 @@ When this enters the arena and at the beginning of your action phase, **amp 3**.
     "Deck",
   ],
   "name": "Channel the Millennium Tree",
+  "nicknames": [
+    "CMT",
+  ],
   "pitch": 1,
   "printings": [
     {
@@ -119633,6 +119661,9 @@ exports[`Every card matches its snapshot > Command and Conquer (command-and-conq
     "Reprint",
   ],
   "name": "Command and Conquer",
+  "nicknames": [
+    "CnC",
+  ],
   "pitch": 1,
   "power": 6,
   "printings": [
@@ -123859,6 +123890,9 @@ exports[`Every card matches its snapshot > Conqueror of the High Seas (conqueror
     "Deck",
   ],
   "name": "Conqueror of the High Seas",
+  "nicknames": [
+    "Sea and Sea",
+  ],
   "pitch": 1,
   "power": 7,
   "printings": [
@@ -138303,6 +138337,9 @@ When this is equipped, create a Gold token.",
     "Arena",
   ],
   "name": "Crown of Dominion",
+  "nicknames": [
+    "CoD",
+  ],
   "printings": [
     {
       "artists": [
@@ -138731,6 +138768,9 @@ exports[`Every card matches its snapshot > Crown of Providence (crown-of-provide
     "Reprint",
   ],
   "name": "Crown of Providence",
+  "nicknames": [
+    "CoP",
+  ],
   "printings": [
     {
       "artists": [
@@ -147299,6 +147339,9 @@ Once per turn, you may play a Mechanologist item with cost 1 or less from the to
     "Reprint",
   ],
   "name": "Dash I/O",
+  "nicknames": [
+    "DIO",
+  ],
   "printings": [
     {
       "artists": [
@@ -151446,6 +151489,9 @@ exports[`Every card matches its snapshot > Death Dealer (death-dealer) 1`] = `
     "Reprint",
   ],
   "name": "Death Dealer",
+  "nicknames": [
+    "DD",
+  ],
   "printings": [
     {
       "artists": [
@@ -192649,6 +192695,9 @@ exports[`Every card matches its snapshot > Energy Potion (energy-potion-blue) 1`
     "Reprint",
   ],
   "name": "Energy Potion",
+  "nicknames": [
+    "EPot",
+  ],
   "pitch": 3,
   "printings": [
     {
@@ -196063,6 +196112,10 @@ Choose 1;
     "Reprint",
   ],
   "name": "Enlightened Strike",
+  "nicknames": [
+    "EStrike",
+    "E Strike",
+  ],
   "pitch": 1,
   "power": 5,
   "printings": [
@@ -241656,6 +241709,9 @@ exports[`Every card matches its snapshot > Fruits of the Forest (fruits-of-the-f
     "Reprint",
   ],
   "name": "Fruits of the Forest",
+  "nicknames": [
+    "Yum yum",
+  ],
   "pitch": 3,
   "power": 5,
   "printings": [
@@ -241804,6 +241860,9 @@ exports[`Every card matches its snapshot > Fruits of the Forest (fruits-of-the-f
     "Reprint",
   ],
   "name": "Fruits of the Forest",
+  "nicknames": [
+    "Yum yum",
+  ],
   "pitch": 1,
   "power": 7,
   "printings": [
@@ -241954,6 +242013,9 @@ exports[`Every card matches its snapshot > Fruits of the Forest (fruits-of-the-f
     "Rainbow",
   ],
   "name": "Fruits of the Forest",
+  "nicknames": [
+    "Yum yum",
+  ],
   "pitch": 2,
   "power": 6,
   "printings": [
@@ -243827,6 +243889,9 @@ exports[`Every card matches its snapshot > Fyendal's Fighting Spirit (fyendals-f
     "Reprint",
   ],
   "name": "Fyendal's Fighting Spirit",
+  "nicknames": [
+    "FFS",
+  ],
   "pitch": 3,
   "power": 5,
   "printings": [
@@ -244034,6 +244099,9 @@ exports[`Every card matches its snapshot > Fyendal's Fighting Spirit (fyendals-f
     "Reprint",
   ],
   "name": "Fyendal's Fighting Spirit",
+  "nicknames": [
+    "FFS",
+  ],
   "pitch": 1,
   "power": 7,
   "printings": [
@@ -244296,6 +244364,9 @@ exports[`Every card matches its snapshot > Fyendal's Fighting Spirit (fyendals-f
     "Reprint",
   ],
   "name": "Fyendal's Fighting Spirit",
+  "nicknames": [
+    "FFS",
+  ],
   "pitch": 2,
   "power": 6,
   "printings": [
@@ -250397,6 +250468,9 @@ exports[`Every card matches its snapshot > Give and Take (give-and-take-red) 1`]
     "Reprint",
   ],
   "name": "Give and Take",
+  "nicknames": [
+    "GnT",
+  ],
   "pitch": 1,
   "power": 3,
   "printings": [
@@ -273971,6 +274045,9 @@ exports[`Every card matches its snapshot > Heart of Ice (heart-of-ice) 1`] = `
     "Arena",
   ],
   "name": "Heart of Ice",
+  "nicknames": [
+    "HoI",
+  ],
   "printings": [
     {
       "artists": [
@@ -317802,6 +317879,9 @@ exports[`Every card matches its snapshot > Jack-o'-lantern (jack-o-lantern-blue)
     "Rainbow",
   ],
   "name": "Jack-o'-lantern",
+  "nicknames": [
+    "Pumpkin",
+  ],
   "pitch": 3,
   "printings": [
     {
@@ -317889,6 +317969,9 @@ exports[`Every card matches its snapshot > Jack-o'-lantern (jack-o-lantern-red) 
     "Rainbow",
   ],
   "name": "Jack-o'-lantern",
+  "nicknames": [
+    "Pumpkin",
+  ],
   "pitch": 1,
   "printings": [
     {
@@ -317976,6 +318059,9 @@ exports[`Every card matches its snapshot > Jack-o'-lantern (jack-o-lantern-yello
     "Rainbow",
   ],
   "name": "Jack-o'-lantern",
+  "nicknames": [
+    "Pumpkin",
+  ],
   "pitch": 2,
   "printings": [
     {
@@ -322178,6 +322264,9 @@ Whenever the crowd boos you, create a Vigor token.",
   ],
   "life": 40,
   "name": "Kayo, Underhanded Cheat",
+  "nicknames": [
+    "RKO",
+  ],
   "printings": [
     {
       "artists": [
@@ -326269,6 +326358,9 @@ exports[`Every card matches its snapshot > Last Ditch Effort (last-ditch-effort-
     "Reprint",
   ],
   "name": "Last Ditch Effort",
+  "nicknames": [
+    "LDE",
+  ],
   "pitch": 3,
   "power": 4,
   "printings": [
@@ -331972,6 +332064,9 @@ exports[`Every card matches its snapshot > Levels of Enlightenment (levels-of-en
     "Deck",
   ],
   "name": "Levels of Enlightenment",
+  "nicknames": [
+    "BStrike",
+  ],
   "pitch": 3,
   "power": 3,
   "printings": [
@@ -342014,6 +342109,9 @@ exports[`Every card matches its snapshot > Lost in Thought (lost-in-thought-red)
     "Deck",
   ],
   "name": "Lost in Thought",
+  "nicknames": [
+    "LiT",
+  ],
   "pitch": 1,
   "printings": [
     {
@@ -343021,6 +343119,9 @@ exports[`Every card matches its snapshot > Luminaris, Angel's Glow (luminaris-an
     "Expansion slot",
   ],
   "name": "Luminaris, Angel's Glow",
+  "nicknames": [
+    "LAG",
+  ],
   "printings": [
     {
       "artists": [
@@ -343114,6 +343215,9 @@ exports[`Every card matches its snapshot > Luminaris, Celestial Fury (luminaris-
     "Reprint",
   ],
   "name": "Luminaris, Celestial Fury",
+  "nicknames": [
+    "Newminaris",
+  ],
   "printings": [
     {
       "artists": [
@@ -351780,6 +351884,9 @@ exports[`Every card matches its snapshot > Mask of Momentum (mask-of-momentum) 1
     "Reprint",
   ],
   "name": "Mask of Momentum",
+  "nicknames": [
+    "MoM",
+  ],
   "printings": [
     {
       "artists": [
@@ -352519,6 +352626,9 @@ exports[`Every card matches its snapshot > Mask of the Pouncing Lynx (mask-of-th
     "Arena",
   ],
   "name": "Mask of the Pouncing Lynx",
+  "nicknames": [
+    "MoPL",
+  ],
   "printings": [
     {
       "artists": [
@@ -353741,6 +353851,9 @@ exports[`Every card matches its snapshot > Maximum Velocity (maximum-velocity-re
     "Reprint",
   ],
   "name": "Maximum Velocity",
+  "nicknames": [
+    "MaxV",
+  ],
   "pitch": 1,
   "power": 10,
   "printings": [
@@ -354203,6 +354316,9 @@ If you've dealt arcane damage to an opposing hero this turn, this gets **go agai
     "Reprint",
   ],
   "name": "Meat and Greet",
+  "nicknames": [
+    "MnG",
+  ],
   "pitch": 3,
   "power": 2,
   "printings": [
@@ -354377,6 +354493,9 @@ If you've dealt arcane damage to an opposing hero this turn, this gets **go agai
     "Reprint",
   ],
   "name": "Meat and Greet",
+  "nicknames": [
+    "MnG",
+  ],
   "pitch": 1,
   "power": 4,
   "printings": [
@@ -354567,6 +354686,9 @@ If you've dealt arcane damage to an opposing hero this turn, this gets **go agai
     "Reprint",
   ],
   "name": "Meat and Greet",
+  "nicknames": [
+    "MnG",
+  ],
   "pitch": 2,
   "power": 3,
   "printings": [
@@ -373282,6 +373404,9 @@ exports[`Every card matches its snapshot > Ninth Blade of the Blood Oath (ninth-
     "Reprint",
   ],
   "name": "Ninth Blade of the Blood Oath",
+  "nicknames": [
+    "Cake",
+  ],
   "pitch": 2,
   "power": 9,
   "printings": [
@@ -401732,6 +401857,9 @@ If this was played from arsenal, it gets **go again**.",
     "Reprint",
   ],
   "name": "Performance Bonus",
+  "nicknames": [
+    "PBone",
+  ],
   "pitch": 3,
   "power": 1,
   "printings": [
@@ -401931,6 +402059,9 @@ If this was played from arsenal, it gets **go again**.",
     "Reprint",
   ],
   "name": "Performance Bonus",
+  "nicknames": [
+    "PBone",
+  ],
   "pitch": 1,
   "power": 3,
   "printings": [
@@ -402151,6 +402282,9 @@ If this was played from arsenal, it gets **go again**.",
     "Reprint",
   ],
   "name": "Performance Bonus",
+  "nicknames": [
+    "PBone",
+  ],
   "pitch": 2,
   "power": 2,
   "printings": [
@@ -404520,6 +404654,9 @@ exports[`Every card matches its snapshot > Phoenix Flame (phoenix-flame-red) 1`]
     "Reprint",
   ],
   "name": "Phoenix Flame",
+  "nicknames": [
+    "PF",
+  ],
   "pitch": 1,
   "power": 0,
   "printings": [
@@ -414825,6 +414962,9 @@ Action cards get -1{d} while defending Mechanologist attack action cards you con
     "Deck",
   ],
   "name": "Polarity Reversal Script",
+  "nicknames": [
+    "Thanos",
+  ],
   "pitch": 1,
   "printings": [
     {
@@ -416486,6 +416626,9 @@ exports[`Every card matches its snapshot > Potion of Déjà Vu (potion-of-deja-v
     "Deck",
   ],
   "name": "Potion of Déjà Vu",
+  "nicknames": [
+    "DPot",
+  ],
   "pitch": 3,
   "printings": [
     {
@@ -436206,6 +436349,9 @@ exports[`Every card matches its snapshot > Qi Unleashed (qi-unleashed-blue) 1`] 
     "Reprint",
   ],
   "name": "Qi Unleashed",
+  "nicknames": [
+    "Qi Unbound",
+  ],
   "pitch": 3,
   "power": 1,
   "printings": [
@@ -436322,6 +436468,9 @@ exports[`Every card matches its snapshot > Qi Unleashed (qi-unleashed-red) 1`] =
     "Reprint",
   ],
   "name": "Qi Unleashed",
+  "nicknames": [
+    "Qi Unbound",
+  ],
   "pitch": 1,
   "power": 3,
   "printings": [
@@ -436470,6 +436619,9 @@ exports[`Every card matches its snapshot > Qi Unleashed (qi-unleashed-yellow) 1`
     "Reprint",
   ],
   "name": "Qi Unleashed",
+  "nicknames": [
+    "Qi Unbound",
+  ],
   "pitch": 2,
   "power": 2,
   "printings": [
@@ -460279,6 +460431,9 @@ exports[`Every card matches its snapshot > Restless Coalescence (restless-coales
     "Deck",
   ],
   "name": "Restless Coalescence",
+  "nicknames": [
+    "Cats",
+  ],
   "pitch": 2,
   "printings": [
     {
@@ -463356,6 +463511,9 @@ exports[`Every card matches its snapshot > Rhinar, Reckless Rampage (rhinar-reck
     "Reprint",
   ],
   "name": "Rhinar, Reckless Rampage",
+  "nicknames": [
+    "Eugene",
+  ],
   "printings": [
     {
       "artists": [
@@ -490991,6 +491149,9 @@ Whenever an arrow is put face-up in arsenal from your deck, put an aim counter o
     "Arena",
   ],
   "name": "Sandscour Greatbow",
+  "nicknames": [
+    "SSGB",
+  ],
   "printings": [
     {
       "artists": [
@@ -517905,6 +518066,9 @@ If a Chi was pitched to play this, create 2 Crouching Tigers in your hand.
     "Deck",
   ],
   "name": "Shifting Winds of the Mystic Beast",
+  "nicknames": [
+    "SWOMB",
+  ],
   "pitch": 3,
   "printings": [
     {
@@ -545240,6 +545404,9 @@ exports[`Every card matches its snapshot > Snapdragon Scalers (snapdragon-scaler
     "Reprint",
   ],
   "name": "Snapdragon Scalers",
+  "nicknames": [
+    "Snaps",
+  ],
   "printings": [
     {
       "artists": [
@@ -592962,6 +593129,9 @@ exports[`Every card matches its snapshot > Take the Tempo (take-the-tempo-red) 1
     "Deck",
   ],
   "name": "Take the Tempo",
+  "nicknames": [
+    "TTT",
+  ],
   "pitch": 1,
   "power": 5,
   "printings": [
@@ -599998,6 +600168,9 @@ This counts as having 4 Evos equipped.
     "Arena",
   ],
   "name": "Teklovossen, the Mechropotent",
+  "nicknames": [
+    "Ultron",
+  ],
   "oppositeSideCardIdentifier": "singularity-red",
   "oppositeSideCardIdentifiers": [
     "singularity-red",
@@ -603018,6 +603191,9 @@ exports[`Every card matches its snapshot > Test of Strength (test-of-strength-re
     "Reprint",
   ],
   "name": "Test of Strength",
+  "nicknames": [
+    "ToS",
+  ],
   "pitch": 1,
   "printings": [
     {
@@ -605580,6 +605756,9 @@ Until the start of your next turn, attacks that target you get -1{p}.
     "Deck",
   ],
   "name": "This Round's on Me",
+  "nicknames": [
+    "TROM",
+  ],
   "pitch": 3,
   "printings": [
     {
@@ -606160,6 +606339,9 @@ exports[`Every card matches its snapshot > Three of a Kind (three-of-a-kind-red)
     "Reprint",
   ],
   "name": "Three of a Kind",
+  "nicknames": [
+    "3oak",
+  ],
   "pitch": 1,
   "printings": [
     {
@@ -646623,6 +646805,9 @@ Create a Gold token. Then if you control 3 or more Gold, create that many Might 
     "Expansion slot",
   ],
   "name": "Visit Goldmane Estate",
+  "nicknames": [
+    "Cast Homes",
+  ],
   "pitch": 3,
   "printings": [
     {
@@ -668255,6 +668440,9 @@ If an Ice card is pitched this way, this gets "When this hits a hero, create a F
     "Arena",
   ],
   "name": "Winter's Wail",
+  "nicknames": [
+    "Frosty Hammer",
+  ],
   "power": 4,
   "printings": [
     {

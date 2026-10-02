@@ -8,7 +8,6 @@ import {
   Release,
   setToSetIdentifierMappings,
 } from "@flesh-and-blood/types";
-import { getAbbreviation } from "./abbreviations.js";
 import { PUNCTUATION } from "./constants.js";
 import {
   aliasesByFilterCategory,
@@ -111,11 +110,6 @@ export interface ParseOptions {
   today?: string;
 }
 
-interface PreparedQuery {
-  isWholeQueryAbbreviation: boolean;
-  text: string;
-}
-
 /** A term of the query, or one a shorthand expanded it into. */
 interface QueryTermSpan extends QueryTokenSpan {
   isExpanded: boolean;
@@ -181,10 +175,7 @@ const setNameInSetFilterPattern = new RegExp(
  * Everything the query means before it holds terms at all: the rewrites that
  * settle what a term will be, run over the whole text.
  */
-const getPreparedQuery = (
-  text: string,
-  index: CatalogueIndex,
-): PreparedQuery => {
+const getPreparedText = (text: string, index: CatalogueIndex): string => {
   let preparedText = text.trim().toLowerCase();
 
   for (const smartQuote of SMART_DOUBLE_QUOTES) {
@@ -224,12 +215,7 @@ const getPreparedQuery = (
     }
   }
 
-  return {
-    // A query that is nothing but a card's abbreviation names that card whole,
-    // so its own spaces and commas are not separators.
-    isWholeQueryAbbreviation: !!getAbbreviation(preparedText)?.card,
-    text: preparedText,
-  };
+  return preparedText;
 };
 
 // A shorthand stands for the terms it expands to, each of which keeps the span
@@ -249,16 +235,10 @@ const getExpandedTokens = (
   };
 };
 
-const getQueryTermSpans = ({
-  isWholeQueryAbbreviation,
-  text,
-}: PreparedQuery): QueryTermSpan[] => {
+const getQueryTermSpans = (text: string): QueryTermSpan[] => {
   const termSpans: QueryTermSpan[] = [];
-  const tokenSpans = isWholeQueryAbbreviation
-    ? [{ end: text.length, start: 0, token: text }]
-    : getQueryTokenSpans(text);
 
-  for (const { end, start, token } of tokenSpans) {
+  for (const { end, start, token } of getQueryTokenSpans(text)) {
     const { isExpanded, tokens } = getExpandedTokens(token);
     for (const expandedToken of tokens) {
       termSpans.push({ end, isExpanded, start, token: expandedToken });
@@ -326,7 +306,7 @@ export const getParsedQuery = (
     today = getTodayAsReleaseDate(),
   }: ParseOptions = {},
 ): ParsedQuery => {
-  const preparedQuery = getPreparedQuery(text, index);
+  const preparedText = getPreparedText(text, index);
   const context: FilterResolverContext = {
     additionalHeroes,
     additionalSets,
@@ -352,7 +332,7 @@ export const getParsedQuery = (
   const nodes: ParsedQueryNode[] = [];
   const unresolvedFilters: UnresolvedFilter[] = [];
 
-  for (const termSpan of getQueryTermSpans(preparedQuery)) {
+  for (const termSpan of getQueryTermSpans(preparedText)) {
     const filterToken =
       getQueryFilterToken(termSpan.token) ||
       getIncompleteFilterToken(termSpan.token);
@@ -425,14 +405,8 @@ export const getParsedQuery = (
       nodes.push({ end, isFilter: false, start, token });
 
       const freeText = getUnquotedValue(termSpan.token);
-      const abbreviatedCard = getAbbreviation(freeText)?.card;
       const excludedMetaFilters = getExcludedMetaFilters(freeText);
-      if (abbreviatedCard) {
-        // Quoted, so the fuzzy search reads the name as a phrase.
-        keywords.push(
-          `"${abbreviatedCard.toLowerCase().replace(PUNCTUATION, "")}"`,
-        );
-      } else if (excludedMetaFilters.length > 0) {
+      if (excludedMetaFilters.length > 0) {
         appliedFilters.push(...excludedMetaFilters);
       } else if (freeText) {
         keywords.push(freeText.replace(PUNCTUATION, ""));
@@ -445,7 +419,7 @@ export const getParsedQuery = (
     attributes,
     keywords,
     nodes,
-    text: preparedQuery.text,
+    text: preparedText,
     unresolvedFilters,
   };
 };
