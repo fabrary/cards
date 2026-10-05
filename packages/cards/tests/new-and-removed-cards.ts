@@ -62,28 +62,36 @@ for (const alreadyPublished of publishedCards) {
   }
 }
 
-console.log(
+const rule = styleText("dim", "─".repeat(60));
+const lines = [
+  rule,
   styleText(
-    "underline",
-    `${styleText("bold", String(cardsToPublish.length))} cards to publish`,
+    "bold",
+    `${cardsToPublish.length} cards to publish (vs ${publishedCards.length} on npm)`,
   ),
-);
+  "",
+];
+
 if (added.length > 0) {
-  console.log(
-    `⚠️ New cards being added:
-${styleText("yellow", added.join("\n"))}
-`,
-  );
+  lines.push(styleText(["bold", "green"], `+ ${added.length} added:`));
+  for (const card of added) {
+    lines.push(styleText("green", `  + ${card}`));
+  }
 } else {
-  console.log(`✅ No new cards being added`);
+  lines.push(styleText("dim", "  No cards added"));
 }
+lines.push("");
 
 if (removed.length > 0) {
-  console.log(
-    `⚠️ Cards being removed:
-${styleText("yellow", removed.join("\n"))}
-`,
+  lines.push(
+    styleText(["bold", "red", "inverse"], ` - ${removed.length} REMOVED: `),
   );
+  for (const card of removed) {
+    lines.push(styleText("red", `  - ${card}`));
+  }
 } else {
-  console.log(`✅ No cards being removed`);
+  lines.push(styleText("dim", "  No cards removed"));
 }
+lines.push(rule);
+
+console.log(lines.join("\n"));
