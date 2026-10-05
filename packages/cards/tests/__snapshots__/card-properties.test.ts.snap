@@ -254199,6 +254199,10 @@ exports[`Every card matches its snapshot > Gold (gold) 1`] = `
       "print": "SEA244",
       "rarity": "Basic",
       "set": "High Seas",
+      "tcgplayer": {
+        "productId": "638043",
+        "url": "https://www.tcgplayer.com/product/638043?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -426349,6 +426353,88 @@ exports[`Every card matches its snapshot > Prognosticate (prognosticate-yellow) 
 }
 `;
 
+exports[`Every card matches its snapshot > Prolonged Illness (prolonged-illness-blue) 1`] = `
+{
+  "artists": [
+    "Arkoii",
+  ],
+  "cardIdentifier": "prolonged-illness-blue",
+  "classes": [
+    "Assassin",
+  ],
+  "cost": 0,
+  "defaultImage": "MPA032",
+  "defense": 3,
+  "firstReleaseDate": "2026-11-13",
+  "functionalText": "Until end of turn, whenever a disease token is destroyed, if it's the first disease token with that name that's been destroyed this turn, create a token copy of it under the same hero's control.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Arakni",
+    "Crackni",
+    "Mortimer",
+    "Nuu",
+    "Slippy",
+    "Uzuri",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Prolonged Illness",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Arkoii",
+      ],
+      "identifier": "MPA032",
+      "image": "MPA032",
+      "print": "MPA032",
+      "rarity": "Majestic",
+      "set": "Mastery Pack: Assassin",
+    },
+    {
+      "artists": [
+        "Arkoii",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPA032",
+      "image": "MPA032-RF",
+      "print": "MPA032-Rainbow",
+      "rarity": "Majestic",
+      "set": "Mastery Pack: Assassin",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "referencedCards": [
+    "bloodrot-pox",
+    "frailty",
+    "inertia",
+  ],
+  "setIdentifiers": [
+    "MPA032",
+  ],
+  "sets": [
+    "Mastery Pack: Assassin",
+  ],
+  "specialImage": "MPA032",
+  "subtypes": [],
+  "typeText": "Assassin Instant",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
 exports[`Every card matches its snapshot > Promise of Plenty (promise-of-plenty-blue) 1`] = `
 {
   "artists": [
@@ -504786,6 +504872,255 @@ If this was played from arsenal, draw a card.",
 }
 `;
 
+exports[`Every card matches its snapshot > Seed Bloodrot (seed-bloodrot-blue) 1`] = `
+{
+  "artists": [
+    "Orson CaptainSass",
+  ],
+  "cardIdentifier": "seed-bloodrot-blue",
+  "classes": [
+    "Assassin",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "bloodrot-pox",
+  ],
+  "defaultImage": "MPA125",
+  "firstReleaseDate": "2026-11-13",
+  "functionalText": "Create a Bloodrot Pox token under each hero's control.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Arakni",
+    "Crackni",
+    "Mortimer",
+    "Nuu",
+    "Slippy",
+    "Uzuri",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Seed Bloodrot",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Orson CaptainSass",
+      ],
+      "identifier": "MPA125",
+      "image": "MPA125",
+      "print": "MPA125",
+      "rarity": "Common",
+      "set": "Mastery Pack: Assassin",
+    },
+    {
+      "artists": [
+        "Orson CaptainSass",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPA125",
+      "image": "MPA125-RF",
+      "print": "MPA125-Rainbow",
+      "rarity": "Common",
+      "set": "Mastery Pack: Assassin",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "bloodrot-pox",
+  ],
+  "setIdentifiers": [
+    "MPA125",
+  ],
+  "sets": [
+    "Mastery Pack: Assassin",
+  ],
+  "specialImage": "MPA125",
+  "subtypes": [],
+  "typeText": "Assassin Instant",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
+exports[`Every card matches its snapshot > Seed Frailty (seed-frailty-blue) 1`] = `
+{
+  "artists": [
+    "Orson CaptainSass",
+  ],
+  "cardIdentifier": "seed-frailty-blue",
+  "classes": [
+    "Assassin",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "frailty",
+  ],
+  "defaultImage": "MPA126",
+  "firstReleaseDate": "2026-11-13",
+  "functionalText": "Create a Frailty token under each hero's control.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Arakni",
+    "Crackni",
+    "Mortimer",
+    "Nuu",
+    "Slippy",
+    "Uzuri",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Seed Frailty",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Orson CaptainSass",
+      ],
+      "identifier": "MPA126",
+      "image": "MPA126",
+      "print": "MPA126",
+      "rarity": "Common",
+      "set": "Mastery Pack: Assassin",
+    },
+    {
+      "artists": [
+        "Orson CaptainSass",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPA126",
+      "image": "MPA126-RF",
+      "print": "MPA126-Rainbow",
+      "rarity": "Common",
+      "set": "Mastery Pack: Assassin",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "frailty",
+  ],
+  "setIdentifiers": [
+    "MPA126",
+  ],
+  "sets": [
+    "Mastery Pack: Assassin",
+  ],
+  "specialImage": "MPA126",
+  "subtypes": [],
+  "typeText": "Assassin Instant",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
+exports[`Every card matches its snapshot > Seed Inertia (seed-inertia-blue) 1`] = `
+{
+  "artists": [
+    "Orson CaptainSass",
+  ],
+  "cardIdentifier": "seed-inertia-blue",
+  "classes": [
+    "Assassin",
+  ],
+  "cost": 0,
+  "createdExtras": [
+    "inertia",
+  ],
+  "defaultImage": "MPA127",
+  "firstReleaseDate": "2026-11-13",
+  "functionalText": "Create an Inertia token under each hero's control.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Arakni",
+    "Crackni",
+    "Mortimer",
+    "Nuu",
+    "Slippy",
+    "Uzuri",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Seed Inertia",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Orson CaptainSass",
+      ],
+      "identifier": "MPA127",
+      "image": "MPA127",
+      "print": "MPA127",
+      "rarity": "Common",
+      "set": "Mastery Pack: Assassin",
+    },
+    {
+      "artists": [
+        "Orson CaptainSass",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPA127",
+      "image": "MPA127-RF",
+      "print": "MPA127-Rainbow",
+      "rarity": "Common",
+      "set": "Mastery Pack: Assassin",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "referencedCards": [
+    "inertia",
+  ],
+  "setIdentifiers": [
+    "MPA127",
+  ],
+  "sets": [
+    "Mastery Pack: Assassin",
+  ],
+  "specialImage": "MPA127",
+  "subtypes": [],
+  "typeText": "Assassin Instant",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
 exports[`Every card matches its snapshot > Seeds of Agony (seeds-of-agony-blue) 1`] = `
 {
   "arcane": 1,
@@ -533553,6 +533888,10 @@ exports[`Every card matches its snapshot > Sink Below (sink-below-red) 1`] = `
       "print": "FAB515-Cold-Alternate Art-Full Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "706925",
+        "url": "https://www.tcgplayer.com/product/706925?Language=English&Printing=Cold+Foil",
+      },
       "treatments": [
         "Alternate Art",
         "Full Art",

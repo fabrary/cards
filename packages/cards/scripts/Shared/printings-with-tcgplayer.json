@@ -4715,8 +4715,8 @@
       "url": ""
     },
     "SEA244": {
-      "productId": "",
-      "url": ""
+      "productId": "638043",
+      "url": "https://www.tcgplayer.com/product/638043?Language=English&Printing=Normal"
     },
     "AGB031": {
       "productId": "",
@@ -7605,6 +7605,16 @@
       "url": "https://www.tcgplayer.com/product/555133?Language=English&Printing=Cold+Foil"
     }
   },
+  "prolonged-illness-blue": {
+    "MPA032": {
+      "productId": "",
+      "url": ""
+    },
+    "MPA032-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
   "promise-of-power-yellow": {
     "IAR122": {
       "productId": "716570",
@@ -8855,6 +8865,36 @@
       "url": "https://www.tcgplayer.com/product/695900?Language=English&Printing=Normal"
     }
   },
+  "seed-bloodrot-blue": {
+    "MPA125": {
+      "productId": "",
+      "url": ""
+    },
+    "MPA125-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "seed-frailty-blue": {
+    "MPA126": {
+      "productId": "",
+      "url": ""
+    },
+    "MPA126-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
+  "seed-inertia-blue": {
+    "MPA127": {
+      "productId": "",
+      "url": ""
+    },
+    "MPA127-Rainbow": {
+      "productId": "",
+      "url": ""
+    }
+  },
   "seek-horizon-blue": {
     "IAR238": {
       "productId": "716609",
@@ -9523,8 +9563,8 @@
       "url": "https://www.tcgplayer.com/product/716132?Language=English&Printing=Normal"
     },
     "FAB515-Cold-Alternate Art-Full Art": {
-      "productId": "",
-      "url": ""
+      "productId": "706925",
+      "url": "https://www.tcgplayer.com/product/706925?Language=English&Printing=Cold+Foil"
     }
   },
   "sinspeaker-gloomblade-red": {

@@ -196103,7 +196103,10 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
       print: "SEA244",
       rarity: Rarity.Basic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "638043",
+            url: "https://www.tcgplayer.com/product/638043?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Stormy Elia Fanggidae"],
@@ -328987,6 +328990,79 @@ You may play Evos from your banished zone.`,
   
   
   },{
+    artists: ["Arkoii"],
+    cardIdentifier: "prolonged-illness-blue",
+    classes: [Class.Assassin],
+    defaultImage: "MPA032",
+    firstReleaseDate: "2026-11-13",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Mortimer,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    name: "Prolonged Illness",
+    printings: [{
+        artists: ["Arkoii"],
+      
+      identifier: "MPA032",
+      image: "MPA032",
+      
+      
+      print: "MPA032",
+      rarity: Rarity.Majestic,
+      set: Release.MasteryPackAssassin,
+      
+      
+    },{
+        artists: ["Arkoii"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPA032",
+      image: "MPA032-RF",
+      
+      
+      print: "MPA032-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.MasteryPackAssassin,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["MPA032"],
+    sets: [Release.MasteryPackAssassin],
+    specialImage: "MPA032",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Assassin Instant",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Until end of turn, whenever a disease token is destroyed, if it's the first disease token with that name that's been destroyed this turn, create a token copy of it under the same hero's control.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    referencedCards: ["bloodrot-pox","frailty","inertia"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Alexander Gering"],
     cardIdentifier: "promise-of-plenty-red",
     classes: [Class.Generic],
@@ -388825,6 +388901,225 @@ If this was played from arsenal, draw a card.`,
   
   
   },{
+    artists: ["Orson CaptainSass"],
+    cardIdentifier: "seed-bloodrot-blue",
+    classes: [Class.Assassin],
+    defaultImage: "MPA125",
+    firstReleaseDate: "2026-11-13",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Mortimer,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    name: "Seed Bloodrot",
+    printings: [{
+        artists: ["Orson CaptainSass"],
+      
+      identifier: "MPA125",
+      image: "MPA125",
+      
+      
+      print: "MPA125",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackAssassin,
+      
+      
+    },{
+        artists: ["Orson CaptainSass"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPA125",
+      image: "MPA125-RF",
+      
+      
+      print: "MPA125-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackAssassin,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPA125"],
+    sets: [Release.MasteryPackAssassin],
+    specialImage: "MPA125",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Assassin Instant",
+
+    
+    
+    cost: 0,createdExtras: ["bloodrot-pox"],
+    
+    
+    functionalText: `Create a Bloodrot Pox token under each hero's control.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    referencedCards: ["bloodrot-pox"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Orson CaptainSass"],
+    cardIdentifier: "seed-frailty-blue",
+    classes: [Class.Assassin],
+    defaultImage: "MPA126",
+    firstReleaseDate: "2026-11-13",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Mortimer,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    name: "Seed Frailty",
+    printings: [{
+        artists: ["Orson CaptainSass"],
+      
+      identifier: "MPA126",
+      image: "MPA126",
+      
+      
+      print: "MPA126",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackAssassin,
+      
+      
+    },{
+        artists: ["Orson CaptainSass"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPA126",
+      image: "MPA126-RF",
+      
+      
+      print: "MPA126-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackAssassin,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPA126"],
+    sets: [Release.MasteryPackAssassin],
+    specialImage: "MPA126",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Assassin Instant",
+
+    
+    
+    cost: 0,createdExtras: ["frailty"],
+    
+    
+    functionalText: `Create a Frailty token under each hero's control.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    referencedCards: ["frailty"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Orson CaptainSass"],
+    cardIdentifier: "seed-inertia-blue",
+    classes: [Class.Assassin],
+    defaultImage: "MPA127",
+    firstReleaseDate: "2026-11-13",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Mortimer,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    name: "Seed Inertia",
+    printings: [{
+        artists: ["Orson CaptainSass"],
+      
+      identifier: "MPA127",
+      image: "MPA127",
+      
+      
+      print: "MPA127",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackAssassin,
+      
+      
+    },{
+        artists: ["Orson CaptainSass"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPA127",
+      image: "MPA127-RF",
+      
+      
+      print: "MPA127-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackAssassin,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPA127"],
+    sets: [Release.MasteryPackAssassin],
+    specialImage: "MPA127",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Assassin Instant",
+
+    
+    
+    cost: 0,createdExtras: ["inertia"],
+    
+    
+    functionalText: `Create an Inertia token under each hero's control.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    referencedCards: ["inertia"],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["bimawithpencil"],
     cardIdentifier: "seeds-of-agony-red",
     classes: [Class.Runeblade],
@@ -403777,7 +404072,8 @@ When this leaves the arena, deal 1 arcane damage to any target. If damage is dea
     
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Thomas Ressuge"],
     cardIdentifier: "sigil-of-astral-flow-blue",
     classes: [],
@@ -404180,8 +404476,7 @@ When this leaves the arena, discard a card then draw a card.`,
     
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Daniel Jiménez","Saad Irfan"],
     cardIdentifier: "sigil-of-deadwood-blue",
     classes: [Class.Runeblade],
@@ -410860,7 +411155,10 @@ Target weapon attack gets +1{p}.
       print: "FAB515-Cold-Alternate Art-Full Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "706925",
+            url: "https://www.tcgplayer.com/product/706925?Language=English&Printing=Cold+Foil"
+          },
       treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Kimberly Pantoni"],
@@ -482718,7 +483016,8 @@ If this was **fused**, it gets +2{d}.`,
     talents: [Talent.Elemental],
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "turn-timber-yellow",
     classes: [Class.Guardian],
@@ -483162,8 +483461,7 @@ While this is defending, if you've been cheered this turn, it gets +3{d}.`,
     talents: [Talent.Revered],
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Billy Christian"],
     cardIdentifier: "twelve-petal-kasaya",
     classes: [Class.Ninja],
