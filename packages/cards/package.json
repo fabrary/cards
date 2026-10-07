@@ -29,7 +29,7 @@
     "tts": "node tts/index.ts",
     "sitemap": "node sitemap/index.ts",
     "clean:csvs": "node scripts/check-redundancy.ts",
-    "full": "npm run transform && npm run build && npm test && npm run new && npm run tts && npm run sitemap",
+    "full": "npm run transform && npm run build && npm run tts && npm run sitemap && npm test && npm run new",
     "prepublish": "npm run full",
     "prepublishOnly": "npm run typecheck"
   },

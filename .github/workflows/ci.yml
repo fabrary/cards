@@ -53,11 +53,14 @@ jobs:
         run: npm test
 
       # The committed src/index.ts + latest-set are generated from the source
-      # data (CSVs / card.json / overrides). Regenerate and fail if they drift,
-      # which catches a hand-edit of the output or a source change committed without
-      # running the pipeline. The transform is deterministic (offline, no dates
-      # in output), so a clean tree means committed output matches source.
+      # data (CSVs / card.json / overrides), and tts.txt + the card sitemap from
+      # the built cards. Regenerate and fail if they drift, which catches a
+      # hand-edit of the output or a source change committed without running the
+      # pipeline. The transform and tts are deterministic; the sitemap dates only
+      # a card the committed sitemap lacks, which is the drift being caught.
       - name: Generated card data is in sync 🔁
         run: |
           npm run transform -w @flesh-and-blood/cards
-          git diff --exit-code packages/cards/src/index.ts packages/cards/latest-set/index.ts
+          npm run tts -w @flesh-and-blood/cards
+          npm run sitemap -w @flesh-and-blood/cards
+          git diff --exit-code packages/cards/src/index.ts packages/cards/latest-set/index.ts packages/cards/tts/tts.txt packages/cards/sitemap/sitemap-cards.xml
