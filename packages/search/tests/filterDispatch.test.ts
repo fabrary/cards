@@ -31,6 +31,8 @@ const VALUE_BY_CATEGORY: Record<FilterCategory, string> = {
   [FilterCategory.Chain]: "dishonor",
   [FilterCategory.Class]: "brute",
   [FilterCategory.Cost]: "1",
+  [FilterCategory.CreatedBy]: "viserai",
+  [FilterCategory.Creates]: "runechant",
   [FilterCategory.Defense]: "2",
   [FilterCategory.Flow]: "lightning",
   [FilterCategory.Foiling]: "cf",

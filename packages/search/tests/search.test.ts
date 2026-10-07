@@ -829,6 +829,12 @@ describe("Relation filters", () => {
     [49, 'references:"hyper driver"'],
     [4, 'referencedby:"big bertha"'],
     [40, 'chain:"aether ashwing"'],
+    [26, 'creates:"bloodrot pox"'],
+    [6, 'createdby:"arakni, marionette"'],
+    [52, "creates:disease"],
+    [38, "creates:ally"],
+    [26, "creates:pox"],
+    [1, 'createdby:"agent of chaos"'],
   ];
 
   it.each(relationCounts)(
@@ -837,6 +843,46 @@ describe("Relation filters", () => {
       const { searchResults } = cardSearch.search(searchTerm as string);
 
       expect(searchResults.length).toEqual(resultCount);
+    },
+  );
+
+  const getResultIdentifiers = (searchTerm: string) =>
+    cardSearch
+      .search(searchTerm)
+      .searchResults.map(({ cardIdentifier }) => cardIdentifier);
+
+  it("Answers + with the cards every value reaches and , with any", () => {
+    const poxCreators = getResultIdentifiers('creates:"bloodrot pox"');
+    const inertiaCreators = getResultIdentifiers("creates:inertia");
+
+    expect(
+      getResultIdentifiers('creates:"bloodrot pox"+inertia').sort(),
+    ).toEqual(
+      poxCreators
+        .filter((cardIdentifier) => inertiaCreators.includes(cardIdentifier))
+        .sort(),
+    );
+    expect(
+      getResultIdentifiers('creates:"bloodrot pox",inertia').sort(),
+    ).toEqual([...new Set([...poxCreators, ...inertiaCreators])].sort());
+  });
+
+  const equivalentCreationSearches = [
+    ['makes:"bloodrot pox"', 'creates:"bloodrot pox"'],
+    ['madeby:"arakni, marionette"', 'createdby:"arakni, marionette"'],
+    ["creates:pox", 'creates:"bloodrot pox"'],
+    ["createdby:offhand", 'createdby:"off-hand"'],
+  ];
+
+  it.each(equivalentCreationSearches)(
+    "Answers %s as %s",
+    (searchTerm, equivalentSearchTerm) => {
+      const cardIdentifiers = getResultIdentifiers(searchTerm);
+
+      expect(cardIdentifiers.length).toBeGreaterThan(0);
+      expect(cardIdentifiers).toEqual(
+        getResultIdentifiers(equivalentSearchTerm),
+      );
     },
   );
 

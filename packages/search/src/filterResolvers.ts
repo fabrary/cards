@@ -10,6 +10,7 @@
 import {
   DoubleSidedCard,
   Foiling,
+  getCanBeCreated,
   Hero,
   Meta,
   Rarity,
@@ -34,6 +35,8 @@ import { getMetaFilterResolution } from "./metaFilters.js";
 import {
   CatalogueIndex,
   getCardsByName,
+  getCardsCreatedBy,
+  getCardsCreating,
   getCardsReferencedBy,
   getCardsReferencing,
 } from "./searchIndex.js";
@@ -702,20 +705,20 @@ const getChainedCardIdentifiers = (
   return { cardIdentifiers, unresolvedValues };
 };
 
-// `referencedby:` asks what a card names, `references:` who names it.
+type CardRelation = (
+  index: CatalogueIndex,
+  card: DoubleSidedCard,
+) => DoubleSidedCard[];
+
 const getRelatedCardIdentifiers = (
   index: CatalogueIndex,
-  name: string,
-  isNamedByFilter: boolean,
+  cards: readonly DoubleSidedCard[],
+  getRelatedCards: CardRelation,
 ): Set<string> => {
   const relatedCardIdentifiers = new Set<string>();
 
-  for (const namedCard of getCardsByName(index, name)) {
-    const cardsInRelation = isNamedByFilter
-      ? getCardsReferencedBy(index, namedCard)
-      : getCardsReferencing(index, namedCard);
-
-    for (const relatedCard of cardsInRelation) {
+  for (const card of cards) {
+    for (const relatedCard of getRelatedCards(index, card)) {
       relatedCardIdentifiers.add(relatedCard.cardIdentifier);
     }
   }
@@ -776,8 +779,9 @@ const getRelationResolution = (
   for (const { value } of filterValues) {
     const cardIdentifiers = getCardIdentifiersFromValue(value);
     cardIdentifiersByValue.push(cardIdentifiers);
-    // A value naming a card the relation runs from is what the filter reads,
-    // so one reaching nothing named nothing.
+    // A value is read for the cards the relation reaches from it, so one
+    // reaching none is reported, whether it names no card or a card the
+    // relation leaves alone.
     if (cardIdentifiers.size === 0) {
       unresolvedValues.push(value);
     }
@@ -808,20 +812,78 @@ const getChainResolution: FilterResolver = (term, { index }) => {
   };
 };
 
+// `references:B` asks who names B, `referencedby:A` what A names.
 const getReferencedByResolution: FilterResolver = (term, { index }) =>
   getRelationResolution(term, (value) =>
-    getRelatedCardIdentifiers(index, value, true),
+    getRelatedCardIdentifiers(
+      index,
+      getCardsByName(index, value),
+      getCardsReferencedBy,
+    ),
   );
 
 const getReferencesResolution: FilterResolver = (term, { index }) =>
   getRelationResolution(term, (value) =>
-    getRelatedCardIdentifiers(index, value, false),
+    getRelatedCardIdentifiers(
+      index,
+      getCardsByName(index, value),
+      getCardsReferencing,
+    ),
+  );
+
+// A creation filter's value names a card, or else a subtype or trait, before it
+// falls back to a fragment of a name: a fragment first would read
+// `creates:ally` as the first card with "ally" in its name. A value naming a
+// group stays that group even when none of its cards can take part, so it
+// reaches nothing rather than a card that happens to contain it.
+const getCardsByNameOrGroup = (
+  index: CatalogueIndex,
+  value: string,
+  getIsInRelation: (card: DoubleSidedCard) => boolean,
+): readonly DoubleSidedCard[] => {
+  let cards = index.getCardsByExactName(value);
+
+  if (cards.length === 0) {
+    const groupCards = index.getCardsByGroup(value);
+    cards =
+      groupCards.length > 0
+        ? groupCards.filter(getIsInRelation)
+        : getCardsByName(index, value);
+  }
+
+  return cards;
+};
+
+// Any card can bring an extra into play, so a group on that side keeps every
+// card; only an extra comes into play, so a group on the other keeps its
+// extras.
+const getCanCreate = () => true;
+
+// `creates:B` asks who brings B into play, `createdby:A` what A brings.
+const getCreatedByResolution: FilterResolver = (term, { index }) =>
+  getRelationResolution(term, (value) =>
+    getRelatedCardIdentifiers(
+      index,
+      getCardsByNameOrGroup(index, value, getCanCreate),
+      getCardsCreatedBy,
+    ),
+  );
+
+const getCreatesResolution: FilterResolver = (term, { index }) =>
+  getRelationResolution(term, (value) =>
+    getRelatedCardIdentifiers(
+      index,
+      getCardsByNameOrGroup(index, value, getCanBeCreated),
+      getCardsCreating,
+    ),
   );
 
 const resolverByFilterCategory = new Map<FilterCategory, FilterResolver>([
   [FilterCategory.Artist, getArtistResolution],
   [FilterCategory.Banned, getLegalityResolution],
   [FilterCategory.Chain, getChainResolution],
+  [FilterCategory.CreatedBy, getCreatedByResolution],
+  [FilterCategory.Creates, getCreatesResolution],
   [FilterCategory.Foiling, getFoilingResolution],
   [FilterCategory.Is, getMetaResolution],
   [FilterCategory.Legal, getLegalityResolution],

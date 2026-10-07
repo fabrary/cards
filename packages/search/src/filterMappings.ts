@@ -36,6 +36,8 @@ export const FilterCategory = {
   Chain: "chain",
   Class: "class",
   Cost: "cost",
+  CreatedBy: "createdby",
+  Creates: "creates",
   Defense: "defense",
   Flow: "flow",
   Foiling: "foiling",
@@ -210,7 +212,8 @@ export interface FilterToPropertyMapping extends CardPropertyMapping {
    * It is not the set of spellings the parse accepts, which is wider, since
    * the foiling, treatment, rarity, legality and meta resolvers each take
    * abbreviations of their own. A filter reading free text (`artist`, `name`,
-   * `text`, `typetext`), a card name (`chain`, `references`, `referencedby`),
+   * `text`, `typetext`), a card name (`chain`, `creates`, `createdby`,
+   * `references`, `referencedby`),
    * a set identifier (`print`), a date (`year`) or a number carries none.
    */
   vocabulary?: readonly string[];
@@ -287,6 +290,20 @@ const costFilter = {
   specialProperty: "specialCost",
   isNumber: true,
   partialMatch: true,
+} satisfies FilterToPropertyMapping;
+
+const createdByFilter = {
+  category: FilterCategory.CreatedBy,
+  canonicalAlias: "createdby",
+  kind: FilterKind.PartialMatch,
+  property: NO_CARD_PROPERTY,
+} satisfies FilterToPropertyMapping;
+
+const createsFilter = {
+  category: FilterCategory.Creates,
+  canonicalAlias: "creates",
+  kind: FilterKind.PartialMatch,
+  property: NO_CARD_PROPERTY,
 } satisfies FilterToPropertyMapping;
 
 const defenseFilter = {
@@ -557,6 +574,8 @@ export const filtersToCardPropertyMappings = {
   chain: chainFilter,
   co: costFilter,
   cost: costFilter,
+  createdby: createdByFilter,
+  creates: createsFilter,
   color: pitchFilter,
   d: defenseFilter,
   def: defenseFilter,
@@ -577,6 +596,8 @@ export const filtersToCardPropertyMappings = {
   hero: legalFilter,
   li: lifeFilter,
   life: lifeFilter,
+  madeby: createdByFilter,
+  makes: createsFilter,
   meta: metaFilter,
   n: nameFilter,
   name: nameFilter,
