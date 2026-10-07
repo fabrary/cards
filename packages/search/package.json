@@ -13,10 +13,6 @@
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     },
-    "./abbreviations": {
-      "types": "./dist/abbreviations.d.ts",
-      "import": "./dist/abbreviations.js"
-    },
     "./shorthands": {
       "types": "./dist/shorthands.d.ts",
       "import": "./dist/shorthands.js"

@@ -26,7 +26,6 @@ const { searchResults } = searcher.search("rhinar go again");
 Data-only modules are available as subpath imports (handy for lazy-loaded UI like a search-bar dropdown):
 
 ```ts
-import { abbreviations } from "@flesh-and-blood/search/abbreviations";
 import { shorthands } from "@flesh-and-blood/search/shorthands";
 ```
 
@@ -34,7 +33,7 @@ import { shorthands } from "@flesh-and-blood/search/shorthands";
 
 - Default export: **`Searcher`**, the search engine
 - Types: `SearchResults`, `SearchCard`
-- Data modules (subpath imports): `abbreviations`, `shorthands`, `memes`
+- Data modules (subpath imports): `shorthands`, `memes`
 - Filter / meta-filter / helper utilities (`filters`, `metaFilters`, `helpers`, `constants`, `related`)
 
 ## Working with this project
