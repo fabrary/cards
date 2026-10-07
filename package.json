@@ -15,7 +15,7 @@
     "lint": "oxlint --type-aware --deny-warnings",
     "publish": "npm login && lerna publish --no-progress",
     "publish:legacy": "npm login --auth-type=legacy && lerna publish --no-progress",
-    "postpack": "node packages/cards/tests/new-and-removed-cards.ts",
+    "postpack": "FORCE_COLOR=1 node packages/cards/tests/new-and-removed-cards.ts",
     "test": "lerna run test",
     "typecheck": "lerna run typecheck",
     "update:snapshots": "lerna run update:snapshots",
