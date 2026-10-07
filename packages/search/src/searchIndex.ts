@@ -38,7 +38,10 @@ export interface CatalogueIndex<
   getCardsByExactName: (name: string) => readonly CardType[];
   /** Every card carrying the nickname, matched whole, hyphens ignored. */
   getCardsByNickname: (nickname: string) => readonly CardType[];
-  /** Every card carrying the subtype or trait, matched whole, hyphens ignored. */
+  /**
+   * Every card carrying the type, subtype or trait, matched whole, hyphens
+   * ignored.
+   */
   getCardsByGroup: (group: string) => readonly CardType[];
   /**
    * Every card whose name has the initials, in corpus order, counting a
@@ -367,7 +370,11 @@ const getNewCatalogueIndex = <CardType extends DoubleSidedCard>(
     if (!cardsByGroup) {
       cardsByGroup = new Map();
       for (const card of cards) {
-        for (const cardGroup of [...card.subtypes, ...(card.traits ?? [])]) {
+        for (const cardGroup of [
+          ...card.types,
+          ...card.subtypes,
+          ...(card.traits ?? []),
+        ]) {
           addToCardList(cardsByGroup, getHyphenFreeKey(cardGroup), card);
         }
       }

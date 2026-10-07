@@ -33,7 +33,6 @@ export const FilterCategory = {
   Artist: "artist",
   Banned: "banned",
   Bond: "bond",
-  Chain: "chain",
   Class: "class",
   Cost: "cost",
   CreatedBy: "createdby",
@@ -212,7 +211,7 @@ export interface FilterToPropertyMapping extends CardPropertyMapping {
    * It is not the set of spellings the parse accepts, which is wider, since
    * the foiling, treatment, rarity, legality and meta resolvers each take
    * abbreviations of their own. A filter reading free text (`artist`, `name`,
-   * `text`, `typetext`), a card name (`chain`, `creates`, `createdby`,
+   * `text`, `typetext`), a card name or group (`creates`, `createdby`,
    * `references`, `referencedby`),
    * a set identifier (`print`), a date (`year`) or a number carries none.
    */
@@ -263,15 +262,6 @@ const bondFilter = {
   isArray: true,
 } satisfies FilterToPropertyMapping;
 
-// A relation filter's values name cards, which the index matches by fragment,
-// so no vocabulary closes them.
-const chainFilter = {
-  category: FilterCategory.Chain,
-  canonicalAlias: "chain",
-  kind: FilterKind.PartialMatch,
-  property: NO_CARD_PROPERTY,
-} satisfies FilterToPropertyMapping;
-
 const classFilter = {
   category: FilterCategory.Class,
   canonicalAlias: "c",
@@ -292,6 +282,8 @@ const costFilter = {
   partialMatch: true,
 } satisfies FilterToPropertyMapping;
 
+// A relation filter's values name cards or groups, which the index matches by
+// fragment, so no vocabulary closes them.
 const createdByFilter = {
   category: FilterCategory.CreatedBy,
   canonicalAlias: "createdby",
@@ -571,7 +563,6 @@ export const filtersToCardPropertyMappings = {
   bonds: bondFilter,
   c: classFilter,
   class: classFilter,
-  chain: chainFilter,
   co: costFilter,
   cost: costFilter,
   createdby: createdByFilter,

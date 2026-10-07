@@ -79,10 +79,6 @@ const exactSearches = [
   [19, "text:copper"],
   [390, 'text:"gets go again"', 'text:"gets **go again**"'],
 
-  // Chain
-  [10, "chain:dishonor"],
-  [8, "chain:mugenshi"],
-
   // Referenced by
   [3, 'referencedBy:"Open the Center"'],
   [1, "referencedBy:Viserai"],
@@ -828,10 +824,10 @@ describe("Relation filters", () => {
   const relationCounts = [
     [49, 'references:"hyper driver"'],
     [4, 'referencedby:"big bertha"'],
-    [40, 'chain:"aether ashwing"'],
     [26, 'creates:"bloodrot pox"'],
     [6, 'createdby:"arakni, marionette"'],
     [52, "creates:disease"],
+    [1060, "creates:token"],
     [38, "creates:ally"],
     [26, "creates:pox"],
     [1, 'createdby:"agent of chaos"'],
@@ -886,10 +882,24 @@ describe("Relation filters", () => {
     },
   );
 
-  const emptyChainSearches = ['chain:""', "chain:"];
+  it("Reads a group value as every card carrying it", () => {
+    const daggerReferences = getResultIdentifiers("references:dagger");
+    const quicksilverDaggerReferences = getResultIdentifiers(
+      'references:"quicksilver dagger"',
+    );
 
-  it.each(emptyChainSearches)(
-    "Applies no filter for the empty chain value in %s",
+    expect(daggerReferences).toEqual(
+      expect.arrayContaining(quicksilverDaggerReferences),
+    );
+    expect(daggerReferences.length).toBeGreaterThan(
+      quicksilverDaggerReferences.length,
+    );
+  });
+
+  const emptyRelationSearches = ['creates:""', "creates:"];
+
+  it.each(emptyRelationSearches)(
+    "Applies no filter for the empty relation value in %s",
     (searchTerm) => {
       const { searchResults } = cardSearch.search(searchTerm);
 
@@ -963,16 +973,6 @@ describe("Relation filters", () => {
         ),
       ),
     ).toEqual([]);
-  });
-
-  it("Chains the cards it collected, not the cards named like them", () => {
-    const { searchResults } = cardSearch.search('chain:"aether ashwing"');
-    const names = searchResults.map(({ name }) => name);
-
-    expect(names).toContain("Ash");
-    expect(names).not.toContain("Bash Brute");
-    expect(names).not.toContain("Cash In");
-    expect(names).not.toContain("Blade Flash");
   });
 });
 

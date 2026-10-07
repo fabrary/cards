@@ -31,7 +31,7 @@ describe("The report for a key naming no filter", () => {
 });
 
 describe("A key written with no value", () => {
-  const incompleteQueries = ["c:", "foil:", "chain:", "zz:", "-c:"];
+  const incompleteQueries = ["c:", "foil:", "creates:", "zz:", "-c:"];
 
   it.each(incompleteQueries)(
     "%s reports nothing, asking for nothing yet",
@@ -79,7 +79,6 @@ describe("A value the resolver could not place", () => {
 
 describe("A relation filter whose value reaches no card", () => {
   const relationQueries: [string, string][] = [
-    ["chain:zzz", "chain"],
     ["creates:zzz", "creates"],
     ["createdby:zzz", "createdby"],
     ["references:zzz", "references"],
@@ -93,7 +92,7 @@ describe("A relation filter whose value reaches no card", () => {
   });
 
   it("reports nothing for a value that names one", () => {
-    expect(getUnresolvedFilters("chain:copper")).toStrictEqual([]);
+    expect(getUnresolvedFilters("references:copper")).toStrictEqual([]);
   });
 
   it("reports a group with no extras rather than reading it as a fragment", () => {
@@ -266,7 +265,7 @@ describe("A query the parse resolves whole", () => {
     "banned:cc",
     "rf:blitz",
     "treat:ea",
-    "chain:dishonor",
+    "creates:runechant",
     "blade arrow",
   ];
 

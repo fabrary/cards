@@ -28,7 +28,6 @@ const VALUE_BY_CATEGORY: Record<FilterCategory, string> = {
   [FilterCategory.Artist]: "yang",
   [FilterCategory.Banned]: "blitz",
   [FilterCategory.Bond]: "earth",
-  [FilterCategory.Chain]: "dishonor",
   [FilterCategory.Class]: "brute",
   [FilterCategory.Cost]: "1",
   [FilterCategory.CreatedBy]: "viserai",

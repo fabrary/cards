@@ -10,14 +10,12 @@
 import {
   DoubleSidedCard,
   Foiling,
-  getCanBeCreated,
   Hero,
   Meta,
   Rarity,
   Release,
   setIdentifierToSetMappings,
   Treatment,
-  Type,
 } from "@flesh-and-blood/types";
 import {
   FilterCategory,
@@ -633,76 +631,26 @@ const cardIdentifierFilter: CardPropertyMapping = {
   isNormalized: true,
 };
 
-// Caps how many cards a chain expands, not how deep into the chain it runs:
-// the walk stops once it has expanded one card past the cap, wherever it has
-// got to.
-const CHAIN_EXPANSION_LIMIT = 20;
-
-/**
- * The one chain every value seeds: a term writing several names walks it once,
- * over one expansion budget, rather than a chain apiece. Only the first seed
- * is read backwards, so the chain runs out from what the query named rather
- * than out from everything that names it.
- */
-const getChainedCardIdentifiers = (
+// A value names a card, or else a group (a type, subtype or trait), before it
+// falls back to a fragment of a name: a fragment first would read
+// `references:dagger` as the first card with "dagger" in its name. A value
+// naming a group stays that group, so one whose cards the relation leaves
+// alone reaches nothing rather than a card that happens to contain it.
+const getCardsByNameOrGroup = (
   index: CatalogueIndex,
-  names: string[],
-): { cardIdentifiers: Set<string>; unresolvedValues: string[] } => {
-  const cardIdentifiers = new Set<string>();
-  const cardsToExpand: DoubleSidedCard[] = [];
-  const namesToExpand = new Set<string>();
-  const unresolvedValues: string[] = [];
+  value: string,
+): readonly DoubleSidedCard[] => {
+  let cards = index.getCardsByExactName(value);
 
-  const addToChain = (card: DoubleSidedCard) => {
-    cardIdentifiers.add(card.cardIdentifier);
-    if (!namesToExpand.has(card.name)) {
-      namesToExpand.add(card.name);
-      cardsToExpand.push(card);
-    }
-  };
-
-  // A hero the walk reaches is left out of the chain, and so out of the
-  // expansion, so a chain never runs through everything a hero names. A hero
-  // the query names is a seed and still joins and expands.
-  const addRelatedCardToChain = (card: DoubleSidedCard) => {
-    if (!card.types.includes(Type.Hero)) {
-      addToChain(card);
-    }
-  };
-
-  for (const name of names) {
-    const seedCards = getCardsByName(index, name);
-    for (const seedCard of seedCards) {
-      addToChain(seedCard);
-    }
-
-    if (seedCards.length === 0) {
-      unresolvedValues.push(name);
-    }
+  if (cards.length === 0) {
+    cards = index.getCardsByGroup(value);
   }
 
-  let expansions = 0;
-  while (
-    expansions < cardsToExpand.length &&
-    expansions <= CHAIN_EXPANSION_LIMIT
-  ) {
-    const cardToExpand = cardsToExpand[expansions];
-
-    for (const referencedCard of getCardsReferencedBy(index, cardToExpand)) {
-      addRelatedCardToChain(referencedCard);
-    }
-
-    const isSeed = expansions === 0;
-    if (isSeed) {
-      for (const referencingCard of getCardsReferencing(index, cardToExpand)) {
-        addRelatedCardToChain(referencingCard);
-      }
-    }
-
-    expansions++;
+  if (cards.length === 0) {
+    cards = getCardsByName(index, value);
   }
 
-  return { cardIdentifiers, unresolvedValues };
+  return cards;
 };
 
 type CardRelation = (
@@ -712,12 +660,12 @@ type CardRelation = (
 
 const getRelatedCardIdentifiers = (
   index: CatalogueIndex,
-  cards: readonly DoubleSidedCard[],
+  value: string,
   getRelatedCards: CardRelation,
 ): Set<string> => {
   const relatedCardIdentifiers = new Set<string>();
 
-  for (const card of cards) {
+  for (const card of getCardsByNameOrGroup(index, value)) {
     for (const relatedCard of getRelatedCards(index, card)) {
       relatedCardIdentifiers.add(relatedCard.cardIdentifier);
     }
@@ -770,128 +718,56 @@ const getCardIdentifiersFilter = (
   isOr: true,
 });
 
-const getRelationResolution = (
-  { filterValues, isAnd, isExcluded }: FilterTerm,
-  getCardIdentifiersFromValue: (value: string) => Set<string>,
-): FilterResolution => {
-  const cardIdentifiersByValue: Set<string>[] = [];
-  const unresolvedValues: string[] = [];
-  for (const { value } of filterValues) {
-    const cardIdentifiers = getCardIdentifiersFromValue(value);
-    cardIdentifiersByValue.push(cardIdentifiers);
-    // A value is read for the cards the relation reaches from it, so one
-    // reaching none is reported, whether it names no card or a card the
-    // relation leaves alone.
-    if (cardIdentifiers.size === 0) {
-      unresolvedValues.push(value);
+/**
+ * A filter reading its values as the cards the relation reaches from them:
+ * `references:B` the cards naming B, `referencedby:A` the cards A names,
+ * `creates:B` the cards bringing B into play, `createdby:A` the extras A
+ * brings.
+ */
+const getRelationResolver =
+  (getRelatedCards: CardRelation): FilterResolver =>
+  ({ filterValues, isAnd, isExcluded }, { index }) => {
+    const cardIdentifiersByValue: Set<string>[] = [];
+    const unresolvedValues: string[] = [];
+    for (const { value } of filterValues) {
+      const cardIdentifiers = getRelatedCardIdentifiers(
+        index,
+        value,
+        getRelatedCards,
+      );
+      cardIdentifiersByValue.push(cardIdentifiers);
+      // A value is read for the cards the relation reaches from it, so one
+      // reaching none is reported, whether it names no card or a card the
+      // relation leaves alone.
+      if (cardIdentifiers.size === 0) {
+        unresolvedValues.push(value);
+      }
     }
-  }
 
-  return {
-    appliedFilters: [
-      getCardIdentifiersFilter(
-        getCombinedCardIdentifiers(cardIdentifiersByValue, isAnd),
-        isExcluded,
-      ),
-    ],
-    unresolvedValues,
+    return {
+      appliedFilters: [
+        getCardIdentifiersFilter(
+          getCombinedCardIdentifiers(cardIdentifiersByValue, isAnd),
+          isExcluded,
+        ),
+      ],
+      unresolvedValues,
+    };
   };
-};
-
-const getChainResolution: FilterResolver = (term, { index }) => {
-  const { cardIdentifiers, unresolvedValues } = getChainedCardIdentifiers(
-    index,
-    term.filterValues.map(({ value }) => value),
-  );
-
-  return {
-    appliedFilters: [
-      getCardIdentifiersFilter(cardIdentifiers, term.isExcluded),
-    ],
-    unresolvedValues,
-  };
-};
-
-// `references:B` asks who names B, `referencedby:A` what A names.
-const getReferencedByResolution: FilterResolver = (term, { index }) =>
-  getRelationResolution(term, (value) =>
-    getRelatedCardIdentifiers(
-      index,
-      getCardsByName(index, value),
-      getCardsReferencedBy,
-    ),
-  );
-
-const getReferencesResolution: FilterResolver = (term, { index }) =>
-  getRelationResolution(term, (value) =>
-    getRelatedCardIdentifiers(
-      index,
-      getCardsByName(index, value),
-      getCardsReferencing,
-    ),
-  );
-
-// A creation filter's value names a card, or else a subtype or trait, before it
-// falls back to a fragment of a name: a fragment first would read
-// `creates:ally` as the first card with "ally" in its name. A value naming a
-// group stays that group even when none of its cards can take part, so it
-// reaches nothing rather than a card that happens to contain it.
-const getCardsByNameOrGroup = (
-  index: CatalogueIndex,
-  value: string,
-  getIsInRelation: (card: DoubleSidedCard) => boolean,
-): readonly DoubleSidedCard[] => {
-  let cards = index.getCardsByExactName(value);
-
-  if (cards.length === 0) {
-    const groupCards = index.getCardsByGroup(value);
-    cards =
-      groupCards.length > 0
-        ? groupCards.filter(getIsInRelation)
-        : getCardsByName(index, value);
-  }
-
-  return cards;
-};
-
-// Any card can bring an extra into play, so a group on that side keeps every
-// card; only an extra comes into play, so a group on the other keeps its
-// extras.
-const getCanCreate = () => true;
-
-// `creates:B` asks who brings B into play, `createdby:A` what A brings.
-const getCreatedByResolution: FilterResolver = (term, { index }) =>
-  getRelationResolution(term, (value) =>
-    getRelatedCardIdentifiers(
-      index,
-      getCardsByNameOrGroup(index, value, getCanCreate),
-      getCardsCreatedBy,
-    ),
-  );
-
-const getCreatesResolution: FilterResolver = (term, { index }) =>
-  getRelationResolution(term, (value) =>
-    getRelatedCardIdentifiers(
-      index,
-      getCardsByNameOrGroup(index, value, getCanBeCreated),
-      getCardsCreating,
-    ),
-  );
 
 const resolverByFilterCategory = new Map<FilterCategory, FilterResolver>([
   [FilterCategory.Artist, getArtistResolution],
   [FilterCategory.Banned, getLegalityResolution],
-  [FilterCategory.Chain, getChainResolution],
-  [FilterCategory.CreatedBy, getCreatedByResolution],
-  [FilterCategory.Creates, getCreatesResolution],
+  [FilterCategory.CreatedBy, getRelationResolver(getCardsCreatedBy)],
+  [FilterCategory.Creates, getRelationResolver(getCardsCreating)],
   [FilterCategory.Foiling, getFoilingResolution],
   [FilterCategory.Is, getMetaResolution],
   [FilterCategory.Legal, getLegalityResolution],
   [FilterCategory.Pitch, getPitchResolution],
   [FilterCategory.Print, getPrintResolution],
   [FilterCategory.Rarity, getRarityResolution],
-  [FilterCategory.ReferencedBy, getReferencedByResolution],
-  [FilterCategory.References, getReferencesResolution],
+  [FilterCategory.ReferencedBy, getRelationResolver(getCardsReferencedBy)],
+  [FilterCategory.References, getRelationResolver(getCardsReferencing)],
   [FilterCategory.Set, getSetResolution],
   [FilterCategory.Treatment, getTreatmentResolution],
 ]);
