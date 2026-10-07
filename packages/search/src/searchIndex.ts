@@ -1,5 +1,4 @@
 import {
-  Card,
   CardRole,
   DoubleSidedCard,
   getCardRole,
@@ -525,80 +524,8 @@ export const getCatalogueIndex = <
   return catalogueIndex;
 };
 
-const getPitchCycleOfCard = (
-  index: CatalogueIndex,
-  card: Card,
-): readonly DoubleSidedCard[] => index.getPitchCycle(card.cardIdentifier);
-
 /** {@link CatalogueIndex.getCardsByName}, as a free function over an index. */
 export const getCardsByName = (
   index: CatalogueIndex,
   name: string,
 ): readonly DoubleSidedCard[] => index.getCardsByName(name);
-
-const getCardsWithPitchSiblings = (
-  index: CatalogueIndex,
-  cards: readonly DoubleSidedCard[],
-): DoubleSidedCard[] => {
-  const cardByCardIdentifier = new Map<string, DoubleSidedCard>();
-
-  for (const card of cards) {
-    for (const pitch of getPitchCycleOfCard(index, card)) {
-      cardByCardIdentifier.set(pitch.cardIdentifier, pitch);
-    }
-  }
-
-  return index.getCardsInCorpusOrder([...cardByCardIdentifier.values()]);
-};
-
-// A relation between Cards, read at every pitch of the card and answered with
-// every pitch of the cards it reaches.
-const getRelatedCardsAtEveryPitch = (
-  index: CatalogueIndex,
-  card: Card,
-  getRelatedCards: (cardIdentifier: string) => readonly DoubleSidedCard[],
-): DoubleSidedCard[] => {
-  const relatedCards: DoubleSidedCard[] = [];
-
-  for (const pitch of getPitchCycleOfCard(index, card)) {
-    relatedCards.push(...getRelatedCards(pitch.cardIdentifier));
-  }
-
-  return getCardsWithPitchSiblings(index, relatedCards);
-};
-
-/** The cards naming the card, at every pitch of both. */
-export const getCardsReferencing = (
-  index: CatalogueIndex,
-  card: Card,
-): DoubleSidedCard[] =>
-  getRelatedCardsAtEveryPitch(index, card, (cardIdentifier) =>
-    index.getReferencedBy(cardIdentifier),
-  );
-
-/** The cards the card names, at every pitch of both. */
-export const getCardsReferencedBy = (
-  index: CatalogueIndex,
-  card: Card,
-): DoubleSidedCard[] =>
-  getRelatedCardsAtEveryPitch(index, card, (cardIdentifier) =>
-    index.getReferences(cardIdentifier),
-  );
-
-/** The cards bringing the card into play, at every pitch of both. */
-export const getCardsCreating = (
-  index: CatalogueIndex,
-  card: Card,
-): DoubleSidedCard[] =>
-  getRelatedCardsAtEveryPitch(index, card, (cardIdentifier) =>
-    index.getCreatedBy(cardIdentifier),
-  );
-
-/** The extras the card brings into play, at every pitch of both. */
-export const getCardsCreatedBy = (
-  index: CatalogueIndex,
-  card: Card,
-): DoubleSidedCard[] =>
-  getRelatedCardsAtEveryPitch(index, card, (cardIdentifier) =>
-    index.getCreates(cardIdentifier),
-  );

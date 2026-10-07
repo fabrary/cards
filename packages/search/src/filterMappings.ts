@@ -212,8 +212,8 @@ export interface FilterToPropertyMapping extends CardPropertyMapping {
    * the foiling, treatment, rarity, legality and meta resolvers each take
    * abbreviations of their own. A filter reading free text (`artist`, `name`,
    * `text`, `typetext`), a card name or group (`creates`, `createdby`,
-   * `references`, `referencedby`),
-   * a set identifier (`print`), a date (`year`) or a number carries none.
+   * `references`, `referencedby`), a set identifier (`print`), a date
+   * (`year`) or a number carries none.
    */
   vocabulary?: readonly string[];
 }
@@ -282,8 +282,6 @@ const costFilter = {
   partialMatch: true,
 } satisfies FilterToPropertyMapping;
 
-// A relation filter's values name cards or groups, which the index matches by
-// fragment, so no vocabulary closes them.
 const createdByFilter = {
   category: FilterCategory.CreatedBy,
   canonicalAlias: "createdby",

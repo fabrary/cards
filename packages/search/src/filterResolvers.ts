@@ -30,14 +30,7 @@ import {
 } from "./filterMappings.js";
 import { getNormalizedFilterValue, getTextWithoutMarkup } from "./helpers.js";
 import { getMetaFilterResolution } from "./metaFilters.js";
-import {
-  CatalogueIndex,
-  getCardsByName,
-  getCardsCreatedBy,
-  getCardsCreating,
-  getCardsReferencedBy,
-  getCardsReferencing,
-} from "./searchIndex.js";
+import { CatalogueIndex } from "./searchIndex.js";
 
 /**
  * What a query says about the printings each result renders, and about their
@@ -647,27 +640,38 @@ const getCardsByNameOrGroup = (
   }
 
   if (cards.length === 0) {
-    cards = getCardsByName(index, value);
+    cards = index.getCardsByName(value);
   }
 
   return cards;
 };
 
-type CardRelation = (
+/** The cards a card is related to, read from the catalogue index. */
+type RelationReader = (
   index: CatalogueIndex,
-  card: DoubleSidedCard,
-) => DoubleSidedCard[];
+  cardIdentifier: string,
+) => readonly DoubleSidedCard[];
 
+// A relation is between Cards, so it answers with every pitch of each card it
+// reaches. The value's cards already hold every pitch they read from, so each
+// cycle reached is added once, from whichever of its pitches comes first.
 const getRelatedCardIdentifiers = (
   index: CatalogueIndex,
   value: string,
-  getRelatedCards: CardRelation,
+  readRelation: RelationReader,
 ): Set<string> => {
   const relatedCardIdentifiers = new Set<string>();
 
   for (const card of getCardsByNameOrGroup(index, value)) {
-    for (const relatedCard of getRelatedCards(index, card)) {
-      relatedCardIdentifiers.add(relatedCard.cardIdentifier);
+    for (const relatedCard of readRelation(index, card.cardIdentifier)) {
+      const isCycleAdded = relatedCardIdentifiers.has(
+        relatedCard.cardIdentifier,
+      );
+      if (!isCycleAdded) {
+        for (const pitch of index.getPitchCycle(relatedCard.cardIdentifier)) {
+          relatedCardIdentifiers.add(pitch.cardIdentifier);
+        }
+      }
     }
   }
 
@@ -725,7 +729,7 @@ const getCardIdentifiersFilter = (
  * brings.
  */
 const getRelationResolver =
-  (getRelatedCards: CardRelation): FilterResolver =>
+  (readRelation: RelationReader): FilterResolver =>
   ({ filterValues, isAnd, isExcluded }, { index }) => {
     const cardIdentifiersByValue: Set<string>[] = [];
     const unresolvedValues: string[] = [];
@@ -733,7 +737,7 @@ const getRelationResolver =
       const cardIdentifiers = getRelatedCardIdentifiers(
         index,
         value,
-        getRelatedCards,
+        readRelation,
       );
       cardIdentifiersByValue.push(cardIdentifiers);
       // A value is read for the cards the relation reaches from it, so one
@@ -758,16 +762,36 @@ const getRelationResolver =
 const resolverByFilterCategory = new Map<FilterCategory, FilterResolver>([
   [FilterCategory.Artist, getArtistResolution],
   [FilterCategory.Banned, getLegalityResolution],
-  [FilterCategory.CreatedBy, getRelationResolver(getCardsCreatedBy)],
-  [FilterCategory.Creates, getRelationResolver(getCardsCreating)],
+  [
+    FilterCategory.CreatedBy,
+    getRelationResolver((index, cardIdentifier) =>
+      index.getCreates(cardIdentifier),
+    ),
+  ],
+  [
+    FilterCategory.Creates,
+    getRelationResolver((index, cardIdentifier) =>
+      index.getCreatedBy(cardIdentifier),
+    ),
+  ],
   [FilterCategory.Foiling, getFoilingResolution],
   [FilterCategory.Is, getMetaResolution],
   [FilterCategory.Legal, getLegalityResolution],
   [FilterCategory.Pitch, getPitchResolution],
   [FilterCategory.Print, getPrintResolution],
   [FilterCategory.Rarity, getRarityResolution],
-  [FilterCategory.ReferencedBy, getRelationResolver(getCardsReferencedBy)],
-  [FilterCategory.References, getRelationResolver(getCardsReferencing)],
+  [
+    FilterCategory.ReferencedBy,
+    getRelationResolver((index, cardIdentifier) =>
+      index.getReferences(cardIdentifier),
+    ),
+  ],
+  [
+    FilterCategory.References,
+    getRelationResolver((index, cardIdentifier) =>
+      index.getReferencedBy(cardIdentifier),
+    ),
+  ],
   [FilterCategory.Set, getSetResolution],
   [FilterCategory.Treatment, getTreatmentResolution],
 ]);

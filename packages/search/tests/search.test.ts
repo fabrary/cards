@@ -858,6 +858,42 @@ describe("Relation filters", () => {
     ).toEqual([...new Set([...poxCreators, ...inertiaCreators])].sort());
   });
 
+  it("Answers every pitch of every card naming the value", () => {
+    expect(getResultIdentifiers('references:"head jab"').sort()).toEqual(
+      [
+        "be-like-water-red",
+        "be-like-water-yellow",
+        "be-like-water-blue",
+        "one-two-punch-red",
+        "one-two-punch-yellow",
+        "one-two-punch-blue",
+        "open-the-center-red",
+        "open-the-center-yellow",
+        "open-the-center-blue",
+        "recoil-red",
+        "recoil-yellow",
+        "recoil-blue",
+      ].sort(),
+    );
+  });
+
+  it("Answers every pitch of every card the value names", () => {
+    expect(
+      getResultIdentifiers('referencedby:"mugenshi: release"').sort(),
+    ).toEqual(
+      [
+        "lord-of-wind-blue",
+        "whelming-gustwave-red",
+        "whelming-gustwave-yellow",
+        "whelming-gustwave-blue",
+      ].sort(),
+    );
+  });
+
+  it("Reaches nothing from a card no other card names", () => {
+    expect(getResultIdentifiers('references:"aether dart"')).toEqual([]);
+  });
+
   it("Finds the cards creating the extra a value names", () => {
     expect(getResultIdentifiers('creates:"bloodrot pox"')).toEqual(
       expect.arrayContaining([
