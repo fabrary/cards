@@ -1,5 +1,4 @@
 import {
-  Card,
   CardRole,
   DoubleSidedCard,
   getCardRole,
@@ -38,6 +37,11 @@ export interface CatalogueIndex<
   getCardsByExactName: (name: string) => readonly CardType[];
   /** Every card carrying the nickname, matched whole, hyphens ignored. */
   getCardsByNickname: (nickname: string) => readonly CardType[];
+  /**
+   * Every card carrying the type, subtype or trait, matched whole, hyphens
+   * ignored.
+   */
+  getCardsByGroup: (group: string) => readonly CardType[];
   /**
    * Every card whose name has the initials, in corpus order, counting a
    * hyphenated word both as one word and as the words the hyphens join.
@@ -116,11 +120,11 @@ const getInitialsOfName = (name: string): string[] => {
 };
 
 /**
- * Nicknames compare cleaned and without hyphens, so `p-bone` finds `PBone`
- * and `e-strike` finds `EStrike`.
+ * Nicknames and groups compare cleaned and without hyphens, so `p-bone` finds
+ * `PBone` and `offhand` finds `Off-Hand`.
  */
-const getNicknameKey = (nickname: string): string =>
-  getCleanText(nickname).replaceAll("-", "");
+const getHyphenFreeKey = (text: string): string =>
+  getCleanText(text).replaceAll("-", "");
 
 const addToCardList = <CardType>(
   cardsByKey: Map<string, CardType[]>,
@@ -211,6 +215,7 @@ const getNewCatalogueIndex = <CardType extends DoubleSidedCard>(
   let cardsByRole: Map<CardRole, CardType[]> | undefined;
   let artists: string[] | undefined;
   let cardsByNicknameKey: Map<string, CardType[]> | undefined;
+  let cardsByGroup: Map<string, CardType[]> | undefined;
   let cardsByInitials: Map<string, CardType[]> | undefined;
 
   /**
@@ -348,12 +353,33 @@ const getNewCatalogueIndex = <CardType extends DoubleSidedCard>(
       cardsByNicknameKey = new Map();
       for (const card of cards) {
         for (const cardNickname of card.nicknames ?? []) {
-          addToCardList(cardsByNicknameKey, getNicknameKey(cardNickname), card);
+          addToCardList(
+            cardsByNicknameKey,
+            getHyphenFreeKey(cardNickname),
+            card,
+          );
         }
       }
     }
 
-    return cardsByNicknameKey.get(getNicknameKey(nickname)) ?? noCards;
+    return cardsByNicknameKey.get(getHyphenFreeKey(nickname)) ?? noCards;
+  };
+
+  const getCardsByGroup = (group: string): readonly CardType[] => {
+    if (!cardsByGroup) {
+      cardsByGroup = new Map();
+      for (const card of cards) {
+        for (const cardGroup of [
+          ...card.types,
+          ...card.subtypes,
+          ...(card.traits ?? []),
+        ]) {
+          addToCardList(cardsByGroup, getHyphenFreeKey(cardGroup), card);
+        }
+      }
+    }
+
+    return cardsByGroup.get(getHyphenFreeKey(group)) ?? noCards;
   };
 
   const getCardsByInitials = (initials: string): readonly CardType[] => {
@@ -460,6 +486,7 @@ const getNewCatalogueIndex = <CardType extends DoubleSidedCard>(
     getCardsByName,
     getCardsByExactName,
     getCardsByNickname,
+    getCardsByGroup,
     getCardsByInitials,
     getArtists,
     getOppositeSide,
@@ -497,56 +524,8 @@ export const getCatalogueIndex = <
   return catalogueIndex;
 };
 
-const getPitchCycleOfCard = (
-  index: CatalogueIndex,
-  card: Card,
-): readonly DoubleSidedCard[] => index.getPitchCycle(card.cardIdentifier);
-
 /** {@link CatalogueIndex.getCardsByName}, as a free function over an index. */
 export const getCardsByName = (
   index: CatalogueIndex,
   name: string,
 ): readonly DoubleSidedCard[] => index.getCardsByName(name);
-
-const getCardsWithPitchSiblings = (
-  index: CatalogueIndex,
-  cards: readonly DoubleSidedCard[],
-): DoubleSidedCard[] => {
-  const cardByCardIdentifier = new Map<string, DoubleSidedCard>();
-
-  for (const card of cards) {
-    for (const pitch of getPitchCycleOfCard(index, card)) {
-      cardByCardIdentifier.set(pitch.cardIdentifier, pitch);
-    }
-  }
-
-  return index.getCardsInCorpusOrder([...cardByCardIdentifier.values()]);
-};
-
-/** The cards naming the card, at every pitch of both. */
-export const getCardsReferencing = (
-  index: CatalogueIndex,
-  card: Card,
-): DoubleSidedCard[] => {
-  const referencingCards: DoubleSidedCard[] = [];
-
-  for (const pitch of getPitchCycleOfCard(index, card)) {
-    referencingCards.push(...index.getReferencedBy(pitch.cardIdentifier));
-  }
-
-  return getCardsWithPitchSiblings(index, referencingCards);
-};
-
-/** The cards the card names, at every pitch of both. */
-export const getCardsReferencedBy = (
-  index: CatalogueIndex,
-  card: Card,
-): DoubleSidedCard[] => {
-  const referencedCards: DoubleSidedCard[] = [];
-
-  for (const pitch of getPitchCycleOfCard(index, card)) {
-    referencedCards.push(...index.getReferences(pitch.cardIdentifier));
-  }
-
-  return getCardsWithPitchSiblings(index, referencedCards);
-};

@@ -187,7 +187,7 @@ describe("A term", () => {
 });
 
 describe("A key with no value", () => {
-  const incompleteQueries = ["c:", "foil:", "chain:", "zz:", "-c:"];
+  const incompleteQueries = ["c:", "foil:", "creates:", "zz:", "-c:"];
 
   it.each(incompleteQueries)("%s asks nothing of the results", (query) => {
     const { appliedFilters, keywords } = getParse(query);
@@ -336,17 +336,6 @@ describe("A meta value naming no nickname of its own", () => {
     expect(getParse("is:exp").appliedFilters[0].values).toEqual([
       "expansion slot",
     ]);
-  });
-});
-
-describe("A chain of several values", () => {
-  it("walks one chain over every value it was seeded with", () => {
-    // Pinned as a literal, so a change to the corpus the walk runs over shows
-    // up here rather than passing as an unchanged relative count.
-    expect(getResultCount("chain:copper,silver")).toEqual(69);
-    expect(getResultCount("chain:copper,silver")).toEqual(
-      getResultCount("chain:copper"),
-    );
   });
 });
 

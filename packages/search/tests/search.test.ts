@@ -79,10 +79,6 @@ const exactSearches = [
   [19, "text:copper"],
   [390, 'text:"gets go again"', 'text:"gets **go again**"'],
 
-  // Chain
-  [10, "chain:dishonor"],
-  [8, "chain:mugenshi"],
-
   // Referenced by
   [3, 'referencedBy:"Open the Center"'],
   [1, "referencedBy:Viserai"],
@@ -828,7 +824,8 @@ describe("Relation filters", () => {
   const relationCounts = [
     [49, 'references:"hyper driver"'],
     [4, 'referencedby:"big bertha"'],
-    [40, 'chain:"aether ashwing"'],
+    [6, 'createdby:"arakni, marionette"'],
+    [1, 'createdby:"agent of chaos"'],
   ];
 
   it.each(relationCounts)(
@@ -840,10 +837,130 @@ describe("Relation filters", () => {
     },
   );
 
-  const emptyChainSearches = ['chain:""', "chain:"];
+  const getResultIdentifiers = (searchTerm: string) =>
+    cardSearch
+      .search(searchTerm)
+      .searchResults.map(({ cardIdentifier }) => cardIdentifier);
 
-  it.each(emptyChainSearches)(
-    "Applies no filter for the empty chain value in %s",
+  it("Answers + with the cards every value reaches and , with any", () => {
+    const poxCreators = getResultIdentifiers('creates:"bloodrot pox"');
+    const inertiaCreators = getResultIdentifiers("creates:inertia");
+
+    expect(
+      getResultIdentifiers('creates:"bloodrot pox"+inertia').sort(),
+    ).toEqual(
+      poxCreators
+        .filter((cardIdentifier) => inertiaCreators.includes(cardIdentifier))
+        .sort(),
+    );
+    expect(
+      getResultIdentifiers('creates:"bloodrot pox",inertia').sort(),
+    ).toEqual([...new Set([...poxCreators, ...inertiaCreators])].sort());
+  });
+
+  it("Answers every pitch of every card naming the value", () => {
+    expect(getResultIdentifiers('references:"head jab"').sort()).toEqual(
+      [
+        "be-like-water-red",
+        "be-like-water-yellow",
+        "be-like-water-blue",
+        "one-two-punch-red",
+        "one-two-punch-yellow",
+        "one-two-punch-blue",
+        "open-the-center-red",
+        "open-the-center-yellow",
+        "open-the-center-blue",
+        "recoil-red",
+        "recoil-yellow",
+        "recoil-blue",
+      ].sort(),
+    );
+  });
+
+  it("Answers every pitch of every card the value names", () => {
+    expect(
+      getResultIdentifiers('referencedby:"mugenshi: release"').sort(),
+    ).toEqual(
+      [
+        "lord-of-wind-blue",
+        "whelming-gustwave-red",
+        "whelming-gustwave-yellow",
+        "whelming-gustwave-blue",
+      ].sort(),
+    );
+  });
+
+  it("Reaches nothing from a card no other card names", () => {
+    expect(getResultIdentifiers('references:"aether dart"')).toEqual([]);
+  });
+
+  it("Finds the cards creating the extra a value names", () => {
+    expect(getResultIdentifiers('creates:"bloodrot pox"')).toEqual(
+      expect.arrayContaining([
+        "death-touch-red",
+        "death-touch-yellow",
+        "death-touch-blue",
+      ]),
+    );
+  });
+
+  it("Reads a group as the extras carrying it", () => {
+    const diseaseCreators = getResultIdentifiers("creates:disease");
+    const eachDiseaseCreators = new Set([
+      ...getResultIdentifiers('creates:"bloodrot pox"'),
+      ...getResultIdentifiers("creates:frailty"),
+      ...getResultIdentifiers("creates:inertia"),
+    ]);
+
+    expect(diseaseCreators.sort()).toEqual([...eachDiseaseCreators].sort());
+    expect(getResultIdentifiers("creates:token")).toEqual(
+      expect.arrayContaining(diseaseCreators),
+    );
+  });
+
+  it("Reads a group before a fragment of a card name", () => {
+    expect(getResultIdentifiers("creates:ally")).toEqual(
+      expect.arrayContaining(getResultIdentifiers('creates:"aether ashwing"')),
+    );
+  });
+
+  const equivalentCreationSearches = [
+    ['makes:"bloodrot pox"', 'creates:"bloodrot pox"'],
+    ['madeby:"arakni, marionette"', 'createdby:"arakni, marionette"'],
+    ["creates:pox", 'creates:"bloodrot pox"'],
+    ["createdby:offhand", 'createdby:"off-hand"'],
+  ];
+
+  it.each(equivalentCreationSearches)(
+    "Answers %s as %s",
+    (searchTerm, equivalentSearchTerm) => {
+      const cardIdentifiers = getResultIdentifiers(searchTerm);
+
+      expect(cardIdentifiers.length).toBeGreaterThan(0);
+      expect(cardIdentifiers).toEqual(
+        getResultIdentifiers(equivalentSearchTerm),
+      );
+    },
+  );
+
+  it("Reads a group value as every card carrying it", () => {
+    const daggerReferences = getResultIdentifiers("references:dagger");
+    const quicksilverDaggerReferences = getResultIdentifiers(
+      'references:"quicksilver dagger"',
+    );
+
+    expect(daggerReferences).toEqual(
+      expect.arrayContaining(quicksilverDaggerReferences),
+    );
+    expect(daggerReferences.length).toBeGreaterThan(
+      quicksilverDaggerReferences.length,
+    );
+  });
+
+  const emptyRelationSearches = ['creates:""', "creates:"];
+
+  it.each(emptyRelationSearches)(
+    "Applies no filter for the empty relation value in %s",
     (searchTerm) => {
       const { searchResults } = cardSearch.search(searchTerm);
 
@@ -917,16 +1034,6 @@ describe("Relation filters", () => {
         ),
       ),
     ).toEqual([]);
-  });
-
-  it("Chains the cards it collected, not the cards named like them", () => {
-    const { searchResults } = cardSearch.search('chain:"aether ashwing"');
-    const names = searchResults.map(({ name }) => name);
-
-    expect(names).toContain("Ash");
-    expect(names).not.toContain("Bash Brute");
-    expect(names).not.toContain("Cash In");
-    expect(names).not.toContain("Blade Flash");
   });
 });
 
