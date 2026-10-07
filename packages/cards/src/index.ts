@@ -130167,6 +130167,18 @@ If you've played or activated 2 or more attack reactions this chain link, this g
       
     },{
         artists: ["Othon Nikolaidis"],
+      
+      identifier: "MPA002",
+      image: "MPA002",
+      
+      
+      print: "MPA002",
+      rarity: Rarity.Basic,
+      set: Release.MasteryPackAssassin,
+      
+      
+    },{
+        artists: ["Othon Nikolaidis"],
       foiling: Foiling.Cold,
       identifier: "MPA002",
       image: "MPA002-MV",
@@ -130196,8 +130208,8 @@ If you've played or activated 2 or more attack reactions this chain link, this g
           },
       treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Majestic,Rarity.Marvel],
-    rarity: Rarity.Majestic,
+    rarities: [Rarity.Basic,Rarity.Majestic,Rarity.Marvel],
+    rarity: Rarity.Basic,
     setIdentifiers: ["AMO001","MPA002"],
     sets: [Release.ArmoryDeckDrMortimer,Release.MasteryPackAssassin],
     specialImage: "MPA002-MV",
@@ -300647,6 +300659,79 @@ This can't be defended by equipment.`,
   
   },{
     artists: ["Tommy Suhartono"],
+    cardIdentifier: "outbreak-blue",
+    classes: [Class.Assassin],
+    defaultImage: "MPA031",
+    firstReleaseDate: "2026-11-13",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Mortimer,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    name: "Outbreak",
+    printings: [{
+        artists: ["Tommy Suhartono"],
+      
+      identifier: "MPA031",
+      image: "MPA031",
+      
+      
+      print: "MPA031",
+      rarity: Rarity.Majestic,
+      set: Release.MasteryPackAssassin,
+      
+      
+    },{
+        artists: ["Tommy Suhartono"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPA031",
+      image: "MPA031-RF",
+      
+      
+      print: "MPA031-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.MasteryPackAssassin,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["MPA031"],
+    sets: [Release.MasteryPackAssassin],
+    specialImage: "MPA031",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin Attack Reaction",
+
+    
+    
+    cost: 3,createdExtras: ["bloodrot-pox","frailty","inertia"],
+    defense: 3,
+    
+    functionalText: `Target Assassin attack action card gets +3{p} and "When this hits a hero, create a Frailty, Inertia, and Bloodrot Pox token under their control."`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    referencedCards: ["bloodrot-pox","frailty","inertia"],
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Tommy Suhartono"],
     cardIdentifier: "outed-red",
     classes: [Class.Generic],
     defaultImage: "HNT235",
@@ -323257,7 +323342,8 @@ When this attacks, if you've **beaten chest** this turn, create a Might token.`,
     
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Joseph Qiu"],
     cardIdentifier: "pound-town-blue",
     classes: [Class.Brute],
@@ -323368,8 +323454,7 @@ When this attacks, if you've **beaten chest** this turn, create a Might token.`,
     
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Sonia Sandoval"],
     cardIdentifier: "pounding-gale-red",
     classes: [Class.Ninja],
@@ -403976,7 +404061,8 @@ At the beginning of your action phase, destroy this then draw a card.`,
     
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Daniel Jiménez","Mario Wibisono"],
     cardIdentifier: "sigil-of-aether-blue",
     classes: [Class.Wizard],
@@ -404072,8 +404158,7 @@ When this leaves the arena, deal 1 arcane damage to any target. If damage is dea
     
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Thomas Ressuge"],
     cardIdentifier: "sigil-of-astral-flow-blue",
     classes: [],
@@ -482890,7 +482975,8 @@ When this hits a Revered hero, **the crowd boos** you.`,
     talents: [Talent.Reviled],
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "turn-timber-red",
     classes: [Class.Guardian],
@@ -483016,8 +483102,7 @@ If this was **fused**, it gets +2{d}.`,
     talents: [Talent.Elemental],
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "turn-timber-yellow",
     classes: [Class.Guardian],

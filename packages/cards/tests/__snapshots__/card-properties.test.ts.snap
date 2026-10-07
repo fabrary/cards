@@ -167529,6 +167529,16 @@ exports[`Every card matches its snapshot > Dr. Mortimer, Blight of the Pits (dr-
       "artists": [
         "Othon Nikolaidis",
       ],
+      "identifier": "MPA002",
+      "image": "MPA002",
+      "print": "MPA002",
+      "rarity": "Basic",
+      "set": "Mastery Pack: Assassin",
+    },
+    {
+      "artists": [
+        "Othon Nikolaidis",
+      ],
       "foiling": "Cold",
       "identifier": "MPA002",
       "image": "MPA002-MV",
@@ -167563,10 +167573,11 @@ exports[`Every card matches its snapshot > Dr. Mortimer, Blight of the Pits (dr-
     },
   ],
   "rarities": [
+    "Basic",
     "Majestic",
     "Marvel",
   ],
-  "rarity": "Majestic",
+  "rarity": "Basic",
   "referencedCards": [
     "bloodrot-pox",
     "frailty",
@@ -389055,6 +389066,96 @@ exports[`Every card matches its snapshot > Out for Blood (out-for-blood-yellow) 
   "specialImage": "CRU089-RF",
   "subtypes": [],
   "typeText": "Warrior Attack Reaction",
+  "types": [
+    "Attack Reaction",
+  ],
+}
+`;
+
+exports[`Every card matches its snapshot > Outbreak (outbreak-blue) 1`] = `
+{
+  "artists": [
+    "Tommy Suhartono",
+  ],
+  "cardIdentifier": "outbreak-blue",
+  "classes": [
+    "Assassin",
+  ],
+  "cost": 3,
+  "createdExtras": [
+    "bloodrot-pox",
+    "frailty",
+    "inertia",
+  ],
+  "defaultImage": "MPA031",
+  "defense": 3,
+  "firstReleaseDate": "2026-11-13",
+  "functionalText": "Target Assassin attack action card gets +3{p} and "When this hits a hero, create a Frailty, Inertia, and Bloodrot Pox token under their control."",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Arakni",
+    "Crackni",
+    "Mortimer",
+    "Nuu",
+    "Slippy",
+    "Uzuri",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Outbreak",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Tommy Suhartono",
+      ],
+      "identifier": "MPA031",
+      "image": "MPA031",
+      "print": "MPA031",
+      "rarity": "Majestic",
+      "set": "Mastery Pack: Assassin",
+    },
+    {
+      "artists": [
+        "Tommy Suhartono",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPA031",
+      "image": "MPA031-RF",
+      "print": "MPA031-Rainbow",
+      "rarity": "Majestic",
+      "set": "Mastery Pack: Assassin",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "referencedCards": [
+    "bloodrot-pox",
+    "frailty",
+    "inertia",
+  ],
+  "setIdentifiers": [
+    "MPA031",
+  ],
+  "sets": [
+    "Mastery Pack: Assassin",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "MPA031",
+  "subtypes": [],
+  "typeText": "Assassin Attack Reaction",
   "types": [
     "Attack Reaction",
   ],
