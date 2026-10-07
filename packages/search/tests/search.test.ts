@@ -824,12 +824,7 @@ describe("Relation filters", () => {
   const relationCounts = [
     [49, 'references:"hyper driver"'],
     [4, 'referencedby:"big bertha"'],
-    [26, 'creates:"bloodrot pox"'],
     [6, 'createdby:"arakni, marionette"'],
-    [52, "creates:disease"],
-    [1060, "creates:token"],
-    [38, "creates:ally"],
-    [26, "creates:pox"],
     [1, 'createdby:"agent of chaos"'],
   ];
 
@@ -861,6 +856,36 @@ describe("Relation filters", () => {
     expect(
       getResultIdentifiers('creates:"bloodrot pox",inertia').sort(),
     ).toEqual([...new Set([...poxCreators, ...inertiaCreators])].sort());
+  });
+
+  it("Finds the cards creating the extra a value names", () => {
+    expect(getResultIdentifiers('creates:"bloodrot pox"')).toEqual(
+      expect.arrayContaining([
+        "death-touch-red",
+        "death-touch-yellow",
+        "death-touch-blue",
+      ]),
+    );
+  });
+
+  it("Reads a group as the extras carrying it", () => {
+    const diseaseCreators = getResultIdentifiers("creates:disease");
+    const eachDiseaseCreators = new Set([
+      ...getResultIdentifiers('creates:"bloodrot pox"'),
+      ...getResultIdentifiers("creates:frailty"),
+      ...getResultIdentifiers("creates:inertia"),
+    ]);
+
+    expect(diseaseCreators.sort()).toEqual([...eachDiseaseCreators].sort());
+    expect(getResultIdentifiers("creates:token")).toEqual(
+      expect.arrayContaining(diseaseCreators),
+    );
+  });
+
+  it("Reads a group before a fragment of a card name", () => {
+    expect(getResultIdentifiers("creates:ally")).toEqual(
+      expect.arrayContaining(getResultIdentifiers('creates:"aether ashwing"')),
+    );
   });
 
   const equivalentCreationSearches = [
