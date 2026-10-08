@@ -11,7 +11,7 @@ import {
   Treatment,
 } from "@flesh-and-blood/types";
 import { assertReleaseNamesAreUnique, releases } from "./Shared/releases.ts";
-import { writeFiles } from "./writer.ts";
+import { writeCardsFile, writeCatalogueFile } from "./writer.ts";
 import { spoiledCards } from "./Spoiled/index.ts";
 import { releasedCards } from "./Released/index.ts";
 import {
@@ -368,7 +368,7 @@ if (shouldAddRainbowFoilsToLatestSet) {
   });
 }
 
-writeFiles(cardsToWrite, releases, outputDirectory);
+writeCatalogueFile(cardsToWrite, releases, outputDirectory);
 
 const latestSetCardsWithOnlySetPrintings = latestSetCards.map((card) => {
   const printings = card.printings.filter(({ set }) => set === latestSet);
@@ -382,4 +382,4 @@ const latestSetCardsWithOnlySetPrintings = latestSetCards.map((card) => {
   return { ...card, defaultImage, printings, specialImage };
 });
 
-writeFiles(latestSetCardsWithOnlySetPrintings, releases, "latest-set");
+writeCardsFile(latestSetCardsWithOnlySetPrintings, "latest-set");

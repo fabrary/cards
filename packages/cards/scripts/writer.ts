@@ -338,7 +338,8 @@ const sortAlphabetically = (c1: Card, c2: Card): number => {
 
 const CARD_CHUNK_SIZE = 800;
 
-const generateTS = (cards: Card[], releases: ReleaseInfo[]): string => {
+// Releases ship in the package file alone; the latest set file holds cards.
+const generateTS = (cards: Card[], releases?: ReleaseInfo[]): string => {
   cards.sort(sortAlphabetically);
 
   const cardChunks: Card[][] = [];
@@ -370,6 +371,12 @@ const generateTS = (cards: Card[], releases: ReleaseInfo[]): string => {
   // );
   // const cards4 = cards.slice(Math.ceil((3 * cards.length) / 4), cards.length);
   // const cards5 = cards.slice(Math.ceil((3 * cards.length) / 4), cards.length);
+  const releasesSource = releases
+    ? `
+
+  export const releases: ReleaseInfo[] = [${releases.map(getReleaseSource).join(",")}];`
+    : ``;
+
   const ts = `
   import {
     Bond,
@@ -380,15 +387,12 @@ const generateTS = (cards: Card[], releases: ReleaseInfo[]): string => {
     Format,
     Fusion,
     Hero,
-    Keyword,
-    Language,
+    Keyword,${releases ? `\n    Language,` : ``}
     Meta,
     Metatype,
     Rarity,
     Release,
-    ReleaseEdition,
-    type ReleaseInfo,
-    ReleaseType,
+    ReleaseEdition,${releases ? `\n    type ReleaseInfo,\n    ReleaseType,` : ``}
     Shorthand,
     Subtype,
     Talent,
@@ -411,26 +415,28 @@ const generateTS = (cards: Card[], releases: ReleaseInfo[]): string => {
       return `...cards${chunk + 1},`;
     })
     .join("\n")}
-  ];
-
-  export const releases: ReleaseInfo[] = [${releases
-    .map(getReleaseSource)
-    .join(",")}];
+  ];${releasesSource}
   `;
   return ts;
 };
 
-export const writeFiles = (
-  cards: Card[],
-  releases: ReleaseInfo[],
-  outputDirectory: string,
-) => {
+const writeIndexFile = (outputDirectory: string, ts: string) => {
   // make sure directory exists
   if (!existsSync(outputDirectory)) {
     mkdirSync(outputDirectory);
   }
 
-  // write typescript
-  const ts = generateTS(cards, releases);
   writeFileSync(`${outputDirectory}/index.ts`, ts);
+};
+
+export const writeCatalogueFile = (
+  cards: Card[],
+  releases: ReleaseInfo[],
+  outputDirectory: string,
+) => {
+  writeIndexFile(outputDirectory, generateTS(cards, releases));
+};
+
+export const writeCardsFile = (cards: Card[], outputDirectory: string) => {
+  writeIndexFile(outputDirectory, generateTS(cards));
 };
