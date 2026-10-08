@@ -308,10 +308,10 @@ const releaseEnumFields: { [field: string]: [string, EnumObject] } = {
   talents: ["Talent", Talent],
 };
 
-const getReleaseSource = (release: ReleaseInfo): string => {
+const getReleaseSource = (releaseInfo: ReleaseInfo): string => {
   const fieldSources: string[] = [];
 
-  for (const [field, value] of Object.entries(release)) {
+  for (const [field, value] of Object.entries(releaseInfo)) {
     const enumField = releaseEnumFields[field];
     let valueSource: string;
 

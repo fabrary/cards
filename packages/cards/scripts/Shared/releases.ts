@@ -2167,10 +2167,21 @@ export const releases: ReleaseInfo[] = [
   },
 ];
 
-const getReleaseBySetIdentifier = (): Map<string, Release> => {
-  const releaseBySetIdentifier = new Map<string, Release>();
+interface ReleaseLookups {
+  // Keyed by lowercase identifier, as source rows are read.
+  releaseBySetIdentifier: Map<string, Release>;
+  // Keyed by name as a string, since source data names a release in raw text.
+  releaseInfoByRelease: Map<string, ReleaseInfo>;
+}
 
-  for (const { release, setIdentifiers } of releases) {
+const getReleaseLookups = (): ReleaseLookups => {
+  const releaseBySetIdentifier = new Map<string, Release>();
+  const releaseInfoByRelease = new Map<string, ReleaseInfo>();
+
+  for (const releaseInfo of releases) {
+    const { release, setIdentifiers } = releaseInfo;
+    releaseInfoByRelease.set(release, releaseInfo);
+
     for (const setIdentifier of setIdentifiers) {
       const releaseWithSameIdentifier =
         releaseBySetIdentifier.get(setIdentifier);
@@ -2185,16 +2196,11 @@ const getReleaseBySetIdentifier = (): Map<string, Release> => {
     }
   }
 
-  return releaseBySetIdentifier;
+  return { releaseBySetIdentifier, releaseInfoByRelease };
 };
 
-// Keyed by lowercase identifier, as source rows are read.
-export const releaseBySetIdentifier = getReleaseBySetIdentifier();
-
-// Keyed by name as a string, since source data names a release in raw text.
-export const releaseInfoByRelease = new Map<string, ReleaseInfo>(
-  releases.map((releaseInfo) => [releaseInfo.release, releaseInfo]),
-);
+export const { releaseBySetIdentifier, releaseInfoByRelease } =
+  getReleaseLookups();
 
 /**
  * The catalogue index resolves a set filter's value against release names as
