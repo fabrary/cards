@@ -7,12 +7,11 @@ import {
   type Printing,
   Rarity,
   Release,
-  releases,
   ReleaseType,
-  setToSetIdentifierMappings,
   Treatment,
 } from "@flesh-and-blood/types";
-import { writeFiles } from "./writer.ts";
+import { assertReleaseNamesAreUnique, releases } from "./Shared/releases.ts";
+import { writeCardsFile, writeCatalogueFile } from "./writer.ts";
 import { spoiledCards } from "./Spoiled/index.ts";
 import { releasedCards } from "./Released/index.ts";
 import {
@@ -193,21 +192,28 @@ const cardsWithRelations = deduplicatedCards.map((card) => ({
   ...(relationsByCardIdentifier.get(card.cardIdentifier) as CardRelations),
 }));
 
-// Which heroes may run a created extra follows from what the rest of their pool
-// puts into play, so hero legality reads the whole card list at once.
-const legalHeroesByCardIdentifier = getLegalHeroesByCard(cardsWithRelations);
-
 // A hero card back takes its formats from its fronts, so format confirmation
-// reads the whole card list at once as well.
+// reads the whole card list at once.
 const confirmedFormatsByCardIdentifier =
   getConfirmedBannedAndLegalFormatsByCardIdentifier(cardsWithRelations);
+const cardsWithConfirmedFormats = cardsWithRelations.map((card) => ({
+  ...card,
+  ...(confirmedFormatsByCardIdentifier.get(
+    card.cardIdentifier,
+  ) as ConfirmedFormats),
+}));
+
+// Which heroes may run a created extra follows from what the rest of their pool
+// puts into play, and a macro's heroes from its release's Draft-legal hero
+// cards, so hero legality reads the whole card list once formats are settled.
+const legalHeroesByCardIdentifier = getLegalHeroesByCard(
+  cardsWithConfirmedFormats,
+);
 
 assertEveryNicknameNamesACard(cardsWithRelations);
+assertReleaseNamesAreUnique();
 
-const cardsWithAdditionalProperties = cardsWithRelations.map((card) => {
-  const { bannedFormats, legalFormats } = confirmedFormatsByCardIdentifier.get(
-    card.cardIdentifier,
-  ) as ConfirmedFormats;
+const cardsWithAdditionalProperties = cardsWithConfirmedFormats.map((card) => {
   const legalHeroes = legalHeroesByCardIdentifier.get(
     card.cardIdentifier,
   ) as Hero[];
@@ -219,8 +225,6 @@ const cardsWithAdditionalProperties = cardsWithRelations.map((card) => {
   return {
     ...card,
     firstReleaseDate: getFirstReleaseDate(card),
-    bannedFormats,
-    legalFormats,
     legalHeroes,
     meta,
     nicknames,
@@ -243,7 +247,7 @@ for (const card of cardsWithAdditionalProperties) {
 
 const completedCards = getCardsWithTCGplayerUrlOverrides(cardsWithRarity);
 
-const latestStandaloneBooster = releases
+const latestStandaloneBooster = [...releases]
   .reverse()
   .find(({ releaseType }) => releaseType === ReleaseType.StandaloneBooster);
 let latestSet: Release;
@@ -258,8 +262,8 @@ if (latestStandaloneBooster) {
 // The rainbow foil pass below matches latest set cards by this prefix, so a
 // latest set with no identifiers would quietly write the file without those
 // printings.
-const latestSetIdentifiers = setToSetIdentifierMappings.get(latestSet);
-const hasLatestSetIdentifiers = !!latestSetIdentifiers?.length;
+const latestSetIdentifiers = latestStandaloneBooster.setIdentifiers;
+const hasLatestSetIdentifiers = latestSetIdentifiers.length > 0;
 let latestSetPrefix: string;
 if (hasLatestSetIdentifiers) {
   latestSetPrefix = latestSetIdentifiers[0].toUpperCase();
@@ -364,7 +368,7 @@ if (shouldAddRainbowFoilsToLatestSet) {
   });
 }
 
-writeFiles(cardsToWrite, outputDirectory);
+writeCatalogueFile(cardsToWrite, releases, outputDirectory);
 
 const latestSetCardsWithOnlySetPrintings = latestSetCards.map((card) => {
   const printings = card.printings.filter(({ set }) => set === latestSet);
@@ -378,4 +382,4 @@ const latestSetCardsWithOnlySetPrintings = latestSetCards.map((card) => {
   return { ...card, defaultImage, printings, specialImage };
 });
 
-writeFiles(latestSetCardsWithOnlySetPrintings, "latest-set");
+writeCardsFile(latestSetCardsWithOnlySetPrintings, "latest-set");

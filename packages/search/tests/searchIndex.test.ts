@@ -1,8 +1,10 @@
+import { releases } from "@flesh-and-blood/cards";
 import { describe, expect, it } from "vitest";
 import {
   CardRole,
   DoubleSidedCard,
   getCardRole,
+  Release,
   Trait,
 } from "@flesh-and-blood/types";
 import Search from "../src/search";
@@ -13,7 +15,7 @@ import {
 } from "../src/searchIndex";
 import { doubleSidedCards } from "./_doubleSidedCards";
 
-const index = getCatalogueIndex(doubleSidedCards);
+const index = getCatalogueIndex(doubleSidedCards, releases);
 
 const getIdentifiers = (matches: readonly DoubleSidedCard[]): string[] =>
   matches.map(({ cardIdentifier }) => cardIdentifier);
@@ -180,7 +182,7 @@ describe("Catalogue index", () => {
     });
 
     it("Answers for every Agent of Chaos in an index over a hero's pool", () => {
-      const cardSearch = new Search(doubleSidedCards);
+      const cardSearch = new Search(doubleSidedCards, { releases });
       const agentsOfChaos = doubleSidedCards.filter(
         ({ traits }) => !!traits && traits.includes(Trait.AgentOfChaos),
       );
@@ -189,7 +191,7 @@ describe("Catalogue index", () => {
       );
       const { searchResults: legalCards } =
         cardSearch.search(`l:crackni c:assassin`);
-      const legalCardsIndex = getCatalogueIndex(legalCards);
+      const legalCardsIndex = getCatalogueIndex(legalCards, releases);
 
       expect(agentsOfChaos.length).toBeGreaterThanOrEqual(2);
       expect(referencesAgentOfChaos.length).toBeGreaterThan(0);
@@ -281,7 +283,9 @@ describe("Catalogue index", () => {
 
       expect(
         getIdentifiers(
-          getCatalogueIndex(loopingCorpus).getCreatedClosure(["loop-front"]),
+          getCatalogueIndex(loopingCorpus, releases).getCreatedClosure([
+            "loop-front",
+          ]),
         ),
       ).toEqual(["loop-front", "loop-back"]);
     });
@@ -337,25 +341,83 @@ describe("Catalogue index", () => {
 
   describe("One index per corpus", () => {
     it("Answers with the same index for the same array", () => {
-      expect(getCatalogueIndex(doubleSidedCards)).toBe(index);
+      expect(getCatalogueIndex(doubleSidedCards, releases)).toBe(index);
     });
 
     it("Answers with another index for a copy of the array", () => {
-      expect(getCatalogueIndex([...doubleSidedCards])).not.toBe(index);
+      expect(getCatalogueIndex([...doubleSidedCards], releases)).not.toBe(
+        index,
+      );
+    });
+
+    it("Answers with another index for a copy of the releases", () => {
+      expect(getCatalogueIndex(doubleSidedCards, [...releases])).not.toBe(
+        index,
+      );
+    });
+  });
+
+  describe("Releases", () => {
+    it("Holds the releases in the order they were handed in", () => {
+      expect(index.releases).toBe(releases);
+    });
+
+    it("Answers by the name a card's sets carry, matched exactly", () => {
+      expect(index.getRelease(Release.WelcomeToRathe)?.setIdentifiers).toEqual([
+        "wtr",
+      ]);
+      expect(index.getRelease("welcome to rathe")).toBeUndefined();
+    });
+
+    it("Answers by name as a filter reads it", () => {
+      expect(
+        index.getReleaseByName("classic battles rhinar vs dorinthea")?.release,
+      ).toEqual(Release.ClassicBattlesRhinarDorinthea);
+      expect(index.getReleaseByName("Welcome to Rathe")?.release).toEqual(
+        Release.WelcomeToRathe,
+      );
+    });
+
+    it("Answers by set identifier in any case", () => {
+      expect(index.getReleaseBySetIdentifier("HP1")?.release).toEqual(
+        Release.HistoryPack1,
+      );
+      expect(index.getReleaseBySetIdentifier("1hp")?.release).toEqual(
+        Release.HistoryPack1,
+      );
+    });
+
+    it("Answers with nothing for a name or identifier no release carries", () => {
+      expect(index.getRelease("constructor")).toBeUndefined();
+      expect(index.getReleaseByName("zzz")).toBeUndefined();
+      expect(index.getReleaseBySetIdentifier("zzz")).toBeUndefined();
+      expect(index.getReleaseHeroCards("zzz")).toEqual([]);
+    });
+
+    it("Answers with the hero cards a release is for", () => {
+      expect(
+        getIdentifiers(index.getReleaseHeroCards(Release.ArmoryDeckKayo)),
+      ).toEqual(["kayo-armed-and-dangerous"]);
+    });
+
+    it("Answers with the same hero card list on each read", () => {
+      expect(index.getReleaseHeroCards(Release.WelcomeToRathe)).toBe(
+        index.getReleaseHeroCards(Release.WelcomeToRathe),
+      );
     });
   });
 
   describe("Lazy builds", () => {
     it("Builds nothing until a read asks for it", () => {
       const { corpus, getCardReads } = getWatchedCorpus();
-      getCatalogueIndex(corpus);
+      getCatalogueIndex(corpus, releases);
 
       expect(getCardReads()).toEqual(0);
     });
 
     it("Builds the card lookups once, on the first lookup", () => {
       const { corpus, getCardReads } = getWatchedCorpus();
-      const watchedIndex = getCatalogueIndex(corpus);
+      const watchedIndex = getCatalogueIndex(corpus, releases);
 
       watchedIndex.getCard("head-jab-red");
       const cardReadsAfterLookup = getCardReads();
@@ -367,7 +429,7 @@ describe("Catalogue index", () => {
 
     it("Builds a relation only when the relation is read", () => {
       const { corpus, getCardReads } = getWatchedCorpus();
-      const watchedIndex = getCatalogueIndex(corpus);
+      const watchedIndex = getCatalogueIndex(corpus, releases);
 
       watchedIndex.getCard("head-jab-red");
       const cardReadsBeforeRelation = getCardReads();
@@ -381,7 +443,7 @@ describe("Catalogue index", () => {
 
     it("Builds the creators only when a creator is read", () => {
       const { corpus, getCardReads } = getWatchedCorpus();
-      const watchedIndex = getCatalogueIndex(corpus);
+      const watchedIndex = getCatalogueIndex(corpus, releases);
 
       watchedIndex.getReferencedBy("head-jab-red");
       const cardReadsBeforeCreators = getCardReads();
@@ -395,7 +457,7 @@ describe("Catalogue index", () => {
 
     it("Builds the role buckets only when a role is read", () => {
       const { corpus, getCardReads } = getWatchedCorpus();
-      const watchedIndex = getCatalogueIndex(corpus);
+      const watchedIndex = getCatalogueIndex(corpus, releases);
 
       watchedIndex.getReferencedBy("head-jab-red");
       const cardReadsBeforeRole = getCardReads();
@@ -406,7 +468,7 @@ describe("Catalogue index", () => {
 
     it("Builds the artists only when the artists are read", () => {
       const { corpus, getCardReads } = getWatchedCorpus();
-      const watchedIndex = getCatalogueIndex(corpus);
+      const watchedIndex = getCatalogueIndex(corpus, releases);
 
       watchedIndex.getReferencedBy("head-jab-red");
       const cardReadsBeforeArtists = getCardReads();
@@ -429,11 +491,10 @@ describe("Catalogue index", () => {
 
       expect(
         getIdentifiers(
-          getCatalogueIndex([knownFirst, knownSecond]).getCardsInCorpusOrder([
-            knownSecond,
-            stray,
-            knownFirst,
-          ]),
+          getCatalogueIndex(
+            [knownFirst, knownSecond],
+            releases,
+          ).getCardsInCorpusOrder([knownSecond, stray, knownFirst]),
         ),
       ).toEqual(["known-first", "known-second", "stray"]);
     });
@@ -479,8 +540,10 @@ describe("Catalogue index", () => {
       const richCards: RichCard[] = doubleSidedCards
         .filter(({ name }) => name === "Aether Dart")
         .map((card, position) => ({ ...card, extra: position }));
-      const pitchCycle: readonly RichCard[] =
-        getCatalogueIndex(richCards).getPitchCycle("aether-dart-yellow");
+      const pitchCycle: readonly RichCard[] = getCatalogueIndex(
+        richCards,
+        releases,
+      ).getPitchCycle("aether-dart-yellow");
 
       expect(pitchCycle.map(({ extra }) => extra)).toEqual([0, 1, 2]);
     });
@@ -494,7 +557,7 @@ describe("Catalogue index", () => {
         ...card,
         extra: position,
       }));
-      const plainIndex: CatalogueIndex = getCatalogueIndex(richCards);
+      const plainIndex: CatalogueIndex = getCatalogueIndex(richCards, releases);
 
       expect(getIdentifiers(getCardsByName(plainIndex, "aether dart"))).toEqual(
         ["aether-dart-red", "aether-dart-yellow", "aether-dart-blue"],
@@ -565,7 +628,7 @@ describe("Catalogue index", () => {
 
       expect(
         getIdentifiers(
-          getCardsByName(getCatalogueIndex(fragmentCorpus), "bolt"),
+          getCardsByName(getCatalogueIndex(fragmentCorpus, releases), "bolt"),
         ),
       ).toEqual(["bolt-scrapper-red", "bolt-scrapper-yellow"]);
     });
@@ -649,7 +712,7 @@ describe("Catalogue index", () => {
         },
       ] as unknown as DoubleSidedCard[];
 
-      const artists = getCatalogueIndex(casedCorpus).getArtists();
+      const artists = getCatalogueIndex(casedCorpus, releases).getArtists();
 
       expect(artists.length).toEqual(4);
       expect(

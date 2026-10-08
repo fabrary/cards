@@ -1,5 +1,5 @@
 import type { PreliminaryCard } from "./preliminary-card.ts";
-import { releases } from "@flesh-and-blood/types";
+import { releases } from "./releases.ts";
 import firstReleaseDateOverridesFile from "./first-release-date-overrides.json" with { type: "json" };
 
 // cardIdentifier -> "YYYY-MM-DD". Fills (or corrects) the first release date for
@@ -11,7 +11,7 @@ const firstReleaseDateOverrides = firstReleaseDateOverridesFile as {
 };
 
 // Map each release to its release date so we can find the earliest date any of a
-// card's sets came out. Some sets have no releaseDate and are skipped.
+// card's sets came out. Promo releases have no releaseDate and are skipped.
 const releaseDatesByRelease = new Map(
   releases.map(({ release, releaseDate }) => [release, releaseDate]),
 );

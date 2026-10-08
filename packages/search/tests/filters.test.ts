@@ -11,12 +11,12 @@ import {
   getKeywordsAndAppliedFiltersFromText,
   RARITY_VALUES_MAPPING,
 } from "../src/filters";
-import { cards } from "@flesh-and-blood/cards";
+import { cards, releases } from "@flesh-and-blood/cards";
 import { getNormalizedFilterValue } from "../src/helpers";
 import Search from "../src/search";
 import { getCatalogueIndex } from "../src/searchIndex";
 
-const index = getCatalogueIndex(cards);
+const index = getCatalogueIndex(cards, releases);
 
 // Any fixed day works; the point is that the token resolves to a comparison
 // against the date it was given rather than to whatever today happens to be.
@@ -188,7 +188,6 @@ describe("Gets the right attribute filters", () => {
         search as string,
         index,
         [],
-        [],
         PINNED_TODAY,
       );
 
@@ -206,7 +205,6 @@ describe("Gets the right attribute filters", () => {
     const { appliedFilters } = getKeywordsAndAppliedFiltersFromText(
       "is:preview,arena",
       index,
-      [],
       [],
       PINNED_TODAY,
     );
@@ -228,7 +226,6 @@ describe("Gets the right attribute filters", () => {
     const { appliedFilters } = getKeywordsAndAppliedFiltersFromText(
       "is:preview,released",
       index,
-      [],
       [],
       PINNED_TODAY,
     );
@@ -289,7 +286,7 @@ describe("Complete filter abbreviation mapping", () => {
 // `__proto__` survive as real inherited keys; the lowercased forms are covered
 // alongside the originals to keep that visible rather than implied.
 describe("Inherited object member names are not filters or filter values", () => {
-  const cardSearch = new Search(cards);
+  const cardSearch = new Search(cards, { releases });
   const inheritedNames = [
     ...new Set(
       Object.getOwnPropertyNames(Object.prototype).flatMap((name) => [
@@ -406,7 +403,7 @@ describe("Set names expand only where a set filter expects one", () => {
 
   // The expansion rewrites a name into a set identifier, which the fuzzy search
   // would otherwise match against every card name carrying those letters.
-  const cardSearch = new Search(cards);
+  const cardSearch = new Search(cards, { releases });
   const cardNameSearches = [
     ["rosetta thorn", "Rosetta Thorn"],
     ["chart the high seas", "Chart the High Seas"],

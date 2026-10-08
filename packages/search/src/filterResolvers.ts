@@ -14,7 +14,6 @@ import {
   Meta,
   Rarity,
   Release,
-  setIdentifierToSetMappings,
   Treatment,
 } from "@flesh-and-blood/types";
 import {
@@ -59,7 +58,6 @@ export interface FilterTerm {
 /** What a resolver reads besides the term itself. */
 export interface FilterResolverContext {
   additionalHeroes: Hero[];
-  additionalSets: Release[];
   index: CatalogueIndex;
   today: string;
 }
@@ -270,49 +268,29 @@ const getPitchResolution: FilterResolver = (term) => {
   };
 };
 
-// Keyed by each set's name as a filter reads it, so neither case nor
-// punctuation is part of the match.
-const releasesByName = new Map<string, Release>();
-for (const release of Object.values(Release)) {
-  const name = getNormalizedFilterValue(release);
-  const releaseWithSameName = releasesByName.get(name);
-  if (releaseWithSameName === undefined) {
-    releasesByName.set(name, release);
-  } else {
-    throw new Error(
-      `${releaseWithSameName} and ${release} are one name as a filter reads it, so a set filter naming it could reach either`,
-    );
-  }
-}
-
-const getReleasesFromLookup = (
-  lookup: Map<string, Release>,
-  value: string,
-): Release[] => {
-  const release = lookup.get(value);
-
-  return release ? [release] : [];
-};
-
 const getMatchingReleasesFromValue = (
   value: string,
-  additionalSets: Release[],
+  index: CatalogueIndex,
 ): Release[] => {
   // A set value is read as a name, then as an identifier, then as a fragment
-  // of a name, then as a set the caller carries: each rung is reached only
-  // where the one above it named no set.
+  // of a name: each rung is reached only where the one above it named no set.
   const rungs: (() => Release[])[] = [
-    () => getReleasesFromLookup(releasesByName, value),
-    () => getReleasesFromLookup(setIdentifierToSetMappings, value),
-    () =>
-      Object.values(Release).filter((release) =>
-        release.toLowerCase().includes(value),
-      ),
     () => {
-      const additionalSetFromValue = additionalSets.find(
-        (additionalSet) => getNormalizedFilterValue(additionalSet) === value,
-      );
-      return additionalSetFromValue ? [additionalSetFromValue] : [];
+      const releaseInfo = index.getReleaseByName(value);
+      return releaseInfo ? [releaseInfo.release] : [];
+    },
+    () => {
+      const releaseInfo = index.getReleaseBySetIdentifier(value);
+      return releaseInfo ? [releaseInfo.release] : [];
+    },
+    () => {
+      const releasesNamingValue: Release[] = [];
+      for (const { release } of index.releases) {
+        if (release.toLowerCase().includes(value)) {
+          releasesNamingValue.push(release);
+        }
+      }
+      return releasesNamingValue;
     },
   ];
 
@@ -326,9 +304,9 @@ const getMatchingReleasesFromValue = (
   return releases;
 };
 
-const getSetResolution: FilterResolver = (term, { additionalSets }) =>
+const getSetResolution: FilterResolver = (term, { index }) =>
   getVocabularyResolution(term, "releases", (value) =>
-    getMatchingReleasesFromValue(value, additionalSets),
+    getMatchingReleasesFromValue(value, index),
   );
 
 const foilingValuesMapping = new Map<string, Foiling>(

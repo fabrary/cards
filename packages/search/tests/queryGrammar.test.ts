@@ -1,3 +1,4 @@
+import { releases } from "@flesh-and-blood/cards";
 // One describe per query shape the grammar reads: where a term begins and ends,
 // which filter its key names, what its values mean, and the nodes a reader asks
 // what a query means through. What the parse could not place is pinned in
@@ -13,7 +14,7 @@ import { getCatalogueIndex } from "../src/searchIndex";
 import { doubleSidedCards } from "./_doubleSidedCards";
 import { getCategoryOfMapping } from "./_filterMappings";
 
-const index = getCatalogueIndex(doubleSidedCards);
+const index = getCatalogueIndex(doubleSidedCards, releases);
 const cardSearch = new Search(doubleSidedCards, { index });
 
 const CORPUS_SIZE = doubleSidedCards.length;

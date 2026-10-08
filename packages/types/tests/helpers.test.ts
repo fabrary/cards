@@ -8,7 +8,6 @@ import {
   getDefaultPrinting,
   getIsExtra,
   getCardFromGEMCardIdentifier,
-  getBoomerPrinting,
   getMaxRarityPrinting,
   getPrint,
 } from "../src/helpers";
@@ -504,12 +503,6 @@ describe("Printings", () => {
       printings,
     );
     expect(defaultPrinting.image).toEqual("PEN319");
-
-    const boomerPrinting = getBoomerPrinting(
-      { cardIdentifier, name },
-      printings,
-    );
-    expect(boomerPrinting.image).toEqual("ARC159");
 
     const specialPrinting = getSpecialPrinting(
       { cardIdentifier, name },

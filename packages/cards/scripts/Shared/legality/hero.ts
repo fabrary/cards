@@ -1,17 +1,17 @@
 import {
   Class,
+  Format,
   getCanBeCreated,
   getIsDeckCard,
   Hero,
   Keyword,
   Metatype,
-  Release,
-  releases,
   Subtype,
   Talent,
   Trait,
   Type,
 } from "@flesh-and-blood/types";
+import { releaseInfoByRelease } from "../releases.ts";
 
 /**
  * What a hero's pool is decided from, plus the extras the card puts into play.
@@ -24,6 +24,7 @@ export interface PoolCard {
   createdExtras?: string[];
   hero?: Hero;
   keywords?: Keyword[];
+  legalFormats: Format[];
   metatypes?: Metatype[];
   name: string;
   pitch?: number;
@@ -221,7 +222,6 @@ const heroIdentities: { [key: string]: Hero[] } = {
 };
 
 const HEROES: Hero[] = Object.values(Hero);
-const ALL_RELEASES = Object.values(Release);
 
 // "Tome" as a whole word: Tomeltai is a dragon.
 const TOME_NAME = /\bTomes?\b/i;
@@ -255,25 +255,26 @@ const getIsExempt = (exemption: DeckbuildingExemption, card: PoolCard) => {
 };
 
 // A macro carries the release it is drafted in as a metatype, and that release
-// names the hero cards drafting it. A hero's enum value is not always part of its
-// card identifier (Broscilio is `oscilio-scion-of-the-third-age`), so each named
-// card resolves to its own hero.
+// drafts with its Draft-legal hero cards. A hero's enum value is not always part
+// of its card identifier (Broscilio is `oscilio-scion-of-the-third-age`), so
+// each hero card resolves to its own hero.
 const getDraftHeroes = (
   card: PoolCard,
-  heroByCardIdentifier: Map<string, Hero>,
+  draftHeroByCardIdentifier: Map<string, Hero>,
 ): Hero[] => {
   const macroRelease = (card.metatypes || []).find((metatype) =>
-    ALL_RELEASES.includes(metatype as unknown as Release),
+    releaseInfoByRelease.has(metatype),
   );
-  const draftRelease = macroRelease
-    ? releases.find(
-        ({ release }) => release === (macroRelease as unknown as Release),
-      )
+  const macroReleaseInfo = macroRelease
+    ? releaseInfoByRelease.get(macroRelease)
     : undefined;
+  const draftHeroIdentifiers = macroReleaseInfo?.draft
+    ? macroReleaseInfo.heroIdentifiers
+    : [];
   const draftHeroes: Hero[] = [];
 
-  for (const heroIdentifier of draftRelease?.draft?.heroIdentifiers || []) {
-    const draftHero = heroByCardIdentifier.get(heroIdentifier);
+  for (const heroIdentifier of draftHeroIdentifiers) {
+    const draftHero = draftHeroByCardIdentifier.get(heroIdentifier);
 
     if (draftHero) {
       draftHeroes.push(draftHero);
@@ -286,12 +287,14 @@ const getDraftHeroes = (
 /** The heroes a card's class, talent and printing let it be run by. */
 const getPoolHeroes = (
   card: PoolCard,
-  heroByCardIdentifier: Map<string, Hero>,
+  draftHeroByCardIdentifier: Map<string, Hero>,
 ): Hero[] => {
   const legalHeroes: Hero[] = [];
 
   const isMacro = card.types.includes(Type.Macro);
-  const draftHeroes = isMacro ? getDraftHeroes(card, heroByCardIdentifier) : [];
+  const draftHeroes = isMacro
+    ? getDraftHeroes(card, draftHeroByCardIdentifier)
+    : [];
   const isSpecializationCard = getIsSpecializationCard(card);
   // A hybrid card's type line names two classes and asks for either.
   const mustMatchAtLeastOneClass = card.typeText.includes("/");
@@ -410,14 +413,20 @@ export const getLegalHeroesByCard = (
   const legalHeroesByCardIdentifier = new Map<string, Hero[]>();
   const createdExtraCards: PoolCard[] = [];
   const extrasCreatedByHero = new Map<Hero, Set<string>>();
-  // Filled before the pool pass: a macro can come before the hero cards it names.
-  const heroByCardIdentifier = new Map<string, Hero>();
+  // Filled before the pool pass: a macro can come before the hero cards its
+  // release drafts with.
+  const draftHeroByCardIdentifier = new Map<string, Hero>();
 
   creationChainByHero.clear();
 
   for (const card of cards) {
-    if (card.hero && card.types.includes(Type.Hero)) {
-      heroByCardIdentifier.set(card.cardIdentifier, card.hero);
+    const { hero } = card;
+    const isDraftHero =
+      !!hero &&
+      card.types.includes(Type.Hero) &&
+      card.legalFormats.includes(Format.Draft);
+    if (isDraftHero) {
+      draftHeroByCardIdentifier.set(card.cardIdentifier, hero);
     }
   }
 
@@ -425,7 +434,7 @@ export const getLegalHeroesByCard = (
     if (getCanBeCreated(card)) {
       createdExtraCards.push(card);
     } else {
-      const legalHeroes = getPoolHeroes(card, heroByCardIdentifier);
+      const legalHeroes = getPoolHeroes(card, draftHeroByCardIdentifier);
       legalHeroesByCardIdentifier.set(card.cardIdentifier, legalHeroes);
 
       const createsExtras = (card.createdExtras || []).length > 0;

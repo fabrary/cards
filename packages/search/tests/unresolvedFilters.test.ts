@@ -1,3 +1,4 @@
+import { releases } from "@flesh-and-blood/cards";
 // What the parse could not place, over the real catalogue: the key that names
 // no filter, the value no filter reads, and the filter whose values hold that
 // value instead. A report is read with `toStrictEqual` so that a suggestion
@@ -12,7 +13,7 @@ import { getCatalogueIndex } from "../src/searchIndex";
 import { doubleSidedCards } from "./_doubleSidedCards";
 import { getCategoryOfMapping } from "./_filterMappings";
 
-const index = getCatalogueIndex(doubleSidedCards);
+const index = getCatalogueIndex(doubleSidedCards, releases);
 const cardSearch = new Search(doubleSidedCards, { index });
 
 const CORPUS_SIZE = doubleSidedCards.length;

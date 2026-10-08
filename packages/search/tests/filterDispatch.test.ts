@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { cards } from "@flesh-and-blood/cards";
+import { cards, releases } from "@flesh-and-blood/cards";
 import {
   aliasesByFilterCategory,
   FilterCategory,
@@ -15,7 +15,7 @@ import {
   filterMappingsByAlias,
 } from "./_filterMappings";
 
-const index = getCatalogueIndex(cards);
+const index = getCatalogueIndex(cards, releases);
 
 // Any fixed day works; the point is that two aliases answer alike, not what
 // today happens to be.
@@ -71,7 +71,6 @@ describe("Every alias of a filter takes the same branch", () => {
       `${firstAlias}:${value}`,
       index,
       [],
-      [],
       PINNED_TODAY,
     );
 
@@ -81,7 +80,6 @@ describe("Every alias of a filter takes the same branch", () => {
         getKeywordsAndAppliedFiltersFromText(
           `${alias}:${value}`,
           index,
-          [],
           [],
           PINNED_TODAY,
         ),

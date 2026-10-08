@@ -21,7 +21,7 @@ import { Hero, Rarity, getDefaultPrinting } from "@flesh-and-blood/types";
 Data and helper modules are also available as subpath imports, so you can pull in just what you need:
 
 ```ts
-import { releases } from "@flesh-and-blood/types/sets";
+import { ReleaseType, getIsBooster } from "@flesh-and-blood/types/sets";
 import { getDefaultPrinting } from "@flesh-and-blood/types/helpers";
 import type { Card } from "@flesh-and-blood/types/interfaces";
 ```
@@ -39,21 +39,22 @@ an overview.
 
 ### Interfaces
 
-`Card` (the main card shape), `DoubleSidedCard`, `Printing`, `LegalOverride`, `ReleaseInfo`,
-`SilverAgeChapter`.
+`Card` (the main card shape), `DoubleSidedCard`, `Printing`, `LegalOverride`, `ReleaseInfo`.
 
 ### Helpers: `@flesh-and-blood/types/helpers`
 
-- **Printing pickers:** `getPrint`, `getDefaultPrinting`, `getSpecialPrinting`, `getBoomerPrinting`,
+- **Printing pickers:** `getPrint`, `getDefaultPrinting`, `getSpecialPrinting`,
   `getMaxRarityPrinting`
+- **Filter values:** `getNormalizedFilterValue`, `PUNCTUATION`
 - **Card properties:** `getCardIdentifier`, `getFrontAndBackCardIdentifier`,
   `getCardFromGEMCardIdentifier`, `getIsArenaCard`, `getIsDeckCard`, `getIsCardTokenForDeck`,
   `getCanCardBeTokenForDeck`, `getCanAddToDeck`, `getShouldRotateCardImage`
 
-### Set data: `@flesh-and-blood/types/sets`
+### Release vocabulary: `@flesh-and-blood/types/sets`
 
-`releases`, `fullSetIdentifiers`, `setIdentifierToSetMappings`, `setToSetIdentifierMappings`,
-`silverAgeChapters`, plus `getIsBooster`, `getIsReprint`, `getIsDraftable`, `getIsPreconstructed`.
+`Language`, `ReleaseType` and the `ReleaseInfo` record type, plus `getIsBooster`, `getIsReprint`,
+`getIsDraftable`, `getIsPreconstructed`. The release records themselves ship with the card data, as
+`releases` from `@flesh-and-blood/cards`.
 
 ## Working with this project
 

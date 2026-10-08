@@ -11,7 +11,6 @@ import {
   Meta,
   Printing,
   Rarity,
-  Release,
   Shorthand,
   Subtype,
   Talent,
@@ -439,13 +438,13 @@ const referencesFilter = {
   property: NO_CARD_PROPERTY,
 } satisfies FilterToPropertyMapping;
 
-// A set value resolves through its name, its identifier or a fragment of
-// either, so the Release enum names more than it closes.
+// A set value resolves against the releases the catalogue ships with, which
+// can be newer than this package, so the filter declares no vocabulary of its
+// own.
 const setFilter = {
   category: FilterCategory.Set,
   canonicalAlias: "s",
   kind: FilterKind.PartialMatch,
-  vocabulary: Object.values(Release),
   property: "sets",
   isArray: true,
   partialMatch: true,

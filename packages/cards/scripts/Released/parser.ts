@@ -1,10 +1,7 @@
-import {
-  Release,
-  setToSetIdentifierMappings,
-  Type,
-} from "@flesh-and-blood/types";
+import { Release, Type } from "@flesh-and-blood/types";
 import { readFileSync } from "fs";
 import { getSetFromIdentifier } from "../Shared/index.ts";
+import { releaseInfoByRelease } from "../Shared/releases.ts";
 
 const IMAGES_TO_EXCLUDE = [
   "ROS257",
@@ -214,9 +211,7 @@ export const parseJSON = (cardJSON: string, setJSON: string): ParsedCard[] => {
               if (matchingSet.id === "ARK") {
                 matchingSet.name = Release.ArakniBlitzDeckARK;
               }
-              const isNamedRelease = setToSetIdentifierMappings.has(
-                matchingSet.name,
-              );
+              const isNamedRelease = releaseInfoByRelease.has(matchingSet.name);
               if (isNamedRelease) {
                 set = matchingSet.name as Release;
               } else {

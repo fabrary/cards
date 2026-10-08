@@ -1,4 +1,4 @@
-export const PUNCTUATION = /[!"#$%&'’(),./:;<=>?@[\]^_`|~]/g;
+export { PUNCTUATION } from "@flesh-and-blood/types";
 
 /**
  * The markdown emphasis that wraps keywords in a card's functional text. Kept

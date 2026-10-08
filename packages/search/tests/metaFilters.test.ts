@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { Hero } from "@flesh-and-blood/types";
 import { getExcludedMetaFilters, getMetaFilters } from "../src/metaFilters";
 import Search, { PUNCTUATION } from "../src";
-import { cards } from "@flesh-and-blood/cards";
+import { cards, releases } from "@flesh-and-blood/cards";
 
 describe("Every hero has a legal filter", () => {
   it.each(Object.values(Hero))("%s has a filter", (hero: string) => {
@@ -39,7 +39,7 @@ describe("Every hero has a legal filter", () => {
 });
 
 describe("Edge case conditions are handled", () => {
-  const cardSearch = new Search(cards);
+  const cardSearch = new Search(cards, { releases });
 
   it("Gorganian Tome in Emperor", () => {
     const { searchResults } = cardSearch.search("l:emperor");

@@ -1,18 +1,13 @@
-import { MARKUP, PUNCTUATION } from "./constants.js";
+import { PUNCTUATION } from "@flesh-and-blood/types";
+import { MARKUP } from "./constants.js";
+
+export { getNormalizedFilterValue } from "@flesh-and-blood/types";
 
 export const getCleanText = (text: string): string =>
   getNormalizedText(text.toLowerCase().trim().replace(PUNCTUATION, ""));
 
 export const getNormalizedText = (text: string): string =>
   text.normalize("NFD").replace(/\p{Diacritic}/gu, "");
-
-/**
- * A filter value as a filter reads it, which is how a query's values arrive
- * and how the values a filter declares have to be compared against them:
- * neither the case nor the punctuation a value was written with is part of it.
- */
-export const getNormalizedFilterValue = (value: string): string =>
-  value.toLowerCase().replace(PUNCTUATION, "");
 
 export const getTextWithoutMarkup = (text: string): string =>
   text.replace(MARKUP, "");

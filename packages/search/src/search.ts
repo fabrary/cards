@@ -3,9 +3,7 @@ import {
   DoubleSidedCard,
   Hero,
   Printing,
-  Release,
-  setIdentifierToSetMappings,
-  setToSetIdentifierMappings,
+  ReleaseInfo,
 } from "@flesh-and-blood/types";
 import Fuse, { type IFuseOptions } from "fuse.js";
 import { PUNCTUATION } from "./constants.js";
@@ -33,19 +31,22 @@ export interface SearchCard extends DoubleSidedCard {
   matchingPrintings?: Printing[];
 }
 
-export interface SearchOptions {
+/**
+ * The catalogue the parser resolves names, sets and relations against: an index
+ * built elsewhere, or the releases the corpus ships with, making the corpus its
+ * own catalogue. A pool searched out of a larger catalogue shares the
+ * catalogue's index, so a relation is answered from every card that carries it
+ * while the search still answers with the pool alone. The pool must be a subset
+ * of the catalogue the index was built over: a pool card the catalogue does not
+ * hold resolves to nothing, with no error.
+ */
+type SearchCatalogue =
+  | { index: CatalogueIndex; releases?: never }
+  | { index?: never; releases: readonly ReleaseInfo[] };
+
+export type SearchOptions = SearchCatalogue & {
   additionalHeroes?: Hero[];
-  additionalSets?: Release[];
-  /**
-   * The catalogue the parser resolves names and relations against. A pool
-   * searched out of a larger catalogue shares the catalogue's index, so a
-   * relation is answered from every card that carries it while the search still
-   * answers with the pool alone. Left out, the corpus is its own catalogue.
-   * The pool must be a subset of the catalogue the index was built over: a pool
-   * card the catalogue does not hold resolves to nothing, with no error.
-   */
-  index?: CatalogueIndex;
-}
+};
 
 /** How the free text named cards other than by their names. */
 export interface SearchAlias {
@@ -102,33 +103,17 @@ const searchOptions: IFuseOptions<DoubleSidedCard> = {
 
 class Search {
   private additionalHeroes: Hero[];
-  private additionalSets: Release[];
   private cards: DoubleSidedCard[];
   private fuse: Fuse<Card> | undefined;
   private index: CatalogueIndex;
   private poolCardByCardIdentifier: Map<string, DoubleSidedCard> | undefined;
 
-  constructor(cards: DoubleSidedCard[], options?: SearchOptions);
-  constructor(
-    cards: DoubleSidedCard[],
-    additionalHeroes?: Hero[],
-    additionalSets?: Release[],
-  );
-  constructor(
-    cards: DoubleSidedCard[],
-    additionalHeroesOrOptions: Hero[] | SearchOptions = [],
-    additionalSets: Release[] = [],
-  ) {
-    const options: SearchOptions = Array.isArray(additionalHeroesOrOptions)
-      ? { additionalHeroes: additionalHeroesOrOptions, additionalSets }
-      : additionalHeroesOrOptions;
-
+  constructor(cards: DoubleSidedCard[], options: SearchOptions) {
     this.additionalHeroes = options.additionalHeroes || [];
-    this.additionalSets = options.additionalSets || [];
     this.cards = [...cards];
     // Keyed on the caller's array rather than the private copy, so a consumer
     // holding that array shares this index instead of building a second one.
-    this.index = options.index || getCatalogueIndex(cards);
+    this.index = options.index || getCatalogueIndex(cards, options.releases);
   }
 
   // Scoring the corpus is the costly half of a search, so a catalogue that is
@@ -172,7 +157,6 @@ class Search {
     const { appliedFilters, attributes, keywords, unresolvedFilters } =
       getParsedQuery(text, this.index, {
         additionalHeroes: this.additionalHeroes,
-        additionalSets: this.additionalSets,
       });
 
     const keyword = keywords.join(" ");
@@ -250,9 +234,9 @@ class Search {
 
       const shouldSortByRelease = attributes.releases.length === 1;
       if (shouldSortByRelease) {
-        const matchingSetIdentifiers = setToSetIdentifierMappings.get(
+        const matchingSetIdentifiers = this.index.getRelease(
           attributes.releases[0],
-        );
+        )?.setIdentifiers;
         if (matchingSetIdentifiers?.length) {
           setIdentifierToSortBy = matchingSetIdentifiers[0].toUpperCase();
         }
@@ -262,7 +246,7 @@ class Search {
         !setIdentifierToSortBy && attributes.prints.length === 1;
       if (shouldSortByPrint) {
         const setToSort = attributes.prints[0];
-        if (setIdentifierToSetMappings.has(setToSort)) {
+        if (this.index.getReleaseBySetIdentifier(setToSort)) {
           setIdentifierToSortBy = setToSort.toUpperCase();
         }
       }

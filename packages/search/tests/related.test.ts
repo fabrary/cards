@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { getCanBeExtra, Trait } from "@flesh-and-blood/types";
-import { cards } from "@flesh-and-blood/cards";
+import { cards, releases } from "@flesh-and-blood/cards";
 import { getTokensReferencedByCards } from "../src/related";
 import Search from "../src/search";
 
@@ -76,7 +76,7 @@ describe("Related cards", () => {
     "Spellbane Aegis",
   ];
   it("Gets all tokens for Shiyana", () => {
-    const cardSearch = new Search(cards);
+    const cardSearch = new Search(cards, { releases });
 
     const { searchResults } = cardSearch.search(`l:shiyana`);
     const tokens = searchResults.filter(getCanBeExtra);
@@ -110,7 +110,7 @@ describe("Related cards", () => {
     "Zen State",
   ];
   it("Gets all tokens for Yorick", () => {
-    const cardSearch = new Search(cards);
+    const cardSearch = new Search(cards, { releases });
 
     const { searchResults } = cardSearch.search(`l:yorick`);
     const tokens = searchResults.filter(getCanBeExtra);
@@ -153,7 +153,7 @@ describe("Related cards", () => {
   );
 
   it("Gets the Agent of Chaos tokens for Arakni", () => {
-    const cardSearch = new Search(cards);
+    const cardSearch = new Search(cards, { releases });
     const agentsOfChaos = cards
       .filter(({ traits }) => !!traits && traits.includes(Trait.AgentOfChaos))
       .map(({ name }) => name);

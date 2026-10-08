@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
-import { cards } from "@flesh-and-blood/cards";
+import { cards, releases } from "@flesh-and-blood/cards";
 import Search from "../src/search";
 import { getCatalogueIndex } from "../src/searchIndex";
 
-const cardSearch = new Search(cards);
+const cardSearch = new Search(cards, { releases });
 
 const getNames = (text: string): string[] =>
   cardSearch.search(text).searchResults.map(({ name }) => name);
@@ -111,7 +111,9 @@ describe("Initials", () => {
 
   it("answer from the pool searched, not the whole catalogue", () => {
     const pool = cards.filter(({ name }) => name !== "Call to the Grave");
-    const poolSearch = new Search(pool, { index: getCatalogueIndex(cards) });
+    const poolSearch = new Search(pool, {
+      index: getCatalogueIndex(cards, releases),
+    });
 
     expect(poolSearch.search("cttg").searchResults).toEqual([]);
   });

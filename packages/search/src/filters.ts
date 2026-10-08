@@ -1,4 +1,4 @@
-import { Hero, Release } from "@flesh-and-blood/types";
+import { Hero } from "@flesh-and-blood/types";
 import type { AppliedFilter } from "./filterMappings.js";
 import type { QueryAttributes } from "./filterResolvers.js";
 import { getParsedQuery } from "./queryParse.js";
@@ -17,7 +17,6 @@ export const getKeywordsAndAppliedFiltersFromText = (
   text: string,
   index: CatalogueIndex,
   additionalHeroes: Hero[] = [],
-  additionalSets: Release[] = [],
   today?: string,
 ): {
   appliedFilters: AppliedFilter[];
@@ -26,7 +25,6 @@ export const getKeywordsAndAppliedFiltersFromText = (
 } => {
   const { appliedFilters, attributes, keywords } = getParsedQuery(text, index, {
     additionalHeroes,
-    additionalSets,
     today,
   });
 
