@@ -5,11 +5,11 @@ import {
   Keyword,
   Rarity,
   Release,
-  releases,
   ReleaseType,
   Subtype,
   Type,
 } from "@flesh-and-blood/types";
+import { releases } from "../releases.ts";
 import { goldenAgeBannedCards } from "./golden-age.ts";
 import { getIsASpecialUsePromo } from "./special-use-promos.ts";
 
@@ -339,13 +339,16 @@ const getConfirmedBannedAndLegalFormats = ({
 
         if (rarityRestrictionsFromSets.length > 0) {
           let rarityRestrictionsAreEqual = true;
-          const firstRarityRestrictions = rarityRestrictionsFromSets[0]
-            ?.sort()
-            .join() as string;
+          const firstRarityRestrictions = [
+            ...(rarityRestrictionsFromSets[0] || []),
+          ]
+            .sort()
+            .join();
           for (const rarityRestrictions of rarityRestrictionsFromSets) {
             if (rarityRestrictions) {
               const matches =
-                firstRarityRestrictions === rarityRestrictions.sort().join();
+                firstRarityRestrictions ===
+                [...rarityRestrictions].sort().join();
               if (!matches) {
                 rarityRestrictionsAreEqual = false;
                 break;

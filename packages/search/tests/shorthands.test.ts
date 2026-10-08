@@ -1,10 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { cards } from "@flesh-and-blood/cards";
+import { cards, releases } from "@flesh-and-blood/cards";
 import { shorthands } from "../src/shorthands";
 import Search from "../src/search";
 
 describe("Shorthands", () => {
-  const cardSearch = new Search(cards);
+  const cardSearch = new Search(cards, { releases });
 
   it("Buff defenses doesn't include buff powers", () => {
     const { searchResults } = cardSearch.search("Pump defense");

@@ -9,10 +9,9 @@ import {
   Treatment,
   Type,
 } from "@flesh-and-blood/types";
-import { cards } from "@flesh-and-blood/cards";
+import { cards, releases } from "@flesh-and-blood/cards";
 import Search, { SearchCard } from "../src/search";
 import { getCatalogueIndex } from "../src/searchIndex";
-import { setToSetIdentifierMappings } from "@flesh-and-blood/types";
 import { doubleSidedCards } from "./_doubleSidedCards";
 
 const exactSearches = [
@@ -93,7 +92,7 @@ const exactSearches = [
 ];
 
 describe("Card search", () => {
-  const cardSearch = new Search(doubleSidedCards);
+  const cardSearch = new Search(doubleSidedCards, { releases });
 
   it.each(exactSearches)(
     "Gets %i cards for %s",
@@ -314,7 +313,7 @@ const randomizeCapitalization = (str: string) =>
   );
 
 describe("Returns artist when included", () => {
-  const cardSearch = new Search(doubleSidedCards);
+  const cardSearch = new Search(doubleSidedCards, { releases });
 
   it("Asur Misoa", () => {
     const artist = "Asur Misoa";
@@ -336,7 +335,7 @@ describe("Returns artist when included", () => {
 });
 
 describe("Returns prints when included", () => {
-  const cardSearch = new Search(doubleSidedCards);
+  const cardSearch = new Search(doubleSidedCards, { releases });
 
   it("ANQ", () => {
     const print = "ANQ";
@@ -358,7 +357,7 @@ describe("Returns prints when included", () => {
 });
 
 describe("Sorts results by set when included", () => {
-  const cardSearch = new Search(doubleSidedCards);
+  const cardSearch = new Search(doubleSidedCards, { releases });
 
   it("Outsiders", () => {
     const { searchResults } = cardSearch.search("set:out");
@@ -367,7 +366,10 @@ describe("Sorts results by set when included", () => {
 });
 
 describe("Additional heroes", () => {
-  const cardSearch = new Search(doubleSidedCards, ["Another" as Hero]);
+  const cardSearch = new Search(doubleSidedCards, {
+    additionalHeroes: ["Another" as Hero],
+    releases,
+  });
 
   it("Another hero", () => {
     const { appliedFilters } = cardSearch.search('l:"Another"');
@@ -380,7 +382,7 @@ describe("Additional heroes", () => {
 });
 
 describe("Returns set when included", () => {
-  const cardSearch = new Search(doubleSidedCards);
+  const cardSearch = new Search(doubleSidedCards, { releases });
 
   it("Outsiders", () => {
     const {
@@ -400,7 +402,7 @@ describe("Returns set when included", () => {
 });
 
 describe("Every set has results", () => {
-  const cardSearch = new Search(doubleSidedCards);
+  const cardSearch = new Search(doubleSidedCards, { releases });
 
   it.each(Object.values(Release))("%s has results", (set: string) => {
     const { searchResults } = cardSearch.search(`s:"${set}"`);
@@ -408,12 +410,10 @@ describe("Every set has results", () => {
     expect(searchResults.length).toBeGreaterThan(0);
   });
 
-  it.each(Object.values(Release))(
-    "%s has results from abbreviated set",
-    (set: Release) => {
-      const abbreviations = setToSetIdentifierMappings.get(set) as string[];
-
-      for (const abbreviation of abbreviations) {
+  it.each(releases)(
+    "$release has results from abbreviated set",
+    ({ setIdentifiers }) => {
+      for (const abbreviation of setIdentifiers) {
         const { searchResults } = cardSearch.search(`s:${abbreviation}`);
         expect(searchResults.length).toBeGreaterThan(0);
       }
@@ -422,7 +422,7 @@ describe("Every set has results", () => {
 });
 
 describe("Dorinthea demo deck", () => {
-  const cardSearch = new Search(doubleSidedCards);
+  const cardSearch = new Search(doubleSidedCards, { releases });
 
   it("Finds the deck by identifier and by name", () => {
     const { searchResults } = cardSearch.search("s:ddd");
@@ -436,7 +436,7 @@ describe("Dorinthea demo deck", () => {
 });
 
 describe("Armory decks are distinct", () => {
-  const cardSearch = new Search(doubleSidedCards);
+  const cardSearch = new Search(doubleSidedCards, { releases });
 
   it.each(
     Object.values(Release).filter((release) =>
@@ -452,7 +452,7 @@ describe("Armory decks are distinct", () => {
 });
 
 describe("Returns foiling when included", () => {
-  const cardSearch = new Search(doubleSidedCards);
+  const cardSearch = new Search(doubleSidedCards, { releases });
 
   it("Rainbow foil", () => {
     const {
@@ -472,7 +472,7 @@ describe("Returns foiling when included", () => {
 });
 
 describe("Returns matching prints", () => {
-  const cardSearch = new Search(doubleSidedCards);
+  const cardSearch = new Search(doubleSidedCards, { releases });
 
   it("Matching printing from foil", () => {
     const { searchResults } = cardSearch.search("foil:g");
@@ -563,7 +563,7 @@ describe("Returns matching prints", () => {
 });
 
 describe("Excluding a printing attribute leaves the printings alone", () => {
-  const cardSearch = new Search(doubleSidedCards);
+  const cardSearch = new Search(doubleSidedCards, { releases });
 
   // The card filter already dropped every card the excluded value reaches, so
   // narrowing the printings by that value would leave each result with none of
@@ -587,7 +587,7 @@ describe("Excluding a printing attribute leaves the printings alone", () => {
 });
 
 describe("Every spelling of a rarity renders the same printings", () => {
-  const cardSearch = new Search(doubleSidedCards);
+  const cardSearch = new Search(doubleSidedCards, { releases });
 
   // A printing carries its rarity as the enum member, so a value the filter
   // resolved reaches the matching-printings pass as that member rather than as
@@ -612,7 +612,7 @@ describe("Every spelling of a rarity renders the same printings", () => {
 });
 
 describe("Shorthands property works", () => {
-  const cardSearch = new Search(doubleSidedCards);
+  const cardSearch = new Search(doubleSidedCards, { releases });
 
   it("Tap: leg tap", () => {
     const { searchResults } = cardSearch.search("tap");
@@ -712,7 +712,7 @@ describe("Shorthands property works", () => {
 });
 
 describe("Minor sets", () => {
-  const cardSearch = new Search(doubleSidedCards);
+  const cardSearch = new Search(doubleSidedCards, { releases });
 
   it("Antiquity pack", () => {
     const ABBREVIATION = "ANQ";
@@ -731,7 +731,7 @@ describe("Minor sets", () => {
 });
 
 describe("Meta property searches", () => {
-  const cardSearch = new Search(doubleSidedCards);
+  const cardSearch = new Search(doubleSidedCards, { releases });
 
   it("Dual class", () => {
     const { searchResults } = cardSearch.search(`is:dual`);
@@ -759,7 +759,7 @@ describe("Meta property searches", () => {
 });
 
 describe("Preview searches", () => {
-  const cardSearch = new Search(doubleSidedCards);
+  const cardSearch = new Search(doubleSidedCards, { releases });
 
   const { searchResults: previewResults } = cardSearch.search(`is:preview`);
   const { searchResults: releasedResults } = cardSearch.search(`is:released`);
@@ -819,7 +819,7 @@ describe("Preview searches", () => {
 });
 
 describe("Relation filters", () => {
-  const cardSearch = new Search(doubleSidedCards);
+  const cardSearch = new Search(doubleSidedCards, { releases });
 
   const relationCounts = [
     [49, 'references:"hyper driver"'],
@@ -1038,7 +1038,7 @@ describe("Relation filters", () => {
 });
 
 describe("Keyword index", () => {
-  const cardSearch = new Search(doubleSidedCards);
+  const cardSearch = new Search(doubleSidedCards, { releases });
   const getKeywordIndex = () =>
     (cardSearch as unknown as { fuse?: unknown }).fuse;
 
@@ -1060,7 +1060,7 @@ describe("Keyword index", () => {
 });
 
 describe("Shared catalogue index", () => {
-  const catalogueIndex = getCatalogueIndex(doubleSidedCards);
+  const catalogueIndex = getCatalogueIndex(doubleSidedCards, releases);
   // A hero's pool is the shape a search over a shared index takes: a slice of
   // the catalogue holding none of the heroes and only some of what its own
   // cards name.
@@ -1072,7 +1072,7 @@ describe("Shared catalogue index", () => {
     heroPool.map(({ cardIdentifier }) => cardIdentifier),
   );
   const pooledSearch = new Search(heroPool, { index: catalogueIndex });
-  const poolIndexedSearch = new Search(heroPool);
+  const poolIndexedSearch = new Search(heroPool, { releases });
 
   const getIdentifiers = (results: SearchCard[]): string[] =>
     results.map(({ cardIdentifier }) => cardIdentifier);
@@ -1118,27 +1118,10 @@ describe("Shared catalogue index", () => {
       poolIndexedSearch.search('references:"scabskin leathers"').searchResults,
     ).toEqual([]);
   });
-
-  it("Takes the heroes and the sets positionally", () => {
-    const positionalSearch = new Search(heroPool, [Hero.Maxx], []);
-
-    const { appliedFilters } = positionalSearch.search('l:"Maxx"');
-    expect(appliedFilters[0].values).toEqual(["maxx"]);
-
-    expect(
-      getIdentifiers(
-        positionalSearch.search("c:mechanologist d:2").searchResults,
-      ),
-    ).toEqual(
-      getIdentifiers(
-        poolIndexedSearch.search("c:mechanologist d:2").searchResults,
-      ),
-    );
-  });
 });
 
 describe("Nicknames etc", () => {
-  const cardSearch = new Search(doubleSidedCards);
+  const cardSearch = new Search(doubleSidedCards, { releases });
 
   it("Disease tokens", () => {
     const { searchResults } = cardSearch.search(`disease`);

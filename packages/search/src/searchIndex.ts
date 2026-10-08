@@ -2,13 +2,15 @@ import {
   CardRole,
   DoubleSidedCard,
   getCardRole,
+  getNormalizedFilterValue,
+  ReleaseInfo,
   Type,
 } from "@flesh-and-blood/types";
 import { getCleanText, getNormalizedText } from "./helpers.js";
 
 /**
- * Everything a corpus can be asked about its cards: lookups, the relations the
- * cards carry, and what each card is for. Every relation is identifier-level,
+ * Everything a corpus can be asked about its cards and releases: lookups, the
+ * relations the cards carry, and what each card is for. Every relation is identifier-level,
  * so a card named at one pitch answers for that pitch alone; widening a
  * relation to the whole name is the reader's rule rather than the corpus's.
  * Every list-returning read but `getCreatedClosure` and `getCardsInCorpusOrder`
@@ -20,7 +22,17 @@ export interface CatalogueIndex<
   CardType extends DoubleSidedCard = DoubleSidedCard,
 > {
   cards: readonly CardType[];
+  /** Every release the corpus ships with, in release order. */
+  releases: readonly ReleaseInfo[];
   getCard: (cardIdentifier: string) => CardType | undefined;
+  /** The release a card's sets name, matched exactly. */
+  getRelease: (release: string) => ReleaseInfo | undefined;
+  /** The release with the name, read as a filter reads it. */
+  getReleaseByName: (name: string) => ReleaseInfo | undefined;
+  /** The release carrying the set identifier, in any case. */
+  getReleaseBySetIdentifier: (setIdentifier: string) => ReleaseInfo | undefined;
+  /** The hero cards the release is for. */
+  getReleaseHeroCards: (release: string) => readonly CardType[];
   /** Every pitch of the card's name, the card itself among them. */
   getPitchCycle: (cardIdentifier: string) => readonly CardType[];
   /**
@@ -78,6 +90,12 @@ export interface CatalogueIndex<
   getCardsInCorpusOrder: <OrderedCard extends DoubleSidedCard>(
     cardsToOrder: readonly OrderedCard[],
   ) => OrderedCard[];
+}
+
+interface ReleaseLookups {
+  releaseByFilterName: Map<string, ReleaseInfo>;
+  releaseByRelease: Map<string, ReleaseInfo>;
+  releaseBySetIdentifier: Map<string, ReleaseInfo>;
 }
 
 interface CardLookups<CardType extends DoubleSidedCard> {
@@ -139,9 +157,9 @@ const addToCardList = <CardType>(
   }
 };
 
-const catalogueIndexByCards = new WeakMap<
+const catalogueIndexByReleasesByCards = new WeakMap<
   readonly DoubleSidedCard[],
-  unknown
+  WeakMap<readonly ReleaseInfo[], unknown>
 >();
 
 /**
@@ -206,9 +224,38 @@ const getCardsByRole = <CardType extends DoubleSidedCard>(
   return cardsByRole;
 };
 
+/**
+ * One pass over the releases answers every way a release is looked up. Names
+ * and identifiers are unique across releases (the card data pipeline asserts
+ * it), so each key holds one release.
+ */
+const getNewReleaseLookups = (
+  releases: readonly ReleaseInfo[],
+): ReleaseLookups => {
+  const releaseByFilterName = new Map<string, ReleaseInfo>();
+  const releaseByRelease = new Map<string, ReleaseInfo>();
+  const releaseBySetIdentifier = new Map<string, ReleaseInfo>();
+
+  for (const releaseInfo of releases) {
+    releaseByFilterName.set(
+      getNormalizedFilterValue(releaseInfo.release),
+      releaseInfo,
+    );
+    releaseByRelease.set(releaseInfo.release, releaseInfo);
+    for (const setIdentifier of releaseInfo.setIdentifiers) {
+      releaseBySetIdentifier.set(setIdentifier.toLowerCase(), releaseInfo);
+    }
+  }
+
+  return { releaseByFilterName, releaseByRelease, releaseBySetIdentifier };
+};
+
 const getNewCatalogueIndex = <CardType extends DoubleSidedCard>(
   cards: readonly CardType[],
+  releases: readonly ReleaseInfo[],
 ): CatalogueIndex<CardType> => {
+  let releaseLookups: ReleaseLookups | undefined;
+  const releaseHeroCardsByRelease = new Map<string, readonly CardType[]>();
   let cardLookups: CardLookups<CardType> | undefined;
   let referencingCardsByCardIdentifier: Map<string, CardType[]> | undefined;
   let creatingCardsByCardIdentifier: Map<string, CardType[]> | undefined;
@@ -471,6 +518,43 @@ const getNewCatalogueIndex = <CardType extends DoubleSidedCard>(
     return getCardsInCorpusOrder([...createdCardByCardIdentifier.values()]);
   };
 
+  const getReleaseLookups = (): ReleaseLookups => {
+    if (!releaseLookups) {
+      releaseLookups = getNewReleaseLookups(releases);
+    }
+
+    return releaseLookups;
+  };
+
+  const getRelease = (release: string): ReleaseInfo | undefined =>
+    getReleaseLookups().releaseByRelease.get(release);
+
+  const getReleaseByName = (name: string): ReleaseInfo | undefined =>
+    getReleaseLookups().releaseByFilterName.get(getNormalizedFilterValue(name));
+
+  const getReleaseBySetIdentifier = (
+    setIdentifier: string,
+  ): ReleaseInfo | undefined =>
+    getReleaseLookups().releaseBySetIdentifier.get(setIdentifier.toLowerCase());
+
+  const getReleaseHeroCards = (release: string): readonly CardType[] => {
+    let releaseHeroCards = releaseHeroCardsByRelease.get(release);
+
+    if (!releaseHeroCards) {
+      const releaseInfo = getRelease(release);
+      const heroCards = getNamedCards(releaseInfo?.heroIdentifiers);
+      const namesHeroCards = heroCards.length > 0;
+      releaseHeroCards = namesHeroCards ? heroCards : noCards;
+      // A miss is not remembered, so a name no release carries never occupies
+      // the memo.
+      if (namesHeroCards) {
+        releaseHeroCardsByRelease.set(release, releaseHeroCards);
+      }
+    }
+
+    return releaseHeroCards;
+  };
+
   const getByRole = (role: CardRole): readonly CardType[] => {
     if (!cardsByRole) {
       cardsByRole = getCardsByRole(cards);
@@ -481,7 +565,12 @@ const getNewCatalogueIndex = <CardType extends DoubleSidedCard>(
 
   return {
     cards,
+    releases,
     getCard,
+    getRelease,
+    getReleaseByName,
+    getReleaseBySetIdentifier,
+    getReleaseHeroCards,
     getPitchCycle,
     getCardsByName,
     getCardsByExactName,
@@ -501,24 +590,32 @@ const getNewCatalogueIndex = <CardType extends DoubleSidedCard>(
 };
 
 /**
- * The index for a corpus, one per array, so everything reading the same cards
- * shares its maps. Each map is built the first time a read asks for it. The
- * array is treated as immutable from that first read on: a caller that changes
- * which cards the catalogue holds builds a new array.
+ * The index for a corpus, one per pair of cards and releases arrays, so
+ * everything reading the same catalogue shares its maps. Each map is built the
+ * first time a read asks for it. Both arrays are treated as immutable from that
+ * first read on: a caller that changes what the catalogue holds builds a new
+ * array.
  */
 export const getCatalogueIndex = <
   CardType extends DoubleSidedCard = DoubleSidedCard,
 >(
   cards: readonly CardType[],
+  releases: readonly ReleaseInfo[],
 ): CatalogueIndex<CardType> => {
-  // Keyed on the array itself, so an index the map holds was built over these
-  // very cards and answers with the type they carry.
-  let catalogueIndex = catalogueIndexByCards.get(cards) as
+  let catalogueIndexByReleases = catalogueIndexByReleasesByCards.get(cards);
+  if (!catalogueIndexByReleases) {
+    catalogueIndexByReleases = new WeakMap();
+    catalogueIndexByReleasesByCards.set(cards, catalogueIndexByReleases);
+  }
+
+  // Keyed on the arrays themselves, so an index the map holds was built over
+  // these very cards and answers with the type they carry.
+  let catalogueIndex = catalogueIndexByReleases.get(releases) as
     CatalogueIndex<CardType> | undefined;
 
   if (!catalogueIndex) {
-    catalogueIndex = getNewCatalogueIndex(cards);
-    catalogueIndexByCards.set(cards, catalogueIndex);
+    catalogueIndex = getNewCatalogueIndex(cards, releases);
+    catalogueIndexByReleases.set(releases, catalogueIndex);
   }
 
   return catalogueIndex;

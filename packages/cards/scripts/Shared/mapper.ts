@@ -21,9 +21,8 @@ import {
   getIsArenaCard,
   getIsDeckCard,
   getPrint,
-  releases,
-  setIdentifierToSetMappings,
 } from "@flesh-and-blood/types";
+import { releaseBySetIdentifier, releases } from "./releases.ts";
 
 export const FOILING_KEY_TO_ENUM_MAPPING: { [key: string]: Foiling } = {
   C: Foiling.Cold,
@@ -242,11 +241,11 @@ export const addOppositeSideCardIdentifiers = (cards: PreliminaryCard[]) => {
   });
 };
 
-const RELEASES = [...releases];
-// A set with no entry in releases (promos) has no place in the release timeline, so
-// its -1 keeps it behind every listed release.
+const DATED_RELEASES = releases.filter(({ releaseDate }) => !!releaseDate);
+// A release with no date (promos) has no place in the release timeline, so its
+// -1 keeps it behind every dated release.
 const getPrintingReleaseOrder = ({ edition, set }: Printing): number => {
-  let releaseIndex = RELEASES.findIndex(({ release }) => release === set);
+  let releaseIndex = DATED_RELEASES.findIndex(({ release }) => release === set);
 
   if (edition === ReleaseEdition.Alpha) {
     releaseIndex -= 0.2;
@@ -513,7 +512,7 @@ export const getSetFromIdentifier = ({
   // A blank Set Identifiers cell reaches here as an empty string, which is a
   // miss like any other rather than something to lowercase.
   const matchingSet = setIdentifier
-    ? setIdentifierToSetMappings.get(setIdentifier.toLowerCase())
+    ? releaseBySetIdentifier.get(setIdentifier.toLowerCase())
     : undefined;
 
   let set: Release;
@@ -521,7 +520,7 @@ export const getSetFromIdentifier = ({
     set = matchingSet;
   } else {
     throw new Error(
-      `No set for set identifier "${setIdentifier}" on ${identifier}: add it to setIdentifierToSetMappings in packages/types/src/sets.ts or fix the source row`,
+      `No set for set identifier "${setIdentifier}" on ${identifier}: add it to its release's setIdentifiers in scripts/Shared/releases.ts or fix the source row`,
     );
   }
 

@@ -1,10 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { cards } from "@flesh-and-blood/cards";
+import { cards, releases } from "@flesh-and-blood/cards";
 import Search from "../src/search";
 import { memes } from "../src/memes";
 
 describe("Meme results", () => {
-  const cardSearch = new Search(cards);
+  const cardSearch = new Search(cards, { releases });
 
   it("Only when explicitly asked for", () => {
     const { searchResults } = cardSearch.search("fangs a lot");

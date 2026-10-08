@@ -1,5 +1,4 @@
 import { Printing, Treatment, Foiling, ReleaseEdition } from "../interfaces.js";
-import { fullSetIdentifiers } from "../sets.js";
 
 const identifierExtensionMapping: { [key: string]: string } = {
   // [Release.RhinarBlitzDeck]: "-Blitz",
@@ -52,13 +51,6 @@ export const getPrint = (printing: {
 
   return `${identifier}${edition}${foiling}${treatment}${back}${suffix}`;
 };
-
-export const orderedFullSetBlackBorderIdentifiers = [
-  ...fullSetIdentifiers.keys(),
-]
-  .filter((set) => !set.toLowerCase().includes("hp"))
-  .reverse()
-  .map((set) => set.toUpperCase());
 
 const SPECIAL_IMAGE_PRINTING_OVERRIDES: {
   [key: string]: { print: string };
@@ -386,52 +378,6 @@ export const getDefaultPrinting = (
     }
 
     return nonPromoImage || firstImage || printings[0];
-  }
-};
-
-const BOOMER_IMAGE_PRINTING_OVERRIDES: {
-  [key: string]: { print: string };
-} = {};
-
-export const getBoomerPrinting = (
-  card: { cardIdentifier: string; name: string },
-  printings: Printing[],
-): Printing => {
-  const { cardIdentifier } = card;
-  const matchingOverride = Object.entries(BOOMER_IMAGE_PRINTING_OVERRIDES).find(
-    ([identifier]) => identifier === cardIdentifier,
-  );
-
-  const printingsIncludeMatchingOverride =
-    !!matchingOverride &&
-    printings.some((printing) => {
-      const [, { print }] = matchingOverride;
-
-      return printing.print === print;
-    });
-
-  if (printingsIncludeMatchingOverride) {
-    const [, { print }] = matchingOverride;
-    const matchingPrint = printings.find(
-      (printing) => printing.print === print,
-    );
-    return matchingPrint || printings[0];
-  } else {
-    let firstPrinting: Printing | undefined =
-      printings.length > 0 ? printings[0] : undefined;
-
-    for (const release of fullSetIdentifiers.values()) {
-      const matchingPrinting = printings.find(
-        (printing) => printing.set === release,
-      );
-
-      if (matchingPrinting) {
-        firstPrinting = matchingPrinting;
-        break;
-      }
-    }
-
-    return firstPrinting as Printing;
   }
 };
 

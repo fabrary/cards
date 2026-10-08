@@ -3,11 +3,7 @@
 // resolver reads what each one asks of its filter, and what neither could
 // place is reported rather than dropped.
 
-import {
-  Hero,
-  Release,
-  setToSetIdentifierMappings,
-} from "@flesh-and-blood/types";
+import { Hero, Release, ReleaseInfo } from "@flesh-and-blood/types";
 import { PUNCTUATION } from "./constants.js";
 import {
   aliasesByFilterCategory,
@@ -105,7 +101,6 @@ export interface ParsedQuery {
 
 export interface ParseOptions {
   additionalHeroes?: Hero[];
-  additionalSets?: Release[];
   /** Today, for the filters that compare a release date against it. */
   today?: string;
 }
@@ -129,15 +124,6 @@ const punctuationOverrides = [
   },
 ];
 
-const setIdentifiersBySetName = new Map(
-  [...setToSetIdentifierMappings].map(
-    ([release, setIdentifiers]): [string, string[]] => [
-      release.toLowerCase(),
-      setIdentifiers,
-    ],
-  ),
-);
-
 // A print is a set's identifier, so both filters take a set name where a value
 // is expected.
 const SET_FILTER_KEYS = [
@@ -149,27 +135,58 @@ const EXCLUSION_CHARACTERS = availableExclusions
   .map(getEscapedForRegExp)
   .join("");
 
-// Longest first, so a set name carrying a shorter set's name inside it keeps
-// its own identifier.
-const setNamesLongestFirst = [...setIdentifiersBySetName.keys()]
-  .sort((first, second) => second.length - first.length)
-  .map(getEscapedForRegExp)
-  .join("|");
+/** The set names a query is rewritten from, read off one releases array. */
+interface SetNameRewrite {
+  /**
+   * A set name where a set filter is expecting a value: opening one, or
+   * following a separator within one. Expanding the name to its identifier is
+   * what lets an unquoted multi-word name survive the split into terms, so it
+   * is worth doing only where a set is being asked for. Matched anywhere else
+   * it rewrites a search for a card into a search for a set identifier, which
+   * the fuzzy search then matches against every card name carrying those
+   * letters.
+   */
+  setNameInSetFilterPattern: RegExp;
+  setIdentifiersBySetName: Map<string, string[]>;
+}
 
-/**
- * A set name where a set filter is expecting a value: opening one, or following
- * a separator within one. Expanding the name to its identifier is what lets an
- * unquoted multi-word name survive the split into terms, so it is worth doing
- * only where a set is being asked for. Matched anywhere else it rewrites a
- * search for a card into a search for a set identifier, which the fuzzy search
- * then matches against every card name carrying those letters.
- */
-const setNameInSetFilterPattern = new RegExp(
-  `(?<=^|\\s)([${EXCLUSION_CHARACTERS}]?(?:${SET_FILTER_KEYS.join(
-    "|",
-  )}):(?:[^\\s]*[,+])?"?)(${setNamesLongestFirst})(?="?(?:[,+]|\\s|$))`,
-  "g",
-);
+const setNameRewriteByReleases = new WeakMap<
+  readonly ReleaseInfo[],
+  SetNameRewrite
+>();
+
+const getSetNameRewrite = (
+  releases: readonly ReleaseInfo[],
+): SetNameRewrite => {
+  let setNameRewrite = setNameRewriteByReleases.get(releases);
+
+  if (!setNameRewrite) {
+    const setIdentifiersBySetName = new Map<string, string[]>();
+    for (const { release, setIdentifiers } of releases) {
+      setIdentifiersBySetName.set(release.toLowerCase(), setIdentifiers);
+    }
+
+    // Longest first, so a set name carrying a shorter set's name inside it
+    // keeps its own identifier.
+    const setNamesLongestFirst = [...setIdentifiersBySetName.keys()]
+      .sort((first, second) => second.length - first.length)
+      .map(getEscapedForRegExp)
+      .join("|");
+
+    setNameRewrite = {
+      setNameInSetFilterPattern: new RegExp(
+        `(?<=^|\\s)([${EXCLUSION_CHARACTERS}]?(?:${SET_FILTER_KEYS.join(
+          "|",
+        )}):(?:[^\\s]*[,+])?"?)(${setNamesLongestFirst})(?="?(?:[,+]|\\s|$))`,
+        "g",
+      ),
+      setIdentifiersBySetName,
+    };
+    setNameRewriteByReleases.set(releases, setNameRewrite);
+  }
+
+  return setNameRewrite;
+};
 
 /**
  * Everything the query means before it holds terms at all: the rewrites that
@@ -191,6 +208,8 @@ const getPreparedText = (text: string, index: CatalogueIndex): string => {
     }
   }
 
+  const { setIdentifiersBySetName, setNameInSetFilterPattern } =
+    getSetNameRewrite(index.releases);
   preparedText = preparedText.replace(
     setNameInSetFilterPattern,
     (setNameInSetFilter, filterPrefix, setName) => {
@@ -300,16 +319,11 @@ const getTodayAsReleaseDate = (): string => {
 export const getParsedQuery = (
   text: string,
   index: CatalogueIndex,
-  {
-    additionalHeroes = [],
-    additionalSets = [],
-    today = getTodayAsReleaseDate(),
-  }: ParseOptions = {},
+  { additionalHeroes = [], today = getTodayAsReleaseDate() }: ParseOptions = {},
 ): ParsedQuery => {
   const preparedText = getPreparedText(text, index);
   const context: FilterResolverContext = {
     additionalHeroes,
-    additionalSets,
     index,
     today,
   };

@@ -14,13 +14,14 @@ npm i @flesh-and-blood/search @flesh-and-blood/types
 
 ```ts
 import Searcher from "@flesh-and-blood/search";
-import { cards } from "@flesh-and-blood/cards";
+import { cards, releases } from "@flesh-and-blood/cards";
 
-const searcher = new Searcher(cards);
+const searcher = new Searcher(cards, { releases });
 const { searchResults } = searcher.search("rhinar go again");
 ```
 
-- `new Searcher(cards, additionalHeroes?, additionalSets?)`
+- `new Searcher(cards, { releases, additionalHeroes? })`, or `{ index }` to share a catalogue index
+  built with `getCatalogueIndex(cards, releases)`
 - `.search(text)` → `SearchResults`: `{ searchResults: SearchCard[], appliedFilters, keywords, attributes }`
 
 Data-only modules are available as subpath imports (handy for lazy-loaded UI like a search-bar dropdown):

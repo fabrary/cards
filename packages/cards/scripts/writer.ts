@@ -9,6 +9,7 @@ import {
   Fusion,
   Hero,
   Keyword,
+  Language,
   type LegalOverride,
   Meta,
   Metatype,
@@ -16,6 +17,8 @@ import {
   Rarity,
   Release,
   ReleaseEdition,
+  type ReleaseInfo,
+  ReleaseType,
   Shorthand,
   Subtype,
   Talent,
@@ -293,6 +296,40 @@ const generateCardTypeScript = (card: Card): string => {
   }`;
 };
 
+// The record fields holding enum values, so the generated source names each
+// member. Every other field is plain data written as JSON.
+const releaseEnumFields: { [field: string]: [string, EnumObject] } = {
+  classes: ["Class", Class],
+  languages: ["Language", Language],
+  raritiesExcludedInLimited: ["Rarity", Rarity],
+  relatedReleases: ["Release", Release],
+  release: ["Release", Release],
+  releaseType: ["ReleaseType", ReleaseType],
+  talents: ["Talent", Talent],
+};
+
+const getReleaseSource = (release: ReleaseInfo): string => {
+  const fieldSources: string[] = [];
+
+  for (const [field, value] of Object.entries(release)) {
+    const enumField = releaseEnumFields[field];
+    let valueSource: string;
+
+    if (enumField) {
+      const [enumName, enumObject] = enumField;
+      valueSource = Array.isArray(value)
+        ? `[${getEnumListSource(value, enumName, enumObject)}]`
+        : getEnumValue(value, enumName, enumObject);
+    } else {
+      valueSource = JSON.stringify(value);
+    }
+
+    fieldSources.push(`${field}: ${valueSource}`);
+  }
+
+  return `{${fieldSources.join(",")}}`;
+};
+
 const sortAlphabetically = (c1: Card, c2: Card): number => {
   const c1Name = `${c1.name}${c1.pitch || ""}`;
   const c2Name = `${c2.name}${c2.pitch || ""}`;
@@ -301,7 +338,7 @@ const sortAlphabetically = (c1: Card, c2: Card): number => {
 
 const CARD_CHUNK_SIZE = 800;
 
-const generateTS = (cards: Card[]): string => {
+const generateTS = (cards: Card[], releases: ReleaseInfo[]): string => {
   cards.sort(sortAlphabetically);
 
   const cardChunks: Card[][] = [];
@@ -344,11 +381,14 @@ const generateTS = (cards: Card[]): string => {
     Fusion,
     Hero,
     Keyword,
+    Language,
     Meta,
     Metatype,
     Rarity,
     Release,
     ReleaseEdition,
+    type ReleaseInfo,
+    ReleaseType,
     Shorthand,
     Subtype,
     Talent,
@@ -372,17 +412,25 @@ const generateTS = (cards: Card[]): string => {
     })
     .join("\n")}
   ];
+
+  export const releases: ReleaseInfo[] = [${releases
+    .map(getReleaseSource)
+    .join(",")}];
   `;
   return ts;
 };
 
-export const writeFiles = (cards: Card[], outputDirectory: string) => {
+export const writeFiles = (
+  cards: Card[],
+  releases: ReleaseInfo[],
+  outputDirectory: string,
+) => {
   // make sure directory exists
   if (!existsSync(outputDirectory)) {
     mkdirSync(outputDirectory);
   }
 
   // write typescript
-  const ts = generateTS(cards);
+  const ts = generateTS(cards, releases);
   writeFileSync(`${outputDirectory}/index.ts`, ts);
 };
